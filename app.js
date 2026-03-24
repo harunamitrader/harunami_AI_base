@@ -56,6 +56,7 @@ function renderToday(articles, latestDate) {
 
   todayRoot.innerHTML = articles
     .map((article) => {
+      const deckText = article.dek ?? article.summary;
       return `
         <article class="latest-box">
           <h3><a href="${article.articleUrl}">${article.title}</a></h3>
@@ -63,7 +64,7 @@ function renderToday(articles, latestDate) {
             <span>${latestDate}</span>
             <span>${article.repoName}</span>
           </div>
-          <p>${article.summary}</p>
+          <p>${deckText}</p>
           <a class="link-button" href="${article.articleUrl}">記事を読む</a>
         </article>
       `;
@@ -84,6 +85,7 @@ function renderArchive(articles) {
 
   archiveRoot.innerHTML = articles
     .map((article) => {
+      const deckText = article.dek ?? article.summary;
       return `
         <article class="archive-item">
           <h3><a href="${article.articleUrl}">${article.title}</a></h3>
@@ -91,7 +93,7 @@ function renderArchive(articles) {
             <span>${article.publishedAt}</span>
             <span>${article.repoName}</span>
           </div>
-          <p>${article.summary}</p>
+          <p>${deckText}</p>
         </article>
       `;
     })

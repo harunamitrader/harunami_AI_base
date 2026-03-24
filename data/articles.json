@@ -9,6 +9,7 @@
     {
       "slug": "2026-03-24-fujiwarachoki-moneyprinterv2",
       "title": "MoneyPrinterV2",
+      "dek": "収益化に近い作業をまとめて自動化しようとする実務寄りプロジェクト。",
       "summary": "GitHub Trending 上位の MoneyPrinterV2 を読み、収益化に近い作業をまとめて自動化する repo として何ができて、どこに注意すべきかを整理する。",
       "publishedAt": "2026-03-24",
       "repoName": "FujiwaraChoki/MoneyPrinterV2",
@@ -18,6 +19,7 @@
     {
       "slug": "2026-03-24-bytedance-deer-flow",
       "title": "deer-flow",
+      "dek": "AI エージェントを長く動かすための実行基盤に寄った OSS。",
       "summary": "GitHub Trending で目立っていた bytedance/deer-flow を読み、sandbox、memory、skill、subagent まで含んだ「汎用基盤」として何が強いのかを整理する。",
       "publishedAt": "2026-03-24",
       "repoName": "bytedance/deer-flow",
@@ -27,6 +29,7 @@
     {
       "slug": "2026-03-24-crosstalk-solutions-project-nomad",
       "title": "project-nomad",
+      "dek": "オフライン環境に AI、地図、知識参照をまとめて載せる全部入り環境。",
       "summary": "GitHub Trending 上位の project-nomad を読み、AI だけでなく知識ライブラリや地図、教育まで抱えた offline survival computer として何が入っているかを整理する。",
       "publishedAt": "2026-03-24",
       "repoName": "Crosstalk-Solutions/project-nomad",
@@ -36,6 +39,7 @@
     {
       "slug": "2026-03-24-vxcontrol-pentagi",
       "title": "pentagi",
+      "dek": "自律型ペンテストを支えるための重めの実行基盤。",
       "summary": "GitHub Trending 上位の pentagi を読み、自律型 penetration testing system としてどこまで基盤寄りに作り込まれているかを整理する。",
       "publishedAt": "2026-03-24",
       "repoName": "vxcontrol/pentagi",
@@ -45,6 +49,7 @@
     {
       "slug": "2026-03-24-browser-use-browser-use",
       "title": "browser-use",
+      "dek": "AI にブラウザ操作を与えるための実用寄り OSS。",
       "summary": "GitHub Trending 上位の browser-use を読み、AI エージェントに Web 操作面を与える OSS として何が強いのかを整理する。",
       "publishedAt": "2026-03-24",
       "repoName": "browser-use/browser-use",
@@ -54,6 +59,7 @@
     {
       "slug": "2026-03-24-tauricresearch-tradingagents",
       "title": "TradingAgents",
+      "dek": "投資判断を複数エージェントの役割分担で回す framework。",
       "summary": "GitHub Trending 上位の TradingAgents を読み、金融判断を複数の専門エージェントに分業させる framework としてどう設計されているかを整理する。",
       "publishedAt": "2026-03-24",
       "repoName": "TauricResearch/TradingAgents",
