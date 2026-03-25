@@ -1,0 +1,39 @@
+name: Update RSS Feed
+
+on:
+  push:
+    paths:
+      - 'data/articles.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Generate RSS
+      run: python generate_rss.py
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add feed.xml
+        if git diff --staged --quiet; then
+          echo "No changes in feed.xml"
+        else
+          git commit -m "chore: auto-update RSS feed"
+          git push
+        fi
