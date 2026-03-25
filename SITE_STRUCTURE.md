@@ -2,6 +2,26 @@
 
 > Antigravityスキル作成用リファレンス。サイトの現在の構成・監視対象・変更履歴をまとめる。
 
+## ⚠️ ファイル編集時の注意（必読）
+
+**全ファイルはUTF-8（BOMなし）で保存されています。**
+ファイルの読み書きは必ずUTF-8を明示的に指定すること。BOMを付けないこと。
+
+```python
+# Python
+with open('file.html', 'r', encoding='utf-8') as f: ...
+with open('file.html', 'w', encoding='utf-8') as f: ...
+# NG: encoding='utf-8-sig'  ← BOMが付いて文字化けする
+```
+
+```js
+// Node.js
+fs.readFileSync('file.html', 'utf-8')
+fs.writeFileSync('file.html', content, 'utf-8')
+```
+
+過去に encoding 未指定でファイルを書き直した際、全日本語テキストが Mojibake になった（Shift-JIS/CP932誤認識）。
+
 ---
 
 ## フォルダ構成
