@@ -562,27 +562,29 @@ p {
   justify-content: center;
   padding: 12px 4px;
   text-decoration: none;
-  color: #64748b;
+  color: var(--theme-color, #64748b);
+  opacity: 0.5;
   font-family: 'Manrope', sans-serif;
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
   border-bottom: 2px solid transparent;
-  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  transition: color 0.15s, border-color 0.15s, background 0.15s, opacity 0.15s;
 }
 .top-nav .nav-item:hover {
-  color: #0369a1;
-  background: rgba(14, 165, 233, 0.1);
+  opacity: 0.75;
+  background: rgba(0, 0, 0, 0.03);
   text-decoration: none;
 }
 .top-nav .nav-item.active {
   color: var(--theme-color, #0284c7);
+  opacity: 1;
   font-weight: 700;
   border-bottom-color: var(--theme-color, #0284c7);
 }
 
 /* Page Theme Colors */
-.theme-home   { --theme-color: #4f46e5; --hero-bg: #eef2ff; }
+.theme-home   { --theme-color: #1e293b; --hero-bg: #f1f5f9; }
 .theme-github { --theme-color: #0969da; --hero-bg: #dbeafe; }
 .theme-aitools { --theme-color: #7c3aed; --hero-bg: #ede9fe; }
 .theme-project { --theme-color: #059669; --hero-bg: #d1fae5; }
@@ -598,6 +600,3 @@ p {
   color: var(--theme-color);
 }
 
-[class^="theme-"] .top-nav .nav-item:hover {
-  color: var(--theme-color);
-}
