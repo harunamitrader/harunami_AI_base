@@ -7,6 +7,46 @@
   },
   "articles": [
     {
+      "slug": "2026-03-19-cursor-composer-2",
+      "title": "Cursor Composer 2: 独自モデルによるコーディングの極致",
+      "dek": "Moonshot Kimi K2.5 をベースにした第3世代モデルが、開発のスピードと質を塗り替える。",
+      "summary": "Cursor Composer 2 のリリース情報を読み、Kimi K2.5 をベースとした独自チューニングによる驚異的なベンチマークと、新料金体系の詳細を整理する。",
+      "publishedAt": "2026-03-19",
+      "repoName": "getcursor/cursor",
+      "repoUrl": "https://cursor.com/",
+      "articleUrl": "./articles/2026-03-19-cursor-composer-2.html"
+    },
+    {
+      "slug": "2026-03-05-cursor-automations",
+      "title": "Cursor Automations: 24時間働き続ける AI エージェントの誕生",
+      "dek": "外部イベントに反応し、クラウドサンドボックスで自律的にタスクを完遂する。",
+      "summary": "Cursor Automations の機能を読み、GitHub や Slack 等の外部連携と、クラウド上での自律的なエージェント実行基盤の詳細を整理する。",
+      "publishedAt": "2026-03-05",
+      "repoName": "getcursor/cursor",
+      "repoUrl": "https://cursor.com/",
+      "articleUrl": "./articles/2026-03-05-cursor-automations.html"
+    },
+    {
+      "slug": "2026-03-01-windsurf-flow",
+      "title": "Windsurf Flow: 多段階エージェントによる自動化の深化",
+      "dek": "Cascade が Adspirer ツールと統合し、分析からレポート生成までを完全に自動化へ。",
+      "summary": "Windsurf Flow (2026-03) の自律実行機能を読み、外部ツールとの API 統合による「フロー」を止めない全自動タスク完遂の詳細を整理する。",
+      "publishedAt": "2026-03-01",
+      "repoName": "codeium/windsurf",
+      "repoUrl": "https://codeium.com/windsurf",
+      "articleUrl": "./articles/2026-03-01-windsurf-flow.html"
+    },
+    {
+      "slug": "2026-01-20-windsurf-wave-14",
+      "title": "Windsurf Wave 14: Arena Mode & Plan Mode による意思決定の革新",
+      "dek": "複数モデルの同時比較と、より深化したタスクプランニングを実現。 ",
+      "summary": "Windsurf Wave 14 のリリース情報を読み、Arena Mode (モデル比較) や Plan Mode (設計図提示) による AI 開発フローの高度化を整理する。",
+      "publishedAt": "2026-01-20",
+      "repoName": "codeium/windsurf",
+      "repoUrl": "https://codeium.com/windsurf",
+      "articleUrl": "./articles/2026-01-20-windsurf-wave-14.html"
+    },
+    {
       "slug": "2026-03-21-claude-code-v2-1-81",
       "title": "Claude Code v2.1.81: 自動化と遠隔操作のエクスペリエンス向上",
       "dek": "`--bare` フラグによるスクリプト実行の最適化と、モバイル経由の承認フロー導入。",
