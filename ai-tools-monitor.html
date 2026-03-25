@@ -17,6 +17,37 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .tool-jump-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 20px;
+      }
+      .tool-jump-btn {
+        padding: 6px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: var(--surface-strong);
+        color: var(--text-muted);
+        font-size: 0.84rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-family: inherit;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .tool-jump-btn:hover {
+        background: #7c3aed;
+        color: #fff;
+        border-color: #7c3aed;
+        text-decoration: none;
+      }
+      .tool-card[id] {
+        scroll-margin-top: 56px;
+      }
+    </style>
   </head>
   <body>
     <nav class="top-nav">
@@ -38,14 +69,25 @@
 
       <main class="layout">
         <section class="card">
+          <div class="tool-jump-bar">
+            <a href="#tool-claudecode" class="tool-jump-btn">ClaudeCode</a>
+            <a href="#tool-antigravity" class="tool-jump-btn">Antigravity</a>
+            <a href="#tool-cursor" class="tool-jump-btn">Cursor</a>
+            <a href="#tool-windsurf" class="tool-jump-btn">Windsurf</a>
+            <a href="#tool-cline" class="tool-jump-btn">Cline</a>
+            <a href="#tool-geminicli" class="tool-jump-btn">Gemini CLI</a>
+            <a href="#tool-copilot" class="tool-jump-btn">Copilot</a>
+            <a href="#tool-codex" class="tool-jump-btn">Codex</a>
+          </div>
+
           <div class="section-head">
             <p class="eyebrow">Network Status</p>
             <h2>監視対象ツール一覧</h2>
           </div>
-          
+
           <div class="tool-grid">
             <!-- Tool Item: ClaudeCode -->
-            <div class="tool-card card-claudecode">
+            <div id="tool-claudecode" class="tool-card card-claudecode">
               <div class="tool-name">🚀 ClaudeCode</div>
               <div class="tool-status">GitHub Releases 監視中</div>
               <ul class="changelog-list" id="list-claudecode">
@@ -60,7 +102,7 @@
             </div>
 
             <!-- Tool Item: Antigravity -->
-            <div class="tool-card card-antigravity">
+            <div id="tool-antigravity" class="tool-card card-antigravity">
               <div class="tool-name">🌌 Antigravity</div>
               <div class="tool-status">Official Changelog 監視中</div>
               <ul class="changelog-list" id="list-antigravity">
@@ -75,7 +117,7 @@
             </div>
 
             <!-- Tool Item: Cursor -->
-            <div class="tool-card card-cursor">
+            <div id="tool-cursor" class="tool-card card-cursor">
               <div class="tool-name">🖥️ Cursor</div>
               <div class="tool-status">Web Scraping 監視中</div>
               <ul class="changelog-list" id="list-cursor">
@@ -90,7 +132,7 @@
             </div>
 
             <!-- Tool Item: Windsurf -->
-            <div class="tool-card card-windsurf">
+            <div id="tool-windsurf" class="tool-card card-windsurf">
               <div class="tool-name">🏄 Windsurf</div>
               <div class="tool-status">Web Scraping 監視中</div>
               <ul class="changelog-list" id="list-windsurf">
@@ -104,7 +146,7 @@
             </div>
 
             <!-- Tool Item: Cline -->
-            <div class="tool-card card-cline">
+            <div id="tool-cline" class="tool-card card-cline">
               <div class="tool-name">🤖 Cline</div>
               <div class="tool-status">GitHub API 監視中</div>
               <ul class="changelog-list" id="list-cline">
@@ -118,7 +160,7 @@
             </div>
 
             <!-- Tool Item: Gemini CLI -->
-            <div class="tool-card card-geminicli">
+            <div id="tool-geminicli" class="tool-card card-geminicli">
               <div class="tool-name">♊ Gemini CLI</div>
               <div class="tool-status">GitHub Atom Feed 監視中</div>
               <ul class="changelog-list" id="list-geminicli">
@@ -132,7 +174,7 @@
             </div>
 
             <!-- Tool Item: GitHub Copilot -->
-            <div class="tool-card card-copilot">
+            <div id="tool-copilot" class="tool-card card-copilot">
               <div class="tool-name">🐙 GitHub Copilot</div>
               <div class="tool-status">Changelog Feed 監視中</div>
               <ul class="changelog-list" id="list-copilot">
@@ -146,7 +188,7 @@
             </div>
 
             <!-- Tool Item: Codex -->
-            <div class="tool-card card-codex">
+            <div id="tool-codex" class="tool-card card-codex">
               <div class="tool-name">📘 Codex</div>
               <div class="tool-status">OpenAI Blog 監視中</div>
               <ul class="changelog-list" id="list-codex">
