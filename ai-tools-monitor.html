@@ -18,31 +18,45 @@
     />
     <link rel="stylesheet" href="./styles.css" />
     <style>
-      .tool-jump-bar {
+      .tool-index {
         display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
+        flex-direction: column;
+        gap: 2px;
         margin-bottom: 20px;
       }
-      .tool-jump-btn {
-        padding: 6px 14px;
-        border-radius: 999px;
+      .tool-index-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
+        border-radius: 6px;
         border: 1px solid var(--line);
         background: var(--surface-strong);
-        color: var(--text-muted);
-        font-size: 0.84rem;
-        font-weight: 700;
-        cursor: pointer;
-        transition: all 0.2s ease;
+        color: var(--text);
+        font-size: 0.82rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 0.15s, border-color 0.15s;
         font-family: inherit;
-        text-decoration: none;
-        white-space: nowrap;
       }
-      .tool-jump-btn:hover {
-        background: #7c3aed;
-        color: #fff;
+      .tool-index-item:hover {
+        background: #ede9fe;
         border-color: #7c3aed;
+        color: #7c3aed;
         text-decoration: none;
+      }
+      .tool-index-name {
+        font-weight: 700;
+      }
+      .tool-index-date {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        font-family: 'Manrope', sans-serif;
+        letter-spacing: 0.02em;
+      }
+      .tool-index-date.recent {
+        color: #059669;
+        font-weight: 700;
       }
       .tool-card[id] {
         scroll-margin-top: 56px;
@@ -72,26 +86,26 @@
 
       <main class="layout">
         <section class="card">
-          <div class="tool-jump-bar">
-            <a href="#tool-claudecode" class="tool-jump-btn">ClaudeCode</a>
-            <a href="#tool-antigravity" class="tool-jump-btn">Antigravity</a>
-            <a href="#tool-cursor" class="tool-jump-btn">Cursor</a>
-            <a href="#tool-windsurf" class="tool-jump-btn">Windsurf</a>
-            <a href="#tool-cline" class="tool-jump-btn">Cline</a>
-            <a href="#tool-geminicli" class="tool-jump-btn">Gemini CLI</a>
-            <a href="#tool-copilot" class="tool-jump-btn">Copilot</a>
-            <a href="#tool-codex" class="tool-jump-btn">Codex</a>
-            <a href="#tool-openclaw" class="tool-jump-btn">OpenClaw</a>
-            <a href="#tool-chatgpt" class="tool-jump-btn">ChatGPT</a>
-            <a href="#tool-gemini" class="tool-jump-btn">Gemini</a>
-            <a href="#tool-claude" class="tool-jump-btn">Claude</a>
-            <a href="#tool-grok" class="tool-jump-btn">Grok</a>
-            <a href="#tool-grokcli" class="tool-jump-btn">Grok CLI</a>
-            <a href="#tool-genspark" class="tool-jump-btn">Genspark</a>
-            <a href="#tool-perplexity" class="tool-jump-btn">Perplexity</a>
-            <a href="#tool-aistudio" class="tool-jump-btn">AI Studio</a>
-            <a href="#tool-notebooklm" class="tool-jump-btn">NotebookLM</a>
-            <a href="#tool-obsidian" class="tool-jump-btn">Obsidian</a>
+          <div class="tool-index" id="tool-index">
+            <a href="#tool-cline"       class="tool-index-item" data-latest="2026-03-26"><span class="tool-index-name">Cline</span><span class="tool-index-date">2026-03-26</span></a>
+            <a href="#tool-antigravity" class="tool-index-item" data-latest="2026-03-24"><span class="tool-index-name">Antigravity</span><span class="tool-index-date">2026-03-24</span></a>
+            <a href="#tool-copilot"     class="tool-index-item" data-latest="2026-03-24"><span class="tool-index-name">GitHub Copilot</span><span class="tool-index-date">2026-03-24</span></a>
+            <a href="#tool-geminicli"   class="tool-index-item" data-latest="2026-03-25"><span class="tool-index-name">Gemini CLI</span><span class="tool-index-date">2026-03-25</span></a>
+            <a href="#tool-claudecode"  class="tool-index-item" data-latest="2026-03-21"><span class="tool-index-name">ClaudeCode</span><span class="tool-index-date">2026-03-21</span></a>
+            <a href="#tool-cursor"      class="tool-index-item" data-latest="2026-03-19"><span class="tool-index-name">Cursor</span><span class="tool-index-date">2026-03-19</span></a>
+            <a href="#tool-codex"       class="tool-index-item" data-latest="2026-03-18"><span class="tool-index-name">Codex</span><span class="tool-index-date">2026-03-18</span></a>
+            <a href="#tool-windsurf"    class="tool-index-item" data-latest="2026-03-01"><span class="tool-index-name">Windsurf</span><span class="tool-index-date">2026-03-01</span></a>
+            <a href="#tool-openclaw"    class="tool-index-item" data-latest=""><span class="tool-index-name">OpenClaw</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-chatgpt"     class="tool-index-item" data-latest=""><span class="tool-index-name">ChatGPT</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-gemini"      class="tool-index-item" data-latest=""><span class="tool-index-name">Gemini</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-claude"      class="tool-index-item" data-latest=""><span class="tool-index-name">Claude</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-grok"        class="tool-index-item" data-latest=""><span class="tool-index-name">Grok</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-grokcli"     class="tool-index-item" data-latest=""><span class="tool-index-name">Grok CLI</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-genspark"    class="tool-index-item" data-latest=""><span class="tool-index-name">Genspark</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-perplexity"  class="tool-index-item" data-latest=""><span class="tool-index-name">Perplexity</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-aistudio"    class="tool-index-item" data-latest=""><span class="tool-index-name">Google AI Studio</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-notebooklm"  class="tool-index-item" data-latest=""><span class="tool-index-name">NotebookLM</span><span class="tool-index-date">—</span></a>
+            <a href="#tool-obsidian"    class="tool-index-item" data-latest=""><span class="tool-index-name">Obsidian</span><span class="tool-index-date">—</span></a>
           </div>
 
           <div class="section-head">
@@ -362,5 +376,33 @@
 
       <footer class="footer"><p>harunami AI base</p></footer>
     </div>
+    <script>
+      (function () {
+        const index = document.getElementById('tool-index');
+        if (!index) return;
+        const items = Array.from(index.querySelectorAll('.tool-index-item'));
+        // Sort: dated items newest-first, then undated items
+        items.sort((a, b) => {
+          const da = a.dataset.latest;
+          const db = b.dataset.latest;
+          if (da && db) return db.localeCompare(da);
+          if (da) return -1;
+          if (db) return 1;
+          return 0;
+        });
+        // Re-insert sorted
+        items.forEach(el => index.appendChild(el));
+        // Highlight recent (within 7 days)
+        const today = new Date();
+        items.forEach(el => {
+          const d = el.dataset.latest;
+          if (!d) return;
+          const diff = (today - new Date(d)) / 86400000;
+          if (diff <= 7) {
+            el.querySelector('.tool-index-date').classList.add('recent');
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
