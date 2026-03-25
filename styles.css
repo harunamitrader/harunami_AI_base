@@ -619,7 +619,19 @@ p {
 }
 
 
-/* Filters */
+/* Filters & Search */
+.controls {
+  margin-top: 12px;
+}
+.search-box input {
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  outline: none;
+}
+.search-box input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+  background: #fff;
+}
 .filter-bar {
   display: flex;
   gap: 8px;
@@ -645,3 +657,4 @@ p {
 }
 .category-tag.ai-tool-log { background: #ede9fe !important; color: #7c3aed !important; }
 .category-tag.github-trending { background: #dbeafe !important; color: #0969da !important; }
+

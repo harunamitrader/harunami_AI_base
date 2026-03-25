@@ -132,10 +132,16 @@
               <p class="eyebrow">Recent Updates</p>
               <h2>最新の更新</h2>
             </div>
-            <div class="filter-bar" style="display: flex; gap: 8px; margin-bottom: 4px;">
-              <button class="filter-btn active" data-category="all">All</button>
-              <button class="filter-btn" data-category="ai-tool-log">AI Tool</button>
-              <button class="filter-btn" data-category="github-trending">GitHub</button>
+            <div class="controls" style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+              <div class="search-box" style="position: relative; flex: 1; min-width: 200px;">
+                <input type="text" id="article-search" placeholder="記事を検索..." style="width: 100%; padding: 8px 12px 8px 32px; border-radius: var(--radius-md); border: 1px solid var(--line); background: var(--surface-strong); font-size: 0.88rem; font-family: inherit; color: var(--text);">
+                <span style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); opacity: 0.5;">🔍</span>
+              </div>
+              <div class="filter-bar" style="display: flex; gap: 8px;">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="ai-tool-log">Tool</button>
+                <button class="filter-btn" data-category="github-trending">GitHub</button>
+              </div>
             </div>
           </div>
 
@@ -155,26 +161,45 @@
       (async function() {
         const listRoot = document.getElementById('latest-updates-list');
         const buttons = document.querySelectorAll('.filter-btn');
+        const searchInput = document.getElementById('article-search');
         
         const response = await fetch('./data/articles.json', { cache: 'no-store' });
         const data = await response.json();
         const allArticles = [...data.articles].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
-        function render(category = 'all') {
-          const filtered = category === 'all' 
-            ? allArticles.slice(0, 10) 
-            : allArticles.filter(a => a.category === category).slice(0, 10);
+        let currentCategory = 'all';
+        let currentSearch = '';
+
+        function render() {
+          let filtered = allArticles;
           
-          if (filtered.length === 0) {
-            listRoot.innerHTML = '<div style="padding: 20px; text-align: center; color: var(--text-muted);">該当する記事がありません。</div>';
+          if (currentCategory !== 'all') {
+            filtered = filtered.filter(a => a.category === currentCategory);
+          }
+          
+          if (currentSearch) {
+            const lowSearch = currentSearch.toLowerCase();
+            filtered = filtered.filter(a => 
+              a.title.toLowerCase().includes(lowSearch) || 
+              (a.dek && a.dek.toLowerCase().includes(lowSearch)) || 
+              (a.summary && a.summary.toLowerCase().includes(lowSearch)) ||
+              a.repoName.toLowerCase().includes(lowSearch)
+            );
+          }
+
+          // 最新15件まで表示（検索時は件数制限を少し緩める）
+          const displayItems = filtered.slice(0, 15);
+          
+          if (displayItems.length === 0) {
+            listRoot.innerHTML = '<div style="padding: 40px; text-align: center; color: var(--text-muted);">該当する記事がありません。</div>';
             return;
           }
 
-          listRoot.innerHTML = filtered.map(a => `
+          listRoot.innerHTML = displayItems.map(a => `
             <a class="archive-item card-link-box" href="${a.articleUrl}">
               <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px;">
                 <h3 style="margin: 0; font-size: 1.05rem;">${a.title}</h3>
-                <span class="category-tag ${a.category}" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px; background: var(--line); color: var(--text-muted);">${a.category === 'ai-tool-log' ? 'Tool' : 'GitHub'}</span>
+                <span class="category-tag ${a.category}" style="font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;">${a.category === 'ai-tool-log' ? 'Tool' : 'GitHub'}</span>
               </div>
               <div class="archive-meta" style="margin-bottom: 8px;">
                 <span>${a.publishedAt}</span>
@@ -189,8 +214,14 @@
           btn.addEventListener('click', () => {
             buttons.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            render(btn.dataset.category);
+            currentCategory = btn.dataset.category;
+            render();
           });
+        });
+
+        searchInput.addEventListener('input', (e) => {
+          currentSearch = e.target.value;
+          render();
         });
 
         // 初期表示
