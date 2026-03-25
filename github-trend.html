@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="GitHub Trending の未記事 repo を毎朝追加して公開する GitHub Trend Journal。"
+      content="GitHub Trending の自動解析と、気になったリポジトリのピックアップ記事。"
     />
     <meta name="theme-color" content="#f7fbff" />
     <title>GitHub Watcher | harunami AI base</title>
@@ -17,6 +17,34 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .gh-tab-bar {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 20px;
+      }
+      .gh-tab-btn {
+        padding: 6px 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: var(--surface-strong);
+        color: var(--text-muted);
+        font-size: 0.88rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-family: inherit;
+        white-space: nowrap;
+      }
+      .gh-tab-btn:hover,
+      .gh-tab-btn.active {
+        background: #0969da;
+        color: #fff;
+        border-color: #0969da;
+      }
+      .gh-tab-content { display: none; }
+      .gh-tab-content.active { display: block; }
+    </style>
   </head>
   <body>
     <nav class="top-nav">
@@ -28,42 +56,95 @@
     </nav>
     <div class="shell">
       <header class="hero">
-        <a class="hero-link" href="https://github.com/trending" target="_blank" rel="noreferrer">
-          GitHub Trending
-        </a>
         <p class="eyebrow">Daily Journal</p>
         <h1>GitHub Watcher</h1>
         <p class="hero-copy">
-          構成は極力シンプルです。GitHub Trending の未記事 repo を確認し、該当があれば上位から最大 5 本まで追加します。
-          このページは Codex に「今日の記事作って」と頼んで更新する前提の GitHub Pages です。
+          GitHub Trending の自動解析と、気になったリポジトリのピックアップ記事を掲載しています。
         </p>
       </header>
 
       <main class="layout">
-        <section class="card intro-card">
-          <div class="stats" id="site-stats"></div>
-        </section>
-
-        <section class="card latest-card">
-          <div class="section-head">
-            <p class="eyebrow">Today</p>
-            <h2>今日の記事</h2>
+        <section class="card">
+          <div class="gh-tab-bar">
+            <button class="gh-tab-btn active" data-cat="github-trending">Trending</button>
+            <button class="gh-tab-btn" data-cat="github-pickup">ピックアップ</button>
           </div>
-          <div id="today-articles" class="archive-list"></div>
-        </section>
 
-        <section class="card archive-card">
-          <div class="section-head">
-            <p class="eyebrow">Archive</p>
-            <h2>過去の記事</h2>
+          <div id="tab-github-trending" class="gh-tab-content active">
+            <div class="section-head">
+              <p class="eyebrow">Auto Analysis</p>
+              <h2>Trending 記事</h2>
+            </div>
+            <div class="stats" id="site-stats-trending"></div>
+            <div id="articles-trending" class="archive-list" style="margin-top: 16px;"></div>
           </div>
-          <div id="archive-list" class="archive-list"></div>
+
+          <div id="tab-github-pickup" class="gh-tab-content">
+            <div class="section-head">
+              <p class="eyebrow">Hand Picked</p>
+              <h2>ピックアップ記事</h2>
+            </div>
+            <div id="articles-pickup" class="archive-list"></div>
+          </div>
         </section>
       </main>
 
       <footer class="footer"><p>harunami AI base</p></footer>
     </div>
 
-    <script src="./app.js?v=20260325-category" data-category="github-trending"></script>
+    <script>
+      (async function () {
+        const response = await fetch("./data/articles.json", { cache: "no-store" });
+        const payload = await response.json();
+        const all = [...payload.articles].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+
+        const trending = all.filter(a => a.category === "github-trending");
+        const pickup = all.filter(a => a.category === "github-pickup");
+
+        // Trending
+        const statsEl = document.getElementById("site-stats-trending");
+        const latestDate = trending[0]?.publishedAt ?? "-";
+        statsEl.innerHTML = `
+          <div class="stat-box"><span>記事数</span><strong>${trending.length}</strong></div>
+          <div class="stat-box"><span>最終投稿日</span><strong>${latestDate}</strong></div>
+          <div class="stat-box"><span>運用</span><strong>自動解析</strong></div>
+        `;
+
+        const trendingEl = document.getElementById("articles-trending");
+        trendingEl.innerHTML = trending.length === 0
+          ? '<div class="archive-item"><h3>まだ記事がありません。</h3></div>'
+          : trending.map(a => renderArticle(a)).join("");
+
+        // Pickup
+        const pickupEl = document.getElementById("articles-pickup");
+        pickupEl.innerHTML = pickup.length === 0
+          ? '<div class="archive-item" style="border: 1px dashed var(--line); text-align: center; color: var(--text-muted);"><h3>まだ記事がありません</h3><p>気になったリポジトリの解析記事がここに追加されます。</p></div>'
+          : pickup.map(a => renderArticle(a)).join("");
+
+        // Tabs
+        document.querySelectorAll(".gh-tab-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            document.querySelectorAll(".gh-tab-btn").forEach(b => b.classList.remove("active"));
+            document.querySelectorAll(".gh-tab-content").forEach(c => c.classList.remove("active"));
+            btn.classList.add("active");
+            document.getElementById("tab-" + btn.dataset.cat).classList.add("active");
+          });
+        });
+
+        function renderArticle(article) {
+          const deck = article.dek ?? article.summary;
+          return `
+            <a class="archive-item card-link-box" href="${article.articleUrl}">
+              <h3>${article.title}</h3>
+              <div class="archive-meta">
+                <span>${article.publishedAt}</span>
+                <span>${article.repoName}</span>
+              </div>
+              <p>${deck}</p>
+            </a>
+          `;
+        }
+      })();
+    </script>
   </body>
 </html>
