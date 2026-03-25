@@ -569,7 +569,7 @@ p {
   font-weight: 600;
   white-space: nowrap;
   border-radius: 8px;
-  border: 1.5px solid transparent;
+  border: 1.5px solid rgba(0, 0, 0, 0.12);
   transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
 .top-nav .nav-item:hover {
