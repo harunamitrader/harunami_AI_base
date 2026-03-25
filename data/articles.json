@@ -8,10 +8,32 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-03-26-claude-code-v2-1-83",
+      "title": "Claude Code v2.1.83: 会話履歴検索とサンドボックス制御の強化",
+      "dek": "Transcript Search や Image Chips、新しいサンドボックス制御ポリシー等を追加。",
+      "summary": "Claude Code v2.1.83 のリリース情報を読み、過去の会話履歴を検索できる Transcript Search や画像対応の Image Chips などの利便性向上ポイントを整理する。",
+      "publishedAt": "2026-03-26",
+      "repoName": "anthropic-ai/claude-code",
+      "repoUrl": "https://github.com/anthropic-ai/claude-code",
+      "articleUrl": "./articles/tools/2026-03-26-claude-code-v2-1-83.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-26-cursor-update-marsh-25",
+      "title": "Cursor 3月25日アップデート: 自社ホスト型エージェントと JetBrains 統合",
+      "dek": "エンタープライズ向けの Self-hosted VM や、IntelliJ への AI エージェント展開を発表。",
+      "summary": "Cursor の 2026-03-25 アップデート情報を整理し、自社ネットワーク上で動作する Cloud Agents の詳細や JetBrains IDE (ACP) 統合の意義を考察する。",
+      "publishedAt": "2026-03-26",
+      "repoName": "getcursor/cursor",
+      "repoUrl": "https://cursor.com/",
+      "articleUrl": "./articles/tools/2026-03-26-cursor-update-marsh-25.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-03-26-daily-monitor-report",
-      "title": "2026-03-26 定期監視レポート: 全ツールの安定稼働を確認",
-      "dek": "本日の定刻スキャンが完了。主要8ツールに新着なし、全システム正常。",
-      "summary": "毎朝5時の定期実行プロトコルに基づき、Cline、Cursor、ClaudeCode 等の最新ステータスを巡回。本日は新規リリースを検知せず、現行バージョンの安定性を確認した。",
+      "title": "2026-03-26 臨時監視: Claude Code 及び Cursor の大型更新を検知",
+      "dek": "本日 08:34 の再スキャンにより、主要 2 ツールでの新着リリースを特定しました。",
+      "summary": "「再開」リクエストによる臨時スキャンを実施。早朝に確認済みだった Cline 以外に、Claude Code v2.1.83 や Cursor の自社ホスト機能等の大型発表を捕捉し、一覧を更新。",
       "publishedAt": "2026-03-26",
       "repoName": "system",
       "repoUrl": "https://github.com/harunamitrader/harunami_AI_base",
