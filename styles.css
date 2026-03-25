@@ -618,3 +618,30 @@ p {
   color: var(--theme-color);
 }
 
+
+/* Filters */
+.filter-bar {
+  display: flex;
+  gap: 8px;
+}
+.filter-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.filter-btn:hover,
+.filter-btn.active {
+  background: var(--primary);
+  color: #fff !important;
+  border-color: var(--primary);
+}
+.category-tag.ai-tool-log { background: #ede9fe !important; color: #7c3aed !important; }
+.category-tag.github-trending { background: #dbeafe !important; color: #0969da !important; }
