@@ -458,6 +458,9 @@ p {
 .card-grokcli     { --accent: #4b5563; }
 .card-genspark    { --accent: #f59e0b; }
 .card-perplexity  { --accent: #20b2aa; }
+.card-aistudio    { --accent: #4285f4; }
+.card-notebooklm  { --accent: #34a853; }
+.card-obsidian    { --accent: #7c3aed; }
 
 @media (max-width: 720px) {
   .shell {
