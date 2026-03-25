@@ -2,14 +2,19 @@ const statsRoot = document.querySelector("#site-stats");
 const todayRoot = document.querySelector("#today-articles");
 const archiveRoot = document.querySelector("#archive-list");
 
+const categoryFilter = document.currentScript?.getAttribute("data-category") ?? null;
+
 load();
 
 async function load() {
   const response = await fetch("./data/articles.json", { cache: "no-store" });
   const payload = await response.json();
-  const articles = [...payload.articles].sort((left, right) => {
+  const allArticles = [...payload.articles].sort((left, right) => {
     return right.publishedAt.localeCompare(left.publishedAt);
   });
+  const articles = categoryFilter
+    ? allArticles.filter((a) => a.category === categoryFilter)
+    : allArticles;
 
   const latestDate = articles[0]?.publishedAt ?? null;
   const todayArticles = latestDate

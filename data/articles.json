@@ -1,12 +1,13 @@
 {
   "site": {
-    "title": "GitHub Trend Journal",
-    "description": "GitHub Trending の未記事 repo を毎日追加して公開するシンプルな Pages サイト。",
+    "title": "harunami AI base",
+    "description": "AI関連の情報を集約する個人ポータルサイト。",
     "trendingUrl": "https://github.com/trending",
-    "repoUrl": "https://github.com/harunamitrader/github_trend"
+    "repoUrl": "https://github.com/harunamitrader/harunami_AI_base"
   },
   "articles": [
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-25-gemini-cli-v0-36-0",
       "title": "Gemini CLI v0.36.0: マルチレジストリ対応でエージェント制御が進化",
       "dek": "スキル管理の柔軟性が向上し、より複雑なチーム構成が可能に。",
@@ -17,6 +18,7 @@
       "articleUrl": "./articles/2026-03-25-gemini-cli-v0-36-0.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-21-cline-v3-75-0",
       "title": "Cline v3.75.0: リモートワークスペースの操作感が劇的に向上",
       "dek": "ネットワーク遅延の影響を最小限に抑え、遠隔地からの「AI 自律開発」をより快適に。",
@@ -27,6 +29,7 @@
       "articleUrl": "./articles/2026-03-21-cline-v3-75-0.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-18-openai-codex-gpt-5",
       "title": "OpenAI Codex: GPT-5.4 世代のミニモデルがコーディングの勢力図を変える",
       "dek": "爆速の「GPT-5.4 mini」が登場。GitHub Copilot の長期サポートモデルとしても採用へ。",
@@ -37,6 +40,7 @@
       "articleUrl": "./articles/2026-03-18-openai-codex-gpt-5.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-01-github-copilot-pr-agent",
       "title": "GitHub Copilot: PR エージェントの起動が 50% 高速化",
       "dek": "`@copilot` への指示から PR 生成までの待機時間が大幅短縮。対話的なコード修正も可能に。 ",
@@ -47,6 +51,7 @@
       "articleUrl": "./articles/2026-03-01-github-copilot-pr-agent.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-19-cursor-composer-2",
       "title": "Cursor Composer 2: 独自モデルによるコーディングの極致",
       "dek": "Moonshot Kimi K2.5 をベースにした第3世代モデルが、開発のスピードと質を塗り替える。",
@@ -57,6 +62,7 @@
       "articleUrl": "./articles/2026-03-19-cursor-composer-2.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-05-cursor-automations",
       "title": "Cursor Automations: 24時間働き続ける AI エージェントの誕生",
       "dek": "外部イベントに反応し、クラウドサンドボックスで自律的にタスクを完遂する。",
@@ -67,6 +73,7 @@
       "articleUrl": "./articles/2026-03-05-cursor-automations.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-01-windsurf-flow",
       "title": "Windsurf Flow: 多段階エージェントによる自動化の深化",
       "dek": "Cascade が Adspirer ツールと統合し、分析からレポート生成までを完全に自動化へ。",
@@ -77,6 +84,7 @@
       "articleUrl": "./articles/2026-03-01-windsurf-flow.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-01-20-windsurf-wave-14",
       "title": "Windsurf Wave 14: Arena Mode & Plan Mode による意思決定の革新",
       "dek": "複数モデルの同時比較と、より深化したタスクプランニングを実現。 ",
@@ -87,6 +95,7 @@
       "articleUrl": "./articles/2026-01-20-windsurf-wave-14.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-21-claude-code-v2-1-81",
       "title": "Claude Code v2.1.81: 自動化と遠隔操作のエクスペリエンス向上",
       "dek": "`--bare` フラグによるスクリプト実行の最適化と、モバイル経由の承認フロー導入。",
@@ -97,6 +106,7 @@
       "articleUrl": "./articles/2026-03-21-claude-code-v2-1-81.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-20-claude-code-v2-1-80",
       "title": "Claude Code v2.1.80: クォータの可視化とプラグイン管理の柔軟性",
       "dek": "`rate_limits` フィールドのステータスラインへの導入と、新しいプラグインソース `source: 'settings'` のサポート。",
@@ -107,6 +117,7 @@
       "articleUrl": "./articles/2026-03-20-claude-code-v2-1-80.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-18-claude-code-v2-1-79",
       "title": "Claude Code v2.1.79: Console 認証対応と信頼性の強化",
       "dek": "Anthropic Console 経由のログイン対応と、長時間セッションにおけるハングアップの解消。",
@@ -117,6 +128,7 @@
       "articleUrl": "./articles/2026-03-18-claude-code-v2-1-79.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-24-antigravity-v1-20-6",
       "title": "Antigravity v1.20.6: ターミナル体験の刷新",
       "dek": "ダウンロード機能の追加と、シームレスな対話の実現。",
@@ -127,6 +139,7 @@
       "articleUrl": "./articles/2026-03-24-antigravity-v1-20-6.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-09-antigravity-v1-20-5",
       "title": "Antigravity v1.20.5: パフォーマンスと安定性の向上",
       "dek": "大規模プロジェクトにおけるメモリ使用量の最適化。",
@@ -137,6 +150,7 @@
       "articleUrl": "./articles/2026-03-09-antigravity-v1-20-5.html"
     },
     {
+      "category": "ai-tool-log",
       "slug": "2026-03-05-antigravity-v1-20-3",
       "title": "Antigravity v1.20.3: ルールによるエージェント制御の進化",
       "dek": "AGENTS.md を用いたプロジェクト固有ルールの自動適用。",
@@ -147,6 +161,7 @@
       "articleUrl": "./articles/2026-03-05-antigravity-v1-20-3.html"
     },
     {
+      "category": "github-trending",
       "slug": "2026-03-24-fujiwarachoki-moneyprinterv2",
       "title": "MoneyPrinterV2",
       "dek": "収益化に近い作業をまとめて自動化しようとする実務寄りプロジェクト。",
@@ -157,6 +172,7 @@
       "articleUrl": "./articles/2026-03-24-fujiwarachoki-moneyprinterv2.html"
     },
     {
+      "category": "github-trending",
       "slug": "2026-03-24-bytedance-deer-flow",
       "title": "deer-flow",
       "dek": "AI エージェントを長く動かすための実行基盤に寄った OSS。",
@@ -167,6 +183,7 @@
       "articleUrl": "./articles/2026-03-24-bytedance-deer-flow.html"
     },
     {
+      "category": "github-trending",
       "slug": "2026-03-24-crosstalk-solutions-project-nomad",
       "title": "project-nomad",
       "dek": "オフライン環境に AI、地図、知識参照をまとめて載せる全部入り環境。",
@@ -177,6 +194,7 @@
       "articleUrl": "./articles/2026-03-24-crosstalk-solutions-project-nomad.html"
     },
     {
+      "category": "github-trending",
       "slug": "2026-03-24-vxcontrol-pentagi",
       "title": "pentagi",
       "dek": "自律型ペンテストを支えるための重めの実行基盤。",
@@ -187,6 +205,7 @@
       "articleUrl": "./articles/2026-03-24-vxcontrol-pentagi.html"
     },
     {
+      "category": "github-trending",
       "slug": "2026-03-24-browser-use-browser-use",
       "title": "browser-use",
       "dek": "AI にブラウザ操作を与えるための実用寄り OSS。",
@@ -197,6 +216,7 @@
       "articleUrl": "./articles/2026-03-24-browser-use-browser-use.html"
     },
     {
+      "category": "github-trending",
       "slug": "2026-03-24-tauricresearch-tradingagents",
       "title": "TradingAgents",
       "dek": "投資判断を複数エージェントの役割分担で回す framework。",
