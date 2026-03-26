@@ -7,6 +7,94 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-03-chatgpt-gpt54",
+      "title": "ChatGPT 3月アップデート: GPT-5.4 登場とプロダクト統合",
+      "dek": "GPT-5.4 系列への移行、Google Drive 統合刷新、ライブラリ追加等を実施。",
+      "summary": "ChatGPT の 2026 年 3 月アップデート内容をまとめ、最新モデルアーキテクチャへの移行と実用的なプロダクト統合の詳細を整理する。",
+      "publishedAt": "2026-03-26",
+      "repoName": "openai/chatgpt",
+      "repoUrl": "https://openai.com/blog",
+      "articleUrl": "./articles/tools/2026-03-chatgpt-gpt54.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-perplexity-computer",
+      "title": "Perplexity Computer 発表: マルチモデル制御と iPhone 用 Comet",
+      "dek": "最適モデルを自動割当する Computer 機能と、モバイル用 AI 専用ブラウザを展開。",
+      "summary": "Perplexity AI の 2026 年 3 月アップデート内容をまとめ、マルチモデル・オーケストレーション基盤としての Computer 機能の詳細を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "perplexity/perplexity",
+      "repoUrl": "https://www.perplexity.ai/blog",
+      "articleUrl": "./articles/tools/2026-03-perplexity-computer.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-claude-marketplace",
+      "title": "Claude 3月更新: Claude Marketplace とインライン可視化の導入",
+      "dek": "エコシステム管理のマーケットプレイス、図解の自動生成、全ユーザーへのメモリ提供。",
+      "summary": "Claude (Anthropic) の 2026 年 3 月アップデート内容をまとめ、マーケットプレイスによるツール拡張と可視化機能の意義を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "anthropic/claude",
+      "repoUrl": "https://www.anthropic.com/claude",
+      "articleUrl": "./articles/tools/2026-03-claude-marketplace.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-gemini-lyria",
+      "title": "Google AI Studio 3月更新: Lyria 3 音楽生成と新課金プラン",
+      "dek": "高品質な音楽生成モデルの公開と、開発者向けの従量課金プランを開始。",
+      "summary": "Google AI Studio / Gemini API の 2026 年 3 月アップデート内容をまとめ、Lyria 3 モデルの特性と新しい支払い体系の詳細を整理する。",
+      "publishedAt": "2026-03-25",
+      "repoName": "google/gemini",
+      "repoUrl": "https://ai.google.dev/changelog",
+      "articleUrl": "./articles/tools/2026-03-gemini-lyria.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-grok-4-reasoning",
+      "title": "xAI Grok-4 発表: PhD レベルの推論と科学・コーディング特化",
+      "dek": "次世代モデル Grok-4 を発表。科学的推論における最高峰の性能を目指す。",
+      "summary": "xAI Grok の 2026 年 3 月アップデート内容をまとめ、Grok-4 モデルの設計思想と企業向けマルチエージェント API の詳細を整理する。",
+      "publishedAt": "2026-03-20",
+      "repoName": "xai/grok",
+      "repoUrl": "https://x.ai/blog",
+      "articleUrl": "./articles/tools/2026-03-grok-4-reasoning.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-obsidian-v1-12",
+      "title": "Obsidian v1.12 更新: CLI 工具の統合と Vault 切り替えの高速化",
+      "dek": "パワーユーザー向けの CLI 同梱と、iOS からの直接保存（Share Extension）に対応。",
+      "summary": "Obsidian v1.12 系列のアップデート内容をまとめ、CLI 統合とモバイル連携強化によるナレッジ管理ワークフローの進化を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "obsidian/obsidian",
+      "repoUrl": "https://obsidian.md/changelog",
+      "articleUrl": "./articles/tools/2026-03-obsidian-v1-12.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-notebooklm-video",
+      "title": "NotebookLM 3月大型アップグレード: ビデオ概要生成と EPUB 対応",
+      "dek": "リサーチ内容をビデオ化する Cinematic Video 機能と、EPUB アップロードに対応。",
+      "summary": "NotebookLM の 2026 年 3 月アップデート内容をまとめ、マルチモーダルなアウトプット生成とソース管理インターフェースの進化を整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "google/notebooklm",
+      "repoUrl": "https://blog.google/products/google-labs/",
+      "articleUrl": "./articles/tools/2026-03-notebooklm-video.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-openclaw-teams",
+      "title": "OpenClaw 3月アップデート: Microsoft Teams 対応と UI 刷新",
+      "dek": "Teams 公式 SDK への移行と、スキルの状態管理をタブ化した新 Control UI を導入。",
+      "summary": "OpenClaw の 2026 年 3 月アップデート内容をまとめ、エンタープライズ統合とユーザビリティ向上の改善ポイントを整理する。",
+      "publishedAt": "2026-03-24",
+      "repoName": "lucianlamp/openclaw",
+      "repoUrl": "https://github.com/lucianlamp/openclaw",
+      "articleUrl": "./articles/tools/2026-03-openclaw-teams.html"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-03-26-wangziqi06-724-office",
       "title": "724-office: 自己進化し続ける pure Python AI エージェント",
