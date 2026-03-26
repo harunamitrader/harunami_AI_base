@@ -8,6 +8,50 @@
   "articles": [
     {
       "category": "github-trending",
+      "slug": "2026-03-26-hsliuping-tradingagents-cn",
+      "title": "TradingAgents-CN",
+      "dek": "複数の LLM エージェントがアナリストやリスクマネージャーとして役割分担し、中国市場に特化した投資判断を行うフレームワーク。",
+      "summary": "hsliuping/TradingAgents-CN を読み、中国市場に最適化されたマルチエージェント LLM 金融トレーディングフレームワークの設計と利点を整理。 ",
+      "publishedAt": "2026-03-26",
+      "repoName": "hsliuping/TradingAgents-CN",
+      "repoUrl": "https://github.com/hsliuping/TradingAgents-CN",
+      "articleUrl": "./articles/github/2026-03-26-hsliuping-tradingagents-cn.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-26-supermemoryai-supermemory",
+      "title": "supermemory",
+      "dek": "AI エージェントに長期・短期記憶を授ける、超高速・高スケーラビリティなメモリエンジン。",
+      "summary": "supermemoryai/supermemory を読み、AI エージェントに長期・短期記憶を授ける高性能なメモリエンジンの特徴と利活用を整理。",
+      "publishedAt": "2026-03-26",
+      "repoName": "supermemoryai/supermemory",
+      "repoUrl": "https://github.com/supermemoryai/supermemory",
+      "articleUrl": "./articles/github/2026-03-26-supermemoryai-supermemory.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-26-ruvnet-ruview",
+      "title": "RuView",
+      "dek": "WiFi 信号の乱れを解析し、カメラなしで壁越しに人間の姿勢推定やバイタル測定を行う Rust 製システム。",
+      "summary": "ruvnet/RuView を読み、WiFi 信号を用いてカメラなしで壁越しの人物検知やバイタル測定を行う革新的な Rust プロジェクトを解説。",
+      "publishedAt": "2026-03-26",
+      "repoName": "ruvnet/RuView",
+      "repoUrl": "https://github.com/ruvnet/RuView",
+      "articleUrl": "./articles/github/2026-03-26-ruvnet-ruview.html"
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-26-mvanhorn-last30days-skill",
+      "title": "last30days-skill",
+      "dek": "Reddit や X 等の複数プラットフォームを横断調査し、直近 30 日間の動向を根拠付きでまとめる AI リサーチエージェント。",
+      "summary": "mvanhorn/last30days-skill を読み、Reddit や X などの複数プラットフォームを横断して直近 30 日間のリサーチを自動化する AI ツールを整理。",
+      "publishedAt": "2026-03-26",
+      "repoName": "mvanhorn/last30days-skill",
+      "repoUrl": "https://github.com/mvanhorn/last30days-skill",
+      "articleUrl": "./articles/github/2026-03-26-mvanhorn-last30days-skill.html"
+    },
+    {
+      "category": "github-trending",
       "slug": "2026-03-26-ruvnet-ruflo",
       "title": "ruflo",
       "dek": "Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。",
