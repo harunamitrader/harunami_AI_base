@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Mar 2026 20:23:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 20:32:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[oh-my-claudecode]]></title>
@@ -48,6 +48,22 @@
       <description><![CDATA[Notion のような柔軟な操作感とコミュニティ主導の拡張性を備えた、Salesforce 代替を目指すオープンソース CRM。]]></description>
     </item>
     <item>
+      <title><![CDATA[Claude Code v2.1.84: PowerShell 対応と制御機能の拡充]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-27-claude-code-v2-1-84.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-27-claude-code-v2-1-84.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Windows ユーザー待望の PowerShell ツール (Preview) と、環境変数による詳細な挙動制御を導入。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline v3.76.0: 看板管理の統合とループ検出による安全性の向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-27-cline-v3-76-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-27-cline-v3-76-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[人気の Kanban 機能を標準搭載し、トークンの浪費を防ぐ「ツール実行ループ検出」を導入。]]></description>
+    </item>
+    <item>
       <title><![CDATA[last30days-skill]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-mvanhorn-last30days-skill.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-mvanhorn-last30days-skill.html</guid>
@@ -86,6 +102,22 @@
       <category>github-trending</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数の LLM エージェントがアナリストやリスクマネージャーとして役割分担し、中国市場に特化した投資判断を行うフレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI v1.0.0-rc7: デーモン実行と強力なサンドボックス機能]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-grok-cli-v1-0-rc7.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-grok-cli-v1-0-rc7.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[定時実行の自動化や新しいサンドボックス、さらに Telegram 連携を大幅に強化。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot 3月26日アップデート: マージコンフリクト解法支援と新ダッシュボード]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-github-copilot-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-github-copilot-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プルリクエストのコンフリクト解消を Copilot がサポート開始。エージェントのアクティビティ追跡も強化。]]></description>
     </item>
     <item>
       <title><![CDATA[CCCBot: Claude Code Channels 上での自律エージェントの可能性]]></title>
@@ -134,38 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[インデックス作成アルゴリズムの改善により、大規模プロジェクトでの操作性が向上。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[CHATGPT] Google Drive 統合刷新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-chatgpt-googledrive.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-chatgpt-googledrive.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[chatgpt の 2026年3月 リリース実績。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[CLAUDE] Models API 発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-claude-models-api.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-claude-models-api.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[claude の 2026年3月 リリース実績。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[GEMINI] Lyria 3 音楽生成公開]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-lyria-launch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-lyria-launch.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[gemini の 2026年3月 リリース実績。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[Tool: Chatgpt] Google Drive 統合刷新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-chatgpt-googledrive.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-chatgpt-googledrive.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[chatgpt の 3月分アップデート詳細。]]></description>
     </item>
   </channel>
 </rss>
