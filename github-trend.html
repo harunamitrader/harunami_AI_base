@@ -94,7 +94,7 @@
 
     <script>
       (async function () {
-        const response = await fetch("./data/articles.json", { cache: "no-store" });
+        const response = await fetch(`./data/articles.json?t=${Date.now()}`, { cache: "no-store" });
         const payload = await response.json();
         const all = [...payload.articles].sort((a, b) => {
           const dateA = a.publishedAt || "";
