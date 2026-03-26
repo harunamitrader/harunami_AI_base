@@ -7,39 +7,6 @@
   },
   "articles": [
     {
-      "category": "github-trending",
-      "slug": "2026-03-26-wangziqi06-724-office",
-      "title": "724-office: 自己進化し続ける pure Python AI エージェント",
-      "dek": "エラーを自己修復し、長期間自律稼働する純 Python エージェント。",
-      "summary": "GitHub Trending の 724-office を読み、3層メモリと MCP サポート、自己進化型ロジックを備えた自律エージェント基盤の可能性を整理する。",
-      "publishedAt": "2026-03-26",
-      "repoName": "wangziqi06/724-office",
-      "repoUrl": "https://github.com/wangziqi06/724-office",
-      "articleUrl": "./articles/github/2026-03-26-wangziqi06-724-office.html"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-03-26-minitap-ai-mobile-use",
-      "title": "mobile-use: 自然言語でスマホを操る次世代エージェント",
-      "dek": "Android/iOS の画面操作を自動化し、データの構造化まで完遂。",
-      "summary": "GitHub Trending の mobile-use プロジェクトを読み、モバイルデバイス上での AI エージェント（computer use風）の実行基盤の詳細を整理する。",
-      "publishedAt": "2026-03-26",
-      "repoName": "minitap-ai/mobile-use",
-      "repoUrl": "https://github.com/minitap-ai/mobile-use",
-      "articleUrl": "./articles/github/2026-03-26-minitap-ai-mobile-use.html"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-03-26-bytedance-deer-flow",
-      "title": "deer-flow: ByteDance が放つ SuperAgent 実行基盤",
-      "dek": "メモリ、スキル、マルチエージェント連携を統合した OSS ハーネス。",
-      "summary": "GitHub Trending の deer-flow を読み、ByteDance が構築したエージェント実行基盤としてのサンドボックスやメッセージゲートウェイの重要性を整理する。",
-      "publishedAt": "2026-03-26",
-      "repoName": "bytedance/deer-flow",
-      "repoUrl": "https://github.com/bytedance/deer-flow",
-      "articleUrl": "./articles/github/2026-03-26-bytedance-deer-flow.html"
-    },
-    {
       "category": "ai-tool-log",
       "slug": "2026-03-26-claude-code-v2-1-83",
       "title": "Claude Code v2.1.83: 会話履歴検索とサンドボックス制御の強化",
