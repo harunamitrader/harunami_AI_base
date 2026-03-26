@@ -5,32 +5,8 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Mar 2026 00:49:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 00:59:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title><![CDATA[724-office: 自己進化し続ける pure Python AI エージェント]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-wangziqi06-724-office.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-wangziqi06-724-office.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エラーを自己修復し、長期間自律稼働する純 Python エージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[mobile-use: 自然言語でスマホを操る次世代エージェント]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-minitap-ai-mobile-use.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-minitap-ai-mobile-use.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Android/iOS の画面操作を自動化し、データの構造化まで完遂。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[deer-flow: ByteDance が放つ SuperAgent 実行基盤]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-bytedance-deer-flow.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-bytedance-deer-flow.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[メモリ、スキル、マルチエージェント連携を統合した OSS ハーネス。]]></description>
-    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.83: 会話履歴検索とサンドボックス制御の強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-claude-code-v2-1-83.html</link>
@@ -166,6 +142,30 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[openclaw の 2026年3月 リリース実績。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[Tool: Perplexity] Perplexity Computer 発表]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-perplexity-computer-launch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-perplexity-computer-launch.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[perplexity の 3月分アップデート詳細。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[Tool: Obsidian] v1.12.7: CLI 統合]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-obsidian-v1127-release.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-obsidian-v1127-release.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[obsidian の 3月分アップデート詳細。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[[Tool: Notebooklm] Cinematic Video 概要生成]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-notebooklm-cinematic-video.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-notebooklm-cinematic-video.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[notebooklm の 3月分アップデート詳細。]]></description>
     </item>
   </channel>
 </rss>
