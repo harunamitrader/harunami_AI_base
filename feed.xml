@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Mar 2026 08:45:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 00:21:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ChatGPT 3月アップデート: GPT-5.4 登場とプロダクト統合]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-chatgpt-gpt54.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-chatgpt-gpt54.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GPT-5.4 系列への移行、Google Drive 統合刷新、ライブラリ追加等を実施。]]></description>
+    </item>
     <item>
       <title><![CDATA[724-office: 自己進化し続ける pure Python AI エージェント]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-wangziqi06-724-office.html</link>
@@ -56,6 +64,14 @@
       <description><![CDATA[本日 08:34 の再スキャンにより、主要 2 ツールでの新着リリースを特定しました。]]></description>
     </item>
     <item>
+      <title><![CDATA[2026-03-26 定期監視レポート: 全ツールの安定稼働を確認]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-daily-monitor-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-daily-monitor-report.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日の定刻スキャンが完了。主要8ツールに新着なし、全システム正常。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Cline v3.75.1: パフォーマンスのさらなる最適化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-cline-v3-75-1.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-26-cline-v3-75-1.html</guid>
@@ -64,12 +80,60 @@
       <description><![CDATA[インデックス作成アルゴリズムの改善により、大規模プロジェクトでの操作性が向上。]]></description>
     </item>
     <item>
+      <title><![CDATA[Google AI Studio 3月更新: Lyria 3 音楽生成と新課金プラン]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-gemini-lyria.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-gemini-lyria.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[高品質な音楽生成モデルの公開と、開発者向けの従量課金プランを開始。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Gemini CLI v0.36.0: マルチレジストリ対応でエージェント制御が進化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-cli-v0-36-0.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-25-gemini-cli-v0-36-0.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[スキル管理の柔軟性が向上し、より複雑なチーム構成が可能に。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity Computer 発表: マルチモデル制御と iPhone 用 Comet]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-perplexity-computer.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-perplexity-computer.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[最適モデルを自動割当する Computer 機能と、モバイル用 AI 専用ブラウザを展開。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude 3月更新: Claude Marketplace とインライン可視化の導入]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-claude-marketplace.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-claude-marketplace.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エコシステム管理のマーケットプレイス、図解の自動生成、全ユーザーへのメモリ提供。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Obsidian v1.12 更新: CLI 工具の統合と Vault 切り替えの高速化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-obsidian-v1-12.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-obsidian-v1-12.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[パワーユーザー向けの CLI 同梱と、iOS からの直接保存（Share Extension）に対応。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[NotebookLM 3月大型アップグレード: ビデオ概要生成と EPUB 対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-notebooklm-video.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-notebooklm-video.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[リサーチ内容をビデオ化する Cinematic Video 機能と、EPUB アップロードに対応。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw 3月アップデート: Microsoft Teams 対応と UI 刷新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-openclaw-teams.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-openclaw-teams.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Teams 公式 SDK への移行と、スキルの状態管理をタブ化した新 Control UI を導入。]]></description>
     </item>
     <item>
       <title><![CDATA[Antigravity v1.20.6: ターミナル体験の刷新]]></title>
@@ -102,70 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[オフライン環境に AI、地図、知識参照をまとめて載せる全部入り環境。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[pentagi]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-24-vxcontrol-pentagi.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-24-vxcontrol-pentagi.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律型ペンテストを支えるための重めの実行基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[browser-use]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-24-browser-use-browser-use.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-24-browser-use-browser-use.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI にブラウザ操作を与えるための実用寄り OSS。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TradingAgents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-24-tauricresearch-tradingagents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-24-tauricresearch-tradingagents.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[投資判断を複数エージェントの役割分担で回す framework。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v3.75.0: リモートワークスペースの操作感が劇的に向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-21-cline-v3-75-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-21-cline-v3-75-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ネットワーク遅延の影響を最小限に抑え、遠隔地からの「AI 自律開発」をより快適に。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.81: 自動化と遠隔操作のエクスペリエンス向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-21-claude-code-v2-1-81.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-21-claude-code-v2-1-81.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[`--bare` フラグによるスクリプト実行の最適化と、モバイル経由の承認フロー導入。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.80: クォータの可視化とプラグイン管理の柔軟性]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-20-claude-code-v2-1-80.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-20-claude-code-v2-1-80.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[`rate_limits` フィールドのステータスラインへの導入と、新しいプラグインソース `source: 'settings'` のサポート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor Composer 2: 独自モデルによるコーディングの極致]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-19-cursor-composer-2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-19-cursor-composer-2.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Moonshot Kimi K2.5 をベースにした第3世代モデルが、開発のスピードと質を塗り替える。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI Codex: GPT-5.4 世代のミニモデルがコーディングの勢力図を変える]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-18-openai-codex-gpt-5.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-18-openai-codex-gpt-5.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[爆速の「GPT-5.4 mini」が登場。GitHub Copilot の長期サポートモデルとしても採用へ。]]></description>
     </item>
   </channel>
 </rss>
