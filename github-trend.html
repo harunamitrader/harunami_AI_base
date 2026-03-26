@@ -97,17 +97,19 @@
         const response = await fetch("./data/articles.json", { cache: "no-store" });
         const payload = await response.json();
         const all = [...payload.articles].sort((a, b) => {
-          const dateDiff = b.publishedAt.localeCompare(a.publishedAt);
+          const dateA = a.publishedAt || "";
+          const dateB = b.publishedAt || "";
+          const dateDiff = dateB.localeCompare(dateA);
           if (dateDiff !== 0) return dateDiff;
           return (a.rank || 999) - (b.rank || 999);
         });
 
-        const trending = all.filter(a => a.category === "github-trending");
-        const pickup = all.filter(a => a.category === "github-pickup");
+        const trending = all.filter(a => a.category && a.category.trim() === "github-trending");
+        const pickup = all.filter(a => a.category && a.category.trim() === "github-pickup");
 
         // Trending
         const statsEl = document.getElementById("site-stats-trending");
-        const latestDate = trending.length > 0 ? trending[0].publishedAt : "-";
+        const latestDate = trending.length > 0 ? (trending[0].publishedAt || "-") : "-";
         statsEl.innerHTML = `
           <div class="stat-box"><span>記事数</span><strong>${trending.length}</strong></div>
           <div class="stat-box"><span>最終投稿日</span><strong>${latestDate}</strong></div>
@@ -136,13 +138,14 @@
         });
 
         function renderArticle(article) {
-          const deck = article.dek ?? article.summary;
+          const deck = article.dek ?? article.summary ?? "詳細情報はありません。";
+          const published = article.publishedAt || "不明";
           const rankTag = article.rank && article.rank < 99 ? `<span class="rank-label">${article.rank}</span>` : "";
           return `
             <a class="archive-item card-link-box" href="${article.articleUrl}">
               <h3>${article.title}</h3>
               <div class="archive-meta">
-                <span>${article.publishedAt}</span>
+                <span>${published}</span>
                 ${rankTag}
                 <span>${article.repoName}</span>
               </div>
