@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2026 06:36:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 06:56:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Deep-Live-Cam]]></title>
@@ -46,6 +46,14 @@
       <category>github-trending</category>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複雑な表やフォーム、手書き文書のレイアウトを保ったままテキスト化する高精度OCRモデル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[superset]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-apache-superset.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-apache-superset.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エンタープライズ規模に対応したデータ可視化およびデータ探索プラットフォーム。]]></description>
     </item>
     <item>
       <title><![CDATA[Claude Code v2.1.87: Cowork Dispatch 修正とセッション追跡強化]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[WiFi 信号の乱れを解析し、カメラなしで壁越しに人間の姿勢推定やバイタル測定を行う Rust 製システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[supermemory]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-supermemoryai-supermemory.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-supermemoryai-supermemory.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントに長期・短期記憶を授ける、超高速・高スケーラビリティなメモリエンジン。]]></description>
     </item>
   </channel>
 </rss>
