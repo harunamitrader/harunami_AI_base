@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2026 07:57:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 09:35:24 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Deep-Live-Cam]]></title>
@@ -120,6 +120,14 @@
       <description><![CDATA[マイグレーションやローカル環境の実行、エッジ関数のデプロイを管理するSupabase公式CLI。]]></description>
     </item>
     <item>
+      <title><![CDATA[torchtrade]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-torchtrade.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-torchtrade.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[金融市場のアルゴリズムトレードに特化した、オープンソースのモジュール式強化学習フレームワーク。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Antigravity v1.21.7: Firebase とのフルスタック統合]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-28-antigravity-v1-21-7-firebase.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-28-antigravity-v1-21-7-firebase.html</guid>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自ら考え、計画し、反省しながら金融リサーチを完遂する自律型金融アナリストエージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[insanely-fast-whisper]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-Vaibhavs10-insanely-fast-whisper.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-Vaibhavs10-insanely-fast-whisper.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI Whisper の性能を極限まで引き出し、数時間の音声をわずか数分で文字起こしする超高速 CLI ツール。]]></description>
     </item>
   </channel>
 </rss>
