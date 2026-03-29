@@ -103,6 +103,78 @@
       "rank": 999
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-03-29-microsoft-autogen",
+      "title": "autogen",
+      "dek": "マルチエージェントによる高度な自律型AIワークフローを構築するためのフレームワーク。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "microsoft/autogen",
+      "repoUrl": "https://github.com/microsoft/autogen",
+      "articleUrl": "./articles/github/2026-03-29-microsoft-autogen.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-29-continuedev-continue",
+      "title": "continue",
+      "dek": "CIで適用可能なAI駆動のコードレビューとルール検証を実現する強力なオープンソースツール。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "continuedev/continue",
+      "repoUrl": "https://github.com/continuedev/continue",
+      "articleUrl": "./articles/github/2026-03-29-continuedev-continue.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-29-teng-lin-notebooklm-py",
+      "title": "notebooklm-py",
+      "dek": "Google NotebookLMの機能をプログラムから自由に操作するための非公式なPython APIとエージェントスキル。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "teng-lin/notebooklm-py",
+      "repoUrl": "https://github.com/teng-lin/notebooklm-py",
+      "articleUrl": "./articles/github/2026-03-29-teng-lin-notebooklm-py.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-29-gsd-build-get-shit-done",
+      "title": "get-shit-done",
+      "dek": "Claude Code向けの強力なメタプロンプトおよび仕様駆動開発（spec-driven development）システム。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "gsd-build/get-shit-done",
+      "repoUrl": "https://github.com/gsd-build/get-shit-done",
+      "articleUrl": "./articles/github/2026-03-29-gsd-build-get-shit-done.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-29-anthropics-skill-creator",
+      "title": "skill-creator",
+      "dek": "Anthropicが提供するエージェント向けスキルの中で、AIに自発的な自己拡張を行わせる強力なメタ・ツール。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "anthropics/skills",
+      "repoUrl": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "articleUrl": "./articles/github/2026-03-29-anthropics-skill-creator.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-29-supabase-cli",
+      "title": "cli",
+      "dek": "マイグレーションやローカル環境の実行、エッジ関数のデプロイを管理するSupabase公式CLI。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "supabase/cli",
+      "repoUrl": "https://github.com/supabase/cli",
+      "articleUrl": "./articles/github/2026-03-29-supabase-cli.html",
+      "rank": "ピックアップ"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-03-28-antigravity-v1-21-7-firebase",
       "title": "Antigravity v1.21.7: Firebase とのフルスタック統合",
