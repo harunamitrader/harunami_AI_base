@@ -68,6 +68,7 @@
           <div class="gh-tab-bar">
             <button class="gh-tab-btn active" data-cat="github-trending">Trending</button>
             <button class="gh-tab-btn" data-cat="github-pickup">ピックアップ</button>
+            <button class="gh-tab-btn" data-cat="github-update-report">更新レポート</button>
           </div>
 
           <div id="tab-github-trending" class="gh-tab-content active">
@@ -85,6 +86,14 @@
               <h2>ピックアップ記事</h2>
             </div>
             <div id="articles-pickup" class="archive-list"></div>
+          </div>
+
+          <div id="tab-github-update-report" class="gh-tab-content">
+            <div class="section-head">
+              <p class="eyebrow">Task Log</p>
+              <h2>更新作業レポート</h2>
+            </div>
+            <div id="articles-report" class="archive-list"></div>
           </div>
         </section>
         <div style="text-align: right; margin-top: 24px;">
@@ -111,6 +120,7 @@
 
         const trending = all.filter(a => a.category && a.category.trim() === "github-trending");
         const pickup = all.filter(a => a.category && a.category.trim() === "github-pickup");
+        const report = all.filter(a => a.category && a.category.trim() === "github-update-report");
 
         // Trending
         const statsEl = document.getElementById("site-stats-trending");
@@ -131,6 +141,14 @@
         pickupEl.innerHTML = pickup.length === 0
           ? '<div class="archive-item" style="border: 1px dashed var(--line); text-align: center; color: var(--text-muted);"><h3>まだ記事がありません</h3><p>気になったリポジトリの解析記事がここに追加されます。</p></div>'
           : pickup.map(a => renderArticle(a)).join("");
+
+        // Report
+        const reportEl = document.getElementById("articles-report");
+        if(reportEl) {
+          reportEl.innerHTML = report.length === 0
+            ? '<div class="archive-item" style="border: 1px dashed var(--line); text-align: center; color: var(--text-muted);"><h3>まだレポートがありません</h3><p>更新作業のログがここに追加されます。</p></div>'
+            : report.map(a => renderArticle(a)).join("");
+        }
 
         // Tabs
         document.querySelectorAll(".gh-tab-btn").forEach(btn => {
