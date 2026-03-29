@@ -91,7 +91,7 @@ harunami_ai_base/
 | `tool-geminicli` | Gemini CLI | https://github.com/google/gemini-cli/releases | GitHub Atom Feed |
 | `tool-copilot` | GitHub Copilot | https://github.blog/changelog | Changelog Feed |
 | `tool-codex` | Codex | https://openai.com/blog | OpenAI Blog |
-| `tool-openclaw` | OpenClaw | Changelog | Changelog（情報収集中）|
+| `tool-openclaw` | OpenClaw | https://github.com/openclaw/openclaw/releases | GitHub Releases |
 | `tool-chatgpt` | ChatGPT | https://openai.com/blog | OpenAI Blog |
 | `tool-gemini` | Gemini | https://blog.google | Google Blog |
 | `tool-claude` | Claude | https://anthropic.com/blog | Anthropic Blog |
