@@ -8,6 +8,78 @@
   "articles": [
     {
       "category": "github-trending",
+      "slug": "2026-03-30-luongnv89-claude-howto",
+      "title": "claude-howto",
+      "dek": "Claude Code の機能をビジュアルで実例中心に網羅した、GitHub で爆発的人気の包括的ガイド。",
+      "summary": "Anthropic の新しい CLI ツール「Claude Code」を使いこなすための、ビジュアルで実例中心の包括的なガイド。",
+      "publishedAt": "2026-03-30",
+      "repoName": "luongnv89/claude-howto",
+      "repoUrl": "https://github.com/luongnv89/claude-howto",
+      "articleUrl": "./articles/github/2026-03-30-luongnv89-claude-howto.html",
+      "rank": 1
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-30-microsoft-vibevoice",
+      "title": "VibeVoice",
+      "dek": "ASR（文字起こし）と TTS（音声合成）を統合した、Microsoft 発の最先端オープンソース音声 AI。",
+      "summary": "Microsoft が公開した最先端のオープンソース音声 AI モデル。長尺の文字起こしや多言語対応をサポート。",
+      "publishedAt": "2026-03-30",
+      "repoName": "microsoft/VibeVoice",
+      "repoUrl": "https://github.com/microsoft/VibeVoice",
+      "articleUrl": "./articles/github/2026-03-30-microsoft-vibevoice.html",
+      "rank": 3
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-30-nousresearch-hermes-agent",
+      "title": "hermes-agent",
+      "dek": "「自分と共に成長する」がコンセプト。記憶とスキルの蓄積を重視した次世代 AI エージェント・フレームワーク。",
+      "summary": "記憶やスキルの蓄積を重視した、NousResearch による高度にカスタマイズ可能な AI エージェントフレームワーク。",
+      "publishedAt": "2026-03-30",
+      "repoName": "NousResearch/hermes-agent",
+      "repoUrl": "https://github.com/NousResearch/hermes-agent",
+      "articleUrl": "./articles/github/2026-03-30-nousresearch-hermes-agent.html",
+      "rank": 4
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-30-thedotmack-claude-mem",
+      "title": "claude-mem",
+      "dek": "Claude Code に爆速の「長期記憶」を授ける。セッションを自動記録・要約し、文脈を維持し続ける非公式プラグイン。",
+      "summary": "Claude Code に強力な長期記憶（Long-term memory）を追加し、セッション間の文脈を維持する非公式プラグイン。",
+      "publishedAt": "2026-03-30",
+      "repoName": "thedotmack/claude-mem",
+      "repoUrl": "https://github.com/thedotmack/claude-mem",
+      "articleUrl": "./articles/github/2026-03-30-thedotmack-claude-mem.html",
+      "rank": 7
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-30-shareai-lab-learn-claude-code",
+      "title": "learn-claude-code",
+      "dek": "AI エージェントをゼロから自作するための、11 セッションにわたる強力なオープンソース教育ガイド。",
+      "summary": "Claude Code のような AI エージェントの仕組みをゼロから自作するための 11 セッション構成の教育用ガイド。",
+      "publishedAt": "2026-03-30",
+      "repoName": "shareAI-lab/learn-claude-code",
+      "repoUrl": "https://github.com/shareAI-lab/learn-claude-code",
+      "articleUrl": "./articles/github/2026-03-30-shareai-lab-learn-claude-code.html",
+      "rank": 10
+    },
+    {
+      "category": "github-update-report",
+      "slug": "2026-03-30-update-report",
+      "title": "2026-03-30 更新レポート",
+      "dek": "5件のトレンド記事を追加しました。",
+      "summary": "",
+      "publishedAt": "2026-03-30",
+      "repoName": "agithub-trend-daily-writer",
+      "repoUrl": "",
+      "articleUrl": "./articles/github/2026-03-30-update-report.html",
+      "rank": 999
+    },
+    {
+      "category": "github-trending",
       "slug": "2026-03-29-hacksider-deep-live-cam",
       "title": "Deep-Live-Cam",
       "dek": "1枚の画像からリアルタイムでの顔交換やディープフェイク動画を生成するパワフルなツール。",
