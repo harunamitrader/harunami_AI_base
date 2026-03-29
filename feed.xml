@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2026 07:01:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 07:57:46 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Deep-Live-Cam]]></title>
@@ -72,6 +72,54 @@
       <description><![CDATA[6件のトレンド記事を追加しました。]]></description>
     </item>
     <item>
+      <title><![CDATA[autogen]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-microsoft-autogen.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-microsoft-autogen.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[マルチエージェントによる高度な自律型AIワークフローを構築するためのフレームワーク。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[continue]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-continuedev-continue.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-continuedev-continue.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[CIで適用可能なAI駆動のコードレビューとルール検証を実現する強力なオープンソースツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[notebooklm-py]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-teng-lin-notebooklm-py.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-teng-lin-notebooklm-py.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google NotebookLMの機能をプログラムから自由に操作するための非公式なPython APIとエージェントスキル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[get-shit-done]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-gsd-build-get-shit-done.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-gsd-build-get-shit-done.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code向けの強力なメタプロンプトおよび仕様駆動開発（spec-driven development）システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[skill-creator]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-anthropics-skill-creator.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-anthropics-skill-creator.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Anthropicが提供するエージェント向けスキルの中で、AIに自発的な自己拡張を行わせる強力なメタ・ツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-supabase-cli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-supabase-cli.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[マイグレーションやローカル環境の実行、エッジ関数のデプロイを管理するSupabase公式CLI。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Antigravity v1.21.7: Firebase とのフルスタック統合]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-28-antigravity-v1-21-7-firebase.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-28-antigravity-v1-21-7-firebase.html</guid>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenAI Whisper の性能を極限まで引き出し、数時間の音声をわずか数分で文字起こしする超高速 CLI ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agentscope]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-agentscope-ai-agentscope.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-agentscope-ai-agentscope.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[直感的かつ堅牢なマルチエージェント・アプリケーションを迅速に構築・デプロイできる開発フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[twenty]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-twentyhq-twenty.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-27-twentyhq-twenty.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Notion のような柔軟な操作感とコミュニティ主導の拡張性を備えた、Salesforce 代替を目指すオープンソース CRM。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.84: PowerShell 対応と制御機能の拡充]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-27-claude-code-v2-1-84.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-27-claude-code-v2-1-84.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windows ユーザー待望の PowerShell ツール (Preview) と、環境変数による詳細な挙動制御を導入。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v3.76.0: 看板管理の統合とループ検出による安全性の向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-27-cline-v3-76-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-27-cline-v3-76-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[人気の Kanban 機能を標準搭載し、トークンの浪費を防ぐ「ツール実行ループ検出」を導入。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[last30days-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-mvanhorn-last30days-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-mvanhorn-last30days-skill.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Reddit や X 等の複数プラットフォームを横断調査し、直近 30 日間の動向を根拠付きでまとめる AI リサーチエージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ruflo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-ruvnet-ruflo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-26-ruvnet-ruflo.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code を「Hive Mind」に変える、60種以上の専門 AI エージェント群によるオーケストレーション基盤。]]></description>
     </item>
   </channel>
 </rss>
