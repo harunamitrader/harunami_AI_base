@@ -283,6 +283,18 @@
       "rank": "ピックアップ"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-03-29-deepeyesv2",
+      "title": "DeepEyesV2",
+      "dek": "コード実行とWeb検索を単一の推論ループに統合した、高度な自律型エージェンティック・マルチモーダルモデル。",
+      "summary": "",
+      "publishedAt": "2026-03-29",
+      "repoName": "Visual-Agent/DeepEyesV2",
+      "repoUrl": "https://github.com/Visual-Agent/DeepEyesV2",
+      "articleUrl": "./articles/github/2026-03-29-deepeyesv2.html",
+      "rank": "ピックアップ"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-03-28-openclaw-v2026-3-28",
       "title": "OpenClaw v2026.3.28: xAI強化とプロバイダー刷新",
