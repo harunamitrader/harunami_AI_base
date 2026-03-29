@@ -18,46 +18,6 @@
     />
     <link rel="stylesheet" href="./styles.css" />
     <style>
-      .tool-index {
-        display: flex;
-        flex-direction: column;
-        gap: 2px;
-        margin-bottom: 20px;
-      }
-      .tool-index-item {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5px 10px;
-        border-radius: 6px;
-        border: 1px solid var(--line);
-        background: var(--surface-strong);
-        color: var(--text);
-        font-size: 0.82rem;
-        font-weight: 600;
-        text-decoration: none;
-        transition: background 0.15s, border-color 0.15s;
-        font-family: inherit;
-      }
-      .tool-index-item:hover {
-        background: #ede9fe;
-        border-color: #7c3aed;
-        color: #7c3aed;
-        text-decoration: none;
-      }
-      .tool-index-name {
-        font-weight: 700;
-      }
-      .tool-index-date {
-        font-size: 0.75rem;
-        color: var(--text-muted);
-        font-family: 'Manrope', sans-serif;
-        letter-spacing: 0.02em;
-      }
-      .tool-index-date.recent {
-        color: #059669;
-        font-weight: 700;
-      }
       .tool-card[id] {
         scroll-margin-top: 56px;
       }
@@ -72,19 +32,6 @@
       <a href="./links.html" class="nav-item">Bookmark</a>
     </nav>
     <div class="shell">
-      <header class="hero">
-        <p class="eyebrow">Tools Monitoring</p>
-        <h1>AI Tool Log</h1>
-        <p class="hero-copy">
-          AIコーディングツール・モデルの更新情報を追跡するログです。17ツールのリリースノートを定期確認しています。
-        </p>
-        <p style="font-size: 0.8rem; color: var(--text-muted); opacity: 0.8; margin-top: 10px;">
-          🕛 最終監視: 2026-03-29 15:30 JST
-        </p>
-      </header>
-
-      <main class="layout">
-        <section class="card">
 
           <div class="section-head">
             <p class="eyebrow">Network Status</p>
@@ -465,13 +412,25 @@
             <h2>最終監視レポート</h2>
           </div>
           <div class="report-content" style="font-size: 0.85rem; color: var(--text); background: var(--surface-strong); padding: 16px; border-radius: 8px; border: 1px solid var(--line);">
-            <p style="margin-bottom: 8px;"><strong>日時:</strong> <span id="report-date">2026-03-29 19:10 JST</span></p>
-            <p style="margin-bottom: 8px;"><strong>対象:</strong> 全17ツールのリリース元（GitHub, 公式Changelog, 公式ブログ等）を巡回・検証完了</p>
-            <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
-              <li><strong>Updates Found (3):</strong> Claude Code (v2.1.87), Gemini CLI (v0.36.0-p6), OpenClaw (v2026.3.28)</li>
-              <li><strong>No New Updates (14):</strong> Antigravity, Cursor, Windsurf, Cline, GitHub Copilot, Codex, NotebookLM, ChatGPT, Perplexity, Claude, Gemini, Grok, Grok CLI, Obsidian</li>
-            </ul>
-            <p style="margin-top: 12px; font-size: 0.75rem; color: #059669; font-weight: 600;">✔️ 全監視先のアクセス完了および更新有無の検証確認済</p>
+            <p style="margin-bottom: 8px;"><strong>対象:</strong> 17ツールを Coding / Others の2カテゴリで巡回・検証</p>
+
+            <div id="report-coding" style="margin-top: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(124, 58, 237, 0.04);">
+              <p style="margin-bottom: 8px;"><strong>Coding 最終監視:</strong> <span id="report-coding-date">2026-03-29 19:10 JST</span></p>
+              <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
+                <li id="report-coding-updates"><strong>Updates Found (2):</strong> Claude Code (v2.1.87), Gemini CLI (v0.36.0-p6)</li>
+                <li id="report-coding-no-updates"><strong>No New Updates (7):</strong> Antigravity, Cursor, Windsurf, Cline, GitHub Copilot, Codex, Grok CLI</li>
+              </ul>
+            </div>
+
+            <div id="report-others" style="margin-top: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(5, 150, 105, 0.04);">
+              <p style="margin-bottom: 8px;"><strong>Others 最終監視:</strong> <span id="report-others-date">2026-03-30 04:30 JST</span></p>
+              <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
+                <li id="report-others-updates"><strong>Updates Found (0):</strong> (なし)</li>
+                <li id="report-others-no-updates"><strong>No New Updates (8):</strong> ChatGPT, Claude, Gemini, Grok, Perplexity, NotebookLM, Obsidian, OpenClaw</li>
+              </ul>
+            </div>
+
+            <p style="margin-top: 12px; font-size: 0.75rem; color: #059669; font-weight: 600;">✔️ カテゴリ別のアクセス完了および更新有無の検証確認済</p>
           </div>
         </section>
       </main>
