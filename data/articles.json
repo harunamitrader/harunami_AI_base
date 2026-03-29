@@ -7,6 +7,66 @@
   },
   "articles": [
     {
+      "category": "github-trending",
+      "slug": "2026-03-29-hacksider-deep-live-cam",
+      "title": "Deep-Live-Cam",
+      "dek": "1枚の画像からリアルタイムでの顔交換やディープフェイク動画を生成するパワフルなツール。",
+      "summary": "1枚の画像のみを用いて、リアルタイムでの顔交換や動画でのディープフェイクを瞬時に行うオープンソースソフトウェア。",
+      "publishedAt": "2026-03-29",
+      "repoName": "hacksider/Deep-Live-Cam",
+      "repoUrl": "https://github.com/hacksider/Deep-Live-Cam",
+      "articleUrl": "./articles/github/2026-03-29-hacksider-deep-live-cam.html",
+      "rank": 1
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-29-obra-superpowers",
+      "title": "superpowers",
+      "dek": "本当に機能する、エージェント向けスキル拡張フレームワークと新しいソフトウェア開発手法。",
+      "summary": "AIエージェントに対して一貫した「スキル」を追加し、確実かつ体系的にソフトウェア開発作業を行わせるためのフレームワーク。",
+      "publishedAt": "2026-03-29",
+      "repoName": "obra/superpowers",
+      "repoUrl": "https://github.com/obra/superpowers",
+      "articleUrl": "./articles/github/2026-03-29-obra-superpowers.html",
+      "rank": 2
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-29-sakanaai-ai-scientist-v2",
+      "title": "AI-Scientist-v2",
+      "dek": "エージェント的ツリー探索を用い、ワークショップレベルの科学的発見を自動化するシステム。",
+      "summary": "アイデアの生成から実験、結果の考察まで、科学的発見のプロセス全体をAIエージェントが自動で遂行するシステムの最新バージョン。",
+      "publishedAt": "2026-03-29",
+      "repoName": "SakanaAI/AI-Scientist-v2",
+      "repoUrl": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "articleUrl": "./articles/github/2026-03-29-sakanaai-ai-scientist-v2.html",
+      "rank": 3
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-29-onyx-dot-app-onyx",
+      "title": "onyx",
+      "dek": "あらゆるLLMに対応し、高度な検索と連携を備えたエンタープライズ向けのオープンソースAIプラットフォーム。",
+      "summary": "自社データとAIを接続し、あらゆるLLMモデルをバックエンドとして利用可能な、オープンソースベースのAIチャット・プラットフォーム。",
+      "publishedAt": "2026-03-29",
+      "repoName": "onyx-dot-app/onyx",
+      "repoUrl": "https://github.com/onyx-dot-app/onyx",
+      "articleUrl": "./articles/github/2026-03-29-onyx-dot-app-onyx.html",
+      "rank": 6
+    },
+    {
+      "category": "github-trending",
+      "slug": "2026-03-29-datalab-to-chandra",
+      "title": "chandra",
+      "dek": "複雑な表やフォーム、手書き文書のレイアウトを保ったままテキスト化する高精度OCRモデル。",
+      "summary": "従来のOCRが見落としがちだった「ドキュメントの構造」を重視し、高精度な読み取りを実現する先進的なOCRモデル。",
+      "publishedAt": "2026-03-29",
+      "repoName": "datalab-to/chandra",
+      "repoUrl": "https://github.com/datalab-to/chandra",
+      "articleUrl": "./articles/github/2026-03-29-datalab-to-chandra.html",
+      "rank": 7
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-03-29-claude-code-v2-1-87",
       "title": "Claude Code v2.1.87: Cowork Dispatch 修正とセッション追跡強化",
