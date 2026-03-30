@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Mar 2026 12:27:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 21:40:43 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[GitHub Copilot: Slack からの Issue 作成・管理をサポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-github-copilot-slack-issues.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-github-copilot-slack-issues.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自然言語でタスクを記述し、Slack からメンションひとつで構造化された Issue を作成可能に。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI Codex Plugin Support: プラットフォーム化と MCP 対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-openai-codex-plugin-platform.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-openai-codex-plugin-platform.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[外部ツール連携をパッケージ化するプラグインエコシステムと、MCP 公式サポートを発表。]]></description>
+    </item>
     <item>
       <title><![CDATA[AutoAgents]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-liquidos-ai-autoagents.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本当に機能する、エージェント向けスキル拡張フレームワークと新しいソフトウェア開発手法。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI-Scientist-v2]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-sakanaai-ai-scientist-v2.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-sakanaai-ai-scientist-v2.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エージェント的ツリー探索を用い、ワークショップレベルの科学的発見を自動化するシステム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[onyx]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-onyx-dot-app-onyx.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-29-onyx-dot-app-onyx.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[あらゆるLLMに対応し、高度な検索と連携を備えたエンタープライズ向けのオープンソースAIプラットフォーム。]]></description>
     </item>
   </channel>
 </rss>
