@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-30-0xnyk-awesome-hermes-agent",
+      "title": "awesome-hermes-agent",
+      "dek": "自己改善する AI の可能性を広げる。Hermes Agent のための厳選されたスキル・ツール・リソースの集大成。",
+      "summary": "自己改善型 AI エージェント「Hermes Agent」を使いこなし、能力を拡張するための厳選されたスキル、ツール、およびリソース集。",
+      "publishedAt": "2026-03-30",
+      "repoName": "0xNyk/awesome-hermes-agent",
+      "repoUrl": "https://github.com/0xNyk/awesome-hermes-agent",
+      "articleUrl": "./articles/github/2026-03-30-0xnyk-awesome-hermes-agent.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-30-m5stack-stackchan",
       "title": "StackChan",
       "dek": "「スーパーかわいい」AI ロボットを手元に。M5Stack CoreS3 を核にした、コミュニティ共創のオープンソースロボットプロジェクト。",
