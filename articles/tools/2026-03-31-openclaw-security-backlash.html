@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenClaw Security Warning (2026-03-31) のリリース情報をまとめた記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw Security Controversy & Phishing Warning</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Security Advisory</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw: セキュリティ懸念による逆風と偽トークン詐欺への警告</h1>
+      <p class="article-dek">自律エージェントによるデータ漏洩リスクの指摘と、プロジェクトを騙るフィッシング詐欺が急増。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-03-31</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ステータス</span>
+          <strong>Advisory</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>概要</h2>
+        <p>爆発的な人気を博しているオープンソースの自律型 AI エージェント「OpenClaw」に対し、セキュリティ専門家から重大な警告が出されています。特に、自律的な指令実行プロセスにおける「誤操作によるファイル削除」や「外部への意図しないデータ送信」のリスクが表面化しています。</p>
+        
+        <h3>主な懸念事項</h3>
+        <ul>
+          <li><strong>サンドボックスの未徹底:</strong> 一部の環境下で OS 操作権限が広範囲に渡り、エージェントが誤った判断を下した際に取り返しのつかない変更が加わるリスク。</li>
+          <li><strong>フィッシング詐欺の横行:</strong> GitHub リポジトリや公式を装ったサイトにおいて、偽の $CLAW トークン（仮想通貨）を配布してウォレットのアクセス権を奪う攻撃が多数確認されています。</li>
+        </ul>
+
+        <h2>注意喚起</h2>
+        <p>公式チームは「現在進行形でセキュリティパッチを配布中」としていますが、エンタープライズ環境での利用には慎重な判断が求められます。また、仮想通貨トークンの公式な発行予定はなく、SNS 等での勧誘はすべて詐欺であると強く警告しています。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw は非常に強力な開発支援・自動化ツールですが、その自律性の高さが仇となり、攻撃者の標的や不注意によるトラブルの温床となっています。利用の際は、必ず権限を制限した独立した VM 上で動作させることを推奨します。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/OpenClaw/OpenClaw" target="_blank" rel="noreferrer">OpenClaw GitHub</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
