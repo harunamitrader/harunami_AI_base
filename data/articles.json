@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-30-ericosiu-ai-marketing-skills",
+      "title": "ai-marketing-skills",
+      "dek": "Claude Code をマーケティングの相棒に。実証済みの成長ロジックを AI エージェントに即座に修得させる、実践的なスキルセット。",
+      "summary": "Claude Code, Windsurf, Cursor などの AI エージェントをマーケティングやセールス業務に投入するためのオープンソースのスキルセット集。",
+      "publishedAt": "2026-03-30",
+      "repoName": "ericosiu/ai-marketing-skills",
+      "repoUrl": "https://github.com/ericosiu/ai-marketing-skills",
+      "articleUrl": "./articles/github/2026-03-30-ericosiu-ai-marketing-skills.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-30-jatinkrmalik-llmfeeder",
       "title": "LLMFeeder",
       "dek": "ブラウザ上の情報を 1 クリックでクリーンな Markdown に。LLM への「コンテキスト提供」を劇的に効率化するブラウザ拡張機能。",
