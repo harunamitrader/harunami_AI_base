@@ -8,6 +8,30 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-30-hoxigo-podcats",
+      "title": "Podcats",
+      "dek": "PDF を「聴く」体験へ。Gemini AI を活用し、2 人のスピーカーによる臨場感あふれるポッドキャストを自動生成するツール。",
+      "summary": "Gemini AI を用いて PDF ファイルから 2 人の対話形式の高品質なポッドキャスト音声を自動生成するデスクトップアプリ。",
+      "publishedAt": "2026-03-30",
+      "repoName": "hoxigo/Podcats",
+      "repoUrl": "https://github.com/hoxigo/Podcats",
+      "articleUrl": "./articles/github/2026-03-30-hoxigo-podcats.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-30-akii09-pdfx",
+      "title": "pdfx",
+      "dek": "React で PDF を、美しく、自分のものに。shadcn 形式でコンポーネントを導入する、新時代の PDF 構築ライブラリ。",
+      "summary": "shadcn/ui に着想を得た、React プロジェクトに直接コンポーネントをコピーして高品質な PDF を構築できるライブラリ。",
+      "publishedAt": "2026-03-30",
+      "repoName": "akii09/pdfx",
+      "repoUrl": "https://github.com/akii09/pdfx",
+      "articleUrl": "./articles/github/2026-03-30-akii09-pdfx.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-30-nousresearch-pokemon-agent",
       "title": "pokemon-agent",
       "dek": "AI を「ポケモンマスター」に。ゲームの内側を JSON で読み解き、自律的にプレイするための最強の AI エージェント基盤。",
