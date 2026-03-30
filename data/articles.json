@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-30-nousresearch-pokemon-agent",
+      "title": "pokemon-agent",
+      "dek": "AI を「ポケモンマスター」に。ゲームの内側を JSON で読み解き、自律的にプレイするための最強の AI エージェント基盤。",
+      "summary": "NousResearch による、AI（LLM）が自律的にポケモンをプレイするための高度な解析・操作エージェント基盤プログラム。",
+      "publishedAt": "2026-03-30",
+      "repoName": "NousResearch/pokemon-agent",
+      "repoUrl": "https://github.com/NousResearch/pokemon-agent",
+      "articleUrl": "./articles/github/2026-03-30-nousresearch-pokemon-agent.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-30-ericosiu-ai-marketing-skills",
       "title": "ai-marketing-skills",
       "dek": "Claude Code をマーケティングの相棒に。実証済みの成長ロジックを AI エージェントに即座に修得させる、実践的なスキルセット。",

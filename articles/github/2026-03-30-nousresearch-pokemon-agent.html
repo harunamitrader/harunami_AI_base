@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NousResearch/pokemon-agent を読み、AI エージェントが自律的にポケモンをプレイするための高度な解析基盤について整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>pokemon-agent</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">pokemon-agent</h1>
+      <p class="article-dek">AI を「ポケモンマスター」に。ゲームの内側を JSON で読み解き、自律的にプレイするための最強の AI エージェント基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NousResearch/pokemon-agent" target="_blank" rel="noreferrer">
+              NousResearch/pokemon-agent
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「pokemon-agent」は、AI エージェント（LLM）がポケモンの世界を自律的に冒険するために設計された、驚くほど多機能な解析・操作基盤です。単にゲームをエミュレートするだけでなく、ゲーム内の RAM 情報をリアルタイムで解析し、AI が理解しやすい構造化データ（JSON）として抽出。さらに、API を通じて AI が直接ゲームを操作することを可能にします。</p>
+
+        <h2>何ができるか</h2>
+        <p>ゲームの進行状況（所持金、バッジ、ポケモンのステータス、現在地など）を JSON 形式で瞬時に取得できるため、AI は「今、何をすべきか」を論理的に判断できます。また、A* アルゴリズムによるパスファインディング機能を備えており、目的地を指定するだけで最適なルートで移動するなどの高度なナビゲーションも可能です。ブラウザからアクセスできる専用のダッシュボードでは、AI の「思考」とゲーム画面をリアルタイムで並べて監視できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>このプロジェクトは「スキル」としての提供を念頭に置いており、リポジトリ内に `SKILL.md` が完備されています。これにより、Claude Code などの AI エージェントは、このプロジェクトを自分の「特技」として即座に習得し、自らコマンドを叩いてポケモンマスターを目指すことができます。ヘッドレス動作に対応しているため、ディスプレイのないサーバー環境でも 24 時間 365 日稼働し続けることが可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 環境で `pip install pokemon-agent` を実行し、自身で用意したポケモンの ROM ファイルを指定してサーバーを起動します。サーバーが立ち上がると HTTP API が公開され、`GET /state` で現在のゲームの状態、`POST /action` で十字キーやボタンの操作指示、さらには `GET /screenshot` で視覚情報の確認が行えるようになります。AI エージェントとの連携も、この API を通じて行います。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI エージェントが「思考するだけでなく、実際に何かをやり遂げるプロセス」を構築したい開発者や、ゲームをプラットフォームにした強化学習の研究者に最適です。また、愛着のあるポケモンを AI がどのように育てるかを見守りたいファンにとっても、これ以上ない「夢の基盤」となるでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>法律および著作権の関係上、ゲームの ROM ファイルはユーザー自身が所有・提供する必要があります。また、現在は初代（赤・青）がメインの対応となっており、最新世代や一部の派生作品については開発途上の段階です。AI に連続でプレイをさせる場合、利用する LLM の API 使用料にも注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「pokemon-agent」は、AI とゲームの新しい関係性を提示する野心的なプロジェクトです。JSON というデジタルの言葉で語りかけるポケモンの世界に、AI エージェントという新しい「トレーナー」を解き放つことで、私たちはこれまでにない冒険の様子を目撃することになるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/NousResearch/pokemon-agent" target="_blank" rel="noreferrer">NousResearch/pokemon-agent</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
