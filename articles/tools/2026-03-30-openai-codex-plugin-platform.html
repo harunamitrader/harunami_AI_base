@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Codex Plugin Support: プラットフォーム化と MCP 対応 | harunami AI base</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent: #10b981;
+            --line: #334155;
+        }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface);
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid var(--line);
+        }
+        .meta {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 24px;
+            color: #fff;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 8px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 12px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--accent);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="meta">2026-03-30 | OpenAI Codex</div>
+        <h1>Codex Plugin Support: 外部ツール連携と MCP 対応でプラットフォーム化</h1>
+        
+        <p>OpenAI は 2026年3月30日、Codex のプラットフォーム化の核となる「Plugin Support」を発表しました。これにより、Codex は単なる AI モデルから、多様な外部ツールやデータソースと連携する AI エージェントの基盤へと進化しました。</p>
+
+        <h2>主な変更点</h2>
+        <ul>
+            <li><strong>プラグインエコシステムの導入</strong>: 開発者が「スキル」「外部アプリ連携」「MCP (Model Context Protocol) 設定」を一括パッケージ化してインストール、共有できる仕組みが整いました。</li>
+            <li><strong>主要ツールとのネイティブ連携</strong>: Slack, Figma, Notion, Gmail, GitHub を含む 20 以上の外部サービスと、Codex が直接やり取り可能になりました。</li>
+            <li><strong>MCP (Model Context Protocol) 公式サポート</strong>: ローカルマシン内の開発データやリモートデータソースと安全に通信するための MCP サーバー（STDIO, SSE 双方）をサポートしました。</li>
+            <li><strong>キュレートされたプラグインディレクトリ</strong>: 公式ディレクトリが公開され、誰でも簡単に機能を拡張できるようになりました。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>今回のアップデートは、Codex を単なるコード生成から、実際の開発現場で必要なあらゆるツールやプロセスを繋ぐ「インテリジェントなハブ」へと引き上げるものです。MCP 対応により、よりセキュアかつパーソナライズされた開発体験が提供されます。</p>
+
+        <h2>参照リンク</h2>
+        <ul>
+            <li><a href="https://openai.com/blog" style="color: var(--accent);">OpenAI Blog</a></li>
+        </ul>
+        
+        <a href="../../ai-tools-monitor.html" class="back-link">← ツールモニターへ戻る</a>
+    </div>
+</body>
+</html>

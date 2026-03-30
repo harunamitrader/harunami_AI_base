@@ -7,6 +7,30 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-03-30-github-copilot-slack-issues",
+      "title": "GitHub Copilot: Slack からの Issue 作成・管理をサポート",
+      "dek": "自然言語でタスクを記述し、Slack からメンションひとつで構造化された Issue を作成可能に。",
+      "summary": "GitHub Copilot の Slack 連携アップデート内容をまとめ、自然言語による Issue 生成やサブ課題対応の詳細を整理。",
+      "publishedAt": "2026-03-30",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog/changelog/label/copilot/",
+      "articleUrl": "./articles/tools/2026-03-30-github-copilot-slack-issues.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-30-openai-codex-plugin-platform",
+      "title": "OpenAI Codex Plugin Support: プラットフォーム化と MCP 対応",
+      "dek": "外部ツール連携をパッケージ化するプラグインエコシステムと、MCP 公式サポートを発表。",
+      "summary": "OpenAI Codex の Plugin Support 発表をまとめ、外部サービス連携のハブ化や MCP によるセキュアなデータ利用の詳細を整理。",
+      "publishedAt": "2026-03-30",
+      "repoName": "openai/codex",
+      "repoUrl": "https://openai.com/blog",
+      "articleUrl": "./articles/tools/2026-03-30-openai-codex-plugin-platform.html",
+      "rank": 999
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-03-30-liquidos-ai-autoagents",
       "title": "AutoAgents",
