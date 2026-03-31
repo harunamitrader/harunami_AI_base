@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2026 03:15:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 03:17:33 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ai-marketing-skills: Claude Code を活用した AI マーケティング自動化ワークフロー集]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-ai-marketing-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-ai-marketing-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[統計手法と AI エージェントを融合。グロース実験からコンテンツ生成までを自律化する実践的ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[StudyCraft: AI が教材から問題を自動生成するオープンソース学習支援ツール]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-studycraft.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自己改善する AI の可能性を広げる。Hermes Agent のための厳選されたスキル・ツール・リソースの集大成。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[StackChan]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-m5stack-stackchan.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-m5stack-stackchan.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[「スーパーかわいい」AI ロボットを手元に。M5Stack CoreS3 を核にした、コミュニティ共創のオープンソースロボットプロジェクト。]]></description>
     </item>
   </channel>
 </rss>
