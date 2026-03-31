@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-31-crucix",
+      "title": "Crucix: 27 の情報源を統合する自分専用のリアルタイム OSINT 司令センター",
+      "dek": "経済指標、気象災害、紛争、航空・船舶追跡。世界中のインテリジェンスを一元管理。",
+      "summary": "NASA の災害情報や各国の経済指標、航空・船舶追跡など、27 の OSINT フィードを統合管理できるリアルタイムダッシュボード Crucix の解析記事。",
+      "publishedAt": "2026-03-31",
+      "repoName": "calesthio/Crucix",
+      "repoUrl": "https://github.com/calesthio/Crucix",
+      "articleUrl": "./articles/github/2026-03-31-crucix.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-31-ai-marketing-skills",
       "title": "ai-marketing-skills: Claude Code を活用した AI マーケティング自動化ワークフロー集",
       "dek": "統計手法と AI エージェントを融合。グロース実験からコンテンツ生成までを自律化する実践的ツール。",
