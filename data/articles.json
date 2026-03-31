@@ -8,6 +8,18 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-31-studycraft",
+      "title": "StudyCraft: AI が教材から問題を自動生成するオープンソース学習支援ツール",
+      "dek": "PDF やウェブサイト、GitHub リポジトリからフラッシュカードやテストを AI が即座に作成。",
+      "summary": "間隔反復学習 (SRS) と AI 生成・ベクトル検索を融合させたオープンソース学習支援ツール StudyCraft の解析記事。",
+      "publishedAt": "2026-03-31",
+      "repoName": "rodmarkun/StudyCraft",
+      "repoUrl": "https://github.com/rodmarkun/StudyCraft",
+      "articleUrl": "./articles/github/2026-03-31-studycraft.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-31-options-portfolio-backtester",
       "title": "options-portfolio-backtester: Rust 製コアによる高速なオプション投資バックテスター",
       "dek": "複雑なオプション戦略やテールリスクを、Rust バックエンドによる圧倒的な速度で検証。",
