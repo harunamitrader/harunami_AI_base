@@ -8,6 +8,30 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-03-31-praison-ai",
+      "title": "PraisonAI: 多機能ローコード・マルチエージェント AI フレームワーク",
+      "dek": "プランニング、リサーチ、デリバリーを統合。 YAML だけで AI 従業員チームを構築・運用。",
+      "summary": "AI エージェントを単一のアシスタントから「自律的なチーム」へと昇華させる、通知・配信機能に特化した AI フレームワーク PraisonAI の解析記事。",
+      "publishedAt": "2026-03-31",
+      "repoName": "MervinPraison/PraisonAI",
+      "repoUrl": "https://github.com/MervinPraison/PraisonAI",
+      "articleUrl": "./articles/github/2026-03-31-praison-ai.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-03-31-claude-token-counter",
+      "title": "claude-token-counter: Claude Code のトークン使用量とコストをリアルタイム監視",
+      "dek": "進行中のセッションの消費トークンと見積コストを秒単位で追跡。コスト意識の高い開発者向け Rust ツール。",
+      "summary": "Claude Code のローカルログをリアルタイム解析し、最新モデルの価格表に基づいたトークン使用量と見積コストを可視化する CLI ツール claude-token-counter の解析記事。",
+      "publishedAt": "2026-03-31",
+      "repoName": "rubenmendoza1290/claude-token-counter",
+      "repoUrl": "https://github.com/rubenmendoza1290/claude-token-counter",
+      "articleUrl": "./articles/github/2026-03-31-claude-token-counter.html",
+      "rank": "ピックアップ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-03-31-crucix",
       "title": "Crucix: 27 の情報源を統合する自分専用のリアルタイム OSINT 司令センター",
       "dek": "経済指標、気象災害、紛争、航空・船舶追跡。世界中のインテリジェンスを一元管理。",
