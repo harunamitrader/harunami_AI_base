@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2026 03:43:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 10:28:27 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[TradingAgents: LLM マルチエージェントによる次世代金融取引フレームワーク]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-trading-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-trading-agents.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LangGraph 基盤の自律エージェント軍が市場を多角分析。センチメント解析から取引判断までを自動化。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[hippo-memory: AI エージェントに「生物学的な海馬」の機能を授ける自律型メモリシステム]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-hippo-memory.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-hippo-memory.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[実行時依存関係なし。脳の「睡眠・忘却・強化」を模倣し、Cursor や Claude Code を真の AI 同僚へ。]]></description>
+    </item>
     <item>
       <title><![CDATA[PraisonAI: 多機能ローコード・マルチエージェント AI フレームワーク]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-praison-ai.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[推論・コーディング能力が大幅に向上した新モデルと、シームレスな音声対話・アクション実行機能を導入。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude: 100万トークンのコンテキスト窓開放と「Agent Teams」発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-1m-context-agent-teams.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-claude-1m-context-agent-teams.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Opus 4.6 / Sonnet 4.6 で膨大な文脈を無償開放。複数エージェントを並列動作させるチーム機能も導入。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: Slack からの Issue 作成・管理をサポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-github-copilot-slack-issues.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-github-copilot-slack-issues.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自然言語でタスクを記述し、Slack からメンションひとつで構造化された Issue を作成可能に。]]></description>
     </item>
   </channel>
 </rss>
