@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-03-31-options-portfolio-backtester",
+      "title": "options-portfolio-backtester: Rust 製コアによる高速なオプション投資バックテスター",
+      "dek": "複雑なオプション戦略やテールリスクを、Rust バックエンドによる圧倒的な速度で検証。",
+      "summary": "株式およびオプションのポートフォリオ戦略をヒストリカルデータで評価する、Rust 製高速バックテスター options_portfolio_backtester の解析記事。",
+      "publishedAt": "2026-03-31",
+      "repoName": "lambdaclass/options_portfolio_backtester",
+      "repoUrl": "https://github.com/lambdaclass/options_portfolio_backtester",
+      "articleUrl": "./articles/github/2026-03-31-options-portfolio-backtester.html",
+      "rank": "ピックアップ"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-03-31-update-report",
       "title": "2026-03-31 更新レポート",

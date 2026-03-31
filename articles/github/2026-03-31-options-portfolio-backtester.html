@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="options-portfolio-backtester (2026-03-31) の紹介記事。Rust 製コアによる高速なオプション投資バックテスターの詳細を解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>options-portfolio-backtester</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">options-portfolio-backtester: Rust 製コアによる高速なオプション投資バックテスター</h1>
+      <p class="article-dek">複雑なオプション戦略やテールリスクを、Rust バックエンドによる圧倒的な速度で検証。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-31</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong><a href="https://github.com/lambdaclass/options_portfolio_backtester" target="_blank" rel="noreferrer">lambdaclass/options_portfolio_backtester</a></strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>株式およびオプションのポートフォリオ戦略を、ヒストリカルデータに基づいて評価するための高性能型バックテスターです。アルゼンチンの技術集団 LambdaClass によって開発されており、コアエンジンに Rust を採用することで大量のデータセットに対しても極めて高速なシミュレーションを実現しています。Python (PyO3経由) から柔軟に戦略を定義でき、現代的な金融工学に基づいた高度なポートフォリオ分析が可能です。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>マルチレッグ戦略のテスト:</strong> ストラングル、アイアンコンドル、VIXベースのヘッジなど、複雑なオプション戦略のバックテストに対応。</li>
+          <li><strong>株式ポートフォリオの最適化:</strong> オプションを含まない株式のみのバックテスト用に、独自のアルゴリズム・パイプライン（AlgoPipeline）を提供。</li>
+          <li><strong>柔軟なコンポーネント設計:</strong> 手数料やスリッページを考慮する「コストモデル」、約定価格を決定する「フィルモデル」、指標に基づき銘柄を選択する「シグナルセレクター」などを自由に組み替え可能。</li>
+          <li><strong>高度な分析機能:</strong> 戦略スイープ（パラメータの全探索）、最大ドローダウンなどのリスクメトリクス算出、テールリスク・ヘッジの効果検証。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>圧倒的なパフォーマンスが最大の特徴です。Rust バックエンドにより、従来の Python のみのバックテスターでは時間がかかるような詳細な分析を短時間で実行できます。また、Nix（パッケージマネージャー）をサポートしており、環境構築の再現性が高い点や、ユーザー独自のカスタムインジケーターを容易に統合できる柔軟性も備えています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>1. <strong>環境構築:</strong> Nix を使用する場合は <code>nix develop</code> を、Python 仮想環境の場合は <code>make install-dev</code> で依存関係と Rust コアをビルドします。</p>
+        <p>2. <strong>データ取得:</strong> 付属のスクリプト等を使用して、検証に必要なヒストリカルデータを取得または用意します。</p>
+        <p>3. <strong>戦略の定義:</strong> Python で <code>Strategy</code> クラスを継承し、エントリー・終了条件やリバランスルールを記述します。</p>
+        <p>4. <strong>実行と分析:</strong> エンジンにデータと戦略を渡し、シミュレーションを実行。結果を Pandas 等で詳細に分析します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>高度なオプション戦略を研究しているクオンツ・トレーダーや、テールリスク（市場の急落）に対するヘッジ手法の有効性を詳しく検証したい金融リサーチャーに最適です。また、既存のツール速度に不満を感じている開発者にも強く推奨されます。</p>
+
+        <h2>注意点</h2>
+        <p>検証用のデータ準備（APIキー取得や特定形式の CSV 保存）が必要となる場合があります。また、実行には Rust のビルド環境が必要なため、Nix または適切なツールチェーンのセットアップが前提となります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>options_portfolio_backtester</code> は、スピードと柔軟性を両立させたプロフェッショナル仕様の金融検証ツールです。LambdaClass の技術的な知見が詰まったこのオープンソースは、複雑な市場戦略をより正確かつ迅速にテストするための強力な選択肢となるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/lambdaclass/options_portfolio_backtester" target="_blank" rel="noreferrer">lambdaclass/options_portfolio_backtester</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
