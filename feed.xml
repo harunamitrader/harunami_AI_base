@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2026 03:09:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 03:15:52 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[StudyCraft: AI が教材から問題を自動生成するオープンソース学習支援ツール]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-studycraft.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-studycraft.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PDF やウェブサイト、GitHub リポジトリからフラッシュカードやテストを AI が即座に作成。]]></description>
+    </item>
     <item>
       <title><![CDATA[options-portfolio-backtester: Rust 製コアによる高速なオプション投資バックテスター]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-options-portfolio-backtester.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「スーパーかわいい」AI ロボットを手元に。M5Stack CoreS3 を核にした、コミュニティ共創のオープンソースロボットプロジェクト。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Podcats]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-hoxigo-podcats.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-hoxigo-podcats.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PDF を「聴く」体験へ。Gemini AI を活用し、2 人のスピーカーによる臨場感あふれるポッドキャストを自動生成するツール。]]></description>
     </item>
   </channel>
 </rss>
