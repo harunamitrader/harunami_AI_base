@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2026 20:20:07 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 20:26:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Gemini CLI v0.36.0-preview.7: 最新モデル Gemini Flash 3.1 Lite に対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-7.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-7.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[次世代高速モデル「Flash 3.1 Lite」への対応が開始。全ユーザがプレビューモデルを試用可能に。]]></description>
+    </item>
     <item>
       <title><![CDATA[clawflows]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-nikilster-clawflows.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[より安全なコード実行環境の提供と、外部ツール連携（MCP）の認証フローを最適化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: インタラクションデータの学習利用（4月24日より）に関する重要告知]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-github-copilot-training-policy.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-31-github-copilot-training-policy.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Free/Pro ユーザーのコード断片等がモデル学習に活用される方針に。オプトアウト設定が可能。]]></description>
     </item>
   </channel>
 </rss>
