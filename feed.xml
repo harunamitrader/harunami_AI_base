@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Mar 2026 03:22:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 03:43:14 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[PraisonAI: 多機能ローコード・マルチエージェント AI フレームワーク]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-praison-ai.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-praison-ai.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プランニング、リサーチ、デリバリーを統合。 YAML だけで AI 従業員チームを構築・運用。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claude-token-counter: Claude Code のトークン使用量とコストをリアルタイム監視]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-claude-token-counter.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-claude-token-counter.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[進行中のセッションの消費トークンと見積コストを秒単位で追跡。コスト意識の高い開発者向け Rust ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Crucix: 27 の情報源を統合する自分専用のリアルタイム OSINT 司令センター]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-31-crucix.html</link>
@@ -150,22 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[自然言語でタスクを記述し、Slack からメンションひとつで構造化された Issue を作成可能に。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI Codex Plugin Support: プラットフォーム化と MCP 対応]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-openai-codex-plugin-platform.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-03-30-openai-codex-plugin-platform.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[外部ツール連携をパッケージ化するプラグインエコシステムと、MCP 公式サポートを発表。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AutoAgents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-liquidos-ai-autoagents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-03-30-liquidos-ai-autoagents.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Rust の速度と安全性を AI エージェントへ。プロダクショングレードのマルチエージェント・システムを構築するための強力なフレームワーク。]]></description>
     </item>
   </channel>
 </rss>
