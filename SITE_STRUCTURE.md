@@ -135,6 +135,7 @@ harunami_ai_base/
       "dek": "...",
       "summary": "...",
       "publishedAt": "YYYY-MM-DD",
+      "createdAt": "YYYY-MM-DDTHH:mm:ss+09:00",
       "repoName": "owner/repo",
       "repoUrl": "https://...",
       "articleUrl": "./articles/tools/YYYY-MM-DD-xxx.html"
@@ -146,6 +147,7 @@ harunami_ai_base/
 
 - `category: "ai-tool-log"` → `articleUrl`: `./articles/tools/`
 - `category: "github-trending"` → `articleUrl`: `./articles/github/`
+- `createdAt` は同日内の並び順を決める記事作成時刻（ISO 8601）として使う
 
 ---
 
@@ -157,6 +159,12 @@ harunami_ai_base/
 |-------|--------|------|
 | `tab-trending` | GitHub Trending | 自動解析記事（`category: "github-trending"`）|
 | `tab-pickup` | ピックアップ | 手動で気になったGitHub記事 |
+
+### GitHub Watcher の並び順
+
+- 第1キー: `publishedAt` 降順
+- 第2キー: 同日内は `createdAt` 降順
+- `rank` は表示用であり、並び順の主キーには使わない
 
 ---
 

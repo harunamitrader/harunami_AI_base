@@ -28,7 +28,8 @@
       "repoName": "nikilster/clawflows",
       "repoUrl": "https://github.com/nikilster/clawflows",
       "articleUrl": "./articles/github/2026-03-31-nikilster-clawflows.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T21:21:59+09:00"
     },
     {
       "category": "github-pickup",
@@ -40,7 +41,8 @@
       "repoName": "TauricResearch/TradingAgents",
       "repoUrl": "https://github.com/TauricResearch/TradingAgents",
       "articleUrl": "./articles/github/2026-03-31-trading-agents.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T19:25:30+09:00"
     },
     {
       "category": "github-pickup",
@@ -52,7 +54,8 @@
       "repoName": "kitfunso/hippo-memory",
       "repoUrl": "https://github.com/kitfunso/hippo-memory",
       "articleUrl": "./articles/github/2026-03-31-hippo-memory.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T19:21:50+09:00"
     },
     {
       "category": "github-pickup",
@@ -64,7 +67,8 @@
       "repoName": "MervinPraison/PraisonAI",
       "repoUrl": "https://github.com/MervinPraison/PraisonAI",
       "articleUrl": "./articles/github/2026-03-31-praison-ai.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T12:41:01+09:00"
     },
     {
       "category": "github-pickup",
@@ -76,7 +80,8 @@
       "repoName": "rubenmendoza1290/claude-token-counter",
       "repoUrl": "https://github.com/rubenmendoza1290/claude-token-counter",
       "articleUrl": "./articles/github/2026-03-31-claude-token-counter.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T12:41:01+09:00"
     },
     {
       "category": "github-pickup",
@@ -88,7 +93,8 @@
       "repoName": "calesthio/Crucix",
       "repoUrl": "https://github.com/calesthio/Crucix",
       "articleUrl": "./articles/github/2026-03-31-crucix.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T12:20:28+09:00"
     },
     {
       "category": "github-pickup",
@@ -100,7 +106,8 @@
       "repoName": "ericosiu/ai-marketing-skills",
       "repoUrl": "https://github.com/ericosiu/ai-marketing-skills",
       "articleUrl": "./articles/github/2026-03-31-ai-marketing-skills.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T12:15:21+09:00"
     },
     {
       "category": "github-pickup",
@@ -112,7 +119,8 @@
       "repoName": "rodmarkun/StudyCraft",
       "repoUrl": "https://github.com/rodmarkun/StudyCraft",
       "articleUrl": "./articles/github/2026-03-31-studycraft.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T12:13:35+09:00"
     },
     {
       "category": "github-pickup",
@@ -124,7 +132,8 @@
       "repoName": "lambdaclass/options_portfolio_backtester",
       "repoUrl": "https://github.com/lambdaclass/options_portfolio_backtester",
       "articleUrl": "./articles/github/2026-03-31-options-portfolio-backtester.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-31T12:07:13+09:00"
     },
     {
       "category": "github-update-report",
@@ -136,7 +145,8 @@
       "repoName": "harunami_AI_base",
       "repoUrl": "../../github-trend.html",
       "articleUrl": "./articles/github/2026-03-31-update-report.html",
-      "rank": 0
+      "rank": 0,
+      "createdAt": "2026-03-29T15:59:21+09:00"
     },
     {
       "category": "github-trending",
@@ -148,7 +158,8 @@
       "repoName": "shanraisshan/claude-code-best-practice",
       "repoUrl": "https://github.com/shanraisshan/claude-code-best-practice",
       "articleUrl": "./articles/github/2026-03-31-claude-code-best-practice.html",
-      "rank": 4
+      "rank": 4,
+      "createdAt": "2026-03-31T07:03:05+09:00"
     },
     {
       "category": "github-trending",
@@ -160,7 +171,8 @@
       "repoName": "freeCodeCamp/freeCodeCamp",
       "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
       "articleUrl": "./articles/github/2026-03-31-freecodecamp.html",
-      "rank": 7
+      "rank": 7,
+      "createdAt": "2026-03-31T07:03:05+09:00"
     },
     {
       "category": "github-trending",
@@ -172,7 +184,8 @@
       "repoName": "sherlock-project/sherlock",
       "repoUrl": "https://github.com/sherlock-project/sherlock",
       "articleUrl": "./articles/github/2026-03-31-sherlock.html",
-      "rank": 8
+      "rank": 8,
+      "createdAt": "2026-03-31T07:03:05+09:00"
     },
     {
       "category": "github-trending",
@@ -184,7 +197,8 @@
       "repoName": "fastfetch-cli/fastfetch",
       "repoUrl": "https://github.com/fastfetch-cli/fastfetch",
       "articleUrl": "./articles/github/2026-03-31-fastfetch.html",
-      "rank": 10
+      "rank": 10,
+      "createdAt": "2026-03-31T07:03:05+09:00"
     },
     {
       "category": "github-trending",
@@ -196,7 +210,8 @@
       "repoName": "microsoft/dev-tunnels",
       "repoUrl": "https://github.com/microsoft/dev-tunnels",
       "articleUrl": "./articles/github/2026-03-31-dev-tunnels.html",
-      "rank": 12
+      "rank": 12,
+      "createdAt": "2026-03-31T07:03:05+09:00"
     },
     {
       "category": "ai-tool-log",
@@ -340,7 +355,8 @@
       "repoName": "liquidos-ai/AutoAgents",
       "repoUrl": "https://github.com/liquidos-ai/AutoAgents",
       "articleUrl": "./articles/github/2026-03-30-liquidos-ai-autoagents.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T21:25:24+09:00"
     },
     {
       "category": "github-pickup",
@@ -352,7 +368,8 @@
       "repoName": "0xNyk/awesome-hermes-agent",
       "repoUrl": "https://github.com/0xNyk/awesome-hermes-agent",
       "articleUrl": "./articles/github/2026-03-30-0xnyk-awesome-hermes-agent.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T19:27:31+09:00"
     },
     {
       "category": "github-pickup",
@@ -364,7 +381,8 @@
       "repoName": "m5stack/StackChan",
       "repoUrl": "https://github.com/m5stack/StackChan",
       "articleUrl": "./articles/github/2026-03-30-m5stack-stackchan.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T12:41:35+09:00"
     },
     {
       "category": "github-pickup",
@@ -376,7 +394,8 @@
       "repoName": "hoxigo/Podcats",
       "repoUrl": "https://github.com/hoxigo/Podcats",
       "articleUrl": "./articles/github/2026-03-30-hoxigo-podcats.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T12:37:55+09:00"
     },
     {
       "category": "github-pickup",
@@ -388,7 +407,8 @@
       "repoName": "akii09/pdfx",
       "repoUrl": "https://github.com/akii09/pdfx",
       "articleUrl": "./articles/github/2026-03-30-akii09-pdfx.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T12:37:55+09:00"
     },
     {
       "category": "github-pickup",
@@ -400,7 +420,8 @@
       "repoName": "NousResearch/pokemon-agent",
       "repoUrl": "https://github.com/NousResearch/pokemon-agent",
       "articleUrl": "./articles/github/2026-03-30-nousresearch-pokemon-agent.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T12:21:42+09:00"
     },
     {
       "category": "github-pickup",
@@ -412,7 +433,8 @@
       "repoName": "ericosiu/ai-marketing-skills",
       "repoUrl": "https://github.com/ericosiu/ai-marketing-skills",
       "articleUrl": "./articles/github/2026-03-30-ericosiu-ai-marketing-skills.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T10:26:29+09:00"
     },
     {
       "category": "github-pickup",
@@ -424,7 +446,8 @@
       "repoName": "jatinkrmalik/LLMFeeder",
       "repoUrl": "https://github.com/jatinkrmalik/LLMFeeder",
       "articleUrl": "./articles/github/2026-03-30-jatinkrmalik-llmfeeder.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T08:07:23+09:00"
     },
     {
       "category": "github-pickup",
@@ -436,7 +459,8 @@
       "repoName": "elder-plinius/V3SP3R",
       "repoUrl": "https://github.com/elder-plinius/V3SP3R",
       "articleUrl": "./articles/github/2026-03-30-elder-plinius-v3sp3r.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T08:07:23+09:00"
     },
     {
       "category": "github-pickup",
@@ -448,7 +472,8 @@
       "repoName": "google/adk-go",
       "repoUrl": "https://github.com/google/adk-go",
       "articleUrl": "./articles/github/2026-03-30-google-adk-go.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-30T08:07:23+09:00"
     },
     {
       "category": "github-trending",
@@ -460,7 +485,8 @@
       "repoName": "luongnv89/claude-howto",
       "repoUrl": "https://github.com/luongnv89/claude-howto",
       "articleUrl": "./articles/github/2026-03-30-luongnv89-claude-howto.html",
-      "rank": 1
+      "rank": 1,
+      "createdAt": "2026-03-30T05:10:16+09:00"
     },
     {
       "category": "github-trending",
@@ -472,7 +498,8 @@
       "repoName": "microsoft/VibeVoice",
       "repoUrl": "https://github.com/microsoft/VibeVoice",
       "articleUrl": "./articles/github/2026-03-30-microsoft-vibevoice.html",
-      "rank": 3
+      "rank": 3,
+      "createdAt": "2026-03-30T05:10:16+09:00"
     },
     {
       "category": "github-trending",
@@ -484,7 +511,8 @@
       "repoName": "NousResearch/hermes-agent",
       "repoUrl": "https://github.com/NousResearch/hermes-agent",
       "articleUrl": "./articles/github/2026-03-30-nousresearch-hermes-agent.html",
-      "rank": 4
+      "rank": 4,
+      "createdAt": "2026-03-30T05:10:16+09:00"
     },
     {
       "category": "github-trending",
@@ -496,7 +524,8 @@
       "repoName": "thedotmack/claude-mem",
       "repoUrl": "https://github.com/thedotmack/claude-mem",
       "articleUrl": "./articles/github/2026-03-30-thedotmack-claude-mem.html",
-      "rank": 7
+      "rank": 7,
+      "createdAt": "2026-03-30T05:10:16+09:00"
     },
     {
       "category": "github-trending",
@@ -508,7 +537,8 @@
       "repoName": "shareAI-lab/learn-claude-code",
       "repoUrl": "https://github.com/shareAI-lab/learn-claude-code",
       "articleUrl": "./articles/github/2026-03-30-shareai-lab-learn-claude-code.html",
-      "rank": 10
+      "rank": 10,
+      "createdAt": "2026-03-30T05:10:16+09:00"
     },
     {
       "category": "github-update-report",
@@ -520,7 +550,8 @@
       "repoName": "agithub-trend-daily-writer",
       "repoUrl": "",
       "articleUrl": "./articles/github/2026-03-30-update-report.html",
-      "rank": 999
+      "rank": 999,
+      "createdAt": "2026-03-30T05:10:16+09:00"
     },
     {
       "category": "github-trending",
@@ -532,7 +563,8 @@
       "repoName": "hacksider/Deep-Live-Cam",
       "repoUrl": "https://github.com/hacksider/Deep-Live-Cam",
       "articleUrl": "./articles/github/2026-03-29-hacksider-deep-live-cam.html",
-      "rank": 1
+      "rank": 1,
+      "createdAt": "2026-03-29T15:32:45+09:00"
     },
     {
       "category": "github-trending",
@@ -544,7 +576,8 @@
       "repoName": "obra/superpowers",
       "repoUrl": "https://github.com/obra/superpowers",
       "articleUrl": "./articles/github/2026-03-29-obra-superpowers.html",
-      "rank": 2
+      "rank": 2,
+      "createdAt": "2026-03-29T15:32:45+09:00"
     },
     {
       "category": "github-trending",
@@ -556,7 +589,8 @@
       "repoName": "SakanaAI/AI-Scientist-v2",
       "repoUrl": "https://github.com/SakanaAI/AI-Scientist-v2",
       "articleUrl": "./articles/github/2026-03-29-sakanaai-ai-scientist-v2.html",
-      "rank": 3
+      "rank": 3,
+      "createdAt": "2026-03-29T15:33:56+09:00"
     },
     {
       "category": "github-trending",
@@ -568,7 +602,8 @@
       "repoName": "onyx-dot-app/onyx",
       "repoUrl": "https://github.com/onyx-dot-app/onyx",
       "articleUrl": "./articles/github/2026-03-29-onyx-dot-app-onyx.html",
-      "rank": 6
+      "rank": 6,
+      "createdAt": "2026-03-29T15:33:56+09:00"
     },
     {
       "category": "github-trending",
@@ -580,7 +615,8 @@
       "repoName": "datalab-to/chandra",
       "repoUrl": "https://github.com/datalab-to/chandra",
       "articleUrl": "./articles/github/2026-03-29-datalab-to-chandra.html",
-      "rank": 7
+      "rank": 7,
+      "createdAt": "2026-03-29T15:33:56+09:00"
     },
     {
       "category": "github-trending",
@@ -592,7 +628,8 @@
       "repoName": "apache/superset",
       "repoUrl": "https://github.com/apache/superset",
       "articleUrl": "./articles/github/2026-03-29-apache-superset.html",
-      "rank": 9
+      "rank": 9,
+      "createdAt": "2026-03-29T15:54:26+09:00"
     },
     {
       "category": "ai-tool-log",
@@ -616,7 +653,8 @@
       "repoName": "agithub-trend-daily-writer",
       "repoUrl": "",
       "articleUrl": "./articles/github/2026-03-29-update-report.html",
-      "rank": 999
+      "rank": 999,
+      "createdAt": "2026-03-29T15:59:21+09:00"
     },
     {
       "category": "github-pickup",
@@ -628,7 +666,8 @@
       "repoName": "microsoft/autogen",
       "repoUrl": "https://github.com/microsoft/autogen",
       "articleUrl": "./articles/github/2026-03-29-microsoft-autogen.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T16:55:44+09:00"
     },
     {
       "category": "github-pickup",
@@ -640,7 +679,8 @@
       "repoName": "continuedev/continue",
       "repoUrl": "https://github.com/continuedev/continue",
       "articleUrl": "./articles/github/2026-03-29-continuedev-continue.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T16:55:44+09:00"
     },
     {
       "category": "github-pickup",
@@ -652,7 +692,8 @@
       "repoName": "teng-lin/notebooklm-py",
       "repoUrl": "https://github.com/teng-lin/notebooklm-py",
       "articleUrl": "./articles/github/2026-03-29-teng-lin-notebooklm-py.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T16:55:44+09:00"
     },
     {
       "category": "github-pickup",
@@ -664,7 +705,8 @@
       "repoName": "gsd-build/get-shit-done",
       "repoUrl": "https://github.com/gsd-build/get-shit-done",
       "articleUrl": "./articles/github/2026-03-29-gsd-build-get-shit-done.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T16:55:44+09:00"
     },
     {
       "category": "github-pickup",
@@ -676,7 +718,8 @@
       "repoName": "anthropics/skills",
       "repoUrl": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
       "articleUrl": "./articles/github/2026-03-29-anthropics-skill-creator.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T16:55:44+09:00"
     },
     {
       "category": "github-pickup",
@@ -688,7 +731,8 @@
       "repoName": "TorchTrade/torchtrade",
       "repoUrl": "https://github.com/TorchTrade/torchtrade",
       "articleUrl": "./articles/github/2026-03-29-torchtrade.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T18:33:20+09:00"
     },
     {
       "category": "github-pickup",
@@ -700,7 +744,8 @@
       "repoName": "glincker/thesvg",
       "repoUrl": "https://github.com/glincker/thesvg",
       "articleUrl": "./articles/github/2026-03-29-thesvg.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T18:45:56+09:00"
     },
     {
       "category": "github-pickup",
@@ -712,7 +757,8 @@
       "repoName": "supabase/cli",
       "repoUrl": "https://github.com/supabase/cli",
       "articleUrl": "./articles/github/2026-03-29-supabase-cli.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T16:55:44+09:00"
     },
     {
       "category": "github-pickup",
@@ -724,7 +770,8 @@
       "repoName": "willhjw/ib_chart",
       "repoUrl": "https://github.com/willhjw/ib_chart",
       "articleUrl": "./articles/github/2026-03-29-willhjw-ib-chart.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T19:32:40+09:00"
     },
     {
       "category": "github-pickup",
@@ -736,7 +783,8 @@
       "repoName": "HKUDS/OpenSpace",
       "repoUrl": "https://github.com/HKUDS/OpenSpace",
       "articleUrl": "./articles/github/2026-03-29-hkuds-openspace.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T19:32:40+09:00"
     },
     {
       "category": "github-pickup",
@@ -748,7 +796,8 @@
       "repoName": "digitalsamba/claude-code-video-toolkit",
       "repoUrl": "https://github.com/digitalsamba/claude-code-video-toolkit",
       "articleUrl": "./articles/github/2026-03-29-digitalsamba-claude-code-video.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T19:32:40+09:00"
     },
     {
       "category": "github-pickup",
@@ -760,7 +809,8 @@
       "repoName": "OpenBB-finance/OpenBB",
       "repoUrl": "https://github.com/OpenBB-finance/OpenBB",
       "articleUrl": "./articles/github/2026-03-29-openbb.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T20:59:03+09:00"
     },
     {
       "category": "github-pickup",
@@ -772,7 +822,8 @@
       "repoName": "github/copilot-cli-for-beginners",
       "repoUrl": "https://github.com/github/copilot-cli-for-beginners",
       "articleUrl": "./articles/github/2026-03-29-copilot-cli-for-beginners.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T21:01:39+09:00"
     },
     {
       "category": "github-pickup",
@@ -784,7 +835,8 @@
       "repoName": "Panniantong/Agent-Reach",
       "repoUrl": "https://github.com/Panniantong/Agent-Reach",
       "articleUrl": "./articles/github/2026-03-29-panniantong-agent-reach.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T21:03:25+09:00"
     },
     {
       "category": "github-pickup",
@@ -796,7 +848,8 @@
       "repoName": "google-research/timesfm",
       "repoUrl": "https://github.com/google-research/timesfm",
       "articleUrl": "./articles/github/2026-03-29-google-research-timesfm.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T21:20:45+09:00"
     },
     {
       "category": "github-pickup",
@@ -808,7 +861,8 @@
       "repoName": "Visual-Agent/DeepEyesV2",
       "repoUrl": "https://github.com/Visual-Agent/DeepEyesV2",
       "articleUrl": "./articles/github/2026-03-29-deepeyesv2.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T21:26:40+09:00"
     },
     {
       "category": "github-pickup",
@@ -820,7 +874,8 @@
       "repoName": "AtomicBot-ai/Atomic-Chat",
       "repoUrl": "https://github.com/AtomicBot-ai/Atomic-Chat",
       "articleUrl": "./articles/github/2026-03-29-atomic-chat.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T21:28:49+09:00"
     },
     {
       "category": "github-pickup",
@@ -832,7 +887,8 @@
       "repoName": "logto-io/logto",
       "repoUrl": "https://github.com/logto-io/logto",
       "articleUrl": "./articles/github/2026-03-29-logto.html",
-      "rank": "ピックアップ"
+      "rank": "ピックアップ",
+      "createdAt": "2026-03-29T21:37:23+09:00"
     },
     {
       "category": "ai-tool-log",
@@ -892,7 +948,8 @@
       "repoName": "Yeachan-Heo/oh-my-claudecode",
       "repoUrl": "https://github.com/Yeachan-Heo/oh-my-claudecode",
       "articleUrl": "./articles/github/2026-03-27-Yeachan-Heo-oh-my-claudecode.html",
-      "rank": 2
+      "rank": 2,
+      "createdAt": "2026-03-27T05:20:45+09:00"
     },
     {
       "category": "github-trending",
@@ -904,7 +961,8 @@
       "repoName": "virattt/dexter",
       "repoUrl": "https://github.com/virattt/dexter",
       "articleUrl": "./articles/github/2026-03-27-virattt-dexter.html",
-      "rank": 3
+      "rank": 3,
+      "createdAt": "2026-03-27T05:20:45+09:00"
     },
     {
       "category": "github-trending",
@@ -916,7 +974,8 @@
       "repoName": "Vaibhavs10/insanely-fast-whisper",
       "repoUrl": "https://github.com/Vaibhavs10/insanely-fast-whisper",
       "articleUrl": "./articles/github/2026-03-27-Vaibhavs10-insanely-fast-whisper.html",
-      "rank": 6
+      "rank": 6,
+      "createdAt": "2026-03-27T05:20:45+09:00"
     },
     {
       "category": "github-trending",
@@ -928,7 +987,8 @@
       "repoName": "agentscope-ai/agentscope",
       "repoUrl": "https://github.com/agentscope-ai/agentscope",
       "articleUrl": "./articles/github/2026-03-27-agentscope-ai-agentscope.html",
-      "rank": 7
+      "rank": 7,
+      "createdAt": "2026-03-27T05:20:45+09:00"
     },
     {
       "category": "github-trending",
@@ -940,7 +1000,8 @@
       "repoName": "twentyhq/twenty",
       "repoUrl": "https://github.com/twentyhq/twenty",
       "articleUrl": "./articles/github/2026-03-27-twentyhq-twenty.html",
-      "rank": 8
+      "rank": 8,
+      "createdAt": "2026-03-27T05:20:45+09:00"
     },
     {
       "category": "ai-tool-log",
@@ -976,7 +1037,8 @@
       "repoName": "mvanhorn/last30days-skill",
       "repoUrl": "https://github.com/mvanhorn/last30days-skill",
       "articleUrl": "./articles/github/2026-03-26-mvanhorn-last30days-skill.html",
-      "rank": 1
+      "rank": 1,
+      "createdAt": "2026-03-26T10:07:57+09:00"
     },
     {
       "category": "github-trending",
@@ -988,7 +1050,8 @@
       "repoName": "ruvnet/ruflo",
       "repoUrl": "https://github.com/ruvnet/ruflo",
       "articleUrl": "./articles/github/2026-03-26-ruvnet-ruflo.html",
-      "rank": 6
+      "rank": 6,
+      "createdAt": "2026-03-26T10:04:33+09:00"
     },
     {
       "category": "github-trending",
@@ -1000,7 +1063,8 @@
       "repoName": "ruvnet/RuView",
       "repoUrl": "https://github.com/ruvnet/RuView",
       "articleUrl": "./articles/github/2026-03-26-ruvnet-ruview.html",
-      "rank": 8
+      "rank": 8,
+      "createdAt": "2026-03-26T10:07:57+09:00"
     },
     {
       "category": "github-trending",
@@ -1012,7 +1076,8 @@
       "repoName": "supermemoryai/supermemory",
       "repoUrl": "https://github.com/supermemoryai/supermemory",
       "articleUrl": "./articles/github/2026-03-26-supermemoryai-supermemory.html",
-      "rank": 9
+      "rank": 9,
+      "createdAt": "2026-03-26T10:07:57+09:00"
     },
     {
       "category": "github-trending",
@@ -1024,7 +1089,8 @@
       "repoName": "hsliuping/TradingAgents-CN",
       "repoUrl": "https://github.com/hsliuping/TradingAgents-CN",
       "articleUrl": "./articles/github/2026-03-26-hsliuping-tradingagents-cn.html",
-      "rank": 12
+      "rank": 12,
+      "createdAt": "2026-03-26T10:07:57+09:00"
     },
     {
       "category": "ai-tool-log",
@@ -1084,7 +1150,8 @@
       "repoName": "lucianlamp/CCCBot",
       "repoUrl": "https://github.com/lucianlamp/CCCBot",
       "articleUrl": "./articles/github/2026-03-26-cccbot.html",
-      "rank": 999
+      "rank": 999,
+      "createdAt": "2026-03-26T16:01:52+09:00"
     },
     {
       "category": "ai-tool-log",
@@ -1204,7 +1271,8 @@
       "repoName": "FujiwaraChoki/MoneyPrinterV2",
       "repoUrl": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
       "articleUrl": "./articles/github/2026-03-24-fujiwarachoki-moneyprinterv2.html",
-      "rank": 1
+      "rank": 1,
+      "createdAt": "2026-03-24T12:55:44+09:00"
     },
     {
       "category": "github-trending",
@@ -1216,7 +1284,8 @@
       "repoName": "bytedance/deer-flow",
       "repoUrl": "https://github.com/bytedance/deer-flow",
       "articleUrl": "./articles/github/2026-03-24-bytedance-deer-flow.html",
-      "rank": 2
+      "rank": 2,
+      "createdAt": "2026-03-24T12:34:14+09:00"
     },
     {
       "category": "github-trending",
@@ -1228,7 +1297,8 @@
       "repoName": "Crosstalk-Solutions/project-nomad",
       "repoUrl": "https://github.com/Crosstalk-Solutions/project-nomad",
       "articleUrl": "./articles/github/2026-03-24-crosstalk-solutions-project-nomad.html",
-      "rank": 3
+      "rank": 3,
+      "createdAt": "2026-03-24T12:55:44+09:00"
     },
     {
       "category": "github-trending",
@@ -1240,7 +1310,8 @@
       "repoName": "vxcontrol/pentagi",
       "repoUrl": "https://github.com/vxcontrol/pentagi",
       "articleUrl": "./articles/github/2026-03-24-vxcontrol-pentagi.html",
-      "rank": 4
+      "rank": 4,
+      "createdAt": "2026-03-24T12:55:44+09:00"
     },
     {
       "category": "github-trending",
@@ -1252,7 +1323,8 @@
       "repoName": "browser-use/browser-use",
       "repoUrl": "https://github.com/browser-use/browser-use",
       "articleUrl": "./articles/github/2026-03-24-browser-use-browser-use.html",
-      "rank": 5
+      "rank": 5,
+      "createdAt": "2026-03-24T12:55:44+09:00"
     },
     {
       "category": "github-trending",
@@ -1264,7 +1336,8 @@
       "repoName": "TauricResearch/TradingAgents",
       "repoUrl": "https://github.com/TauricResearch/TradingAgents",
       "articleUrl": "./articles/github/2026-03-24-tauricresearch-tradingagents.html",
-      "rank": 6
+      "rank": 6,
+      "createdAt": "2026-03-24T12:55:44+09:00"
     },
     {
       "category": "ai-tool-log",
