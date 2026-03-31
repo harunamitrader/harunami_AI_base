@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>cli-prompt-cron</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <article class="article-container">
+        <header class="article-header">
+            <h1 class="article-title">cli-prompt-cron: AI CLI 向け cron デーモン + ブラウザダッシュボード</h1>
+            <div class="article-meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">記事作成日</span>
+                    <span class="meta-value">2026-03-31</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">作成時順位</span>
+                    <span class="meta-value">ピックアップ</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">対象 repo</span>
+                    <span class="meta-value">harunamitrader/cli-prompt-cron</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="article-body">
+            <h2>これは何か</h2>
+            <p>cli-prompt-cron は、Gemini CLI、Codex、Claude Code といった AI CLI ツールに、スケジュール実行（cron）機能とブラウザベースの管理ダッシュボードを追加する軽量なデーモンツールです。標準でスケジュール機能を持たない AI CLI を、定時実行可能な自律型エージェントへと進化させることができます。</p>
+
+            <h2>何ができるか</h2>
+            <p>指定した cron スケジュールに従って AI CLI コマンドを自動実行し、その結果をテキストファイルとして保存します。また、専用のブラウザダッシュボードを通じて、登録されているジョブの一覧、実行中のプロセスのリアルタイム監視、ライブログの確認、過去の実行結果の閲覧が可能です。ジョブの追加や編集も、JSON ファイルを置くだけ、あるいはダッシュボード上の操作で完結します。</p>
+
+            <h2>目立つポイント</h2>
+            <p>最大の特徴は、AI 自身がジョブを管理できるように設計されている点です。付属の <code>skills/SKILL.md</code> を AI CLI に読み込ませることで、「毎朝9時にトレンドをまとめて」といった自然言語の指示だけで、AI が自らジョブを作成・変更・削除できます。また、ブラウザ UI は依存関係を最小限に抑えた Node.js 標準機能ベースで構築されており、非常に軽量かつ高速に動作します。</p>
+
+            <h2>セットアップや使い方の流れ</h2>
+            <p>Node.js 20 以上の環境でリポジトリをクローンし、<code>npm install</code> を実行するだけでセットアップが完了します。ジョブの登録は <code>./data/jobs/</code> ディレクトリに cron 式と実行コマンドを記述した JSON ファイルを配置するだけです。<code>npm start</code> を実行すれば、デーモンとダッシュボードサーバーが同時に起動し、ブラウザで管理画面が開きます。ホットリロードに対応しているため、動作中にジョブファイルを編集しても即座に反映されます。</p>
+
+            <h2>どんな人向けか</h2>
+            <p>AI CLI を日常のルーチンワーク（日報の作成、コードレビューの自動化、ニュースの要約など）に組み込みたい開発者に最適です。特に、複数の AI CLI を使い分けている場合や、ヘッドレスな環境で動作させているジョブの状況をブラウザから手軽に確認したい場合に強力な味方となります。自分専用の AI エージェント基盤を構築したい方にもおすすめです。</p>
+
+            <h2>注意点</h2>
+            <p>ジョブの実行時間はデフォルトで 60 分に設定されており、これを超えると無限ループ防止のために自動で強制停止されます。長時間かかるタスクを実行する場合は、環境変数でタイムアウト時間を調整する必要があります。また、Claude Code などの対話型ツールをスケジュール実行する際は、確認要求を抑制するオプション（<code>--system-prompt</code> 等）を適切に設定することが推奨されます。</p>
+
+            <h2>まとめ</h2>
+            <p>cli-prompt-cron は、シンプルながらも AI 時代の開発者が必要とする「定時実行」と「可視化」を高いレベルで統合したツールです。自然言語によるジョブ管理というエージェントフレンドリーな設計により、AI との共同作業をよりシームレスにし、自動化の幅を大きく広げてくれるでしょう。</p>
+
+            <h2>参照リンク</h2>
+            <ul>
+                <li><a href="https://github.com/trending">GitHub Trending</a></li>
+                <li><a href="https://github.com/harunamitrader/cli-prompt-cron">harunamitrader/cli-prompt-cron (GitHub)</a></li>
+            </ul>
+        </div>
+
+        <footer class="article-footer">
+            <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        </footer>
+    </article>
+</body>
+</html>

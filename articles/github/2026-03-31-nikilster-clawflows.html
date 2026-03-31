@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clawflows</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <article class="article-container">
+        <header class="article-header">
+            <h1 class="article-title">clawflows: OpenClaw エージェントに「スーパーパワー」を授ける強力なワークフローシステム</h1>
+            <div class="article-meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">記事作成日</span>
+                    <span class="meta-value">2026-03-31</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">作成時順位</span>
+                    <span class="meta-value">ピックアップ</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">対象 repo</span>
+                    <span class="meta-value">nikilster/clawflows</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="article-body">
+            <h2>これは何か</h2>
+            <p>
+                ClawFlows は、自律型 AI エージェントプラットフォーム「OpenClaw」のために設計された、高度なワークフロー管理システムです。AI エージェントにスケジュール実行や複雑なタスクの連鎖を教え込むための「スキル」の集合体であり、エージェントを単なる対話ツールから、24時間稼働する真の自律型アシスタントへと進化させます。
+            </p>
+
+            <h2>何ができるか</h2>
+            <p>
+                111種類を超えるプリセットワークフローが用意されており、ワンクリックで有効化できます。具体的な活用例としては、毎朝の天気・予定・ニュースをまとめる「モーニングブリーフィング」、受信トレイの不要なメールを自動整理する「メールプロセス」、会議前の参加者リサーチ、夜間のプロジェクト自動ビルド、さらにはスマートホームデバイスの制御まで、多岐にわたる自動化が可能です。
+            </p>
+
+            <h2>目立つポイント</h2>
+            <p>
+                最大の特徴は、ワークフローがプレーンな Markdown 形式（WORKFLOW.md）で記述されている点です。これにより、人間が内容を容易に理解・編集できるだけでなく、AI エージェント自身がワークフローを読み取り、解釈して実行することが極めてスムーズに行えます。また、専用のブラウザダッシュボードを備えており、視覚的にワークフローの有効・無効を切り替えたり、実行ログを確認したりできる点も非常にモダンで洗練されています。
+            </p>
+
+            <h2>セットアップや使い方の流れ</h2>
+            <p>
+                セットアップは非常にシンプルで、公式サイトから提供されている curl コマンドをターミナルで実行するか、OpenClaw エージェントに対して「ClawFlows をインストールして」と指示するだけで完了します。導入後は `clawflows dashboard` コマンドでダッシュボードを起動してブラウザから管理するか、`clawflows enable <name>` コマンドを使用して、使いたいワークフローを即座に有効化できます。
+            </p>
+
+            <h2>どんな人向けか</h2>
+            <p>
+                OpenClaw を導入しており、AI エージェントに日常的なルーチンワークを完全に任せたいと考えているパワーユーザーに最適です。また、自分専用の自動化フローをコードではなく、使い慣れた Markdown で管理したい開発者にとっても、非常に親和性の高いツールとなっています。
+            </p>
+
+            <h2>注意点</h2>
+            <p>
+                システムの整合性を保つため、`enabled/` フォルダへ直接ファイルを書き込むことは推奨されておらず、常に CLI ツール（clawflows create/enable 等）を介したシンボリックリンク運用が求められます。また、メールやカレンダー等の外部サービスと連携するワークフローを動かすには、それぞれの API 認証や環境設定が事前に行われている必要があります。
+            </p>
+
+            <h2>まとめ</h2>
+            <p>
+                ClawFlows は、AI エージェントの「使い道」を具体化し、誰でも恩恵を受けられる形にパッケージ化した素晴らしいエコシステムです。コミュニティ主導で増え続けるワークフローにより、OpenClaw ユーザーは複雑なプログラミングをすることなく、AI による高度な自動化ライフを手に入れることができるでしょう。
+            </p>
+
+            <h2>参照リンク</h2>
+            <ul>
+                <li><a href="https://github.com/trending" target="_blank">GitHub Trending</a></li>
+                <li><a href="https://github.com/nikilster/clawflows" target="_blank">GitHub - nikilster/clawflows</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        </footer>
+    </article>
+</body>
+</html>
