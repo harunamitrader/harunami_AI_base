@@ -7,6 +7,18 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-01-gemini-cli-v0-36-0-preview-7",
+      "title": "Gemini CLI v0.36.0-preview.7: 最新モデル Gemini Flash 3.1 Lite に対応",
+      "dek": "次世代高速モデル「Flash 3.1 Lite」への対応が開始。全ユーザがプレビューモデルを試用可能に。",
+      "summary": "Google の最新軽量モデル Gemini Flash 3.1 Lite にいち早く対応。エージェント機能の強化やプレビューモデルの一般開放を含む、注目のプレリリース版情報。",
+      "publishedAt": "2026-04-01",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-04-01-gemini-cli-v0-36-0-preview-7.html",
+      "rank": 999
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-03-31-nikilster-clawflows",
       "title": "clawflows",
