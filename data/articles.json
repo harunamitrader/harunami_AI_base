@@ -20,18 +20,6 @@
     },
     {
       "category": "github-pickup",
-      "slug": "2026-03-31-cli-prompt-cron",
-      "title": "cli-prompt-cron: AI CLI 向け cron デーモン + ブラウザダッシュボード",
-      "dek": "Gemini CLI や Claude Code にスケジュール実行機能を。JSON ベースのジョブ管理とリアルタイム監視を実現。",
-      "summary": "AI CLI ツールを定期実行するための軽量な cron スケジューラ。ブラウザからジョブの監視・制御が可能で、自然言語での管理もサポート。",
-      "publishedAt": "2026-03-31",
-      "repoName": "harunamitrader/cli-prompt-cron",
-      "repoUrl": "https://github.com/harunamitrader/cli-prompt-cron",
-      "articleUrl": "./articles/github/2026-03-31-cli-prompt-cron.html",
-      "rank": "ピックアップ"
-    },
-    {
-      "category": "github-pickup",
       "slug": "2026-03-31-trading-agents",
       "title": "TradingAgents: LLM マルチエージェントによる次世代金融取引フレームワーク",
       "dek": "LangGraph 基盤の自律エージェント軍が市場を多角分析。センチメント解析から取引判断までを自動化。",
