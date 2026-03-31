@@ -8,6 +8,42 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-01-gemini-impact-summit-2026",
+      "title": "Gemini Impact Summit 2026: Gemini 3.1 Flash Live & Veo 3.1 Lite 公開",
+      "dek": "AI Impact Summit 2026 にて、超低遅延対話モデルと高効率ビデオ生成モデルが発表。",
+      "summary": "AI Impact Summit 2026 のハイライト。Gemini 3.1 Flash Live による実時間マルチモーダル対話や、Veo 3.1 Lite によるビデオ生成の効率化などの情報を整理。",
+      "publishedAt": "2026-04-01",
+      "repoName": "google/gemini",
+      "repoUrl": "https://blog.google/technology/ai/",
+      "articleUrl": "./articles/tools/2026-04-01-gemini-impact-summit-2026.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-01-grok-4-fast-released",
+      "title": "Grok 4 Fast: 推論速度を極めた新モデルがリリース",
+      "dek": "xAI が最新の「Fast」モデルを公開。回答速度が大幅に向上し、API コストも削減。",
+      "summary": "xAI の最新モデル Grok 4 Fast のリリース情報をまとめ。生成速度の向上と開発者向け API コストの最適化について整理。",
+      "publishedAt": "2026-04-01",
+      "repoName": "xai/grok",
+      "repoUrl": "https://x.ai/blog",
+      "articleUrl": "./articles/tools/2026-04-01-grok-4-fast-released.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-03-31-notebooklm-epub-pptx-support",
+      "title": "NotebookLM: EPUB アップロード対応と PPTX 書き出し機能を導入",
+      "dek": "電子書籍ファイルへの質問が可能に。解析結果からプレゼン資料の直接生成も実現。",
+      "summary": "NotebookLM の 2026-03-31 アップデート。EPUB ファイル対応によるソース管理の強化と、PPTX エクスポートによるアウトプットの効率化を詳報。",
+      "publishedAt": "2026-03-31",
+      "repoName": "google/notebooklm",
+      "repoUrl": "https://blog.google/technology/ai/notebooklm-updates/",
+      "articleUrl": "./articles/tools/2026-03-31-notebooklm-epub-pptx-support.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-01-gemini-cli-v0-36-0-preview-7",
       "title": "Gemini CLI v0.36.0-preview.7: 最新モデル Gemini Flash 3.1 Lite に対応",
       "dek": "次世代高速モデル「Flash 3.1 Lite」への対応が開始。全ユーザがプレビューモデルを試用可能に。",
