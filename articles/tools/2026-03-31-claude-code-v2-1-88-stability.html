@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.88 の更新内容を日本語で整理した記事。PowerShell 対応や長時間セッションの安定化を中心に確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.88: Windows と長時間セッションの安定性を強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.88: Windows と長時間セッションの安定性を強化</h1>
+      <p class="article-dek">PowerShell 周りの誤判定修正、Auto Mode 拒否後のフック追加、長時間実行時のメモリ・表示不具合の解消が中心です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-03-31</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.88</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic の GitHub Releases によると、Claude Code v2.1.88 では機能追加よりも安定性と運用性の改善が前面に出ています。特に Windows / PowerShell 利用者と、長時間の対話セッションを回すユーザーに効く修正が多い構成です。</p>
+        <p>新機能としては、Auto Mode の分類器がコマンドを拒否した直後に動く <code>PermissionDenied</code> フックが追加されました。フック側が <code>{retry: true}</code> を返せるため、権限制御を組み込んだワークフローをより細かく設計できます。</p>
+
+        <h2>実務で効くポイント</h2>
+        <p>Windows まわりでは、Edit / Write ツールの CRLF 二重化、PowerShell で <code>git push</code> の進捗が stderr に出た際の失敗誤判定、Shift+Enter の改行挙動などが修正されました。日常運用で引っかかりやすい細かな不具合がまとまって解消されています。</p>
+        <p>さらに、長時間セッションでの prompt cache miss、巨大 JSON の保持によるメモリリーク、1GiB 超ファイル編集時のクラッシュ、スクロールバック消失なども修正対象です。常時稼働や大規模リポジトリでの利用時に、体感の安定性が上がる更新と見てよさそうです。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.88 は派手な新機能よりも、Auto Mode 周辺の拡張と基盤品質の底上げに比重を置いたリリースです。既に Claude Code を実務投入しているチームほど恩恵を受けやすい更新です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.88" target="_blank" rel="noreferrer">Claude Code v2.1.88 Release</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
