@@ -8,6 +8,18 @@
     "articles":  [
                      {
                          "category":  "github-pickup",
+                         "slug":  "2026-04-01-instructkr-claw-code",
+                         "title":  "claw-code",
+                         "dek":  "Claude Code 系ハーネスの構造を Python で追い直しつつ、Rust 実装への移行も進めている研究色の強い再実装プロジェクト。",
+                         "summary":  "instructkr/claw-code は、Claude Code 系ハーネスの設計を観察しながら、Python ベースのクリーンルーム再実装と Rust 版統合を進める公開リポジトリです。マニフェスト出力やパリティ監査など、移植状況を確認する CLI 群が整理されています。",
+                         "publishedAt":  "2026-04-01",
+                         "createdAt":  "2026-04-01T21:05:00+09:00",
+                         "repoName":  "instructkr/claw-code",
+                         "repoUrl":  "https://github.com/instructkr/claw-code",
+                         "articleUrl":  "./articles/github/2026-04-01-instructkr-claw-code.html"
+                     },
+                     {
+                         "category":  "github-pickup",
                          "slug":  "2026-04-01-paoloanzn-free-code",
                          "title":  "free-code",
                          "dek":  "AnthropicのAIコーディングアシスタントClaude Codeのテレメトリやガードレールを解除し、全ての実験的機能を有効化した非公式フリービルд。",
