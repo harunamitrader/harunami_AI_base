@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Apr 2026 09:15:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 18:47:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[terminal-use]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-flipbit03-terminal-use.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-flipbit03-terminal-use.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントが GUI なしで terminal UI を起動し、画面を見てキー入力できる仮想ターミナル。]]></description>
+    </item>
     <item>
       <title><![CDATA[yt-short-clipper]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-jipraks-yt-short-clipper.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[拡張性とユーザビリティに焦点を当てた、Vimから派生した次世代テキストエディタ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-dimillian-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-dimillian-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIコーディングアシスタント向けの、再利用可能なカスタム「スキル」プロンプト集。]]></description>
     </item>
   </channel>
 </rss>

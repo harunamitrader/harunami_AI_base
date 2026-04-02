@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-02-flipbit03-terminal-use",
+                        "title":  "terminal-use",
+                        "dek":  "AI エージェントが GUI なしで terminal UI を起動し、画面を見てキー入力できる仮想ターミナル。",
+                        "summary":  "flipbit03/terminal-use は、PTY と vt100 エミュレータを使って terminal UI を headless に扱い、AI エージェントから画面取得、キー送信、セッション監視を行える仮想ターミナル CLI です。",
+                        "publishedAt":  "2026-04-02",
+                        "createdAt":  "2026-04-02T18:45:08+09:00",
+                        "repoName":  "flipbit03/terminal-use",
+                        "repoUrl":  "https://github.com/flipbit03/terminal-use",
+                        "articleUrl":  "./articles/github/2026-04-02-flipbit03-terminal-use.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-02-jipraks-yt-short-clipper",
                         "title":  "yt-short-clipper",
                         "dek":  "長い YouTube 動画から、Shorts や Reels 向けの縦型クリップを AI でまとめて作れる自動編集ツール。",

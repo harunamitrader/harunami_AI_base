@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="flipbit03/terminal-use を読み、AI エージェント向けのヘッドレス仮想ターミナルを実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>terminal-use</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">terminal-use</h1>
+      <p class="article-dek">AI エージェントが GUI なしで terminal UI を起動し、画面を見てキー入力できる仮想ターミナル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/flipbit03/terminal-use" target="_blank" rel="noreferrer">
+              flipbit03/terminal-use
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>terminal-use</code> は、AI エージェント向けのヘッドレス仮想ターミナル CLI です。README では「interactive terminal apps を spawn し、screen を読み、keystrokes を送れる」と説明されており、GUI や X server なしで ncurses 系アプリを扱えるようにします。</p>
+
+        <h2>何ができるか</h2>
+        <p><code>htop</code>、<code>vim</code>、<code>mc</code>、dialog ベースのインストーラのような TUI を仮想端末で起動し、描画された画面を取得して、AI エージェント側からキー入力を送れます。加えて <code>tu monitor</code> で別端末からセッション監視もでき、複数セッションの切り替えやリサイズにも対応します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特徴は、標準入出力の単純な pipe では扱えない terminal UI を、PTY と <code>vt100</code> エミュレータを介して stateless な CLI として公開している点です。構成は CLI から Unix socket 越しに daemon へ接続し、daemon が PTY と terminal emulator を管理する形で、初回利用時の自動起動と 8 時間無操作後の自動終了も整理されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は prebuilt binary を install script で入れるか、Rust 環境から <code>cargo install terminal-use</code> で入れます。利用時はまず <code>tu usage</code> でコマンド体系を確認し、その後に対象アプリを仮想端末で起動して、必要なら別ターミナルで <code>tu monitor</code> を開いて挙動を追う流れが分かりやすいです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AI エージェントにブラウザだけでなく terminal UI も触らせたい人に向いています。特にサーバー上の TUI 操作、インストーラの対話画面、ゲームや運用ツールの自動操作のように、GUI なし環境で画面状態を見ながら進めたい用途と相性がよさそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README によると prebuilt binary は Linux と macOS 向けで、実装も Unix socket 前提なので、Windows ネイティブ利用はそのままでは難しい可能性があります。また terminal UI の操作はキー送信単位の制御になるため、高速な画面変化や複雑な状態管理ではエージェント側の観測設計が重要です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>terminal-use</code> は、AI エージェントに「本物の terminal を触らせる」ための薄くて実用的な基盤です。TUI がボトルネックになっていた自動化や検証フローでは、かなり面白い選択肢になりそうです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/flipbit03/terminal-use" target="_blank" rel="noreferrer">flipbit03/terminal-use</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/flipbit03/terminal-use" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
