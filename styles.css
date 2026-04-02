@@ -270,13 +270,18 @@ p {
 }
 
 .star-toggle {
+  appearance: none;
+  -webkit-appearance: none;
   flex: 0 0 auto;
   width: 40px;
   height: 40px;
+  padding: 0;
   border: none;
   border-radius: 999px;
   background: transparent;
   color: #94a3b8;
+  box-shadow: none;
+  font-family: inherit;
   font-size: 1.25rem;
   line-height: 1;
   cursor: pointer;
@@ -287,6 +292,15 @@ p {
   transform: translateY(-1px);
   color: #64748b;
   background: transparent;
+}
+
+.star-toggle:focus,
+.star-toggle:active {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
 }
 
 .star-toggle.is-active {
