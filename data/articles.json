@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-03-openagents-org-openagents",
+                        "title":  "openagents",
+                        "dek":  "Claude Code や Codex など複数の AI エージェントを、1 つの共有ワークスペースでまとめて動かせる協調基盤。",
+                        "summary":  "openagents-org/openagents は、複数の AI エージェントを 1 つの workspace URL に集約し、共有スレッド、共有ファイル、共有ブラウザを通して協調作業させるオープンソース基盤です。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T04:31:21+09:00",
+                        "repoName":  "openagents-org/openagents",
+                        "repoUrl":  "https://github.com/openagents-org/openagents",
+                        "articleUrl":  "./articles/github/2026-04-03-openagents-org-openagents.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-03-tradesdontlie-tradingview-mcp",
                         "title":  "tradingview-mcp",
                         "dek":  "Claude Code などの AI から、自分の TradingView Desktop チャートを読み書きできる MCP ブリッジ。",
