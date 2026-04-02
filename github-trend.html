@@ -110,8 +110,10 @@
 
     <script>
       (async function () {
+        const starredStorageKey = "harunami-ai-base-starred-articles";
         const response = await fetch(`./data/articles.json?t=${Date.now()}`, { cache: "no-store" });
         const payload = await response.json();
+        const starredSlugs = loadStarredSlugs();
         const all = payload.articles
           .map((article, index) => ({ ...article, __index: index }))
           .sort((a, b) => {
@@ -170,6 +172,7 @@
         trendingEl.innerHTML = trending.length === 0
           ? '<div class="archive-item"><h3>まだ記事がありません。</h3></div>'
           : trending.map(a => renderArticle(a)).join("");
+        attachStarHandlers(trendingEl);
 
         // Pickup
         const pickupStatsEl = document.getElementById("site-stats-pickup");
@@ -182,6 +185,7 @@
         pickupEl.innerHTML = pickup.length === 0
           ? '<div class="archive-item" style="border: 1px dashed var(--line); text-align: center; color: var(--text-muted);"><h3>まだ記事がありません</h3><p>気になったリポジトリの解析記事がここに追加されます。</p></div>'
           : pickup.map(a => renderArticle(a)).join("");
+        attachStarHandlers(pickupEl);
 
         // Report
         const reportEl = document.getElementById("articles-report");
@@ -195,6 +199,7 @@
           reportEl.innerHTML = report.length === 0
             ? '<div class="archive-item" style="border: 1px dashed var(--line); text-align: center; color: var(--text-muted);"><h3>まだレポートがありません</h3><p>更新作業のログがここに追加されます。</p></div>'
             : report.map(a => renderArticle(a)).join("");
+          attachStarHandlers(reportEl);
         }
 
         // Tabs
@@ -211,17 +216,77 @@
           const deck = article.dek ?? article.summary ?? "詳細情報はありません。";
           const published = article.publishedAt || "不明";
           const rankTag = article.rank && article.rank < 99 ? `<span class="rank-label">${article.rank}</span>` : "";
+          const isStarred = starredSlugs.has(article.slug);
           return `
-            <a class="archive-item card-link-box" href="${article.articleUrl}">
-              <h3>${article.title}</h3>
-              <div class="archive-meta">
-                <span>${published}</span>
-                ${rankTag}
-                <span>${article.repoName}</span>
+            <div class="archive-item article-card">
+              <div class="article-card-head">
+                <a class="card-link-box article-card-link" href="${article.articleUrl}">
+                  <h3>${article.title}</h3>
+                  <div class="archive-meta">
+                    <span>${published}</span>
+                    ${rankTag}
+                    <span>${article.repoName}</span>
+                  </div>
+                  <p>${deck}</p>
+                </a>
+                ${renderStarButton(article.slug, isStarred)}
               </div>
-              <p>${deck}</p>
-            </a>
+            </div>
           `;
+        }
+
+        function renderStarButton(slug, isStarred) {
+          const label = isStarred ? "★" : "☆";
+          const pressed = isStarred ? "true" : "false";
+          const title = isStarred ? "スターを外す" : "スターを付ける";
+          const activeClass = isStarred ? " is-active" : "";
+          return `
+            <button
+              class="star-toggle${activeClass}"
+              type="button"
+              data-star-slug="${slug}"
+              aria-pressed="${pressed}"
+              title="${title}"
+            >${label}</button>
+          `;
+        }
+
+        function loadStarredSlugs() {
+          try {
+            const raw = window.localStorage.getItem(starredStorageKey);
+            const parsed = raw ? JSON.parse(raw) : [];
+            return new Set(Array.isArray(parsed) ? parsed : []);
+          } catch {
+            return new Set();
+          }
+        }
+
+        function saveStarredSlugs(next) {
+          window.localStorage.setItem(
+            starredStorageKey,
+            JSON.stringify([...next].sort())
+          );
+        }
+
+        function attachStarHandlers(root) {
+          root.querySelectorAll("[data-star-slug]").forEach((button) => {
+            button.addEventListener("click", (event) => {
+              event.preventDefault();
+              event.stopPropagation();
+              const next = loadStarredSlugs();
+              const slug = button.dataset.starSlug;
+              if (next.has(slug)) {
+                next.delete(slug);
+              } else {
+                next.add(slug);
+              }
+              saveStarredSlugs(next);
+              button.textContent = next.has(slug) ? "★" : "☆";
+              button.classList.toggle("is-active", next.has(slug));
+              button.setAttribute("aria-pressed", next.has(slug) ? "true" : "false");
+              button.setAttribute("title", next.has(slug) ? "スターを外す" : "スターを付ける");
+            });
+          });
         }
       })();
     </script>
