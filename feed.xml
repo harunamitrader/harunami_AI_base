@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Apr 2026 08:41:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 17:43:07 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ccremote]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-generativereality-ccremote.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-generativereality-ccremote.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code の承認待ちやクォータ待ちを Discord と tmux で遠隔処理しやすくする監視 CLI。]]></description>
+    </item>
     <item>
       <title><![CDATA[claude-token-efficient]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-drona23-claude-token-efficient.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PDFや画像をAI用の構造化データに変換する、強力・軽量なOCRツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agent-lightning]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-microsoft-agent-lightning.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-microsoft-agent-lightning.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントを最適化し、パフォーマンスを向上させるための「究極のトレーナー」ツール。]]></description>
     </item>
   </channel>
 </rss>
