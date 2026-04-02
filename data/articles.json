@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-02-jipraks-yt-short-clipper",
+                        "title":  "yt-short-clipper",
+                        "dek":  "長い YouTube 動画から、Shorts や Reels 向けの縦型クリップを AI でまとめて作れる自動編集ツール。",
+                        "summary":  "jipraks/yt-short-clipper は、YouTube 動画の取得、AI による見どころ抽出、縦動画化、字幕生成、フック作成、SEO 文面生成までをまとめて処理できる短尺動画化パイプラインです。",
+                        "publishedAt":  "2026-04-02",
+                        "createdAt":  "2026-04-02T18:10:48+09:00",
+                        "repoName":  "jipraks/yt-short-clipper",
+                        "repoUrl":  "https://github.com/jipraks/yt-short-clipper",
+                        "articleUrl":  "./articles/github/2026-04-02-jipraks-yt-short-clipper.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-02-generativereality-ccremote",
                         "title":  "ccremote",
                         "dek":  "Claude Code の承認待ちやクォータ待ちを Discord と tmux で遠隔処理しやすくする監視 CLI。",

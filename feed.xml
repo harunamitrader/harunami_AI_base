@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Apr 2026 08:45:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 18:13:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[yt-short-clipper]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-jipraks-yt-short-clipper.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-jipraks-yt-short-clipper.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[長い YouTube 動画から、Shorts や Reels 向けの縦型クリップを AI でまとめて作れる自動編集ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[ccremote]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-generativereality-ccremote.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIコーディングアシスタント向けの、再利用可能なカスタム「スキル」プロンプト集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[PaddleOCR]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-paddlepaddle-paddleocr.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-paddlepaddle-paddleocr.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PDFや画像をAI用の構造化データに変換する、強力・軽量なOCRツールキット。]]></description>
     </item>
   </channel>
 </rss>
