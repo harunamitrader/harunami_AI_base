@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-02-anand-swamy-stockbot",
+                        "title":  "stockbot",
+                        "dek":  "Yahoo Finance の株価データと Alpaca の紙上取引を使い、テクニカル分析で自動売買を試せるシンプルな stock bot。",
+                        "summary":  "Anand-Swamy/stockbot は、Yahoo Finance で価格データを取得し、テクニカル分析ベースで売買判断を行い、Alpaca の paper trading と Discord 通知までつなげた小さなアルゴリズム売買 bot です。",
+                        "publishedAt":  "2026-04-02",
+                        "createdAt":  "2026-04-02T20:56:25+09:00",
+                        "repoName":  "Anand-Swamy/stockbot",
+                        "repoUrl":  "https://github.com/Anand-Swamy/stockbot",
+                        "articleUrl":  "./articles/github/2026-04-02-anand-swamy-stockbot.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-02-flipbit03-terminal-use",
                         "title":  "terminal-use",
                         "dek":  "AI エージェントが GUI なしで terminal UI を起動し、画面を見てキー入力できる仮想ターミナル。",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Apr 2026 09:49:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 20:57:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[stockbot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-anand-swamy-stockbot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-anand-swamy-stockbot.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Yahoo Finance の株価データと Alpaca の紙上取引を使い、テクニカル分析で自動売買を試せるシンプルな stock bot。]]></description>
+    </item>
     <item>
       <title><![CDATA[terminal-use]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-flipbit03-terminal-use.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[領収書をLLMで解析し、自動でカテゴリ分けするセルフホスト可能なAI会計アプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[neovim]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-neovim-neovim.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-01-neovim-neovim.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[拡張性とユーザビリティに焦点を当てた、Vimから派生した次世代テキストエディタ。]]></description>
     </item>
   </channel>
 </rss>
