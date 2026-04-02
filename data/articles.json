@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-02-jjongguet-oh-my-gemini",
+                        "title":  "oh-my-gemini",
+                        "dek":  "Gemini CLI にチーム実行、検証、進捗監視をまとめて足せるマルチエージェント運用ツール。",
+                        "summary":  "jjongguet/oh-my-gemini は、Gemini CLI に対して team run、verify、HUD、doctor、slash command 群を追加し、複数ワーカー実行と状態管理を実務向けに整理する拡張プロジェクトです。",
+                        "publishedAt":  "2026-04-02",
+                        "createdAt":  "2026-04-02T16:22:20+09:00",
+                        "repoName":  "jjongguet/oh-my-gemini",
+                        "repoUrl":  "https://github.com/jjongguet/oh-my-gemini",
+                        "articleUrl":  "./articles/github/2026-04-02-jjongguet-oh-my-gemini.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-02-d4vinci-scrapling",
                         "title":  "Scrapling",
                         "dek":  "単発取得から大規模クロールまでを Python でまとめて扱える、適応型の Web スクレイピング基盤。",
