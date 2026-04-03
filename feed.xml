@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 20:11:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 05:10:52 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[WorldGen]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-ziyang-xie-worldgen-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-ziyang-xie-worldgen-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[テキストや画像から、数秒で自由に見回せる 3D シーンを生成できる World モデル基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[onyx]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-onyx-dot-app-onyx-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[2026-04-02 の nightly では、起動クリーンアップの並列化や subagent 設定の即時反映など、日常運用に近い改善が入りました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: Organization custom instructions が一般提供開始]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-github-copilot-org-custom-instructions-ga.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-github-copilot-org-custom-instructions-ga.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Copilot Business / Enterprise 管理者が、組織全体の既定指示を github.com や code review、cloud agent に横断適用できるようになりました。]]></description>
     </item>
   </channel>
 </rss>

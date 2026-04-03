@@ -8,6 +8,19 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-04-ziyang-xie-worldgen-pickup",
+            "title": "WorldGen",
+            "dek": "テキストや画像から、数秒で自由に見回せる 3D シーンを生成できる World モデル基盤。",
+            "summary": "ZiYang-xie/WorldGen は、text-to-scene と image-to-scene の両方に対応し、360° 探索可能な 3D scene を数秒で生成できる world generation 基盤です。",
+            "publishedAt": "2026-04-04",
+            "createdAt": "2026-04-04T00:20:00+09:00",
+            "repoName": "ZiYang-xie/WorldGen",
+            "repoUrl": "https://github.com/ZiYang-xie/WorldGen",
+            "articleUrl": "./articles/github/pickup/2026-04-04-ziyang-xie-worldgen-pickup.html",
+            "serial": 62
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-04-onyx-dot-app-onyx-pickup",
             "title": "onyx",
             "dek": "RAG、Deep Research、Agents、MCP、Code Execution を 1 つにまとめたオープンソース AI プラットフォーム。",
