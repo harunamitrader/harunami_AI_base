@@ -5,92 +5,92 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 03:06:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 18:15:13 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[poco-claw]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-poco-ai-poco-claw.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-poco-ai-poco-claw.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-poco-ai-poco-claw.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-poco-ai-poco-claw.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenClaw より見やすい UI と安全な sandbox を前面に出した、Claude Code 系 agent アプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[Recordly]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-webadderall-recordly.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-webadderall-recordly.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-webadderall-recordly.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-webadderall-recordly.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[録画してすぐ編集に入り、そのまま見栄えのよいデモ動画まで作れるオープンソースアプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[2026-04-03 更新レポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-update-report.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-update-report.html</guid>
       <category>github-update-report</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[3件のトレンド記事を追加しました。]]></description>
     </item>
     <item>
       <title><![CDATA[openscreen]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-siddharthvaddem-openscreen-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-siddharthvaddem-openscreen-pickup.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-siddharthvaddem-openscreen-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-siddharthvaddem-openscreen-pickup.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Screen Studio 風の録画と編集を、無料でまとめて試せるデモ動画アプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[hermes-agent-self-evolution]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-nousresearch-hermes-agent-self-evolution.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-nousresearch-hermes-agent-self-evolution.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-nousresearch-hermes-agent-self-evolution.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-nousresearch-hermes-agent-self-evolution.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Hermes Agent の skill や prompt を、実行結果を見ながら自動改善する進化基盤。]]></description>
     </item>
     <item>
       <title><![CDATA[clawgod]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-0chencc-clawgod.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-0chencc-clawgod.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-0chencc-clawgod.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-0chencc-clawgod.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[公式 Claude Code に追加コマンドや制限解除を差し込むランタイムパッチ。]]></description>
     </item>
     <item>
       <title><![CDATA[skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-minimax-ai-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-minimax-ai-skills.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-minimax-ai-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-minimax-ai-skills.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code や Codex、Cursor などにまとめて足せる、実務向けの開発スキル集。]]></description>
     </item>
     <item>
       <title><![CDATA[openscreen]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-siddharthvaddem-openscreen.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-siddharthvaddem-openscreen.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Screen Studio 風のデモ動画を、無料かつオープンソースで作れる画面録画アプリ。]]></description>
     </item>
     <item>
       <title><![CDATA[oh-my-codex]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-yeachan-heo-oh-my-codex.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-yeachan-heo-oh-my-codex.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-yeachan-heo-oh-my-codex.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-yeachan-heo-oh-my-codex.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex CLI に、計画承認や並列実行まで含む定型ワークフローを足せる運用レイヤー。]]></description>
     </item>
     <item>
       <title><![CDATA[system_prompts_leaks]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-asgeirtj-system-prompts-leaks.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-asgeirtj-system-prompts-leaks.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-asgeirtj-system-prompts-leaks.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-asgeirtj-system-prompts-leaks.html</guid>
       <category>github-trending</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ChatGPT や Claude、Gemini など主要 AI 製品の system prompt を横断して読める収集リポジトリ。]]></description>
     </item>
     <item>
       <title><![CDATA[openagents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-openagents-org-openagents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-openagents-org-openagents.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-openagents-org-openagents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-openagents-org-openagents.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code や Codex など複数の AI エージェントを、1 つの共有ワークスペースでまとめて動かせる協調基盤。]]></description>
@@ -105,16 +105,16 @@
     </item>
     <item>
       <title><![CDATA[tradingview-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-tradesdontlie-tradingview-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-tradesdontlie-tradingview-mcp.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-tradesdontlie-tradingview-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-tradesdontlie-tradingview-mcp.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code などの AI から、自分の TradingView Desktop チャートを読み書きできる MCP ブリッジ。]]></description>
     </item>
     <item>
       <title><![CDATA[clawless]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-open-gitagent-clawless.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-open-gitagent-clawless.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-open-gitagent-clawless.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-03-open-gitagent-clawless.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claw 系 AI エージェントを、サーバーなしでブラウザ内だけで動かせる WebContainers ベースの実行基盤。]]></description>
@@ -153,16 +153,16 @@
     </item>
     <item>
       <title><![CDATA[stockbot]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-anand-swamy-stockbot.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-anand-swamy-stockbot.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-02-anand-swamy-stockbot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-02-anand-swamy-stockbot.html</guid>
       <category>github-pickup</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Yahoo Finance の株価データと Alpaca の紙上取引を使い、テクニカル分析で自動売買を試せるシンプルな stock bot。]]></description>
     </item>
     <item>
       <title><![CDATA[terminal-use]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-flipbit03-terminal-use.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-flipbit03-terminal-use.html</guid>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-02-flipbit03-terminal-use.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-02-flipbit03-terminal-use.html</guid>
       <category>github-pickup</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI エージェントが GUI なしで terminal UI を起動し、画面を見てキー入力できる仮想ターミナル。]]></description>

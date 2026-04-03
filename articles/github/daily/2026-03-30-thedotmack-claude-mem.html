@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="thedotmack/claude-mem を読み、Claude Code に長期記憶（RAG）を追加する強力なプラグインについて整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-mem</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-mem</h1>
+      <p class="article-serial">Daily #027</p>
+      <p class="article-dek">Claude Code に爆速の「長期記憶」を授ける。セッションを自動記録・要約し、文脈を維持し続ける非公式プラグイン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>7位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noreferrer">
+              thedotmack/claude-mem
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic のコーディングエージェント「Claude Code」を使用している際、セッションを跨ぐと「さっき何をしていたか」を忘れてしまうという課題を解決するために作られた、非常に強力な非公式プラグインです。背後で動作するベクトルデータベース（Chroma）と RAG（検索拡張生成）技術を組み合わせることで、Claude Code に「永続的な長期記憶」を持たせることができます。リリースから数日で 4 万スターを突破した、驚異的な注目度のリポジトリです。</p>
+
+        <h2>何ができるか</h2>
+        <p>コーディングセッション中の会話や、AI が行ったコード変更の履歴を自動的にバックグラウンドで記録し、AI によって自動的に要約・タグ付けを行います。再度プロジェクトを開いた際、Claude Code は過去の決定事項やコンテキストを瞬時に「思い出す」ことができ、一貫性のある作業継続が可能になります。また、Cursor 等の他の主要な AI IDE とも連携でき、エディタ上の作業とターミナル上のエージェント作業の文脈を統合できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>とにかく「速い」こと、そして「インストールが極めて簡単」であることです。RAG の仕組みは一般に複雑ですが、このプラグインは開発者のワークフローを邪魔しないシームレスな統合を実現しています。また、オープンソースでありながら、ベクトル検索による高度なコンテキストの再注入を自動で行うため、ユーザーは「記憶」について意識することなく、エージェントの賢さが向上したかのように感じられます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>ターミナルから `curl -fsSL install.cmem.ai | bash` というワンラインコマンドを実行するだけで、必要なベクトル DB も含めて自動インストールされます。その後、Claude Code 起動時にプラグインとして読み込ませれば、すぐに自動記録が開始されます。過去の履歴を検索したい場合は、特定のコマンドやプロンプトを通じてエージェントに「過去の〇〇について教えて」と聞くだけで、過去の文脈を引き出してくれます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code を毎日の開発業務に本格的に導入しており、日々発生する大量の文脈（仕様決定、デバッグの過程等）を AI に「理解（記憶）」させたまま、長期的なプロジェクトを進めたいパワーユーザーに最適です。複数のプロジェクトやタスクを並行して進める際に、文脈のリセットに悩まされているエンジニアにも強力な武器となるでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>非公式のツールであるため、Anthropic の公式アップデートによる影響を受ける可能性があります。また、ローカル環境のベクトルデータベース（Chroma DB）にデータを保存して検索するため、メモリやディスクリソースを一定以上消費します。大規模なプロジェクト履歴を蓄積する場合は、リソース使用量に注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「claude-mem」は、AI エージェントが「忘却」という最大の弱点を克服するための画期的な解決策です。このツールを導入することで、AI との対話は「単発の指示」から「連続した協力関係」へと進化します。Claude Code ユーザーなら一度は試すべき、エージェント体験を根底から変えるプラグインです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noreferrer">thedotmack/claude-mem</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

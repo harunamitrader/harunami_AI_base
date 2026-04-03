@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="bytedance/deer-flow を読み、AI エージェント実行基盤として何が強いのかを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>deer-flow</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">deer-flow</h1>
+      <p class="article-serial">Daily #001</p>
+      <p class="article-dek">AI エージェントを長く動かすための実行基盤に寄った OSS。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>2位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noreferrer">
+              bytedance/deer-flow
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          deer-flow は、単体アプリというより AI エージェントを動かすための実行基盤として設計された OSS です。
+          sandbox、memory、tool、skill、subagent のような要素が前に出ていて、機能より基盤の層に重心があります。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          README と公開情報を見る限り、複数ステップの推論、外部ツール呼び出し、状態保持、権限制御まで含めて
+          エージェントを継続実行するための土台をまとめて持っています。チャット UI そのものより、裏側の運転席を作る repo です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          目立つのは、単なるワークフロー自動化ではなく、エージェント運用に必要な周辺部品をかなり広く抱えている点です。
+          ここがあると、利用側は個別機能ではなく実行環境全体を組み立てやすくなります。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          実際に使う場合は、モデル設定、ツール設定、実行権限、状態保存先の整理が重要になります。
+          つまり導入で効くのは UI の分かりやすさより、運用ルールと環境設計のほうです。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          既存 LLM を使って複数ステップのタスク実行基盤を組みたい人にはかなり向いています。
+          逆に、すぐ完成品アプリを使いたい人には少し基盤寄りすぎます。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          基盤系 repo は、見た目以上に権限設計と失敗時の挙動が大事です。便利に見えても、
+          運用側が監視や安全策を持たないと一気に扱いづらくなります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          deer-flow は、AI 機能を見せる repo ではなく、AI エージェントを長く安全に走らせるための土台として伸びている印象でした。
+          Trending 上位にいるのも、今の関心がアプリより運用基盤に寄っていることをよく示しています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noreferrer">bytedance/deer-flow</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

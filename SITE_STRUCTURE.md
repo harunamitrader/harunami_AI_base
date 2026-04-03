@@ -139,14 +139,17 @@ harunami_ai_base/
       "repoName": "owner/repo",
       "repoUrl": "https://...",
       "articleUrl": "./articles/tools/YYYY-MM-DD-xxx.html"
-                  | "./articles/github/YYYY-MM-DD-xxx.html"
+                  | "./articles/github/pickup/YYYY-MM-DD-xxx.html"
+                  | "./articles/github/daily/YYYY-MM-DD-xxx.html"
     }
   ]
 }
 ```
 
 - `category: "ai-tool-log"` → `articleUrl`: `./articles/tools/`
-- `category: "github-trending"` → `articleUrl`: `./articles/github/`
+- `category: "github-trending"` → `articleUrl`: `./articles/github/daily/`
+- `category: "github-update-report"` → `articleUrl`: `./articles/github/daily/`
+- `category: "github-pickup"` → `articleUrl`: `./articles/github/pickup/`
 - `createdAt` は同日内の並び順を決める記事作成時刻（ISO 8601）として使う
 
 ---
@@ -170,13 +173,13 @@ harunami_ai_base/
 
 ## 記事HTMLファイルの構造
 
-各記事は `articles/tools/` または `articles/github/` に格納。
+各記事は `articles/tools/`、`articles/github/pickup/`、`articles/github/daily/` に格納。
 
-相対パスの基準（2階層上がルート）:
+相対パスの基準（3階層上がルート）:
 ```html
-<link rel="icon" href="../../favicon.svg" />
-<link rel="stylesheet" href="../../styles.css" />
-<a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+<link rel="icon" href="../../../favicon.svg" />
+<link rel="stylesheet" href="../../../styles.css" />
+<a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
 ```
 
 ---
@@ -196,6 +199,6 @@ harunami_ai_base/
 - モバイルデザイン刷新（エッジtoエッジカード）
 
 ### フォルダ構成変更
-- `articles/` → `articles/github/`（GitHub解析）+ `articles/tools/`（ツール記事）+ `articles/other/`
-- `articles.json` の `articleUrl` を新パスに更新済み
-- 各記事HTMLの相対パスを `../` → `../../` に更新済み
+- `articles/` → `articles/github/pickup/` + `articles/github/daily/` + `articles/tools/` + `articles/other/`
+- `articles.json` の GitHub 系 `articleUrl` を新パスに更新済み
+- 各 GitHub 記事HTMLの相対パスを `../../` → `../../../` に更新済み

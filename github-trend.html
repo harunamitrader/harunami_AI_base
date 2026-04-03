@@ -216,16 +216,23 @@
           const deck = article.dek ?? article.summary ?? "詳細情報はありません。";
           const published = article.publishedAt || "不明";
           const rankTag = article.rank && article.rank < 99 ? `<span class="rank-label">${article.rank}</span>` : "";
+          const serialTag = Number.isFinite(Number(article.serial))
+            ? `<span class="serial-badge">#${String(article.serial).padStart(3, "0")}</span>`
+            : "";
+          const repoTag = article.repoName ? `<span>${article.repoName}</span>` : "";
           const isStarred = starredSlugs.has(article.slug);
           return `
             <div class="archive-item article-card">
               <div class="article-card-head">
                 <a class="card-link-box article-card-link" href="${article.articleUrl}">
-                  <h3>${article.title}</h3>
+                  <div class="article-card-title-row">
+                    <h3>${article.title}</h3>
+                    ${serialTag}
+                  </div>
                   <div class="archive-meta">
                     <span>${published}</span>
                     ${rankTag}
-                    <span>${article.repoName}</span>
+                    ${repoTag}
                   </div>
                   <p>${deck}</p>
                 </a>

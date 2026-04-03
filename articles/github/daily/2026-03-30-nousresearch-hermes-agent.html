@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NousResearch/hermes-agent を読み、記憶とスキルを蓄積して共に成長する AI エージェントについて整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>hermes-agent</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">hermes-agent</h1>
+      <p class="article-serial">Daily #026</p>
+      <p class="article-dek">「自分と共に成長する」がコンセプト。記憶とスキルの蓄積を重視した次世代 AI エージェント・フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>4位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noreferrer">
+              NousResearch/hermes-agent
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「Hermes」モデルシリーズで知られる NousResearch が開発した、高度にカスタマイズ可能な AI エージェントのコア・フレームワークです。単なるプロンプト・エンジニアリングの粋を超え、エージェントが過去の対話や決定を「記憶」し、新しい「スキル」を動的に獲得していく、長期的かつ自律的なパートナーとしての設計がなされています。特定のボットとしてではなく、あらゆる環境で動作する「エージェント・エンジン」を目指しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>マルチプロファイル管理機能を備え、用途（仕事用、プライベート用、特定の専門タスク用等）に応じてエージェントの性格や知識ベースを切り替えることができます。また、Discord、Slack、WhatsApp といった主要なチャットプラットフォームへのネイティブ統合はもちろん、コマンドラインや Web API 経由での操作も可能です。さらに、Python で自作した「スキル」をプラグインとして追加することで、ブラウザ操作、ファイル編集、データベース検索などの機能を無限に拡張できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「Growing Agent（成長するエージェント）」というスローガンの通り、ベクトルデータベースを活用した長期記憶システムが標準搭載されており、ユーザーとの共有体験を蓄積していきます。また、開発者が環境構築で挫折しないよう、Docker によるコンテナ化や、先進的なパッケージ管理ツールである Nix/NixOS への対応も行われており、プロフェッショナルなデプロイ環境が整っている点も大きな強みです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 3.10 以降の環境を用意し、リポジトリの指示に従って必要なパッケージをインストールします。その後、`.env` ファイルに OpenAI や Anthropic、あるいはローカルで稼働させている LLM インスタンスの API キーを設定します。設定が完了すれば、すぐにターミナルや Discord 経由でエージェントとの対話を開始し、彼らに最初の「タスク」を与えることができます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>既製品の AI ボットではなく、自社のワークフローや個人の生活に深く根ざした「自分専用の有能な AI アシスタント」を構築したいと考えているエンジニア、パワーユーザー、あるいは AI エージェントの自律性について研究している層に向いています。特に、マルチチャネルでの運用を考えている人には、これほど整備されたフレームワークは貴重です。</p>
+
+        <h2>注意点</h2>
+        <p>多機能であるがゆえに、スキルの追加やインターフェースの細かな調整には、一定の Python プログラミング知識が必要です。また、長期記憶（ベクトル検索）をフル活用する場合、ローカルリソースの消費や外部インフラの設定（Pinecone や Chroma 等）についても理解しておく必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>「hermes-agent」は、AI エージェントが単なる「使い捨ての道具」から「成長するパートナー」へと進化するための基盤を提供しています。NousResearch の強力なモデルとこの柔軟なフレームワークが組み合わさることで、真の意味で「使える」AI エージェントが誕生しようとしています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noreferrer">NousResearch/hermes-agent</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

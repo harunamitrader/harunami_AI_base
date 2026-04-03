@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="anthropics/skills/skill-creator を読み、AI自身に新たなスキルを作成させる画期的なコンポーネントについて整理した記事。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>skill-creator</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+      <h1 class="article-title">skill-creator</h1>
+      <p class="article-serial">Pickup #006</p>
+      <p class="article-dek">Anthropicが提供するエージェント向けスキルの中で、AIに自発的な自己拡張を行わせる強力なメタ・ツール。</p>
+      <div class="article-meta-grid">
+        <div class="article-meta-item"><span class="meta-label">記事作成日</span><strong>2026-03-29</strong></div>
+        <div class="article-meta-item"><span class="meta-label">作成時順位</span><strong>ピックアップ</strong></div>
+        <div class="article-meta-item"><span class="meta-label">対象 repo</span><strong><a href="https://github.com/anthropics/skills/tree/main/skills/skill-creator" target="_blank" rel="noreferrer">anthropics/skills</a></strong></div>
+      </div>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic公式リポジトリ「skills」内で提供されるコンポーネントの一つであり、AIエージェント自身が新しい「スキル」を生成し、自らの能力を拡張できるようアシストするメタプロンプト実装です。</p>
+        <h2>何ができるか</h2>
+        <p>ユーザーが「こういうタスクを全自動で行えるスキルを作って」と指示するだけで、エージェントは必要なスクリプト構造やインストラクション（SKILL.md）などを自己完結的に構築し、自身の拡張機能としてデプロイします。</p>
+        <h2>目立つポイント</h2>
+        <p>「ツールを使用する力」にとどまらず、「ツールを作り出す力」をAIに付与するアプローチであり、AIによる自律的なソフトウェア開発エコシステムを象徴する重要な存在です。</p>
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Anthropicのスキルフレームワークを導入した環境（Claude Code等）において、このskill-creatorを有効化し、対話インターフェースを通じて作りたいスキルの要件定義をAIに与合えるだけで自動生成プロセスが走ります。</p>
+        <h2>どんな人向けか</h2>
+        <p>独自の業務やプロジェクトに特化したエージェントスキルを量産したい開発者や、メタプログラミングに関心のあるパワーユーザー向けです。</p>
+        <h2>注意点</h2>
+        <p>AIが新しいスクリプトや実行可能なプロンプトを自動でファイルシステムに書き出すため、生成されたスキルが安全な命令のみを含んでいるかどうかの最終チェックは人間が担保する必要があります。</p>
+        <h2>まとめ</h2>
+        <p>AIによる「自己拡張フェーズ」の実運用を見据えた、Agentic AI時代のマイルストーンとなるツール作成機能です。</p>
+        <h2>参照リンク</h2>
+        <div class="source-item"><a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a></div>
+        <div class="source-item"><a href="https://github.com/anthropics/skills/tree/main/skills/skill-creator" target="_blank" rel="noreferrer">anthropics/skills</a></div>
+      </div>
+    </article>
+  </body>
+</html>

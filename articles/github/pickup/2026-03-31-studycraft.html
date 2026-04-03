@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="StudyCraft (2026-03-31) の紹介記事。AI が教材から問題を自動生成するオープンソース学習支援ツールの詳細を解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>studycraft</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">StudyCraft</h1>
+      <p class="article-serial">Pickup #031</p>
+      <p class="article-dek">PDF やウェブサイト、GitHub リポジトリからフラッシュカードやテストを AI が即座に作成。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-31</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong><a href="https://github.com/rodmarkun/StudyCraft" target="_blank" rel="noreferrer">rodmarkun/StudyCraft</a></strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>StudyCraft は、PDF、Markdown、TXT ファイル、ウェブサイト、さらには GitHub リポジトリなどの多様な学習教材から、フラッシュカードのデッキやテストを自動生成するオープンソースのデスクトップアプリケーションです。Rust と Svelte をベースに Tauri を使用して構築されており、最新の AI 技術を活用して個人の学習を効率化することを目的としています。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>教材のマルチインポート:</strong> ローカルファイルだけでなく、URL や GitHub リポジトリを直接読み込み可能。</li>
+          <li><strong>AI による自動生成:</strong> 取り込んだ教材に基づき、フラッシュカードや練習問題を AI が自動的に作成します。</li>
+          <li><strong>多様な AI プロバイダーへの対応:</strong> OpenAI、Gemini、Claude、Mistral に加え、ローカルで動作する Ollama にも対応。</li>
+          <li><strong>セマンティック検索と Q&A:</strong> 全ての教材がベクトルデータベースにインデックスされるため、内容を横断的に検索したり質問したりできます。</li>
+          <li><strong>間隔反復学習 (SRS):</strong> Anki スタイルのアルゴリズムを採用し、忘却曲線に合わせた効率的な暗記学習をサポートします。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>複数の LLM を並列で使用できるため、大量の教材から素早く問題を生成できる柔軟性が大きな特徴です。また、ローカル LLM (Ollama) にも対応しているため、プライバシー重視の用途やオフライン環境、コストを抑えたい場合にも適しています。エンジニア等の学習者にとって、GitHub リポジトリを直接教材として取り込める点は非常に強力なメリットとなります。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>1. <strong>インストール:</strong> GitHub の Releases ページから、各 OS (Windows, macOS, Linux) 用のインストーラーをダウンロードしてインストールします。</p>
+        <p>2. <strong>初期設定:</strong> アプリを起動し、利用したい AI プロバイダーの API キーを入力するか、Ollama への接続を設定します。</p>
+        <p>3. <strong>教材の追加:</strong> 学習したい資料（PDF やウェブサイトの URL、GitHub リポジトリ等）をアプリにインポートします。</p>
+        <p>4. <strong>生成と学習:</strong> AI でフラッシュカードを作成し、間隔反復学習システムを使って学習を開始します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>試験や資格取得のために効率的に暗記したい学生や研究者、あるいは大量のドキュメントやコードベースを素早く理解・習得したいソフトウェアエンジニアに最適です。自前の学習教材をデジタル化し、効率的な復習サイクルを構築したいあらゆる学習者に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>OpenAI 等のクラウド AI を利用する場合、生成量に応じたトークン費用が発生します（ローカル LLM を使えば回避可能です）。また、現在は開発の初期段階であるため、頻繁なアップデートや仕様変更が行われる可能性があります。</p>
+
+        <h2>まとめ</h2>
+        <p>StudyCraft は、伝統的な学習法である「間隔反復学習」と、最新の「AI 生成・ベクトル検索」を融合させた野心的な学習支援ツールです。高度な暗記効率を求めるユーザーにとって、非常に魅力的なオープンソースの選択肢と言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/rodmarkun/StudyCraft" target="_blank" rel="noreferrer">rodmarkun/StudyCraft</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
