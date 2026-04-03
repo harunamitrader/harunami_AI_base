@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Apr 2026 20:38:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 09:06:09 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[clawgod]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-0chencc-clawgod.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-0chencc-clawgod.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[公式 Claude Code に独自の「God Mode」を追加するランタイム・パッチ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-minimax-ai-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-minimax-ai-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code や Cursor などの AI エージェントを、各開発分野の「専門家」へ強化する公式スキルライブラリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[openscreen]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-siddharthvaddem-openscreen.html</link>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[単発取得から大規模クロールまでを Python でまとめて扱える、適応型の Web スクレイピング基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.89: 権限制御と Windows 安定性をさらに改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-89-permissions-windows.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-02-claude-code-v2-1-89-permissions-windows.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[defer 付き権限制御、MCP 接続待ちの短縮、Windows / PowerShell の不具合修正がまとまって入った更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Translumo]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-ramjke-translumo.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-02-ramjke-translumo.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ゲームやアプリの画面上テキストを OCR で拾い、リアルタイムに別言語へ重ね表示できる Windows 向け翻訳ツール。]]></description>
     </item>
   </channel>
 </rss>

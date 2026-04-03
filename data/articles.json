@@ -7,6 +7,30 @@
              },
     "articles":  [
                     {
+                        "category":  "github-pickup",
+                        "slug":  "2026-04-03-0chencc-clawgod",
+                        "title":  "clawgod",
+                        "dek":  "公式 Claude Code に独自の「God Mode」を追加するランタイム・パッチ。",
+                        "summary":  "0Chencc/clawgod は、Anthropic 公式の Claude Code CLI に対して直接シームレスな機能拡張（パッチ）を施し、共有、テレポート、バグハンターなどの強力な独自コマンドを追加するツールです。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T09:15:00+09:00",
+                        "repoName":  "0Chencc/clawgod",
+                        "repoUrl":  "https://github.com/0Chencc/clawgod",
+                        "articleUrl":  "./articles/github/2026-04-03-0chencc-clawgod.html"
+                    },
+                    {
+                        "category":  "github-pickup",
+                        "slug":  "2026-04-03-minimax-ai-skills",
+                        "title":  "skills",
+                        "dek":  "Claude Code や Cursor などの AI エージェントを、各開発分野の「専門家」へ強化する公式スキルライブラリ。",
+                        "summary":  "MiniMax-AI/skills は、AI コーディングエージェントに対してフロントエンド、フルスタック、モバイル、シェーダー、ドキュメント解析などの高度なワークフローを統合できるカスタムプロンプト・ライブラリです。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T09:10:00+09:00",
+                        "repoName":  "MiniMax-AI/skills",
+                        "repoUrl":  "https://github.com/MiniMax-AI/skills/",
+                        "articleUrl":  "./articles/github/2026-04-03-minimax-ai-skills.html"
+                    },
+                    {
                         "category":  "github-trending",
                         "slug":  "2026-04-03-siddharthvaddem-openscreen",
                         "title":  "openscreen",

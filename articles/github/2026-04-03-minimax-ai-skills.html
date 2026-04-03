@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MiniMax-AI/skills を読み、Claude Code や Cursor を各種エンジニアリングの専門家に強化するスキルの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>skills</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">skills</h1>
+      <p class="article-dek">Claude Code や Cursor などの AI エージェントを、各開発分野の「専門家」へ強化する公式スキルライブラリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/MiniMax-AI/skills" target="_blank" rel="noreferrer">
+              MiniMax-AI/skills
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>MiniMax-AI/skills は、AI コーディングエージェント（Claude Code、Cursor、Codex、OpenCode など）向けの<b>カスタムスキル（指示セットとツールの定義）を集約した公式リポジトリ</b>です。汎用的な AI を、フロントエンド開発、Android/iOS アプリ開発、シェーダー開発、さらには複雑なドキュメント解析などの「専門家」として動作させるための高度なプロンプトとワークフローが含まれています。</p>
+
+        <h2>何ができるか</h2>
+        <p>このライブラリを AI ツールに読み込ませることで、以下のような専門的なタスクの精度と生産性が向上します：</p>
+        <ul>
+          <li><b>エンジニアリング専門スキル</b>: フロントエンド、フルスタック、Android（Native）、iOS、Flutter、React Native、シェーダー開発などのベストプラクティスに沿ったコード生成。</li>
+          <li><b>ドキュメント・データ処理</b>: MiniMax 特化の PDF 読み取り、Excel/Word 生成、PowerPoint 生成プラグイン。</li>
+          <li><b>マルチモーダル対応</b>: ビジョン解析やマルチモーダルツールキットを用いた画像・動画理解。</li>
+          <li><b>ユーティリティ</b>: PR レビューの自動化、GIF ステッカー作成など。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>単なる「プロンプト集」ではなく、<b>AI エージェントが直接利用できる「スキル構造」</b>として整理されている点が最大の特徴です。README を読み込ませるだけで、その AI がどのような「権限（専門知識）」を持っているかを自己認識し、ツールの使い分けを自律的に判断できるよう設計されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>使用するツールによって、導入方法が整理されています：</p>
+        <ul>
+          <li><b>Claude Code</b>: コマンド <code>claude plugin marketplace add ...</code> を実行してインストール。</li>
+          <li><b>Cursor</b>: リポジトリをクローンし、Cursor の設定（Rules for AI / Skills Path）でクローンしたフォルダの <code>skills/</code> ディレクトリを指定。</li>
+          <li><b>Codex / OpenCode</b>: 指定のパスにクローンし、シンボリックリンクを貼ることで AI が自動検出。</li>
+        </ul>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Claude Code や Cursor などの AI エージェントを日常的に業務で使っている開発者。</li>
+          <li>特定のプラットフォーム（iOS/Android 等）やライブラリに特化した、高品質なコード生成を求めている人。</li>
+          <li>AI に Office ドキュメント生成や高度な PDF 解析などの追加能力を持たせたい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>現在は <b>Beta 版</b> として公開されており、API やスキルの設定形式が予告なく変更される可能性があります。また、スキルの実行にはそれぞれの AI ツールが外部プラグインやカスタムプロンプトの読み込みをサポートしている必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>MiniMax-AI/skills は、AI エージェントを「ただのチャット相手」から「自律的なエンジニアリング・パートナー」へと進化させる強力なアドオン集です。特に Claude Code や Cursor を使い込んでいるユーザーにとって、開発環境に導入する価値が非常に高いリポジトリと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/MiniMax-AI/skills" target="_blank" rel="noreferrer">MiniMax-AI/skills</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
