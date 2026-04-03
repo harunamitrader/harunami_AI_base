@@ -8,6 +8,19 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-04-onyx-dot-app-onyx-pickup",
+            "title": "onyx",
+            "dek": "RAG、Deep Research、Agents、MCP、Code Execution を 1 つにまとめたオープンソース AI プラットフォーム。",
+            "summary": "onyx-dot-app/onyx は、50 以上の connector、Agentic RAG、Deep Research、Custom Agents、Actions & MCP、Code Execution までを self-host 可能な形でまとめたオープンソース AI 基盤です。",
+            "publishedAt": "2026-04-04",
+            "createdAt": "2026-04-04T00:10:00+09:00",
+            "repoName": "onyx-dot-app/onyx",
+            "repoUrl": "https://github.com/onyx-dot-app/onyx",
+            "articleUrl": "./articles/github/pickup/2026-04-04-onyx-dot-app-onyx-pickup.html",
+            "serial": 61
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-03-hsliuping-tradingagents-cn-pickup",
             "title": "TradingAgents-CN",
             "dek": "中国市場向けデータと日本語ならぬ中国語運用に寄せた、マルチエージェント投資分析フレームワーク。",

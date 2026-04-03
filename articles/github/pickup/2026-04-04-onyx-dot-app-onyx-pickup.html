@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="onyx-dot-app/onyx を読み、RAG・Deep Research・Agents を 1 つにまとめたオープンソース AI プラットフォームとして実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>onyx</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">onyx</h1>
+      <p class="article-serial">Pickup #061</p>
+      <p class="article-dek">RAG、Deep Research、Agents、MCP、Code Execution を 1 つにまとめたオープンソース AI プラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/onyx-dot-app/onyx" target="_blank" rel="noreferrer">
+              onyx-dot-app/onyx
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>onyx</code> は、LLM 向けの application layer を自前で持てるオープンソース AI プラットフォームです。README でも Open Source AI Platform と明示されており、単なる chat UI ではなく、RAG、web search、agent、code execution、artifacts、MCP までまとめて self-host できるのが軸です。</p>
+
+        <h2>何ができるか</h2>
+        <p>50 以上の connector による indexing、Agentic RAG、Deep Research、Custom Agents、Web Search、Artifacts、Actions &amp; MCP、Code Execution、Voice Mode、Image Generation までを一つのプロダクトで扱えます。さらに主要な商用 LLM と self-hosted LLM の両方を接続できるため、モデル選択の自由度も高いです。</p>
+
+        <h2>目立つポイント</h2>
+        <p>目立つのは「AI 機能を足した社内検索」ではなく、かなり広い機能を 1 つの基盤へ寄せている点です。README では Lite mode と Standard mode を分けており、軽量な chat / agents 用の導入から、大規模運用向けの indexing、job queue、Redis、MinIO を含む構成まで段階的に選べます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>最短導入は README にある <code>curl -fsSL https://onyx.app/install_onyx.sh | bash</code> の 1 行です。加えて Docker、Kubernetes、Helm、Terraform、主要クラウド向け guide も docs に用意されています。まず Lite mode で chat / agents を試し、必要なら Standard mode に広げる流れが現実的です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>社内向け AI アプリを self-host したいチーム、あるいは RAG と Agents を同時に扱いたい開発組織に向いています。特に「複数の LLM ベンダーを切り替えつつ、検索、調査、実行、共有まで一体で持ちたい」という用途ではかなり相性が良さそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README の Standard mode は検索インデックス、background workers、cache、blob store まで含むため、運用は軽くありません。小さく始めるなら Lite mode から入るべきです。また Enterprise 向け機能や Cloud も用意されているので、OSS 部分と商用拡張の境界は導入前に確認した方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>onyx</code> は、RAG ツール、agent platform、research assistant を別々に組み合わせる代わりに、1 つの self-host 可能な基盤へまとめたい人向けの大型 OSS です。AI アプリ基盤を自前で持ちたいチームなら、かなり有力な選択肢です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/onyx-dot-app/onyx" target="_blank" rel="noreferrer">onyx-dot-app/onyx</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/onyx-dot-app/onyx" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
