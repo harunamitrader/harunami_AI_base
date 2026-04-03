@@ -8,6 +8,18 @@
     "articles":  [
                     {
                         "category":  "github-pickup",
+                        "slug":  "2026-04-03-siddharthvaddem-openscreen-pickup",
+                        "title":  "openscreen",
+                        "dek":  "Screen Studio 風の録画と編集を、無料でまとめて試せるデモ動画アプリ。",
+                        "summary":  "siddharthvaddem/openscreen は、録画、ズーム演出、注釈、音声収録、背景差し替え、複数比率での書き出しまでを 1 つで扱える、デモ動画向けのオープンソース録画アプリです。",
+                        "publishedAt":  "2026-04-03",
+                        "createdAt":  "2026-04-03T09:55:00+09:00",
+                        "repoName":  "siddharthvaddem/openscreen",
+                        "repoUrl":  "https://github.com/siddharthvaddem/openscreen",
+                        "articleUrl":  "./articles/github/2026-04-03-siddharthvaddem-openscreen-pickup.html"
+                    },
+                    {
+                        "category":  "github-pickup",
                         "slug":  "2026-04-03-nousresearch-hermes-agent-self-evolution",
                         "title":  "hermes-agent-self-evolution",
                         "dek":  "Hermes Agent の skill や prompt を、実行結果を見ながら自動改善する進化基盤。",
