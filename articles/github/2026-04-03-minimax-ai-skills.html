@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="MiniMax-AI/skills を読み、Claude Code や Cursor を各種エンジニアリングの専門家に強化するスキルの要点を整理した記事。"
+      content="MiniMax-AI/skills を読み、Claude Code や Codex、Cursor へ横断導入できる開発スキル集を実用寄りに整理した記事。"
     />
     <meta name="theme-color" content="#f7fbff" />
     <title>skills</title>
@@ -26,7 +26,7 @@
       </div>
 
       <h1 class="article-title">skills</h1>
-      <p class="article-dek">Claude Code や Cursor などの AI エージェントを、各開発分野の「専門家」へ強化する公式スキルライブラリ。</p>
+      <p class="article-dek">Claude Code や Codex、Cursor などにまとめて足せる、実務向けの開発スキル集。</p>
 
       <div class="article-meta-grid">
         <div class="article-meta-item">
@@ -49,44 +49,32 @@
 
       <div class="article-body">
         <h2>これは何か</h2>
-        <p>MiniMax-AI/skills は、AI コーディングエージェント（Claude Code、Cursor、Codex、OpenCode など）向けの<b>カスタムスキル（指示セットとツールの定義）を集約した公式リポジトリ</b>です。汎用的な AI を、フロントエンド開発、Android/iOS アプリ開発、シェーダー開発、さらには複雑なドキュメント解析などの「専門家」として動作させるための高度なプロンプトとワークフローが含まれています。</p>
+        <p><code>skills</code> は、Claude Code、Codex、Cursor、OpenCode など複数の AI コーディングツールへ横断的に導入できる skill 集です。README では開発用途の skills をまとめたリポジトリとして説明されており、frontend、fullstack、Android、iOS、shader、PDF、PPTX など幅広い作業領域をカバーしています。</p>
 
         <h2>何ができるか</h2>
-        <p>このライブラリを AI ツールに読み込ませることで、以下のような専門的なタスクの精度と生産性が向上します：</p>
-        <ul>
-          <li><b>エンジニアリング専門スキル</b>: フロントエンド、フルスタック、Android（Native）、iOS、Flutter、React Native、シェーダー開発などのベストプラクティスに沿ったコード生成。</li>
-          <li><b>ドキュメント・データ処理</b>: MiniMax 特化の PDF 読み取り、Excel/Word 生成、PowerPoint 生成プラグイン。</li>
-          <li><b>マルチモーダル対応</b>: ビジョン解析やマルチモーダルツールキットを用いた画像・動画理解。</li>
-          <li><b>ユーティリティ</b>: PR レビューの自動化、GIF ステッカー作成など。</li>
-        </ul>
+        <p>単なるプロンプト断片ではなく、各作業領域ごとに設計方針、技術選定、品質基準、実装の進め方までをツールへ渡せます。たとえば frontend-dev では React / Next.js と UI 演出、fullstack-dev では API 設計や認証、react-native-dev では Expo やテスト、minimax-pdf や pptx-generator ではドキュメント生成ワークフローまで扱えます。</p>
 
         <h2>目立つポイント</h2>
-        <p>単なる「プロンプト集」ではなく、<b>AI エージェントが直接利用できる「スキル構造」</b>として整理されている点が最大の特徴です。README を読み込ませるだけで、その AI がどのような「権限（専門知識）」を持っているかを自己認識し、ツールの使い分けを自律的に判断できるよう設計されています。</p>
+        <p>目立つのは「1 つのツール専用」ではなく、Claude Code 用 plugin、Codex 用インストール手順、Cursor 用 skills path、OpenCode 用設定まで揃えている点です。さらに公式 skill だけでなく community skill も混ざっており、AI コーディング環境をまたいで再利用しやすい構成になっています。</p>
 
         <h2>セットアップや使い方の流れ</h2>
-        <p>使用するツールによって、導入方法が整理されています：</p>
-        <ul>
-          <li><b>Claude Code</b>: コマンド <code>claude plugin marketplace add ...</code> を実行してインストール。</li>
-          <li><b>Cursor</b>: リポジトリをクローンし、Cursor の設定（Rules for AI / Skills Path）でクローンしたフォルダの <code>skills/</code> ディレクトリを指定。</li>
-          <li><b>Codex / OpenCode</b>: 指定のパスにクローンし、シンボリックリンクを貼ることで AI が自動検出。</li>
-        </ul>
+        <p>README の導入手順はかなり明快で、Codex ならリポジトリを <code>~/.codex/minimax-skills</code> へ clone し、<code>~/.agents/skills</code> へ symlink を張って再起動する流れです。Claude Code は plugin marketplace から追加、Cursor は clone 後に skills path を設定する形なので、自分の常用ツールに合わせて入れ方を選べます。</p>
 
         <h2>どんな人向けか</h2>
-        <ul>
-          <li>Claude Code や Cursor などの AI エージェントを日常的に業務で使っている開発者。</li>
-          <li>特定のプラットフォーム（iOS/Android 等）やライブラリに特化した、高品質なコード生成を求めている人。</li>
-          <li>AI に Office ドキュメント生成や高度な PDF 解析などの追加能力を持たせたい人。</li>
-        </ul>
+        <p>AI コーディングツールを 1 つだけでなく複数併用していて、毎回同じ品質ルールや進め方を手で説明するのが面倒な人に向いています。特に UI 実装、モバイル、文書生成のように「作業種類ごとに欲しい指示の型」がはっきりしている人ほど使いやすそうです。</p>
 
         <h2>注意点</h2>
-        <p>現在は <b>Beta 版</b> として公開されており、API やスキルの設定形式が予告なく変更される可能性があります。また、スキルの実行にはそれぞれの AI ツールが外部プラグインやカスタムプロンプトの読み込みをサポートしている必要があります。</p>
+        <p>README 自体でも Beta と明記されており、skills や設定形式は変更される可能性があります。また skill 数が多いので、最初から全部を入れるより、自分がよく使う 2 から 3 個だけ選んで運用を固めた方が把握しやすいです。</p>
 
         <h2>まとめ</h2>
-        <p>MiniMax-AI/skills は、AI エージェントを「ただのチャット相手」から「自律的なエンジニアリング・パートナー」へと進化させる強力なアドオン集です。特に Claude Code や Cursor を使い込んでいるユーザーにとって、開発環境に導入する価値が非常に高いリポジトリと言えるでしょう。</p>
+        <p><code>MiniMax-AI/skills</code> は、AI コーディングツールに対して「何をどの品質で進めるか」を再利用可能な形にまとめた実務寄りの skill 集です。複数ツールを跨いでも開発の型を揃えたい人には、かなり相性の良いリポジトリです。</p>
 
         <h2>参照リンク</h2>
         <div class="source-item">
           <a href="https://github.com/MiniMax-AI/skills" target="_blank" rel="noreferrer">MiniMax-AI/skills</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/MiniMax-AI/skills/" target="_blank" rel="noreferrer">依頼元URL</a>
         </div>
       </div>
     </article>

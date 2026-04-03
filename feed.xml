@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:08:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 09:07:54 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[clawgod]]></title>
@@ -21,7 +21,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/2026-04-03-minimax-ai-skills.html</guid>
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code や Cursor などの AI エージェントを、各開発分野の「専門家」へ強化する公式スキルライブラリ。]]></description>
+      <description><![CDATA[Claude Code や Codex、Cursor などにまとめて足せる、実務向けの開発スキル集。]]></description>
     </item>
     <item>
       <title><![CDATA[openscreen]]></title>
