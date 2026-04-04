@@ -7,6 +7,19 @@
     },
     "articles": [
         {
+            "category": "github-pickup",
+            "slug": "2026-04-04-kevinrgu-autoagent-pickup",
+            "title": "autoagent",
+            "dek": "AI agent の prompt や tools を、人手ではなく meta-agent が自動で改善していく実験基盤。",
+            "summary": "kevinrgu/autoagent は、system prompt、tools、agent configuration、orchestration を meta-agent が反復的に変更し、benchmark score を基準に harness 自体を改良していく実験基盤です。",
+            "publishedAt": "2026-04-04",
+            "createdAt": "2026-04-04T00:30:00+09:00",
+            "repoName": "kevinrgu/autoagent",
+            "repoUrl": "https://github.com/kevinrgu/autoagent",
+            "articleUrl": "./articles/github/pickup/2026-04-04-kevinrgu-autoagent-pickup.html",
+            "serial": 63
+        },
+        {
             "category": "github-update-report",
             "slug": "2026-04-04-update-report",
             "title": "2026-04-04 更新レポート",

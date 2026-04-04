@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Apr 2026 01:32:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 17:12:33 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[autoagent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-kevinrgu-autoagent-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-kevinrgu-autoagent-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI agent の prompt や tools を、人手ではなく meta-agent が自動で改善していく実験基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-04 更新レポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code や Codex など複数の AI エージェントを、1 つの共有ワークスペースでまとめて動かせる協調基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Windsurf v1.6.2: Remote-WSL 修正と軽微な UX 改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-windsurf-v1-6-2-remote-wsl.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-windsurf-v1-6-2-remote-wsl.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2026-04-03 の公式 changelog で、Remote-WSL 拡張の修正と小規模な UX 調整が反映されました。]]></description>
     </item>
   </channel>
 </rss>
