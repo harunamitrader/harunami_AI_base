@@ -8,6 +8,32 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-04-hesreallyhim-awesome-claude-code-pickup",
+            "title": "awesome-claude-code",
+            "dek": "Claude Code 向けの skills、hooks、slash commands、plugins を横断して追える巨大 curated list。",
+            "summary": "hesreallyhim/awesome-claude-code は、Claude Code 周辺の skills、agents、hooks、slash commands、tooling、CLAUDE.md、client などを横断して整理した curated repository です。",
+            "publishedAt": "2026-04-04",
+            "createdAt": "2026-04-04T22:08:00+09:00",
+            "repoName": "hesreallyhim/awesome-claude-code",
+            "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+            "articleUrl": "./articles/github/pickup/2026-04-04-hesreallyhim-awesome-claude-code-pickup.html",
+            "serial": 66
+        },
+        {
+            "category": "github-pickup",
+            "slug": "2026-04-04-mathewtaylor-devflow-pickup",
+            "title": "devflow",
+            "dek": "Claude Code で Spec → Plan → Tasks → Execute → Validate を回す、構造化 feature workflow 基盤。",
+            "summary": "mathewtaylor/devflow は、Claude Code 向けに spec 作成、task 分解、review、testing、validation までを quality gate 付きで運用する structured workflow system です。",
+            "publishedAt": "2026-04-04",
+            "createdAt": "2026-04-04T22:07:00+09:00",
+            "repoName": "mathewtaylor/devflow",
+            "repoUrl": "https://github.com/mathewtaylor/devflow",
+            "articleUrl": "./articles/github/pickup/2026-04-04-mathewtaylor-devflow-pickup.html",
+            "serial": 65
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-04-ai4finance-foundation-finrobot-pickup",
             "title": "finrobot",
             "dek": "株式分析、リサーチレポート、リスク評価までを multi-agent で自動化する金融 AI プラットフォーム。",

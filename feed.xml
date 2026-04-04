@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Apr 2026 12:17:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 21:23:50 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-claude-code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-hesreallyhim-awesome-claude-code-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-hesreallyhim-awesome-claude-code-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code 向けの skills、hooks、slash commands、plugins を横断して追える巨大 curated list。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[devflow]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-mathewtaylor-devflow-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-mathewtaylor-devflow-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code で Spec → Plan → Tasks → Execute → Validate を回す、構造化 feature workflow 基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[finrobot]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-ai4finance-foundation-finrobot-pickup.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ChatGPT や Claude、Gemini など主要 AI 製品の system prompt を横断して読める収集リポジトリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[oh-my-codex]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-yeachan-heo-oh-my-codex.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-yeachan-heo-oh-my-codex.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Codex CLI に、計画承認や並列実行まで含む定型ワークフローを足せる運用レイヤー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openscreen]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-03-siddharthvaddem-openscreen.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Screen Studio 風のデモ動画を、無料かつオープンソースで作れる画面録画アプリ。]]></description>
     </item>
   </channel>
 </rss>

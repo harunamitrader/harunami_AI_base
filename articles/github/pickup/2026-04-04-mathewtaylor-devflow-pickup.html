@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="mathewtaylor/devflow を読み、Claude Code 向けの構造化 feature workflow と品質ゲート基盤として整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>devflow</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">devflow</h1>
+      <p class="article-serial">Pickup #065</p>
+      <p class="article-dek">Claude Code で Spec → Plan → Tasks → Execute → Validate を回す、構造化 feature workflow 基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-04</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/mathewtaylor/devflow" target="_blank" rel="noreferrer">
+              mathewtaylor/devflow
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>devflow</code> は、Claude Code で feature 開発を場当たり的に進めず、仕様整理から本番品質の実装までを段階的に進めるための workflow system です。README でも、specification から production-ready code までを automated quality gates 付きで流す基盤として説明されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>中核は <code>/init</code>、<code>/spec</code>、<code>/plan</code>、<code>/tasks</code>、<code>/execute</code>、<code>/validate</code> などの slash command 群です。feature spec 作成、technical plan 生成、atomic task 分解、段階実装、レビュー、テスト、validation までを一つの運用にまとめています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特徴は quality gate の厚さです。task ごとの code review、test generation、phase review、bug analysis、state tracking まで agent で分けていて、README では 10 個の specialized agent と多数の command を前提にしています。単に command を並べるだけでなく、feature lifecycle 全体を Claude Code 用に設計しているのが強みです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は project directory で install script を流し、<code>/init</code> で constitution と architecture を作り、その後 <code>/spec feature-name</code> から workflow を始める流れです。Windows では PowerShell ではなく Git Bash を使う点も README で明記されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code を単発の coding assistant ではなく、継続的な feature delivery の基盤として使いたい人に向いています。特に、仕様漏れ、文書化遅延、品質のばらつき、作業再開時の文脈ロスを減らしたい個人開発者や少人数チームにはかなり刺さります。</p>
+
+        <h2>注意点</h2>
+        <p>前提は Claude Code CLI と Bash 系環境です。軽い command 集ではなく workflow discipline を導入するタイプなので、すぐに雑に使うより運用ルールごと受け入れる意識が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>devflow</code> は、Claude Code で feature 開発を再現性あるプロセスにしたい人向けの repo です。spec-driven かつ quality-gated な agent workflow をそのまま導入したいなら、かなり見どころがあります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/mathewtaylor/devflow" target="_blank" rel="noreferrer">mathewtaylor/devflow</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
