@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="stackblitz/bolt.new を読み、ブラウザ内で完結する full-stack AI 開発環境として整理した記事。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>bolt.new</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+      <h1 class="article-title">bolt.new</h1>
+      <p class="article-serial">Pickup #067</p>
+      <p class="article-dek">ブラウザ内の WebContainers と AI agent をつなぎ、full-stack アプリをその場で作って動かせる開発基盤。</p>
+      <div class="article-meta-grid">
+        <div class="article-meta-item"><span class="meta-label">記事作成日</span><strong>2026-04-05</strong></div>
+        <div class="article-meta-item"><span class="meta-label">種別</span><strong>Pickup</strong></div>
+        <div class="article-meta-item"><span class="meta-label">対象 repo</span><strong><a href="https://github.com/stackblitz/bolt.new" target="_blank" rel="noreferrer">stackblitz/bolt.new</a></strong></div>
+      </div>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>bolt.new</code> は、ブラウザ内で full-stack 開発を完結させる AI-powered web development agent です。README では、prompt でアプリを作り、そのまま実行、編集、deploy まで進められる環境として説明されています。</p>
+        <h2>何ができるか</h2>
+        <p>WebContainers 上で npm install、Node.js server 起動、third-party API 連携、production deploy まで扱えます。単なるコード補完ではなく、AI が filesystem、terminal、browser console、package manager を跨いで触れるのが大きいです。</p>
+        <h2>目立つポイント</h2>
+        <p>ポイントは「ローカルセットアップ不要で full-stack を回せる」ことです。Claude や v0 系の UI 生成より一段踏み込み、backend 実行や依存追加もブラウザ内で片づくので、試作速度がかなり高いです。</p>
+        <h2>セットアップや使い方の流れ</h2>
+        <p>利用者としては <code>bolt.new</code> にアクセスして prompt を投げるだけですが、この repo は Bolt の open source codebase そのものでもあります。自前の AI web dev agent を作りたい人はここから構造を読めます。</p>
+        <h2>どんな人向けか</h2>
+        <p>フロントだけでなく backend も含めた試作を最短で回したい人、あるいは browser-native な agent IDE の作り方を学びたい人に向いています。</p>
+        <h2>注意点</h2>
+        <p>README でも beta 扱いで、対応フレームワークや運用制約は StackBlitz / WebContainers の特性に依存します。安定運用というより、まずは高速試作と体験価値に強い系統です。</p>
+        <h2>まとめ</h2>
+        <p><code>bolt.new</code> は、AI coding をブラウザだけで完結させる代表例として見ておく価値があります。特に WebContainers と agent をどう結びつけるかの参考になります。</p>
+        <h2>参照リンク</h2>
+        <div class="source-item"><a href="https://github.com/stackblitz/bolt.new" target="_blank" rel="noreferrer">stackblitz/bolt.new</a></div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="langchain-ai/langchain を読み、LLM app と agent engineering の標準基盤として整理した記事。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>langchain</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+      <h1 class="article-title">langchain</h1>
+      <p class="article-serial">Pickup #069</p>
+      <p class="article-dek">モデル、tools、retriever、agent を抽象化し、LLM アプリを組み立てる定番フレームワーク。</p>
+      <div class="article-meta-grid">
+        <div class="article-meta-item"><span class="meta-label">記事作成日</span><strong>2026-04-05</strong></div>
+        <div class="article-meta-item"><span class="meta-label">種別</span><strong>Pickup</strong></div>
+        <div class="article-meta-item"><span class="meta-label">対象 repo</span><strong><a href="https://github.com/langchain-ai/langchain" target="_blank" rel="noreferrer">langchain-ai/langchain</a></strong></div>
+      </div>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>LangChain</code> は、LLM-powered application と agent を作るための framework です。README でも「agent engineering platform」と明示されており、モデル差し替えやツール接続を抽象化しながら AI アプリを組めます。</p>
+        <h2>何ができるか</h2>
+        <p>chat model、embeddings、vector store、tool、retriever などを共通インターフェースで扱い、RAG や agent workflow を組み立てられます。必要に応じて LangGraph、LangSmith、Integrations 群へ繋がるのも大きいです。</p>
+        <h2>目立つポイント</h2>
+        <p>強みは ecosystem 全体の厚さです。高水準の abstraction で素早く試作しつつ、より制御したい場面では LangGraph に下りられます。モデルや provider を入れ替えやすいので、将来の変更にも耐えやすいです。</p>
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は <code>pip install langchain</code> か <code>uv add langchain</code> で始められます。README の quickstart でも <code>init_chat_model</code> を使った最小例が示されていて、その先で agent orchestration や observability を追加する構成です。</p>
+        <h2>どんな人向けか</h2>
+        <p>RAG や tool-calling を含む AI アプリを Python で組む人、または provider をまたいだ実験と運用をしたいチームに向いています。抽象化レイヤーの恩恵を受けやすい典型例です。</p>
+        <h2>注意点</h2>
+        <p>機能が広く ecosystem も大きいので、軽量用途には過剰に感じることがあります。単機能の script なら素の SDK で十分な場面もあるため、どこまで abstraction が必要かは見極めた方がよいです。</p>
+        <h2>まとめ</h2>
+        <p><code>langchain</code> は、AI app / agent 開発の標準候補として今も強い repo です。特に integrations と周辺プロダクトを含む土台として見ると、採用理由が分かりやすいです。</p>
+        <h2>参照リンク</h2>
+        <div class="source-item"><a href="https://github.com/langchain-ai/langchain" target="_blank" rel="noreferrer">langchain-ai/langchain</a></div>
+      </div>
+    </article>
+  </body>
+</html>

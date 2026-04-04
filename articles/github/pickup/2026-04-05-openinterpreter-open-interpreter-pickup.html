@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="openinterpreter/open-interpreter を読み、自然言語でローカル PC を操作する code execution agent として整理した記事。" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>open-interpreter</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+      <h1 class="article-title">open-interpreter</h1>
+      <p class="article-serial">Pickup #068</p>
+      <p class="article-dek">自然言語で Python、Shell、JavaScript を実行し、ローカル PC の作業を進める OSS interpreter agent。</p>
+      <div class="article-meta-grid">
+        <div class="article-meta-item"><span class="meta-label">記事作成日</span><strong>2026-04-05</strong></div>
+        <div class="article-meta-item"><span class="meta-label">種別</span><strong>Pickup</strong></div>
+        <div class="article-meta-item"><span class="meta-label">対象 repo</span><strong><a href="https://github.com/openinterpreter/open-interpreter" target="_blank" rel="noreferrer">openinterpreter/open-interpreter</a></strong></div>
+      </div>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>Open Interpreter</code> は、LLM にローカルでコードを実行させる natural language interface です。ChatGPT の Code Interpreter を手元の PC に持ち込む発想で、Python、JavaScript、Shell などを自然文経由で動かせます。</p>
+        <h2>何ができるか</h2>
+        <p>画像や PDF の生成編集、ブラウザ操作、データ分析、ファイル加工など、一般的な PC 作業を会話で進められます。CLI の <code>interpreter</code> だけでなく Python API もあり、streaming や profile、OpenAI 互換 local model 接続もサポートされています。</p>
+        <h2>目立つポイント</h2>
+        <p>強みは hosted sandbox ではなくローカル環境で動く点です。時間制限や upload 制限がきつい hosted code interpreter と違い、ネット接続や任意 package 利用まで含めてかなり自由度があります。</p>
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は <code>pip install git+https://github.com/OpenInterpreter/open-interpreter.git</code> の後に <code>interpreter</code> を実行するだけです。Python からは <code>from interpreter import interpreter</code> で埋め込み、LM Studio などの OpenAI 互換 endpoint へも向けられます。</p>
+        <h2>どんな人向けか</h2>
+        <p>AI にローカル automation をやらせたい人、code execution を伴う assistant を自前環境で扱いたい人、あるいは「PC 操作 agent」の OSS 実装を学びたい人に向いています。</p>
+        <h2>注意点</h2>
+        <p>ローカル実行ゆえに権限は強く、README でも user confirmation の重要性が強調されています。安全性を重視するなら sandbox や safe mode、隔離環境での利用前提で考えた方がよいです。</p>
+        <h2>まとめ</h2>
+        <p><code>open-interpreter</code> は、ローカル code execution agent の代表格です。自然言語で PC を動かす体験を OSS で見たいなら、今でも押さえておく価値があります。</p>
+        <h2>参照リンク</h2>
+        <div class="source-item"><a href="https://github.com/openinterpreter/open-interpreter" target="_blank" rel="noreferrer">openinterpreter/open-interpreter</a></div>
+      </div>
+    </article>
+  </body>
+</html>
