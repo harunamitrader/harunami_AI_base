@@ -1,0 +1,180 @@
+From c2372146478dda53316e26a79da66316bceee391 Mon Sep 17 00:00:00 2001
+From: harunamitrader <sgmxk045@yahoo.co.jp>
+Date: Sun, 5 Apr 2026 04:44:06 +0900
+Subject: [PATCH] Publish OpenClaw 2026.4.2 others monitor update
+
+---
+ ai-tools-monitor.html                         | 18 +++--
+ ...-2026-4-2-task-flow-origin-validation.html | 68 +++++++++++++++++++
+ data/articles.json                            | 14 ++++
+ feed.xml                                      |  2 +-
+ 4 files changed, 94 insertions(+), 8 deletions(-)
+ create mode 100644 articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html
+
+diff --git a/ai-tools-monitor.html b/ai-tools-monitor.html
+index 7650b30..0677af5 100644
+--- a/ai-tools-monitor.html
++++ b/ai-tools-monitor.html
+@@ -392,17 +392,21 @@
+             </details>
+ 
+             <!-- Tool Item: OpenClaw -->
+-            <details id="tool-openclaw" data-category="others" class="tool-card card-openclaw" data-latest="2026-04-01">
++            <details id="tool-openclaw" data-category="others" class="tool-card card-openclaw" data-latest="2026-04-02">
+               <summary class="tool-card-summary">
+                 <span class="tool-name">OpenClaw</span>
+                 <span class="tool-summary-latest">
+-                  <span class="tool-summary-date">2026-04-01</span>
+-                  <span class="tool-summary-title">2026.4.1: /tasks と SearXNG、cron --tools を追加</span>
++                  <span class="tool-summary-date">2026-04-02</span>
++                  <span class="tool-summary-title">2026.4.2: Task Flow 管理と origin 検証を強化</span>
+                 </span>
+                 <span class="tool-summary-chevron">▾</span>
+               </summary>
+               <div class="tool-details-body">
+                 <ul class="changelog-list" id="list-openclaw">
++                  <li class="changelog-item">
++                    <span class="changelog-date">2026-04-02</span>
++                    <a href="./articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html">2026.4.2: Task Flow 管理と origin 検証を強化</a>
++                  </li>
+                   <li class="changelog-item">
+                     <span class="changelog-date">2026-04-01</span>
+                     <a href="./articles/tools/2026-04-01-openclaw-2026-4-1-tasks-searxng-cron-tools.html">2026.4.1: /tasks と SearXNG、cron --tools を追加</a>
+@@ -417,7 +421,7 @@
+                   </li>
+                 </ul>
+                 <div class="tool-meta">
+-                  <span class="latest-tag">Latest: <strong id="val-openclaw">2026.4.1</strong></span>
++                  <span class="latest-tag">Latest: <strong id="val-openclaw">2026.4.2</strong></span>
+                   <span class="status-tag status-active">Active</span>
+                 </div>
+                 <div class="tool-status"><a href="https://github.com/OpenClaw/OpenClaw/releases" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">GitHub Releases 監視中</a></div>
+@@ -443,10 +447,10 @@
+             </div>
+ 
+             <div id="report-others" style="margin-top: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(5, 150, 105, 0.04);">
+-              <p style="margin-bottom: 8px;"><strong>Others 最終監視:</strong> <span id="report-others-date">2026-04-04 04:34 JST</span></p>
++              <p style="margin-bottom: 8px;"><strong>Others 最終監視:</strong> <span id="report-others-date">2026-04-05 04:34 JST</span></p>
+               <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
+-                <li id="report-others-updates"><strong>Updates Found (1):</strong> Perplexity (Computer in Slack)</li>
+-                <li id="report-others-no-updates"><strong>No New Updates (7):</strong> ChatGPT, Claude, Gemini, Grok, NotebookLM, Obsidian, OpenClaw</li>
++                <li id="report-others-updates"><strong>Updates Found (1):</strong> OpenClaw (2026.4.2)</li>
++                <li id="report-others-no-updates"><strong>No New Updates (7):</strong> ChatGPT, Claude, Gemini, Grok, NotebookLM, Obsidian, Perplexity</li>
+               </ul>
+             </div>
+ 
+diff --git a/articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html b/articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html
+new file mode 100644
+index 0000000..c305fdc
+--- /dev/null
++++ b/articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html
+@@ -0,0 +1,68 @@
++<!doctype html>
++<html lang="ja">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <meta
++      name="description"
++      content="OpenClaw 2026.4.2 で追加された Task Flow 管理機能、Android assistant 連携、origin 検証を含む修正内容を日本語で整理した記事。"
++    />
++    <meta name="theme-color" content="#f7fbff" />
++    <title>OpenClaw 2026.4.2: Task Flow 管理と origin 検証を強化</title>
++    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link
++      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
++      rel="stylesheet"
++    />
++    <link rel="stylesheet" href="../../styles.css" />
++  </head>
++  <body>
++    <article class="article-shell">
++      <div class="article-topline">
++        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
++        <p class="eyebrow">Release Notes</p>
++      </div>
++
++      <h1 class="article-title">OpenClaw 2026.4.2: Task Flow 管理と origin 検証を強化</h1>
++      <p class="article-dek">Task Flow の永続管理を戻しつつ、WebSocket の origin 検証や provider ルーティングを固めた、運用寄りの大型メンテナンス更新です。</p>
++
++      <div class="article-meta-grid">
++        <div class="article-meta-item">
++          <span class="meta-label">リリース日</span>
++          <strong>2026-04-02</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">バージョン</span>
++          <strong>2026.4.2</strong>
++        </div>
++        <div class="article-meta-item">
++          <span class="meta-label">ツール</span>
++          <strong>OpenClaw</strong>
++        </div>
++      </div>
++
++      <div class="article-body">
++        <h2>主な変更点</h2>
++        <p>公式 GitHub Releases の 2026.4.2 では、Task Flow の managed / mirrored 同期、永続 state / revision 管理、<code>openclaw flows</code> による確認と復旧など、背景オーケストレーションを扱う基盤が大きく拡張されました。child task の managed spawning や cancel intent の扱いも入り、長く走るフローをより明示的に管理できます。</p>
++        <p>あわせて Android assistant 起動、plugin 向け <code>before_agent_reply</code> フック、各種 provider / transport まわりの共通化も追加されています。機能追加だけでなく、設定の持ち方や実行経路を整理するリリースです。</p>
++
++        <h2>影響や使いどころ</h2>
++        <p>Task Flow 系の更新は、複数タスクを並行で回す運用や、途中停止と復旧を含むジョブ管理で効きます。plugin 経由で管理したいケースでも、runtime 側の Task Flow 境界が明示されたことで実装しやすくなりました。</p>
++        <p>Fixes では、browser-originated 接続の origin 検証を proxy 条件に依らず強制する変更、OpenAI / Anthropic / Copilot 系の native-vs-proxy 判定の一元化、loopback 実行まわりの失敗修正が含まれます。Gateway や provider を自前設定している構成ほど影響確認が必要です。</p>
++
++        <h2>注意点</h2>
++        <p>Breaking changes として、xAI の <code>x_search</code> 設定と Firecrawl の <code>web_fetch</code> 設定パスが plugin-owned の新しい場所へ移りました。既存設定を持つ環境では、リリースノート記載の <code>openclaw doctor --fix</code> を前提に差分確認したほうが安全です。</p>
++
++        <h2>まとめ</h2>
++        <p>OpenClaw 2026.4.2 は、Task Flow を本格運用しやすくしつつ、origin 検証と provider ルーティングを締め直した更新です。見た目よりも内部運用に効く変更が多く、OpenClaw を継続利用しているなら優先して確認したいリリースです。</p>
++
++        <h2>参照リンク</h2>
++        <div class="source-item">
++          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.4.2" target="_blank" rel="noreferrer">OpenClaw 2026.4.2 Release</a>
++        </div>
++      </div>
++    </article>
++  </body>
++</html>
+diff --git a/data/articles.json b/data/articles.json
+index a72d485..3f44e7d 100644
+--- a/data/articles.json
++++ b/data/articles.json
+@@ -454,6 +454,20 @@
+             "articleUrl": "./articles/tools/2026-04-02-claude-code-v2-1-91-mcp-result-skill-shell.html",
+             "rank": 999
+         },
++        {
++            "category": "ai-tool-log",
++            "slug": "2026-04-02-openclaw-2026-4-2-task-flow-origin-validation",
++            "title": "OpenClaw 2026.4.2: Task Flow 管理と origin 検証を強化",
++            "dek": "Task Flow の永続管理を戻しつつ、WebSocket の origin 検証や provider ルーティングを固めた、運用寄りの大型メンテナンス更新です。",
++            "summary": "OpenClaw 2026.4.2 は、Task Flow の managed / mirrored 同期、background orchestration 管理、Android assistant 連携、origin 検証強化、provider ルーティング修正をまとめたリリースです。",
++            "publishedAt": "2026-04-02",
++            "createdAt": "2026-04-05T04:35:00+09:00",
++            "toolName": "OpenClaw",
++            "repoName": "openclaw/openclaw",
++            "repoUrl": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
++            "articleUrl": "./articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html",
++            "rank": 999
++        },
+         {
+             "category": "ai-tool-log",
+             "slug": "2026-04-02-gemini-cli-v0-37-0-preview-1-patch",
+diff --git a/feed.xml b/feed.xml
+index f70ab0a..30b9cc4 100644
+--- a/feed.xml
++++ b/feed.xml
+@@ -5,7 +5,7 @@
+     <link>https://harunamitrader.github.io/harunami_AI_base</link>
+     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
+     <language>ja</language>
+-    <lastBuildDate>Sat, 04 Apr 2026 17:52:39 GMT</lastBuildDate>
++    <lastBuildDate>Sun, 05 Apr 2026 04:39:25 GMT</lastBuildDate>
+     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+     <item>
+       <title><![CDATA[everything-claude-code]]></title>
+-- 
+2.53.0.windows.1
+
