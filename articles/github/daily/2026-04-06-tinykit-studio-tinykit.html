@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="tinykit-studio/tinykit: AIでWebアプリを構築するセルフホスト型プラットフォーム" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>tinykit</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">GitHubトレンド一覧に戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">tinykit</h1>
+      <p class="article-serial">Daily #071</p>
+      <p class="article-dek">Lovableやv0のオープンソース代替を目指す、プロンプトからWebアプリを構築・デプロイできるセルフホスト型エージェント・プラットフォーム</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>Rank 15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tinykit-studio/tinykit" target="_blank" rel="noreferrer">
+              tinykit-studio/tinykit
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          tinykit（tinykit-studio/tinykit）は、Lovableやv0、Replitといった「AIによるWebアプリ開発支援ツール」のオープンソース代替を目指した、セルフホスト可能なエージェント型アプリビルダーです。ユーザーが自然言語（プロンプト）で指示を出すだけで、UIコードの作成、データベースの構築、バックエンド機能の紐付け、そしてデプロイまでを一貫してAIが自律的に実行します。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>Agentic Builder:</strong> AIへの指示だけで、コード生成からDB設計、デプロイまでを自動完結。</li>
+          <li><strong>Real-time Database:</strong> PocketBaseを内蔵しており、データの同期や管理を自動で行うバックエンドを提供。</li>
+          <li><strong>Visual Editor:</strong> デザインシステムを視覚的に調整し、AIと共同でUIを磨き上げることが可能。</li>
+          <li><strong>Time Travel:</strong> 変更履歴をスナップショットとして保存し、過去の状態にいつでも戻せる安全な開発フロー。</li>
+          <li><strong>Self-hosted:</strong> Dockerを用いて自前のサーバーやローカル環境で運用でき、ベンダーロックインを回避。</li>
+        </ul>
+
+        <h2>リポジトリの構成・注目すべき機能</h2>
+        <p>
+          SvelteとTypeScriptをメインスタックとして採用しており、軽量で高速な動作を実現しています。バックエンドにはPocketBaseを利用しており、セットアップの容易さと強力なリアルタイム機能を両立させています。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Dockerがインストールされた環境であれば、公式の構成ファイルを用いて数分でセルフホストを開始できます。APIキーを設定すれば、ブラウザ上のIDEのような画面からAIと共にアプリ開発を始めることができます。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          プロトタイプを高速に作成したいスタートアップや、AI生成アプリを自前サーバーで安全に管理・運用したいエンジニアに最適です。特に、既存のSaaSツールでは不可能なレベルのカスタマイズ性やプライバシー保護を求める層から支持を得ています。
+        </p>
+
+        <h2>制約とリスク</h2>
+        <p>
+          現在は初期アルファ版（Early Alpha）であり、高度な認証機能や複雑なバックエンド関数のカスタマイズなどは開発途上の段階です。また、自前での運用にはサーバーの知識とインフラコストが必要になります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          tinykitは、Web開発の民主化をさらに一歩進める可能性を秘めたプロジェクトです。SaaSに依存しない「自律型アプリ構築プラットフォーム」というコンセプトは、今後のAIネイティブな開発スタイルにおいて重要な選択肢となるでしょう。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/tinykit-studio/tinykit" target="_blank" rel="noreferrer">tinykit-studio/tinykit</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

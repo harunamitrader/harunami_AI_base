@@ -5,23 +5,55 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Apr 2026 19:30:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 06:47:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title><![CDATA[Cline v3.77.0: Lazy Teammate Mode とチャンク読み込みを追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-06-cline-v3-77-0-lazy-teammate-chunked-read.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-06-cline-v3-77-0-lazy-teammate-chunked-read.html</guid>
-      <category>ai-tool-log</category>
+      <title><![CDATA[2026-04-06 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-update-report.html</guid>
+      <category>github-update-report</category>
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エージェントの作業量を抑える実験モードと、大きなファイルを分割して読む read_file 改善が入ったリリースです。]]></description>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
     <item>
-      <title><![CDATA[GitHub Copilot: 2026-04-24 よりデータをモデル学習に使用へ（オプトアウト可）]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-06-github-copilot-data-policy-april-24.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-06-github-copilot-data-policy-april-24.html</guid>
-      <category>ai-tool-log</category>
+      <title><![CDATA[tinykit]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-tinykit-studio-tinykit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-tinykit-studio-tinykit.html</guid>
+      <category>github-trending</category>
       <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Free / Pro / Pro+ ユーザーの操作データが AI モデル改善に使われるようになります。設定から随時オプトアウトできます。]]></description>
+      <description><![CDATA[Lovableやv0のオープンソース代替を目指す、プロンプトからWebアプリを構築・デプロイできるセルフホスト型エージェント・プラットフォーム]]></description>
+    </item>
+    <item>
+      <title><![CDATA[crawl4ai]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-unclecode-crawl4ai.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-unclecode-crawl4ai.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[RAGやAIエージェントに最適化された、LLMフレンドリーな構造化データを出力するオープンソースWebクローラー]]></description>
+    </item>
+    <item>
+      <title><![CDATA[pi-mono]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-badlogic-pi-mono.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-badlogic-pi-mono.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Unified API、コーディングエージェント、TUIライブラリまでを網羅したAIエージェント開発のための包括的モノリポジトリ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[claw-code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-ultraworkers-claw-code.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-ultraworkers-claw-code.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AnthropicのClaude Codeにインスパイアされた、Rust実装の超高速オープンソースCLIエージェント・ハーネス]]></description>
+    </item>
+    <item>
+      <title><![CDATA[gallery]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-google-ai-edge-gallery.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-06-google-ai-edge-gallery.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google AI Edgeによる、オンデバイスAIの最新ユースケースを直接体験・評価できるギャラリーアプリ]]></description>
     </item>
     <item>
       <title><![CDATA[2026-04-05 アップデートレポート]]></title>
@@ -80,14 +112,6 @@
       <description><![CDATA[AIエージェント向けに最適化された高速なNeovimファイル検索ツール]]></description>
     </item>
     <item>
-      <title><![CDATA[Codex CLI v0.119.0-ALPHA.11: プレリリース版の更新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-codex-cli-v0-119-0-alpha-11.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-codex-cli-v0-119-0-alpha-11.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI Codex CLIの最新プレリリース版が公開されました。]]></description>
-    </item>
-    <item>
       <title><![CDATA[Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html</guid>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code の裏で別エージェントを走らせ、会話履歴とコードを読んで助言を返す Letta ベースの実験プラグイン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[editor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-pascalorg-editor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-pascalorg-editor.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[WebGPU と React Three Fiber を土台にした、3D 建築プロジェクト向けのブラウザ編集環境。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[litellm]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-berriai-litellm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-04-berriai-litellm.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[100 以上の LLM API を OpenAI 互換で束ね、AI Gateway と SDK の両方で使える接続レイヤー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[WorldGen]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-ziyang-xie-worldgen-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-04-ziyang-xie-worldgen-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[テキストや画像から、数秒で自由に見回せる 3D シーンを生成できる World モデル基盤。]]></description>
     </item>
   </channel>
 </rss>

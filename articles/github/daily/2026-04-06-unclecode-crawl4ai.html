@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="unclecode/crawl4ai: AIエージェントとRAGに最適化されたスマートWebクローラー" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>crawl4ai</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">GitHubトレンド一覧に戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">crawl4ai</h1>
+      <p class="article-serial">Daily #070</p>
+      <p class="article-dek">RAGやAIエージェントに最適化された、LLMフレンドリーな構造化データを出力するオープンソースWebクローラー</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-06</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>Rank 12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/unclecode/crawl4ai" target="_blank" rel="noreferrer">
+              unclecode/crawl4ai
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          crawl4aiは、AIアプリケーションの構築に不可欠なWebデータの収集を劇的に効率化する、オープンソースのWebクローラー兼スクレイパーです。RAG（検索拡張生成）システムやAIエージェントが利用することを前提に設計されており、ノイズを除去した構造化データや、LLMが理解しやすいスマートなMarkdownを生成することができます。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>Smart Markdown Generation:</strong> 不要な広告やナビゲーションを除去し、純粋なコンテンツのみをMarkdown形式で抽出。</li>
+          <li><strong>Structured Data Extraction:</strong> LLMを活用したセマンティック抽出、またはCSS/XPathを用いた高速なデータ抽出をサポート。</li>
+          <li><strong>Advanced Browser Control:</strong> Playwrightを内蔵し、JavaScriptのレンダリングやアンチボット対策、プロキシ利用に対応。</li>
+          <li><strong>Monitoring Dashboard:</strong> Docker環境で動作する、クロール進捗やステータスを可視化するダッシュボード。</li>
+          <li><strong>Asynchronous Support:</strong> 高速かつスケーラブルな非同期処理による大量ページの同時クロール。</li>
+        </ul>
+
+        <h2>リポジトリの構成・注目すべき機能</h2>
+        <p>
+          Pythonをベースに構築されており、Playwright、BeautifulSoup、Pydanticなどの強力なライブラリを組み合わせています。特に、litellmなどの外部LLM APIとの連携がスムーズで、収集した情報をその場で要約・構造化するための機能が充実しています。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Python環境で `pip install crawl4ai` を実行し、必要なブラウザエンジンをインストールするだけで導入可能です。シンプルなスクリプトで、複雑なWebサイトからのデータ抽出を数行のコードで実装できます。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          RAGシステムを構築するAIエンジニアや、Webから大量の情報を収集・分析するデータサイエンティストに最適です。特に、LLMのトークン制限を意識した「LLMフレンドリーな出力」機能は、コスト削減と精度向上の両面に寄与します。
+        </p>
+
+        <h2>制約とリスク</h2>
+        <p>
+          依存ライブラリのセキュリティ問題（サプライチェーン攻撃）を受け、急遽独自パッケージへの差し替えが行われるなど、活発に動いている一方で慎重な運用も求められます。同期版（Synchronous version）は非推奨となっており、非同期プログラミングへの理解が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          crawl4aiは、AI時代の「データ収集のハブ」としての地位を確立しつつあります。単なるスクレイピングを超え、AIが直接「読む」ためのインターフェースとして進化を続けており、AI開発者にとって必携のツールとなりそうです。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/unclecode/crawl4ai" target="_blank" rel="noreferrer">unclecode/crawl4ai</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
