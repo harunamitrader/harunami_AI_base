@@ -32,14 +32,15 @@
       <a href="./links.html" class="nav-item">Bookmark</a>
     </nav>
     <div class="shell">
-
+      <main class="main">
+        <section class="card">
           <div class="section-head">
             <p class="eyebrow">Network Status</p>
             <h2>監視対象ツール一覧</h2>
           </div>
 
           <div class="tool-grid">
-            <!-- Tool Item: ClaudeCode -->
+            <!-- Tool Item: Claude Code -->
             <details id="tool-claudecode" data-category="coding" class="tool-card card-claudecode" data-latest="2026-04-04">
               <summary class="tool-card-summary">
                 <span class="tool-name">Claude Code</span>
@@ -56,7 +57,6 @@
                 <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-claude-code-v2-1-90-powerup-powershell.html">v2.1.90: /powerup と PowerShell 権限制御を強化</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-claude-code-v2-1-89-permissions-windows.html">v2.1.89: 権限制御と Windows 安定性をさらに改善</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-claude-code-v2-1-88-stability.html">v2.1.88: Windows と長時間セッションの安定性を強化</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-claude-code-v2-1-87-automode.html">v2.1.87: 「Auto Mode」自律実行機能の導入</a></li>
               </ul>
                 <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-claudecode">v2.1.92</strong></span>
                 <span class="status-tag status-active">Active</span></div>
@@ -123,9 +123,7 @@
                 <ul class="changelog-list" id="list-windsurf">
                 <li class="changelog-item"><span class="changelog-date">2026-04-03</span><a href="./articles/tools/2026-04-03-windsurf-v1-6-2-remote-wsl.html">v1.6.2: Remote-WSL 修正と軽微な UX 改善</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-03-28</span><a href="./articles/tools/2026-03-26-windsurf-next-1-9600-1002.html">Next: v1.9600.1002: コスト可視化の強化 & エンジン刷新</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-03-19</span><a href="./articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html">1.9577.43: Quota Billing と使用量表示を追加</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-03-01</span><a href="./articles/tools/2026-03-01-windsurf-flow.html">Windsurf Flow: 外部ツール自律統合の強化</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-01-20</span><a href="./articles/tools/2026-01-20-windsurf-wave-14.html">Wave 14: Arena Mode (モデル比較) 導入</a></li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-19</span><a href="./articles/tools/2026-03-19-windsurf-1-9577-43-quota-billing.html">v1.9577.43: Quota Billing と使用量表示を追加</a></li>
               </ul>
                 <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-windsurf">v1.6.2</strong></span>
                 <span class="status-tag status-active">Active</span></div>
@@ -192,6 +190,7 @@
               <div class="tool-details-body">
                 <ul class="changelog-list" id="list-github-copilot">
                 <li class="changelog-item"><span class="changelog-date">2026-04-03</span><a href="./articles/tools/2026-04-03-github-copilot-cloud-agent-signed-commits.html">Copilot cloud agent が署名付きコミットに対応</a></li>
+                <li class="changelog-item"><span class="changelog-date">2026-04-03</span><a href="./articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html">Organization runner controls for cloud agent</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-github-copilot-org-custom-instructions-ga.html">Organization custom instructions が一般提供開始</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-04-01</span><a href="./articles/tools/2026-04-01-github-copilot-gpt-5-4-mini-student.html">GPT-5.4 mini: Student の自動モデル選択に追加</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-github-copilot-training-policy.html">重要: インタラクションデータの学習利用に関する規約改定</a></li>
@@ -214,7 +213,18 @@
               </summary>
               <div class="tool-details-body">
                 <ul class="changelog-list" id="list-codex">
-                <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-codex-cli-0-118-0-windows-exec-stdin.html">CLI 0.118.0: Windows sandbox と exec 入力フ            <details id="tool-grokcli" data-category="coding" class="tool-card card-grokcli" data-latest="2026-04-03">
+                <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-codex-cli-0-118-0-windows-exec-stdin.html">CLI 0.118.0: Windows sandbox と exec 入力フローを改善</a></li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-30</span><a href="./articles/tools/2026-03-30-openai-codex-plugin-platform.html">Plugin Support: 外部ツール連携と MCP 対応</a></li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-18</span><a href="./articles/tools/2026-03-18-openai-codex-gpt-5.html">GPT-5.4 mini: 超高速コーディングモデル公開</a></li>
+              </ul>
+                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-codex">CLI 0.118.0</strong></span>
+                <span class="status-tag status-active">Active</span></div>
+                <div class="tool-status"><a href="https://github.com/yeachan-heo/oh-my-codex" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">GitHub Repo 監視中</a></div>
+              </div>
+            </details>
+
+            <!-- Tool Item: Grok CLI -->
+            <details id="tool-grokcli" data-category="coding" class="tool-card card-grokcli" data-latest="2026-04-03">
               <summary class="tool-card-summary">
                 <span class="tool-name">Grok CLI</span>
                 <span class="tool-summary-latest">
@@ -232,15 +242,6 @@
                 <li class="changelog-item"><span class="changelog-date">2026-03-23</span><a href="./articles/tools/2026-03-23-grok-cli-v10-rc4.html">v1.0.0-rc4: マルチエージェント対応</a></li>
               </ul>
                 <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-grokcli">v1.1.4-rc5</strong></span>
-                <span class="status-tag status-active">Active</span></div>
-                <div class="tool-status"><a href="https://github.com/superagent-ai/grok-cli/releases" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">GitHub Releases 監視中</a></div>
-              </div>
-            </details>��</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-03-26</span><a href="./articles/tools/2026-03-26-grok-cli-v1-0-rc7.html">v1.0.0-rc7: デーモン定時実行 & Shuru サンドボックス</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-03-23</span><a href="./articles/tools/2026-03-23-grok-cli-v10-rc5.html">v1.0.0-rc5: Grok-3 mini 対応</a></li>
-                <li class="changelog-item"><span class="changelog-date">2026-03-23</span><a href="./articles/tools/2026-03-23-grok-cli-v10-rc4.html">v1.0.0-rc4: マルチエージェント対応</a></li>
-              </ul>
-                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-grokcli">v1.1.3</strong></span>
                 <span class="status-tag status-active">Active</span></div>
                 <div class="tool-status"><a href="https://github.com/superagent-ai/grok-cli/releases" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">GitHub Releases 監視中</a></div>
               </div>
@@ -267,26 +268,29 @@
                 <div class="tool-status"><a href="https://blog.google/technology/ai/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Google Labs Blog 監視中</a></div>
               </div>
             </details>
-            <details id="tool-chatgpt" data-category="others" class="tool-card card-chatgpt" data-latest="2026-03-31">
+            <!-- Tool Item: ChatGPT -->
+            <details id="tool-chatgpt" data-category="others" class="tool-card card-chatgpt" data-latest="2026-04-02">
               <summary class="tool-card-summary">
                 <span class="tool-name">ChatGPT</span>
                 <span class="tool-summary-latest">
-                  <span class="tool-summary-date">2026-03-31</span>
-                  <span class="tool-summary-title">最新: 1,220億ドルの資金調達を完了</span>
+                  <span class="tool-summary-date">2026-04-02</span>
+                  <span class="tool-summary-title">最新: GPT-5.4 向け Priority Access 開始</span>
                 </span>
                 <span class="tool-summary-chevron">▾</span>
               </summary>
               <div class="tool-details-body">
                 <ul class="changelog-list">
+                <li class="changelog-item"><span class="changelog-date">2026-04-02</span>GPT-5.4 向け Priority Access 開始</li>
                 <li class="changelog-item"><span class="changelog-date">2026-03-31</span>1,220億ドルの資金調達を完了</li>
                 <li class="changelog-item"><span class="changelog-date">2026-03-31</span><a href="./articles/tools/2026-03-31-chatgpt-gpt54-recordmode.html">GPT-5.4 公開 & Record Mode</a></li>
                 <li class="changelog-item"><span class="changelog-date">2026-03-25</span><a href="./articles/tools/2026-03-25-chatgpt-googledrive.html">Google Drive 統合刷新</a></li>
               </ul>
-                <div class="tool-meta"><span class="latest-tag">Latest: <strong>GPT-5.4</strong></span>
+                <div class="tool-meta"><span class="latest-tag">Latest: <strong>Priority Access</strong></span>
                 <span class="status-tag status-active">Active</span></div>
                 <div class="tool-status"><a href="https://help.openai.com/en/collections/3742473-chatgpt-release-notes" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">OpenAI Release Notes 監視中</a></div>
               </div>
             </details>
+            <!-- Tool Item: Perplexity -->
             <details id="tool-perplexity" data-category="others" class="tool-card card-perplexity" data-latest="2026-04-01">
               <summary class="tool-card-summary">
                 <span class="tool-name">Perplexity</span>
@@ -308,6 +312,7 @@
                 <div class="tool-status"><a href="https://blog.perplexity.ai/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Perplexity Blog 監視中</a></div>
               </div>
             </details>
+            <!-- Tool Item: Claude -->
             <details id="tool-claude" data-category="others" class="tool-card card-claude" data-latest="2026-03-31">
               <summary class="tool-card-summary">
                 <span class="tool-name">Claude</span>
@@ -329,6 +334,7 @@
                 <div class="tool-status"><a href="https://www.anthropic.com/news" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Anthropic News 監視中</a></div>
               </div>
             </details>
+            <!-- Tool Item: Gemini -->
             <details id="tool-gemini" data-category="others" class="tool-card card-gemini" data-latest="2026-04-02">
               <summary class="tool-card-summary">
                 <span class="tool-name">Gemini</span>
@@ -351,6 +357,7 @@
                 <div class="tool-status"><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">AI Studio Changelog 監視中</a></div>
               </div>
             </details>
+            <!-- Tool Item: Grok -->
             <details id="tool-grok" data-category="others" class="tool-card card-grok" data-latest="2026-04-01">
               <summary class="tool-card-summary">
                 <span class="tool-name">Grok</span>
@@ -371,6 +378,7 @@
                 <div class="tool-status"><a href="https://x.ai/blog" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">xAI Blog 監視中</a></div>
               </div>
             </details>
+            <!-- Tool Item: Obsidian -->
             <details id="tool-obsidian" data-category="others" class="tool-card card-obsidian" data-latest="2026-03-28">
               <summary class="tool-card-summary">
                 <span class="tool-name">Obsidian</span>
@@ -398,34 +406,19 @@
                 <span class="tool-name">OpenClaw</span>
                 <span class="tool-summary-latest">
                   <span class="tool-summary-date">2026-04-02</span>
-                  <span class="tool-summary-title">2026.4.2: Task Flow 管理と origin 検証を強化</span>
+                  <span class="tool-summary-title">v2026.4.2: MCP 基盤の強化と Task Flow 精度向上</span>
                 </span>
                 <span class="tool-summary-chevron">▾</span>
               </summary>
               <div class="tool-details-body">
                 <ul class="changelog-list" id="list-openclaw">
-                  <li class="changelog-item">
-                    <span class="changelog-date">2026-04-02</span>
-                    <a href="./articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html">2026.4.2: Task Flow 管理と origin 検証を強化</a>
-                  </li>
-                  <li class="changelog-item">
-                    <span class="changelog-date">2026-04-01</span>
-                    <a href="./articles/tools/2026-04-01-openclaw-2026-4-1-tasks-searxng-cron-tools.html">2026.4.1: /tasks と SearXNG、cron --tools を追加</a>
-                  </li>
-                  <li class="changelog-item">
-                    <span class="changelog-date">2026-04-01</span>
-                    v2026.3.31-beta.1: 安定性向上とバグ修正
-                  </li>
-                  <li class="changelog-item">
-                    <span class="changelog-date">2026-03-31</span>
-                    <a href="./articles/tools/2026-03-31-openclaw-security-backlash.html">セキュリティ警告 & 詐欺対策</a>
-                  </li>
-                </ul>
-                <div class="tool-meta">
-                  <span class="latest-tag">Latest: <strong id="val-openclaw">2026.4.2</strong></span>
-                  <span class="status-tag status-active">Active</span>
-                </div>
-                <div class="tool-status"><a href="https://github.com/OpenClaw/OpenClaw/releases" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">GitHub Releases 監視中</a></div>
+                <li class="changelog-item"><span class="changelog-date">2026-04-02</span><a href="./articles/tools/2026-04-02-openclaw-2026-4-2-task-flow-origin-validation.html">v2026.4.2: MCP 基盤の強化と Task Flow 精度向上</a></li>
+                <li class="changelog-item"><span class="changelog-date">2026-04-01</span><a href="./articles/tools/2026-04-01-openclaw-2026-4-1-tasks-searxng-cron-tools.html">2026.4.1: /tasks と SearXNG、cron --tools を追加</a></li>
+                <li class="changelog-item"><span class="changelog-date">2026-03-28</span><a href="./articles/tools/2026-03-28-openclaw-v2026-3-28-multi-account.html">v2026.3.28: 複数アカウント接続対応</a></li>
+              </ul>
+                <div class="tool-meta"><span class="latest-tag">Latest: <strong id="val-openclaw">v2026.4.2</strong></span>
+                <span class="status-tag status-active">Active</span></div>
+                <div class="tool-status"><a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">GitHub Releases 監視中</a></div>
               </div>
             </details>
           </div>
@@ -440,18 +433,18 @@
             <p style="margin-bottom: 8px;"><strong>対象:</strong> 17ツールを Coding / Others の2カテゴリで巡回・検証</p>
 
             <div id="report-coding" style="margin-top: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(124, 58, 237, 0.04);">
-              <p style="margin-bottom: 8px;"><strong>Coding 最終監視:</strong> <span id="report-coding-date">2026-04-05 04:04 JST</span></p>
+              <p style="margin-bottom: 8px;"><strong>Coding 最終監視:</strong> <span id="report-coding-date">2026-04-05 13:30 JST</span></p>
               <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
-                <li id="report-coding-updates"><strong>Updates Found (4):</strong> Claude Code (v2.1.92), GitHub Copilot (Runner Controls), Grok CLI (v1.1.4-rc5), Windsurf (1.9577.43)</li>
-                <li id="report-coding-no-updates"><strong>No New Updates (5):</strong> Antigravity, Cursor, Cline, Codex, Gemini CLI</li>
+                <li id="report-coding-updates"><strong>Updates Found (4):</strong> Claude Code (v2.1.92), Grok CLI (v1.1.4-rc5), Windsurf (v1.6.2), GitHub Copilot (Signed Commits)</li>
+                <li id="report-coding-no-updates"><strong>No New Updates (5):</strong> Antigravity, Cursor, Gemini CLI, Cline, Codex</li>
               </ul>
             </div>
 
             <div id="report-others" style="margin-top: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: rgba(5, 150, 105, 0.04);">
-              <p style="margin-bottom: 8px;"><strong>Others 最終監視:</strong> <span id="report-others-date">2026-04-05 04:34 JST</span></p>
+              <p style="margin-bottom: 8px;"><strong>Others 最終監視:</strong> <span id="report-others-date">2026-04-05 13:30 JST</span></p>
               <ul style="margin: 0; padding-left: 20px; color: var(--text-muted);">
-                <li id="report-others-updates"><strong>Updates Found (1):</strong> OpenClaw (2026.4.2)</li>
-                <li id="report-others-no-updates"><strong>No New Updates (7):</strong> ChatGPT, Claude, Gemini, Grok, NotebookLM, Obsidian, Perplexity</li>
+                <li id="report-others-updates"><strong>Updates Found (2):</strong> OpenClaw (v2026.4.2), Perplexity (Computer in Slack)</li>
+                <li id="report-others-no-updates"><strong>No New Updates (6):</strong> ChatGPT, Claude, Gemini, Grok, NotebookLM, Obsidian</li>
               </ul>
             </div>
 
