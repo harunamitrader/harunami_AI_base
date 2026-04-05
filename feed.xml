@@ -5,15 +5,47 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Apr 2026 18:32:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 09:40:21 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title><![CDATA[2026-04-05 更新レポート]]></title>
+      <title><![CDATA[2026-04-05 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-update-report.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-update-report.html</guid>
       <category>github-update-report</category>
       <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[2件のトレンド記事を追加しました。]]></description>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[mlx-vlm]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-blaizzy-mlx-vlm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-blaizzy-mlx-vlm.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apple Silicon搭載Macで視覚言語モデル（VLM）を高速に動かし、カスタマイズするためのフレームワーク]]></description>
+    </item>
+    <item>
+      <title><![CDATA[tdesktop]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-telegramdesktop-tdesktop.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-telegramdesktop-tdesktop.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[セキュアで多機能なメッセージングアプリ「Telegram」の公式デスクトップ版クライアント]]></description>
+    </item>
+    <item>
+      <title><![CDATA[goose]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-block-goose.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-block-goose.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ソフトウェア開発における単純作業やテスト、バグ修正を自動化する、CLIベースの自律型AIエージェント]]></description>
+    </item>
+    <item>
+      <title><![CDATA[agent-framework]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-microsoft-agent-framework.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-microsoft-agent-framework.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数のAIエージェントが協調してタスクを解決する「マルチエージェント」を実現する、Microsoft製の軽量フレームワーク]]></description>
     </item>
     <item>
       <title><![CDATA[prompts.chat]]></title>
@@ -21,7 +53,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-f-prompts-chat.html</guid>
       <category>github-trending</category>
       <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[公開 prompt 集で終わらず、self-host、CLI、MCP まで持つオープンソース prompt library 基盤。]]></description>
+      <description><![CDATA[AI向けの高機能プロンプト・ライブラリ集（Awesome ChatGPT Prompts）]]></description>
     </item>
     <item>
       <title><![CDATA[fff.nvim]]></title>
@@ -29,55 +61,7 @@
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-05-dmtrkovalenko-fff-nvim.html</guid>
       <category>github-trending</category>
       <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI agent の file search と Neovim の fuzzy finder を、同じ Rust 基盤で高速化する検索ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[everything-claude-code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-affaan-m-everything-claude-code-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-affaan-m-everything-claude-code-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[skills、agents、hooks、rules、MCP をまとめ、Claude Code 以外にも広げた巨大 agent harness 最適化基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Prompt-Engineering-Guide]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-dair-ai-prompt-engineering-guide-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-dair-ai-prompt-engineering-guide-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[prompt engineering、RAG、AI agents の手法や論文、教材を横断できる定番ガイド集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Flowise]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-flowiseai-flowise-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-flowiseai-flowise-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI agent や RAG flow を GUI で組み、self-host もできる visual workflow platform。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[langchain]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-langchain-ai-langchain-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-langchain-ai-langchain-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[モデル、tools、retriever、agent を抽象化し、LLM アプリを組み立てる定番フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[open-interpreter]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-openinterpreter-open-interpreter-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-openinterpreter-open-interpreter-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自然言語で Python、Shell、JavaScript を実行し、ローカル PC の作業を進める OSS interpreter agent。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[bolt.new]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-stackblitz-bolt-new-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-05-stackblitz-bolt-new-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザ内の WebContainers と AI agent をつなぎ、full-stack アプリをその場で作って動かせる開発基盤。]]></description>
+      <description><![CDATA[AIエージェント向けに最適化された高速なNeovimファイル検索ツール]]></description>
     </item>
     <item>
       <title><![CDATA[Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化]]></title>
@@ -166,6 +150,22 @@
       <category>github-pickup</category>
       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[RAG、Deep Research、Agents、MCP、Code Execution を 1 つにまとめたオープンソース AI プラットフォーム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: Organization runner controls for cloud agent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-github-copilot-org-runner-controls-cloud-agent.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Copilot cloud agent の実行先 runner を、organization 単位で統制できるようになった更新です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI v1.1.4-rc5: install script の tmp_dir エラーを修正]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-03-grok-cli-v1-1-4-rc5-install-script-fix.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[最新の RC では install script の tmp_dir 未定義エラーが修正され、導入時の失敗要因がひとつ潰されました。]]></description>
     </item>
   </channel>
 </rss>
