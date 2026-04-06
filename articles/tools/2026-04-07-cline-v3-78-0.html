@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <meta
+      name="description"
+      content="Cline v3.78.0 では、無限ループ検知機能が強化され、エージェントが同じツールを繰り返す際の安全性が向上しました。Kanban 機能の改善も行われています。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v3.78.0 update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />      
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">ツールログ一覧に戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Cline v3.78.0: 無限ループ検知の強化と Kanban 機能のブラッシュアップ</h1>
+      <p class="article-dek">ツール呼び出しの繰り返し検知による安全性の向上、Kanban 連携の精度向上、大規模ファイル読み込みの最適化。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.78.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>安全なツール運用：無限ループ検知</h2>
+        <p>Cline の最新リリースでは、AI エージェントが同じツール呼び出しを執拗に繰り返すパターンを検知し、自動的に停止またはユーザーに警告を発する機能が強化されました。これにより、予期しないトークンの浪費や実行エラーのループを未然に防ぐことが可能になります。</p>
+
+        <h2>Kanban 機能の改善</h2>
+        <p>v3.76.0 から導入された Kanban 機能がブラッシュアップされました。タスクの進捗管理と、実際のコーディング作業の同期がより正確になり、開発の流れがさらに視覚化しやすくなっています。</p>
+
+        <h2>大規模ファイルへのターゲットアクセス</h2>
+        <p>「read_file」ツールにおけるチャンク単位での読み込み機能が最適化されました。これにより、非常に大きなソースファイルを扱う際のメモリ負荷が軽減され、必要なコンテキストをピンポイントで取得できるようになっています。</p>
+
+        <h2>まとめ</h2>
+        <p>Cline v3.78.0 は、自律的なコーディング能力の向上とともに、ユーザーが安心して作業を任せられるための「ガードレール」としての機能を充実させたアップデートとなっています。</p>
+
+        <h2>公式リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">GitHub - cline/cline</a>    
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

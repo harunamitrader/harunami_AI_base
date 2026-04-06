@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <meta
+      name="description"
+      content="Grok CLI v1.1.5-rc1 では、Plan Mode の安定性が向上し、複数ファイルにまたがる変更を安全に実行できるマルチファイル・トランザクション機能が導入されました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Grok CLI v1.1.5-rc1 update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />      
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">ツールログ一覧に戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Grok CLI v1.1.5-rc1: Plan Mode の安定化とマルチファイル・トランザクション</h1>
+      <p class="article-dek">複数ファイルへのアトミックな変更、失敗時の自動ロールバック、Plan Mode のユーザビリティ向上。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v1.1.5-rc1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Grok CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>アトミックなマルチファイル変更</h2>
+        <p>Grok CLI の最新プレリリース版では、開発プロセスをより安全にするための「マルチファイル・トランザクション」機能が導入されました。これにより、複数のファイルにまたがる変更がひとつの「トランザクション」として扱われ、一部の書き込みが失敗した場合でも、システム全体をクリーンな状態に保つための自動ロールバックが実行されます。</p>
+
+        <h2>Plan Mode の安定化</h2>
+        <p>リリース前の設計やリサーチを安全に行う「Plan Mode」の安定性が向上しました。複雑な依存関係を持つプロジェクトにおいても、より正確な戦略を策定可能になり、開発の不確実性を軽減します。</p>
+
+        <h2>プロバイダー管理の強化</h2>
+        <p>新たに導入された `/provider` コマンドにより、Grok 4、Claude、Gemini、ローカルの Ollama などの AI モデル間を動的に切り替えることが容易になりました。タスクの種類に応じて最適なモデルを瞬時に選択できる柔軟性が提供されます。</p>
+
+        <h2>まとめ</h2>
+        <p>v1.1.5-rc1 は、開発者が CLI エージェントに任せる「自動化」の範囲を、より複雑でリスクの高い操作へと安全に拡張するための重要な一歩です。</p>
+
+        <h2>公式リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/superagent-ai/grok-cli/releases" target="_blank" rel="noreferrer">GitHub - superagent-ai/grok-cli</a>    
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
