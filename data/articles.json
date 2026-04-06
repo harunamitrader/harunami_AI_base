@@ -132,6 +132,18 @@
         },
         {
             "category": "ai-tool-log",
+            "slug": "2026-04-06-openclaw-v2026-4-5-video-gen",
+            "title": "OpenClaw v2026.4.5: 組み込みビデオ生成機能の追加",
+            "dek": "外部アプリ連携を介したビデオ生成に対応し、マルチモーダル機能がさらに強化されました。",
+            "summary": "OpenClaw の最新アップデートにより、WhatsApp や Discord などのチャネルを通じて AI によるビデオ生成が可能になりました。タスクフローの安定性向上も含まれます。",
+            "publishedAt": "2026-04-06",
+            "createdAt": "2026-04-07T14:30:00+09:00",
+            "toolName": "OpenClaw",
+            "articleUrl": "./articles/tools/2026-04-06-openclaw-v2026-4-5-video-gen.html",
+            "serial": 75
+        },
+        {
+            "category": "ai-tool-log",
             "slug": "2026-04-05-grok-cli-v1-1-4-stable",
             "title": "Grok CLI v1.1.4: 生成メディアの自動展開とバッチモードの導入",
             "dek": "正式版v1.1.4ではメディアファイルの自動オープンに対応。オートコンプリートの強化やヘッドレス実行用のバッチモードなど、開発効率を支える機能が拡充されました。",
@@ -149,6 +161,18 @@
             "publishedAt": "2026-04-04",
             "toolName": "Codex (OmX)",
             "articleUrl": "./articles/tools/2026-04-04-codex-omx-v0-11-13.html"
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-04-claude-usage-restrictions",
+            "title": "Claude: サードパーティツール経由の Pro 枠利用を制限",
+            "dek": "OpenClaw 等の外部ツールでの Pro サブスクリプション利用が不可となり、従量課金が必須となりました。",
+            "summary": "Anthropic がサードパーティ製クライアントによる Pro 枠の利用を制限しました。API 経由の従量課金モデルへの移行が促されています。",
+            "publishedAt": "2026-04-04",
+            "createdAt": "2026-04-07T14:31:00+09:00",
+            "toolName": "Claude",
+            "articleUrl": "./articles/tools/2026-04-04-claude-usage-restrictions.html",
+            "serial": 76
         },
         {
             "slug": "2026-04-06-update-report",
@@ -723,6 +747,30 @@
             "repoUrl": "https://github.com/open-gitagent/clawless",
             "articleUrl": "./articles/github/pickup/2026-04-03-open-gitagent-clawless.html",
             "serial": 51
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-02-chatgpt-carplay-app-integration",
+            "title": "ChatGPT: CarPlay 対応と外部アプリ連携の強化",
+            "dek": "車内でのハンズフリー対話が可能になり、Notion や Linear との書き込み連携も実現しました。",
+            "summary": "OpenAI が ChatGPT の iOS アプリを更新し、CarPlay に対応。また、Box、Notion、Linear 等の外部アプリとの双方向連携をアップデートしました。",
+            "publishedAt": "2026-04-02",
+            "createdAt": "2026-04-07T14:32:00+09:00",
+            "toolName": "ChatGPT",
+            "articleUrl": "./articles/tools/2026-04-02-chatgpt-carplay-app-integration.html",
+            "serial": 77
+        },
+        {
+            "category": "ai-tool-log",
+            "slug": "2026-04-02-gemini-free-feature-expansion",
+            "title": "Gemini: 無料ユーザー向けに履歴インポートや楽曲生成を開放",
+            "dek": "ChatGPT からのデータ移行機能や Lyria 3 Pro による楽曲生成が全てのユーザーで利用可能になりました。",
+            "summary": "Google が Gemini の無料機能を大幅に拡充. 履歴・メモリのインポート機能に加え、Google TV との統合や高度な楽曲生成機能が追加されました。",
+            "publishedAt": "2026-04-02",
+            "createdAt": "2026-04-07T14:33:00+09:00",
+            "toolName": "Gemini",
+            "articleUrl": "./articles/tools/2026-04-02-gemini-free-feature-expansion.html",
+            "serial": 78
         },
         {
             "category": "ai-tool-log",
