@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="afar1/fieldtheory-cli を読み、要点を実用寄りに整理した記事。X (Twitter) のブックマークをローカルに完全同期し、高速な全文検索を可能にします。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>fieldtheory-cli</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">fieldtheory-cli</h1>
+      <p class="article-dek">X (Twitter) のブックマークをローカルに完全同期し、高速な全文検索を可能にする CLI ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/afar1/fieldtheory-cli" target="_blank" rel="noreferrer">
+              afar1/fieldtheory-cli
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>fieldtheory-cli</code> は、X (旧Twitter) のブックマークをローカル環境に同期・保存・管理するためのオープンソースのコマンドラインツールです。
+          公式 API の制限を回避しながら、Chrome のセッションを利用して情報を取得し、自分だけの検索可能なナレッジベースを構築できます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>ブックマーク同期 (<code>ft sync</code>):</strong> 有料 API 不要で Chrome からセッションを抽出して同期。</li>
+          <li><strong>高速な全文検索 (<code>ft search</code>):</strong> BM25 アルゴリズムを用いたランキング検索。</li>
+          <li><strong>ビジュアライゼーション (<code>ft viz</code>):</strong> ブックマークの分布などをダッシュボードで視覚化。</li>
+          <li><strong>AI 分類 (<code>ft sync --classify</code>):</strong> LLM を活用したブックマークの自動カテゴリー分け。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の強みは「ローカルファースト」かつ「API 不要」である点です。データはすべて <code>~/.ft-bookmarks/</code> に保存され、プライバシーが確保された状態でオフライン検索が可能です。
+          また、AI エージェントが過去のブックマークを「記憶」として参照するための基盤としても非常に有用です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Node.js 20 以上と X ログイン済みの Google Chrome を用意します。</li>
+          <li><code>npm install -g fieldtheory</code> でインストール。</li>
+          <li><code>ft sync</code> を実行してブックマークをローカルに同期。</li>
+          <li><code>ft search "キーワード"</code> で目的の情報を瞬時に見つけ出せます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>X で大量の情報を保存しているが、公式の検索機能やスクロールに限界を感じている人。</li>
+          <li>AI エージェント (Claude Code, Cursor 等) に過去のブックマーク情報を引用させたい開発者。</li>
+          <li>自分だけの技術ナレッシベースをローカルに構築したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          現在は Mac 環境に最適化されているため、Windows や Linux 環境ではパスや依存関係の調整が必要になる場合があります。また、公式 API を介さない手法であるため、基盤となる X の UI 仕様変更による影響を受ける可能性があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>fieldtheory-cli</code> は、散らばりがちな X のブックマークを、整理・検索可能な「資産」へと変えてくれる強力なツールです。特に AI を活用した開発効率化を進めたいユーザーにとって、過去に保存した断片的な情報を即座にコンテキストとして活用できるメリットは計り知れません。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/afar1/fieldtheory-cli" target="_blank" rel="noreferrer">afar1/fieldtheory-cli</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

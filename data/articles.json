@@ -7,6 +7,19 @@
     },
     "articles": [
         {
+            "category": "github-pickup",
+            "slug": "2026-04-07-afar1-fieldtheory-cli-pickup",
+            "title": "fieldtheory-cli",
+            "dek": "X (Twitter) のブックマークをローカルに完全同期し、高速な全文検索を可能にする CLI ツール。",
+            "summary": "Chrome セッションを利用して X の公式 API 制限を回避しながら、ブックマーク情報をローカル環境にダウンロード・管理できるツール。BM25 アルゴリズムによる高速検索や AI 分類、可視化ダッシュボードなどの機能を備え、AI エージェント向けのナレッジソースとしても活用可能です。",
+            "publishedAt": "2026-04-07",
+            "createdAt": "2026-04-07T05:05:00+09:00",
+            "repoName": "afar1/fieldtheory-cli",
+            "repoUrl": "https://github.com/afar1/fieldtheory-cli",
+            "articleUrl": "./articles/github/pickup/2026-04-07-afar1-fieldtheory-cli-pickup.html",
+            "serial": 68
+        },
+        {
             "category": "ai-tool-log",
             "slug": "2026-04-07-antigravity-v2-1",
             "title": "Antigravity v2.1: Vibe Coding 強化とプロジェクト理解の深化",

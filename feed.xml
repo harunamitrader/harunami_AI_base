@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Apr 2026 19:59:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 05:03:43 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[fieldtheory-cli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-afar1-fieldtheory-cli-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-afar1-fieldtheory-cli-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[X (Twitter) のブックマークをローカルに完全同期し、高速な全文検索を可能にする CLI ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Antigravity v2.1: Vibe Coding 強化とプロジェクト理解の深化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-antigravity-v2-1.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[パッチリリースv0.11.13では、Node環境での信頼性が大幅に向上。Deep-InterviewからRalplanへ続く標準開発フローの安定性がさらに高まりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.92: Bedrock 導線と /cost 可視化を強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-04-claude-code-v2-1-92-bedrock-cost-release-notes.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Bedrock 初期設定の対話ウィザード追加と、/cost の内訳可視化、/release-notes の操作改善が入った更新です。]]></description>
     </item>
   </channel>
 </rss>
