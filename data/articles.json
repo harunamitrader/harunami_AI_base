@@ -7,6 +7,21 @@
     },
     "articles": [
         {
+            "category": "github-pickup",
+            "slug": "2026-04-08-hkuds-deeptutor-pickup",
+            "title": "DeepTutor",
+            "dek": "パーソナライズされたAI学習アシスタント：香港大学の研究チームによる、教育特化型の自律エージェント・プラットフォーム。",
+            "summary": "香港大学の研究チームが開発した学習支援AI。5つの主要ケイパビリティ（対話、数学アニメ、自律調査等）を備え、個人に最適化された永続的メモリにより、伴走型の学習体験を提供します。",
+            "publishedAt": "2026-04-08",
+            "createdAt": "2026-04-08T16:40:00+09:00",
+            "repoName": "HKUDS/DeepTutor",
+            "repoUrl": "https://github.com/HKUDS/DeepTutor",
+            "articleUrl": "./articles/github/pickup/2026-04-08-hkuds-deeptutor-pickup.html",
+            "serial": 102,
+            "originType": "pickup",
+            "genre": "AIエージェント (自律基盤・特化アプリ)"
+        },
+        {
             "category": "github-update-report",
             "slug": "2026-04-08-update-report",
             "title": "2026-04-08 アップデートレポート",
