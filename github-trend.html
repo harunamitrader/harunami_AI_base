@@ -188,7 +188,7 @@
         for(const g of genres) {
            if(grouped[g] && grouped[g].length > 0) {
               html += `<div class="genre-section" style="margin-bottom: 32px;">`;
-              html += `<h2 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 20px; padding: 12px 16px; background: var(--surface-strong, #f6f8fa); border-left: 4px solid #0969da; border-radius: 4px; color: var(--text-strong);">${g} <span style="font-size: 0.85rem; font-weight: 500; color: var(--text-muted); margin-left: 8px;">(${grouped[g].length} 件)</span></h2>`;
+              html += `<h2 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--line); color: var(--text-strong);">${g} <span style="font-size: 0.85rem; font-weight: 500; color: var(--text-muted); margin-left: 8px;">(${grouped[g].length} 件)</span></h2>`;
               html += `<div class="archive-list">`;
               html += grouped[g].map(a => renderArticle(a)).join("");
               html += `</div></div>`;
