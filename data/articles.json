@@ -3842,6 +3842,86 @@
             "repoUrl": "https://codeium.com/windsurf",
             "articleUrl": "./articles/tools/2026-01-20-windsurf-wave-14.html",
             "rank": 999
+        },
+        {
+            "category": "github-trending",
+            "slug": "2026-04-08-ghost-coder",
+            "title": "ghost-coder",
+            "dek": "バックエンド開発・CI/CDに統合される自律型修正エージェント。",
+            "summary": "バックエンド開発・CI/CDに統合される自律型修正エージェント。",
+            "publishedAt": "2026-04-08",
+            "repoName": "ai-tools/ghost-coder",
+            "articleUrl": "./articles/github/daily/2026-04-08-ghost-coder.html",
+            "originType": "trending",
+            "genre": "AIエージェント (自律基盤・特化アプリ)",
+            "rank": 1,
+            "serial": 102
+        },
+        {
+            "category": "github-trending",
+            "slug": "2026-04-08-trade-graph-ai",
+            "title": "trade-graph-ai",
+            "dek": "グラフニューラルネットワーク(GNN)を用いて市場の異常な価格変動を検知。",
+            "summary": "グラフニューラルネットワーク(GNN)を用いて市場の異常な価格変動を検知。",
+            "publishedAt": "2026-04-08",
+            "repoName": "finance-ml/trade-graph-ai",
+            "articleUrl": "./articles/github/daily/2026-04-08-trade-graph-ai.html",
+            "originType": "trending",
+            "genre": "金融・トレード分析",
+            "rank": 2,
+            "serial": 103
+        },
+        {
+            "category": "github-trending",
+            "slug": "2026-04-08-glass-magic",
+            "title": "glass-magic",
+            "dek": "手書きUIスケッチからモダンなReactコンポーネントを即座に生成するVLMツール。",
+            "summary": "手書きUIスケッチからモダンなReactコンポーネントを即座に生成するVLMツール。",
+            "publishedAt": "2026-04-08",
+            "repoName": "ui-gen/glass-magic",
+            "articleUrl": "./articles/github/daily/2026-04-08-glass-magic.html",
+            "originType": "trending",
+            "genre": "メディア作成・Web生成 (動画・画像・UI)",
+            "rank": 3,
+            "serial": 104
+        },
+        {
+            "category": "github-trending",
+            "slug": "2026-04-08-kraken-shield",
+            "title": "kraken-shield",
+            "dek": "依存パッケージの脆弱性をLLMで自動パッチ生成・テストするセキュリティツール。",
+            "summary": "依存パッケージの脆弱性をLLMで自動パッチ生成・テストするセキュリティツール。",
+            "publishedAt": "2026-04-08",
+            "repoName": "sec-tools/kraken-shield",
+            "articleUrl": "./articles/github/daily/2026-04-08-kraken-shield.html",
+            "originType": "trending",
+            "genre": "スクレイピング・情報収集・セキュリティ",
+            "rank": 4,
+            "serial": 105
+        },
+        {
+            "category": "github-trending",
+            "slug": "2026-04-08-rag-studio",
+            "title": "rag-studio",
+            "dek": "チャンキングや検索精度を視覚的に評価・調整できるエンタープライズ向けダッシュボード。",
+            "summary": "チャンキングや検索精度を視覚的に評価・調整できるエンタープライズ向けダッシュボード。",
+            "publishedAt": "2026-04-08",
+            "repoName": "data-ops/rag-studio",
+            "articleUrl": "./articles/github/daily/2026-04-08-rag-studio.html",
+            "originType": "trending",
+            "genre": "ナレッジ管理・RAG解析",
+            "rank": 5,
+            "serial": 106
+        },
+        {
+            "category": "github-update-report",
+            "slug": "2026-04-08-update-report",
+            "title": "2026-04-08 アップデートレポート",
+            "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
+            "summary": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
+            "publishedAt": "2026-04-08",
+            "articleUrl": "./articles/github/daily/2026-04-08-update-report.html",
+            "serial": 107
         }
     ]
 }

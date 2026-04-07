@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 20:08:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 05:10:37 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-08 アップデートレポート]]></title>
@@ -104,6 +104,54 @@
       <description><![CDATA[調査コンテキストを長期保持・共有できる独立プロジェクト空間が登場。]]></description>
     </item>
     <item>
+      <title><![CDATA[ghost-coder]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-ghost-coder.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-ghost-coder.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[バックエンド開発・CI/CDに統合される自律型修正エージェント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[trade-graph-ai]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-trade-graph-ai.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-trade-graph-ai.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[グラフニューラルネットワーク(GNN)を用いて市場の異常な価格変動を検知。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[glass-magic]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-glass-magic.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-glass-magic.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[手書きUIスケッチからモダンなReactコンポーネントを即座に生成するVLMツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[kraken-shield]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kraken-shield.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kraken-shield.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[依存パッケージの脆弱性をLLMで自動パッチ生成・テストするセキュリティツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[rag-studio]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-rag-studio.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-rag-studio.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[チャンキングや検索精度を視覚的に評価・調整できるエンタープライズ向けダッシュボード。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-04-08 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
       <title><![CDATA[GitHub Copilot CLI v1.0.20: BYOK およびローカルモデルへの対応]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-github-copilot-cli-v1-0-20-byok-local-models.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-github-copilot-cli-v1-0-20-byok-local-models.html</guid>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenAI発、自律型AIエージェントを安全かつ確実に制御するための次世代設計思想。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[obsidian-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-kepano-obsidian-skills-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-kepano-obsidian-skills-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[あなたのAIを「Obsidianマスター」へ。CEO自らが送る公式級スキルセット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[graphify]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-m8e-graphify-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-m8e-graphify-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[フォルダ内のデータを即座にナレッジグラフへ変換し、AIエージェントの理解を劇的に効率化する Claude Code スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[tradingview-mcp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-tradesdontlie-tradingview-mcp-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-tradesdontlie-tradingview-mcp-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[TradingView Desktop を AI の「目と手」に変え、チャート分析と Pine Script 開発を効率化する MCP サーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[autotrade]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-rv64m-autotrade-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-rv64m-autotrade-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI (Claude/Gemini) にトレード戦略を自律的に考案・改善させる、最先端の自動売買検証フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[codex-plugin-cc]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-openai-codex-plugin-cc-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-openai-codex-plugin-cc-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude CodeからOpenAIモデルを直接操り、コードレビューや重い実装を「委譲」できる強力なプラグイン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-code-skill-scrapling]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-cedriccmh-claude-code-skill-scrapling-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/pickup/2026-04-07-cedriccmh-claude-code-skill-scrapling-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Codeに「Cloudflareも突破可能な高度なWebスクレイピング能力」を付与する特化型スキル。]]></description>
     </item>
   </channel>
 </rss>
