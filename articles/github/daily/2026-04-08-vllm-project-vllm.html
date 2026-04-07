@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="vllm-project/vllm を読み、LLM推論とサービングを高速化・効率化するためのエンジンとしての特徴とアーキテクチャを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>vllm</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">vllm</h1>
+      <p class="article-serial">Daily #100</p>
+      <p class="article-dek">LLM推論とサービングを高速化するエンジン：PagedAttentionによる効率的なメモリ管理と高スループット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>3位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/vllm-project/vllm" target="_blank" rel="noreferrer">
+              vllm-project/vllm
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          vLLMは、大規模言語モデル（LLM）の推論とサービングを劇的に高速化・効率化するためのオープンソースエンジンです。PagedAttentionという革新的なアルゴリズムを導入することで、既存のフレームワークを圧倒するスループットを実現し、GPUリソースを最大限に活用することを可能にします。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          OpenAI互換のAPIサーバーを提供しており、既存のLLM向けアプリをそのまま高速な推論環境に載せ替えることができます。NVIDIA GPUだけでなくAMD、Intel、TPUなど多様なハードウェアに対応しており、分散推論（Tensor Parallelism等）によって巨大なモデルも効率的に実行可能です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴であるPagedAttentionは、OS의 仮想メモリ管理に着想を得たKVキャッシュの動的管理手法です。これにより、メモリの断片化をほぼゼロにし、より多くのリクエストを同時に処理（Continuous Batching）できるようになりました。また、投機的デコード（Speculative Decoding）等の高度なデコード手法もサポートしています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          pipコマンド一つでインストールが完了し、`vllm serve` コマンドで簡単にモデルをサービング開始できます。Hugging Faceのモデルリポジトリを指定するだけで、自動的に適切なウェイトを読み込み、数分でOpenAI互換のエンドポイントが立ち上がります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          自前でLLMをホスティングし、APIとして提供したいインフラエンジニアやSaaS開発者に最適です。特に、高い同時接続数やコスト効率を求める本番環境において、vLLMは事実上のデファクトスタンダードとしての地位を確立しています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          非常に高いパフォーマンスを発揮する一方で、KVキャッシュの管理アルゴリズムが複雑であるため、利用するGPUのメモリ容量に応じた適切な設定（gpu_memory_utilization等）が必要です。また、分散推論を行う際には、ネットワーク構成にも配慮が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          vLLMは、LLMの推論インフラにおけるボトルネックを解消し、より安価で高速なAIサービスの実現を可能にしました。マルチモーダル対応（vLLM-Omni）も進んでおり、AIエコシステムにおいて欠かせない基盤ソフトウェアとなっています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/vllm-project/vllm" target="_blank" rel="noreferrer">vllm-project/vllm</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HKUDS/DeepTutor を読み、パーソナライズされたAI学習アシスタントとしての特徴とアーキテクチャを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>DeepTutor</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">DeepTutor</h1>
+      <p class="article-serial">Daily #096</p>
+      <p class="article-dek">パーソナライズされたAI学習アシスタント：香港大学の研究チームによるエージェントネイティブな教育支援プラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>4位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noreferrer">
+              HKUDS/DeepTutor
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          DeepTutorは、香港大学（HKU）の研究チームによって開発された、学習者一人ひとりに最適化された支援を提供する「エージェント・ネイティブ」なAI学習アシスタントです。単なるチャットボットではなく、知識グラフと永続的なメモリシステムを備えた自律型エージェントとして設計されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          主な機能は「5つのケイパビリティ」に集約されます。対話による質疑応答はもちろん、複雑な問題のステップバイステップな解決（Deep Solve）、学習者の理解度を測るための問題生成（Deep Question）、学術論文を含む広範な調査（Deep Research）、そして数学的・科学的概念を可視化する数学アニメーション（Math Animator）を提供します。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          DeepTutor 2.0で刷新されたアーキテクチャは、ツール（単一機能）とケイパビリティ（多段階パイプライン）を組み合わせた高度な設計です。GeoGebra解析やPythonコード実行、論文検索といった専門的なツールをエージェントが自律的に使い分け、学習者の進捗やスタイルを記憶する「パーソナライズされたメモリ」が学習の継続性を支えます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          ユーザーは、Next.jsで構築されたモダンなWebインターフェースのほか、Telegram、Discord、Slack、WeChatなど、12以上の主要プラットフォームに対応した「TutorBot」を通じて利用できます。開発者向けにはWebSocket APIやPython SDKも提供されており、既存の教育システムへの統合も容易です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          個別の指導を必要とする学習者はもちろん、高度な数学的・学術的な問題を効率的に解決したい学生や研究者に最適です。また、自律型教育エージェントの構築を目指す開発者にとっても、非常に優れたリファレンス実装となっています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          多機能であるため、Web版のワークスペースを使いこなすには多少の慣れが必要です。また、高度な推論やコード実行を伴う機能については、利用するLLMバックエンドの制約や計算コストを考慮する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          DeepTutorは、AIが単なる「答えを教えるツール」から、学習過程に寄り添い、個別に最適化された「伴走型エージェント」へと進化したことを象徴するプロジェクトです。教育現場におけるパーソナライゼーションの未来を提示しています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noreferrer">HKUDS/DeepTutor</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

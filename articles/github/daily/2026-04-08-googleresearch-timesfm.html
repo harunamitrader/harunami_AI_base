@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GoogleResearch/TimesFM を読み、Google製の時系列予測基盤モデルとしての特徴とアーキテクチャを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>TimesFM</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">TimesFM</h1>
+      <p class="article-serial">Daily #098</p>
+      <p class="article-dek">Google製の時系列予測基盤モデル：ゼロショットで高精度な予測を可能にするデコーダー専用Transformer。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>7位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/GoogleResearch/TimesFM" target="_blank" rel="noreferrer">
+              GoogleResearch/TimesFM
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          TimesFM（Time-series Foundation Model）は、Google Researchによって開発された時系列予測のための事前学習済み基盤モデル（Foundation Model）です。言語モデルと同様のTransformerアーキテクチャを時系列データに適用し、大規模なデータで学習させることで、未知のデータに対しても高い精度で予測を行うことができます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          主要な機能は「ゼロショット予測」です。特定のデータセットで再学習（ファインチューニング）を行うことなく、直ちにあらゆる時系列データの将来予測が可能です。短期から長期まで、また外部要因（経済指標や天候など）を考慮した共変量（Covariates）対応の予測をサポートしています。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          デコーダー専用（Decoder-only）のTransformerを採用し、時系列データを固定長の「パッチ」として扱うことで、処理速度と精度を両立させています。1,000億件以上の実世界のデータポイントで学習されており、最新版のv2.5では2億パラメータ、最大16kのコンテキスト長をサポートし、非常に高い汎用性を備えています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Pythonライブラリとして提供されており、数行のコードでモデルをロードし、手元の時系列データを流し込むだけで予測が開始できます。Hugging Face上でもモデルウェイトが公開されており、大規模なGPUリソースがなくても、CPU環境で推論を行うための最適化も進んでいます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          需要予測、在庫管理、エネルギー消費予測、金融市場の分析など、時系列データを扱うあらゆるデータサイエンティストやエンジニアにとって強力な武器となります。特に、学習データが不足している新規ドメインにおいて、事前学習モデルの恩恵を最大限に受けることができます。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          汎用モデルであるため、特定のドメインに特化した非常に尖ったデータセットに対しては、専用に設計された統計モデルや機械学習モデルが勝る場合があります。また、大規模モデルであるため、推論時にも相応のメモリリソースを要求します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          TimesFMは、自然言語処理の領域で起きた「基盤モデル革命」が時系列解析の領域にも到来したことを象徴するプロジェクトです。Googleのリサーチ力が結集したこのモデルは、今後のデータ分析のスタンダードを変える可能性を秘めています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/GoogleResearch/TimesFM" target="_blank" rel="noreferrer">GoogleResearch/TimesFM</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

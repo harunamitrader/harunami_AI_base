@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 04:54:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 05:04:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-08 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査した GitHub トレンドの全順位と、新規作成された 5 件の記事のまとめ。教育AI、SEO自動化、時系列予測、LLMOps、高速推論エンジンと、多様な進化が確認されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[vllm]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-vllm-project-vllm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-vllm-project-vllm.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLM推論とサービングを高速化する engine：PagedAttentionによる効率的なメモリ管理と高スループット。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[dify]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-langgenius-dify.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-langgenius-dify.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LLMアプリ開発のためのオープンソースLLMOpsプラットフォーム：ビジュアルなワークフロー構築と強力なRAG機能。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[TimesFM]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-googleresearch-timesfm.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-googleresearch-timesfm.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google製の時系列予測基盤モデル：ゼロショットで高精度な予測を可能にするデコーダー専用Transformer。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[seomachine]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-thecraighewitt-seomachine.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-thecraighewitt-seomachine.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[SEO特化型ブログコンテンツ作成ワークスペース：Claude Code上で動作する調査から最適化までを網羅した自動化システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[DeepTutor]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-hkuds-deeptutor.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-hkuds-deeptutor.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[パーソナライズされたAI学習アシスタント：香港大学の研究チームによるエージェントネイティブな教育支援プラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Sonnet 4.5: 感情的インテリジェンスの飛躍的向上と「メソッド俳優」のような振る舞い]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-sonnet-4-5-released.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Codeに「Cloudflareも突破可能な高度なWebスクレイピング能力」を付与する特化型スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Telegram-iOS]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-telegrammessenger-telegram-ios.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-telegrammessenger-telegram-ios.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[数億人が利用するメッセージングアプリ Telegram の核心部。Swift による大規模アプリ設計の最高峰がオープンソースで公開されています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Obsidian Skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-kepano-obsidian-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-kepano-obsidian-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Obsidian CEO による AI エージェント用ツールセット。あなたのナレッジグラフを AI が直接読み書き・整理することを可能にします。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code UI]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-siteboon-claudecodeui.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-siteboon-claudecodeui.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[CLI ベースの AI コーディングエージェントに、洗練された Web インターフェースを提供。モバイルからの操作やセッション管理を容易にします。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[PersonaPlex]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-nvidia-personaplex.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-nvidia-personaplex.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[NVIDIA が公開したリアルタイム音声対話モデル。人間の発話の途中で割り込んだり、相槌を打ったりする、極めて自然な会話体験を提供します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[qmd]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-tobi-qmd.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-tobi-qmd.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ローカル環境で完結するハイブリッド検索エンジン。Markdown ノートやドキュメントを AI エージェントの強力な知識ベースに変貌させます。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-07 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
