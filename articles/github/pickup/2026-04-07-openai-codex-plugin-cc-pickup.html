@@ -1,107 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Claude Code内からOpenAIモデル（Codex/GPT-4o）を呼び出し、タスクを委譲・レビューできるプラグイン「codex-plugin-cc」の解説。"
+      content="openai/codex-plugin-cc を読み、要点を実用寄りに整理した記事。Claude Code内からOpenAIモデル（Codex/GPT-4o）を呼び出し、タスクを委譲・レビューできるプラグイン。"
     />
-    <title>codex-plugin-cc - harunami AI base</title>
-    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>codex-plugin-cc</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../../styles.css" />
   </head>
   <body>
-    <nav class="top-nav">
-      <a href="../../index.html" class="nav-item">Home</a>
-      <a href="../../github-trend.html" class="nav-item active">GitHub</a>
-      <a href="../../ai-tools-monitor.html" class="nav-item">AI Tools</a>
-      <a href="../../my-tools.html" class="nav-item">Project</a>
-      <a href="../../links.html" class="nav-item">Bookmark</a>
-    </nav>
-    <div class="shell">
-      <article class="article-shell">
-        <div class="article-topline">
-          <a href="../../github-trend.html" class="back-link">← GitHub Watcher</a>
-          <span class="article-category">GitHub Pickup #80</span>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">codex-plugin-cc</h1>
+      <p class="article-dek">Claude CodeからOpenAIモデルを直接操り、コードレビューや重い実装を「委譲」できる強力なプラグイン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-07</strong>
         </div>
-        <h1 class="article-title">codex-plugin-cc</h1>
-        <p class="article-dek">
-          Claude CodeからOpenAIモデルを直接操り、コードレビューや重い実装を「委譲」できる強力なプラグイン。
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noreferrer">
+              openai/codex-plugin-cc
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>codex-plugin-cc</code> は、Claude Code 内から OpenAI のモデル（Codex/GPT-4o）を呼び出し、コードレビューやタスクの委譲を行うためのプラグインです。
+          Claude のインターフェースを離れることなく、OpenAI の知見、特にコード解析の「多角的な視点」を開発フローに取り込めます。
         </p>
-        <div class="article-meta-grid">
-          <div class="meta-item">
-            <span class="meta-label">Published</span>
-            <span class="meta-value">2026-04-07</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">Repository</span>
-            <span class="meta-value"
-              ><a
-                href="https://github.com/openai/codex-plugin-cc"
-                target="_blank"
-                rel="noopener"
-                >openai/codex-plugin-cc</a
-              ></span
-            >
-          </div>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>専用コマンドの追加:</strong> <code>/codex:review</code>（通常レビュー）や <code>/codex:adversarial-review</code>（さらに厳格・批判的な視点でのレビュー）などが利用可能。</li>
+          <li><strong>バックグラウンドタスク委譲:</strong> <code>/codex:rescue</code> コマンドで、大きな改修タスクや修正作業を OpenAI 側に任せ、並列して処理させることが可能。</li>
+          <li><strong>ハイブリッド開発:</strong> 特定のタスクは OpenAI に、主要な設計や対話は Claude に、といったモデルの特性を活かした使い分け。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の強みは、Claude が得意とする「文脈の理解」を維持しつつ、OpenAI による「厳格なチェック」という二つの知性を一つのターミナル上で統合できる点です。
+          大きな修正を一から行わせるタスクは OpenAI に任せ、その結果を Claude が統合・最終確認するといった、贅沢なエージェント・オーケストレーションが手軽に体験できます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>OpenAI の API キーを設定します。</li>
+          <li>このプラグインを Claude Code に読み込ませます。</li>
+          <li>コマンド一覧に <code>/codex:*</code> 系が出現し、いつでも呼び出せるようになります。</li>
+          <li>レビューさせたいコードを指定して <code>/codex:review</code> と打つだけで動作します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Claude Code をメインで使っているが、OpenAI（Codex）のコード修正能力や、異なるモデルの視点も取り入れたい人。</li>
+          <li>エージェントが重いタスク（リファクタリング全体など）をしていて、自分の作業が止まってしまうのを避けたい開発者。</li>
+          <li>複数の LLM を自在に組み合わせて、開発の「質」を高めたい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          動作には別途 OpenAI の API 費用が必要になります。また、モデル間でコンテキストを共有する際に、情報の転送によるトークン消費が発生する可能性があるため、適切なスコープ切り出しが必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>codex-plugin-cc</code> は、Claude と OpenAI という二大巨頭の知性を 1 つのターミナルで統合する、まさに「最強」の開発環境を目指すためのツールです。
+          モデルごとの長所を理解し、適切にタスクを委譲・分担することで、一人での開発が「チーム」での開発に変わります。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noreferrer">openai/codex-plugin-cc</a>
         </div>
-        <div class="article-body">
-          <h2>概要</h2>
-          <p>
-            Claude Code内からOpenAIのモデル（Codex/GPT-4o）を呼び出し、コードレビューやタスクの委譲を行うためのプラグインです。Claudeのインターフェースを離れることなく、OpenAIの知見、特にコード解析能力を直接開発フローに取り込めます。
-          </p>
-
-          <h2>注目の機能</h2>
-          <ul>
-            <li>
-              <strong>専用コマンドの追加</strong>:
-              <code>/codex:review</code>（通常レビュー）や
-              <code>/codex:adversarial-review</code
-              >（さらに厳格・批判的な視点でのレビュー）などのコマンドが利用可能になります。
-            </li>
-            <li>
-              <strong>バックグラウンドタスク委譲</strong>:
-              <code>/codex:rescue</code
-              >コマンドを通じて、大きな改修タスクや修正作業をOpenAI側に任せ、Claude側での作業を止めずに並列して処理させることができます。
-            </li>
-            <li>
-              <strong>ハイブリッド開発の実現</strong>:
-              特定のタスクはOpenAIに、主要な設計や対話はClaudeに、といった「モデルの適材適所」による開発がシームレスに行えます。
-            </li>
-          </ul>
-
-          <h2>活用シーン</h2>
-          <p>
-            Claudeが得意とするコンテキスト理解を活かしつつ、OpenAI（Codex）による厳格な静的解析や重厚なコード改修の力を借りたい場合。モデルの「複数視点」を得ることで、より品質の高い成果物を目指せます。
-          </p>
-
-          <div class="article-summary">
-            <p>
-              ClaudeとOpenAIという二大巨頭の知性を1つのCLIターミナルで統合する、まさに「最強」を目指すためのツールです。
-            </p>
-          </div>
-
-          <div class="source-links">
-            <p>
-              ソースURL:
-              <a
-                href="https://github.com/openai/codex-plugin-cc"
-                target="_blank"
-                rel="noopener"
-                >https://github.com/openai/codex-plugin-cc</a
-              >
-            </p>
-          </div>
-        </div>
-      </article>
-      <footer class="footer"><p>harunami AI base</p></footer>
-    </div>
+      </div>
+    </article>
   </body>
 </html>

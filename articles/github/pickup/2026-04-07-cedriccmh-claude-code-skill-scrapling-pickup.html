@@ -1,104 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Claude Codeに高度なWebスクレイピング能力を付与する特化型スキル「claude-code-skill-scrapling」の解説。"
+      content="Cedriccmh/claude-code-skill-scrapling を読み、要点を実用寄りに整理した記事。Claude Codeに「Cloudflareも突破可能な高度なWebスクレイピング能力」を付与する特化型スキル。"
     />
-    <title>claude-code-skill-scrapling - harunami AI base</title>
-    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-code-skill-scrapling</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../../styles.css" />
   </head>
   <body>
-    <nav class="top-nav">
-      <a href="../../index.html" class="nav-item">Home</a>
-      <a href="../../github-trend.html" class="nav-item active">GitHub</a>
-      <a href="../../ai-tools-monitor.html" class="nav-item">AI Tools</a>
-      <a href="../../my-tools.html" class="nav-item">Project</a>
-      <a href="../../links.html" class="nav-item">Bookmark</a>
-    </nav>
-    <div class="shell">
-      <article class="article-shell">
-        <div class="article-topline">
-          <a href="../../github-trend.html" class="back-link">← GitHub Watcher</a>
-          <span class="article-category">GitHub Pickup #79</span>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-code-skill-scrapling</h1>
+      <p class="article-dek">Claude Codeに「Cloudflareも突破可能な高度なWebスクレイピング能力」を付与する特化型スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-07</strong>
         </div>
-        <h1 class="article-title">claude-code-skill-scrapling</h1>
-        <p class="article-dek">
-          Claude Codeに「Cloudflareも突破可能な高度なWebスクレイピング能力」を付与する特化型スキル。
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Cedriccmh/claude-code-skill-scrapling" target="_blank" rel="noreferrer">
+              Cedriccmh/claude-code-skill-scrapling
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>claude-code-skill-scrapling</code> は、Claude Code の「スキル」として動作する、強力な Web スクレイピングライブラリ <code>scrapling</code> の拡張機能です。
+          Claude がウェブサイトの内容をより正確かつ効率的に読み取り、データを抽出することを可能にします。
         </p>
-        <div class="article-meta-grid">
-          <div class="meta-item">
-            <span class="meta-label">Published</span>
-            <span class="meta-value">2026-04-07</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">Repository</span>
-            <span class="meta-value"
-              ><a
-                href="https://github.com/Cedriccmh/claude-code-skill-scrapling"
-                target="_blank"
-                rel="noopener"
-                >Cedriccmh/scrapling</a
-              ></span
-            >
-          </div>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>最適なフェッチャーの自動選択:</strong> サイトの構造や保護状態に応じて、最適なスクレイピング手法（StealthyFetcher, DynamicFetcherなど）を自動選定。</li>
+          <li><strong>Cloudflare バイパス機能:</strong> 通常のスクレイパーでは難航する Cloudflare や WAF 等のボット対策を回避。</li>
+          <li><strong>セッション・ログイン対応:</strong> HTTP フォームベースのログインにより、クッキーを維持したまま複数ページをまたぐ抽出が可能。</li>
+          <li><strong>Python 連携:</strong> Claude Code が Python スクリプトを生成・実行する形で、柔軟なデータ処理を実現。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の強みは、標準の読み込み機能では対応できない「最新情報の取得」や「動的コンテンツの解析」を Claude Code 内で完結できる点です。
+          Cloudflare 等の強力な保護がかかっている技術ドキュメントサイトなども、このスキルを介せば Claude が直接読み解くことが可能になります。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li><code>pip install "scrapling[fetchers]"</code> と <code>scrapling install</code> を実行して本体を導入。</li>
+          <li>スキルディレクトリを Claude Code のスキルフォルダにコピーします。</li>
+          <li>一度インストールすれば、Claude Code 内で「このサイトから情報をスクレイピングして」と頼むだけで自動的に発動します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Claude Code を使って、ネット上の最新ドキュメント（公式の一次情報など）を頻繁に参照しながら開発したい人。</li>
+          <li>動的レンダリングが必要なページや、ボット対策が厳しいサイトからのデータ抽出に苦労している開発者。</li>
+          <li>AI エージェントの「目」としての能力を最大化したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          スクレイピングは対象サイトの利用規約を遵守して行う必要があります。また、ブラウザの自動操作を伴うため、実行環境（Playwright 等）のセットアップが正しく行われている必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>claude-code-skill-scrapling</code> は、Claude Code という強力なエージェントに「最強のブラウザ操作」という武器を追加するスキルです。
+          情報の鮮度が重要な技術領域において、最新の Web リサーチを自動化できるメリットは極めて大きいです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Cedriccmh/claude-code-skill-scrapling" target="_blank" rel="noreferrer">Cedriccmh/claude-code-skill-scrapling</a>
         </div>
-        <div class="article-body">
-          <h2>概要</h2>
-          <p>
-            Claude Codeの「スキル」として動作する、強力なWebスクレイピングライブラリ「scrapling」の拡張機能です。Claudeがウェブサイトの内容をより正確かつ効率的に読み取り、データを抽出することを可能にします。
-          </p>
-
-          <h2>主な特徴</h2>
-          <ul>
-            <li>
-              <strong>最適なフェッチャーの自動選択</strong>:
-              サイトの構造や保護状態に応じて、最適なスクレイピング手法（StealthyFetcher, DynamicFetcherなど）を自動で選定します。
-            </li>
-            <li>
-              <strong>Cloudflareバイパス機能</strong>:
-              通常のスクレイパーでは難航するCloudflareやWAFなどのボット対策を回避する機能を備えています。
-            </li>
-            <li>
-              <strong>Python連携</strong>:
-              Claude CodeがPythonスクリプトを生成・実行する形で動作し、セッション維持やログインが必要なページにも対応可能です。
-            </li>
-          </ul>
-
-          <h2>活用シーン</h2>
-          <p>
-            Claude Codeを使って開発している際、「外部ドキュメントを最新の状態で読み込みたい」「動的なコンテンツが含まれるAPIドキュメントを解析したい」といった場面で、標準の読み込み機能では限界がある場合に威力を発揮します。
-          </p>
-
-          <div class="article-summary">
-            <p>
-              Claude Codeのエージェント性能を「外部情報の取得」という面で大幅に底上げする、実用性の高い拡張スキルです。
-            </p>
-          </div>
-
-          <div class="source-links">
-            <p>
-              ソースURL:
-              <a
-                href="https://github.com/Cedriccmh/claude-code-skill-scrapling"
-                target="_blank"
-                rel="noopener"
-                >https://github.com/Cedriccmh/claude-code-skill-scrapling</a
-              >
-            </p>
-          </div>
-        </div>
-      </article>
-      <footer class="footer"><p>harunami AI base</p></footer>
-    </div>
+      </div>
+    </article>
   </body>
 </html>
