@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 20:12:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 20:39:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-08 アップデートレポート]]></title>
@@ -56,12 +56,12 @@
       <description><![CDATA[パーソナライズされたAI学習アシスタント：香港大学の研究チームによるエージェントネイティブな教育支援プラットフォーム。]]></description>
     </item>
     <item>
-      <title><![CDATA[Claude Sonnet 4.5: 感情的インテリジェンスの飛躍的向上と「メソッド俳優」のような振る舞い]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-sonnet-4-5-released.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-sonnet-4-5-released.html</guid>
+      <title><![CDATA[Claude Mythos 発表：強力すぎて「一般公開不可」と判断された次世代モデル]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-mythos-announcement.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-mythos-announcement.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[感情的な文脈への理解が深まり、特定の状況においてより適切なパターンを活性化させる能力が強化されました。]]></description>
+      <description><![CDATA[脆弱性発見能力が飛躍的に向上した新モデル。サイバー防衛特化の「Project Glasswing」として大手 tech 各社へ限定提供。]]></description>
     </item>
     <item>
       <title><![CDATA[Google Gemini: メンタルヘルス保護機能の強化と危機管理インターフェースの導入]]></title>
