@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 19:05:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 04:13:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Cursor v0.62.0: Claude 3.5 Sonnet-v2のネイティブサポートとComposer Tree]]></title>
@@ -22,6 +22,14 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ファイルコンテキストをメモリに固定するfreezeコマンドと、ルーチンタスクのコスト15%削減を実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot CLI v1.0.20: BYOK およびローカルモデルへの対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-github-copilot-cli-v1-0-20-byok-local-models.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-07-github-copilot-cli-v1-0-20-byok-local-models.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自社モデルやローカル LLM (Ollama) を推論エンジンとして使用可能に。オフラインモードも追加。]]></description>
     </item>
     <item>
       <title><![CDATA[harness-engineering]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[エッジデバイスで LLM を。Google 公式の軽量推論フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitNexus]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-abhigyanpatwari-gitnexus.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-07-abhigyanpatwari-gitnexus.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[サーバー不要でブラウザ完結。AI 内蔵のコード視覚化・探索エンジン。]]></description>
     </item>
   </channel>
 </rss>
