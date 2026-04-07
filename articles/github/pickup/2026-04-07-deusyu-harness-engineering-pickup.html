@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="deusyu/harness-engineering を読み、要点を実用寄りに整理した記事。OpenAI発の次世代AIエージェント設計思想「ハーネス・エンジニアリング」を体系的に学び、実践するためのリソース集。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>harness-engineering</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">harness-engineering</h1>
+      <p class="article-dek">OpenAI発、自律型AIエージェントを安全かつ確実に制御するための次世代設計思想。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-07</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/deusyu/harness-engineering" target="_blank" rel="noreferrer">
+              deusyu/harness-engineering
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>harness-engineering</code> は、OpenAI が提唱した AI エージェントの自律的な動作を支えるための設計思想「ハーネス・エンジニアリング」を、概念から実装まで体系的にまとめたリソース集です。
+          エージェントがただ「賢い」だけでなく、現実のタスクを安全・確実に完遂できるよう、周囲の制御機構（ハーネス）をいかに構築すべきかを提案しています。
+        </p>
+
+        <h2>何ができるか / 構成要素</h2>
+        <ul>
+          <li><strong>Ralphループによる自律完遂:</strong> タスク達成までエージェントを自律的に繰り返し実行させる基本パターンの実装例。</li>
+          <li><strong>サンドボックスと制御:</strong> エージェントを隔離しつつ外部ツールへのアクセスを管理する、安全な実行環境の構築。</li>
+          <li><strong>Backpressure Gates（背圧ゲート）:</strong> エージェントによる過剰な API 消費や無限ループを防ぐための制御機構。</li>
+          <li><strong>エージェント可読性の設計:</strong> エージェントが自身の状態（ステータス、ログ、コンテキスト）を正確に把握し、内省（Self-Correction）しやすくするための設計手法。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の強みは「プロンプトエンジニアリング」の先にある **「システムとしてのエージェント運用」** に焦点を当てている点です。
+          単発の指示ではなく、数時間に及ぶ長期的なタスクを自律的に実行させる際のリスク管理（コスト、安全性、リソース）をエンジニアリングとして解決するための知見が凝縮されています。
+        </p>
+
+        <h2>セットアップや活用の流れ</h2>
+        <ol>
+          <li>リポジトリ内のロードマップを読み、ハーネスの概念（Ralphループ等）を理解します。</li>
+          <li>付属の Bash スクリプトや実装例（Rust 等）を参考に、自律型エージェントの実行基盤を作成。</li>
+          <li>エージェントに「ハーネス」という制御盤を通した道具アクセスを与え、安全性を担保しながら自律的に動かします。</li>
+          <li>永続的な状態管理（State Machine）を組み込み、長期タスクでのレジューム機能を実装します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Claude Code などの自律型エージェントを、より大規模・実用的なタスクに適用したい開発者。</li>
+          <li>エージェントの「暴走」や「APIコストの浪費」を防ぎつつ、自律性を最大化したいシステム設計者。</li>
+          <li>AI エージェントを単なるチャット相手ではなく、信頼できる「自律的なチームメンバー」として構築したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          本リポジトリは概念的・実験的な内容を多く含みます。実際のプロダクション環境に適用する際は、各プラットフォーム（Docker 等）でのセキュリティ設定やリソース制限など、物理的な制約も適切に考慮する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>harness-engineering</code> は、AI エージェントを「暴れ馬」にしないための手綱（ハーネス）を設計する学問です。
+          今後、エージェントがより自律的に動くようになる時代において、この「制御の設計」は、プロンプトの記述以上に重要なスキルになっていくでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/deusyu/harness-engineering" target="_blank" rel="noreferrer">deusyu/harness-engineering</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

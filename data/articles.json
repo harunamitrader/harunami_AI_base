@@ -8,6 +8,19 @@
     "articles": [
         {
             "category": "github-pickup",
+            "slug": "2026-04-07-deusyu-harness-engineering-pickup",
+            "title": "harness-engineering",
+            "dek": "OpenAI発、自律型AIエージェントを安全かつ確実に制御するための次世代設計思想。",
+            "summary": "AIエージェントをただ動かすのではなく、周囲の制御機構（ハーネス）を含めてシステム設計する「ハーネス・エンジニアリング」を体系化したリソース集。自律的なループ実行、サンドボックス、安全ブレーキ（背圧ゲート）といった実用的コンセプトを学び、実践できます。",
+            "publishedAt": "2026-04-07",
+            "createdAt": "2026-04-07T17:15:00+09:00",
+            "repoName": "deusyu/harness-engineering",
+            "repoUrl": "https://github.com/deusyu/harness-engineering",
+            "articleUrl": "./articles/github/pickup/2026-04-07-deusyu-harness-engineering-pickup.html",
+            "serial": 87
+        },
+        {
+            "category": "github-pickup",
             "slug": "2026-04-07-kepano-obsidian-skills-pickup",
             "title": "obsidian-skills",
             "dek": "あなたのAIを「Obsidianマスター」へ。CEO自らが送る公式級スキルセット。",
