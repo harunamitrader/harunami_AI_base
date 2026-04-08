@@ -66,6 +66,7 @@
         padding: 16px 18px;
         cursor: pointer;
         list-style: none;
+        background: var(--category-tint, #f8fafc);
       }
       .category-summary::-webkit-details-marker { display: none; }
       .category-summary::marker { display: none; content: ""; }
@@ -246,6 +247,18 @@
         const normalizedGenreMap = {
           "AIコーディング (プロンプト・開発補助ツール)": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
         };
+        const categoryTintMap = {
+          "AIコーディング (CLI本体・拡張機能)": "#eef6ff",
+          "AIコーディング (ワークフロー・プロンプト・開発補助ツール)": "#effcf6",
+          "AIエージェント (自律基盤・特化アプリ)": "#fff7ed",
+          "金融・トレード分析": "#f5f3ff",
+          "メディア作成・Web生成 (動画・画像・UI)": "#fff1f2",
+          "ナレッジ管理・RAG解析": "#ecfeff",
+          "スクレイピング・情報収集・セキュリティ": "#fefce8",
+          "汎用アプリ・AI基盤・IoT": "#f4f4f5",
+          "学習ガイド・開発アセット": "#f0fdf4",
+          "その他・未分類（ユーティリティ等）": "#f8fafc"
+        };
         const categoryOrder = [
           "AIコーディング (CLI本体・拡張機能)",
           "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
@@ -298,7 +311,7 @@
           const isCategoryNew = isWithinNewWindow(latestCreatedAt);
           html += `
             <details class="category-accordion">
-              <summary class="category-summary">
+              <summary class="category-summary" style="--category-tint: ${categoryTintMap[category] || "#f8fafc"};">
                 <div class="category-summary-main">
                   <div class="category-summary-row">
                     <h3>${displayIndex}. ${category}</h3>
