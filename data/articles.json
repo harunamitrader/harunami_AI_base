@@ -8,6 +8,36 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-08-kingbootoshi-nano-banana-2-skill-pickup",
+      "title": "nano-banana-2-skill",
+      "dek": "Claude Code 上で画像生成。Google の最新モデルをターミナルから操る特化型スキル。",
+      "summary": "Google の最新画像生成モデル Nano Banana 2 (Gemini 3.1 Flash Image) を Claude Code から直接呼び出すためのスキル。最高 4K の高解像度出力、アスペクト比指定、透過処理などに対応し、コーディング中などのワークフローを止めずに高品質な画像資産を生成可能です。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T20:40:00+09:00",
+      "repoName": "kingbootoshi/nano-banana-2-skill",
+      "repoUrl": "https://github.com/kingbootoshi/nano-banana-2-skill",
+      "articleUrl": "./articles/github/daily/2026-04-08-kingbootoshi-nano-banana-2-skill-pickup.html",
+      "serial": 169,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-04-08-karaage0703-xangi-pickup",
+      "title": "xangi",
+      "dek": "Discord で自分専用の AI 社員を。チャット形式でタスクをこなす自律型エージェント・フレームワーク。",
+      "summary": "Discord 連携を主眼に置いた AI エージェント構築フレームワーク。チャットを通じて Notion 連携、メモ管理、音声変換などの多彩な「スキル」を AI に実行させることができ、日々の業務や個人的なタスクを自動化する対話型アシスタントを容易に構築できます。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T20:30:00+09:00",
+      "repoName": "karaage0703/xangi",
+      "repoUrl": "https://github.com/karaage0703/xangi",
+      "articleUrl": "./articles/github/daily/2026-04-08-karaage0703-xangi-pickup.html",
+      "serial": 168,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-08-jackwener-twitter-cli-pickup",
       "title": "twitter-cli",
       "dek": "API キー不要で X (Twitter) を操作。ターミナルからタイムライン、投稿、ブックマークを自在に。",

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="kingbootoshi/nano-banana-2-skill を読み、Claude Code 上で Google の最新モデル Nano Banana 2 を用いた画像生成を可能にするスキルの機能を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>nano-banana-2-skill</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">nano-banana-2-skill</h1>
+      <p class="article-dek">Claude Code 上で画像生成。Google の最新モデルをターミナルから操る特化型スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/kingbootoshi/nano-banana-2-skill" target="_blank" rel="noreferrer">
+              kingbootoshi/nano-banana-2-skill
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Google の最新画像生成モデル「Nano Banana 2」（技術名: Gemini 3.1 Flash Image）を、Anthropic の Claude Code や Gemini CLI から直接呼び出すための特化型スキルです。コーディング作業などのターミナル・ワークフローを中断することなく、自然言語の指示で高品質な画像資産を即座に生成することができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>このスキルを導入することで、AI エージェントは以下の画像生成機能を獲得します。</p>
+        <ul>
+          <li><strong>高解像度出力:</strong> 512px から最高 4K までの解像度指定、および自由なアスペクト比での生成。</li>
+          <li><strong>高度な画像処理:</strong> FFmpeg や ImageMagick と連携した、放送品質のグリーンスクリーン透過処理（アルファチャンネル付与）。</li>
+          <li><strong>リファレンス活用:</strong> 既存の画像を参考にしたスタイル置換や、エディット指示による微調整。</li>
+          <li><strong>Claude による自動制御:</strong> あなたが「～の画像を作って」と頼むだけで、Claude が最適なプロンプトを自動構成し、ツールを実行します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>最大の利点は「ブラウザや専用の生成アプリに切り替える必要がない」という点です。特に <code>Nano Banana 2</code> の低遅延・高精度な特性をターミナル上に引き込むことで、UI モックアップの作成、ドキュメント用の図解生成、プロトタイプ用の素材作成などが、会話の延長線上で完結します。エンジニアの「集中力を削がない」クリエイティブ・ツールと言えます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリをクローンし、<code>bun install</code> と <code>bun link</code> で CLI をセットアップします。</li>
+          <li>Google AI Studio から Gemini API キーを取得し、環境変数に設定します。</li>
+          <li>Claude Code を起動し、このスキルをプロジェクトに導入（/init または設定ファイルの編集）します。</li>
+          <li>「ダークモードのダッシュボード UI を 16:9 で生成して」と Claude に指示を出します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Claude Code を中心としたターミナル完結の開発環境を構築しているエンジニア。</li>
+          <li>作成中のアプリの素材やモックアップを、プロンプト一つで素早く用意したいデザイナー・デベロッパー。</li>
+          <li>Google の最新画像生成 AI モデルのポテンシャルを、最も効率的な形で活用したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>動作には <code>Bun</code> ランタイム、および高度な編集機能を利用する場合は FFmpeg/ImageMagick のインストールが必要です。生成には Google Gemini API のトークンを消費します。</p>
+
+        <h2>まとめ</h2>
+        <p><code>nano-banana-2-skill</code> は、AI コーディングにおける表現力の幅を大きく広げるツールです。「文字」だけでなく「視覚情報」を AI と共に自在に生成できる環境を作ることで、あなたのプロダクト開発はより豊かでスピード感のあるものになるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/kingbootoshi/nano-banana-2-skill" target="_blank" rel="noreferrer">kingbootoshi/nano-banana-2-skill</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

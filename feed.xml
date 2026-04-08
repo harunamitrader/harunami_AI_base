@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 04:22:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:21:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[nano-banana-2-skill]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kingbootoshi-nano-banana-2-skill-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kingbootoshi-nano-banana-2-skill-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code 上で画像生成。Google の最新モデルをターミナルから操る特化型スキル。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[xangi]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-karaage0703-xangi-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-karaage0703-xangi-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Discord で自分専用の AI 社員を。チャット形式でタスクをこなす自律型エージェント・フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[twitter-cli]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-jackwener-twitter-cli-pickup.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[LLM推論とサービングを高速化する engine：PagedAttentionによる効率的なメモリ管理と高スループット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[dify]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-langgenius-dify.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-langgenius-dify.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLMアプリ開発のためのオープンソースLLMOpsプラットフォーム：ビジュアルなワークフロー構築と強力なRAG機能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TimesFM]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-googleresearch-timesfm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-googleresearch-timesfm.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google製の時系列予測基盤モデル：ゼロショットで高精度な予測を可能にするデコーダー専用Transformer。]]></description>
     </item>
   </channel>
 </rss>

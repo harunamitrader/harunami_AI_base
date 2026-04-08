@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="karaage0703/xangi を読み、Discord 連携 AI エージェント構築フレームワーク xangi の機能を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>xangi</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">xangi</h1>
+      <p class="article-dek">Discord で自分専用の AI 社員を。チャット形式でタスクをこなす自律型エージェント・フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/karaage0703/xangi" target="_blank" rel="noreferrer">
+              karaage0703/xangi
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Discord などのチャットプラットフォーム上で動作する自律型 AI エージェント（通称：AI 社員）を構築するためのフレームワーク兼スターターキットです。特定の人格や役割を持たせたエージェントを作成し、対話を通じて日常的なタスクを自動化させたり、ナレッジ管理を任せたりすることができます。</p>
+
+        <h2>何ができるか</h2>
+        <p><code>xangi</code> を導入することで、AI エージェントは以下の「スキル」を実行できるようになります。</p>
+        <ul>
+          <li><strong>ドキュメント管理:</strong> メモの作成、日記の記録、および Notion への情報自動保存。</li>
+          <li><strong>マルチモーダル処理:</strong> 音声データのテキスト化や画像解析を通じた情報収集。</li>
+          <li><strong>コンテキスト制御:</strong> Discord のチャネルトピックや構成ファイルを通じて、AI の振る舞いや専門知識（システムプロンプト）を柔軟にカスタマイズ。</li>
+          <li><strong>複数運用:</strong> 開発用、ビジネス用、プライベート用など、役割の異なる複数の AI インスタンスを同時に管理・運用。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「チャットツールを AI の目と口にする」という思想に基づき、開発者が一からボットを作る手間を大幅に削減しています。特に TypeScript をベースにした拡張性の高い設計となっており、自分の好みに合わせて新しいスキルを追加し、独自の「AI 職場環境」を構築できる点が非常にユニークです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリをクローンし、必要な環境変数（API キー等）を設定します。</li>
+          <li>Discord のボット設定を行い、トークンを <code>xangi</code> に紐付けます。</li>
+          <li>チャネルのトピック欄などにプロンプトを記入し、AI の役割を定義します。</li>
+          <li>Discord 上で AI に話しかけたり、特定のコマンドを送ることで、タスクの代行や情報の要約を依頼します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Discord をベースとした独自の AI アシスタントを構築したい開発者。</li>
+          <li>定型的なタスク（メモの整理や情報の転記）を AI に任せて、自分はクリエイティブな作業に集中したい人。</li>
+          <li>エージェント型の AI システムがどのように構築されているかを、実際に動かしながら学びたい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>動作には LLM プラットフォーム（OpenAI や Gemini 等）の API キーが必要です。主に Discord での利用が想定されていますが、他のプラットフォームへの対応には一部追加の実装が必要になる場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>xangi</code> は、AI モデルを「ただの回答マシン」から「信頼できるアシスタント（社員）」へと変えるためのツールです。自分好みにカスタマイズしたエージェントを Discord に迎えることで、あなたのコミュニケーションとタスク管理は劇的に変化するでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/karaage0703/xangi" target="_blank" rel="noreferrer">karaage0703/xangi</a>
+        </div>
+        <div class="source-item">
+          <a href="https://t.co/EoVWw3AkMy" target="_blank" rel="noreferrer">Source X (1)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
