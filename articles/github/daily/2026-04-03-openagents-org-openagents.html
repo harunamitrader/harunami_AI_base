@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="openagents-org/openagents を読み、複数 AI エージェントを 1 つの共有ワークスペースで連携させる OpenAgents Workspace を実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openagents</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openagents</h1>
+      <p class="article-serial">GitHub #096</p>
+      <p class="article-dek">Claude Code や Codex など複数の AI エージェントを、1 つの共有ワークスペースでまとめて動かせる協調基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-03</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/openagents-org/openagents" target="_blank" rel="noreferrer">
+              openagents-org/openagents
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>openagents</code> は、複数の AI エージェントを 1 つのブラウザベース workspace に集約して協調させるためのオープンソース基盤です。README では OpenAgents Workspace として紹介されており、エージェントがどこで動いていても 1 つの URL から管理し、会話させ、共同作業させることを狙っています。</p>
+
+        <h2>何ができるか</h2>
+        <p>Claude Code、OpenClaw、Codex CLI、Cursor など対応エージェントを同じ workspace へ接続し、同じ会話スレッド、ファイル、ブラウザを共有できます。@ メンションでエージェントを呼び分けたり、共有ブラウザ上でページ操作やスクリーンショット取得を行わせたり、ファイルをアップロードして人とエージェントで共通利用したりできます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特徴は「マルチエージェント」だけでなく、「persistent hub」として workspace URL を持つ点です。README の説明では Slack のような場所として扱われており、別マシンや別ターミナルで動くエージェントを同じ文脈へ集められます。加えて launch week 時点で launcher、CLI、desktop app が揃っており、単発デモではなく日常運用を狙った形です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>README の quick start はかなり短く、macOS / Linux なら install script、Windows なら PowerShell スクリプトを叩いて、その後に <code>agn</code> を実行する流れです。CLI 以外に desktop app もあり、既存エージェントを workspace へ接続してからブラウザで管理するのが基本の使い方になります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>複数の AI エージェントを並行で動かしていて、進捗確認や共同作業の文脈が散らばって困っている人に向いています。特にインフラ担当エージェント、開発エージェント、ユーザー対応エージェントのように役割を分けている場合は、1 つの workspace に寄せる価値が大きそうです。</p>
+
+        <h2>注意点</h2>
+        <p>リポジトリは大きく、workspace、launcher、SDK、各 agent 連携まで含むため、導入対象を絞らずに触ると把握に時間がかかります。また「どの agent をどの権限でつなぐか」の設計は別途必要なので、まずは 1 から 2 種類のエージェントで小さく試す方が安全です。</p>
+
+        <h2>まとめ</h2>
+        <p><code>openagents</code> は、AI エージェントを増やした後に生まれる「文脈が散る」「連携が面倒」という問題を、共有 workspace でまとめて解こうとする基盤です。マルチエージェント運用を本気で回したい人ほど、触る価値があるリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openagents-org/openagents" target="_blank" rel="noreferrer">openagents-org/openagents</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openagents-org/openagents" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

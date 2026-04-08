@@ -139,7 +139,6 @@ harunami_ai_base/
       "repoName": "owner/repo",
       "repoUrl": "https://...",
       "articleUrl": "./articles/tools/YYYY-MM-DD-xxx.html"
-                  | "./articles/github/pickup/YYYY-MM-DD-xxx.html"
                   | "./articles/github/daily/YYYY-MM-DD-xxx.html"
     }
   ]
@@ -149,8 +148,9 @@ harunami_ai_base/
 - `category: "ai-tool-log"` → `articleUrl`: `./articles/tools/`
 - `category: "github-trending"` → `articleUrl`: `./articles/github/daily/`
 - `category: "github-update-report"` → `articleUrl`: `./articles/github/daily/`
-- `category: "github-pickup"` → `articleUrl`: `./articles/github/pickup/`
+- `category: "github-pickup"` → `articleUrl`: `./articles/github/daily/`
 - `createdAt` は同日内の並び順を決める記事作成時刻（ISO 8601）として使う
+- `serial` は `github-trending`、`github-pickup`、`github-update-report` で共有する通し番号
 
 ---
 
@@ -173,7 +173,7 @@ harunami_ai_base/
 
 ## 記事HTMLファイルの構造
 
-各記事は `articles/tools/`、`articles/github/pickup/`、`articles/github/daily/` に格納。
+各記事は `articles/tools/` と `articles/github/daily/` に格納。
 
 相対パスの基準（3階層上がルート）:
 ```html
@@ -199,6 +199,6 @@ harunami_ai_base/
 - モバイルデザイン刷新（エッジtoエッジカード）
 
 ### フォルダ構成変更
-- `articles/` → `articles/github/pickup/` + `articles/github/daily/` + `articles/tools/` + `articles/other/`
+- `articles/` → `articles/github/daily/` + `articles/tools/` + `articles/other/`
 - `articles.json` の GitHub 系 `articleUrl` を新パスに更新済み
 - 各 GitHub 記事HTMLの相対パスを `../../` → `../../../` に更新済み

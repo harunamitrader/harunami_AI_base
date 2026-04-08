@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="akii09/pdfx を読み、React で PDF コンポーネントを自由に構築可能な shadcn 形式のライブラリについて整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>pdfx</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">pdfx</h1>
+      <p class="article-serial">GitHub #055</p>
+      <p class="article-dek">React で PDF を、美しく、自分のものに。shadcn 形式でコンポーネントを導入する、新時代の PDF 構築ライブラリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-03-30</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">作成時順位</span>
+          <strong>ピックアップ</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/akii09/pdfx" target="_blank" rel="noreferrer">
+              akii09/pdfx
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>「pdfx」は、React で高品質な PDF ドキュメント（請求書、レポート、証明書など）を作成するための、非常に洗練されたオープンソースライブラリです。有名な `@react-pdf/renderer` をさらに使いやすく拡張し、あらかじめデザインされたモダンな PDF コンポーネント群を、コピー＆ペースト可能な形式で提供します。</p>
+
+        <h2>何ができるか</h2>
+        <p>`Table`, `Graph`, `Heading`, `Badge`, `Address` といった、PDF 出力で頻繁に必要となる美しい UI コンポーネントを自由に組み合わせることができます。また、独自の CLI ツール（pdfx-cli）を介して、必要なコンポーネントだけを自分のプロジェクトに直接追加されるため、外部ライブラリへの過度な依存を極限まで減らしたクリーンな運用が可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、shadcn/ui にインスパイアされた「Copy & Own」の設計思想です。ライブラリからコンポーネントを「借りる」のではなく、プロジェクトに「コピーして所有する」ため、フォントやレイアウトの細かな調整が完全に自由に行えます。また、MCP（Model Context Protocol）に対応しており、AI エージェントと協力してドキュメント作成を行うなどの最新のワークフローとも高い親和性を持っています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>まず `npx pdfx-cli init` を実行してプロジェクトの初期設定を行います。その後、`npx pdfx-cli add heading table` のように必要なコンポーネントを指定して、自分のコードベースにコンポーネントを追加します。あとは、使い慣れた React の記法で、導入されたコンポーネントを組み合わせてインポートするだけで、デザイン性の高い PDF が生成されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>React での PDF 生成において、「一からデザインを組むのが大変」「外部ライブラリの制限に縛られたくない」と感じている Web フロントエンドエンジニアに最適です。特に、ビジネスアプリケーションで、UX の高い PDF レポートや請求書を素早く実装したい開発チームにとって、非常に強力なフレームワークとなります。</p>
+
+        <h2>注意点</h2>
+        <p>現在はベータ版（v0.4.x）という位置付けで頻繁に更新が行われているため、破壊的な変更に備えてリポジトリのリリース情報を定期的にチェックすることが推奨されます。また、PDF 出力特有の制限（フォント読み込みやレイアウト計算など）については、ベースとなっている `@react-pdf/renderer` の仕様を理解しておくことも重要です。</p>
+
+        <h2>まとめ</h2>
+        <p>「pdfx」は、Web 同様の高いデザイン性と柔軟性を PDF の世界にもたらす「待望のライブラリ」です。エンジニアが PDF 作成という苦労から解放され、ドキュメントの「中身」と「体験」の構築に集中できるようになるこのツールは、開発スピードと品質の両方を同時に引き上げてくれるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/akii09/pdfx" target="_blank" rel="noreferrer">akii09/pdfx</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="jjongguet/oh-my-gemini を読み、Gemini CLI を複数ワーカー運用しやすくする拡張と CLI の要点を実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>oh-my-gemini</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">oh-my-gemini</h1>
+      <p class="article-serial">GitHub #088</p>
+      <p class="article-dek">Gemini CLI にチーム実行、検証、進捗監視をまとめて足せるマルチエージェント運用ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/jjongguet/oh-my-gemini" target="_blank" rel="noreferrer">
+              jjongguet/oh-my-gemini
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>oh-my-gemini</code> は、Gemini CLI 向けに CLI 拡張と運用コマンドをまとめたプロジェクトです。README では「Gemini CLI のための multi-agent orchestration」を掲げており、通常の対話実行に加えて複数ワーカーの並列作業や状態監視を扱えるようにしています。</p>
+
+        <h2>何ができるか</h2>
+        <p>グローバルに <code>oh-my-gemini-sisyphus</code> を入れて <code>omg setup --scope project</code> を実行すると、Gemini CLI に <code>/omg:plan</code>、<code>/omg:review</code>、<code>/omg:verify</code> などのコマンド群を追加できます。加えて <code>omg team run</code> で複数ワーカー実行、<code>omg team status</code> や <code>omg hud --watch</code> で進捗確認、<code>omg doctor</code> で前提チェックまで一続きで回せます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>特徴は、単なるプロンプト集ではなくチーム運用の状態を <code>.omg/state/</code> に保持し、resume や shutdown を前提にしている点です。tmux を既定バックエンドにしつつ、役割タグ付きの subagents 実行も選べるため、Gemini CLI を 1 セッションずつ手で回すより再現性のある進行管理を作りやすい構成です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>基本導入は Node.js 20+、Gemini CLI、tmux を用意して npm からインストールし、<code>omg setup --scope project</code> で拡張を登録、その後に Gemini CLI を再起動します。日常利用は <code>omg</code> で対話起動、並列タスクは <code>omg team run --task \"...\" --workers 2</code>、確認は <code>omg team status</code> や <code>omg hud --watch</code> という流れが分かりやすいです。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Gemini CLI を単発の会話だけでなく、レビュー、検証、長めの実装タスクへ広げたい人に向いています。特に tmux を使った分業や、実行途中の再開、チーム状態の可視化が欲しい開発者には相性がよさそうです。</p>
+
+        <h2>注意点</h2>
+        <p>README 上の必須要件に Node.js 20+、Gemini CLI、tmux が含まれているため、Windows では WSL2 前提の tmux セットアップを考えた方が安全です。また <code>omg verify</code> は開発リポジトリ内向けの検証セットという記述があるので、外部プロジェクトでそのまま全て使える前提では見ない方がよいです。</p>
+
+        <h2>まとめ</h2>
+        <p><code>oh-my-gemini</code> は、Gemini CLI を「1 人で対話する道具」から「並列実行と検証を含む作業基盤」へ広げるための実務寄りラッパーです。Gemini を使った開発フローを標準化したい人には、導入コストに対して得られる運用整理の効果が大きいリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/jjongguet/oh-my-gemini" target="_blank" rel="noreferrer">jjongguet/oh-my-gemini</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/jjongguet/oh-my-gemini" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="generativereality/ccremote を読み、Claude Code を Discord と tmux で遠隔運用する仕組みを実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ccremote</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ccremote</h1>
+      <p class="article-serial">GitHub #090</p>
+      <p class="article-dek">Claude Code の承認待ちやクォータ待ちを Discord と tmux で遠隔処理しやすくする監視 CLI。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-02</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/generativereality/ccremote" target="_blank" rel="noreferrer">
+              generativereality/ccremote
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p><code>ccremote</code> は、Claude Code セッションを tmux 上で監視し、Discord から承認や状態確認をできるようにする CLI です。README では Remote approvals、quota-aware auto-continuation、quota scheduling を主軸にしており、席を離れた間に止まりやすい Claude Code の運用を補います。</p>
+
+        <h2>何ができるか</h2>
+        <p>Discord からファイル編集や shell 実行の承認を返せるほか、クォータ制限で止まったセッションを検知して 5 時間ウィンドウ後に自動再開できます。さらに完了通知、<code>/output</code> による直近出力の確認、セッション一覧や停止、毎日のダミー実行によるクォータ時間帯の調整まで用意されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なる通知ボットではなく、<code>ccremote</code> 自体を Claude Code 起動コマンドの置き換えとして使える点が分かりやすいです。<code>ccremote</code> だけで start に入り、tmux セッション生成、5 秒の情報表示、Claude Code への attach、バックグラウンド監視をひと続きで処理します。Discord 側もセッションごとの private channel を作る前提で、遠隔観察と承認が分離されにくい設計です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>導入は Node.js 20.19.4 以上、tmux、Discord bot を用意し、<code>npm install -g ccremote</code> のあと <code>ccremote init</code> で設定を作る流れです。普段は <code>ccremote</code> または <code>ccremote start --name \"my-session\"</code> で監視付きセッションを起動し、必要に応じて <code>ccremote schedule</code>、<code>ccremote resume</code>、<code>ccremote status</code> を組み合わせます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code を長時間走らせる人、承認ダイアログで止まるのが困る人、夜間や外出中も状態を確認したい人に向いています。特に複数セッションを並行で回す運用では、Discord 通知と session list がかなり実務的です。</p>
+
+        <h2>注意点</h2>
+        <p>前提に Discord bot 構築と tmux 環境があり、README でも macOS 付属 tmux の既知不具合に触れています。加えて、承認や出力の一部を Discord に流す以上、bot の権限、private channel 設定、プロジェクトごとの bot 分離など運用面を整理して使う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p><code>ccremote</code> は、Claude Code の「その場にいないと止まる」問題をかなり直接的に潰すツールです。ローカル CLI 体験を保ったまま、遠隔承認、完了通知、クォータ再開を足したい人には実用度が高いリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/generativereality/ccremote" target="_blank" rel="noreferrer">generativereality/ccremote</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/generativereality/ccremote" target="_blank" rel="noreferrer">依頼元URL</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
