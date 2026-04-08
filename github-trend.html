@@ -289,9 +289,11 @@
         }
 
         let html = `<div class="category-accordion-list">`;
+        let displayIndex = 0;
         for (const category of categoryOrder) {
           const items = categoryGroups[category] || [];
           if (items.length === 0) continue;
+          displayIndex += 1;
           const latestCreatedAt = getNewestTimestamp(items);
           const isCategoryNew = isWithinNewWindow(latestCreatedAt);
           html += `
@@ -299,9 +301,8 @@
               <summary class="category-summary">
                 <div class="category-summary-main">
                   <div class="category-summary-row">
-                    <h3>${category}</h3>
+                    <h3>${displayIndex}. ${category}</h3>
                     ${isCategoryNew ? '<span class="meta-chip new-chip category-new">NEW</span>' : ""}
-                    <span class="meta-chip category-chip">${items.length} 件</span>
                   </div>
                   <div class="category-summary-meta">直近追加: ${formatCategoryLatest(items)} / 並び順: 作成日時の新しい順</div>
                 </div>
@@ -364,8 +365,10 @@
           
           let originBadge = "";
           if (article.originType === "trending") {
-             const rankStr = article.rank && article.rank < 99 ? `Rank${article.rank}` : "Trending";
-             originBadge = `<span class="rank-label" style="background:#fdf2f8;color:#be185d;border-color:#fce7f3;">${rankStr}</span>`;
+             const rankValue = String(article.rank ?? "").trim();
+             const normalizedRankValue = rankValue.replace(/^Rank/i, "");
+             const label = normalizedRankValue ? `Rank${normalizedRankValue}` : "Trending";
+             originBadge = `<span class="rank-label" style="background:#fdf2f8;color:#be185d;border-color:#fce7f3;">${label}</span>`;
           } else if (article.originType === "pickup" || article.category === "github-pickup") {
              originBadge = `<span class="rank-label" style="background:#f0fdf4;color:#15803d;border-color:#dcfce7;">Pickup</span>`;
           }
