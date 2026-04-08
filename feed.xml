@@ -5,11 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-<<<<<<< HEAD
-    <lastBuildDate>Wed, 08 Apr 2026 21:05:28 GMT</lastBuildDate>
-=======
-    <lastBuildDate>Thu, 09 Apr 2026 06:18:26 GMT</lastBuildDate>
->>>>>>> f5d76f8 (feat: AIツールおよびGitHubピックアップ記事の更新 (2026-04-09))
+    <lastBuildDate>Wed, 08 Apr 2026 21:23:13 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Claude Platform: Managed Agents 発表と ant CLI のパブリックベータ開始]]></title>
