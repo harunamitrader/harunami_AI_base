@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-08T04:32:19.047160+00:00",
-  "count": 179,
+  "generatedAt": "2026-04-08T12:19:20.093550+00:00",
+  "count": 180,
   "articles": [
+    {
+      "slug": "2026-04-08-milla-jovovich-mempalace-pickup",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "mempalace",
+      "dek": "史上最長の記憶を持つAIメモリシステム。古代の記憶術「記憶の宮殿」を実装し、MCP連携も可能。",
+      "summary": "史上最高のベンチマークスコア（LongMemEval 96.6%）を叩き出した、完全ローカル動作のAIメモリシステム。ChromaDBに会話を逐語保存する仕組みに加え、情報を空間的に整理する「記憶の宮殿」コンセプトを採用。MCPサーバーとしても機能し、ClaudeやGPTなどのLLMに正確で長期的な記憶を付与できます。",
+      "repoName": "milla-jovovich/mempalace",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T21:20:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-08-milla-jovovich-mempalace-pickup.html",
+      "serial": 170,
+      "searchText": "mempalace 史上最長の記憶を持つAIメモリシステム。古代の記憶術「記憶の宮殿」を実装し、MCP連携も可能。 史上最高のベンチマークスコア（LongMemEval 96.6%）を叩き出した、完全ローカル動作のAIメモリシステム。ChromaDBに会話を逐語保存する仕組みに加え、情報を空間的に整理する「記憶の宮殿」コンセプトを採用。MCPサーバーとしても機能し、ClaudeやGPTなどのLLMに正確で長期的な記憶を付与できます。 milla-jovovich/mempalace ナレッジ管理・RAG解析 mempalace ← 記事一覧へ戻る GitHub Watcher mempalace 史上最長の記憶を持つAIメモリシステム。古代の記憶術「記憶の宮殿」を実装し、MCP連携も可能。 記事作成日 2026-04-08 種別 Pickup 対象 repo milla-jovovich/mempalace これは何か 「mempalace（メモリパレス）」は、AIのための高度な長期記憶（Long-term Memory）システムです。 古代ギリシャの記憶術「記憶の宮殿（Method of Loci）」の概念を現代のベクトルデータベース（ChromaDB）と融合させており、 AIが情報を空間的な階層構造（Wings, Halls, Rooms）として整理・保持することを可能にします。 何ができるか このシステムは、AIとの会話や収集したデータを「生のまま（逐語的）」に保存し、地図のような構造で管理します。 Model Context Protocol（MCP）サーバーとしても機能するため、Claude CodeやCursor、 あるいはOpenAI系モデルなどの主要なAIツールからツールとして呼び出し、過去の膨大なコンテキストを呼び出すことができます。 目立つポイント 最も特筆すべきは、ベンチマークスコアの高さです。長期記憶を評価する「LongMemEval」において、 R@5（上位5件の検索精度）で **96.6%** という驚異的な数値を記録しています。 これは情報をあえて「要約」せずに「Raw（生）」の状態で保持し、空間構造でタグ付けする設計が功を奏した結果と言えます。 また、独自のトークン圧縮手法「AAAK」も実験的に提供されています。 セットアップや使い方の流れ Python環境で動作し、インストーラーが含まれています。 リポジトリをクローンし、 python installer.py を実行してセットアップします。 MCP設定ファイルにサーバーとして登録することで、Claude等のAIが search_memory などのツールとして利用可能になります。 データは memory_palace フォルダ内のChromaDBに全てローカル保存されるため、プライバシー面も安全です。 どんな人向けか AIエージェントに「昨日話したこと」や「1ヶ月前の特定プロジェクトの仕様」を正確に思い出させたい開発者。 RAG（検索拡張生成）における要約による情報の欠落に不満を感じている方。 外部APIに依存せず、完全ローカルで動作するパーソナライズされたメモリ基盤が欲しい方。 注意点 96.6%という最高スコアは、逐語保存を行う「Raw Verbatim Mode」での結果です。 実験的な「AAAKモード（圧縮ダイアレクト）」はトークン消費を抑えられますが、現時点での再現率は84.2%に低下します。 基本的には容量やリソースを気にせず、精度を重視する場面で真価を発揮するツールです。 まとめ 「記憶の宮殿」という古典的なアプローチを最新のAIインフラに持ち込むことで、 これまでの「要約ベースのメモリ」では到達できなかった高精度の長期記憶を実現しています。 単なるツールを超えた、AIの「知能」を支える重要なインフラになる可能性を秘めたプロジェクトです。 参照リンク milla-jovovich/mempalace (GitHub)"
+    },
     {
       "slug": "2026-04-08-kingbootoshi-nano-banana-2-skill-pickup",
       "category": "github-pickup",

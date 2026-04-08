@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="milla-jovovich/mempalace を読み、LongMemEval 96.6%を記録したローカルAIメモリシステムの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>mempalace</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">mempalace</h1>
+      <p class="article-dek">史上最長の記憶を持つAIメモリシステム。古代の記憶術「記憶の宮殿」を実装し、MCP連携も可能。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/milla-jovovich/mempalace" target="_blank" rel="noreferrer">
+              milla-jovovich/mempalace
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          「mempalace（メモリパレス）」は、AIのための高度な長期記憶（Long-term Memory）システムです。
+          古代ギリシャの記憶術「記憶の宮殿（Method of Loci）」の概念を現代のベクトルデータベース（ChromaDB）と融合させており、
+          AIが情報を空間的な階層構造（Wings, Halls, Rooms）として整理・保持することを可能にします。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          このシステムは、AIとの会話や収集したデータを「生のまま（逐語的）」に保存し、地図のような構造で管理します。
+          Model Context Protocol（MCP）サーバーとしても機能するため、Claude CodeやCursor、
+          あるいはOpenAI系モデルなどの主要なAIツールからツールとして呼び出し、過去の膨大なコンテキストを呼び出すことができます。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最も特筆すべきは、ベンチマークスコアの高さです。長期記憶を評価する「LongMemEval」において、
+          R@5（上位5件の検索精度）で **96.6%** という驚異的な数値を記録しています。
+          これは情報をあえて「要約」せずに「Raw（生）」の状態で保持し、空間構造でタグ付けする設計が功を奏した結果と言えます。
+          また、独自のトークン圧縮手法「AAAK」も実験的に提供されています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Python環境で動作し、インストーラーが含まれています。
+        </p>
+        <ol>
+          <li>リポジトリをクローンし、<code>python installer.py</code> を実行してセットアップします。</li>
+          <li>MCP設定ファイルにサーバーとして登録することで、Claude等のAIが <code>search_memory</code> などのツールとして利用可能になります。</li>
+          <li>データは <code>memory_palace</code> フォルダ内のChromaDBに全てローカル保存されるため、プライバシー面も安全です。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>AIエージェントに「昨日話したこと」や「1ヶ月前の特定プロジェクトの仕様」を正確に思い出させたい開発者。</li>
+          <li>RAG（検索拡張生成）における要約による情報の欠落に不満を感じている方。</li>
+          <li>外部APIに依存せず、完全ローカルで動作するパーソナライズされたメモリ基盤が欲しい方。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          96.6%という最高スコアは、逐語保存を行う「Raw Verbatim Mode」での結果です。
+          実験的な「AAAKモード（圧縮ダイアレクト）」はトークン消費を抑えられますが、現時点での再現率は84.2%に低下します。
+          基本的には容量やリソースを気にせず、精度を重視する場面で真価を発揮するツールです。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          「記憶の宮殿」という古典的なアプローチを最新のAIインフラに持ち込むことで、
+          これまでの「要約ベースのメモリ」では到達できなかった高精度の長期記憶を実現しています。
+          単なるツールを超えた、AIの「知能」を支える重要なインフラになる可能性を秘めたプロジェクトです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/milla-jovovich/mempalace" target="_blank" rel="noreferrer">milla-jovovich/mempalace (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

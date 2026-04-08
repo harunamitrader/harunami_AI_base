@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 04:23:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 21:19:20 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[mempalace]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-milla-jovovich-mempalace-pickup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-milla-jovovich-mempalace-pickup.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[史上最長の記憶を持つAIメモリシステム。古代の記憶術「記憶の宮殿」を実装し、MCP連携も可能。]]></description>
+    </item>
     <item>
       <title><![CDATA[nano-banana-2-skill]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-kingbootoshi-nano-banana-2-skill-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査した GitHub トレンドの全順位と、新規作成された 5 件の記事のまとめ。教育AI、SEO自動化、時系列予測、LLMOps、高速推論エンジンと、多様な進化が確認されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[vllm]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-vllm-project-vllm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-vllm-project-vllm.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLM推論とサービングを高速化する engine：PagedAttentionによる効率的なメモリ管理と高スループット。]]></description>
     </item>
   </channel>
 </rss>

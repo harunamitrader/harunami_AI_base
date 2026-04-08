@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-08-milla-jovovich-mempalace-pickup",
+      "title": "mempalace",
+      "dek": "史上最長の記憶を持つAIメモリシステム。古代の記憶術「記憶の宮殿」を実装し、MCP連携も可能。",
+      "summary": "史上最高のベンチマークスコア（LongMemEval 96.6%）を叩き出した、完全ローカル動作のAIメモリシステム。ChromaDBに会話を逐語保存する仕組みに加え、情報を空間的に整理する「記憶の宮殿」コンセプトを採用。MCPサーバーとしても機能し、ClaudeやGPTなどのLLMに正確で長期的な記憶を付与できます。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T21:20:00+09:00",
+      "repoName": "milla-jovovich/mempalace",
+      "repoUrl": "https://github.com/milla-jovovich/mempalace",
+      "articleUrl": "./articles/github/daily/2026-04-08-milla-jovovich-mempalace-pickup.html",
+      "serial": 170,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-08-kingbootoshi-nano-banana-2-skill-pickup",
       "title": "nano-banana-2-skill",
       "dek": "Claude Code 上で画像生成。Google の最新モデルをターミナルから操る特化型スキル。",
