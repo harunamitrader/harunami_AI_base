@@ -51,7 +51,7 @@
       .category-accordion {
         border: 1px solid var(--line);
         border-radius: var(--radius-md);
-        background: var(--surface-strong);
+        background: var(--category-tint, #f8fafc);
         overflow: hidden;
         box-shadow: var(--shadow-sm);
       }
@@ -102,6 +102,7 @@
       .category-body {
         padding: 0 18px 18px;
         border-top: 1px solid var(--line);
+        background: var(--category-tint, #f8fafc);
       }
       .meta-chip {
         display: inline-flex;
@@ -248,16 +249,16 @@
           "AIコーディング (プロンプト・開発補助ツール)": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
         };
         const categoryTintMap = {
-          "AIコーディング (CLI本体・拡張機能)": "#eef6ff",
-          "AIコーディング (ワークフロー・プロンプト・開発補助ツール)": "#effcf6",
-          "AIエージェント (自律基盤・特化アプリ)": "#fff7ed",
-          "金融・トレード分析": "#f5f3ff",
-          "メディア作成・Web生成 (動画・画像・UI)": "#fff1f2",
-          "ナレッジ管理・RAG解析": "#ecfeff",
-          "スクレイピング・情報収集・セキュリティ": "#fefce8",
-          "汎用アプリ・AI基盤・IoT": "#f4f4f5",
-          "学習ガイド・開発アセット": "#f0fdf4",
-          "その他・未分類（ユーティリティ等）": "#f8fafc"
+          "AIコーディング (CLI本体・拡張機能)": "#dcecff",
+          "AIコーディング (ワークフロー・プロンプト・開発補助ツール)": "#dcf7eb",
+          "AIエージェント (自律基盤・特化アプリ)": "#ffeacf",
+          "金融・トレード分析": "#ebe5ff",
+          "メディア作成・Web生成 (動画・画像・UI)": "#ffe0e7",
+          "ナレッジ管理・RAG解析": "#dff9ff",
+          "スクレイピング・情報収集・セキュリティ": "#fff8cf",
+          "汎用アプリ・AI基盤・IoT": "#ebedf3",
+          "学習ガイド・開発アセット": "#e1f8df",
+          "その他・未分類（ユーティリティ等）": "#edf2f8"
         };
         const categoryOrder = [
           "AIコーディング (CLI本体・拡張機能)",
@@ -310,8 +311,8 @@
           const latestCreatedAt = getNewestTimestamp(items);
           const isCategoryNew = isWithinNewWindow(latestCreatedAt);
           html += `
-            <details class="category-accordion">
-              <summary class="category-summary" style="--category-tint: ${categoryTintMap[category] || "#f8fafc"};">
+            <details class="category-accordion" style="--category-tint: ${categoryTintMap[category] || "#f8fafc"};">
+              <summary class="category-summary">
                 <div class="category-summary-main">
                   <div class="category-summary-row">
                     <h3>${displayIndex}. ${category}</h3>
