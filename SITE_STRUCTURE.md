@@ -153,6 +153,7 @@ harunami_ai_base/
 - `createdAt` は同日内の並び順を決める記事作成時刻（ISO 8601）として使う
 - `serial` は GitHub Watcher 本体記事である `github-trending` と `github-pickup` が共有する通し番号
 - `github-update-report` は別カウントとして扱い、GitHub Watcher 本体の通し番号を消費しない
+- pickup 記事の `meta description` は、汎用文ではなく repo の価値や用途が伝わる具体文にする
 
 ---
 
@@ -183,6 +184,8 @@ harunami_ai_base/
 <link rel="stylesheet" href="../../../styles.css" />
 <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
 ```
+
+GitHub pickup 記事では、公開前に明らかな誤字や不自然な言い回しがないか短く見直すこと。
 
 ---
 
