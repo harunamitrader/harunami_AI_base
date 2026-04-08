@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Oh My Codex v0.12.3 がリリース。チーム情報の JSON 出力対応や、プロセス管理、ログローテーション機能が強化されました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Oh My Codex v0.12.3 update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">ツールログ一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Oh My Codex v0.12.3: チーム状態の JSON 出力とセッションの安定性向上</h1>
+      <p class="article-dek">omx team status --json コマンドを追加し、自動化や外部連携が容易に。プロセス・クリーンアップの強化や、tmux 以外でのデフォルト動作の変更も行われました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.12.3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール名</span>
+          <strong>Codex (Oh My Codex)</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点と最新情報</h2>
+        <p>Oh My Codex v0.12.3 は、特に大規模な開発チームや自動化パイプラインでの利用に配慮した機能強化が行われました。注目すべきは <code>omx team status --json</code> の追加で、チーム全体の進行状況や各ワーカーのステータスを、機械的に解析しやすい形式で取得できるようになりました。</p>
+
+        <h2>セッション管理とリライアビリティ</h2>
+        <p>ワーカーのセッション追跡方法が改善され、従来の「インデックスによる推定」から、実際の「tmux ペインの PID 記録」へと変更されました。これにより、複数のセッションが並行して動く環境下での誤動作が大幅に軽減され、動作の安定性が向上しています。</p>
+
+        <h2>プロセスの安全なクリーンアップ</h2>
+        <p>孤立した MCP プロセスのクリーンアップ・ロジックが強化され、稼働中のメイン・ツリーを保護しつつ、不要なプロセスのみを確実に回収できるようになりました。また、デフォルトの起動モードが見直され、明示的に <code>--tmux</code> を指定しない場合はデタッチなしの直接起動となります。</p>
+
+        <h2>ログローテーションの導入</h2>
+        <p>「once-mode」での通知ログに対して自動ローテーション機能が追加されました。長期間の運用においてもログファイルが肥大化し続ける心配がなく、ディスク容量の管理が容易になっています。</p>
+
+        <h2>まとめ</h2>
+        <p>今回のアップデートは、日々の開発体験を裏側で支える「信頼性」に主眼を置いています。より大規模で複雑なプロジェクトでの利用を見据えた、堅実な進化と言えるでしょう。</p>
+
+        <h2>関連リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/yeachan-heo/oh-my-codex" target="_blank" rel="noreferrer">GitHub Repo - Oh My Codex</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Apr 2026 21:19:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:00:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.96: Amazon Bedrock 対応と AWS 認証の修正]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-96.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-claude-code-v2-1-96.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Bedrock サポートの強化と、v2.1.94 で発生していた認証情報の欠落バグを修正。インタラクティブな学習コマンド /powerup も追加。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.37.0 Stable: Plan Mode の強化とセキュリティサンドボックスの改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-gemini-cli-v0-37-0-stable.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-gemini-cli-v0-37-0-stable.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プレビュー版での実験的機能が正式に安定版として昇格。Plan Mode の信頼性向上と、.env ファイルなど機密情報のサンドボックス保護を強化。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot VS Code 4月アップデート: 動画のプレビュー対応と回答コピーの改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-github-copilot-vscode-april-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-github-copilot-vscode-april-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[VS Code 版での画像カルーセルやエクスプローラー・メニューが動画再生に対応。また、エージェントの思考プロセスを除いた「最終回答のみ」のコピー機能が追加。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Oh My Codex v0.12.3: チーム状態の JSON 出力とセッションの安定性向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-codex-v0-12-3.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-08-codex-v0-12-3.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[omx team status --json コマンドを追加し、自動化や外部連携が容易に。プロセス・クリーンアップの強化や、tmux 以外でのデフォルト動作の変更も。]]></description>
+    </item>
     <item>
       <title><![CDATA[mempalace]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-milla-jovovich-mempalace-pickup.html</link>
@@ -134,38 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[人間のように割り込み、相槌を。テキスト・音声の両面でペルソナを制御可能な、NVIDIA製の次世代フルデュプレックス音声対話モデル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[indexion]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-trkbt10-indexion-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-trkbt10-indexion-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複雑なコードベースを「動的な地図」に変える。リファクタリング計画から AI 連携までを網羅した解析・検索エンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI-Trader]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-hkuds-ai-trader-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-hkuds-ai-trader-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[100%完全自動トレード：OpenClawエージェントが「群知能」で相場を読み、シグナルを共有・実行する次世代プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepTutor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-hkuds-deeptutor-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-hkuds-deeptutor-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[パーソナライズされたAI学習アシスタント：香港大学の研究チームによる、教育特化型の自律エージェント・プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-08 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-08-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-08-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査した GitHub トレンドの全順位と、新規作成された 5 件の記事のまとめ。教育AI、SEO自動化、時系列予測、LLMOps、高速推論エンジンと、多様な進化が確認されました。]]></description>
     </item>
   </channel>
 </rss>
