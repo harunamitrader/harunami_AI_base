@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-08-trkbt10-indexion-pickup",
+      "title": "indexion",
+      "dek": "複雑なコードベースを「動的な地図」に変える。リファクタリング計画から AI 連携までを網羅した解析・検索エンジン。",
+      "summary": "MoonBitで開発された次世代のコード探索・分析ツール。コードの抽象構造を扱うKGF形式とTree-sitterを活用し、高度な検索やリファクタリング計画の自動生成、MCP経由でのAIエージェント連携を実現します。",
+      "publishedAt": "2026-04-08",
+      "createdAt": "2026-04-08T18:00:00+09:00",
+      "repoName": "trkbt10/indexion",
+      "repoUrl": "https://github.com/trkbt10/indexion",
+      "articleUrl": "./articles/github/daily/2026-04-08-trkbt10-indexion-pickup.html",
+      "serial": 154,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-08-hkuds-ai-trader-pickup",
       "title": "AI-Trader",
       "dek": "100%完全自動トレード：OpenClawエージェントが「群知能」で相場を読み、シグナルを共有・実行する次世代プラットフォーム。",

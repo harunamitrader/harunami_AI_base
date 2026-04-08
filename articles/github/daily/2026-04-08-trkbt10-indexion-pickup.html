@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="trkbt10/indexion を読み、要点を実用寄りに整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>indexion</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">indexion</h1>
+      <p class="article-dek">複雑なコードベースを「動的な地図」に変える。リファクタリング計画から AI 連携までを網羅した解析・検索エンジン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-08</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/trkbt10/indexion" target="_blank" rel="noreferrer">
+              trkbt10/indexion
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Serial</span>
+          <strong>#154</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>indexion</code> は、大規模かつ複雑なソースコードの構造を可視化し、分析・検索・ドキュメント生成を劇的に効率化するためのツールキットです。
+          「地図は領土ではない (The map is not the territory)」という設計思想のもと、コードの抽象的な構造を <strong>KGF (Kindred Graph Format)</strong> という独自形式で扱い、人間と AI の両方がプロジェクトを深く理解するための「動点な地図」を提供します。
+        </p>
+        <p>
+          最近注目を集めている <strong>MoonBit</strong> 言語で開発されており、高速な動作と先進的な機能を両立させているのが特徴です。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>リファクタリングの自動計画</strong>: コード間の類似度を分析し、重複の統合や不要なラッパーの削除（unwrap）など、具体的な改善プランを提示します。</li>
+          <li><strong>セマンティック & 構造的検索</strong>: 自然言語による検索に加え、言語の構造（Tree-sitter活用）を理解した <code>Structural Grep</code> が可能です。</li>
+          <li><strong>MCP (Model Context Protocol) サーバー</strong>: Claude Code や Cursor などの AI エージェントと連携し、AI に対してプロジェクト全体の正確な文脈を提供します。</li>
+          <li><strong>インテリジェント・ドキュメント生成</strong>: コードの構造解析に基づき、README、Wiki、API リファレンスを自動生成します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          単にコードを検索するだけでなく、<strong>「次に行うべきアクション」を提示する <code>plan</code> コマンド</strong> が非常に実用的です。
+          また、MCP サーバーとして機能するため、AI エージェントが「迷子」になることを防ぎ、トークンコストを抑えながら確実なコード操作を支援します。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          ツールは <code>indexion</code> コマンドとしての CLI 提供が主軸です。
+          例えば、プロジェクトの類似性を調査するには <code>indexion explore</code> を実行し、改善が必要な箇所を特定した後は <code>indexion plan refactor</code> で具体的な手順を生成します。
+          AI と連携させる場合は、MCP 構成に <code>indexion mcp</code> を追加するだけで、エージェントが <code>indexion</code> の解析能力をフル活用できるようになります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li><strong>大規模プロジェクトのメンテナー</strong>: 技術負債の解消や、複雑化した構造の整理を自動化したい方。</li>
+          <li><strong>AI 駆動開発を極めたい開発者</strong>: Claude Code や Cursor 等の AI エージェントに、より正確な「プロジェクトの地図」を与えたい方。</li>
+          <li><strong>ドキュメント管理を自動化したいチーム</strong>: コードとドキュメントの乖離を防ぎ、常に最新の情報を維持したい方。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          現在活発に開発されているプロジェクト（プレリリース段階）であるため、機能の追加や変更が頻繁に行われる可能性があります。
+          最新の機能を利用するには、ソースからのビルドや定期的なアップデートが推奨されます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>indexion</code> は、単なる静的解析ツールを超え、AI 時代のソフトウェア開発における「コンテキスト（文脈）のインフラ」を目指す野心的なプロジェクトです。
+          コードを「読む」ストレスを軽減し、人間と AI が協力してより良い設計を目指すための強力な味方となるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/trkbt10/indexion" target="_blank" rel="noreferrer">trkbt10/indexion (GitHub)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
