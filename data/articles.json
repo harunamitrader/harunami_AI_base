@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-09-goharbor-harbor-pickup",
+      "title": "harbor",
+      "dek": "脆弱性スキャンやRBAC、署名検証を備えた、クラウドネイティブ環境向けのエンタープライズ対応コンテナレジストリ。",
+      "summary": "Cloud Native Computing Foundation (CNCF) がホストする、セキュリティとコンプライアンスに特化したオープンソースのコンテナレジストリ。イメージやHelmチャートの保管に加え、脆弱性スキャン、ロールベースアクセス制御(RBAC)、イメージ署名機能などを提供し、企業の本番環境に求められる厳格な運用を実現します。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-09T12:29:16+09:00",
+      "repoName": "goharbor/harbor",
+      "repoUrl": "https://github.com/goharbor/harbor",
+      "articleUrl": "./articles/github/daily/2026-04-09-goharbor-harbor-pickup.html",
+      "serial": 178,
+      "originType": "pickup",
+      "genre": "汎用アプリ・AI基盤・IoT"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-09-xixu-me-claude-code-toolkit",
       "title": "claude-code-toolkit",
       "dek": "Claude Code をより便利に、強力に。セットアップから拡張機能までを網羅した統合ツールキット。",

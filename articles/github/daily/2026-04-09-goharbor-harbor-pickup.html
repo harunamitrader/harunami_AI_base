@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="goharbor/harbor - 脆弱性スキャンやRBAC、署名検証を備えた、クラウドネイティブ環境向けのエンタープライズ対応コンテナレジストリ。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>harbor</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← GitHub トレンドとピックアップ</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">harbor</h1>
+      <p class="article-dek">脆弱性スキャンやRBAC、署名検証を備えた、クラウドネイティブ環境向けのエンタープライズ対応コンテナレジストリ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">公開日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">記事種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象リポジトリ</span>
+          <strong>
+            <a href="https://github.com/goharbor/harbor" target="_blank" rel="noreferrer">
+              goharbor/harbor
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>このリポジトリの概要</h2>
+        <p>Harborは、コンテナイメージやHelmチャートなどのクラウドネイティブアーティファクトを安全に保管・管理するためのオープンソースのコンテナレジストリです。Cloud Native Computing Foundation (CNCF) のGraduatedプロジェクトとしてホストされており、企業の本番環境で必要とされる厳格なセキュリティ機能を提供します。</p>
+
+        <h2>主な機能と特徴</h2>
+        <p>単なるイメージの保管にとどまらず、デプロイメントの安全性を確保するための様々な機能が組み込まれています。</p>
+        <ul>
+          <li><strong>脆弱性スキャン:</strong> Trivyなどのスキャナと統合し、イメージ内の脆弱性を自動的に検出。ポリシーを設定することで、脆弱性のあるイメージのデプロイをブロックできます。</li>
+          <li><strong>詳細なアクセス制御 (RBAC):</strong> 「プロジェクト」と呼ばれる論理的な単位でリソースを分割し、ユーザーやグループに対してきめ細かなアクセス権限を割り当てることが可能です。</li>
+          <li><strong>イメージ署名と信頼性:</strong> NotaryやCosignを利用したイメージ署名に対応し、改ざんされていない信頼できるコンテンツのみをシステムに導入する運用をサポートします。</li>
+          <li><strong>レプリケーションと同期:</strong> 複数のHarborインスタンス間、または外部のレジストリ（Docker Hub、Google Container Registryなど）との間でイメージを自動的に同期（Push/Pull）する機能を提供します。</li>
+        </ul>
+
+        <h2>どのような課題を解決するか</h2>
+        <p>パブリックなレジストリを利用する場合、イメージのセキュリティスキャンやアクセス制御が不十分になるケースがあります。また、ビルド環境や本番環境からレジストリが遠いと、ネットワーク帯域の消費やデプロイの遅延が発生します。Harborを自社の環境内（オンプレミスやプライベートクラウド）にホストすることで、これらの課題を解消し、コンプライアンス要件を満たすセキュアなコンテナ基盤を構築できます。</p>
+
+        <h2>アーキテクチャと運用</h2>
+        <p>Harborの各コンポーネント自体もDockerコンテナとして提供されており、Docker ComposeやKubernetes（Helmチャートなど）を用いて容易にデプロイ・スケーリングが可能です。さらに、既存の企業向けアイデンティティ管理システム（LDAP、Active Directory、OIDC）とシームレスに統合できるため、アカウント管理のオーバーヘッドを削減できます。すべての操作は監査ログとして記録され、強力なガバナンス体制を敷くことができます。</p>
+
+        <h2>まとめ</h2>
+        <p>Harborは、セキュアで信頼性の高いクラウドネイティブソフトウェアのデリバリーパイプラインを構築する上で欠かせない要素です。DevSecOpsを推進し、コンテナのセキュリティと管理レベルをエンタープライズグレードに引き上げたい組織にとって、非常に強力なプラットフォームとなります。</p>
+
+        <h2>関連リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/goharbor/harbor" target="_blank" rel="noreferrer">goharbor/harbor</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
