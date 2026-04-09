@@ -83,6 +83,12 @@ harunami_ai_base/
 
 `ai-tools-monitor.html` に記載。記事は `articles/tools/` に格納。
 
+### AI Tool Log のレポート時刻
+
+- `#report-coding-date` と `#report-others-date` は日本時間で表示する
+- 書式は `YYYY-MM-DD HH:mm JST`
+- 元の確認時刻や更新時刻が UTC でも、表示時は `Asia/Tokyo` に変換してから反映する
+
 | ツールID | ツール名 | 監視先 | 監視方法 |
 |---------|---------|--------|---------|
 | `tool-claudecode` | ClaudeCode | https://github.com/anthropics/claude-code/releases | GitHub Releases |
