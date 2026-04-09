@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-09-russellenvy-three-man-team",
+      "title": "Three-Man Team",
+      "dek": "Architect, Builder, Reviewer。3人の専門エージェントを召喚し、開発品質を最大化する統合フレームワーク。",
+      "summary": "開発タスクを Architect（設計）、Builder（実装）、Reviewer（査読）の3段階に分離し、AIエージェントの出力品質を劇的に高める構造化設定集。Claude Code や Cursor など、あらゆるAIエディタで共通利用可能なコンテキスト定義を提供し、トークン効率と実装精度の両立を実現します。",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-09T15:20:00+09:00",
+      "repoName": "russelleNVy/three-man-team",
+      "repoUrl": "https://github.com/russelleNVy/three-man-team",
+      "articleUrl": "./articles/github/daily/2026-04-09-russellenvy-three-man-team.html",
+      "serial": 179,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-09-goharbor-harbor-pickup",
       "title": "harbor",
       "dek": "脆弱性スキャンやRBAC、署名検証を備えた、クラウドネイティブ環境向けのエンタープライズ対応コンテナレジストリ。",

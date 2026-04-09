@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<style>
+    body { font-family: 'Segoe UI', Meiryo, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; }
+    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+    h2 { color: #2980b9; margin-top: 30px; border-left: 5px solid #3498db; padding-left: 10px; }
+    h3 { color: #34495e; margin-top: 20px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: Consolas, monospace; }
+    hr { border: 0; border-top: 1px solid #eee; margin: 30px 0; }
+    .footer { font-size: 0.8em; color: #777; text-align: right; margin-top: 50px; }
+</style>
+<title>AIマルチエージェント運用のための最適化戦略ガイド</title>
+</head>
+<body>
+    <h1>AIマルチエージェント運用のための最適化戦略ガイド</h1>
+    <p>〜CIA「組織の壊し方」マニュアルを逆用したデジタル組織病の回避〜</p>
+
+    <h2>1. はじめに：なぜ8体のエージェントは「停滞」するのか</h2>
+    <p>AIエージェントの数が増えると、個々のエージェントの能力にかかわらず、システム全体に「組織病」が発生します。これは1944年にCIA（の前身OSS）が作成した「組織の壊し方（Simple Sabotage Field Manual）」にある、効率的な組織破壊の手口がAIプロセスの間に知らず知らずのうちに紛れ込むためです。</p>
+    <p>本資料では、8体のエージェントを常時稼働させる環境において、この「摩擦（フリクション）」を検知し、自律的な進化を促すための運用戦略を解説します。</p>
+
+    <hr>
+
+    <h2>2. 三つの主要ターゲット戦略</h2>
+
+    <h3>戦略1：デジタル・サボタージュの定義と排除</h3>
+    <p>エージェント、あるいはその連携フローが以下の「組織破壊の動き」に陥っていないかを監視します。</p>
+    <ul>
+        <li><strong>正規ルートへの固執</strong>: 常に全ての子エージェントの承認を待たないと次に進めない設計。</li>
+        <li><strong>論点の無限ループ</strong>: 曖昧なプロンプトにより、エージェント間で同じデータの解釈が繰り返される状態。</li>
+        <li><strong>過剰な慎重さ</strong>: 軽微なリスクに対しても、必ず人間の介入（プロンプト待機）を求める安全性の誤用。</li>
+    </ul>
+
+    <h3>戦略2：メタ分析レイヤー（摩擦検知エージェント）の導入</h3>
+    <p>8体のうち1体を「作業」から解放し、プロセス全体の「血流監視」に専念させます。</p>
+    <ul>
+        <li><strong>役割</strong>: エージェント間のログ、チケットのやり取り、Slack通知をスキャン。</li>
+        <li><strong>検知項目</strong>: 「同じ論点が三度差し戻されている」「承認者が無駄に増えている」「決定オーナーが不明確なまま放置されている」等の兆候。</li>
+        <li><strong>価値</strong>: 人間が8体の全ログを追うのは不可能です。AIに「詰まり」を視覚化させることで、管理コストを劇的に下げます。</li>
+    </ul>
+
+    <h3>戦略3：自律判定ゲート（リスク・ソーティング）</h3>
+    <p>エージェントが「いつ人間を呼ぶべきか」の基準を高度化させます。</p>
+    <ul>
+        <li><strong>現場決裁（エージェント完結）</strong>: あとから修正可能、低予算、法務・セキュリティ影響なしの案件。</li>
+        <li><strong>レビュー対象</strong>: 基準が曖昧なもの、過去に失敗例があるパターン。</li>
+        <li><strong>人間召喚（エスカレーション）</strong>: 非可逆的な決定、対外信用に関わる重要事項。</li>
+        <li><strong>目標</strong>: 人間を「作業のブレーキ」にしない。本当に必要な時だけ最強の意思決定者として降臨させる。</li>
+    </ul>
+
+    <hr>
+
+    <h2>3. 実装の4層モデル</h2>
+    <ul>
+        <li><strong>1. 入力層 (Ingestion)</strong>: 全エージェントのログ、Slackの発言、実行結果を集約。</li>
+        <li><strong>2. 判定層 (Analytics)</strong>: ルールベース（回数・時間）とLLM（文脈・ループ）を併用し、「詰まり」をスコアリング。</li>
+        <li><strong>3. 仕分け層 (Sorting)</strong>: リスク定義に基づき、各エージェントの判断権限を動的に調整。</li>
+        <li><strong>4. 通知層 (Notification)</strong>: ナッジ（軽い促し）として提示。「この案件はチーム内で完結可能です」等の助言。</li>
+    </ul>
+
+    <hr>
+
+    <h2>4. 運用のマインドセット</h2>
+    <ul>
+        <li><strong>監視装置ではなく、ダッシュボード</strong>: 「誰のプロンプトが悪いか」を査定するのではなく、仕組みのどこに摩擦があるかを見るカルチャーを創る。</li>
+        <li><strong>心理的安全性ハーネス</strong>: 人間（オーナー）が「AIに任せても、何かあればAI自身がブレーキを見つけて報告してくれる」という信頼を持てる状態にすること。</li>
+    </ul>
+
+    <div class="footer">
+        <p>執筆協力: harunami_AI_base (Inspired by fladdict's Note)<br>
+        日付: 2026年4月9日</p>
+    </div>
+</body>
+</html>

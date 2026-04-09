@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="russelleNVy/three-man-team を読み、3人のAIエージェントによる構造化チーム開発のメリットと導入方法を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Three-Man Team</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Three-Man Team</h1>
+      <p class="article-dek">Architect, Builder, Reviewer。3人の専門エージェントを召喚し、開発品質を最大化する統合フレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/russelleNVy/three-man-team" target="_blank" rel="noreferrer">
+              russelleNVy/three-man-team
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Three-Man Teamは、AIエージェントを活用したソフトウェア開発に「規律」と「構造」をもたらすためのフレームワークです。単一のAIにすべてを任せるのではなく、Architect（設計）、Builder（実装）、Reviewer（査読）という3つの明確な役割を定義し、トークン消費を最適化しながら高品質なコード出力を実現します。</p>
+
+        <h2>なぜ「3人」なのか</h2>
+        <p>マルチエージェント研究によれば、3〜5体のチームで構造化された成果物の授受を行う形態が、単独のエージェントやそれ以上の大人数グループよりも高いパフォーマンスを発揮するとされています。「3」という数字は、意味のあるレビュー（相互確認）を維持しつつ、調整コストによるオーバーヘッドを最小限に抑えるための「黄金比」と言えます。</p>
+
+        <h2>何ができるか（エージェントの役割）</h2>
+        <ul>
+          <li><strong>Architect (設計者)</strong>: システム全体を把握し、実装のブリーフ（計画書）を作成します。デプロイの最終判断も担当します。</li>
+          <li><strong>Builder (構築者)</strong>: ブリーフに基づき、迅速かつクリーンにコードを実装し、テストを実行します。</li>
+          <li><strong>Reviewer (査読者)</strong>: 実装工程をチェックし、品質が基準に達していない場合はBuilderに差し戻します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、その汎用性と「トークン最適化」への執着です。CLAUDE.md などのコンテキストファイルを利用して、Claude Code, Cursor, VS Code 等の主要なAIツールで透過的に利用可能。また、無駄なツール呼び出しの抑制や、不要な情報の出力をカットする「token-optimizer」スキルが同梱されており、実戦的なコスト削減が図られています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>リポジトリをプロジェクトの <code>.claude/skills/three-man-team</code> フォルダにクローンし、付属の <code>./setup</code> スクリプトを実行するだけで導入可能です。セットアップ後は、テンプレートから各ペルソナ（Architect等）の設定ファイルをプロジェクトにコピーし、AIに対して「あなたはArchitectです。設定を読んでください」と指示するだけで、プロフェッショナルなチームが稼働し始めます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIツールが「勝手にコードを書きすぎる」「指示していない修正を追加してくる」といった制御不能な挙動に悩む開発者に最適です。また、プロダクション環境でAIを安全に、かつトークンコストを抑えながら運用したいチームリーダーにとっても強力な武器となるでしょう。</p>
+
+        <h2>まとめ</h2>
+        <p>Three-Man Teamは、AIを単なる「便利な筆記者」から「専門家集団」へとアップグレードさせるための優れた方法論です。役割、ハンドオフ、品質基準を明確にすることで、AIとの協働における不確実性を排除し、エンジニアリング本来の価値に集中できる環境を提供してくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/russelleNVy/three-man-team" target="_blank" rel="noreferrer">russelleNVy/three-man-team</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

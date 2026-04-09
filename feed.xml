@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Apr 2026 03:44:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 15:20:50 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Three-Man Team]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-russellenvy-three-man-team.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-russellenvy-three-man-team.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Architect, Builder, Reviewer。3人の専門エージェントを召喚し、開発品質を最大化する統合フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[harbor]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-goharbor-harbor-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Discord で自分専用の AI 社員を。チャット形式でタスクをこなす自律型エージェント・フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[twitter-cli]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-jackwener-twitter-cli-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-08-jackwener-twitter-cli-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[API キー不要で X (Twitter) を操作。ターミナルからタイムライン、投稿、ブックマークを自在に。]]></description>
     </item>
   </channel>
 </rss>

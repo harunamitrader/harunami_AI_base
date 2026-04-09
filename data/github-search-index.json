@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-09T03:29:32.371578+00:00",
-  "count": 189,
+  "generatedAt": "2026-04-09T06:20:50.573608+00:00",
+  "count": 190,
   "articles": [
+    {
+      "slug": "2026-04-09-russellenvy-three-man-team",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Three-Man Team",
+      "dek": "Architect, Builder, Reviewer。3人の専門エージェントを召喚し、開発品質を最大化する統合フレームワーク。",
+      "summary": "開発タスクを Architect（設計）、Builder（実装）、Reviewer（査読）の3段階に分離し、AIエージェントの出力品質を劇的に高める構造化設定集。Claude Code や Cursor など、あらゆるAIエディタで共通利用可能なコンテキスト定義を提供し、トークン効率と実装精度の両立を実現します。",
+      "repoName": "russelleNVy/three-man-team",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-09",
+      "createdAt": "2026-04-09T15:20:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-09-russellenvy-three-man-team.html",
+      "serial": 179,
+      "searchText": "Three-Man Team Architect, Builder, Reviewer。3人の専門エージェントを召喚し、開発品質を最大化する統合フレームワーク。 開発タスクを Architect（設計）、Builder（実装）、Reviewer（査読）の3段階に分離し、AIエージェントの出力品質を劇的に高める構造化設定集。Claude Code や Cursor など、あらゆるAIエディタで共通利用可能なコンテキスト定義を提供し、トークン効率と実装精度の両立を実現します。 russelleNVy/three-man-team AIコーディング (ワークフロー・プロンプト・開発補助ツール) Three-Man Team ← 記事一覧へ戻る GitHub Watcher Three-Man Team Architect, Builder, Reviewer。3人の専門エージェントを召喚し、開発品質を最大化する統合フレームワーク。 記事作成日 2026-04-09 種別 Pickup 対象 repo russelleNVy/three-man-team これは何か Three-Man Teamは、AIエージェントを活用したソフトウェア開発に「規律」と「構造」をもたらすためのフレームワークです。単一のAIにすべてを任せるのではなく、Architect（設計）、Builder（実装）、Reviewer（査読）という3つの明確な役割を定義し、トークン消費を最適化しながら高品質なコード出力を実現します。 なぜ「3人」なのか マルチエージェント研究によれば、3〜5体のチームで構造化された成果物の授受を行う形態が、単独のエージェントやそれ以上の大人数グループよりも高いパフォーマンスを発揮するとされています。「3」という数字は、意味のあるレビュー（相互確認）を維持しつつ、調整コストによるオーバーヘッドを最小限に抑えるための「黄金比」と言えます。 何ができるか（エージェントの役割） Architect (設計者) : システム全体を把握し、実装のブリーフ（計画書）を作成します。デプロイの最終判断も担当します。 Builder (構築者) : ブリーフに基づき、迅速かつクリーンにコードを実装し、テストを実行します。 Reviewer (査読者) : 実装工程をチェックし、品質が基準に達していない場合はBuilderに差し戻します。 目立つポイント 最大の特徴は、その汎用性と「トークン最適化」への執着です。CLAUDE.md などのコンテキストファイルを利用して、Claude Code, Cursor, VS Code 等の主要なAIツールで透過的に利用可能。また、無駄なツール呼び出しの抑制や、不要な情報の出力をカットする「token-optimizer」スキルが同梱されており、実戦的なコスト削減が図られています。 セットアップや使い方の流れ リポジトリをプロジェクトの .claude/skills/three-man-team フォルダにクローンし、付属の ./setup スクリプトを実行するだけで導入可能です。セットアップ後は、テンプレートから各ペルソナ（Architect等）の設定ファイルをプロジェクトにコピーし、AIに対して「あなたはArchitectです。設定を読んでください」と指示するだけで、プロフェッショナルなチームが稼働し始めます。 どんな人向けか AIツールが「勝手にコードを書きすぎる」「指示していない修正を追加してくる」といった制御不能な挙動に悩む開発者に最適です。また、プロダクション環境でAIを安全に、かつトークンコストを抑えながら運用したいチームリーダーにとっても強力な武器となるでしょう。 まとめ Three-Man Teamは、AIを単なる「便利な筆記者」から「専門家集団」へとアップグレードさせるための優れた方法論です。役割、ハンドオフ、品質基準を明確にすることで、AIとの協働における不確実性を排除し、エンジニアリング本来の価値に集中できる環境を提供してくれます。 参照リンク russelleNVy/three-man-team"
+    },
     {
       "slug": "2026-04-09-goharbor-harbor-pickup",
       "category": "github-pickup",
