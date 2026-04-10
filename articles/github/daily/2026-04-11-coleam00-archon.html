@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="coleam00/Archon を読み、AI コーディングを YAML ワークフローで再現可能にする harness builder としての要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Archon</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Archon</h1>
+      <p class="article-dek">AI コーディングの計画、実装、検証、レビュー、PR 作成を YAML ワークフローとして固定化する開発エージェント基盤です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>2位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/coleam00/Archon" target="_blank" rel="noreferrer">coleam00/Archon</a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          Archon は、AI コーディングエージェントの作業を deterministic に近づける workflow engine です。
+          「バグを直して」と頼むだけでは毎回手順がぶれやすい問題に対し、計画、実装、テスト、レビュー、PR 作成を YAML の DAG として定義します。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>YAML ワークフロー</strong>: planning、implementation、validation、review、PR creation を明示的なノードとして書けます。</li>
+          <li><strong>worktree 分離</strong>: 実行ごとに専用 git worktree を作り、複数タスクの並列実行を衝突しにくくします。</li>
+          <li><strong>AI と決定的処理の分離</strong>: bash、テスト、git 操作などは deterministic node、判断や生成は AI node として分けられます。</li>
+          <li><strong>複数 UI</strong>: CLI、Web UI、Slack、Telegram、GitHub などから同じ workflow を呼び出せます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          <code>.archon/</code> にデフォルト workflow、<code>packages/</code> に主要実装、<code>auth-service/</code> や <code>deploy/</code> に認証・展開関連が含まれます。
+          Web UI、CLI、platform adapter、orchestrator、workflow executor、SQLite / PostgreSQL という構成です。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          README では Bun、Claude Code、GitHub CLI を前提にしたフルセットアップと、CLI だけを入れるクイックインストールが案内されています。
+          導入後は対象プロジェクトで Claude Code を起動し、「Use archon to fix issue #42」のように workflow を呼び出します。
+        </p>
+        <ol>
+          <li><code>git clone https://github.com/coleam00/Archon</code> で取得します。</li>
+          <li><code>bun install</code> 後、Claude Code から setup wizard を実行します。</li>
+          <li>対象リポジトリに Archon skill を入れ、workflow を実行します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          AI コーディングを個人の手癖ではなく、チームの標準手順として運用したい開発者に向いています。
+          既定 workflow が多く、issue 修正、idea-to-PR、PR review、conflict 解消、refactor などのよくある流れをすぐ試せます。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          workflow を固定化できる一方で、悪い手順を YAML 化すると失敗も再現可能になります。まずは小さなタスクで validation gate と権限境界を設計し、チームのレビュー基準に合わせて調整する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Archon は、AI コーディングの「毎回違う」を減らすための実務寄りツールです。
+          エージェントの賢さだけに頼らず、開発プロセスそのものをコード化する点が評価されています。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/coleam00/Archon" target="_blank" rel="noreferrer">coleam00/Archon (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://archon.diy" target="_blank" rel="noreferrer">Archon Docs</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

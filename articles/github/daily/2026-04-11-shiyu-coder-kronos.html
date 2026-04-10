@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="shiyu-coder/Kronos を読み、金融市場のローソク足系列を扱う foundation model としての要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Kronos</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Kronos</h1>
+      <p class="article-dek">金融市場のローソク足を「市場の言語」として扱い、価格系列の予測や分析に使うオープンな foundation model です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>7位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noreferrer">shiyu-coder/Kronos</a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          Kronos は、金融市場の K-line、つまりローソク足系列に特化した foundation model です。
+          45 以上のグローバル取引所データで事前学習され、OHLCV のような多次元時系列をトークン化して Transformer で扱う構成を取っています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>市場系列のトークン化</strong>: 連続値のローソク足データを階層的な離散トークンへ変換します。</li>
+          <li><strong>予測 API</strong>: <code>KronosPredictor</code> を使い、過去の OHLCV から将来期間の系列を生成できます。</li>
+          <li><strong>モデルサイズの選択</strong>: mini、small、base などの事前学習済みモデルが Hugging Face Hub で提供されています。</li>
+          <li><strong>ファインチューニング</strong>: 独自データや A-share 市場を例にした追加学習パイプラインが用意されています。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          <code>model/</code> にモデル実装、<code>examples/</code> に予測例、<code>finetune/</code> と <code>finetune_csv/</code> に追加学習用のコードが置かれています。
+          <code>webui/</code> もあり、研究コードだけでなくデモや実験環境も含む構成です。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Python 3.10 以降で依存関係を入れ、Hugging Face Hub から tokenizer と model を読み込む流れです。
+          入力 DataFrame には <code>open</code>、<code>high</code>、<code>low</code>、<code>close</code> が必要で、<code>volume</code> と <code>amount</code> は任意です。
+        </p>
+        <ol>
+          <li><code>pip install -r requirements.txt</code> で環境を作ります。</li>
+          <li><code>KronosTokenizer</code> と <code>Kronos</code> を Hugging Face Hub から読み込みます。</li>
+          <li><code>KronosPredictor.predict()</code> で予測期間の OHLCV 系列を生成します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          金融時系列を扱う研究者、クオンツ、トレード分析者に向いています。
+          汎用の時系列モデルではなく、ローソク足の構造に寄せた tokenizer と事前学習を持つ点が特徴です。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          リポジトリにも、ファインチューニング例は本番用の取引戦略ではないと明記されています。市場予測はノイズが大きく、実運用ではリスク管理、検証、手数料、スリッページを別途設計する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Kronos は、金融市場を自然言語のような系列モデリング対象として扱う実験的かつ実用志向のプロジェクトです。
+          投資判断そのものではなく、市場データを読むモデル基盤として評価すると、注目される理由が見えます。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noreferrer">shiyu-coder/Kronos (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://shiyu-coder.github.io/Kronos/" target="_blank" rel="noreferrer">Kronos Live Demo</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

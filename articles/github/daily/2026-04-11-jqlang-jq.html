@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="jqlang/jq を読み、JSON を sed や awk のように扱う軽量 CLI プロセッサとしての要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>jq</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">jq</h1>
+      <p class="article-dek">JSON を検索、抽出、変換するための定番 CLI プロセッサで、シェル作業や自動化の基礎部品として使えるツールです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>11位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/jqlang/jq" target="_blank" rel="noreferrer">jqlang/jq</a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          jq は、JSON に対する <code>sed</code>、<code>awk</code>、<code>grep</code> 的な位置づけのコマンドラインツールです。
+          軽量な C 実装で、構造化データをスライス、フィルタ、マップ、変換する用途に向いています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>JSON 抽出</strong>: ネストした値や配列を短い式で取り出せます。</li>
+          <li><strong>変換処理</strong>: 入力 JSON を別の形にマップし、API 応答やログを整形できます。</li>
+          <li><strong>自動化との相性</strong>: シェル、CI、Docker イメージから扱いやすく、パイプ処理に組み込みやすいです。</li>
+          <li><strong>ドキュメントと実行環境</strong>: 公式サイト、オンライン実行環境、prebuilt binary、Docker image が用意されています。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          C で書かれた本体に加え、ビルド設定、CI、ドキュメント、パッケージ配布まわりが含まれます。
+          長く使われている基盤ツールなので、機能追加よりも互換性と移植性が重要なリポジトリです。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          通常は OS のパッケージマネージャや GitHub Releases の prebuilt binary から導入します。Docker で試す場合は、公式コンテナを使って標準入力から JSON を渡す形も取れます。
+        </p>
+        <ol>
+          <li>GitHub Releases からバイナリを取得します。</li>
+          <li><code>jq '.version' package.json</code> のように、ファイルや標準入力に対してフィルタ式を実行します。</li>
+          <li>CI では API レスポンスや設定ファイルの検査ステップに組み込みます。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          API レスポンス、ログ、設定ファイルを扱う開発者、SRE、データ処理担当者に向いています。
+          AI エージェントや自動化ジョブが JSON を読む場面でも、jq は依然として小さく信頼できる前処理ツールです。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          jq の式は強力ですが、複雑になりすぎると保守しづらくなります。長い変換処理を 1 行に詰め込むより、テストしやすい単位に分ける運用が安全です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          jq は新しい AI ツールではありませんが、構造化データ処理の足回りとして今も強い存在感があります。
+          GitHub Trending に戻ってきたのは、AI 時代の自動化でも JSON を堅実に扱う基礎ツールの価値が再確認されているためです。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/jqlang/jq" target="_blank" rel="noreferrer">jqlang/jq (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://jqlang.org/" target="_blank" rel="noreferrer">jq 公式ドキュメント</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

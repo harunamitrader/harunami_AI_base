@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="microsoft/markitdown を読み、PDF や Office 文書を LLM 向け Markdown に変換する Python ツールとしての要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>markitdown</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">markitdown</h1>
+      <p class="article-dek">PDF、Office 文書、画像、音声、HTML などを LLM が扱いやすい Markdown に変換する Microsoft 製の軽量 Python ツールです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>1位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/markitdown" target="_blank" rel="noreferrer">microsoft/markitdown</a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          markitdown は、LLM やテキスト分析パイプラインで使いやすい Markdown へ各種ファイルを変換する Python ユーティリティです。
+          高忠実度のレイアウト再現よりも、見出し、リスト、表、リンクなどの文書構造を Markdown として保持することに重点があります。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>多形式変換</strong>: PDF、PowerPoint、Word、Excel、画像、音声、HTML、CSV、JSON、XML、ZIP、YouTube URL、EPUB などを扱えます。</li>
+          <li><strong>LLM 向け出力</strong>: Markdown として構造を残すため、RAG や要約、解析パイプラインへ流し込みやすいです。</li>
+          <li><strong>MCP server</strong>: <code>markitdown-mcp</code> により、Claude Desktop などの LLM アプリからツールとして呼び出せます。</li>
+          <li><strong>プラグイン</strong>: サードパーティ plugin や OCR plugin により、変換能力を追加できます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          <code>packages/</code> 配下に本体パッケージや MCP server、plugin サンプルがまとまっています。
+          README では 0.1.0 系の破壊的変更として optional dependencies の feature group 化や stream API の変更も説明されています。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Python 3.10 以上が前提です。すべての形式に対応したい場合は <code>markitdown[all]</code> を入れ、必要な形式だけなら <code>[pdf, docx, pptx]</code> のように optional dependency を絞れます。
+        </p>
+        <ol>
+          <li><code>pip install 'markitdown[all]'</code> で導入します。</li>
+          <li><code>markitdown path-to-file.pdf &gt; document.md</code> で CLI 変換します。</li>
+          <li>Python からは <code>MarkItDown().convert(...)</code> を呼び、結果の <code>text_content</code> を利用します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          PDF や Office 文書を AI に読ませたい開発者、RAG パイプライン構築者、社内文書の整理担当に向いています。
+          Microsoft / AutoGen チーム発の実用ツールで、MCP 対応によりエージェントから直接使える点も今のトレンドに合っています。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          人間向けの完全なレイアウト再現を狙うツールではありません。表や画像を含む複雑な文書では、変換後の Markdown を検査し、RAG 用のチャンク設計や OCR 品質を別途確認する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          markitdown は、AI に文書を渡す前処理を標準化するための実務的なツールです。
+          形式変換、Markdown 化、MCP 連携まで揃っているため、LLM アプリや社内ナレッジ基盤の入り口として使いやすいプロジェクトです。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/markitdown" target="_blank" rel="noreferrer">microsoft/markitdown (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp" target="_blank" rel="noreferrer">markitdown-mcp</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

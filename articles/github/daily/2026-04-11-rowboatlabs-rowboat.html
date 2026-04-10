@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="rowboatlabs/rowboat を読み、メールや会議メモから長期記憶グラフを作るローカルファースト AI coworker としての要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>rowboat</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">rowboat</h1>
+      <p class="article-dek">メール、会議メモ、音声メモを知識グラフに変え、ローカル環境で作業文脈を維持する AI coworker です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>4位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/rowboatlabs/rowboat" target="_blank" rel="noreferrer">rowboatlabs/rowboat</a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          rowboat は、メールや会議メモに接続し、長く使える知識グラフを構築するローカルファーストの AI coworker です。
+          生成 AI に一時的な会話をさせるのではなく、人、プロジェクト、意思決定、未解決事項を Markdown ベースの作業記憶として残す点が特徴です。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>知識グラフ構築</strong>: メール、会議、メモから人物、会社、トピック、決定事項を整理します。</li>
+          <li><strong>文脈付きアウトプット</strong>: 会議準備、メール下書き、資料、PDF スライドなどを既存文脈から生成できます。</li>
+          <li><strong>Markdown vault</strong>: Obsidian 互換の plain Markdown と backlinks として記憶を確認・編集できます。</li>
+          <li><strong>拡張連携</strong>: Gmail、Calendar、Drive、音声入出力、Exa 検索、MCP / Composio 連携を追加できます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          <code>apps/</code> を中心にデスクトップ/アプリ層を持ち、<code>docker-compose.yml</code> や <code>Dockerfile.qdrant</code> からベクトル検索基盤も含む構成です。
+          <code>google-setup.md</code> には Google サービス接続の案内があります。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          README では Mac、Windows、Linux 向けのダウンロードが案内されています。Google サービスに接続する場合は Gmail、Calendar、Drive の認可設定を追加し、任意で Deepgram、ElevenLabs、Exa、MCP サーバーを設定します。
+        </p>
+        <ol>
+          <li>公式サイトまたは GitHub Releases からアプリを入手します。</li>
+          <li>Google setup に沿ってメールやカレンダーへの接続を設定します。</li>
+          <li>必要に応じて音声入力、音声出力、外部検索、MCP ツールを追加します。</li>
+        </ol>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          会議、メール、ドキュメント作成が多い個人や小規模チームに向いています。
+          「会話履歴」ではなく「編集可能な知識グラフ」を中心に据えるため、AI 秘書を長期記憶付きの作業環境として運用したい人に刺さります。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          メールや会議メモを扱うため、認可範囲とローカルデータ管理が重要です。便利さを優先して接続先を増やしすぎると、秘密情報や個人情報の境界が曖昧になりやすい点には注意が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          rowboat は、AI coworker を単発のチャットではなく、日々の仕事の記憶層として捉え直すプロジェクトです。
+          Obsidian 互換の Markdown を土台にしているため、ブラックボックス化しにくい点も実用上の強みです。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/rowboatlabs/rowboat" target="_blank" rel="noreferrer">rowboatlabs/rowboat (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.rowboatlabs.com" target="_blank" rel="noreferrer">Rowboat 公式サイト</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

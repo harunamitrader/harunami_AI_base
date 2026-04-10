@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Apr 2026 20:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 06:07:05 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-11 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-11-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-11-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[markitdown]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-microsoft-markitdown.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-microsoft-markitdown.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PDF、Office 文書、画像、音声、HTML などを LLM が扱いやすい Markdown に変換する Microsoft 製の軽量 Python ツールです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Archon]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-coleam00-archon.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-coleam00-archon.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI コーディングの計画、実装、検証、レビュー、PR 作成を YAML ワークフローとして固定化する開発エージェント基盤です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[rowboat]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-rowboatlabs-rowboat.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-rowboatlabs-rowboat.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[メール、会議メモ、音声メモを知識グラフに変え、ローカル環境で作業文脈を維持する AI coworker です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Kronos]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-shiyu-coder-kronos.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-shiyu-coder-kronos.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[金融市場のローソク足を「市場の言語」として扱い、価格系列の予測や分析に使うオープンな foundation model です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[jq]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-jqlang-jq.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-jqlang-jq.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[JSON を検索、抽出、変換するための定番 CLI プロセッサで、シェル作業や自動化の基礎部品として使えるツールです。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.100: team onboarding と企業 TLS 対応を強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-claude-code-v2-1-100-team-onboarding-ca-trust.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Perplexity Computer が個人の財務状況を扱う CFO 的な用途へ広がったことを示す公式 Hub 更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini CLI v0.37.1: Stable の最新版タグを更新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-gemini-cli-v0-37-1-stable-tag-update.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-gemini-cli-v0-37-1-stable-tag-update.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[stable 系の最新タグが v0.37.1 に進み、運用時の基準バージョンを更新したことを示すリリースです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.98: Vertex AI 導入と Monitor tool を追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-claude-code-v2-1-98-vertex-monitor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-claude-code-v2-1-98-vertex-monitor.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google Cloud Vertex AI 対応と Monitor tool の追加により、企業向け接続先と監視導線を広げた更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI v1.1.5-rc3: LSP support と diagnostics を追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-grok-cli-v1-1-5-rc3.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-grok-cli-v1-1-5-rc3.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[server catalog を含む LSP support が入り、診断情報をターミナルから扱いやすくなりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Multica]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-multica-ai-multica.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-multica-ai-multica.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントを「本物のチームメイト」へ。タスク割り当てからスキル蓄積までを統合管理するオープンソース・プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Three-Man Team]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-russellenvy-three-man-team.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-russellenvy-three-man-team.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Architect, Builder, Reviewer。3人の専門エージェントを召喚し、開発品質を最大化する統合フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[harbor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-goharbor-harbor-pickup.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-goharbor-harbor-pickup.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[脆弱性スキャンやRBAC、署名検証を備えた、クラウドネイティブ環境向けのエンタープライズ対応コンテナレジストリ。]]></description>
     </item>
   </channel>
 </rss>
