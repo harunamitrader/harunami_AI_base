@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Apr 2026 20:17:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 05:37:15 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Claude Code v2.1.100: team onboarding と企業 TLS 対応を強化]]></title>
@@ -96,6 +96,30 @@
       <description><![CDATA[Nous Research の強力なオープンモデルを「最強のエージェント」へ。Hermes Agent の実地活用を網羅した攻略ガイド。]]></description>
     </item>
     <item>
+      <title><![CDATA[ChatGPT: GPT-5.3 Instant mini と新しい Pro プラン]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-chatgpt-gpt-5-3-instant-mini-pro-plans.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-chatgpt-gpt-5-3-instant-mini-pro-plans.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GPT-5.3 Instant の制限到達後に使われる fallback モデルが GPT-5.3 Instant mini へ更新され、Pro プラン構成も見直されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini: 3D models and interactive charts を生成可能に]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-gemini-interactive-visualizations.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-gemini-interactive-visualizations.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini app が、質問や複雑なトピックからチャット内で操作できる 3D モデルやインタラクティブな図表を生成できるようになりました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity: Computer is Now Your Personal CFO]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-perplexity-computer-personal-cfo.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-perplexity-computer-personal-cfo.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Perplexity Computer が個人の財務状況を扱う CFO 的な用途へ広がったことを示す公式 Hub 更新です。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Gemini CLI v0.37.1: Stable の最新版タグを更新]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-gemini-cli-v0-37-1-stable-tag-update.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-gemini-cli-v0-37-1-stable-tag-update.html</guid>
@@ -142,30 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[脆弱性スキャンやRBAC、署名検証を備えた、クラウドネイティブ環境向けのエンタープライズ対応コンテナレジストリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-code-toolkit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-xixu-me-claude-code-toolkit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-xixu-me-claude-code-toolkit.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code をより便利に、強力に。セットアップから拡張機能までを網羅した統合ツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Vibe-Trading]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-hkuds-vibe-trading.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-hkuds-vibe-trading.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自然言語で市場を分析。戦略生成からバックテストまでを完結させるAI金融エージェント基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-09 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-09-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-09-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
