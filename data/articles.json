@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-10-tw93-waza",
+      "title": "Waza",
+      "dek": "熟練エンジニアの「習慣」を Claude Code 用のスキルとしてパッケージ化したコマンド集。",
+      "summary": "思考、設計、デバッグ、執筆といったエンジニアの重要な習慣を Claude Code のスラッシュコマンドとして実装。軽量かつ実践的なスキル群を提供します。",
+      "publishedAt": "2026-04-10",
+      "createdAt": "2026-04-10T16:35:00+09:00",
+      "repoName": "tw93/Waza",
+      "repoUrl": "https://github.com/tw93/Waza",
+      "articleUrl": "./articles/github/daily/2026-04-10-tw93-waza.html",
+      "serial": 188,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-10-simstudioai-sim",
       "title": "sim",
       "dek": "ビジュアルキャンバスでAIエージェントのワークフローを構築・デプロイできる統合プラットフォーム。",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Apr 2026 07:18:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 16:36:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Waza]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-tw93-waza.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-tw93-waza.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[熟練エンジニアの「習慣」を Claude Code 用のスキルとしてパッケージ化したコマンド集。]]></description>
+    </item>
     <item>
       <title><![CDATA[sim]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-simstudioai-sim.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[数千の環境をGPUで並列シミュレート。微分可能な物理演算がAIのトレーニングを劇的に加速する。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai-hedge-fund]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-virattt-ai-hedge-fund.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-09-virattt-ai-hedge-fund.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[著名投資家の思考をマルチエージェントで再現。議論と合意で市場に挑むAIヘッジファンド。]]></description>
     </item>
   </channel>
 </rss>

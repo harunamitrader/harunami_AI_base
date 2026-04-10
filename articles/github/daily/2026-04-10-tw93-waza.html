@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="tw93/Waza を読み、要点を実用寄りに整理した記事。熟練エンジニアの「習慣」を Claude Code 用のスキルとしてパッケージ化した、軽量かつ強力なコマンド集です。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Waza</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Waza</h1>
+      <p class="article-dek">熟練エンジニアの「習慣」を Claude Code 用のスキルとしてパッケージ化したコマンド集。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/tw93/Waza" target="_blank" rel="noreferrer">
+              tw93/Waza
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <strong>Waza（技）</strong> は、エンジニアが長年の経験で培った「良い習慣」を、AI エージェント（特に Claude Code）が実行可能な「スキル」としてまとめたリポジトリです。「AI は作業を速くするが、思考を深くするわけではない」という哲学のもと、AI にエンジニアらしい振る舞いをさせるためのプレイブックを提供します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          Claude Code にスラッシュコマンド（/think, /design 等）を追加することで、特定のワークフローを AI に強制または推奨できます。また、コンテキストの使用量やクォータを視覚化するステータスライン、英文ライティングのコーチング機能なども含まれています。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <ul>
+          <li><strong>厳選された 8 つのスキル:</strong> /think（思考）, /design（設計）, /check（レビュー）, /hunt（検索）, /write（執筆）, /learn（学習）, /read（読解）, /health（監査）の 8 種に絞ることで、学習コストを抑えつつ実戦的な支援を実現。</li>
+          <li><strong>軽量でミニマル:</strong> 既存の巨大なスキル集（Superpowers 等）と比較して、設定がシンプルで「道具としての使い勝手」を重視しています。</li>
+          <li><strong>失敗から学んだ「落とし穴」集:</strong> 各スキルには、実際のプロジェクトで発生した失敗事例に基づいた「Gotchas（注意点）」セクションが含まれており、AI が同じ過ちを繰り返さないよう工夫されています。</li>
+          <li><strong>開発体験の向上:</strong> ターミナル上で一目で状況がわかるステータスラインや、自然な英語表現を学べるコーチング機能など、細かな配慮が行き届いています。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Claude Code がインストールされている環境であれば、以下の 1 コマンドで全てのスキルを導入できます：
+        </p>
+        <pre><code>npx skills add tw93/Waza -a claude-code -g -y</code></pre>
+        <p>
+          個別のスキルのみを導入したり、他のエージェント（Cursor 等）のコンテキストとして利用することも可能です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li><strong>Claude Code をメインの相棒として使いこなしたい人:</strong> 独自のコマンドで開発フローを標準化したい場合に最適です。</li>
+          <li><strong>AI の「出力品質」に物足りなさを感じているエンジニア:</strong> AI に「プロらしい思考プロセス」を挟ませることで、精度の向上を狙えます。</li>
+          <li><strong>英語でのやり取りを改善したい非ネイティブ開発者:</strong> コーチング機能により、やり取りを通じて自然に英語力を磨くことができます。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          一部の機能（/health や /read での自動スクリプト実行など）は、Claude Code 以外のプラットフォームでは制限される場合があります。また、破壊的な Git コマンドを拒否リストに追加するなどの、安全性のための設定が推奨されています。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Waza は、単なるプロンプト集ではなく、エンジニアの「魂」を AI に吹き込むためのツールキットです。モデルの進化を待つだけでなく、モデルが「どう考えるべきか」を制約と習慣によってデザインすることで、より健全で高品質な開発体験を構築できます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/tw93/Waza" target="_blank" rel="noreferrer">tw93/Waza</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p>GitHub Watcher Serial: 188</p>
+      </div>
+    </article>
+  </body>
+</html>
