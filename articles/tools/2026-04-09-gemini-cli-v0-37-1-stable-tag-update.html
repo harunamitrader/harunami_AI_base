@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini CLI v0.37.1 の更新内容を日本語で整理した記事。Stable の最新版タグ更新と運用上の意味を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.37.1: Stable の最新版タグを更新</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.37.1: Stable の最新版タグを更新</h1>
+      <p class="article-dek">大規模な新機能追加ではなく、Stable 系の最新参照先が <code>v0.37.1</code> に進んだことを確認できる更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-09</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.37.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google Gemini CLI の公式 GitHub Releases では、2026-04-09 付で stable の最新タグが <code>v0.37.1</code> へ更新されています。リリースノートの粒度は大きくありませんが、安定版の参照先が進んだこと自体が運用上の重要ポイントです。</p>
+
+        <h2>実務で見るポイント</h2>
+        <p>nightly や preview を追わず stable を基準に導入している環境では、どのタグを既定として配布するかがそのまま再現性につながります。今回のような小さな版上げでも、CI やセットアップ手順に固定バージョンを書いている場合は追従判断が必要です。</p>
+
+        <h2>何を確認すべきか</h2>
+        <p>特にチーム導入では、README、インストール手順、社内テンプレートに書かれた stable バージョンとの差分を確認しておくと安全です。派手な機能更新がない日でも、配布基準の版が変わると実際の挙動基準は更新されます。</p>
+
+        <h2>まとめ</h2>
+        <p>v0.37.1 は目立つ新機能というより、Gemini CLI の stable 系列の現行基準を示す更新です。安定版を採用している運用では見落としにくくしておきたいリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">GitHub Releases - Gemini CLI</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
