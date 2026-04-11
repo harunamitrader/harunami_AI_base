@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-12-bloopai-vibe-kanban",
+      "title": "vibe-kanban",
+      "dek": "AIエージェントの能力を10倍に。カンバンと内蔵ブラウザを備えたAIファーストの統合ワークスペース。",
+      "summary": "BloopAI/vibe-kanban は、Claude Code や Gemini CLI などのエージェントを自律的なメンバーへと変える統合環境。タスク管理、PR自動生成、そしてブラウザ同期によるフロントエンド開発の自動化を強力に支援します。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T07:12:00+09:00",
+      "repoName": "BloopAI/vibe-kanban",
+      "repoUrl": "https://github.com/BloopAI/vibe-kanban",
+      "articleUrl": "./articles/github/daily/2026-04-12-bloopai-vibe-kanban.html",
+      "serial": 187,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-12-ahujasid-blender-mcp",
       "title": "blender-mcp",
       "dek": "AIエージェントに「3Dの身体」を。自然言語で Blender を操る強力な MCP サーバー。",
