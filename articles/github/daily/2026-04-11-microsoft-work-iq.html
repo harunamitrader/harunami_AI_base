@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="microsoft/work-iq を読み、AIエージェントが Microsoft 365 データ（メール、カレンダー、ドキュメント）を安全に参照・活用する仕組みを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>work-iq</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">work-iq</h1>
+      <p class="article-dek">AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/microsoft/work-iq" target="_blank" rel="noreferrer">
+              microsoft/work-iq
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <p class="article-serial">Shared GitHub Serial: #184</p>
+
+        <h2>これは何か</h2>
+        <p>microsoft/work-iq は、Microsoft 365 (Outlook, Teams, OneDrive, SharePoint) の仕事データと AI エージェントを橋渡しするための公式ツールです。MCP (Model Context Protocol) サーバーとして動作し、Claude Code や Cursor といった AI ツールが、あなたの「仕事の文脈」を直接参照できるように設計されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>AI を通じて、過去のメールの要約、カレンダーの予定確認、最近編集したドキュメントの検索、さらには Teams でのやり取りに基づいた議論の整理などが可能になります。これにより、AI はただコードを書くだけでなく、「先週の会議での決定事項に基づいて実装を修正して」といった高度な文脈依存の指示を理解できるようになります。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Microsoft 公式が提供する安心感と、オープン標準である MCP の採用が大きな特徴です。Graph API を介したセキュアなデータアクセスを維持しつつ、特定の AI プラットフォームに縛られない汎用性を備えています。また、GitHub Copilot CLI の拡張としても動作するため、ターミナル環境との親和性も抜群です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js 環境があれば、npm を通じて簡単にインストールできます。</p>
+        <pre><code>npm install -g @microsoft/workiq</code></pre>
+        <p>MCP サーバーとして利用する場合は、Claude Desktop や VS Code の MCP 設定ファイルに <code>npx -y @microsoft/workiq mcp</code> を追記するだけです。初回実行時にブラウザで Microsoft 365 アカウントの認証を行うことで、AI があなたの業務データにアクセスできるようになります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Microsoft 365 を業務基盤として使用している開発者やナレッジワーカーにとって、生産性を一段階引き上げる強力な武器になります。特に、プロジェクトの背景（メールや資料）と実装（コード）を一つの AI ワークフローで繋げたいエンジニアに強く推奨されます。</p>
+
+        <h2>注意点</h2>
+        <p>現在はパブリックプレビュー段階であり、仕様変更の可能性があります。また、組織環境での利用には、Microsoft 365 テナント管理者による API アクセスの承認が必要になる場合があるため、導入前に社内のポリシーを確認することをお勧めします。</p>
+
+        <h2>まとめ</h2>
+        <p>work-iq は、AI が「仕事」そのものを理解するためのミッシングピースを埋めるツールです。Microsoft 365 という広大な知識ベースを AI エージェントに開放することで、AI との協働は単なるタスク代行から、真の意味での「インテリジェントな相棒」へと進化します。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/microsoft/work-iq" target="_blank" rel="noreferrer">microsoft/work-iq</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-11T10:29:16.943803+00:00",
-  "count": 196,
+  "generatedAt": "2026-04-11T12:36:03.710179+00:00",
+  "count": 197,
   "articles": [
+    {
+      "slug": "2026-04-11-microsoft-work-iq",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "work-iq",
+      "dek": "AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。",
+      "summary": "microsoft/work-iq は、Outlook、Teams、OneDrive などの Microsoft 365 データを MCP サーバー経由で AI エージェント（Claude Code 等）に提供するツール。セキュアな Graph API 連携により、AI が業務の背景を理解した上での強力な支援を可能にします。",
+      "repoName": "microsoft/work-iq",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-11T21:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-11-microsoft-work-iq.html",
+      "serial": 184,
+      "searchText": "work-iq AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。 microsoft/work-iq は、Outlook、Teams、OneDrive などの Microsoft 365 データを MCP サーバー経由で AI エージェント（Claude Code 等）に提供するツール。セキュアな Graph API 連携により、AI が業務の背景を理解した上での強力な支援を可能にします。 microsoft/work-iq AIコーディング (ワークフロー・プロンプト・開発補助ツール) work-iq ← 記事一覧へ戻る GitHub Watcher work-iq AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。 記事作成日 2026-04-11 種別 Pickup 対象 repo microsoft/work-iq Shared GitHub Serial: #184 これは何か microsoft/work-iq は、Microsoft 365 (Outlook, Teams, OneDrive, SharePoint) の仕事データと AI エージェントを橋渡しするための公式ツールです。MCP (Model Context Protocol) サーバーとして動作し、Claude Code や Cursor といった AI ツールが、あなたの「仕事の文脈」を直接参照できるように設計されています。 何ができるか AI を通じて、過去のメールの要約、カレンダーの予定確認、最近編集したドキュメントの検索、さらには Teams でのやり取りに基づいた議論の整理などが可能になります。これにより、AI はただコードを書くだけでなく、「先週の会議での決定事項に基づいて実装を修正して」といった高度な文脈依存の指示を理解できるようになります。 目立つポイント Microsoft 公式が提供する安心感と、オープン標準である MCP の採用が大きな特徴です。Graph API を介したセキュアなデータアクセスを維持しつつ、特定の AI プラットフォームに縛られない汎用性を備えています。また、GitHub Copilot CLI の拡張としても動作するため、ターミナル環境との親和性も抜群です。 セットアップや使い方の流れ Node.js 環境があれば、npm を通じて簡単にインストールできます。 npm install -g @microsoft/workiq MCP サーバーとして利用する場合は、Claude Desktop や VS Code の MCP 設定ファイルに npx -y @microsoft/workiq mcp を追記するだけです。初回実行時にブラウザで Microsoft 365 アカウントの認証を行うことで、AI があなたの業務データにアクセスできるようになります。 どんな人向けか Microsoft 365 を業務基盤として使用している開発者やナレッジワーカーにとって、生産性を一段階引き上げる強力な武器になります。特に、プロジェクトの背景（メールや資料）と実装（コード）を一つの AI ワークフローで繋げたいエンジニアに強く推奨されます。 注意点 現在はパブリックプレビュー段階であり、仕様変更の可能性があります。また、組織環境での利用には、Microsoft 365 テナント管理者による API アクセスの承認が必要になる場合があるため、導入前に社内のポリシーを確認することをお勧めします。 まとめ work-iq は、AI が「仕事」そのものを理解するためのミッシングピースを埋めるツールです。Microsoft 365 という広大な知識ベースを AI エージェントに開放することで、AI との協働は単なるタスク代行から、真の意味での「インテリジェントな相棒」へと進化します。 参照リンク microsoft/work-iq"
+    },
     {
       "slug": "2026-04-11-rtk-ai-rtk",
       "category": "github-pickup",

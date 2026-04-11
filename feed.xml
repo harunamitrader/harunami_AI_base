@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Apr 2026 19:30:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 21:36:03 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[work-iq]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-microsoft-work-iq.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-microsoft-work-iq.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。]]></description>
+    </item>
     <item>
       <title><![CDATA[rtk]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-rtk-ai-rtk.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PDF を Markdown や JSON に構造化しつつ、Tagged PDF 自動生成まで狙う AI 向け PDF 変換基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[seomachine]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-thecraighewitt-seomachine.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-thecraighewitt-seomachine.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code を土台に、調査から執筆・改善・公開までを一本化する SEO 記事制作ワークスペースです。]]></description>
     </item>
   </channel>
 </rss>

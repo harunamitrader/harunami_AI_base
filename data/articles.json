@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-11-microsoft-work-iq",
+      "title": "work-iq",
+      "dek": "AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。",
+      "summary": "microsoft/work-iq は、Outlook、Teams、OneDrive などの Microsoft 365 データを MCP サーバー経由で AI エージェント（Claude Code 等）に提供するツール。セキュアな Graph API 連携により、AI が業務の背景を理解した上での強力な支援を可能にします。",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-11T21:35:00+09:00",
+      "repoName": "microsoft/work-iq",
+      "repoUrl": "https://github.com/microsoft/work-iq",
+      "articleUrl": "./articles/github/daily/2026-04-11-microsoft-work-iq.html",
+      "serial": 184,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-11-rtk-ai-rtk",
       "title": "rtk",
       "dek": "AIのトークン消費を最大90%削減。Rust製の超高速CLIプロキシによる出力最適化ツール。",
