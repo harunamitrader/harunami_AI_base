@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Apr 2026 20:27:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 05:34:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[everything-claude-code]]></title>
@@ -14,6 +14,14 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントを「共創者」へ。スキル、メモリ、本能を統合した最強の Agent Harness。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenClaw 2026.4.10: Codex provider と Active Memory を追加]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-openclaw-2026-4-10-codex-active-memory.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-openclaw-2026-4-10-codex-active-memory.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex 管理の認証・実行経路、会話前に関連記憶を取り込む Active Memory、exec policy 管理などが入った大型更新です。]]></description>
     </item>
     <item>
       <title><![CDATA[work-iq]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[RAG、個別 TutorBot、AI Co-Writer をまとめ、学習支援を継続的なエージェント体験に変える教育プラットフォームです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[VoxCPM]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-openbmb-voxcpm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-openbmb-voxcpm.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[30言語対応のトークナイザ不要 TTS で、音声デザインと制御可能なボイスクローニングまで扱える生成音声基盤です。]]></description>
     </item>
   </channel>
 </rss>

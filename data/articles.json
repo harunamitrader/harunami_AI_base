@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-11-openclaw-2026-4-10-codex-active-memory",
+      "title": "OpenClaw 2026.4.10: Codex provider と Active Memory を追加",
+      "dek": "Codex 管理の認証・実行経路、会話前に関連記憶を取り込む Active Memory、exec policy 管理などが入った大型更新です。",
+      "summary": "OpenClaw 2026.4.10 は、bundled Codex provider、Active Memory plugin、exec policy 管理、複数 gateway / security 修正を含む大型リリースです。",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-12T05:35:00+09:00",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw/releases",
+      "articleUrl": "./articles/tools/2026-04-11-openclaw-2026-4-10-codex-active-memory.html",
+      "serial": 118
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-04-12-affaan-m-everything-claude-code",
       "title": "everything-claude-code",
