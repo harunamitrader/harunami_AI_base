@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Apr 2026 20:36:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 06:04:27 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-12 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-12-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-12-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChinaTextbook]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-tapxworld-chinatextbook.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-tapxworld-chinatextbook.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[中国の小学校、中学校、高校、大学向け PDF 教材を階層別に集約した、教育リソース共有リポジトリです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[awesome-design-systems]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-alexpate-awesome-design-systems.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-alexpate-awesome-design-systems.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[世界中のデザインシステム、UI ライブラリ、ブランドガイド、トーン&ボイス指針を一覧できる実務向けリファレンス集です。]]></description>
+    </item>
     <item>
       <title><![CDATA[everything-claude-code]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-affaan-m-everything-claude-code.html</link>
@@ -142,30 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ビジュアルキャンバスでAIエージェントのワークフローを構築・デプロイできる統合プラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-10 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-10-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-10-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[hermes-agent]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-nousresearch-hermes-agent.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-nousresearch-hermes-agent.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[学習ループ、記憶、スキル生成、マルチチャネル対話を備え、クラウド常駐も前提にした自己改善型 AI エージェント基盤です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepTutor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-hkuds-deeptutor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-hkuds-deeptutor.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[RAG、個別 TutorBot、AI Co-Writer をまとめ、学習支援を継続的なエージェント体験に変える教育プラットフォームです。]]></description>
     </item>
   </channel>
 </rss>
