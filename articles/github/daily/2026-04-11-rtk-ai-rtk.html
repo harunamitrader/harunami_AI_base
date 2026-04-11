@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="rtk-ai/rtk を読み、AI向けにCLI出力を圧縮・最適化してトークンを節約する手法を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>rtk</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">rtk</h1>
+      <p class="article-dek">AIのトークン消費を最大90%削減。Rust製の超高速CLIプロキシによる出力最適化ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/rtk-ai/rtk" target="_blank" rel="noreferrer">
+              rtk-ai/rtk
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <p class="article-serial">Shared GitHub Serial: #183</p>
+        
+        <h2>これは何か</h2>
+        <p>rtk は、開発者が日常的に使用する CLI コマンドの出力を、AI (LLM) にとって効率的な形式にフィルタリング・圧縮するための高性能 CLI プロキシです。Rust で開発されており、ターミナルでの開発体験を損なうことなく、Claude Code や Cursor といった AI エージェントが読み取るトークン量を劇的に削減します。</p>
+
+        <h2>何ができるか</h2>
+        <p>AI にとって冗長な進捗バー、繰り返されるログ、不要なメタデータなどを自動的に排除し、重要な情報のみを抽出して LLM コンテキストに渡します。Git (status, diff, log) はもちろん、cargo, vitest, pytest といったテストツール、ESLint や Ruff などのリンター、さらには AWS CLI や Docker まで幅広くサポートしています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は「人間と AI 両方への最適化」です。人間が見るターミナルには視覚的に美しくインタラクティブな出力を表示し続けつつ、AI に渡される時だけデータを極限まで圧縮します。Rust 製のためオーバーヘッドは 10ms 未満と極めて小さく、単一バイナリで動作するゼロ依存設計も魅力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>インストールはワンラインのスクリプトで完了します。</p>
+        <pre><code>curl -fsSL https://get.rtk.ai | sh</code></pre>
+        <p>インストール後、<code>rtk init --global</code> を実行することで、例えば Claude Code のようなツールから実行されるコマンドを自動的に rtk 経由に置き換えることができます。手動で使う場合は、コマンドの頭に <code>rtk</code> を付けるだけ（例：<code>rtk git diff</code>）で動作します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code, Cursor, GitHub Copilot などの AI コーディングツールを頻繁に使用し、API のトークンコストを抑えたい開発者に最適です。また、大規模なプロジェクトで diff やログがコンテキスト制限に抵触しがちなチームにとっても、情報密度を保ちつつ制限を回避する強力な武器になります。</p>
+
+        <h2>注意点</h2>
+        <p>出力を最適化するために情報を削ぎ落とす性質上、非常に稀ではありますが、AI が解決に必要とする極めて詳細なメタデータまで削られてしまう可能性はゼロではありません。デバッグで完全な生ログが必要な場合は、フィルタリングされていない出力を確認するか、一時的にプロキシを介さず実行する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>rtk は、AI との協調開発における「トークン効率」という現代的な課題を極めてエレガントに解決するツールです。トークン消費を最大 90% 削減できる可能性を秘めており、AI ネイティブな開発環境における必須のミドルウェアとなるポテンシャルを持っています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/rtk-ai/rtk" target="_blank" rel="noreferrer">rtk-ai/rtk</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

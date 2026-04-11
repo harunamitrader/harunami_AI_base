@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-11-rtk-ai-rtk",
+      "title": "rtk",
+      "dek": "AIのトークン消費を最大90%削減。Rust製の超高速CLIプロキシによる出力最適化ツール。",
+      "summary": "rtk は、Claude Code 等のAIエージェント向けにCLI出力を事前圧縮・最適化し、トークン消費を劇的に抑えるRust製ツール。開発者には見やすい出力を維持しつつ、AIへの入力を徹底的に軽量化します。",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-11T19:30:00+09:00",
+      "repoName": "rtk-ai/rtk",
+      "repoUrl": "https://github.com/rtk-ai/rtk",
+      "articleUrl": "./articles/github/daily/2026-04-11-rtk-ai-rtk.html",
+      "serial": 183,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-11-cocoindex-io-cocoindex-code",
       "title": "cocoindex-code",
       "dek": "ASTベースの軽量コード検索エンジン。コーディングエージェントのトークン削減と速度向上を支援。",
