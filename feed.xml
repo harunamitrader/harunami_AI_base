@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Apr 2026 21:06:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 06:36:30 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-12 アップデートレポート]]></title>
@@ -38,6 +38,22 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントを「共創者」へ。スキル、メモリ、本能を統合した最強の Agent Harness。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Codex CLI 0.120.0: Realtime V2 と hooks 表示、Windows sandbox を改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-codex-cli-0-120-0-realtime-v2-hooks-windows-sandbox.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-codex-cli-0-120-0-realtime-v2-hooks-windows-sandbox.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[background agent の進捗ストリーミング、hooks 表示の整理、code-mode outputSchema、Windows sandbox 修正が入った更新です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Grok CLI v1.1.5-rc4: modeModels でモード別モデルを設定可能に]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-grok-cli-v1-1-5-rc4-mode-models.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-grok-cli-v1-1-5-rc4-mode-models.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ユーザー設定の modeModels により、用途ごとの実行モードに対して既定モデルを割り当てられるようになったリリースです。]]></description>
     </item>
     <item>
       <title><![CDATA[OpenClaw 2026.4.10: Codex provider と Active Memory を追加]]></title>
@@ -136,36 +152,20 @@
       <description><![CDATA[JSON を検索、抽出、変換するための定番 CLI プロセッサで、シェル作業や自動化の基礎部品として使えるツールです。]]></description>
     </item>
     <item>
-      <title><![CDATA[Claude Code v2.1.100: team onboarding と企業 TLS 対応を強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-claude-code-v2-1-100-team-onboarding-ca-trust.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-claude-code-v2-1-100-team-onboarding-ca-trust.html</guid>
+      <title><![CDATA[Cline v3.78.0: Spend Limit UI と read_file 表示を改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-cline-v3-78-0-spend-limit-read-file-ranges.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-cline-v3-78-0-spend-limit-read-file-ranges.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[team onboarding の導線整備とカスタム CA 証明書の信頼設定により、企業導入しやすさを高めた更新です。]]></description>
+      <description><![CDATA[支出上限到達時の専用エラー UI と、チャット内で実際の read_file 行範囲を表示する修正が入った小粒な安定化リリースです。]]></description>
     </item>
     <item>
-      <title><![CDATA[GitHub Copilot: cloud agent の validation tools が 20% 高速化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-github-copilot-cloud-agent-validation-tools-faster.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-github-copilot-cloud-agent-validation-tools-faster.html</guid>
+      <title><![CDATA[Codex CLI 0.119.0: voice、MCP、remote workflow を強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-codex-cli-0-119-0-voice-mcp-remote.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-10-codex-cli-0-119-0-voice-mcp-remote.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Copilot cloud agent の validation tools が 20% 高速化し、エージェント運用時の確認フローを短縮する更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Waza]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-tw93-waza.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-tw93-waza.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[熟練エンジニアの「習慣」を Claude Code 用のスキルとしてパッケージ化したコマンド集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[sim]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-simstudioai-sim.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-10-simstudioai-sim.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ビジュアルキャンバスでAIエージェントのワークフローを構築・デプロイできる統合プラットフォーム。]]></description>
+      <description><![CDATA[Realtime voice の v2 WebRTC 化、MCP Apps / custom server 対応、remote workflow と TUI の改善が入ったリリースです。]]></description>
     </item>
   </channel>
 </rss>

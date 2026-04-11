@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.101 の更新内容を日本語で整理した記事。team onboarding、OS CA certificate store、remote session、resume 修正を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.101: team onboarding と企業 TLS 対応を正式化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.101: team onboarding と企業 TLS 対応を正式化</h1>
+      <p class="article-dek">/team-onboarding、OS CA certificate store の既定信頼、remote session の初期環境作成、resume や権限制御の修正がまとまった更新です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-10</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.101</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Anthropic の公式 GitHub Releases では、2026-04-10 付で <code>v2.1.101</code> が Latest として公開されています。新しく <code>/team-onboarding</code> が追加され、ローカルの Claude Code 利用状況からチームメイト向けの ramp-up guide を生成できるようになりました。</p>
+
+        <h2>影響や使いどころ</h2>
+        <p>企業環境では、OS の CA certificate store を既定で信頼するようになった点が重要です。TLS inspection や社内プロキシを挟む環境でも追加設定なしで動きやすくなり、必要なら <code>CLAUDE_CODE_CERT_STORE=bundled</code> で従来寄りの挙動に戻せます。</p>
+
+        <h2>補足</h2>
+        <p><code>/ultraplan</code> などの remote-session 系機能は、事前に Web 側で環境を作らなくても既定の cloud environment を自動作成するようになりました。さらに resume、permissions.deny、MCP outputSchema、plugin、LSP、Grep fallback、長時間セッションのメモリリークなど、実運用で詰まりやすい領域の修正も多く含まれます。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.101 は、個人向けの小改善というより、チーム導入と企業ネットワーク下の安定運用を前に進めるリリースです。Claude Code を標準ツールとして展開する組織ほど確認優先度が高い内容です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-code/releases" target="_blank" rel="noreferrer">GitHub Releases - Claude Code</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
