@@ -33,6 +33,21 @@
       "genre": "トレード・金融分析 (ライブラリ・可視化ツール)"
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-04-11-freqtrade-freqtrade-strategies",
+      "title": "freqtrade-strategies",
+      "dek": "仮想通貨自動売買Bot「Freqtrade」向けに公開されている、多様な取引戦略のコレクション。",
+      "summary": "100種類以上のテクニカル指標やロジックを組み合わせた戦略が公開されているリポジトリ。自作Botの戦略構築における最高のリファレンスです。",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-11T12:00:00+09:00",
+      "repoName": "freqtrade/freqtrade-strategies",
+      "repoUrl": "https://github.com/freqtrade/freqtrade-strategies",
+      "articleUrl": "./articles/github/daily/2026-04-11-freqtrade-freqtrade-strategies.html",
+      "serial": 181,
+      "originType": "pickup",
+      "genre": "トレード・金融分析 (アルゴリズム・戦略集)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-04-11-microsoft-markitdown",
       "title": "markitdown",

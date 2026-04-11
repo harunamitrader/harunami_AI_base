@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="freqtrade/freqtrade-strategies を読み、要点を実用寄りに整理した記事。仮想通貨自動売買Bot「Freqtrade」で即戦力となる取引戦略の膨大なコレクションです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>freqtrade-strategies</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">freqtrade-strategies</h1>
+      <p class="article-dek">オープンソースの仮想通貨自動売買Bot「Freqtrade」向けに公開されている、多様な取引戦略のコレクション。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/freqtrade/freqtrade-strategies" target="_blank" rel="noreferrer">
+              freqtrade/freqtrade-strategies
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <strong>Freqtrade Strategies</strong> は、Python ベースのオープンソース仮想通貨取引 Bot「Freqtrade」で利用可能な、コミュニティ主導の取引戦略（アルゴリズム）を集めた公式リポジトリです。RSI、EMA、Bollinger Bands といった定番のテクニカル指標から、機械学習を組み合わせた高度なロジックまで、膨大な数の実装例が公開されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          Freqtrade ユーザーは、このリポジトリから自分の好みに合った戦略をダウンロードし、自分の Bot に導入してバックテストやライブトレードを行うことができます。各戦略は Freqtrade の標準フォーマットに従って記述されているため、ソースコードをコピーするだけで即座に検証が可能です。また、既存の戦略をベースにして独自のカスタマイズを加えるための「教科書」としても機能します。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <ul>
+          <li><strong>圧倒的なバリエーション:</strong> トレンドフォロー、平均回帰、スキャルピングなど、あらゆる市場環境に対応する戦略が 100 種類以上含まれています。</li>
+          <li><strong>実践的な実装コード:</strong> 全ての戦略が Python で記述されており、エントリー条件（Buy）とエグジット条件（Sell）が明確に定義されています。</li>
+          <li><strong>バックテスト済み（一部）:</strong> 多くの戦略がコミュニティによるバックテスト結果を伴っており、性能の目安を把握しやすいのが特徴です。</li>
+          <li><strong>学習リソースとしての価値:</strong> 複雑なインジケーターの組み合わせ方や、ストップロス、テイクプロフィットの動的な制御方法など、Bot 開発に不可欠なテクニックが凝縮されています。</li>
+        </ul>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Freqtrade を運用している環境で、リポジトリをクローンするか、必要な Python ファイルを <code>user_data/strategies/</code> フォルダに配置するだけです。
+        </p>
+        <pre><code># 戦略を指定してバックテストを実行する例
+freqtrade backtesting --strategy BigStepStrategy</code></pre>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li><strong>Freqtrade を使っている/使おうとしている人:</strong> ゼロから戦略を書く手間を省き、定評のあるロジックからスタートできます。</li>
+          <li><strong>自作トレード Bot のロジックを探している開発者:</strong> Python での実装例が豊富なので、自分の Bot への移植用リファレンスとして最適です。</li>
+          <li><strong>テクニカル分析を自動化したいトレーダー:</strong> どのような指標の組み合わせが有効かを、実際に動くコードレベルで理解できます。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          リポジトリ内の戦略は「そのまま動く」ことを保証するものではなく、また利益を約束するものでもありません。市場環境は常に変化するため、必ず自分の環境で十分なバックテストとペーパートレード（仮想売買）を行い、リスクを理解してから運用する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Freqtrade Strategies は、自動売買の世界における「知の宝庫」です。世界中の開発者が知恵を絞って作成したロジックが公開されており、個人のトレーダーでも機関投資家のような洗練されたアルゴリズムにアクセスできる道を開いています。自作 Bot のパフォーマンスを次のレベルへ上げたいなら、まずここを覗くべきでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/freqtrade/freqtrade-strategies" target="_blank" rel="noreferrer">freqtrade/freqtrade-strategies</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.freqtrade.io/" target="_blank" rel="noreferrer">Freqtrade Official Documentation</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p>GitHub Watcher Serial: 181</p>
+      </div>
+    </article>
+  </body>
+</html>

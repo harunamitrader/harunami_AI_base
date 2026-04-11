@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Apr 2026 22:21:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 12:05:19 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-11 アップデートレポート]]></title>
@@ -22,6 +22,14 @@
       <category>github-pickup</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[TradingView が開発した、HTML5 Canvas ベース of 超軽量・高速な金融チャートライブラリ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[freqtrade-strategies]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-freqtrade-freqtrade-strategies.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-freqtrade-freqtrade-strategies.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[仮想通貨自動売買Bot「Freqtrade」向けに公開されている、多様な取引戦略のコレクション。]]></description>
     </item>
     <item>
       <title><![CDATA[markitdown]]></title>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[GPT-5.3 Instant の制限到達後に使われる fallback モデルが GPT-5.3 Instant mini へ更新され、Pro プラン構成も見直されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini: 3D models and interactive charts を生成可能に]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-gemini-interactive-visualizations.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-09-gemini-interactive-visualizations.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Gemini app が、質問や複雑なトピックからチャット内で操作できる 3D モデルやインタラクティブな図表を生成できるようになりました。]]></description>
     </item>
   </channel>
 </rss>
