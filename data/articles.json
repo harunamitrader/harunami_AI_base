@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-11-cocoindex-io-cocoindex-code",
+      "title": "cocoindex-code",
+      "dek": "ASTベースの軽量コード検索エンジン。コーディングエージェントのトークン削減と速度向上を支援。",
+      "summary": "AST解析により必要なパーツのみを抽出・検索可能なCLIツール。AIエージェントのコンテキスト効率を劇的に改善します。",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-11T14:10:00+09:00",
+      "repoName": "cocoindex-io/cocoindex-code",
+      "repoUrl": "https://github.com/cocoindex-io/cocoindex-code",
+      "articleUrl": "./articles/github/daily/2026-04-11-cocoindex-io-cocoindex-code.html",
+      "serial": 182,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-11-update-report",
       "title": "2026-04-11 アップデートレポート",

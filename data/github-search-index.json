@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-11T03:36:09.256967+00:00",
-  "count": 194,
+  "generatedAt": "2026-04-11T05:02:51.108985+00:00",
+  "count": 195,
   "articles": [
+    {
+      "slug": "2026-04-11-cocoindex-io-cocoindex-code",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "cocoindex-code",
+      "dek": "ASTベースの軽量コード検索エンジン。コーディングエージェントのトークン削減と速度向上を支援。",
+      "summary": "AST解析により必要なパーツのみを抽出・検索可能なCLIツール。AIエージェントのコンテキスト効率を劇的に改善します。",
+      "repoName": "cocoindex-io/cocoindex-code",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-11T14:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-11-cocoindex-io-cocoindex-code.html",
+      "serial": 182,
+      "searchText": "cocoindex-code ASTベースの軽量コード検索エンジン。コーディングエージェントのトークン削減と速度向上を支援。 AST解析により必要なパーツのみを抽出・検索可能なCLIツール。AIエージェントのコンテキスト効率を劇的に改善します。 cocoindex-io/cocoindex-code AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
     {
       "slug": "2026-04-11-freqtrade-freqtrade-strategies",
       "category": "github-pickup",
