@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 05:03:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 14:02:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[skills-hub]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-qufei1993-skills-hub.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-qufei1993-skills-hub.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数のAIコーディングツール間で「エージェント・スキル」を共有・一括管理できるデスクトップアプリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Decepticon]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-purpleailab-decepticon.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[PDF、Office 文書、画像、音声、HTML などを LLM が扱いやすい Markdown に変換する Microsoft 製の軽量 Python ツールです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Archon]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-coleam00-archon.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-coleam00-archon.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI コーディングの計画、実装、検証、レビュー、PR 作成を YAML ワークフローとして固定化する開発エージェント基盤です。]]></description>
     </item>
   </channel>
 </rss>

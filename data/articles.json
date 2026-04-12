@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-12-qufei1993-skills-hub",
+      "title": "skills-hub",
+      "dek": "複数のAIコーディングツール間で「エージェント・スキル」を共有・一括管理できるデスクトップアプリ。",
+      "summary": "qufei1993/skills-hub は、Claude Code や Cursor, Cline などの複数のツールのスキル設定を一箇所で管理し、シンボリックリンクにより自動同期する Tauri 製アプリ。自分専用の『指示書』をあらゆるエージェント環境へ即座に反映できます。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T14:02:00+09:00",
+      "repoName": "qufei1993/skills-hub",
+      "repoUrl": "https://github.com/qufei1993/skills-hub",
+      "articleUrl": "./articles/github/daily/2026-04-12-qufei1993-skills-hub.html",
+      "serial": 191,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-12-purpleailab-decepticon",
       "title": "Decepticon",
       "dek": "プロフェッショナルなレッドチーム活動を自律化する、高度なハッキングエージェント基盤。",
