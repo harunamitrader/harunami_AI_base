@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-13-voltagent-awesome-agent-skills",
+      "title": "Awesome Agent Skills",
+      "dek": "AIエージェントに「専門技能」を授ける。1000種類以上の厳選された公式・コミュニティ製スキル集。",
+      "summary": "VoltAgent/awesome-agent-skills は、Claude Code や Cursor 等に対応した高品質なエージェント・スキルを 1000 種類以上集めたコレクション。Anthropic や Google 等の公式チームが作成した実用的なスキルを即座に導入し、エージェントの能力を劇的に拡張できます。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T06:50:00+09:00",
+      "repoName": "VoltAgent/awesome-agent-skills",
+      "repoUrl": "https://github.com/VoltAgent/awesome-agent-skills",
+      "articleUrl": "./articles/github/daily/2026-04-13-voltagent-awesome-agent-skills.html",
+      "serial": 194,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-04-12-openclaw-2026-4-11-chatgpt-import-webchat-video",
       "title": "OpenClaw 2026.4.11: ChatGPT import と Webchat / video generation を強化",

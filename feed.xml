@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 20:46:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 06:46:36 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Awesome Agent Skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-voltagent-awesome-agent-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-voltagent-awesome-agent-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントに「専門技能」を授ける。1000種類以上の厳選された公式・コミュニティ製スキル集。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-13 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-13-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ユーザー設定の modeModels により、用途ごとの実行モードに対して既定モデルを割り当てられるようになったリリースです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw 2026.4.10: Codex provider と Active Memory を追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-openclaw-2026-4-10-codex-active-memory.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-openclaw-2026-4-10-codex-active-memory.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Codex 管理の認証・実行経路、会話前に関連記憶を取り込む Active Memory、exec policy 管理などが入った大型更新です。]]></description>
     </item>
   </channel>
 </rss>

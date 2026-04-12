@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-12T20:03:36.088755+00:00",
-  "count": 212,
+  "generatedAt": "2026-04-12T21:46:36.269167+00:00",
+  "count": 213,
   "articles": [
+    {
+      "slug": "2026-04-13-voltagent-awesome-agent-skills",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Awesome Agent Skills",
+      "dek": "AIエージェントに「専門技能」を授ける。1000種類以上の厳選された公式・コミュニティ製スキル集。",
+      "summary": "VoltAgent/awesome-agent-skills は、Claude Code や Cursor 等に対応した高品質なエージェント・スキルを 1000 種類以上集めたコレクション。Anthropic や Google 等の公式チームが作成した実用的なスキルを即座に導入し、エージェントの能力を劇的に拡張できます。",
+      "repoName": "VoltAgent/awesome-agent-skills",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T06:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-13-voltagent-awesome-agent-skills.html",
+      "serial": 194,
+      "searchText": "Awesome Agent Skills AIエージェントに「専門技能」を授ける。1000種類以上の厳選された公式・コミュニティ製スキル集。 VoltAgent/awesome-agent-skills は、Claude Code や Cursor 等に対応した高品質なエージェント・スキルを 1000 種類以上集めたコレクション。Anthropic や Google 等の公式チームが作成した実用的なスキルを即座に導入し、エージェントの能力を劇的に拡張できます。 VoltAgent/awesome-agent-skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) Awesome Agent Skills ← 記事一覧へ戻る GitHub Watcher Awesome Agent Skills AIエージェントに「専門技能」を授ける。1000種類以上の厳選された公式・コミュニティ製スキル集。 記事作成日 2026-04-13 種別 Pickup 対象 repo VoltAgent/awesome-agent-skills これは何か Awesome Agent Skills は、Claude Code や Cursor、Gemini CLI、そして Antigravity といった AI コーディングエージェントが読み込んで利用できる「スキル（専門的な指示セットやワークフロー）」を収集した、世界最大級のキュレーション・リポジトリです。 単なる AI 生成のプロンプト集ではなく、Anthropic, Google, Vercel, Stripe といったトップ企業のエンジニアリングチームが実際に作成・使用している「本物」のスキルに特化しているのが最大の特徴です。 何ができるか 専門能力の拡張: 標準的な AI では難しい「Office ドキュメント（docx, pptx, xlsx）の高度な編集」「Playwright による Web テスト」「複雑なデザインシステムの構築」などを、スキルファイルを読み込ませるだけで実行可能にします。 各社 API のベストプラクティス学習: Stripe や Firebase などの公式チームが作成したスキルを通じて、そのツールを最も効率的かつ安全に扱う方法をエージェントに「教える」ことができます。 マルチツール展開: 集められたスキルは、特定のツールに依存せず、主要なエージェントツールの多くで共通して利用できる形式（ .claude/skills/ 等）が考慮されています。 目立つポイント 「AI エージェントをどう教育すればいいのか」という問いに対する、最高品質の回答がここにはあります。1000 を超えるコレクションは officialskills.sh という Web サイトと連動しており、ブラウザから簡単に各スキルの内容をプレビューし、自分のプロジェクトにコピーしてくることが可能です。 コミュニティによる貢献も活発で、セキュリティ監査（Trail of Bits）、マーケティング（Addy Osmani）、ビデオ制作（Remotion）など、エンジニアリングの枠を超えた実用的なスキルが網羅されています。 セットアップや使い方の流れ 基本的には、リポジトリや公式サイトから必要なスキルのディレクトリまるごと、または Markdown ファイルを、各自のエージェントが認識できる所定のフォルダ（例： .ai/shared/ や .claude/skills/ ）にコピーするだけで導入できます。 導入されたスキルは、エージェントがタスクを実行する際の「参照知識」や「実行手順書」として機能し、追加のプロンプトを入力しなくても自律的に高度な作業を行えるようになります。 どんな人向けか AI エージェントを単なる「相談相手」ではなく、特定の業務を完全に任せられる「専門家エージェント」へと進化させたい人。 自社の API やフレームワークのための「AI エージェント用ドキュメント」をどう書けばいいか、参考にしたい開発者。 最新の AI コーディングツールのポテンシャルを最大限に引き出したいエンジニア。 まとめ Awesome Agent Skills は、AI エージェント時代の「ライブラリ集」とも言える存在です。これらを活用することで、エージェントはもはや「平均的な開発者」ではなく、特定分野に精通した「シニアエンジニア」のような動きを見せてくれるようになります。 参照リンク VoltAgent/awesome-agent-skills officialskills.sh"
+    },
     {
       "slug": "2026-04-13-update-report",
       "category": "github-update-report",
