@@ -7,6 +7,19 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-11-gemini-cli-v0-39-0-nightly-20260411",
+      "title": "Gemini CLI v0.39.0-nightly.20260411: 最新 nightly タグを更新",
+      "dek": "Gemini CLI の nightly 系が v0.39.0-nightly.20260411.0957f7d3e に進み、次期安定版へ向けた検証対象が更新されました。",
+      "summary": "Gemini CLI の nightly latest が v0.39.0-nightly.20260411.0957f7d3e に更新。pre-release 追従環境では検証対象を切り替えるタイミングです。",
+      "publishedAt": "2026-04-11",
+      "createdAt": "2026-04-13T05:25:00+09:00",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-04-11-gemini-cli-v0-39-0-nightly-20260411.html",
+      "serial": 124
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-13-update-report",
       "title": "2026-04-13 アップデートレポート",

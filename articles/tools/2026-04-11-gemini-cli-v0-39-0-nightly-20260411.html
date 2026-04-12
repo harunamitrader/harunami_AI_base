@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gemini CLI v0.39.0-nightly.20260411 の更新内容を日本語で整理した記事。nightly の最新タグ更新と検証時の注意点を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.39.0-nightly.20260411: 最新 nightly タグを更新</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.39.0-nightly.20260411: 最新 nightly タグを更新</h1>
+      <p class="article-dek">Gemini CLI の nightly 系が <code>v0.39.0-nightly.20260411.0957f7d3e</code> に進み、次期安定版へ向けた検証対象が更新されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-11</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.39.0-nightly.20260411</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Google Gemini CLI の公式 GitHub Releases では、2026-04-11 付で nightly の最新タグが <code>v0.39.0-nightly.20260411.0957f7d3e</code> へ更新されています。stable ではなく pre-release 系の更新なので、安定版利用者が即時に切り替えるべきリリースではありません。</p>
+
+        <h2>実務で見るポイント</h2>
+        <p>nightly は次期 stable に入る可能性がある変更を早期に検証するための参照先です。CLI の挙動、認証まわり、サンドボックス、エージェント実行フローを固定しているチームでは、検証環境だけで先に動作差分を確認するのが安全です。</p>
+
+        <h2>何を確認すべきか</h2>
+        <p>既定の運用が stable の <code>v0.37.1</code> にある場合は、そのまま維持して問題ありません。nightly を追う環境では、セットアップスクリプトや CI の固定タグを更新する前に、既存プロンプト、MCP 連携、権限設定、非対話実行で回帰が出ないかを確認しておきたい更新です。</p>
+
+        <h2>まとめ</h2>
+        <p>v0.39.0-nightly.20260411 は、Gemini CLI の次期系列を先取りして検証するための nightly 更新です。production の既定値を動かすリリースというより、pre-release 追従環境の検証対象を更新するタイミングとして扱うのが現実的です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">GitHub Releases - Gemini CLI</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

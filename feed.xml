@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 20:06:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 05:24:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-13 アップデートレポート]]></title>
@@ -128,6 +128,14 @@
       <description><![CDATA[AIエージェントを「共創者」へ。スキル、メモリ、本能を統合した最強の Agent Harness。]]></description>
     </item>
     <item>
+      <title><![CDATA[Gemini CLI v0.39.0-nightly.20260411: 最新 nightly タグを更新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-gemini-cli-v0-39-0-nightly-20260411.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-gemini-cli-v0-39-0-nightly-20260411.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI の nightly 系が v0.39.0-nightly.20260411.0957f7d3e に進み、次期安定版へ向けた検証対象が更新されました。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Codex CLI 0.120.0: Realtime V2 と hooks 表示、Windows sandbox を改善]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-codex-cli-0-120-0-realtime-v2-hooks-windows-sandbox.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-codex-cli-0-120-0-realtime-v2-hooks-windows-sandbox.html</guid>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントに「仕事の文脈」を。Microsoft 365 データと AI を安全に繋ぐ公式 MCP ブリッジ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[rtk]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-rtk-ai-rtk.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-11-rtk-ai-rtk.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIのトークン消費を最大90%削減。Rust製の超高速CLIプロキシによる出力最適化ツール。]]></description>
     </item>
   </channel>
 </rss>
