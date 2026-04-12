@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-12-greensheep01201-claw-empire",
+      "title": "Claw-Empire",
+      "dek": "AIエージェントたちを「社員」として指揮し、自律型仮想企業を運営するCEOシミュレーター。",
+      "summary": "GreenSheep01201/claw-empire は、多数の AI エージェントを社員に見立てて統合管理する CEO シミュレーター。ドット絵のオフィス UI、用途別の部署編成（Office Pack）、PPT/動画の自動生成機能などを備え、マルチエージェントの組織運用を実現します。",
+      "publishedAt": "2026-04-12",
+      "createdAt": "2026-04-12T15:50:00+09:00",
+      "repoName": "GreenSheep01201/claw-empire",
+      "repoUrl": "https://github.com/GreenSheep01201/claw-empire",
+      "articleUrl": "./articles/github/daily/2026-04-12-greensheep01201-claw-empire.html",
+      "serial": 192,
+      "originType": "pickup",
+      "genre": "AIエージェント・マルチエージェント・オーケストレーション"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-12-qufei1993-skills-hub",
       "title": "skills-hub",
       "dek": "複数のAIコーディングツール間で「エージェント・スキル」を共有・一括管理できるデスクトップアプリ。",

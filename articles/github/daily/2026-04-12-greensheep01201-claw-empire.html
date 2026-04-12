@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GreenSheep01201/claw-empire を読み、AIエージェントの帝国を指揮するCEOシミュレーターの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claw-Empire</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Claw-Empire</h1>
+      <p class="article-dek">AIエージェントたちを「社員」として指揮し、自律型仮想企業を運営するCEOシミュレーター。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-12</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/GreenSheep01201/claw-empire" target="_blank" rel="noreferrer">
+              GreenSheep01201/claw-empire
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Claw-Empire は、Claude Code や Cursor、Gemini CLI といった多数の AI エージェント（ツール）を「仮想ソフトウェア会社」の社員として統合し、一括して指揮・管理できる、ユニークな CEO シミュレーター兼オーケストレーターです。
+        </p>
+        <p>
+          プレイヤー（CEO）はドット絵で描かれた仮想オフィスを舞台に、AI エージェントたちに部署（Office Pack）を割り当て、カンバンボードでタスクを管理し、彼らが自律的に協力して成果物を生み出す過程を監督します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>マルチエージェント・オーケストレーション:</strong> 20 種類以上の AI プロバイダー（CLI、OAuth、直接 API）を一つの会社組織の中に統合。</li>
+          <li><strong>用途別オフィスパック（部署編成）:</strong> 「開発」「レポート作成」「Web 調査」「小説執筆」「ビデオ制作」など、目的に応じたエージェント構成とワークフローを選択可能。</li>
+          <li><strong>AI 間コラボレーション:</strong> エージェント同士が会議を開き、議事録を作成し、それぞれの専門スキルを活かしてタスクを完遂するまでを指揮。</li>
+          <li><strong>リッチな成果物出力:</strong> AI が作成したテキストレポートから、プレゼンテーション資料（PPTX）や紹介動画を自動生成する機能を搭載。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、AI オーケストレーションのプロセスを「オフィスのシミュレーション」として視覚化した点です。ドット絵のキャラクターがデスクで仕事をし、会議室に集まる様子を見ることで、複雑なマルチエージェントの動向を直感的に（そして楽しく）把握できます。
+        </p>
+        <p>
+          さらに、メッセンジャー連携機能を使えば、Slack や Discord、Telegram などから CEO 指令（<code>$</code> コマンド）を送信し、外出先から自分の「帝国（AI 組織）」を動かすことも可能です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          ローカルファーストの設計で、SQLite をデータベースとして使用します。Node.js (pnpm) 環境で動作し、各 AI ツールの CLI がインストールされていれば、それらをエージェントとしてすぐに「雇用」できます。
+        </p>
+        <p>
+          ダッシュボードで会社の KPI を確認したり、カンバンボードでタスクをドラッグ＆ドロップしたりと、管理業務そのものがゲームのようにデザインされています。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>複数の AI エージェントを組み合わせて、複雑な非同期タスク（全自動の開発やリサーチ）を回したい人。</li>
+          <li>AI のオーケストレーションに視覚的な透明性と楽しさを求めているエンジニア。</li>
+          <li>自分だけの「自律型仮想企業」を作り上げ、CEO として大規模な AI プロジェクトを指揮したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          CLI 経由でエージェントを動かす場合、それぞれのツールがローカルマシンに正しくインストールされ、認証（ログイン）が済んでいる必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Claw-Empire は、AI を単なる道具としてではなく、組織の一員として捉える新しい管理の形を提示しています。「帝国」という名にふさわしく、個々の AI ツールの限界を超え、それらを統率することで爆発的な生産性を引き出す、野心的なプロジェクトです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/GreenSheep01201/claw-empire" target="_blank" rel="noreferrer">GreenSheep01201/claw-empire</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
