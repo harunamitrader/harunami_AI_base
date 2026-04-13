@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-13-nashsu-llm_wiki",
+      "title": "LLM Wiki",
+      "dek": "Karpathy 氏の設計思想を具現化。ドキュメントを自律的に整理・相互リンクし、永続的なナレッジベースへと昇華させる「自動構築 Wiki」。",
+      "summary": "nashsu/llm_wiki は、Andrej Karpathy 氏の LLM Wiki パターンを実装したデスクトップアプリ。ドキュメントを自動的に解析し、相互リンクされた Wiki を段階的に構築。ナレッジグラフや自律的な調査機能も備えます。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-13T15:35:00+09:00",
+      "repoName": "nashsu/llm_wiki",
+      "repoUrl": "https://github.com/nashsu/llm_wiki",
+      "articleUrl": "./articles/github/daily/2026-04-13-nashsu-llm_wiki.html",
+      "serial": 203,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-garrytan-gbrain",
       "title": "gbrain",
       "dek": "あなたの人生、人脈、思考を AI エージェントの「長期記憶」へと変える。Garry Tan 氏が提唱するパーソナル・ナレッジベース構築ツール。",

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LLM Wiki は、Andrej Karpathy 氏の提唱したパターンに基づき、ドキュメントを自動的に整理・相互リンクされたナレッジベースへと変換するデスクトップアプリです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>LLM Wiki</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">LLM Wiki</h1>
+      <p class="article-dek">Karpathy 氏の設計思想を具現化。ドキュメントを自律的に整理・相互リンクし、永続的なナレッジベースへと昇華させる「自動構築 Wiki」。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-13</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/nashsu/llm_wiki" target="_blank" rel="noreferrer">
+              nashsu/llm_wiki
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>LLM Wiki は、散らばったドキュメントを AI の力で体系的なナレッジベースへと自動変換するデスクトップアプリケーションです。元テスラ AI 部門責任者の Andrej Karpathy 氏が提唱した「LLM Wiki パターン」を忠実に実装しており、従来の RAG（検索して回答）の限界を超え、AI が情報を整理・構造化して蓄積し続ける「永続的な外部記憶」を構築します。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>自動 Wiki 構築：</strong> PDF、Word、Markdown などのファイルを取り込むと、LLM が内容を解析し、独自の Wiki ページ（エンティティ、コンセプト、要約）を生成・リンクします。</li>
+          <li><strong>2段階インジェスト：</strong> 「解析」と「生成」を分けることで、高い精度とトレーサビリティ（情報の出典管理）を確保しています。</li>
+          <li><strong>ナレッジグラフ可視化：</strong> 取り込まれた情報のつながりをグラフで可視化。知識のギャップや意外な関連性を発見できます。</li>
+          <li><strong>ディープ・リサーチ：</strong> 知識の不足を AI が自ら検出し、Web 検索（Tavily）を用いて自律的に調査。結果を Wiki に取り込みます。</li>
+          <li><strong>Obsidian 互換：</strong> 生成されるデータは標準的な Markdown 形式であり、Obsidian の Vault としてそのまま開いて編集可能です。</li>
+          <li><strong>Web Clipper：</strong> ブラウザ拡張機能を使用して、Web 上の記事をワンクリックで自分の Wiki にインポートできます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>「その都度検索して答える」のではなく、「一度理解したものを構造化して残す」というアプローチが最大の特徴です。一度コンパイルされた知識は Wikilink によって相互に関連付けられるため、AI は質問に対して点ではなく面で回答できるようになります。また、Karpathy 氏の抽象的な設計図を、Tauri ベースの洗練されたデスクトップアプリ（macOS/Windows/Linux 対応）として完成させた実装力も魅力です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>アプリを起動し、新しい Wiki プロジェクトを作成します（「研究」「ビジネス」などのテンプレートを選択可能）。</li>
+          <li>設定画面で OpenAI や Anthropic などの API キーを入力します。</li>
+          <li>「Sources」セクションから、手持ちのドキュメントをインポートします。</li>
+          <li>アクティビティパネルで、AI が Wiki ページを生成していく様子を確認します。</li>
+          <li>チャットインターフェースを通じて、構築されたナレッジベースに質問を投げます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>特定の専門分野（AI 研究、投資、歴史など）について、膨大な資料を体系的に整理したい研究者や熱狂的な独学者。</li>
+          <li>一度調べたことを二度と忘れない（AI が覚えていてくれる）環境を構築したいナレッジワーカー。</li>
+          <li>Obsidian を愛用しており、AI による自動整理機能をスタックに加えたいクリエイター。</li>
+        </ul>
+
+        <h2>まとめ</h2>
+        <p>LLM Wiki は、AI を「辞書」としてではなく「図書館司書」として活用するためのツールです。あなたが集めた情報の断片を、AI が夜通し整理して有意義なナレッジネットワークへと変えてくれる。そんな「情報の複利」を実感できる、野心的かつ実用的なプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/nashsu/llm_wiki" target="_blank" rel="noreferrer">nashsu/llm_wiki</a>
+        </div>
+        <div class="source-item">
+          <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" target="_blank" rel="noreferrer">Original LLM Wiki pattern by Andrej Karpathy</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
