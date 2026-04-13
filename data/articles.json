@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-14-scitix-siclaw",
+      "title": "Siclaw",
+      "dek": "インフラ診断に特化した AI SRE。読み取り専用の仮説検証プロセスで、壊さず、迅速に障害の根本原因を特定。",
+      "summary": "scitix/siclaw は、SRE チームの障害調査を自動化する AI エージェント。インフラへの変更を行わない「読み取り専用」を基本とし、エビデンス収集から仮説検証までを自律的に実行します。MCP 対応による高い拡張性と、Web UI・チャット連携・TUI を備えた柔軟なアクセス環境が特徴。障害対応のノウハウを「スキル」として蓄積・再利用可能です。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T06:45:00+09:00",
+      "repoName": "scitix/siclaw",
+      "repoUrl": "https://github.com/scitix/siclaw",
+      "articleUrl": "./articles/github/daily/2026-04-14-scitix-siclaw.html",
+      "serial": 212,
+      "originType": "pickup",
+      "genre": "AIエージェント (基盤・コンポーネント)"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr",
       "title": "Grok CLI v1.1.5-rc5: MCP stdio stderr を TUI から分離",

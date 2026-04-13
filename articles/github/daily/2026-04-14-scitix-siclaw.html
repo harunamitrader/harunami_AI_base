@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="scitix/siclaw の概要と、SRE チーム向けの AI エージェント機能についての解説記事。障害調査の自動化と読み取り専用の安全な診断プロセス。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Siclaw - AI-powered SRE Platform</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Siclaw</h1>
+      <p class="article-dek">インフラ診断に特化した AI SRE。読み取り専用の仮説検証プロセスで、壊さず、迅速に障害の根本原因を特定。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/scitix/siclaw" target="_blank" rel="noreferrer">
+              scitix/siclaw
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          障害調査とインフラ診断をプログラム制御する AI SRE エージェント・プラットフォームです。
+          既存のインフラに対して<strong>「読み取り専用（Read-only）」</strong>で動作し、エビデンスの収集、仮説の立案、その後の検証までを自動で行います。
+          「インフラを壊すのが怖い」「でも AI に調査を手伝ってほしい」という SRE チームの要求に応えるツールです。
+        </p>
+
+        <h2>主な特徴と機能</h2>
+        <ul>
+            <li><strong>深い調査ワークフロー</strong>: 
+                エビデンスの収集、仮説の構築、検証、そして最終的な根本原因分析。AI がこれらを自律的に繰り返すことで、人間より圧倒的に早く障害箇所を突き止めます。
+            </li>
+            <li><strong>安全な診断プロセス</strong>: 
+                デフォルトで読み取り専用の操作に限定。デプロイや設定変更を行わずに、ログやメトリクスを縦横無尽に調査します。
+            </li>
+            <li><strong>MCP (Model Context Protocol) 対応</strong>: 
+                外部の監視ツールやデータベースと MCP 経由で接続し、AI が自ら情報を取ってこれる拡張性を備えています。
+            </li>
+            <li><strong>マルチチャネルの利便性</strong>: 
+                手軽な TUI（ターミナル）、チームで共有できる Web UI、さらに Slack や Discord などのチャットツールからも指示・報告が可能です。
+            </li>
+        </ul>
+
+        <h2>なぜ重要か</h2>
+        <p>
+          大規模な Kubernetes クラスターなどの障害調査では、何が起きているかを確認するだけで膨大な時間がかかります。
+          Siclaw は、「CrashLoopBackOff の原因を調べて」といった自然言語の指示を受けると、AI が自ら <code>kubectl</code> やログを叩き、過去のナレッジを活かして原因を特定します。
+          調査の手順（スキル）は再利用可能なランブックとして登録でき、チーム全体でノウハウを共有できる点も大きなメリットです。
+        </p>
+
+        <h2>技術スタック</h2>
+        <p>
+          TypeScript で記述されており、Node.js 22 以上で動作します。
+          Kubernetes へのデプロイも Helm チャートで提供されており、エンタープライズ環境での利用も考慮されています。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>scitix/siclaw</code> は、DevOps/SRE の定型的な調査作業を AI に任せるための基盤です。
+          「調査は AI、判断は人間」という安全な協力体制を築くための、現在もっとも注目すべき SRE エージェントの一つと言えるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/scitix/siclaw" target="_blank" rel="noreferrer">scitix/siclaw</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

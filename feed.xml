@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 20:31:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 06:41:58 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Siclaw]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-scitix-siclaw.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-scitix-siclaw.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[インフラ診断に特化した AI SRE。読み取り専用の仮説検証プロセスで、壊さず、迅速に障害の根本原因を特定。]]></description>
+    </item>
     <item>
       <title><![CDATA[GitHub Copilot SDK]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-github-copilot-sdk.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[システムトレーディングに関わるすべての開発者のための、ライブラリ、戦略、書籍を網羅したキュレーションリスト。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TensorTrade]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-tensortrade-org-tensortrade.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-tensortrade-org-tensortrade.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[強化学習 (RL) を活用して、堅牢な自律型トレーディングエージェントを構築・訓練するための Python フレームワーク。]]></description>
     </item>
   </channel>
 </rss>
