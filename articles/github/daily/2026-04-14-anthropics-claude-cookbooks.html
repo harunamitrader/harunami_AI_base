@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="anthropics/claude-cookbooks を読み、Claude API の RAG、tool use、multimodal、agent 構築を学べる公式サンプル集として整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-cookbooks</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-cookbooks</h1>
+      <p class="article-dek">Claude API の実装例を notebooks / recipes として集めた、RAG、tool use、multimodal、agent 構築の公式サンプル集です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>10位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/anthropics/claude-cookbooks" target="_blank" rel="noreferrer">anthropics/claude-cookbooks</a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          claude-cookbooks は、Claude を使った開発パターンを notebooks と recipe として集めた Anthropic 公式のサンプル集です。
+          README では、Claude API に組み込めるコピー可能なコード断片とガイドを提供するリポジトリとして説明されています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>基本能力の実装例</strong>: classification、RAG、summarization など、典型的な LLM アプリの土台を確認できます。</li>
+          <li><strong>tool use</strong>: 外部ツールや関数と Claude を連携させる例があり、customer service agent、calculator、SQL query などを扱います。</li>
+          <li><strong>multimodal</strong>: 画像入力、チャート解釈、フォーム読み取り、Claude と Stable Diffusion を組み合わせた画像生成例が含まれます。</li>
+          <li><strong>advanced techniques</strong>: sub-agent、PDF upload、automated evaluations、JSON mode、moderation filter、prompt caching などを学べます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          主要ディレクトリには <code>anthropic_cookbook/</code>、<code>capabilities/</code>、<code>claude_agent_sdk/</code>、<code>coding/</code>、<code>managed_agents/</code>、<code>multimodal/</code>、<code>observability/</code>、<code>tool_use/</code> などがあります。
+          言語比率は Jupyter Notebook が中心で、補助的に Python コードが含まれます。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          実行には Claude API key が必要です。まず README の recipe table から目的に近い notebook を選び、必要な依存関係と API key を設定して、手元のユースケースに合わせてコード断片を移植する形になります。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          Claude API を使ったプロトタイプを短時間で組みたい開発者、RAG や tool use の設計例を探しているチーム、評価・安全性・multimodal まで含めて実装パターンを確認したい人に向いています。
+          公式サンプルであるため、Claude の機能を試す際の出発点として使いやすい点が強みです。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          cookbook は完成済みプロダクトではなく、あくまで学習・実装例です。production に持ち込む場合は、認証、ログ、例外処理、コスト制御、データ保護、評価手順を別途設計する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          claude-cookbooks は、Claude API の機能を具体的な notebook で理解するための実務的な入口です。
+          RAG、tool use、agent、multimodal、評価を横断して確認できるため、Claude を使ったアプリ設計の参考資料として価値があります。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/anthropics/claude-cookbooks" target="_blank" rel="noreferrer">anthropics/claude-cookbooks (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://docs.claude.com/" target="_blank" rel="noreferrer">Anthropic developer documentation</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
