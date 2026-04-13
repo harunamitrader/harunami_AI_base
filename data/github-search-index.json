@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T22:10:10.873877+00:00",
-  "count": 235,
+  "generatedAt": "2026-04-13T22:12:21.790008+00:00",
+  "count": 236,
   "articles": [
+    {
+      "slug": "2026-04-14-touchpoint-labs-touchpoint",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Touchpoint",
+      "dek": "OS のアクセシビリティ API を通じて、AI がデスクトップ UI を「構造的に」理解し、操作するための MCP サーバー。",
+      "summary": "Touchpoint-Labs/Touchpoint は、macOS, Windows, Linux 対応のデスクトップ操作用 MCP サーバー。画像解析のみに頼らず、OS のアクセシビリティツリーを直接参照することで、ボタンや入力フォームなどの UI 要素を正確かつ高速に特定・制御します。AI エージェントがデスクトップアプリをプログラムレベルで使いこなすための強力なインターフェースを提供します。",
+      "repoName": "Touchpoint-Labs/touchpoint",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T07:20:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-14-touchpoint-labs-touchpoint.html",
+      "serial": 215,
+      "searchText": "Touchpoint OS のアクセシビリティ API を通じて、AI がデスクトップ UI を「構造的に」理解し、操作するための MCP サーバー。 Touchpoint-Labs/Touchpoint は、macOS, Windows, Linux 対応のデスクトップ操作用 MCP サーバー。画像解析のみに頼らず、OS のアクセシビリティツリーを直接参照することで、ボタンや入力フォームなどの UI 要素を正確かつ高速に特定・制御します。AI エージェントがデスクトップアプリをプログラムレベルで使いこなすための強力なインターフェースを提供します。 Touchpoint-Labs/touchpoint AIコーディング (CLI本体・拡張機能) Touchpoint - Semantic Desktop Automation for AI ← 記事一覧へ戻る GitHub Watcher Touchpoint OS のアクセシビリティ API を通じて、AI がデスクトップ UI を「構造的に」理解し、操作するための MCP サーバー。 記事作成日 2026-04-14 種別 Pickup 対象 repo Touchpoint-Labs/touchpoint これは何か AI エージェントにデスクトップ操作の「目」と「手」を与える、クロスプラットフォーム・アクセシビリティ API です。 特筆すべきは、単なるスクリーンショットの解析（画像認識）に留まらず、OS 自体が持っている 「アクセシビリティ・ツリー（UI 要素の構造化データ）」 を直接参照する点です。 これにより、AI は画面上の「どのピクセルをクリックするか」だけでなく、「どのセマンティックなボタンを押すか」を正確に理解できます。 主な特徴 構造的な UI 理解 : OS のアクセシビリティ機能を利用して、ウィンドウ内のボタン、テキストボックス、メニューなどの構成をツリー形式で取得。画像認識よりも高速かつ正確に目的の要素を特定できます。 クロスプラットフォーム : macOS, Windows, Linux の主要な OS に対応しています。 MCP サーバー同梱 : インストールして即座に MCP (Model Context Protocol) サーバーとして稼働。Claude などのデスクトップアプリからツールとして呼び出せます。 直感的操作 : 「Chrome を開いて、検索バーに〇〇と入力し、検索ボタンを押して」という指示を、UI 構造に基づいた確実なステップとして実行します。 他のツールとの違い 類似のデスクトップ操作系 MCP サーバー（例： native-devtools-mcp ）が「画像解析 (OCR)」を武器にするのに対し、Touchpoint は「OS のセマンティック情報（アクセシビリティ）」を主軸に置いています。 画像ベース : 視覚的な変化に強く、画像から直接情報を読み取る。 アクセシビリティベース (Touchpoint) : UI の論理構造を利用するため、画面の配置が多少変わっても動作が安定しやすく、処理が軽量です。 なぜ重要か AI エージェントが単なる「ブラウザ検索担当」ではなく、メールクライアント、カレンダー、専用の業務アプリ、設定画面といった「デスクトップ上のあらゆる不便」を自動で解消する **Personal OS Agent** へと進化するための重要なパーツです。 まとめ Touchpoint-Labs/Touchpoint は、デスクトップオートメーションをエンジニアのプログラミングから AI の自律判断へと移行させるための洗練されたインターフェースです。 AI に「自分の PC での実作業」を任せたいと考えるユーザーにとって、最適解の一つとなるでしょう。 参照リンク Touchpoint-Labs/touchpoint"
+    },
     {
       "slug": "2026-04-14-sh3ll3x3c-native-devtools-mcp",
       "category": "github-pickup",

@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-14-touchpoint-labs-touchpoint",
+      "title": "Touchpoint",
+      "dek": "OS のアクセシビリティ API を通じて、AI がデスクトップ UI を「構造的に」理解し、操作するための MCP サーバー。",
+      "summary": "Touchpoint-Labs/Touchpoint は、macOS, Windows, Linux 対応のデスクトップ操作用 MCP サーバー。画像解析のみに頼らず、OS のアクセシビリティツリーを直接参照することで、ボタンや入力フォームなどの UI 要素を正確かつ高速に特定・制御します。AI エージェントがデスクトップアプリをプログラムレベルで使いこなすための強力なインターフェースを提供します。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T07:20:00+09:00",
+      "repoName": "Touchpoint-Labs/touchpoint",
+      "repoUrl": "https://github.com/Touchpoint-Labs/touchpoint",
+      "articleUrl": "./articles/github/daily/2026-04-14-touchpoint-labs-touchpoint.html",
+      "serial": 215,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-14-sh3ll3x3c-native-devtools-mcp",
       "title": "Native DevTools MCP",
       "dek": "AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。",

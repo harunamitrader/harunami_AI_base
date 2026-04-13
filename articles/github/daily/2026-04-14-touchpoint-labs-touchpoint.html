@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Touchpoint-Labs/Touchpoint の概要と、OS のアクセシビリティ API を活用した AI デスクトップ操作の解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Touchpoint - Semantic Desktop Automation for AI</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Touchpoint</h1>
+      <p class="article-dek">OS のアクセシビリティ API を通じて、AI がデスクトップ UI を「構造的に」理解し、操作するための MCP サーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Touchpoint-Labs/touchpoint" target="_blank" rel="noreferrer">
+              Touchpoint-Labs/touchpoint
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          AI エージェントにデスクトップ操作の「目」と「手」を与える、クロスプラットフォーム・アクセシビリティ API です。
+          特筆すべきは、単なるスクリーンショットの解析（画像認識）に留まらず、OS 自体が持っている<strong>「アクセシビリティ・ツリー（UI 要素の構造化データ）」</strong>を直接参照する点です。
+          これにより、AI は画面上の「どのピクセルをクリックするか」だけでなく、「どのセマンティックなボタンを押すか」を正確に理解できます。
+        </p>
+
+        <h2>主な特徴</h2>
+        <ul>
+            <li><strong>構造的な UI 理解</strong>: 
+                OS のアクセシビリティ機能を利用して、ウィンドウ内のボタン、テキストボックス、メニューなどの構成をツリー形式で取得。画像認識よりも高速かつ正確に目的の要素を特定できます。
+            </li>
+            <li><strong>クロスプラットフォーム</strong>: macOS, Windows, Linux の主要な OS に対応しています。</li>
+            <li><strong>MCP サーバー同梱</strong>: 
+                インストールして即座に MCP (Model Context Protocol) サーバーとして稼働。Claude などのデスクトップアプリからツールとして呼び出せます。
+            </li>
+            <li><strong>直感的操作</strong>: 「Chrome を開いて、検索バーに〇〇と入力し、検索ボタンを押して」という指示を、UI 構造に基づいた確実なステップとして実行します。</li>
+        </ul>
+
+        <h2>他のツールとの違い</h2>
+        <p>
+          類似のデスクトップ操作系 MCP サーバー（例：<code>native-devtools-mcp</code>）が「画像解析 (OCR)」を武器にするのに対し、Touchpoint は「OS のセマンティック情報（アクセシビリティ）」を主軸に置いています。
+        </p>
+        <ul>
+            <li><strong>画像ベース</strong>: 視覚的な変化に強く、画像から直接情報を読み取る。</li>
+            <li><strong>アクセシビリティベース (Touchpoint)</strong>: UI の論理構造を利用するため、画面の配置が多少変わっても動作が安定しやすく、処理が軽量です。</li>
+        </ul>
+
+        <h2>なぜ重要か</h2>
+        <p>
+          AI エージェントが単なる「ブラウザ検索担当」ではなく、メールクライアント、カレンダー、専用の業務アプリ、設定画面といった「デスクトップ上のあらゆる不便」を自動で解消する **Personal OS Agent** へと進化するための重要なパーツです。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>Touchpoint-Labs/Touchpoint</code> は、デスクトップオートメーションをエンジニアのプログラミングから AI の自律判断へと移行させるための洗練されたインターフェースです。
+          AI に「自分の PC での実作業」を任せたいと考えるユーザーにとって、最適解の一つとなるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Touchpoint-Labs/touchpoint" target="_blank" rel="noreferrer">Touchpoint-Labs/touchpoint</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
