@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T19:48:28.403035+00:00",
-  "count": 225,
+  "generatedAt": "2026-04-13T19:50:01.260778+00:00",
+  "count": 226,
   "articles": [
+    {
+      "slug": "2026-04-14-daniel3303-ClaudeCodeStatusLine",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ClaudeCodeStatusLine",
+      "dek": "Claude Code のステータス領域を劇的に進化。トークン使用量、レート制限、Git 情報を 1 行に凝縮してリアルタイム表示するカスタムスクリプト。",
+      "summary": "daniel3303/ClaudeCodeStatusLine は、Claude Code の TUI コンポーネントを拡張するカスタムステータスライン。モデル情報や API の制限状況を色付きで可視化し、作業中の Git 状態も一目で把握可能。外部コマンドとして動作するため動作が極めて軽く、実務効率を大幅に向上させます。",
+      "repoName": "daniel3303/ClaudeCodeStatusLine",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T04:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-14-daniel3303-ClaudeCodeStatusLine.html",
+      "serial": 208,
+      "searchText": "ClaudeCodeStatusLine Claude Code のステータス領域を劇的に進化。トークン使用量、レート制限、Git 情報を 1 行に凝縮してリアルタイム表示するカスタムスクリプト。 daniel3303/ClaudeCodeStatusLine は、Claude Code の TUI コンポーネントを拡張するカスタムステータスライン。モデル情報や API の制限状況を色付きで可視化し、作業中の Git 状態も一目で把握可能。外部コマンドとして動作するため動作が極めて軽く、実務効率を大幅に向上させます。 daniel3303/ClaudeCodeStatusLine AIコーディング (CLI本体・拡張機能) ClaudeCodeStatusLine ← 記事一覧へ戻る GitHub Watcher ClaudeCodeStatusLine Claude Code のステータス領域を劇的に進化。トークン使用量、レート制限、Git 情報を 1 行に凝縮してリアルタイム表示するカスタムスクリプト。 記事作成日 2026-04-14 種別 Pickup 対象 repo daniel3303/ClaudeCodeStatusLine これは何か Anthropic の AI コーディングエージェント「Claude Code」の TUI インターフェースを下部で支える「ステータスライン」を、より詳細で実用的な情報へと拡張するためのカスタムスクリプト群です。 標準の表示を、開発者が必要とする重要指標が凝縮された情報密度の高いバーへとアップグレードします。 何ができるか ターミナルの最下部に、以下の情報が 1 行でリアルタイムに表示されるようになります。 モデル情報 : 現在どの種類の Claude モデルを使用しているかを表示。 トークン使用状況 : 使用済みのトークン量と、レート制限（RPM/TPM）までの余裕を可視化。 リセットまでの時間 : 制限が解除されるまでの残り時間を秒単位で把握。 Git ステータス : 現在のブランチ名や、未コミットの差分があるかどうかなどの基本情報を統合。 視覚的な警告 : 使用率がしきい値（50%, 70%, 90%）を超えると、色が「緑→黄→橙→赤」と変化し、限界が近いことを直感的に知らせてくれます。 目立つポイント このツールの最大の特徴は 「外部プロセスによる非同期動作」 です。ステータスラインの生成は Claude Code 本体とは別のシェルスクリプト（または PowerShell スクリプト）が担当するため、本体の動作を重くすることはありません。 また、情報を取得するための API 呼び出しは 60 秒間キャッシュされるように設計されており、ステータス表示そのものが API の負荷やクォータを浪費する心配も最小限に抑えられています。 「今、あとどのくらい動かせるのか」を常に把握できる安心感は、長時間の開発作業において非常に大きな助けとなります。 セットアップや使い方の流れ リポジトリから statusline.sh （macOS/Linux）または statusline.ps1 （Windows）のコードをコピーします。 Claude Code に 「Use this script as my status bar」 というプロンプトと共にコードを貼り付けると、自動的に settings.json への書き込みと配置を行ってくれます。 手動で設定する場合は、スクリプトを ~/.claude/ フォルダに保存し、 settings.json の \"statusLine\" セクションでコマンドのパスを指定します。 Claude Code を再起動すると、新しい高機能なステータスバーが有効になります。 どんな人向けか Claude Code をメインの開発環境として使い倒しているエンジニア。 API のレート制限に頻繁に遭遇するため、余裕を常にモニタリングしておきたい人。 Git のブランチ確認など、基本的な情報を TUI の外に出ることなく把握したい人。 自分のターミナル環境を美しく、かつ機能的に整理したい CLI ギーク。 注意点 使用状況の正確な表示には、Anthropic API の OAuth 認証（Pro/Max サブスクリプション）が必要です。 また、Windows 環境では PowerShell 5.1 以上が必要となります。 アップデートが GitHub に公開されると、ステータスラインの下に通知が表示される親切な設計になっていますが、更新時は再度スクリプトの貼り付けや配置が必要です。 まとめ ClaudeCodeStatusLine は、Claude Code を単なる対話ツールから、プロフェッショナルな「開発ダッシュボード」へと昇華させる気の利いたプロジェクトです。 シンプルながらも、開発者が抱える「制限への不安」と「コンテキストの把握」という二つの課題を完璧に解決してくれます。 参照リンク daniel3303/ClaudeCodeStatusLine"
+    },
     {
       "slug": "2026-04-14-alexgreensh-token-optimizer",
       "category": "github-pickup",

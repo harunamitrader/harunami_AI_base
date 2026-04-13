@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-14-daniel3303-ClaudeCodeStatusLine",
+      "title": "ClaudeCodeStatusLine",
+      "dek": "Claude Code のステータス領域を劇的に進化。トークン使用量、レート制限、Git 情報を 1 行に凝縮してリアルタイム表示するカスタムスクリプト。",
+      "summary": "daniel3303/ClaudeCodeStatusLine は、Claude Code の TUI コンポーネントを拡張するカスタムステータスライン。モデル情報や API の制限状況を色付きで可視化し、作業中の Git 状態も一目で把握可能。外部コマンドとして動作するため動作が極めて軽く、実務効率を大幅に向上させます。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T04:50:00+09:00",
+      "repoName": "daniel3303/ClaudeCodeStatusLine",
+      "repoUrl": "https://github.com/daniel3303/ClaudeCodeStatusLine",
+      "articleUrl": "./articles/github/daily/2026-04-14-daniel3303-ClaudeCodeStatusLine.html",
+      "serial": 208,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-14-alexgreensh-token-optimizer",
       "title": "token-optimizer",
       "dek": "AI エージェントの「無駄なトークン」を徹底削減。コンテキスト品質を維持し、運用コストを劇的に下げるための統合最適化ツール。",
