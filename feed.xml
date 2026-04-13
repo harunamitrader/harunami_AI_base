@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 21:48:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 12:35:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Everywhere]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-DearVa-Everywhere.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-DearVa-Everywhere.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[画面上のあらゆる情報を「見て」対話する、デスクトップ統合型のコンテキスト認識 AI アシスタント。]]></description>
+    </item>
     <item>
       <title><![CDATA[Awesome Agent Skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-voltagent-awesome-agent-skills.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[background agent の進捗ストリーミング、hooks 表示の整理、code-mode outputSchema、Windows sandbox 修正が入った更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI v1.1.5-rc4: modeModels でモード別モデルを設定可能に]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-grok-cli-v1-1-5-rc4-mode-models.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-11-grok-cli-v1-1-5-rc4-mode-models.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ユーザー設定の modeModels により、用途ごとの実行モードに対して既定モデルを割り当てられるようになったリリースです。]]></description>
     </item>
   </channel>
 </rss>
