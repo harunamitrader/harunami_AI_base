@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Apr 2026 04:50:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 04:54:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ios-builder]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-MobAI-App-ios-builder.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-MobAI-App-ios-builder.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Mac なしで iOS アプリ開発を実現。Windows や Linux から GitHub Actions を使い、実機ホットリロードまでを可能にする画期的な CLI ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[ClaudeCodeStatusLine]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-daniel3303-ClaudeCodeStatusLine.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[4GBのGPU1枚で 70B 巨大モデルをフル精度推論。メモリের壁を「レイヤー単位実行」で突破。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claw-Empire]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-greensheep01201-claw-empire.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-greensheep01201-claw-empire.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントたちを「社員」として指揮し、自律型仮想企業を運営するCEOシミュレーター。]]></description>
     </item>
   </channel>
 </rss>

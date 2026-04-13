@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T19:50:32.548039+00:00",
-  "count": 226,
+  "generatedAt": "2026-04-13T19:54:47.406509+00:00",
+  "count": 227,
   "articles": [
+    {
+      "slug": "2026-04-14-MobAI-App-ios-builder",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ios-builder",
+      "dek": "Mac なしで iOS アプリ開発を実現。Windows や Linux から GitHub Actions を使い、実機ホットリロードまでを可能にする画期的な CLI ツール。",
+      "summary": "MobAI-App/ios-builder は、Mac を持たない開発者のための iOS 開発支援ツール。GitHub Actions をクラウドビルダーとして活用し、Windows/Linux 上で書いたコードを iOS 実機でホットリロード（Flutter/React Native）させることができます。iOS 開発の「Mac 必須」というハードルを劇的に下げるソリューションです。",
+      "repoName": "MobAI-App/ios-builder",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T04:55:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-14-MobAI-App-ios-builder.html",
+      "serial": 209,
+      "searchText": "ios-builder Mac なしで iOS アプリ開発を実現。Windows や Linux から GitHub Actions を使い、実機ホットリロードまでを可能にする画期的な CLI ツール。 MobAI-App/ios-builder は、Mac を持たない開発者のための iOS 開発支援ツール。GitHub Actions をクラウドビルダーとして活用し、Windows/Linux 上で書いたコードを iOS 実機でホットリロード（Flutter/React Native）させることができます。iOS 開発の「Mac 必須」というハードルを劇的に下げるソリューションです。 MobAI-App/ios-builder 学習ガイド・開発アセット ios-builder ← 記事一覧へ戻る GitHub Watcher ios-builder Mac なしで iOS アプリ開発を実現。Windows や Linux から GitHub Actions を使い、実機ホットリロードまでを可能にする画期的な CLI ツール。 記事作成日 2026-04-14 種別 Pickup 対象 repo MobAI-App/ios-builder これは何か iOS アプリ開発における最大の障壁である「Mac の所有」を不要にするための CLI ツールです。 GitHub Actions の macOS ランナーをリモートビルドサーバーとして利用し、Windows や Linux 環境から iOS アプリのビルド、サイン、そして実機での動的な開発（ホットリロード）を可能にします。 何ができるか Mac が手元にない環境でも、プロフェッショナルな iOS 開発ワークフローを構築できます。 リモート・クラウドビルド : ネイティブ (Swift/Objective-C)、Flutter、React Native のプロジェクトを GitHub Actions 経由でビルドし、IPA ファイルをローカルに自動ダウンロード。 実機ホットリロード : [MobAI](https://mobai.run) と連携することで、Windows/Linux 上のソース編集を iOS 実機へ即座に反映（Flutter/React Native 対応）。 ワークフローの自動生成 : builder init を実行するだけで、プロジェクトに最適な GitHub Actions 設定ファイルを自動的に追加。 セキュアなコード署名 : 証明書やプロビジョニングプロファイルを GitHub Secrets に設定し、署名済みの正式な IPA を生成可能。 目立つポイント 単に「ビルドができる」だけでなく、 「Windows 上でホットリロード開発ができる」 点が非常に強力です。 通常、Flutter などのクロスプラットフォーム開発でも iOS 実機でのデバッグには Mac が必要ですが、このツールはビルド層をクラウドに逃がし、デバイス制御層を MobAI でブリッジすることで、OS の制約を突破しています。 「高価な Mac を買う前に iOS 開発を試してみたい」「Windows がメインのチームで iOS 対応を進めたい」といったニーズに完璧に応える構成です。 セットアップや使い方の流れ 各プラットフォーム用のバイナリをインストールし、 builder auth github で連携を許可します。 iOS プロジェクトのディレクトリで builder init を実行し、GitHub Actions ワークフローを初期化します。 builder ios build でビルドを開始。クラウド上の macOS でコンパイルが行われ、成果物が ./dist/ に届きます。 開発中は builder dev flutter （または rn ）を実行。MobAI を介して実機と通信し、エディタでの保存時にホットリロードが走ります。 どんな人向けか Windows または Linux をメイン機として使用しており、iOS アプリ開発を始めたい人。 Mac を所有していないが、手元の iPhone で自作アプリを動かしたりデバッグしたりしたい開発者。 Flutter や React Native を使っており、iOS 対応のためにわざわざ新しい Mac を購入するコストを抑えたいチーム。 注意点 ビルドには GitHub Actions を利用するため、GitHub の無料枠やクレジットを消費します。 また、実機でのホットリロードには MobAI アプリケーションのインストールと、通信用のネットワーク環境（または USB 接続）が必要です。 コード署名を行う場合は、Apple Developer Program の証明書やプロファイルを自身で用意する必要があります。 まとめ ios-builder は、iOS 開発の民主化を推し進める野心的なプロジェクトです。 「iOS 開発には Mac が必須」というこれまでの常識を、モダンなクラウド CI とデバイス制御技術の組み合わせで鮮やかに塗り替えており、開発者にとっての選択肢を大きく広げるツールと言えます。 参照リンク MobAI-App/ios-builder"
+    },
     {
       "slug": "2026-04-14-daniel3303-ClaudeCodeStatusLine",
       "category": "github-pickup",

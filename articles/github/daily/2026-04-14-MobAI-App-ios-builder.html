@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MobAI-App/ios-builder を読み、要点を実用寄りに整理した記事。Windows や Linux から Mac なしで iOS アプリをビルド・開発する方法の解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ios-builder</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ios-builder</h1>
+      <p class="article-dek">Mac なしで iOS アプリ開発を実現。Windows や Linux から GitHub Actions を使い、実機ホットリロードまでを可能にする画期的な CLI ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/MobAI-App/ios-builder" target="_blank" rel="noreferrer">
+              MobAI-App/ios-builder
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          iOS アプリ開発における最大の障壁である「Mac の所有」を不要にするための CLI ツールです。
+          GitHub Actions の macOS ランナーをリモートビルドサーバーとして利用し、Windows や Linux 環境から iOS アプリのビルド、サイン、そして実機での動的な開発（ホットリロード）を可能にします。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          Mac が手元にない環境でも、プロフェッショナルな iOS 開発ワークフローを構築できます。
+        </p>
+        <ul>
+          <li><strong>リモート・クラウドビルド</strong>: ネイティブ (Swift/Objective-C)、Flutter、React Native のプロジェクトを GitHub Actions 経由でビルドし、IPA ファイルをローカルに自動ダウンロード。</li>
+          <li><strong>実機ホットリロード</strong>: [MobAI](https://mobai.run) と連携することで、Windows/Linux 上のソース編集を iOS 実機へ即座に反映（Flutter/React Native 対応）。</li>
+          <li><strong>ワークフローの自動生成</strong>: <code>builder init</code> を実行するだけで、プロジェクトに最適な GitHub Actions 設定ファイルを自動的に追加。</li>
+          <li><strong>セキュアなコード署名</strong>: 証明書やプロビジョニングプロファイルを GitHub Secrets に設定し、署名済みの正式な IPA を生成可能。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          単に「ビルドができる」だけでなく、<strong>「Windows 上でホットリロード開発ができる」</strong>点が非常に強力です。
+          通常、Flutter などのクロスプラットフォーム開発でも iOS 実機でのデバッグには Mac が必要ですが、このツールはビルド層をクラウドに逃がし、デバイス制御層を MobAI でブリッジすることで、OS の制約を突破しています。
+          「高価な Mac を買う前に iOS 開発を試してみたい」「Windows がメインのチームで iOS 対応を進めたい」といったニーズに完璧に応える構成です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>各プラットフォーム用のバイナリをインストールし、<code>builder auth github</code> で連携を許可します。</li>
+          <li>iOS プロジェクトのディレクトリで <code>builder init</code> を実行し、GitHub Actions ワークフローを初期化します。</li>
+          <li><code>builder ios build</code> でビルドを開始。クラウド上の macOS でコンパイルが行われ、成果物が <code>./dist/</code> に届きます。</li>
+          <li>開発中は <code>builder dev flutter</code>（または <code>rn</code>）を実行。MobAI を介して実機と通信し、エディタでの保存時にホットリロードが走ります。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Windows または Linux をメイン機として使用しており、iOS アプリ開発を始めたい人。</li>
+          <li>Mac を所有していないが、手元の iPhone で自作アプリを動かしたりデバッグしたりしたい開発者。</li>
+          <li>Flutter や React Native を使っており、iOS 対応のためにわざわざ新しい Mac を購入するコストを抑えたいチーム。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          ビルドには GitHub Actions を利用するため、GitHub の無料枠やクレジットを消費します。
+          また、実機でのホットリロードには MobAI アプリケーションのインストールと、通信用のネットワーク環境（または USB 接続）が必要です。
+          コード署名を行う場合は、Apple Developer Program の証明書やプロファイルを自身で用意する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>ios-builder</code> は、iOS 開発の民主化を推し進める野心的なプロジェクトです。
+          「iOS 開発には Mac が必須」というこれまでの常識を、モダンなクラウド CI とデバイス制御技術の組み合わせで鮮やかに塗り替えており、開発者にとっての選択肢を大きく広げるツールと言えます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/MobAI-App/ios-builder" target="_blank" rel="noreferrer">MobAI-App/ios-builder</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

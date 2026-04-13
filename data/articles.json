@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-14-MobAI-App-ios-builder",
+      "title": "ios-builder",
+      "dek": "Mac なしで iOS アプリ開発を実現。Windows や Linux から GitHub Actions を使い、実機ホットリロードまでを可能にする画期的な CLI ツール。",
+      "summary": "MobAI-App/ios-builder は、Mac を持たない開発者のための iOS 開発支援ツール。GitHub Actions をクラウドビルダーとして活用し、Windows/Linux 上で書いたコードを iOS 実機でホットリロード（Flutter/React Native）させることができます。iOS 開発の「Mac 必須」というハードルを劇的に下げるソリューションです。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T04:55:00+09:00",
+      "repoName": "MobAI-App/ios-builder",
+      "repoUrl": "https://github.com/MobAI-App/ios-builder",
+      "articleUrl": "./articles/github/daily/2026-04-14-MobAI-App-ios-builder.html",
+      "serial": 209,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-14-daniel3303-ClaudeCodeStatusLine",
       "title": "ClaudeCodeStatusLine",
       "dek": "Claude Code のステータス領域を劇的に進化。トークン使用量、レート制限、Git 情報を 1 行に凝縮してリアルタイム表示するカスタムスクリプト。",
