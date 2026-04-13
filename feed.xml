@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 06:54:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 16:11:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-design-md-jp]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントに送る「日本語デザインの虎の巻」。タイポグラフィや配色仕様を言語化し、一貫した UI 生成を実現する DESIGN.md 集。]]></description>
+    </item>
     <item>
       <title><![CDATA[SWE-bench-Live]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-microsoft-SWE-bench-Live.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[9Mパラメータで「魚」として振る舞う、教育向けの超小型LLMプロジェクト。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-design-md]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-voltagent-awesome-design-md.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-voltagent-awesome-design-md.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「デザインの魂」を。Markdown 1枚でブランドの美学を伝える DESIGN.md コレクション。]]></description>
     </item>
   </channel>
 </rss>
