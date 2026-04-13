@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-13T07:11:04.354656+00:00",
-  "count": 223,
+  "generatedAt": "2026-04-13T19:46:28.377938+00:00",
+  "count": 224,
   "articles": [
+    {
+      "slug": "2026-04-14-pwrdrvr-openclaw-codex-app-server",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "openclaw-codex-app-server",
+      "dek": "OpenClaw と Codex を直結. 使い慣れた Telegram や Discord から AI エージェントを自在に操るためのブリッジプラグイン。",
+      "summary": "pwrdrvr/openclaw-codex-app-server は、AI 運用基盤「OpenClaw」を OpenAI の開発アシスタント「Codex」に接続するプラグイン。ローカルの Codex CLI とセッションを共有し、チャット上のボタン操作でスレッドの再開やモデル切り替え、プラン実行をシームレスに行えます。",
+      "repoName": "pwrdrvr/openclaw-codex-app-server",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T04:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-14-pwrdrvr-openclaw-codex-app-server.html",
+      "serial": 206,
+      "searchText": "openclaw-codex-app-server OpenClaw と Codex を直結. 使い慣れた Telegram や Discord から AI エージェントを自在に操るためのブリッジプラグイン。 pwrdrvr/openclaw-codex-app-server は、AI 運用基盤「OpenClaw」を OpenAI の開発アシスタント「Codex」に接続するプラグイン。ローカルの Codex CLI とセッションを共有し、チャット上のボタン操作でスレッドの再開やモデル切り替え、プラン実行をシームレスに行えます。 pwrdrvr/openclaw-codex-app-server AIコーディング (CLI本体・拡張機能) openclaw-codex-app-server ← 記事一覧へ戻る GitHub Watcher openclaw-codex-app-server OpenClaw と Codex を直結。使い慣れた Telegram や Discord から AI エージェントを自在に操るためのブリッジプラグイン。 記事作成日 2026-04-14 種別 Pickup 対象 repo pwrdrvr/openclaw-codex-app-server これは何か OpenAI の自律型開発アシスタント「Codex」を、AI 運用フレームワーク「OpenClaw」経由で各種チャットアプリ（Telegram や Discord）に接続するためのブリッジプラグインです。 ローカルマシンの Codex 環境を外部の UI から安全かつ手軽に操作できるように設計されています。 何ができるか このプラグインを OpenClaw に導入することで、普段使いのチャットツールを強力なコーディングインターフェースへと変貌させることができます。 具体的には、以下のことがチャット上で可能です。 スレッドの再開と作成 : /cas_resume コマンドで既存のプロジェクトやスレッドを一覧表示し、即座にバインドできます。 継続的な対話 : 一度スレッドをバインドすれば、普通のメッセージ送信がそのまま Codex への指示になります。 詳細な制御 : モデルの切り替え（GPT-5.4 等）、推論モードの変更、パーミッション設定（YOLO モードなど）をボタン一つで実行。 ステータス管理 : /cas_status で現在のエージェントの状態や実行中のタスクを確認できます。 目立つポイント 最大の利点は 「既存のローカルログイン状態をそのまま引き継げる」 点です。 新しい認証設定を繰り返す必要がなく、ローカルの Codex CLI が動作する環境であれば、そのままプラグインが機能します。 また、プランの作成・確認・実行（ /cas_plan ）や、成果物のレビュー（ /cas_review ）など、Codex 本体の重要なワークフローが高密度にコマンド化されています。 セットアップや使い方の流れ OpenClaw 環境（v2026.3.22 以降推奨）でプラグインのインストールコマンドを実行します。 openclaw plugins install --dangerously-force-unsafe-install openclaw-codex-app-server Telegram や Discord の対象チャンネルで /cas_resume を入力します。 表示されるインラインボタンから、プロジェクトと特定のスレッドを選択、あるいは新規作成を行います。 バインド完了後、メッセージを送ると Codex が処理を開始し、結果がチャットに返ってきます。 どんな人向けか OpenClaw を個人やチームの AI 基盤として利用している開発者。 Codex Desktop や CLI を愛用しているが、外出先やスマホのチャットアプリからもコーディングを指示・監視したい人。 複数の AI ツールをチャットインターフェースに集約して管理したいツールマニア。 注意点 このプラグインは codex app-server プロセスを内部で起動するため、OpenClaw から「unsafe（不安全な操作）」としてフラグが立てられます。インストール時には明示的な強制フラグが必要です。 また、OS 側の CA 証明書ストアや OpenClaw のバージョンによって、インストールパスが異なる場合があるため、公式 README の詳細な手順を確認することをお勧めします。 まとめ openclaw-codex-app-server は、AI コーディングエージェントの操作感を劇的に変える拡張ツールです。 「コーディングは PC の前で」という制約を解き放ち、チャットでの「会話」を通じてプロジェクトを前進させる新しい体験を提供してくれます。 参照リンク pwrdrvr/openclaw-codex-app-server"
+    },
     {
       "slug": "2026-04-13-kzhrknt-awesome-design-md-jp",
       "category": "github-pickup",

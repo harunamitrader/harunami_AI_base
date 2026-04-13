@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 07:13:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 04:46:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[openclaw-codex-app-server]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-pwrdrvr-openclaw-codex-app-server.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-pwrdrvr-openclaw-codex-app-server.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw と Codex を直結. 使い慣れた Telegram や Discord から AI エージェントを自在に操るためのブリッジプラグイン。]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-design-md-jp]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[プロフェッショナルなレッドチーム活動を自律化する、高度なハッキングエージェント基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[guppylm]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-arman-bd-guppylm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-12-arman-bd-guppylm.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[9Mパラメータで「魚」として振る舞う、教育向けの超小型LLMプロジェクト。]]></description>
     </item>
   </channel>
 </rss>

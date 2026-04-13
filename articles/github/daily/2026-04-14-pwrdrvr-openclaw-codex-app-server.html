@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="pwrdrvr/openclaw-codex-app-server を読み、要点を実用寄りに整理した記事。Telegram や Discord から Codex を操作するブリッジプラグインの解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>openclaw-codex-app-server</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">openclaw-codex-app-server</h1>
+      <p class="article-dek">OpenClaw と Codex を直結。使い慣れた Telegram や Discord から AI エージェントを自在に操るためのブリッジプラグイン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-14</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/pwrdrvr/openclaw-codex-app-server" target="_blank" rel="noreferrer">
+              pwrdrvr/openclaw-codex-app-server
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          OpenAI の自律型開発アシスタント「Codex」を、AI 運用フレームワーク「OpenClaw」経由で各種チャットアプリ（Telegram や Discord）に接続するためのブリッジプラグインです。
+          ローカルマシンの Codex 環境を外部の UI から安全かつ手軽に操作できるように設計されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          このプラグインを OpenClaw に導入することで、普段使いのチャットツールを強力なコーディングインターフェースへと変貌させることができます。
+          具体的には、以下のことがチャット上で可能です。
+        </p>
+        <ul>
+          <li><strong>スレッドの再開と作成</strong>: <code>/cas_resume</code> コマンドで既存のプロジェクトやスレッドを一覧表示し、即座にバインドできます。</li>
+          <li><strong>継続的な対話</strong>: 一度スレッドをバインドすれば、普通のメッセージ送信がそのまま Codex への指示になります。</li>
+          <li><strong>詳細な制御</strong>: モデルの切り替え（GPT-5.4 等）、推論モードの変更、パーミッション設定（YOLO モードなど）をボタン一つで実行。</li>
+          <li><strong>ステータス管理</strong>: <code>/cas_status</code> で現在のエージェントの状態や実行中のタスクを確認できます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の利点は<strong>「既存のローカルログイン状態をそのまま引き継げる」</strong>点です。
+          新しい認証設定を繰り返す必要がなく、ローカルの Codex CLI が動作する環境であれば、そのままプラグインが機能します。
+          また、プランの作成・確認・実行（<code>/cas_plan</code>）や、成果物のレビュー（<code>/cas_review</code>）など、Codex 本体の重要なワークフローが高密度にコマンド化されています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>OpenClaw 環境（v2026.3.22 以降推奨）でプラグインのインストールコマンドを実行します。
+            <code>openclaw plugins install --dangerously-force-unsafe-install openclaw-codex-app-server</code>
+          </li>
+          <li>Telegram や Discord の対象チャンネルで <code>/cas_resume</code> を入力します。</li>
+          <li>表示されるインラインボタンから、プロジェクトと特定のスレッドを選択、あるいは新規作成を行います。</li>
+          <li>バインド完了後、メッセージを送ると Codex が処理を開始し、結果がチャットに返ってきます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>OpenClaw を個人やチームの AI 基盤として利用している開発者。</li>
+          <li>Codex Desktop や CLI を愛用しているが、外出先やスマホのチャットアプリからもコーディングを指示・監視したい人。</li>
+          <li>複数の AI ツールをチャットインターフェースに集約して管理したいツールマニア。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          このプラグインは <code>codex app-server</code> プロセスを内部で起動するため、OpenClaw から「unsafe（不安全な操作）」としてフラグが立てられます。インストール時には明示的な強制フラグが必要です。
+          また、OS 側の CA 証明書ストアや OpenClaw のバージョンによって、インストールパスが異なる場合があるため、公式 README の詳細な手順を確認することをお勧めします。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>openclaw-codex-app-server</code> は、AI コーディングエージェントの操作感を劇的に変える拡張ツールです。
+          「コーディングは PC の前で」という制約を解き放ち、チャットでの「会話」を通じてプロジェクトを前進させる新しい体験を提供してくれます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/pwrdrvr/openclaw-codex-app-server" target="_blank" rel="noreferrer">pwrdrvr/openclaw-codex-app-server</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-14-pwrdrvr-openclaw-codex-app-server",
+      "title": "openclaw-codex-app-server",
+      "dek": "OpenClaw と Codex を直結. 使い慣れた Telegram や Discord から AI エージェントを自在に操るためのブリッジプラグイン。",
+      "summary": "pwrdrvr/openclaw-codex-app-server は、AI 運用基盤「OpenClaw」を OpenAI の開発アシスタント「Codex」に接続するプラグイン。ローカルの Codex CLI とセッションを共有し、チャット上のボタン操作でスレッドの再開やモデル切り替え、プラン実行をシームレスに行えます。",
+      "publishedAt": "2026-04-14",
+      "createdAt": "2026-04-14T04:45:00+09:00",
+      "repoName": "pwrdrvr/openclaw-codex-app-server",
+      "repoUrl": "https://github.com/pwrdrvr/openclaw-codex-app-server",
+      "articleUrl": "./articles/github/daily/2026-04-14-pwrdrvr-openclaw-codex-app-server.html",
+      "serial": 206,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-13-kzhrknt-awesome-design-md-jp",
       "title": "awesome-design-md-jp",
       "dek": "AI エージェントに送る「日本語デザインの虎の巻」。タイポグラフィや配色仕様を言語化し、一貫した UI 生成を実現する DESIGN.md 集。",
