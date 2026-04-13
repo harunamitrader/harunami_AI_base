@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 20:22:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 05:28:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[GitHub Copilot SDK]]></title>
@@ -80,6 +80,38 @@
       <description><![CDATA[OpenClaw と Codex を直結. 使い慣れた Telegram や Discord から AI エージェントを自在に操るためのブリッジプラグイン。]]></description>
     </item>
     <item>
+      <title><![CDATA[Grok CLI v1.1.5-rc5: MCP stdio stderr を TUI から分離]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MCP stdio の stderr を TUI から分離し、offline mode 検出や permissions 表示も整えた安定化リリースです。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot CLI: remote control sessions が public preview]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-github-copilot-cli-remote-control-sessions.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-github-copilot-cli-remote-control-sessions.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Copilot CLI の実行セッションを GitHub の web や mobile から監視・操作できる remote control が public preview になりました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cursor 2.1: Agents Window と voice input を改善]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-cursor-2-1-agents-window-voice-input.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-cursor-2-1-agents-window-voice-input.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agents Window の並列表示、音声入力、BugBot 設定、ノートや browser state 復元など、エージェント運用の操作性を整理した更新です。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v2.1.104: 最新リリースタグを更新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code の公式 GitHub Releases で v2.1.104 が Latest として公開され、導入時の参照タグが更新されました。]]></description>
+    </item>
+    <item>
       <title><![CDATA[awesome-design-md-jp]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html</guid>
@@ -134,38 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[強化学習 (RL) を活用して、堅牢な自律型トレーディングエージェントを構築・訓練するための Python フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[nofx]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-NoFxAiOS-nofx.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-NoFxAiOS-nofx.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[API キー不要、USDC 支払いで動作する、あらゆる市場に対応した自律型 AI トレードアシスタント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[material-3-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-hamen-material-3-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-hamen-material-3-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code で Google の Material Design 3 (Material You) を完璧に実装するための包括的なスキルパッケージ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Everywhere]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-DearVa-Everywhere.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-DearVa-Everywhere.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[画面上のあらゆる情報を「見て」対話する、デスクトップ統合型のコンテキスト認識 AI アシスタント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Awesome Agent Skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-voltagent-awesome-agent-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-voltagent-awesome-agent-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「専門技能」を授ける。1000種類以上の厳選された公式・コミュニティ製スキル集。]]></description>
     </item>
   </channel>
 </rss>

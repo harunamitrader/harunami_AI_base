@@ -7,6 +7,58 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr",
+      "title": "Grok CLI v1.1.5-rc5: MCP stdio stderr を TUI から分離",
+      "dek": "MCP stdio の stderr を TUI から分離し、offline mode 検出や permissions 表示も整えた安定化リリースです。",
+      "summary": "Grok CLI v1.1.5-rc5 は、MCP stdio の stderr 分離、offline mode 検出、permissions / git status 表示の調整を含む rc 系列の安定化リリースです。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-14T05:40:00+09:00",
+      "repoName": "superagent-ai/grok-cli",
+      "repoUrl": "https://github.com/superagent-ai/grok-cli/releases",
+      "articleUrl": "./articles/tools/2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr.html",
+      "serial": 129
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-13-github-copilot-cli-remote-control-sessions",
+      "title": "GitHub Copilot CLI: remote control sessions が public preview",
+      "dek": "Copilot CLI の実行セッションを GitHub の web や mobile から監視・操作できる remote control が public preview になりました。",
+      "summary": "GitHub Copilot CLI の remote control sessions が public preview。copilot --remote で CLI セッションを web / mobile から監視し、追加指示や権限承認を行えます。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-14T05:35:00+09:00",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview/",
+      "articleUrl": "./articles/tools/2026-04-13-github-copilot-cli-remote-control-sessions.html",
+      "serial": 128
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-13-cursor-2-1-agents-window-voice-input",
+      "title": "Cursor 2.1: Agents Window と voice input を改善",
+      "dek": "Agents Window の並列表示、音声入力、BugBot 設定、ノートや browser state 復元など、エージェント運用の操作性を整理した更新です。",
+      "summary": "Cursor 2.1 は、Agents Window の tiled layout、voice input、BugBot 設定画面、Notes、browser state 復元、checkpoint 復帰を含む操作性改善リリースです。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-14T05:30:00+09:00",
+      "repoName": "getcursor/cursor",
+      "repoUrl": "https://cursor.com/changelog",
+      "articleUrl": "./articles/tools/2026-04-13-cursor-2-1-agents-window-voice-input.html",
+      "serial": 127
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-13-claude-code-v2-1-104-latest-tag",
+      "title": "Claude Code v2.1.104: 最新リリースタグを更新",
+      "dek": "Claude Code の公式 GitHub Releases で v2.1.104 が Latest として公開され、導入時の参照タグが更新されました。",
+      "summary": "Claude Code v2.1.104 は、公式 GitHub Releases 上の Latest タグ更新。詳細な機能差分は限定的なため、導入前に既存ワークフローの回帰確認が必要です。",
+      "publishedAt": "2026-04-13",
+      "createdAt": "2026-04-14T05:25:00+09:00",
+      "repoName": "anthropics/claude-code",
+      "repoUrl": "https://github.com/anthropics/claude-code/releases",
+      "articleUrl": "./articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html",
+      "serial": 126
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-04-14-github-copilot-sdk",
       "title": "GitHub Copilot SDK",
