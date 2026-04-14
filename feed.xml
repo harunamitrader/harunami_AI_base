@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Apr 2026 07:29:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 22:34:11 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-15 アップデートレポート]]></title>
@@ -166,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Copilot の知能を自作アプリに。エージェント実行、ツール呼び出しをプログラム経由で制御可能にする公式 SDK の実力。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-14 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-14-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-14-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-cookbooks]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-anthropics-claude-cookbooks.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-anthropics-claude-cookbooks.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude API の実装例を notebooks / recipes として集めた、RAG、tool use、multimodal、agent 構築の公式サンプル集です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[voicebox]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-jamiepine-voicebox.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-jamiepine-voicebox.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ローカルで音声クローン、TTS、エフェクト、タイムライン編集、REST API を扱えるオープンソース音声合成スタジオです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MateClaw]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-matevip-mateclaw.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-matevip-mateclaw.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Java で構築された「AI オペレーティングシステム」。マルチエージェント、MCP、長期記憶、マルチチャネル配信を一台で完結させる統合環境。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ios-builder]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-MobAI-App-ios-builder.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-MobAI-App-ios-builder.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Mac なしで iOS アプリ開発を実現。Windows や Linux から GitHub Actions を使い、実機ホットリロードまでを可能にする画期的な CLI ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ClaudeCodeStatusLine]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-daniel3303-ClaudeCodeStatusLine.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-daniel3303-ClaudeCodeStatusLine.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code のステータス領域を劇的に進化。トークン使用量、レート制限、Git 情報を 1 行に凝縮してリアルタイム表示するカスタムスクリプト。]]></description>
     </item>
   </channel>
 </rss>
