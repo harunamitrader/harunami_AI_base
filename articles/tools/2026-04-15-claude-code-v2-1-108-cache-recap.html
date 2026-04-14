@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="プロンプトキャッシュのTTL設定や、セッション復帰時の要約機能追加で、より効率的な利用が可能になりました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.108: プロンプトキャッシュとセッション要約(recap)を強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← ツール監視一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.108: プロンプトキャッシュとセッション要約(recap)を強化</h1>
+      <p class="article-dek">プロンプトキャッシュのTTL設定や、セッション復帰時の要約機能追加で、より効率的な利用が可能になりました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.108</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Claude Code の最新アップデートでは、開発効率とセッション管理を向上させるための機能が複数追加されました。</p>
+        <ul>
+          <li><strong>プロンプトキャッシュの強化:</strong> APIキーやBedrock、Vertex等でのプロンプトキャッシュTTL（有効期限）を1時間に設定できる環境変数が追加され、繰り返しの呼び出しにおけるコストと時間を削減します。</li>
+          <li><strong>セッション管理の改善:</strong> セッション復帰時にコンテキストを要約する「recap（要約）」機能が追加され、長時間の作業中や中断後もスムーズに開発を再開できます。</li>
+          <li><strong>スキルの統合:</strong> <code>/init</code> や <code>/review</code> といった組み込みコマンドを、モデルが「Skillツール」を通じて自律的に呼び出せるようになり、より複雑なタスクの自動化が期待できます。</li>
+          <li><strong>パフォーマンス改善:</strong> ファイル読み込み時のメモリ使用量が削減され、より大規模なプロジェクトでも安定して動作するようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回のアップデートにより、長時間のコーディングセッションや大規模なリポジトリを扱う開発者にとって、Claude Code はさらに強力なツールとなります。特に、キャッシュ設定や要約機能は、API利用コストを意識するユーザーや、断続的に作業を行うリモートワーカーにとって大きなメリットとなるでしょう。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.108は、パフォーマンスの改善と、よりインテリジェントなセッション管理機能の追加を両立させた、実用的なアップデートです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code release notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

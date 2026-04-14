@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Apr 2026 22:15:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 06:49:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[GitHub Copilot: FedRAMP準拠とデータレジデンシー対応を発表]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-github-copilot-fedramp-compliance.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-github-copilot-fedramp-compliance.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[米国連邦政府のセキュリティ基準であるFedRAMPへの準拠や、米国・EUでのデータ保管対応など、エンタープライズ向けの機能が強化されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.37.2: Skillシステムの進化とアーキテクチャ刷新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-gemini-cli-v0-37-2-skill-system-evolution.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-gemini-cli-v0-37-2-skill-system-evolution.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[SkillパッチのサポートやバックグラウンドでのSkill抽出など、Skillシステムが大幅に進化。アーキテクチャも刷新されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cline v3.78.0: 支出制限UIとKanbanボード統合を強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cline-v3-78-0-spend-limit-ui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cline-v3-78-0-spend-limit-ui.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[支出制限に達した際の専用UIや、デフォルトで起動するKanbanボードなど、コスト管理とタスク管理機能が改善されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Windsurf 1.9600.41: Adaptive Model Router と最新モデルサポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-windsurf-1-9600-41-adaptive-model-router.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-windsurf-1-9600-41-adaptive-model-router.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[タスクに応じて最適なモデルを自動選択する機能や、GPT-5.4、Claude Sonnet 4.6など最新モデルへの対応が進んでいます。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Cursor 3.1: Agents Window と Design Mode で開発体験を革新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cursor-3-1-agents-window-design-mode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cursor-3-1-agents-window-design-mode.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複数のAIエージェントを並列実行できる「Agents Window」や、UIを直接指示できる「Design Mode」が登場。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v2.1.108: プロンプトキャッシュとセッション要約(recap)を強化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-claude-code-v2-1-108-cache-recap.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-claude-code-v2-1-108-cache-recap.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プロンプトキャッシュのTTL設定や、セッション復帰時の要約機能追加で、より効率的な利用が可能になりました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Touchpoint]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-touchpoint-labs-touchpoint.html</link>
@@ -118,54 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[MCP stdio の stderr を TUI から分離し、offline mode 検出や permissions 表示も整えた安定化リリースです。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot CLI: remote control sessions が public preview]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-github-copilot-cli-remote-control-sessions.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-github-copilot-cli-remote-control-sessions.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Copilot CLI の実行セッションを GitHub の web や mobile から監視・操作できる remote control が public preview になりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor 2.1: Agents Window と voice input を改善]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-cursor-2-1-agents-window-voice-input.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-cursor-2-1-agents-window-voice-input.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agents Window の並列表示、音声入力、BugBot 設定、ノートや browser state 復元など、エージェント運用の操作性を整理した更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.104: 最新リリースタグを更新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-claude-code-v2-1-104-latest-tag.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code の公式 GitHub Releases で v2.1.104 が Latest として公開され、導入時の参照タグが更新されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[awesome-design-md-jp]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-kzhrknt-awesome-design-md-jp.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントに送る「日本語デザインの虎の巻」。タイポグラフィや配色仕様を言語化し、一貫した UI 生成を実現する DESIGN.md 集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SWE-bench-Live]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-microsoft-SWE-bench-Live.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-microsoft-SWE-bench-Live.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI の「開発能力」をガチ評価。毎月更新される GitHub Issue を用いた、多言語・多 OS 対応の次世代ライブベンチマーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[LLM Wiki]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-nashsu-llm_wiki.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-13-nashsu-llm_wiki.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Karpathy 氏の設計思想を具現化。ドキュメントを自律的に整理・相互リンクし、永続的なナレッジベースへと昇華させる「自動構築 Wiki」。]]></description>
     </item>
   </channel>
 </rss>

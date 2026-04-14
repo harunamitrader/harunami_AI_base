@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="支出制限に達した際の専用UIや、デフォルトで起動するKanbanボードなど、コスト管理とタスク管理機能が改善されました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v3.78.0: 支出制限UIとKanbanボード統合を強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← ツール監視一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Cline v3.78.0: 支出制限UIとKanbanボード統合を強化</h1>
+      <p class="article-dek">支出制限に達した際の専用UIや、デフォルトで起動するKanbanボードなど、コスト管理とタスク管理機能が改善されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.78.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>人気の自律型AIエージェント「Cline」は、コスト管理とタスク管理のUXを大幅に向上させるアップデートを行いました。</p>
+        <ul>
+          <li><strong>コスト管理の強化:</strong> 設定した支出制限（Spend Limit）に達した際に、専用のUIで明確に通知されるようになりました。これにより、予期せぬコスト発生を防ぎ、安心してエージェントを利用できます。</li>
+          <li><strong>Kanbanボードの統合:</strong> これまでCLIからの移行が必要だったタスク管理用のKanbanビューが、デフォルトで起動するようになり、より直感的なタスク管理が可能になりました。</li>
+          <li><strong>新機能「Lazy Teammate Mode」:</strong> エージェントの挙動を調整するための実験的なトグルスイッチとして「怠け者のチームメイトモード」が導入されました。</li>
+          <li><strong>効率化と安定性:</strong> <code>read_file</code>ツールが大きなファイルをチャンクで読み込めるようになったほか、同じツールが短時間に繰り返し呼び出される無限ループを検出し、エージェントを停止させる機能が追加されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>今回のアップデートにより、Clineは個人利用からチームでの利用まで、より幅広いシーンで使いやすくなりました。特にKanbanボードの統合は、複数のタスクをエージェントに任せる際の進捗管理を容易にし、プロジェクト全体の可視性を高めます。</p>
+
+        <h2>まとめ</h2>
+        <p>Cline v3.78.0は、ユーザーのフィードバックを反映し、日々の開発で重要となるコストとタスクの管理機能を堅実に強化した、実用性の高いリリースです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases" target="_blank" rel="noreferrer">Cline Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
