@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Apr 2026 22:18:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 07:29:36 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-15 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-15-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-15-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude-Mem]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-claude-mem.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-claude-mem.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code に永続的な「長期記憶」を付与し、セッションをまたいだコンテキスト管理と知識蓄積を実現する強力なメモリシステム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Editor]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-editor.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-editor.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[React Three Fiber と WebGPU を活用した、次世代のブラウザベース高性能 3D 建築・ビルディングエディタ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Apollo-11]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-apollo-11.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-apollo-11.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[1969年のアポロ11号月着陸船および司令船に搭載された、人類史上最も重要な誘導コンピュータのオリジナルソースコード。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Mole]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mole.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mole.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[macOS のシステムを深くクリーンアップし、パフォーマンスを最大化するためのオールインワン CLI ツールキット。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude-Code-Best-Practice]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-claude-code-best-practice.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-claude-code-best-practice.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Codeを最大限に活用するための、エージェント設計からワークフロー自動化までの包括的な実戦ガイド。]]></description>
+    </item>
     <item>
       <title><![CDATA[Google AI: Chromeブラウザで使える「AI Prompts」機能を発表]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-google-ai-chrome-ai-prompts.html</link>

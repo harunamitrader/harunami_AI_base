@@ -30,7 +30,7 @@ def generate_rss():
       <guid isPermaLink="true">{link}</guid>
       <category>{a['category']}</category>
       <pubDate>{pub_date}</pubDate>
-      <description><![CDATA[{a.get('dek', a['summary'])}]]></description>
+      <description><![CDATA[{a.get('dek') or a.get('summary') or ''}]]></description>
     </item>"""
         rss_items.append(item)
 

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TW93/Mole の概要と、macOS システムの最適化・クリーンアップを CLI で実現する強力なツールキットの解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Mole - High-Performance macOS Optimization CLI - GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Mole</h1>
+      <p class="article-dek">macOS のシステムを深くクリーンアップし、パフォーマンスを最大化するためのオールインワン CLI ツールキット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>12位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/TW93/MOLE" target="_blank" rel="noreferrer">
+              TW93/MOLE
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          Mole は、macOSユーザー（特に開発者）向けに設計された、極めて高速かつ軽量なシステムメンテナンスツールです。
+          GUIツールの CleanMyMac や DaisyDisk、さらにはシステム監視アプリの機能を一つのバイナリに凝縮しており、ターミナルから一発でシステムの健康状態をチェックし、最適化を行うことができます。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>深層クリーンアップ</strong>: システムキャッシュ、ログ、一時ファイルなどを安全に削除してディスク容量を確保。</li>
+          <li><strong>スマートアンインストーラー</strong>: アプリ本体だけでなく、関連するライブラリや設定ファイルまで完全に追跡・削除。</li>
+          <li><strong>ディスク使用量分析</strong>: どのフォルダが容量を圧迫しているかを視覚的に高速分析。</li>
+          <li><strong>リアルタイム監視</strong>: CPU、GPU、メモリ、ネットワークの負荷状況を CLI 上で美しく表示。</li>
+          <li><strong>開発プロジェクトの整理</strong>: 複数のプロジェクトフォルダから <code>node_modules</code> やビルド成果物を一括スキャンして削除可能。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          コアロジックは Go で実装されており、高速な動作とシングルバイナリでの配布を実現しています。
+          インターフェース部分には Shell スクリプトが多用されており、高い柔軟性を備えています。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Homebrew を使用して簡単に導入できます。
+          <code>brew install mole</code>
+          インストール後は、<code>mole clean</code> や <code>mole monitor</code> といった直感的なコマンドで使用を開始できます。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          「GUIツールは重い」「Mac の動作を常に快適に保ちたい」と考えているエンジニアに最適です。
+          特に、開発プロジェクトが増えてディスクが圧迫されがちなプログラマーにとって、不要な中間ファイルを一括削除できる機能は非常に重宝されます。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          ファイルの削除操作を伴うため、実行前には <code>--dry-run</code> フラグで削除対象を確認することが強く推奨されます。
+          また、macOS 固有のシステム領域にアクセスするため、一部の操作には管理者権限（sudo）が必要です。Windows 版は現在実験的な段階です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>TW93/Mole</code> は、Mac を愛するすべての開発者にとって、標準装備にすべき強力なユーティリティです。
+          洗練された CLI インフェースと圧倒的なパフォーマンスが、日々の快適な開発環境を支えてくれるでしょう。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/TW93/MOLE" target="_blank" rel="noreferrer">TW93/MOLE</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

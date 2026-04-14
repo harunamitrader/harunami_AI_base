@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PASCALORG/editor の概要と、WebGPU を活用した高性能な 3D 建築設計プラットフォームについての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Editor - Next-Gen 3D Building Design Platform - GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Editor</h1>
+      <p class="article-dek">React Three Fiber と WebGPU を活用した、次世代のブラウザベース高性能 3D 建築・ビルディングエディタ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Trending 順位</span>
+          <strong>4位</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/PASCALORG/EDITOR" target="_blank" rel="noreferrer">
+              PASCALORG/EDITOR
+            </a>
+          </strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          Pascal Editor は、ブラウザ上で直感的に3D建築モデルを構築・編集できるオープンソースのプラットフォームです。
+          最新の Web 規格である WebGPU を活用することで、従来の WebGL ベースのエディタを凌駕する描画性能と、複雑な 3D オブジェクトのリアルタイムな操作感を実現しています。
+          建築設計のプロトタイピングから、詳細なインテリアレイアウトまで、シームレスな編集体験を提供することを目指しています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>直感的な建築編集</strong>: 壁の描画、床の生成、ゾーン（部屋）の定義、家具や設備の配置などをマウス操作で簡単に行えます。</li>
+          <li><strong>階層的ノード管理</strong>: 「サイト ＞ 建物 ＞ 階層」という論理的な構造でプロジェクトを管理。</li>
+          <li><strong>リアルタイム保存・復元</strong>: IndexedDB を利用した自動保存機能と、高度な Undo/Redo システムを搭載。</li>
+          <li><strong>検証システム</strong>: 3D空間上での衝突判定や、配置ルールの検証をリアルタイムで実施。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          React 19、Next.js 16 という最新のフロントエンドスタックに加え、Three.js (WebGPU) と React Three Fiber を描画エンジンのコアに採用しています。
+          状態管理には Zustand、スキーマ検証には Zod を使用し、モノレポ管理には Turborepo、パッケージマネージャーには Bun を採用した非常にモダンな構成です。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Bun がインストールされた環境であれば、以下の手順で即座に開発環境を起動できます。
+          <code>bun install</code>
+          <code>bun dev</code>
+          最新のブラウザ（WebGPU 対応）で <code>localhost:3000</code> にアクセスするだけで、リッチなエディタが立ち上がります。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          建築家やインテリアデザイナーはもちろん、3D Web アプリケーションの開発手法を学びたいエンジニアにとっても垂涎のリポジトリです。
+          特に WebGPU を本格的に活用した大規模なアプリケーションの実装例として、技術的な注目度が非常に高まっています。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          WebGPU などの最新技術に依存しているため、古いブラウザや一部のハードウェア環境では動作しません。
+          また、現在は v0.5.1 のプレリリース段階であり、API の破壊的変更や、複雑なシーンにおけるパフォーマンスのチューニングが課題として挙げられています。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>PASCALORG/Editor</code> は、Web ブラウザがプロフェッショナルな設計ツールとしてどこまで進化できるかを示す野心的なプロジェクトです。
+          オープンソースでありながら極めて高い完成度を誇り、今後の 3D Web 開発の指標となる可能性を秘めています。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/PASCALORG/EDITOR" target="_blank" rel="noreferrer">PASCALORG/EDITOR</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
