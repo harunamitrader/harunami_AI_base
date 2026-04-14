@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Apr 2026 06:57:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 22:18:35 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Google AI: Chromeブラウザで使える「AI Prompts」機能を発表]]></title>
@@ -166,30 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Code のステータス領域を劇的に進化。トークン使用量、レート制限、Git 情報を 1 行に凝縮してリアルタイム表示するカスタムスクリプト。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[token-optimizer]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-alexgreensh-token-optimizer.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-alexgreensh-token-optimizer.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI 繧ｨ繝ｼ繧ｸ繧ｧ繝ｳ繝医縲檎┌鬧↑繝医繧ｯ繝ｳ縲阪ｒ蠕ｹ蠎募炎貂帙ゅさ繝ｳ繝く繧ｹ繝亥刀雉ｪ繧堤ｶｭ謖√＠縲°逕ｨ繧ｳ繧ｹ繝                                                                                  繧貞括逧↓荳九￡繧九◆繧√邨ｱ蜷域怙驕ｩ蛹悶ヤ繝ｼ繝ｫ縲]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openclaw-codex-app-server]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-pwrdrvr-openclaw-codex-app-server.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-pwrdrvr-openclaw-codex-app-server.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw 縺ｨ Codex 繧堤峩邨. 菴ｿ縺繧後◆ Telegram 繧 Discord 縺九ｉ AI 繧ｨ繝ｼ繧ｸ 繧ｧ繝ｳ繝医ｒ閾ｪ蝨ｨ                                                                                              縺ｫ謫阪ｋ縺溘ａ縺ｮ繝悶Μ繝ず繝励Λ繧ｰ繧､繝ｳ縲]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Grok CLI v1.1.5-rc5: MCP stdio stderr 繧 TUI 縺九ｉ蛻屬]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-13-grok-cli-v1-1-5-rc5-mcp-stdio-stderr.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[MCP stdio 縺ｮ stderr 繧 TUI 縺九ｉ蛻屬縺励｛ffline mode 讀懷繧 permissions 陦ｨ 遉ｺ繧よ紛縺えた                                                                                                  螳牙ｮ壼喧繝ｪ繝ｪ繝ｼ繧ｹ縺ｧ縺吶]]></description>
     </item>
   </channel>
 </rss>
