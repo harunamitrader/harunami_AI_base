@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="nogataka/SlideKit を読み、要点を実用寄りに整理した記事。AIエージェントによるスライド作成を自動化するツールキットの解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>SlideKit</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">SlideKit</h1>
+      <p class="article-dek">Claude Code などの AI エージェントが、プロンプト一つで高品質なスライドを自動生成・管理するための統合ツールキット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/nogataka/SlideKit" target="_blank" rel="noreferrer">
+              nogataka/SlideKit
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>17</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          SlideKit は、Claude Code や Cline、Grok CLI といった AI エージェントが「スライド作成」を自律的に行えるように設計されたスキル・ユーティリティ・キットです。
+          従来、AI にスライドを作らせるには構成案を出させてから手動で貼り付ける等の手間がありましたが、SlideKit を導入することで、構成の検討からレイアウト決定、画像生成、そして最終的なパワポ（pptx）出力までを、対話インターフェース上から一貫して実行可能になります。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>スライド構成の自動生成</strong>: <code>/slidekit-create</code> スキルにより、トピックから論理的なスライド構成を提案。</li>
+          <li><strong>テンプレートの適用</strong>: 11 種類以上の標準テンプレートから最適なデザインを選択。</li>
+          <li><strong>画像素材の自動生成</strong>: <code>/imgen</code> により、コンテキストに合わせた図解やイメージを AI が生成。</li>
+          <li><strong>PowerPoint 形式への書き出し</strong>: <code>/pptx</code> により、その場で編集可能な pptx ファイルとして保存。</li>
+          <li><strong>セッション管理</strong>: 進行中のスライド作成状況を <code>/slidekit-status</code> で常に把握。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、AI エージェントが「自ら道具を使い、成果物を仕上げる」ことに特化している点です。
+          Marp（Markdown ベースのスライド作成ツール）を活用しており、AI にとって扱いやすい Markdown 形式を中間言語として、最終的にプロフェッショナルなプレゼン資料へと変換します。
+          特にエンジニアが技術解説スライドを爆速で作るためのワークフローとして非常に優れています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Claude Code の場合、以下のコマンドで即座に導入可能です。
+          <code>claude install-skill https://github.com/nogataka/SlideKit</code>
+          インストール後は、以下のようなプロンプトを投げるだけで作業が始まります。
+          「最新の AI エージェントの動向について、5 枚のスライドを作って。画像も適宜入れて。」
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          日常的に Claude Code や Cline を使いこなしており、資料作成の時間を劇的に削減したいエンジニアやプロジェクトマネージャーに最適です。
+          また、勉強会の資料配布や社内報告など、スピードが求められるシーンでの活用が期待されます。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          現時点ではスター数からも分かる通り、非常に新しいプロジェクトです。
+          画像生成等には別途 API キーが必要な場合があり、AI エージェントの権限設定によっては、ローカルでの Marp CLI の動作を確認しておく必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>nogataka/SlideKit</code> は、AI エージェントを単なる「相談役」から「実行役」へと進化させる、極めて実用的かつ野心的なツールキットです。
+          資料作成というクリエイティブかつ事務的なタスクを AI に任せきりにできる未来を、今すぐ手元で体験できるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/nogataka/SlideKit" target="_blank" rel="noreferrer">nogataka/SlideKit</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

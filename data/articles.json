@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-15-nogataka-slidekit",
+      "title": "SlideKit",
+      "dek": "Claude Code などの AI エージェントが、プロンプト一つで高品質なスライドを自動生成・管理するための統合ツールキット。",
+      "summary": "SlideKit は AI エージェント（Claude Code 等）向けのスキルセットで、スライド構成案の作成から Marp によるスライド生成、画像生成、pptx 出力までを自律的に実行可能にします。エンジニアの資料作成を爆速化する強力な武器です。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T21:08:00+09:00",
+      "repoName": "nogataka/SlideKit",
+      "repoUrl": "https://github.com/nogataka/SlideKit",
+      "starCount": 17,
+      "articleUrl": "./articles/github/daily/2026-04-15-nogataka-slidekit.html",
+      "serial": 222,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-15-nautechsystems-nautilus-trader-pickup",
       "title": "nautilus_trader",
       "dek": "Rust ネイティブの本番クォンツ取引エンジン。バックテストとライブ取引を同一コード・同一アーキテクチャで動かせる。",

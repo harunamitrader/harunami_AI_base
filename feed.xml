@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Apr 2026 11:29:27 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 21:08:50 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[SlideKit]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nogataka-slidekit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nogataka-slidekit.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code などの AI エージェントが、プロンプト一つで高品質なスライドを自動生成・管理するための統合ツールキット。]]></description>
+    </item>
     <item>
       <title><![CDATA[nautilus_trader]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nautechsystems-nautilus-trader-pickup.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[あらゆる Web サイトやツールを CLI 化。AI エージェントが道具を「発見し、学び、使いこなす」ためのユニバーサル・ハブ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Siclaw]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-scitix-siclaw.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-scitix-siclaw.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[インフラ診断に特化した AI SRE。読み取り専用の仮説検証プロセスで、壊さず、迅速に障害の根本原因を特定。]]></description>
     </item>
   </channel>
 </rss>

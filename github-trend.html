@@ -83,6 +83,30 @@
         font-weight: 700;
         cursor: pointer;
       }
+      .gh-sort-control {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--text-muted);
+        font-size: 0.86rem;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      .gh-sort-select {
+        padding: 10px 14px;
+        border: 1px solid #bfdbfe;
+        border-radius: 12px;
+        background: #fff;
+        color: var(--heading);
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .gh-sort-select:focus {
+        outline: none;
+        border-color: #0969da;
+        box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.12);
+      }
       .gh-search-summary {
         margin-top: 10px;
         color: var(--text-muted);
@@ -226,6 +250,13 @@
                   autocomplete="off"
                 />
                 <button id="github-search-clear" class="gh-search-clear" type="button">クリア</button>
+                <label class="gh-sort-control" for="github-sort-select">
+                  並び替え
+                  <select id="github-sort-select" class="gh-sort-select">
+                    <option value="newest">新しい順</option>
+                    <option value="stars">Star数順</option>
+                  </select>
+                </label>
               </div>
               <div id="github-search-summary" class="gh-search-summary">検索対象: タイトル / repo / カテゴリ / 概要 / 本文</div>
             </div>
@@ -315,6 +346,7 @@
         const containerEl = document.getElementById("articles-container");
         const searchInputEl = document.getElementById("github-search-input");
         const searchClearEl = document.getElementById("github-search-clear");
+        const sortSelectEl = document.getElementById("github-sort-select");
         const searchSummaryEl = document.getElementById("github-search-summary");
         const statsEl = document.getElementById("site-stats-articles");
         const normalizedGenreMap = {
@@ -351,18 +383,9 @@
         const nowMs = Date.now();
         const newWindowMs = 3 * 24 * 60 * 60 * 1000;
         const starCountFormatter = new Intl.NumberFormat("ja-JP");
-        const categoryGroups = {};
-        for (const category of categoryOrder) {
-          categoryGroups[category] = [];
-        }
-        for (const article of articles) {
-          const rawCategory = (article.genre || "その他・未分類（ユーティリティ等）").trim();
-          const category = normalizedGenreMap[rawCategory] || rawCategory;
-          if (!categoryGroups[category]) categoryGroups[category] = [];
-          categoryGroups[category].push(article);
-        }
+        let currentSortMode = sortSelectEl?.value || "newest";
 
-        renderArticles(articles, "");
+        renderArticles(articles, "", currentSortMode);
 
         // Report
         const reportEl = document.getElementById("articles-report");
@@ -390,12 +413,16 @@
         });
 
         searchInputEl.addEventListener("input", () => {
-          renderArticles(articles, searchInputEl.value || "");
+          renderArticles(articles, searchInputEl.value || "", currentSortMode);
         });
         searchClearEl.addEventListener("click", () => {
           searchInputEl.value = "";
-          renderArticles(articles, "");
+          renderArticles(articles, "", currentSortMode);
           searchInputEl.focus();
+        });
+        sortSelectEl?.addEventListener("change", () => {
+          currentSortMode = sortSelectEl.value || "newest";
+          renderArticles(articles, searchInputEl.value || "", currentSortMode);
         });
 
         function renderArticle(article, options = {}) {
@@ -542,25 +569,44 @@
           ].join(" ").trim();
         }
 
-        function sortCategoryItems(items) {
+        function getSortModeLabel(sortMode) {
+          return sortMode === "stars" ? "Star数の多い順" : "作成日時の新しい順";
+        }
+
+        function compareByNewest(a, b) {
+          const createdA = Date.parse(a.createdAt || a.publishedAt || "");
+          const createdB = Date.parse(b.createdAt || b.publishedAt || "");
+          const hasA = !Number.isNaN(createdA);
+          const hasB = !Number.isNaN(createdB);
+          if (hasA && hasB && createdA !== createdB) return createdB - createdA;
+          if (hasA !== hasB) return hasB ? 1 : -1;
+          const rankA = Number(a.rank);
+          const rankB = Number(b.rank);
+          if (a.category === "github-trending" && b.category === "github-trending" && Number.isFinite(rankA) && Number.isFinite(rankB) && rankA !== rankB) {
+            return rankA - rankB;
+          }
+          return 0;
+        }
+
+        function compareByStars(a, b) {
+          const starsA = Number(a.starCount);
+          const starsB = Number(b.starCount);
+          const hasStarsA = Number.isFinite(starsA);
+          const hasStarsB = Number.isFinite(starsB);
+          if (hasStarsA && hasStarsB && starsA !== starsB) return starsB - starsA;
+          if (hasStarsA !== hasStarsB) return hasStarsA ? -1 : 1;
+          return compareByNewest(a, b);
+        }
+
+        function sortCategoryItems(items, sortMode = "newest") {
           items.sort((a, b) => {
-            const createdA = Date.parse(a.createdAt || a.publishedAt || "");
-            const createdB = Date.parse(b.createdAt || b.publishedAt || "");
-            const hasA = !Number.isNaN(createdA);
-            const hasB = !Number.isNaN(createdB);
-            if (hasA && hasB && createdA !== createdB) return createdB - createdA;
-            if (hasA !== hasB) return hasB ? 1 : -1;
-            const rankA = Number(a.rank);
-            const rankB = Number(b.rank);
-            if (a.category === "github-trending" && b.category === "github-trending" && Number.isFinite(rankA) && Number.isFinite(rankB) && rankA !== rankB) {
-              return rankA - rankB;
-            }
-            return 0;
+            if (sortMode === "stars") return compareByStars(a, b);
+            return compareByNewest(a, b);
           });
           return items;
         }
 
-        function renderArticles(sourceArticles, rawQuery) {
+        function renderArticles(sourceArticles, rawQuery, sortMode = "newest") {
           const query = normalizeSearchQuery(rawQuery);
           const filteredArticles = query
             ? sourceArticles.filter((article) => normalizeSearchQuery(article.searchText || "").includes(query))
@@ -577,7 +623,7 @@
             groups[category].push(article);
           }
           for (const category of Object.keys(groups)) {
-            sortCategoryItems(groups[category]);
+            sortCategoryItems(groups[category], sortMode);
           }
 
           let html = `<div class="category-accordion-list">`;
@@ -596,7 +642,7 @@
                       <h3>${displayIndex}. ${category}</h3>
                       ${isCategoryNew ? '<span class="meta-chip new-chip category-new">NEW</span>' : ""}
                     </div>
-                    <div class="category-summary-meta">直近追加: ${formatCategoryLatest(items)} / 並び順: 作成日時の新しい順 / ${items.length}件</div>
+                    <div class="category-summary-meta">直近追加: ${formatCategoryLatest(items)} / 並び順: ${getSortModeLabel(sortMode)} / ${items.length}件</div>
                   </div>
                   <span class="category-chevron">▾</span>
                 </summary>
