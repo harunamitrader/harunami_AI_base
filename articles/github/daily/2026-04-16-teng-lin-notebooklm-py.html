@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="teng-lin/notebooklm-py の概要と、Google NotebookLM にアクセスできる非公式API・エージェントスキルについての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>notebooklm-py - GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">notebooklm-py</h1>
+      <p class="article-dek">Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/teng-lin/notebooklm-py" target="_blank" rel="noreferrer">
+              teng-lin/notebooklm-py
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>10,700</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          Google の人気研究支援AI「NotebookLM」の機能を、Python などのプログラム経由で利用できるようにする非公式のAPIクライアントです。
+          CLI ツールとしての利用だけでなく、Claude Code や Codex といった自律型AIエージェントに機能拡張（スキル）として組み込むことを前提に設計されています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>API 及び CLI エクスペリエンス</strong>: ソースの追加からNotebookの操作、Audio Overview (ポッドキャスト) の生成やダウンロードまで、ターミナルから一気通貫で実行可能。</li>
+          <li><strong>Web UI 超えの独自機能</strong>: Web画面では提供されていない「一括ダウンロード」「クイズ・フラッシュカードのJSONエクスポート」「Slide Deck の PPTX ダウンロード」「マインドマップのJSON抽出」などがサポートされています。</li>
+          <li><strong>AIエージェント用スキル</strong>: <code>npx skills add</code> で簡単にAIエージェントのプロンプトツールとして導入でき、AI自身に NotebookLM を使わせる自律ワークフローが構築できます。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          Python のソースコードだけでなく、AIに使い込ませるための <code>SKILL.md</code> や <code>AGENTS.md</code> といった「エージェントプロンプト定義ファイル」が内包されているのが大きな特徴です。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          <code>pip install "notebooklm-py[browser]"</code> でインストールし、初回のブラウザ認証を通すことでCLIから <code>notebooklm</code> コマンドが利用可能になります。APIキーではなくユーザーの認証セッションを用いるため、レートリミット等には注意が必要です。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          NotebookLM で大量のドキュメントをさばいている研究者や、インプットの要約・学習教材化のプロセスを完全自動化したい開発者に大変おすすめです。特に、「AIエージェントが、別のAIシステム(NotebookLM)の力を借りてリサーチする」という構図は非常に先進的です。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          Google の非公開・非公式な内部APIを使用しているため、インターフェースの変更により突然利用できなくなるリスクがあります。プロダクション（商用本番）環境での依存には適していません。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          NotebookLM の使い勝手と柔軟性を飛躍的に高めると同時に、「AIツールがスキルエコシステムとして提供される」という自律型環境の最先端を感じさせる強力なハックツールです。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/teng-lin/notebooklm-py" target="_blank" rel="noreferrer">teng-lin/notebooklm-py</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

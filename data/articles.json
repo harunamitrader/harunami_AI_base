@@ -7,6 +7,21 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-16-teng-lin-notebooklm-py",
+      "title": "notebooklm-py",
+      "dek": "Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-16T07:25:00+09:00",
+      "repoName": "teng-lin/notebooklm-py",
+      "repoUrl": "https://github.com/teng-lin/notebooklm-py",
+      "starCount": 10700,
+      "articleUrl": "./articles/github/daily/2026-04-16-teng-lin-notebooklm-py.html",
+      "serial": 231,
+      "originType": "pickup",
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-16-update-report",
       "title": "2026-04-16 アップデートレポート",

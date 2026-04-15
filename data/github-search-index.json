@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-15T20:46:00.515844+00:00",
-  "count": 248,
+  "generatedAt": "2026-04-15T22:17:27.961163+00:00",
+  "count": 249,
   "articles": [
+    {
+      "slug": "2026-04-16-teng-lin-notebooklm-py",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "notebooklm-py",
+      "dek": "Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。",
+      "summary": "",
+      "repoName": "teng-lin/notebooklm-py",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-16T07:25:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-16-teng-lin-notebooklm-py.html",
+      "serial": 231,
+      "searchText": "notebooklm-py Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。 teng-lin/notebooklm-py ナレッジ管理・RAG解析 notebooklm-py - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher notebooklm-py Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。 分析日 2026-04-16 対象 repo teng-lin/notebooklm-py Star数 10,700 プロジェクトの概要 Google の人気研究支援AI「NotebookLM」の機能を、Python などのプログラム経由で利用できるようにする非公式のAPIクライアントです。 CLI ツールとしての利用だけでなく、Claude Code や Codex といった自律型AIエージェントに機能拡張（スキル）として組み込むことを前提に設計されています。 機能・できること API 及び CLI エクスペリエンス : ソースの追加からNotebookの操作、Audio Overview (ポッドキャスト) の生成やダウンロードまで、ターミナルから一気通貫で実行可能。 Web UI 超えの独自機能 : Web画面では提供されていない「一括ダウンロード」「クイズ・フラッシュカードのJSONエクスポート」「Slide Deck の PPTX ダウンロード」「マインドマップのJSON抽出」などがサポートされています。 AIエージェント用スキル : npx skills add で簡単にAIエージェントのプロンプトツールとして導入でき、AI自身に NotebookLM を使わせる自律ワークフローが構築できます。 リポジトリの構成 Python のソースコードだけでなく、AIに使い込ませるための SKILL.md や AGENTS.md といった「エージェントプロンプト定義ファイル」が内包されているのが大きな特徴です。 セットアップ・導入のイメージ pip install \"notebooklm-py[browser]\" でインストールし、初回のブラウザ認証を通すことでCLIから notebooklm コマンドが利用可能になります。APIキーではなくユーザーの認証セッションを用いるため、レートリミット等には注意が必要です。 ターゲット層 / 注目ポイント NotebookLM で大量のドキュメントをさばいている研究者や、インプットの要約・学習教材化のプロセスを完全自動化したい開発者に大変おすすめです。特に、「AIエージェントが、別のAIシステム(NotebookLM)の力を借りてリサーチする」という構図は非常に先進的です。 制約・リスク Google の非公開・非公式な内部APIを使用しているため、インターフェースの変更により突然利用できなくなるリスクがあります。プロダクション（商用本番）環境での依存には適していません。 まとめ NotebookLM の使い勝手と柔軟性を飛躍的に高めると同時に、「AIツールがスキルエコシステムとして提供される」という自律型環境の最先端を感じさせる強力なハックツールです。 ソースリンク teng-lin/notebooklm-py"
+    },
     {
       "slug": "2026-04-16-update-report",
       "category": "github-update-report",

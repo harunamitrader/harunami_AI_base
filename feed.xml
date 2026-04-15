@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Apr 2026 20:49:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 07:17:28 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[notebooklm-py]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-teng-lin-notebooklm-py.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-teng-lin-notebooklm-py.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-16 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-16-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[未発表の gpt-5.4-pro への対応や、サブエージェントが文脈を記憶するActive Memoryプラグインの改善が行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini API: ロボティクス向けモデル「gemini-robotics-er-1.6-preview」を発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-gemini-robotics-er-1-6-preview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-gemini-robotics-er-1-6-preview.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[視覚的理解、高度な空間・物理的推論能力を備えた、ロボット工学タスクに特化した新しいプレビューモデルが登場。]]></description>
     </item>
   </channel>
 </rss>
