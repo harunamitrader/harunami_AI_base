@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-15-mininglamp-ai-mano-p",
+      "title": "MANO-P",
+      "dek": "エッジデバイス（Mac mini/MacBook等）上で動作し、OSWorldベンチマーク1位を記録した高性能なGUI操作自動化エージェント。",
+      "summary": "MANO-P はエッジデバイスでの動作に最適化された GUI-VLA エージェントです。OSWorld ベンチマークで 1 位の成功率を記録し、API のないシステムでも画面を見てマウス・キーボードを駆使し、自律的に操作を完遂します。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-15T21:15:00+09:00",
+      "repoName": "MININGLAMP-AI/MANO-P",
+      "repoUrl": "https://github.com/MININGLAMP-AI/MANO-P",
+      "starCount": 376,
+      "articleUrl": "./articles/github/daily/2026-04-15-mininglamp-ai-mano-p.html",
+      "serial": 223,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-15-nogataka-slidekit",
       "title": "SlideKit",
       "dek": "Claude Code などの AI エージェントが、プロンプト一つで高品質なスライドを自動生成・管理するための統合ツールキット。",

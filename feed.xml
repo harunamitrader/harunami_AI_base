@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Apr 2026 12:11:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 21:15:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[MANO-P]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mininglamp-ai-mano-p.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mininglamp-ai-mano-p.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エッジデバイス（Mac mini/MacBook等）上で動作し、OSWorldベンチマーク1位を記録した高性能なGUI操作自動化エージェント。]]></description>
+    </item>
     <item>
       <title><![CDATA[SlideKit]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-nogataka-slidekit.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AI に「目」と「手」を。OS を問わずネイティブアプリやブラウザを自律操作可能にする強力な MCP サーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenCLI]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-jackwener-opencli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-14-jackwener-opencli.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[あらゆる Web サイトやツールを CLI 化。AI エージェントが道具を「発見し、学び、使いこなす」ためのユニバーサル・ハブ。]]></description>
     </item>
   </channel>
 </rss>

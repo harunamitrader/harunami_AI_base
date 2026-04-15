@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MININGLAMP-AI/MANO-P を読み、要点を実用寄りに整理した記事。エッジデバイスで動作する世界最高峰のGUI操作エージェントの解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>MANO-P</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">MANO-P</h1>
+      <p class="article-dek">エッジデバイス（Mac mini/MacBook等）上で動作し、OSWorldベンチマークで世界1位を記録した高性能なGUI操作自動化エージェント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/MININGLAMP-AI/MANO-P" target="_blank" rel="noreferrer">
+              MININGLAMP-AI/MANO-P
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>376</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          MANO-P は、MININGLAMP-AI チームによって開発された、GUI（グラフィカル・ユーザー・インターフェース）の操作を自律的に行うための視覚言語アクション（VLA）エージェントです。
+          OSWorld ベンチマークにおいて、専門的な GUI エージェントモデルの中でトップとなる成功率 58.2% を記録し、Gemini 2.5 Pro や Claude 4.5 といった名だたる LLM のコンピュータ操作能力をも上回る性能を示しています。
+          最大の特徴は、API を必要とせず、人間と同じように「画面を見て判断し、マウスとキーボードで操作する」という点にあります。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>クロスアプリの自動化</strong>: API の提供されていない古い基幹システムやデスクトップアプリ間でのデータ移行・操作を自動化。</li>
+          <li><strong>複雑な多段階タスクの実行</strong>: 「Think-Act-Verify（思考・実行・検証）」のループにより、100 ステップを超えるような長いワークフローを自律的に完遂。</li>
+          <li><strong>エッジデバイスでのローカル推論</strong>: クラウドにデータを送ることなく、Mac mini や MacBook Pro などのローカル環境で推論と実行が可能。</li>
+          <li><strong>システムの自動巡回と検証</strong>: 実行したアクションが期待通りになったかを自らスクリーンショットで確認し、エラーがあれば自己修正。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          これまで GUI エージェントは「計算負荷が高い」「精度が低い」という課題がありましたが、MANO-P は「混合精度量子化」や「視覚トークンの削減」といった独自技術により、MacBook のようなエッジデバイスでも実用的な速度で動作するように最適化されています。
+          教師あり学習（SFT）の後にオフライン・オンライン両方の強化学習を組み合わせる 3 段階の学習プロセス（Mano-Action 手法）により、GUI 特有の曖昧な配置や動的な変化への対応力が格段に向上しています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Python 環境が構築された Mac や Linux 環境で利用可能です。リポジトリをクローンした後、事前に学習済みのモデルウェイト（Hugging Face 等から配布）をロードして使用します。
+          推論エンドポイントを立ち上げ、VNC 経由や OS 本体のアクセシビリティ権限を通じてデスクトップへの制御権を与えることで、エージェントが自律的にマニピュレーションを開始します。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          API が開放されていないレガシーシステムの自動化に悩む DX 担当者や、プライバシーの観点からクラウド AI に画面を見せることができない環境での作業自動化を検討している組織に最適です。
+          また、OS 操作エージェントの最先端技術を研究したいエンジニアにとっても、ベンチマーク 1 位のアルゴリズムは非常に興味深い対象となります。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          エッジデバイス向けに最適化されているとはいえ、スムーズな推論には Apple Silicon（M1/M2/M3 等）の GPU や十分なメモリ容量が推奨されます。
+          また、操作権限を AI に与えるため、予期せぬブラウザの閉じや重要データの削除を防ぐため、サンドボックス環境や仮想マシン（VM）上での実行が強く推奨されています。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>MININGLAMP-AI/MANO-P</code> は、AI が「汎用的な道具」としてコンピュータを使いこなす未来を強力に引き寄せるリポジトリです。
+          OS レベルの操作を API なしで高精度にこなす能力は、あらゆる単純作業を AI に任せるための基盤技術となる可能性を秘めています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/MININGLAMP-AI/MANO-P" target="_blank" rel="noreferrer">MININGLAMP-AI/MANO-P</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
