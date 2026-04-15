@@ -260,9 +260,6 @@ p {
   line-height: 1;
 }
 
-.rank-label::before {
-  content: "Rank ";
-}
 
 .latest-box p,
 .archive-item p {
