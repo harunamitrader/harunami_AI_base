@@ -17,7 +17,7 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 2. Read `references/article-outline.md`.
 3. Confirm the target repository or repository URL from the user request.
 4. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` and check whether the same `repoName` is already published as pickup content.
-5. Read only the target repository page and the minimum extra material needed to explain what it is.
+5. Read only the target repository page and the minimum extra material needed to explain what it is, and capture the current public GitHub star count.
 6. Write one article in Japanese and save it under `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\`.
 7. Append one `category: "github-pickup"` entry to `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json`.
 8. Assign the next GitHub serial number by reading existing `github-trending` and `github-pickup` entries and incrementing the largest `serial`. Do not consume `github-update-report` numbers.
@@ -40,7 +40,8 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 - Save pickup articles under `articles/github/daily/`.
 - Add `serial` to the JSON entry and show the shared GitHub serial in the article page.
 - The shared GitHub serial is based only on `github-trending` and `github-pickup`; `github-update-report` uses a separate numbering line.
-- Use `publishedAt`, `createdAt`, `repoName`, `repoUrl`, and `articleUrl` on every new entry.
+- Use `publishedAt`, `createdAt`, `repoName`, `repoUrl`, `articleUrl`, and `starCount` on every new entry.
+- Add `Star数` to the article metadata grid alongside the existing date / type / target repo metadata.
 - Use the back link to `../../github-trend.html`, not `../../index.html`.
 - Include the target repository link in the article.
 - If the pickup came from a user-provided source URL, include that source URL in the article too.

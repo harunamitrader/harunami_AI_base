@@ -18,7 +18,7 @@ description: GitHub Trendingから日次の日本語分析記事を公開し、C
 5. ページ上の全順位の中から、未作成のリポジトリを**順位順に最大5つ**選びます。
 6. 記事の作成順は、選定後に**下位順位のものから先に**進めます。これにより、あとから追加される上位順位の記事が一覧上で上に並びやすくなります。
 7. ページ上のすべてのリポジトリを調査しても未作成がない場合は、コンテンツの変更は行いません。
-8. 各リポジトリについて、リポジトリページと最低限の追加情報を読み、内容を把握します。
+8. 各リポジトリについて、リポジトリページと最低限の追加情報を読み、内容を把握し、公開時点の GitHub star 数を取得します。
 9. `references/article-outline.md` に従い、日本語で記事を執筆します。形式は **GitHub Watcher** スタイルを厳守します。
 10. 新しい記事を `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\daily\` に保存します。
 11. 新しいエントリを `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` に追加します。
@@ -41,13 +41,14 @@ description: GitHub Trendingから日次の日本語分析記事を公開し、C
 - 記事のメタデータとファイル名には現在の日付を使用します。
 - **記事の形式（GitHub Watcherスタイル）**:
   - eyebrow: `GitHub Watcher`
-  - メタデータ: `<div class="article-meta-grid">` を使用し、分析日、Trending 順位、対象 repo（リンク付き）を表示します。
+  - メタデータ: `<div class="article-meta-grid">` を使用し、分析日、Trending 順位、対象 repo（リンク付き）、Star数を表示します。
   - セクション構成: 概要、機能、構成、セットアップ、ターゲット、リスク、まとめ、ソースリンク。
 - 記事のタイトルには、オーナー名を含まないリポジトリ名（slug）のみを使用します。
 - タイトルの直下に、1行の簡潔な日本語説明を追加します。
 - `data/articles.json` にも同じ1行説明を保存します。また、以下の新しいメタデータ項目を必ず推論・設定してください。
   - `originType`: 常に `"trending"` を設定。
   - `genre`: 記事の内容に基づいて以下の9分類から最も適切な日本語を1つ選定して設定します。 ["AIコーディング (CLI本体・拡張機能)", "AIコーディング (ワークフロー・プロンプト・開発補助ツール)", "AIエージェント (自律基盤・特化アプリ)", "金融・トレード分析", "メディア作成・Web生成 (動画・画像・UI)", "ナレッジ管理・RAG解析", "スクレイピング・情報収集・セキュリティ", "汎用アプリ・AI基盤・IoT", "学習ガイド・開発アセット"]
+- GitHub Watcher 本体の記事と `data/articles.json` には、取得した現在の GitHub star 数を `starCount`（整数）として必ず保存します。
 - このワークフローで作成されるすべてのエントリに `category: "github-trending"` を使用します。
 - トレンド記事は `articles/github/daily/`、アップデートレポートは `articles/github/reports/` に保存します。
 - `github-trending` と `github-pickup` は GitHub Watcher 本体として同じ通し番号系列を共有します。
