@@ -20,6 +20,17 @@
     },
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-16-claude-opus-4-7-general-availability",
+      "title": "Claude Opus 4.7: コーディングと視覚性能を強化して一般提供",
+      "dek": "長時間のコーディング、画像理解、自己検証を強化した Opus 4.7 が Claude 全製品と API で一般提供になりました。",
+      "summary": "AnthropicはClaude Opus 4.7を一般提供し、難度の高いソフトウェア工学タスク、長時間のエージェント作業、画像の高解像度理解を改善しました。Claude製品群、API、Bedrock、Vertex AI、Microsoft Foundryで利用できます。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-17T05:53:00+09:00",
+      "toolName": "Claude",
+      "articleUrl": "./articles/tools/2026-04-16-claude-opus-4-7-general-availability.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-16-windsurf-2-0-50-auth-windows-terminal",
       "title": "Windsurf 2.0.50: 認証体験と Windows Terminal 起動を修正",
       "dek": "Windsurf 2.0 後の認証まわりを整え、Windows で Terminal session が生成できない問題を修正したメンテナンス更新です。",
@@ -507,6 +518,18 @@
       "repoUrl": "https://blog.google/technology/ai/",
       "articleUrl": "./articles/tools/2026-04-15-google-ai-chrome-ai-prompts.html",
       "serial": 138
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-15-openclaw-v2026-4-15-beta-1-model-auth-memory",
+      "title": "OpenClaw 2026.4.15-beta.1: 認証状態カードと cloud memory を強化",
+      "dek": "Model Auth 状態カード、cloud storage 対応の memory-lancedb、Copilot 埋め込み検索をまとめて追加した beta.1 です。",
+      "summary": "OpenClaw 2026.4.15-beta.1 では、Control UI/Overview の Model Auth status card、memory-lancedb の cloud storage 対応、GitHub Copilot embedding provider の追加、experimental localModelLean などが入った更新です。",
+      "publishedAt": "2026-04-15",
+      "createdAt": "2026-04-17T05:54:00+09:00",
+      "repoName": "openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw/releases",
+      "articleUrl": "./articles/tools/2026-04-15-openclaw-v2026-4-15-beta-1-model-auth-memory.html"
     },
     {
       "category": "ai-tool-log",

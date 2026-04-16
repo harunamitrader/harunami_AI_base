@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 20:49:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 05:59:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加]]></title>
@@ -54,6 +54,14 @@
       <category>github-pickup</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Opus 4.7: コーディングと視覚性能を強化して一般提供]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-claude-opus-4-7-general-availability.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-claude-opus-4-7-general-availability.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[長時間のコーディング、画像理解、自己検証を強化した Opus 4.7 が Claude 全製品と API で一般提供になりました。]]></description>
     </item>
     <item>
       <title><![CDATA[Windsurf 2.0.50: 認証体験と Windows Terminal 起動を修正]]></title>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[開発者が無料で利用できる各種APIをまとめた、オープンソースコミュニティによる巨大なキュレーションリスト。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor Canvases: インタラクティブな成果物を agent から生成]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cursor-canvases.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-cursor-canvases.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agents Window やエディタ上で、表・図・チャート・ダッシュボードなどを durable artifact として扱える更新です。]]></description>
     </item>
   </channel>
 </rss>

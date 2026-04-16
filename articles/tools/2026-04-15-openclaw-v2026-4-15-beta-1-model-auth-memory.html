@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenClaw 2026.4.15-beta.1 の更新を日本語で整理した記事。認証状態カード、cloud memory、Copilot 埋め込み検索を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw 2026.4.15-beta.1: 認証状態カードと cloud memory を強化</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← ツール監視一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw 2026.4.15-beta.1: 認証状態カードと cloud memory を強化</h1>
+      <p class="article-dek">Model Auth 状態カード、cloud storage 対応の memory-lancedb、Copilot 埋め込み検索をまとめて追加した beta.1 です。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-15</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.4.15-beta.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>OpenClaw の 2026.4.15-beta.1 は、運用面の見通しと記憶基盤の拡張を同時に進めた更新です。コントロール UI の認証状態表示、クラウド保存に対応したメモリ、Copilot 向けの埋め込み検索が中心になっています。</p>
+        <ul>
+          <li><strong>Model Auth 状態カード:</strong> Control UI / Overview に OAuth トークンの健全性やレート制限の圧力を見える化するカードを追加しました。</li>
+          <li><strong>cloud memory:</strong> `memory-lancedb` が cloud storage に対応し、ローカルディスクだけに依存しない永続メモリ運用がしやすくなりました。</li>
+          <li><strong>検索とモデル実験:</strong> GitHub Copilot の embedding provider を memory search に追加し、`agents.defaults.experimental.localModelLean: true` で軽量ローカルモデル向けの既定ツールを減らせるようになりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>認証状態の可視化は、運用中の失敗要因を早めに見つけるのに役立ちます。クラウド保存対応のメモリは、複数マシンや長期稼働のワークフローで扱いやすく、localModelLean は弱めのローカルモデルで余計なコンテキストを減らしたいときに効きます。</p>
+
+        <h2>注意点</h2>
+        <p>今回は beta.1 なので、機能を広げつつも回帰確認は必要です。リリースノートには、機密情報のマスキング強化、設定ハッシュの再読込、古い dist チャンクの掃除などの修正も含まれています。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw は、エージェント運用の可視化と記憶基盤を少しずつ実用寄りに寄せています。既存の自動化を回しているなら、今回の beta.1 はチェックしておく価値があります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.4.15-beta.1" target="_blank" rel="noreferrer">OpenClaw 2026.4.15-beta.1</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">OpenClaw Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
