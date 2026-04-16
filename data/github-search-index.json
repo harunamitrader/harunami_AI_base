@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-16T10:13:01.930817+00:00",
-  "count": 253,
+  "generatedAt": "2026-04-16T20:06:02.643732+00:00",
+  "count": 254,
   "articles": [
+    {
+      "slug": "2026-04-17-open-dev-society-openstock",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "OpenStock",
+      "dek": "高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。",
+      "summary": "OpenStockは、最新のWebスタック（Next.js 15, Tailwind v4, MongoDB）を用いて構築されたオープンソースの株式分析ダッシュボードです。リアルタイム監視に加え、RedditやX、Polymarket等のセンチメント解析、AIによるパーソナライズニュース通知機能を備えています。",
+      "repoName": "Open-Dev-Society/OpenStock",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-17-open-dev-society-openstock.html",
+      "serial": 236,
+      "searchText": "OpenStock 高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。 OpenStockは、最新のWebスタック（Next.js 15, Tailwind v4, MongoDB）を用いて構築されたオープンソースの株式分析ダッシュボードです。リアルタイム監視に加え、RedditやX、Polymarket等のセンチメント解析、AIによるパーソナライズニュース通知機能を備えています。 Open-Dev-Society/OpenStock 金融・トレード分析 OpenStock ← 記事一覧へ戻る GitHub Watcher OpenStock 高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。 記事作成日 2026-04-17 種別 Pickup 対象 repo Open-Dev-Society/OpenStock Star数 10,400 これは何か OpenStockは、Bloomberg TerminalやYahoo Financeなどの高価・複雑な金融プラットフォームに対する、「完全に無料かつオープンな代替手段」を目指すプロジェクトです。最新のWebスタックを用いて構築されており、リアルタイムの株価追跡、チャート分析、センチメント解析などの機能を、誰もが自分専用の環境としてホストして利用できます。 何ができるか リアルタイム株価計測: Finnhub API と連携し、世界中の銘柄の価格やプロファイルを追跡。 高度なチャート分析: TradingView ウィジェットを統合し、本格的なテクニカル分析が可能。 センチメント解析: Reddit、X.com、ニュースに加え、Polymarket（予測市場）からのセンチメントデータを集約し、市場の熱量を可視化。 パーソナライズ機能: MongoDB を使用した独自のウォッチリスト管理、投資目標やリスク許容度に応じたオンボーディング。 AI通知・自動化: Gemini API と Inngest を活用し、自分でお気に入りに登録した銘柄に基づいた毎日のパーソナライズニュース要約メールを自動配信。 目立つポイント 単なる株価表示ツールにとどまらず、 「Open Dev Society Manifesto」 を掲げ、知識やツールを課金やサブスクリプションの陰に隠さないという強い意志が感じられます。Next.js 15 (App Router)、Tailwind CSS v4、React 19 といった、リリースされたばかりの最先端技術をいち早く採用している点も開発者として非常に興味深いです。 セットアップや使い方の流れ リポジトリをクローンし、依存関係をインストール。 .env ファイルを作成し、MongoDB の接続文字列、Finnhub API キー、Gemini API キーを設定。 Docker を使用する場合は、 docker-compose up 一発で MongoDB ごと環境を立ち上げ可能。 pnpm dev でローカルサーバーを起動し、ブラウザでアクセス。 どんな人向けか 既存の金融プラットフォームの月額料金やプライバシー、カスタマイズ性の低さに不満がある投資家・トレーダー。 Next.js や現代的な Web 技術スタックを学びたい開発者。 特定の銘柄に関連する Reddit や X の声を自動で集約・分析したい人。 注意点 Finnhub の無料枠を利用する場合、データの更新頻度や取得可能な範囲に制限がある場合があります。また、投資判断は自己責任で行う必要があり、ツールが提供する情報の正確性を常に検証することが推奨されます。 まとめ OpenStock は、「テクノロジーはすべての人のものであるべきだ」というマニフェストを体現した素晴らしいプロジェクトです。特に AI を活用した毎日のニュース要約や、多面的なセンチメント分析は、個人投資家が大手機関投資家に立ち向かうための強力な武器になり得るでしょう。スター数 1 万を超えたばかりの今、今後のさらなる機能拡張に期待が高まります。 参照リンク Open-Dev-Society/OpenStock"
+    },
     {
       "slug": "2026-04-16-getmaxun-maxun",
       "category": "github-pickup",

@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-17-open-dev-society-openstock",
+      "title": "OpenStock",
+      "dek": "高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。",
+      "summary": "OpenStockは、最新のWebスタック（Next.js 15, Tailwind v4, MongoDB）を用いて構築されたオープンソースの株式分析ダッシュボードです。リアルタイム監視に加え、RedditやX、Polymarket等のセンチメント解析、AIによるパーソナライズニュース通知機能を備えています。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T05:10:00+09:00",
+      "repoName": "Open-Dev-Society/OpenStock",
+      "repoUrl": "https://github.com/Open-Dev-Society/OpenStock",
+      "starCount": 10400,
+      "articleUrl": "./articles/github/daily/2026-04-17-open-dev-society-openstock.html",
+      "serial": 236,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-16-getmaxun-maxun",
       "title": "maxun",
       "dek": "あらゆるWebサイトからAIとノーコードでデータを抽出し、数分で構造化APIに変えるオープンソースプラットフォーム。",

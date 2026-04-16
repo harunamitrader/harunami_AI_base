@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Open-Dev-Society/OpenStock を活用し、高価な金融プラットフォームに代わるオープンソースな株式分析環境を構築する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenStock</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenStock</h1>
+      <p class="article-dek">高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Open-Dev-Society/OpenStock" target="_blank" rel="noreferrer">
+              Open-Dev-Society/OpenStock
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>10,400</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>OpenStockは、Bloomberg TerminalやYahoo Financeなどの高価・複雑な金融プラットフォームに対する、「完全に無料かつオープンな代替手段」を目指すプロジェクトです。最新のWebスタックを用いて構築されており、リアルタイムの株価追跡、チャート分析、センチメント解析などの機能を、誰もが自分専用の環境としてホストして利用できます。</p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>リアルタイム株価計測:</strong> Finnhub API と連携し、世界中の銘柄の価格やプロファイルを追跡。</li>
+          <li><strong>高度なチャート分析:</strong> TradingView ウィジェットを統合し、本格的なテクニカル分析が可能。</li>
+          <li><strong>センチメント解析:</strong> Reddit、X.com、ニュースに加え、Polymarket（予測市場）からのセンチメントデータを集約し、市場の熱量を可視化。</li>
+          <li><strong>パーソナライズ機能:</strong> MongoDB を使用した独自のウォッチリスト管理、投資目標やリスク許容度に応じたオンボーディング。</li>
+          <li><strong>AI通知・自動化:</strong> Gemini API と Inngest を活用し、自分でお気に入りに登録した銘柄に基づいた毎日のパーソナライズニュース要約メールを自動配信。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>単なる株価表示ツールにとどまらず、<strong>「Open Dev Society Manifesto」</strong>を掲げ、知識やツールを課金やサブスクリプションの陰に隠さないという強い意志が感じられます。Next.js 15 (App Router)、Tailwind CSS v4、React 19 といった、リリースされたばかりの最先端技術をいち早く採用している点も開発者として非常に興味深いです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリをクローンし、依存関係をインストール。</li>
+          <li><code>.env</code> ファイルを作成し、MongoDB の接続文字列、Finnhub API キー、Gemini API キーを設定。</li>
+          <li>Docker を使用する場合は、<code>docker-compose up</code> 一発で MongoDB ごと環境を立ち上げ可能。</li>
+          <li><code>pnpm dev</code> でローカルサーバーを起動し、ブラウザでアクセス。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>既存の金融プラットフォームの月額料金やプライバシー、カスタマイズ性の低さに不満がある投資家・トレーダー。</li>
+          <li>Next.js や現代的な Web 技術スタックを学びたい開発者。</li>
+          <li>特定の銘柄に関連する Reddit や X の声を自動で集約・分析したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>Finnhub の無料枠を利用する場合、データの更新頻度や取得可能な範囲に制限がある場合があります。また、投資判断は自己責任で行う必要があり、ツールが提供する情報の正確性を常に検証することが推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenStock は、「テクノロジーはすべての人のものであるべきだ」というマニフェストを体現した素晴らしいプロジェクトです。特に AI を活用した毎日のニュース要約や、多面的なセンチメント分析は、個人投資家が大手機関投資家に立ち向かうための強力な武器になり得るでしょう。スター数 1 万を超えたばかりの今、今後のさらなる機能拡張に期待が高まります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Open-Dev-Society/OpenStock" target="_blank" rel="noreferrer">Open-Dev-Society/OpenStock</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
