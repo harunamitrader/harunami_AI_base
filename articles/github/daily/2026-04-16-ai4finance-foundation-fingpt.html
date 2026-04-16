@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI4Finance-Foundation/FinGPT の概要と、金融分野に特化したオープンソースLLMについての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>FinGPT - GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">FinGPT</h1>
+      <p class="article-dek">オープンソースで提供される金融特化型の大規模言語モデル（LLM）。低コストなファインチューニングによりBloombergGPTの代替を目指す。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/AI4Finance-Foundation/FinGPT" target="_blank" rel="noreferrer">
+              AI4Finance-Foundation/FinGPT
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>19,500</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          「FinGPT」は、AI4Finance Foundation が開発・メンテナンスを行っている金融ドメイン向けのオープンソースLLM群です。
+          Bloomberg社が独自開発した「BloombergGPT」（構築コスト約300万ドル）に対抗すべく、少額のコスト（数百ドル程度）かつコンシューマ向けGPUでも最新の市場データを用いて再学習できる「軽量な適応性」を重視して設計されています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>金融センチメント解析</strong>: ニュース記事や金融系SNSから、市場のポジティブ/ネガティブな感情を高速・高精度に読み取ります。LoRA（Low-Rank Adaptation）によるファインチューニングで、GPT-4を超える精度を記録したモデル（FinGPT v3）が提供されています。</li>
+          <li><strong>ロボ・アドバイザー (FinGPT-Forecaster)</strong>: 指定した株式銘柄（AAPLやMSFTなど）と日付を入力すると、過去数週間の市場ニュースや基本財務データを自動収集。「株価が上がるか下がるか」の予測と、投資家向けの詳細な分析コメントを出力します。</li>
+          <li><strong>RLHF (人間からのフィードバックによる強化学習) の導入</strong>: 投資家のリスク許容度や個別の取引習慣を記憶・反映させるためのパーソナライズ基盤が整備されています。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          Llama2 や ChatGLM などの強力なオープンソース汎用モデルをベースに金融データでファインチューニングするためのスクリプト（Jupyter Notebook）が多数用意されています。また、HuggingFace と連動して既に訓練済みのモデルウエイトを公開しており、ユーザーはすぐに推論を試すことができます。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          推論のみであれば HuggingFace スペースで公開されているデモからすぐに試すことが可能です。自社環境で動かす場合は、GitHub リポジトリをクローンして <code>requirements.txt</code> をインストール後、提供される Notebook に従って 8-bit または 4-bit 量子化 (QLoRA) で 1枚の RTX 3090 から学習・推論を実施できます。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          個人投資家からクオンツ・ファンドのアナリストまで、金融市場でAIのアドバンテージを得たい全ての人に非常に価値があります。インターネット上のデータをデータパイプラインで自動収集して高頻度でモデルを再訓練する設計になっており、「金融の民主化」を強く体現したプロジェクトです。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          AIの出力する株価予測分析はあくまで参考情報であり、アルゴリズムトレードにそのまま組み込む場合は多大なる損失リスクを伴います。また利用するベースモデル（Llama2など）の商用利用ライセンスに従う必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          「高コストな専用巨大モデル」に対して、「柔軟で安価なオープンソースモデルのファインチューニング戦略」が十分に通用することを証明した、生成AI時代の金融アプリケーションのデファクトスタンダードと言える存在です。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/AI4Finance-Foundation/FinGPT" target="_blank" rel="noreferrer">AI4Finance-Foundation/FinGPT</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -8,6 +8,36 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-16-ai4finance-foundation-fingpt",
+      "title": "FinGPT",
+      "dek": "オープンソースで提供される金融特化型の大規模言語モデル（LLM）。低コストなファインチューニングによりBloombergGPTの代替を目指す。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-16T19:05:00+09:00",
+      "repoName": "AI4Finance-Foundation/FinGPT",
+      "repoUrl": "https://github.com/AI4Finance-Foundation/FinGPT",
+      "starCount": 19500,
+      "articleUrl": "./articles/github/daily/2026-04-16-ai4finance-foundation-fingpt.html",
+      "serial": 233,
+      "originType": "pickup",
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
+      "slug": "2026-04-16-nawfalmotii79-plfm-radar",
+      "title": "PLFM_RADAR",
+      "dek": "オープンソースで提供される低コストな10.5 GHz フェーズドアレイレーダー開発プラットフォーム。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-16T07:35:00+09:00",
+      "repoName": "NawfalMotii79/PLFM_RADAR",
+      "repoUrl": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "starCount": 9200,
+      "articleUrl": "./articles/github/daily/2026-04-16-nawfalmotii79-plfm-radar.html",
+      "serial": 232,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-16-teng-lin-notebooklm-py",
       "title": "notebooklm-py",
       "dek": "Google NotebookLM にプログラムからアクセス可能にする非公式API。Web版にはない隠し機能やAIエージェント連携（スキル）も提供。",

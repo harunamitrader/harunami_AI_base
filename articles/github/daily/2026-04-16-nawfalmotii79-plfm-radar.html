@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NawfalMotii79/PLFM_RADAR の概要と、オープンソース・フェーズドアレイレーダーシステムの解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>PLFM_RADAR - GitHub Watcher</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">PLFM_RADAR</h1>
+      <p class="article-dek">オープンソースで提供される低コストな10.5 GHz フェーズドアレイレーダー開発プラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/NawfalMotii79/PLFM_RADAR" target="_blank" rel="noreferrer">
+              NawfalMotii79/PLFM_RADAR
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>9,200</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>プロジェクトの概要</h2>
+        <p>
+          「AERIS-10」は、自作志向の開発者、ドローンエンジニア、軍事・航空に関心の高い研究者を対象としたフルオープンソースのレーダーシステムです。
+          従来は数千万円単位の高度な商用機器でしか実現できなかった 10.5 GHz 帯の電子ビーム操舵（フェーズドアレイ）や、パルス圧縮、ドップラー処理を、自作可能な低コストハードウェアという形で民主化しています。
+        </p>
+
+        <h2>機能・できること</h2>
+        <ul>
+          <li><strong>電子ビームステアリング</strong>: 物理的にアンテナを回転させずに、±45° の範囲で電子的にビームの方向をスキャンします。</li>
+          <li><strong>高度な信号処理 (FPGA)</strong>: パルス圧縮、前方FFT、ドップラーシフト解析、CFAR（定誤警報確率）処理など、プロユースのレーダープロトコルをオンボードで実行します。</li>
+          <li><strong>マルチバージョン設計</strong>: 探知レンジ 3km モデルの「Nexus」と、より大規模なアンテナや増幅器を搭載する 20km モデルの「Extended」の設計図が共有されています。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          ソフトウェア（PythonによるGUI、STM32用ファームウェア、Verilog/VHDLのFPGAロジック）だけでなく、回路図、プリント基板レイアウト（PCB）、さらにはアンテナのシミュレーションデータまで、ハードウェア開発に必要な全ての設計資産が公開されています。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          ユーザー自身で公開されたガーバーデータに基づいて基板を発注・実装し、マイコンとFPGAにプログラムを書き込むことでシステムが稼働します。Python製の専用GUIを通じて、GPSやIMU（慣性計測装置）から得た姿勢マップとレーダー結果をオーバーレイ表示させることが可能です。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          SDR（ソフトウェア無線）のさらに奥深くに踏み込みたい熟練のハードウェアハッカーや、自律型ドローンの障害物回避・ターゲット追尾システムを自作したい研究開発部門に強く刺さる実践的プロジェクトです。
+        </p>
+
+        <h2>制約・リスク</h2>
+        <p>
+          高度な高周波（RF）回路やマイコン・FPGAの統合開発であるため、電子工作の初心者には極めてハードルが高い点に注意が必要です。また、電波の送信には各国の電波法違反にならないための免許や適切な環境（シールドルームなど）が必須となります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          「ソフトウェアだけでなく、ハードウェアの極致とも言えるレーダー技術までオープンソース化される」という現代のモノづくりの勢いを象徴するような、非常に野心的で完成度の高いエンジニアリングプロジェクトです。
+        </p>
+
+        <h2>ソースリンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/NawfalMotii79/PLFM_RADAR" target="_blank" rel="noreferrer">NawfalMotii79/PLFM_RADAR</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

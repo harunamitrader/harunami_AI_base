@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 07:17:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 19:01:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[FinGPT]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-ai4finance-foundation-fingpt.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-ai4finance-foundation-fingpt.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[オープンソースで提供される金融特化型の大規模言語モデル（LLM）。低コストなファインチューニングによりBloombergGPTの代替を目指す。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[PLFM_RADAR]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-nawfalmotii79-plfm-radar.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-nawfalmotii79-plfm-radar.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[オープンソースで提供される低コストな10.5 GHz フェーズドアレイレーダー開発プラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[notebooklm-py]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-teng-lin-notebooklm-py.html</link>
@@ -150,22 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Codeを最大限に活用するための、エージェント設計からワークフロー自動化までの包括的な実戦ガイド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Google AI: Chromeブラウザで使える「AI Prompts」機能を発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-google-ai-chrome-ai-prompts.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-google-ai-chrome-ai-prompts.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[よく使うプロンプトをワンクリックで実行できるツールに変換する機能がChromeに登場。ブラウザ上でのAI活用がさらに手軽になります。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.14: GPT-5ファミリーへの前方互換性とメモリ機能強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-openclaw-v2026-4-14-gpt5-support.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-15-openclaw-v2026-4-14-gpt5-support.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[未発表の gpt-5.4-pro への対応や、サブエージェントが文脈を記憶するActive Memoryプラグインの改善が行われました。]]></description>
     </item>
   </channel>
 </rss>
