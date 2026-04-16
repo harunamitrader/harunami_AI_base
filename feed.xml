@@ -5,15 +5,55 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 21:04:07 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 06:11:05 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title><![CDATA[Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html</guid>
-      <category>ai-tool-log</category>
+      <title><![CDATA[2026-04-17 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-17-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-17-update-report.html</guid>
+      <category>github-update-report</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Opus 4.7 向けの xhigh effort、対話式 /effort、クラウドでの包括レビュー、PowerShell tool の展開が入った更新です。]]></description>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GenericAgent]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-lsdefine-genericagent.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-lsdefine-genericagent.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[3.3K行の「種」から自らのスキルツリーを成長させ、トークン消費を1/6に抑えつつOSを完全支配する自己進化エージェント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[open-agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-vercel-labs-open-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-vercel-labs-open-agents.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Vercel社が提供する、クラウド環境でスケーラブルなAIエージェントを構築するためのオープンソーステンプレート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[magika]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-google-magika.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-google-magika.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Googleが開発した、ディープラーニング駆動による超高速・高精度なファイルタイプ（MIME）判定ツール。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[wacli]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-steipete-wacli.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-steipete-wacli.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[WhatsApp をターミナルから完全にコントロール。メッセージの送受信やメディア操作が可能な軽量CLIクライアント。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[cognee]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-topoteretes-cognee.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-topoteretes-cognee.html</guid>
+      <category>github-trending</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[わずか6行のコードでAIエージェントに自律的な「長期記憶（グラフ構造）」を組み込めるオープンソースのナレッジエンジン。]]></description>
     </item>
     <item>
       <title><![CDATA[100-Days-Of-ML-Code]]></title>
@@ -56,28 +96,20 @@
       <description><![CDATA[高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。]]></description>
     </item>
     <item>
+      <title><![CDATA[Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Opus 4.7 向けの xhigh effort、対話式 /effort、クラウドでの包括レビュー、PowerShell tool の展開が入った更新です。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Claude Opus 4.7: コーディングと視覚性能を強化して一般提供]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-claude-opus-4-7-general-availability.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-claude-opus-4-7-general-availability.html</guid>
       <category>ai-tool-log</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[長時間のコーディング、画像理解、自己検証を強化した Opus 4.7 が Claude 全製品と API で一般提供になりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Windsurf 2.0.50: 認証体験と Windows Terminal 起動を修正]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-windsurf-2-0-50-auth-windows-terminal.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-windsurf-2-0-50-auth-windows-terminal.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windsurf 2.0 後の認証まわりを整え、Windows で Terminal session が生成できない問題を修正したメンテナンス更新です。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: Claude Opus 4.7 が一般提供に]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-github-copilot-claude-opus-4-7.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-16-github-copilot-claude-opus-4-7.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Copilot Pro+、Business、Enterprise 向けに Claude Opus 4.7 が段階展開され、複数の Copilot 画面から選択可能になります。]]></description>
     </item>
     <item>
       <title><![CDATA[maxun]]></title>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Andrej Karpathy 氏の知見をベースに、Claude Code 等のAIエージェントのコーディング精度を劇的に向上させるカスタム CLAUDE.md。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[dive-into-llms]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-lordog-dive-into-llms.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-lordog-dive-into-llms.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[大規模言語モデル（LLM）の基礎から応用まで、中国語で学べる実践的なプログラミング・ハンズオンチュートリアル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ai-hedge-fund]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-virattt-ai-hedge-fund.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-virattt-ai-hedge-fund.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複数のAIエージェントが「アナリスト」「リスク管理者」「ポートフォリオマネージャー」として協調し、投資判断を下す仮想ヘッジファンド。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[superpowers]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-obra-superpowers.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-obra-superpowers.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントのスキルフレームワークと実用的な開発手法を統合し、効率的かつ安全な自律型ワークフローを実現するツールキット。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[public-apis]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-public-apis-public-apis.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-public-apis-public-apis.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[開発者が無料で利用できる各種APIをまとめた、オープンソースコミュニティによる巨大なキュレーションリスト。]]></description>
     </item>
   </channel>
 </rss>
