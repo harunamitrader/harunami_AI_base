@@ -8,6 +8,21 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-16-getmaxun-maxun",
+      "title": "maxun",
+      "dek": "あらゆるWebサイトからAIとノーコードでデータを抽出し、数分で構造化APIに変えるオープンソースプラットフォーム。",
+      "publishedAt": "2026-04-16",
+      "createdAt": "2026-04-16T19:20:00+09:00",
+      "repoName": "getmaxun/maxun",
+      "repoUrl": "https://github.com/getmaxun/maxun",
+      "starCount": 15400,
+      "articleUrl": "./articles/github/daily/2026-04-16-getmaxun-maxun.html",
+      "serial": 235,
+      "originType": "pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-16-simoneavogadro-android-reverse-engineering-skill",
       "title": "android-reverse-engineering-skill",
       "dek": "Claude Code に Android アプリのリバースエンジニアリング能力を追加する強力な解析スキル。",

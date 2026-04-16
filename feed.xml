@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 10:08:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 19:13:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[maxun]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-getmaxun-maxun.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-getmaxun-maxun.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[あらゆるWebサイトからAIとノーコードでデータを抽出し、数分で構造化APIに変えるオープンソースプラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[android-reverse-engineering-skill]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-simoneavogadro-android-reverse-engineering-skill.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[1969年のアポロ11号月着陸船および司令船に搭載された、人類史上最も重要な誘導コンピュータのオリジナルソースコード。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Mole]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mole.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-15-mole.html</guid>
-      <category>github-trending</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[macOS のシステムを深くクリーンアップし、パフォーマンスを最大化するためのオールインワン CLI ツールキット。]]></description>
     </item>
   </channel>
 </rss>
