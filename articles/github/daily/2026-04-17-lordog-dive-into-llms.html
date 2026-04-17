@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lordog/dive-into-llms を読み、LLM の基礎から応用までをハンズオンで学ぶ「Dive into LLMs」教材の要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>dive-into-llms</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">dive-into-llms</h1>
+      <p class="article-dek">大規模言語モデル（LLM）の理論から PEFT、RAG、安全性の実装までを網羅した実践型ハンズオン教程。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-17 -->
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Lordog/dive-into-llms" target="_blank" rel="noreferrer">
+              Lordog/dive-into-llms
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>31,100</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          上海交通大学の講義講義資料（「自然言語処理前沿技術」など）をベースに開発された、包括的な LLM プログラミング実践チュートリアルです。「手を動かして学ぶ（Dive into）」をコンセプトに、モデルの構造理解から最新の応用技術までを体系的にカバーしています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>全 11 章にわたる教材を通じて、以下の技術をハンズオンで習得できます。</p>
+        <ul>
+          <li><strong>基礎：</strong> Transformer アーキテクチャの実装とプロンプトエンジニアリング。</li>
+          <li><strong>モデル編集と調整：</strong> 知識の編集（Model Editing）や、LoRA を用いたパラメータ効率の高い微調整（PEFT）。</li>
+          <li><strong>数学と推論：</strong> 数学問題に特化した SFT（教師あり微調整）の実装。</li>
+          <li><strong>マルチモーダルとエージェント：</strong> MLLM の基礎、GUI エージェントの構築、強化学習（RLHF）の実践。</li>
+          <li><strong>安全性と倫理：</strong> 脱獄（Jailbreak）攻撃への理解と、モデルの安全性防御技術。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          GitHub で 3.1 万スターを超える圧倒的な支持を得ており、単なる理論解説にとどまらず、昇騰（Ascend）ハードウェアでのフルスタック開発フローなど、実務レベルのインフラ事情も考慮されている点が特徴です。Jupyter Notebook 形式で提供されているため、すぐに実験を開始できる即効性があります。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリを <code>git clone</code> します。</li>
+          <li>各チャプターの PDF 講義資料で理論を把握します。</li>
+          <li>対応する <code>.ipynb</code> ファイルを Jupyter Notebook や Google Colab で開き、コードを実行して挙動を確認します。</li>
+          <li>各セクションの README とサンプルコードを参考に、独自のデータセットでのファインチューニングや RAG 構築を試行します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>LLM の中身を「ブラックボックス」ではなく実装レベルで深く理解したい学生やエンジニア。</li>
+          <li>PEFT や RLHF などの最新の調整手法を体系的に学びたい AI 研究者。</li>
+          <li>企業で RAG パイプラインやセーフティガードレールの設計を担当する開発者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          主な解説言語は中国語です。コードや数式、図解が豊富であるため理解を助けますが、詳細な日本語解説を必要とする場合は機械翻訳を併用するのが効率的です。また、LLM 関連のライブラリは更新が非常に速いため、Notebook 内で使用されている依存ライブラリのバージョンには注意が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>dive-into-llms</code> は、単なるトレンドの紹介ではなく、LLM の根源的な仕組みから最新の安全技術までを網羅した「辞書」兼「実験場」のような存在です。3万スターが示す通り、最高峰の開発教程の一つとして、腰を据えて学習する価値のあるリソースです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Lordog/dive-into-llms" target="_blank" rel="noreferrer">Lordog/dive-into-llms</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

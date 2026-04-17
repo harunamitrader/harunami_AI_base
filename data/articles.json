@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-17-lordog-dive-into-llms",
+      "title": "dive-into-llms",
+      "dek": "大規模言語モデル（LLM）の理論から PEFT、RAG、安全性の実装までを網羅した実践型ハンズオン教程。",
+      "summary": "上海交通大学の講義講義資料をベースにした、大規模言語モデル（LLM）の包括的な実践型プログラミング教材です。Transformer の実装から PEFT、RAG、エージェント、安全性（脱獄・防御）までをノートブック形式で体系的に学習可能です。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T17:34:00+09:00",
+      "repoName": "Lordog/dive-into-llms",
+      "repoUrl": "https://github.com/Lordog/dive-into-llms",
+      "starCount": 31100,
+      "articleUrl": "./articles/github/daily/2026-04-17-lordog-dive-into-llms.html",
+      "serial": 249,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-17-tirth8205-code-review-graph",
       "title": "code-review-graph",
       "dek": "AIが「本当に読むべきコード」だけを特定。AST解析でトークン消費を最大1/49に抑えるローカルナレッジグラフ。",
@@ -345,22 +361,6 @@
       "createdAt": "2026-04-16T05:55:00+09:00",
       "articleUrl": "./articles/github/reports/2026-04-16-update-report.html",
       "serial": 18
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-04-16-lordog-dive-into-llms",
-      "title": "dive-into-llms",
-      "dek": "大規模言語モデル（LLM）の基礎から応用まで、中国語で学べる実践的なプログラミング・ハンズオンチュートリアル。",
-      "publishedAt": "2026-04-16",
-      "createdAt": "2026-04-16T05:45:00+09:00",
-      "repoName": "Lordog/dive-into-llms",
-      "repoUrl": "https://github.com/Lordog/dive-into-llms",
-      "starCount": 29327,
-      "articleUrl": "./articles/github/daily/2026-04-16-lordog-dive-into-llms.html",
-      "rank": 4,
-      "serial": 229,
-      "originType": "trending",
-      "genre": "学習ガイド・開発アセット"
     },
     {
       "category": "github-trending",

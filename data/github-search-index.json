@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-17T08:25:43.033532+00:00",
+  "generatedAt": "2026-04-17T08:34:43.780068+00:00",
   "count": 265,
   "articles": [
+    {
+      "slug": "2026-04-17-lordog-dive-into-llms",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "dive-into-llms",
+      "dek": "大規模言語モデル（LLM）の理論から PEFT、RAG、安全性の実装までを網羅した実践型ハンズオン教程。",
+      "summary": "上海交通大学の講義講義資料をベースにした、大規模言語モデル（LLM）の包括的な実践型プログラミング教材です。Transformer の実装から PEFT、RAG、エージェント、安全性（脱獄・防御）までをノートブック形式で体系的に学習可能です。",
+      "repoName": "Lordog/dive-into-llms",
+      "genre": "学習ガイド・開発アセット",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T17:34:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-17-lordog-dive-into-llms.html",
+      "serial": 249,
+      "searchText": "dive-into-llms 大規模言語モデル（LLM）の理論から PEFT、RAG、安全性の実装までを網羅した実践型ハンズオン教程。 上海交通大学の講義講義資料をベースにした、大規模言語モデル（LLM）の包括的な実践型プログラミング教材です。Transformer の実装から PEFT、RAG、エージェント、安全性（脱獄・防御）までをノートブック形式で体系的に学習可能です。 Lordog/dive-into-llms 学習ガイド・開発アセット dive-into-llms ← 記事一覧へ戻る GitHub Watcher dive-into-llms 大規模言語モデル（LLM）の理論から PEFT、RAG、安全性の実装までを網羅した実践型ハンズオン教程。 記事作成日 2026-04-17 種別 Pickup 対象 repo Lordog/dive-into-llms Star数 31,100 これは何か 上海交通大学の講義講義資料（「自然言語処理前沿技術」など）をベースに開発された、包括的な LLM プログラミング実践チュートリアルです。「手を動かして学ぶ（Dive into）」をコンセプトに、モデルの構造理解から最新の応用技術までを体系的にカバーしています。 何ができるか 全 11 章にわたる教材を通じて、以下の技術をハンズオンで習得できます。 基礎： Transformer アーキテクチャの実装とプロンプトエンジニアリング。 モデル編集と調整： 知識の編集（Model Editing）や、LoRA を用いたパラメータ効率の高い微調整（PEFT）。 数学と推論： 数学問題に特化した SFT（教師あり微調整）の実装。 マルチモーダルとエージェント： MLLM の基礎、GUI エージェントの構築、強化学習（RLHF）の実践。 安全性と倫理： 脱獄（Jailbreak）攻撃への理解と、モデルの安全性防御技術。 目立つポイント GitHub で 3.1 万スターを超える圧倒的な支持を得ており、単なる理論解説にとどまらず、昇騰（Ascend）ハードウェアでのフルスタック開発フローなど、実務レベルのインフラ事情も考慮されている点が特徴です。Jupyter Notebook 形式で提供されているため、すぐに実験を開始できる即効性があります。 セットアップや使い方の流れ リポジトリを git clone します。 各チャプターの PDF 講義資料で理論を把握します。 対応する .ipynb ファイルを Jupyter Notebook や Google Colab で開き、コードを実行して挙動を確認します。 各セクションの README とサンプルコードを参考に、独自のデータセットでのファインチューニングや RAG 構築を試行します。 どんな人向けか LLM の中身を「ブラックボックス」ではなく実装レベルで深く理解したい学生やエンジニア。 PEFT や RLHF などの最新の調整手法を体系的に学びたい AI 研究者。 企業で RAG パイプラインやセーフティガードレールの設計を担当する開発者。 注意点 主な解説言語は中国語です。コードや数式、図解が豊富であるため理解を助けますが、詳細な日本語解説を必要とする場合は機械翻訳を併用するのが効率的です。また、LLM 関連のライブラリは更新が非常に速いため、Notebook 内で使用されている依存ライブラリのバージョンには注意が必要です。 まとめ dive-into-llms は、単なるトレンドの紹介ではなく、LLM の根源的な仕組みから最新の安全技術までを網羅した「辞書」兼「実験場」のような存在です。3万スターが示す通り、最高峰の開発教程の一つとして、腰を据えて学習する価値のあるリソースです。 参照リンク Lordog/dive-into-llms"
+    },
     {
       "slug": "2026-04-17-tirth8205-code-review-graph",
       "category": "github-pickup",
@@ -301,21 +316,6 @@
       "articleUrl": "./articles/github/reports/2026-04-16-update-report.html",
       "serial": 18,
       "searchText": "2026-04-16 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ GitHub Trending の全順位を確認し、andrej-karpathy-skills, dive-into-llms, ai-hedge-fund, superpowers, public-apis の5件を新規に記事化。 2026-04-16 アップデートレポート - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher 2026-04-16 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 公開日 2026-04-16 本日の調査ランキング（全件） 本日の GitHub Trending のランキングと記事化状況は以下の通りです。 1位: ✨ 新規追加 forrestchang/andrej-karpathy-skills 2位: ✅ 記事作成済み pascalorg/editor 3位: ✅ 記事作成済み thedotmack/claude-mem 4位: ✨ 新規追加 Lordog/dive-into-llms 5位: ✨ 新規追加 virattt/ai-hedge-fund 6位: ✅ 記事作成済み chrislgarry/Apollo-11 7位: ✨ 新規追加 obra/superpowers 8位: ✅ 記事作成済み jamiepine/voicebox 9位: ✨ 新規追加 public-apis/public-apis 10位: 未作成 (vercel-labs/open-agents) 11位: 未作成 (lsdefine/GenericAgent) 12位: 未作成 (google/magika) 13位: 未作成 (Donchitos/Claude-Code-Game-Studios) 今後の展望 本日はAI分野と実践的スキルのドキュメンテーションに関して非常にレベルの高いトレンドが見られました。とりわけAIエージェントが利用する「ツール・指示書・フレームワーク関連」の発展が著しく、Andrej Karpathy氏のLLMコーディング知見を反映させた andrej-karpathy-skills などがトップトレンドとなっています。エージェント向けツールが増加を続けており、ソフトウェア開発体験の自動化が進んでいます。"
-    },
-    {
-      "slug": "2026-04-16-lordog-dive-into-llms",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "dive-into-llms",
-      "dek": "大規模言語モデル（LLM）の基礎から応用まで、中国語で学べる実践的なプログラミング・ハンズオンチュートリアル。",
-      "summary": "",
-      "repoName": "Lordog/dive-into-llms",
-      "genre": "学習ガイド・開発アセット",
-      "publishedAt": "2026-04-16",
-      "createdAt": "2026-04-16T05:45:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-16-lordog-dive-into-llms.html",
-      "serial": 229,
-      "searchText": "dive-into-llms 大規模言語モデル（LLM）の基礎から応用まで、中国語で学べる実践的なプログラミング・ハンズオンチュートリアル。 Lordog/dive-into-llms 学習ガイド・開発アセット dive-into-llms - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher dive-into-llms 大規模言語モデル（LLM）の基礎から応用まで、中国語で学べる実践的なプログラミング・ハンズオンチュートリアル。 分析日 2026-04-16 Trending 順位 4位 対象 repo Lordog/dive-into-llms Star数 29,327 プロジェクトの概要 「手を動かして学ぶ」をコンセプトにした中国語の包括的なLLMチュートリアルです。理論の解説だけでなく、Jupyter Notebook などを通じて実際にモデルを構築・微調整（ファインチューニング）し、RAGシステムを実装する過程をコードとともに学べます。 機能・できること 基礎理解 : Transformer アーキテクチャの内部実装と、アテンションメカニズムの動作原理。 モデルの微調整 : LoRAなどを用いたパラメータ効率の高いファインチューニング（PEFT）の実践。 RAGの構築 : 情報検索と生成を組み合わせた、実践的なベクトルデータベース連携の実装手順。 リポジトリの構成 ステップバイステップで進められる Markdown ドキュメントと、対応する Python/Jupyter Notebook のサンプルコードで構成されています。 セットアップ・導入のイメージ Python 言語および PyTorch の基礎があることを前提とし、ローカルまたは Google Colab などのクラウド環境上で Notebook を順に実行しながら学習を進めます。 ターゲット層 / 注目ポイント LLMの仕組みを中身から理解したい学生、AI分野にステップアップしたいソフトウェアエンジニア、企業で小規模のLLM導入やRAGパイプラインを設計する担当者に向いています。 制約・リスク 主要言語が中国語であるため、日本語話者の場合は機械翻訳などを活用して内容を読み解く必要があります。また、LLMの技術進化が速いため、特定ライブラリのバージョン依存に注意が必要です。 まとめ ブラックボックスになりがちな大規模言語モデルを、自らの手でゼロから構築し、調整する過程を通して深い理解を得られる、非常に優れたオープンソース教育アセットです。 ソースリンク Lordog/dive-into-llms"
     },
     {
       "slug": "2026-04-16-virattt-ai-hedge-fund",
