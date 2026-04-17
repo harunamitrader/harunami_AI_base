@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-17T19:05:42.587829+00:00",
-  "count": 270,
+  "generatedAt": "2026-04-17T19:11:56.753727+00:00",
+  "count": 271,
   "articles": [
+    {
+      "slug": "2026-04-18-harunamitrader-codicodi",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "CoDiCoDi",
+      "dek": "Codex CLI を「ローカル UI」と「Discord」で。ひとつの作業セッションをどこからでも共有・操作できる Windows 専用ブリッジツール。",
+      "summary": "Codex CLI のセッションを PC ローカル UI と Discord チャンネル間で同期・中継するブリッジアプリ。チャット、画像/ファイル送受信、スケジュール実行（cron）、進捗監視、フォルダ監視通知などを備え、AI との協調作業を場所を選ばずに行えます。",
+      "repoName": "harunamitrader/codicodi",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T04:11:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-18-harunamitrader-codicodi.html",
+      "serial": 255,
+      "searchText": "CoDiCoDi Codex CLI を「ローカル UI」と「Discord」で。ひとつの作業セッションをどこからでも共有・操作できる Windows 専用ブリッジツール。 Codex CLI のセッションを PC ローカル UI と Discord チャンネル間で同期・中継するブリッジアプリ。チャット、画像/ファイル送受信、スケジュール実行（cron）、進捗監視、フォルダ監視通知などを備え、AI との協調作業を場所を選ばずに行えます。 harunamitrader/codicodi AIコーディング (CLI本体・拡張機能) CoDiCoDi ← 記事一覧へ戻る GitHub Watcher CoDiCoDi Codex CLI を「ローカル UI」と「Discord」で。ひとつの作業セッションをどこからでも共有・操作できる Windows 専用ブリッジツール。 分析日 2026-04-18 種別 Pickup 対象 repo harunamitrader/codicodi Star数 0 これは何か 正式名称「Codex Discord Connected Display」、略して CoDiCoDi （コーディコーディ）は、Windows 上で動作する Codex CLI の使い勝手を飛躍的に向上させるためのローカルブリッジアプリです。通常、端末（ターミナル）上で完結する Codex CLI のセッションを、ブラウザベースの「ローカル UI」と「Discord チャンネル」の双方へ中継し、どちらからでもチャット、画像送信、ファイル操作、ステータス確認ができるようにします。 何ができるか セッション同時共有： PC の前にいるときは高機能なローカル UI で、外出先やスマホからは Discord 経由で、全く同じ AI 作業セッションを継続できます。 マルチメディア対応： 文章だけでなく、画像や添付ファイルの送信にも対応。ローカル UI ではドラッグ＆ドロップで、Discord では通常の添付ファイルとして AI にデータを渡せます。 高度な状態管理： 現在の思考ターン数、進捗状況（SSE 配信）、実行中の Codex 停止、モデルや推論モードの切り替えなどを一元管理できます。 スケジュール実行 (cron)： 指定した時間に特定のセッションへ自動で命令を送る機能を備えています。毎朝の定型リサーチや定期的なコードチェックなどを自動化可能です。 ファイルウォッチ通知： 指定フォルダ内のファイル変更を検知して Discord に自動投稿する機能を搭載。開発ログの共有などに役立ちます。 Tauri によるデスクトップ化： Node.js 製のブリッジサーバーと React UI を統合し、Windows 用の軽量デスクトップアプリとして起動できます。 目立つポイント Codex CLI は非常に強力ですが、端末操作に依存しがちです。CoDiCoDi はその「インターフェース」を Discord という汎用プラットフォームへ拡張することで、AI エージェントを「常に繋がっている同僚」のような存在に変えてくれます。特に SQLite を用いたセッション管理や stale session（異常終了したセッション）の復旧機能など、実務で AI を使い倒すための泥臭い工夫が随所に散りばめられているのが特徴です。 セットアップや使い方の流れ リポジトリをクローンまたはダウンロードし、 npm install で依存関係を構築します。 Discord Developer Portal で Bot を作成し、トークンを取得します。Message Content Intent を有効にする必要があります。 .env.example をコピーして .env を作成し、Codex の作業ディレクトリや Discord Bot の設定を記述します。 launch-tauri-dev.ps1 等を実行してアプリを起動。Tauri のデスクトップウィンドウが開きます。 UI または Discord から Codex に命令を送り、共同作業を開始します。 どんな人向けか Windows 環境で Codex CLI を日常的に利用している AI パワーユーザー。 複数の作業セッション（開発、調査、執筆など）を並行して管理したい人。 PC を離れている間も Discord を通じて進行中のタスクを監視・操作したいエンジニア。 AI エージェントに定期的なタスク（cron 実行）を担当させたい開発者。 注意点 このアプリはあくまでローカルの Codex CLI の「ブリッジ」であり、アプリ自体が LLM を持っているわけではありません。また、非常に高い権限でローカル PC を操作できるツールであるため、信用できない人が参加している Discord サーバーでの使用や、インターネットへの不用意な公開は厳禁です。 まとめ CoDiCoDi は、Codex CLI という強力なツールを、より「人間の生活圏（UI/Discord）」へと引き寄せるための実践的なツールです。AI との協調作業をターミナルの中に閉じ込めるのではなく、どこからでもアクセス可能なオープンスペースへと解放し、開発ワークフローの柔軟性を最大化してくれます。 参照リンク harunamitrader/codicodi"
+    },
     {
       "slug": "2026-04-18-bit-datalab-edit-banana",
       "category": "github-pickup",

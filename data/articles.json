@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-harunamitrader-codicodi",
+      "title": "CoDiCoDi",
+      "dek": "Codex CLI を「ローカル UI」と「Discord」で。ひとつの作業セッションをどこからでも共有・操作できる Windows 専用ブリッジツール。",
+      "summary": "Codex CLI のセッションを PC ローカル UI と Discord チャンネル間で同期・中継するブリッジアプリ。チャット、画像/ファイル送受信、スケジュール実行（cron）、進捗監視、フォルダ監視通知などを備え、AI との協調作業を場所を選ばずに行えます。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T04:11:00+09:00",
+      "repoName": "harunamitrader/codicodi",
+      "repoUrl": "https://github.com/harunamitrader/codicodi",
+      "starCount": 0,
+      "articleUrl": "./articles/github/daily/2026-04-18-harunamitrader-codicodi.html",
+      "serial": 255,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-bit-datalab-edit-banana",
       "title": "Edit-Banana",
       "dek": "「編集できない画像」を「編集できる図表」へ。SAM 3 とマルチモーダル LLM を駆使して、静的なチャートを DrawIO や PPTX に高精度復元するフレームワーク。",

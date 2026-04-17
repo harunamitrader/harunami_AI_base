@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 19:08:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 04:11:56 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[CoDiCoDi]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-harunamitrader-codicodi.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-harunamitrader-codicodi.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex CLI を「ローカル UI」と「Discord」で。ひとつの作業セッションをどこからでも共有・操作できる Windows 専用ブリッジツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Edit-Banana]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-bit-datalab-edit-banana.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.112: Opus 4.7 xhigh と /ultrareview を追加]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-claude-code-v2-1-112-opus-47-effort.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Opus 4.7 向けの xhigh effort、対話式 /effort、クラウドでの包括レビュー、PowerShell tool の展開が入った更新です。]]></description>
     </item>
   </channel>
 </rss>
