@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-sickn33-antigravity-awesome-skills",
+      "title": "Antigravity Awesome Skills",
+      "dek": "1,400種類以上の「知能」をエージェントに。Antigravity や Claude Code の能力を極限まで拡張する、インストール可能な巨大スキルライブラリ。",
+      "summary": "1,400以上のエージェント用スキルを収録した、オープンソースのスキル集。専用のインストーラー CLI を通じて、Antigravity や Claude Code 等へ即座に機能をプラグインできます。開発、リサーチ、運用など多岐にわたるタスクの自動化手順を網羅した、AI 時代の新しいアセットです。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T04:49:00+09:00",
+      "repoName": "sickn33/antigravity-awesome-skills",
+      "repoUrl": "https://github.com/sickn33/antigravity-awesome-skills",
+      "starCount": 1,
+      "articleUrl": "./articles/github/daily/2026-04-18-sickn33-antigravity-awesome-skills.html",
+      "serial": 259,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-harunamitrader-antigravity-discord-bot",
       "title": "Antigravity Discord Bot",
       "dek": "AI エージェントを Discord で連れ歩く。コーディングアシスタント Antigravity の進捗確認と操作をチャット UI へ拡張する専用クライアント。",
