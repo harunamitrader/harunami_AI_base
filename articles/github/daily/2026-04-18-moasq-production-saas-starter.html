@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="moasq/production-saas-starter の概要と、Go と Next.js を使用して堅牢な B2B SaaS を構築するためのスターターキットについての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Production SaaS Starter</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Production SaaS Starter</h1>
+      <p class="article-dek">「適当」を排した実戦仕様。Go + Next.js で構築する、ヘキサゴナルアーキテクチャ採用の B2B SaaS スターターキット。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/moasq/production-saas-starter" target="_blank" rel="noreferrer">
+              moasq/production-saas-starter
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,600</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          <code>Production SaaS Starter</code> は、中〜大規模な B2B SaaS を迅速かつ堅牢に立ち上げるために設計された、本番導入レベルのプロジェクトテンプレートです。バックエンドに <strong>Go</strong>、フロントエンドに <strong>Next.js</strong> を採用し、アーキテクチャには保守性の高さで知られる <strong>Hexagonal Architecture</strong> を全面的に導入しています。単なる「動くもの」ではなく、10年後もメンテナンス可能な構造を目指した、エンジニア志向の強いスターターキットです。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>B2B 向けマルチテナンシー：</strong> 企業（テナント）ごとのデータ分離や、組織管理機能を標準で備えています。</li>
+          <li><strong>モジュラーモノリス設計：</strong> 各機能をモジュールとして独立させつつモノリスとして管理。マイクロサービス化への移行パスを確保しつつ、開発の摩擦を最小化します。</li>
+          <li><strong>堅牢な実装パターン：</strong> DTO（Data Transfer Object）や Repository パターンの徹底により、ビジネスロジックと外部インフラ（DBなど）を明確に分離した「疎結合」な実装が学べます。</li>
+          <li><strong>組織的な権限管理（RBAC）：</strong> 管理者、メンバーなどのロールベースのアクセス制御を、Go ベースのバックエンドで型安全に実装済み。</li>
+          <li><strong>モダンな開発環境：</strong> Docker Compose による環境構築、Taskfile による共通タスクの自動化、データベースマイグレーション管理などが初めから統合されています。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          世の中には多くの SaaS テンプレートが存在しますが、その多くは「機能を盛り込む」ことに注力しています。一方このプロジェクトは、「正しい設計を維持する」ことに重きを置いています。特に、依存関係の逆転を活かしたヘキサゴナルアーキテクチャの具体的な Go 実装例は、大規模開発に携わるエンジニアにとって非常に貴重な教材となります。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリをフォークまたはクローンします。</li>
+          <li><code>docker-compose up</code> でデータベース等のインフラを起動します。</li>
+          <li>Taskfile (<code>task</code> コマンド) を使用して、バックエンドとフロントエンドの依存関係を解決・起動します。</li>
+          <li>同梱されているリファレンス実装（User 管理や Auth 周り）を参考に、独自のビジネスロジックを追加していきます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>スタートアップの CTO やリードエンジニアで、将来の拡張を見据えた最適なアーキテクチャで SaaS を始めたい人。</li>
+          <li>Go を使った「正しい大規模設計」のベストプラクティスを、動くコードを通じて学びたい開発者。</li>
+          <li>認証、組織管理、RBAC などの「車輪の再発明」を避け、ビジネスの本質となる機能開発に集中したい人。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          高度な抽象化が行われているため、小規模な使い捨てアプリを開発する場合にはオーバーエンジニアリングに感じる可能性があります。アーキテクチャ自体が学習コストを要するため、チームメンバー全員がヘキサゴナルアーキテクチャの意図を理解して運用することが、本プロジェクトのメリットを最大化する鍵となります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>Production SaaS Starter</code> は、エンジニアによるエンジニアのための SaaS 基盤です。技術選定からフォルダ構成、通信プロトコルに至るまで「本番で通用するか」という基準で削ぎ落とされたその構造は、次世代の Web システムを構築する上での強力な武器になるはずです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/moasq/production-saas-starter" target="_blank" rel="noreferrer">moasq/production-saas-starter</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

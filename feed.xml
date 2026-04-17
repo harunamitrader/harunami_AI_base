@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 20:05:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:07:55 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Production SaaS Starter]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-moasq-production-saas-starter.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-moasq-production-saas-starter.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「適当」を排した実戦仕様。Go + Next.js で構築する、ヘキサゴナルアーキテクチャ採用の B2B SaaS スターターキット。]]></description>
+    </item>
     <item>
       <title><![CDATA[D3.js]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-d3-d3.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Googleが開発した、ディープラーニング駆動による超高速・高精度なファイルタイプ（MIME）判定ツール。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[wacli]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-steipete-wacli.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-steipete-wacli.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[WhatsApp をターミナルから完全にコントロール。メッセージの送受信やメディア操作が可能な軽量CLIクライアント。]]></description>
     </item>
   </channel>
 </rss>

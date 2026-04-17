@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-moasq-production-saas-starter",
+      "title": "Production SaaS Starter",
+      "dek": "「適当」を排した実戦仕様。Go + Next.js で構築する、ヘキサゴナルアーキテクチャ採用の B2B SaaS スターターキット。",
+      "summary": "Go と Next.js を軸とした、本番導入レベルの B2B SaaS テンプレート。ヘキサゴナルアーキテクチャやモジュラーモノリス構造を採用し、マルチテナンシー、組織管理、権限管理（RBAC）といった機能を高い保守性で実装済みです。将来の拡張性を見据えた高品質なアーキテクチャで開発を始めたいエンジニアにとって、究極のスターターキットと言えます。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T05:07:00+09:00",
+      "repoName": "moasq/production-saas-starter",
+      "repoUrl": "https://github.com/moasq/production-saas-starter",
+      "starCount": 1600,
+      "articleUrl": "./articles/github/daily/2026-04-18-moasq-production-saas-starter.html",
+      "serial": 262,
+      "originType": "pickup",
+      "genre": "学習ガイド・開発アセット"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-d3-d3",
       "title": "D3.js",
       "dek": "データを生命へ。SVG と HTML を自在に操り、世界最高峰のデータビジュアライゼーションを実現する JavaScript ライブラリの金字塔。",
