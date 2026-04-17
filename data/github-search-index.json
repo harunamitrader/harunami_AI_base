@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-16T21:10:26.873804+00:00",
-  "count": 264,
+  "generatedAt": "2026-04-17T01:16:48.849935+00:00",
+  "count": 265,
   "articles": [
+    {
+      "slug": "2026-04-17-sirmalloc-ccstatusline",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "ccstatusline",
+      "dek": "Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。",
+      "summary": "sirmalloc/ccstatusline は、Claude Code CLI にリアルタイムのメトリクス表示と視覚的な装飾を追加するアドオンです。トークン速度、メモリ使用量、Git状態などを表示でき、TUIエディタで直感的に構成を変更可能です。",
+      "repoName": "sirmalloc/ccstatusline",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T10:15:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-17-sirmalloc-ccstatusline.html",
+      "serial": 246,
+      "searchText": "ccstatusline Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。 sirmalloc/ccstatusline は、Claude Code CLI にリアルタイムのメトリクス表示と視覚的な装飾を追加するアドオンです。トークン速度、メモリ使用量、Git状態などを表示でき、TUIエディタで直感的に構成を変更可能です。 sirmalloc/ccstatusline AIコーディング (CLI本体・拡張機能) ccstatusline ← 記事一覧へ戻る GitHub Watcher ccstatusline Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。 記事作成日 2026-04-17 種別 Pickup 対象 repo sirmalloc/ccstatusline Star数 7,700 これは何か Anthropic が提供する AI コーディングエージェントの CLI 版である「Claude Code」に対して、ターミナルの最下部に実用的な情報や視覚的なアクセントを追加するステータスライン・アドオンです。従来のターミナルツールで見られる Powerline 風の洗練された UI を、簡単な設定で導入できます。 何ができるか Claude Code の実行状況に合わせて、以下のインターフェースおよびメトリクスをリアルタイムに表示します。 モデル・セッション情報： 使用中のモデル名やセッション時間、現在のトークン消費量。 Git ステータス： 現在のブランチ名、変更（Uncommitted）の有無、GitHub へのクリック可能なリンク。 パフォーマンスメトリクス： トークン生成速度（Input/Output Speed）、メモリ使用量。 リソース管理： 残り使用制限（Weekly/Session Usage）やクールダウンのタイマー表示。 目立つポイント 最大の特徴は、ソースコードを直接触ることなく、起動中に w キーを押すだけで開ける TUI（Terminal User Interface）ベースの設定エディタ です。表示したいウィジェットの選択、色の変更、テーマの切り替え（Powerline、Minimalist など）が対話的に行えます。また、OSC8 によるクリック可能なリンクにも対応しており、ターミナルから直接 GitHub ページや PR を開くことが可能です。 セットアップや使い方の流れ Node.js 環境があれば、 npm や bun で簡単にインストール・実行できます。 npm install -g ccstatusline でグローバルインストール。 Claude Code を実行しているディレクトリで、 claude | ccstatusline のようにパイプで繋いで起動します。 起動後、 w キーでウィジェット構成を変更したり、テーマをカスタマイズしたりできます。 どんな人向けか Claude Code を日常的に利用しており、現在のトークン消費や Git の状態を常に把握しながら開発したいエンジニアに最適です。特に、Vim/Neovim のようなこだわりのあるターミナル環境を好むユーザーにとって、強力な「コクピット」の拡張要素となるでしょう。 注意点 実行には Claude Code CLI 本体が必要です。また、Powerline 特有の記号（矢印など）を正しく表示するには、Nerd Fonts などのパッチ済みフォントの使用が推奨されます。 まとめ ccstatusline は、単なる視覚的な装飾を超え、AI エージェントとの対話型開発において不可欠な「状況認識（Situational Awareness）」を高めてくれるツールです。カスタマイズ性の高さと、TUI による設定の容易さが非常に優秀なプロダクトといえます。 参照リンク sirmalloc/ccstatusline"
+    },
     {
       "slug": "2026-04-17-update-report",
       "category": "github-update-report",

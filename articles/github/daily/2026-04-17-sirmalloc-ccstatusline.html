@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="sirmalloc/ccstatusline を読み、Claude Code CLI 用のステータスライン機能の要約と活用ポイントを整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ccstatusline</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">ccstatusline</h1>
+      <p class="article-dek">Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/sirmalloc/ccstatusline" target="_blank" rel="noreferrer">
+              sirmalloc/ccstatusline
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>7,700</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Anthropic が提供する AI コーディングエージェントの CLI 版である「Claude Code」に対して、ターミナルの最下部に実用的な情報や視覚的なアクセントを追加するステータスライン・アドオンです。従来のターミナルツールで見られる Powerline 風の洗練された UI を、簡単な設定で導入できます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          Claude Code の実行状況に合わせて、以下のインターフェースおよびメトリクスをリアルタイムに表示します。
+        </p>
+        <ul>
+          <li><strong>モデル・セッション情報：</strong> 使用中のモデル名やセッション時間、現在のトークン消費量。</li>
+          <li><strong>Git ステータス：</strong> 現在のブランチ名、変更（Uncommitted）の有無、GitHub へのクリック可能なリンク。</li>
+          <li><strong>パフォーマンスメトリクス：</strong> トークン生成速度（Input/Output Speed）、メモリ使用量。</li>
+          <li><strong>リソース管理：</strong> 残り使用制限（Weekly/Session Usage）やクールダウンのタイマー表示。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、ソースコードを直接触ることなく、起動中に <code>w</code> キーを押すだけで開ける <strong>TUI（Terminal User Interface）ベースの設定エディタ</strong> です。表示したいウィジェットの選択、色の変更、テーマの切り替え（Powerline、Minimalist など）が対話的に行えます。また、OSC8 によるクリック可能なリンクにも対応しており、ターミナルから直接 GitHub ページや PR を開くことが可能です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Node.js 環境があれば、<code>npm</code> や <code>bun</code> で簡単にインストール・実行できます。
+        </p>
+        <ol>
+          <li><code>npm install -g ccstatusline</code> でグローバルインストール。</li>
+          <li>Claude Code を実行しているディレクトリで、<code>claude | ccstatusline</code> のようにパイプで繋いで起動します。</li>
+          <li>起動後、<code>w</code> キーでウィジェット構成を変更したり、テーマをカスタマイズしたりできます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          Claude Code を日常的に利用しており、現在のトークン消費や Git の状態を常に把握しながら開発したいエンジニアに最適です。特に、Vim/Neovim のようなこだわりのあるターミナル環境を好むユーザーにとって、強力な「コクピット」の拡張要素となるでしょう。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          実行には Claude Code CLI 本体が必要です。また、Powerline 特有の記号（矢印など）を正しく表示するには、Nerd Fonts などのパッチ済みフォントの使用が推奨されます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>ccstatusline</code> は、単なる視覚的な装飾を超え、AI エージェントとの対話型開発において不可欠な「状況認識（Situational Awareness）」を高めてくれるツールです。カスタマイズ性の高さと、TUI による設定の容易さが非常に優秀なプロダクトといえます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/sirmalloc/ccstatusline" target="_blank" rel="noreferrer">sirmalloc/ccstatusline</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

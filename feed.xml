@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2026 21:13:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 10:16:48 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-17 アップデートレポート]]></title>
@@ -14,6 +14,14 @@
       <category>github-update-report</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ccstatusline]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-sirmalloc-ccstatusline.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-sirmalloc-ccstatusline.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。]]></description>
     </item>
     <item>
       <title><![CDATA[GenericAgent]]></title>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[andrej-karpathy-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Andrej Karpathy 氏の知見をベースに、Claude Code 等のAIエージェントのコーディング精度を劇的に向上させるカスタム CLAUDE.md。]]></description>
     </item>
   </channel>
 </rss>

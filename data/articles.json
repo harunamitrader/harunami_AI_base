@@ -18,6 +18,22 @@
       "serial": 19
     },
     {
+      "category": "github-pickup",
+      "slug": "2026-04-17-sirmalloc-ccstatusline",
+      "title": "ccstatusline",
+      "dek": "Claude Code CLI のための、美しく高度にカスタマイズ可能なステータスライン。",
+      "summary": "sirmalloc/ccstatusline は、Claude Code CLI にリアルタイムのメトリクス表示と視覚的な装飾を追加するアドオンです。トークン速度、メモリ使用量、Git状態などを表示でき、TUIエディタで直感的に構成を変更可能です。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T10:15:00+09:00",
+      "repoName": "sirmalloc/ccstatusline",
+      "repoUrl": "https://github.com/sirmalloc/ccstatusline",
+      "starCount": 7700,
+      "articleUrl": "./articles/github/daily/2026-04-17-sirmalloc-ccstatusline.html",
+      "serial": 246,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-trending",
       "slug": "2026-04-17-lsdefine-genericagent",
       "title": "GenericAgent",
