@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-17-m1k1o-neko",
+      "title": "neko",
+      "dek": "Docker 内で動く自分専用のブラウザを WebRTC で低遅延ストリーミング。複数人での共同操作やウォッチパーティーに最適なセルフホスト型仮想ブラウザ。",
+      "summary": "Docker 内でブラウザ等のアプリを起動し、WebRTC で複数名にストリーミング共有できる仮想ブラウザ基盤。低遅延な画面共有、制御権の受け渡し、チャット機能を備え、プライバシーを保護しながらウォッチパーティーや共同開発に活用可能です。",
+      "publishedAt": "2026-04-17",
+      "createdAt": "2026-04-17T20:05:00+09:00",
+      "repoName": "m1k1o/neko",
+      "repoUrl": "https://github.com/m1k1o/neko",
+      "starCount": 20600,
+      "articleUrl": "./articles/github/daily/2026-04-17-m1k1o-neko.html",
+      "serial": 252,
+      "originType": "pickup",
+      "genre": "生産性向上・AIエージェント"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-17-shin-sibainu-ccmux",
       "title": "ccmux",
       "dek": "Claude Code をマルチペインで同時に動かす。並列タスクとファイル管理をひとつの TUI に統合するターミナルマルチプレクサ。",

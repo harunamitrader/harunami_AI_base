@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="m1k1o/neko の概要と、WebRTC を利用して Docker コンテナ内のブラウザを共有・操作するセルフホスト型仮想ブラウザについての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>neko</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">neko</h1>
+      <p class="article-dek">Docker 内で動く自分専用のブラウザを WebRTC で低遅延ストリーミング。複数人での共同操作やウォッチパーティーに最適なセルフホスト型仮想ブラウザ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-17</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/m1k1o/neko" target="_blank" rel="noreferrer">
+              m1k1o/neko
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>20,600</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Docker コンテナ内で動作する仮想ブラウザを、WebRTC テクノロジーを用いてリモートから操作・閲覧できるオープンソースのセルフホスト型プラットフォームです。自分のサーバーに閉じた環境でブラウザを走らせ、特定の URL を複数人で同時に見たり、制御権を渡して共同作業を行ったりすることができます。かつて人気だった Rabb.it などのウォッチパーティーサービスのセルフホスト版として、強力な支持を得ているプロジェクトです。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>WebRTC による超低遅延：</strong> 画面の書き換えを WebSockets などの静止画転送ではなく WebRTC ストリーミングで行うため、動画再生も極めてスムーズです。</li>
+          <li><strong>共同ブラウジング：</strong> 同時に複数のユーザーがルームに入り、同じブラウザ画面を共有できます。チャット機能や、マウス・キーボードの制御権をワンクリックでリクエスト/受け渡しする機能を備えています。</li>
+          <li><strong>多様なアプリケーション：</strong> デフォルトの Chromium や Firefox 以外にも、VLC やデスクトップ全体（XFCE 等）をコンテナ内で起動して共有することも可能です。</li>
+          <li><strong>プライバシーとセキュリティ：</strong> セルフホスト型のため、履歴やクッキーなどの機密データはすべて自分の管理下にある環境に留まり、クライアント（閲覧者）側には動画ストリームのみが送信されます。</li>
+          <li><strong>自動化連携：</strong> API や neko-rooms を活用することで、オンデマンドで仮想ルームを作成・破棄するような高度な運用も可能です。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          単なるリモートデスクトップ（VNC/RDP）とは異なり、ブラウザ内に閉じた「ウェブアプリ」として構築されているため、特別なクライアントソフトなしに高品質なオーディオ・ビデオ共有ができる点が非常に優秀です。また、VR Chat のワールド内にブラウザを持ち込んで友達と動画を見るなど、クリエイティブな用途にも幅広く使われています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li><code>docker-compose.yaml</code> を用意し、<code>m1k1o/neko:chromium</code> などのイメージを指定して起動します。</li>
+          <li>ブラウザで指定したポート（デフォルト 8080 等）にアクセスし、ルーム名とパスワードを設定。</li>
+          <li>ルームに入ると、コンテナ内で動いているブラウザが表示されます。画面右側のパネルから、制御権の切り替えやチャット、設定変更が行えます。</li>
+          <li>他のユーザーを招待して、一緒に動画を見たり、サイトのデバッグをしたりして活用します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>離れた場所にいる友達や家族と、同期ズレなしに高画質でアニメや映画を鑑賞したい人。</li>
+          <li>開発チームで、OS や環境に依存しない「共有された開発用ブラウザ」を使ってペアプロやデバッグを行いたいエンジニア。</li>
+          <li>サーバー上で動作する常時起動ブラウザを確保し、どこからでも自分の環境にアクセスしたいパワーユーザー。</li>
+          <li>VR 空間や特定のウェブページ内に、インタラクティブな仮想ブラウザ機能を埋め込みたい開発者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          WebRTC を使用するため、サーバーに一定以上の帯域と、UDP ポートの開放（NAT 越えのための STUN/TURN 構成が必要な場合あり）が求められます。また、複数のユーザーで同時に動画をストリーミングする場合、サーバー側の CPU リソースもそれなりに消費します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>neko</code> は、「ブラウザを共有する」というシンプルながら強力な体験を、セルフホストという究極の自由度で提供してくれます。ウォッチパーティー、共同作業、リモートデバッグ、プライベートブラウジングなど、その使い道はユーザーの想像力次第で無限に広がります。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/m1k1o/neko" target="_blank" rel="noreferrer">m1k1o/neko</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
