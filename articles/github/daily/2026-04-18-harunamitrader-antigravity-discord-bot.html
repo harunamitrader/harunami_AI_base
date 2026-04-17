@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="harunamitrader/antigravity-discord-bot の概要と、AI コーディングエージェント Antigravity を Discord から操作するボットについての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Antigravity Discord Bot</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Antigravity Discord Bot</h1>
+      <p class="article-dek">AI エージェントを Discord で連れ歩く。コーディングアシスタント Antigravity の進捗確認と操作をチャット UI へ拡張する専用クライアント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/harunamitrader/antigravity-discord-bot" target="_blank" rel="noreferrer">
+              harunamitrader/antigravity-discord-bot
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>0</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          強力な AI コーディングエージェント「Antigravity」を、Discord 上から操作・監視するための専用ボットクライアントです。ローカル環境で動作している Antigravity のインスタンスと連携し、本来ターミナルや専用 UI で行う操作を、普段使いのコミュニケーションツールである Discord へと中継します。これにより、開発作業の進捗を場所を選ばずに確認したり、簡単な指示を外出先から飛ばしたりすることが可能になります。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>チャットベースの指示出し：</strong> Discord チャンネルに命令を書き込むことで、Antigravity にコードの生成や修正、リサーチを開始させることができます。</li>
+          <li><strong>ライブプログレス通知：</strong> エージェントが現在何をしているのか、どのファイルに手を加えたのか、実行結果はどうだったのかといった詳細な進捗を、テキストやコードブロックでリアルタイムに受信できます。</li>
+          <li><strong>成果物の直接受け取り：</strong> AI が生成したファイルや、分析したレポートなどを、Discord の添付ファイルとして即座に受け取ることが可能です。</li>
+          <li><strong>スレッドによる文脈管理：</strong> Discord のスレッド機能を活用し、複数の異なる開発タスク（機能追加 A、バグ修正 B など）を、文脈を混在させることなく並列で管理・追跡できます。</li>
+          <li><strong>モバイルからの制御：</strong> PC の前にいなくても、スマホの Discord アプリからエージェントの熱暴走を止めたり、生成結果へのフィードバックを返したりできます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          AI コーディングエージェントは高度な作業を行うため、完了までに時間がかかる場合があります。 Antigravity Discord Bot は、その「待ち時間」を自由な時間に変えてくれます。「PC を閉じて休憩している間に、エージェントが仕事を終えたら Discord に通知が来る」というワークフローを構築できるため、開発者のメンタル負荷を大幅に軽減しつつ、マシンの計算資源を最大活用できるようになります。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Antigravity 本体が正常に稼働している環境を用意します。</li>
+          <li>リポジトリをクローンし、必要なライブラリをインストールします。</li>
+          <li>Discord Developer Portal で Bot を作成し、Antigravity との通信に必要な API キーや Bot トークンを <code>.env</code> に設定します。</li>
+          <li>Bot を起動すると Discord サーバーにオンラインで現れます。</li>
+          <li>専用のチャンネルやスレッドで <code>/ask</code> やメッセージ送信を行い、エージェントとの共同作業を開始します。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Antigravity エージェントを愛用しており、その操作性をさらに拡張したい開発者。</li>
+          <li>長時間のコード生成やテスト実行の待ち時間を効率化し、通知ベースで作業を進めたい人。</li>
+          <li>複数人で開発を進めている Discord サーバーにおいて、AI 助手による作業ログをチーム全体に共有したいグループ。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          Antigravity 本体との通信プロトコルや API 仕様に依存するため、本体側のアップデートに合わせたメンテナンスが必要です。また、コードやパスなどの機密情報が Discord のログとして残るため、プライベートなサーバーやチャンネルで、セキュリティ設定を適切に行った上で運用することが推奨されます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>Antigravity Discord Bot</code> は、AI エージェントをターミナルという「閉じた空間」から、Discord という「開かれたコミュニケーション空間」へと連れ出すツールです。ツールと対話するのではなく、あたかも頼もしい相棒とチャットしているかのような感覚で開発を進める。そんな、新しい時代のソフトウェア開発体験を提供してくれる基盤です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/harunamitrader/antigravity-discord-bot" target="_blank" rel="noreferrer">harunamitrader/antigravity-discord-bot</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

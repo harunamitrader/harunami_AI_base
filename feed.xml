@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 19:21:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 04:21:14 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Antigravity Discord Bot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-harunamitrader-antigravity-discord-bot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-harunamitrader-antigravity-discord-bot.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI エージェントを Discord で連れ歩く。コーディングアシスタント Antigravity の進捗確認と操作をチャット UI へ拡張する専用クライアント。]]></description>
+    </item>
     <item>
       <title><![CDATA[CLI Prompt Cron]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-harunamitrader-cli-prompt-cron.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[機械学習を用いたアルゴリズムトレードの「金字塔」を集約。書籍から論文、コード、ポッドキャストまで網羅した厳選リソース集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Ars Contexta]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-agenticnotetaking-arscontexta.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-agenticnotetaking-arscontexta.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[対話から「AI エージェント専用の知識システム」を自動生成。Claude Code と連携し、思考を構造化・永続化する知的インフラ。]]></description>
     </item>
   </channel>
 </rss>

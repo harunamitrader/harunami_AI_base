@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-harunamitrader-antigravity-discord-bot",
+      "title": "Antigravity Discord Bot",
+      "dek": "AI エージェントを Discord で連れ歩く。コーディングアシスタント Antigravity の進捗確認と操作をチャット UI へ拡張する専用クライアント。",
+      "summary": "AI コーディングエージェント Antigravity を Discord からリモート操作・監視するためのボット。課題の指示、リアルタイム進捗通知、成果物の受け取りなどを Discord チャンネル上で行えます。スレッド機能によるタスクごとの文脈管理にも対応し、モバイルからの監視も可能です。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T04:20:00+09:00",
+      "repoName": "harunamitrader/antigravity-discord-bot",
+      "repoUrl": "https://github.com/harunamitrader/antigravity-discord-bot",
+      "starCount": 0,
+      "articleUrl": "./articles/github/daily/2026-04-18-harunamitrader-antigravity-discord-bot.html",
+      "serial": 258,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-harunamitrader-cli-prompt-cron",
       "title": "CLI Prompt Cron",
       "dek": "AI への定期命令を自動化。Claude Code や Gemini CLI をスケジュール実行し、ダッシュボードで監視する管理デーモン。",
