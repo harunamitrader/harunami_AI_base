@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 20:10:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:25:57 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[Production SaaS Starter]]></title>
@@ -88,6 +88,14 @@
       <description><![CDATA[Alpaca 公式の MCP サーバーが登場。Cursor や Claude から「 Tesla 10株買って」と指示するだけで、株・暗号資産の取引から分析まで完結。]]></description>
     </item>
     <item>
+      <title><![CDATA[Gemini CLI v0.38.2: stable パッチを再発行]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-gemini-cli-v0-38-2-patch.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-17-gemini-cli-v0-38-2-patch.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[v0.38.1 の修正を再取り込みし、stable 系の latest タグが v0.38.2 に進みました。]]></description>
+    </item>
+    <item>
       <title><![CDATA[2026-04-17 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-17-update-report.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-17-update-report.html</guid>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Vercel社が提供する、クラウド環境でスケーラブルなAIエージェントを構築するためのオープンソーステンプレート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[magika]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-google-magika.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-google-magika.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Googleが開発した、ディープラーニング駆動による超高速・高精度なファイルタイプ（MIME）判定ツール。]]></description>
     </item>
   </channel>
 </rss>

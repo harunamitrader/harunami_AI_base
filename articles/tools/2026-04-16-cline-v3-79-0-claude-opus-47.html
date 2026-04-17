@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cline v3.79.0 の更新内容を日本語で整理した記事。Claude Opus 4.7 対応と Azure Blob Storage 追加を確認する。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Cline v3.79.0: Claude Opus 4.7 対応と Azure Blob Storage 追加</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← ツール監視一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Cline v3.79.0: Claude Opus 4.7 対応と Azure Blob Storage 追加</h1>
+      <p class="article-dek">Claude Opus 4.7 のサポートを追加し、リモート設定とストレージ周りも拡張されたアップデートです。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-16</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v3.79.0</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Cline</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Cline の v3.79.0 は、モデル対応と設定基盤の両方を前進させる更新です。GitHub Releases の変更点を見ると、まず Claude Opus 4.7 のモデルサポートが追加され、最新の Anthropic 系モデルをそのまま選べるようになりました。</p>
+        <ul>
+          <li><strong>Claude Opus 4.7 対応:</strong> より新しいモデルを Cline から直接利用できます。</li>
+          <li><strong>Azure Blob Storage 追加:</strong> ストレージプロバイダーに Azure Blob Storage が入り、保存先の選択肢が広がりました。</li>
+          <li><strong>remote config の拡張:</strong> <code>globalSkills</code> の追加や、ユーザーレベルの remote-config 探索での値再利用が入っています。</li>
+          <li><strong>修正と整理:</strong> cache reflection の修正、<code>command_output</code> の停止問題修正、非推奨の <code>evals</code> ツール削除が含まれます。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Claude Opus 4.7 を使いたい人にとっては、モデル一覧の更新が一番の恩恵です。加えて、Azure Blob Storage や remote config の拡張は、チーム運用や複数環境での設定共有を行う場面で効いてきます。</p>
+
+        <h2>注意点</h2>
+        <p>このリリースには action injection のセキュリティ修正も含まれます。機能追加だけでなく安全性の更新でもあるので、Cline を継続利用しているなら早めに追従しておくのが無難です。</p>
+
+        <h2>まとめ</h2>
+        <p>v3.79.0 は「新モデルに追従しつつ、設定と安全性を整える」タイプの更新です。派手さはありませんが、日常運用の基盤を着実に更新する内容です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/cline/cline/releases/tag/v3.79.0" target="_blank" rel="noreferrer">Cline v3.79.0 Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

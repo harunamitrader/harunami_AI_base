@@ -7,6 +7,42 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-17-gemini-cli-v0-38-2-patch",
+      "title": "Gemini CLI v0.38.2: stable パッチを再発行",
+      "dek": "v0.38.1 の修正を再取り込みし、stable 系の latest タグが v0.38.2 に進みました。",
+      "summary": "Gemini CLI v0.38.2 は、v0.38.1 系の修正を cherry-pick した stable パッチです。機能追加ではなく、latest タグ更新として確認しておくべきメンテナンスリリースです。",
+      "publishedAt": "2026-04-17",
+      "toolName": "Gemini CLI",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli/releases",
+      "articleUrl": "./articles/tools/2026-04-17-gemini-cli-v0-38-2-patch.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-16-cline-v3-79-0-claude-opus-47",
+      "title": "Cline v3.79.0: Claude Opus 4.7 対応と Azure Blob Storage 追加",
+      "dek": "Claude Opus 4.7 のサポートを追加し、リモート設定とストレージ周りも拡張されたアップデートです。",
+      "summary": "Cline v3.79.0 は、Claude Opus 4.7 対応、Azure Blob Storage 追加、remote config の強化、action injection のセキュリティ修正を含む更新です。",
+      "publishedAt": "2026-04-16",
+      "toolName": "Cline",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline/releases",
+      "articleUrl": "./articles/tools/2026-04-16-cline-v3-79-0-claude-opus-47.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-16-openai-codex-for-almost-everything",
+      "title": "OpenAI Codex for (almost) everything: PC 操作と継続作業を広げる大型更新",
+      "dek": "Codex が開発作業の範囲を PC 操作まで広げ、継続タスクやフロントエンド反復にも使いやすくなりました。",
+      "summary": "OpenAI Codex は PC 操作、画像生成、記憶、継続タスク、PR レビュー、SSH 接続、内蔵ブラウザを含む大型更新で、コーディング専用から開発ワークフロー全体へ射程を広げました。",
+      "publishedAt": "2026-04-16",
+      "toolName": "OpenAI Codex",
+      "repoName": "openai/codex",
+      "repoUrl": "https://openai.com/index/codex-for-almost-everything/",
+      "articleUrl": "./articles/tools/2026-04-16-openai-codex-for-almost-everything.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-17-update-report",
       "title": "2026-04-17 アップデートレポート",
