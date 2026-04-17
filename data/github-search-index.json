@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-17T01:36:39.921421+00:00",
-  "count": 266,
+  "generatedAt": "2026-04-17T01:42:44.058257+00:00",
+  "count": 264,
   "articles": [
     {
       "slug": "2026-04-17-sirmalloc-ccstatusline",
@@ -195,7 +195,7 @@
       "createdAt": "2026-04-17T10:35:00+09:00",
       "articleUrl": "./articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html",
       "serial": 247,
-      "searchText": "andrej-karpathy-skills Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。 AI 研究の第一人者 Andrej Karpathy 氏の観察に基づく、LLM コーディングの落とし穴を回避するための行動指針（CLAUDE.md テンプレート）を提供するリポジトリです。「思考優先」「シンプルさ」「surgical な変更」といった原則により、AI エージェントの精度を劇的に向上させます。 forrestchang/andrej-karpathy-skills AIコーディング (CLI本体・拡張機能) andrej-karpathy-skills ← 記事一覧へ戻る GitHub Watcher andrej-karpathy-skills Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。 記事作成日 2026-04-16 種別 Pickup 対象 repo forrestchang/andrej-karpathy-skills Star数 50,000 これは何か AI 研究・開発の第一人者である Andrej Karpathy 氏が指摘した、「LLM がコーディング中に陥りがちな落とし穴」を回避するための具体的な行動指針をまとめたリポジトリです。Claude Code をはじめとする AI エージェントの挙動を、よりシンプルで、確実で、余計なことをしない「熟練エンジニア」へと近づけるための高品質な CLAUDE.md テンプレートを提供しています。 なぜこれが必要か（LLM の弱点） Karpathy 氏は、現在の LLM コーディングには以下の 3 つの大きな問題があるとしています。 勝手な推測： 本来質問すべき不明点に対し、勝手に憶測で進めてしまう。 複雑化（Bloat）： 100 行で済むものを 1000 行の過剰な抽象化で構築してしまう。 無駄な変更： 関係ないコメントを消したり、壊れていない隣接コードを「修正」してしまう。 解決のための 4 つの原則 このリポジトリでは、これらの弱点を克服するために以下の 4 つのルールを CLAUDE.md に含めることを推奨しています。 1. 実装前にまず思考せよ (Think Before Coding) 勝手に推測せず、曖昧な点はまず質問することを優先します。複数の解釈がある場合は独断せず、ユーザーに選択肢を提示させます。 2. シンプルさを最優先に (Simplicity First) 「将来のため」といった憶測での機能追加や、不必要な抽象化を禁じます。目的を達成する最小限のコードにこだわります。 3. 「外科手術」のようなピンポイント変更 (Surgical Changes) 修正が必要な箇所だけを触り、関係ないリファクタリングやフォーマット変更を行わないよう徹底します。差分（Diff）を極限までクリーンに保ちます。 4. ゴール駆動の実行 (Goal-Driven Execution) 「とりあえず修正して」を、「テストを成功させる」などの検証可能なゴールに変換させます。特に多段階のタスクでは、実行ごとに検証を挟むループを回します。 推奨：CLAUDE.md 日本語記述例 自身のプロジェクトに導入する際、以下の内容を CLAUDE.md に追記（または上書き）することで、AI のコーディング精度が大幅に向上します。 ## 行動指針 (Karpathy-style) AI特有のコーディングミスを減らすため、以下の原則を厳守してください。 ### 1. 実装前の思考と確認 - 勝手な推測をせず、不明点があれば実装前に必ず質問すること。 - 複数の解釈ができる場合は、独断で選ばず選択肢を提示すること。 - よりシンプルな設計が可能なら、それを提案すること。 ### 2. シンプルさの追求 - 要求されていない機能や「将来のための拡張性」を追加しない。 - 1回しか使わないコードを抽象化（共通化）しない。 - 200行のコードが50行で書けるなら、迷わず書き直すこと。 ### 3. 外科手術的な変更 - 依頼された修正に関係のない箇所（隣接コード、コメント、フォーマット）を触らない。 - 元からあるデッドコードを見つけた場合は、削除せず報告のみ行う。 - 既存のコードスタイルに100%合わせること。 ### 4. ゴールの定義と検証 - タスクを「検証可能なゴール」に変換してから着手すること。 - (例: 「バグ修正」→「失敗するテストを書き、それをパスさせる」) - 複雑なタスクでは [手順] → [検証] の形式で計画を立て、ループを回すこと。 まとめ forrestchang/andrej-karpathy-skills は、AI との共同開発において「AI をどう制御するか」というベストプラクティスが詰まった非常に価値のあるリソースです。これを導入することで、無駄なリテイクやバグの混入を劇的に減らすことができるでしょう。 参照リンク forrestchang/andrej-karpathy-skills"
+      "searchText": "andrej-karpathy-skills Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。 AI 研究の第一人者 Andrej Karpathy 氏の観察に基づく、LLM コーディングの落とし穴を回避するための行動指針（CLAUDE.md テンプレート）を提供するリポジトリです。「思考優先」「シンプルさ」「surgical な変更」といった原則により、AI エージェントの精度を劇的に向上させます。 forrestchang/andrej-karpathy-skills AIコーディング (CLI本体・拡張機能) andrej-karpathy-skills ← 記事一覧へ戻る GitHub Watcher andrej-karpathy-skills Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。 記事作成日 2026-04-16 種別 Pickup 対象 repo forrestchang/andrej-karpathy-skills Star数 50,000 これは何か AI 研究・開発の第一人者である Andrej Karpathy 氏が指摘した、「LLM がコーディング中に陥りがちな落とし穴」を回避するための具体的な行動指針をまとめたリポジトリです。Claude Code をはじめとする AI エージェントの挙動を制御するための CLAUDE.md のベースを提供しています。 目玉となる特徴 最大の特徴は、AI が勝手に行う「推測」や「過剰なコード生成」を厳格に制限する 4 つの原則です。これにより、AI はより確実に、かつ余計なことをしない「ベテランエンジニア」のように振る舞うようになります。 もっと詳しく知る このプロジェクトが提唱する **4つの原則の詳細解説** や、そのまま使える **日本語版 CLAUDE.md テンプレート** など、踏み込んだ内容は以下の詳細ページにまとめています。 👉 Karpathy 流 CLAUDE.md 実践ガイド・詳細解説を見る どんな人向けか Claude Code などの AI コーディングツールを利用しており、生成されるコードの「肥大化」や「勝手な変更」に悩んでいる開発者に最適です。 参照リンク forrestchang/andrej-karpathy-skills"
     },
     {
       "slug": "2026-04-16-getmaxun-maxun",
@@ -286,21 +286,6 @@
       "articleUrl": "./articles/github/reports/2026-04-16-update-report.html",
       "serial": 18,
       "searchText": "2026-04-16 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ GitHub Trending の全順位を確認し、andrej-karpathy-skills, dive-into-llms, ai-hedge-fund, superpowers, public-apis の5件を新規に記事化。 2026-04-16 アップデートレポート - GitHub Watcher ← 記事一覧へ戻る GitHub Watcher 2026-04-16 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 公開日 2026-04-16 本日の調査ランキング（全件） 本日の GitHub Trending のランキングと記事化状況は以下の通りです。 1位: ✨ 新規追加 forrestchang/andrej-karpathy-skills 2位: ✅ 記事作成済み pascalorg/editor 3位: ✅ 記事作成済み thedotmack/claude-mem 4位: ✨ 新規追加 Lordog/dive-into-llms 5位: ✨ 新規追加 virattt/ai-hedge-fund 6位: ✅ 記事作成済み chrislgarry/Apollo-11 7位: ✨ 新規追加 obra/superpowers 8位: ✅ 記事作成済み jamiepine/voicebox 9位: ✨ 新規追加 public-apis/public-apis 10位: 未作成 (vercel-labs/open-agents) 11位: 未作成 (lsdefine/GenericAgent) 12位: 未作成 (google/magika) 13位: 未作成 (Donchitos/Claude-Code-Game-Studios) 今後の展望 本日はAI分野と実践的スキルのドキュメンテーションに関して非常にレベルの高いトレンドが見られました。とりわけAIエージェントが利用する「ツール・指示書・フレームワーク関連」の発展が著しく、Andrej Karpathy氏のLLMコーディング知見を反映させた andrej-karpathy-skills などがトップトレンドとなっています。エージェント向けツールが増加を続けており、ソフトウェア開発体験の自動化が進んでいます。"
-    },
-    {
-      "slug": "2026-04-16-forrestchang-andrej-karpathy-skills",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "andrej-karpathy-skills",
-      "dek": "Andrej Karpathy 氏の知見をベースに、Claude Code 等のAIエージェントのコーディング精度を劇的に向上させるカスタム CLAUDE.md。",
-      "summary": "",
-      "repoName": "forrestchang/andrej-karpathy-skills",
-      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
-      "publishedAt": "2026-04-16",
-      "createdAt": "2026-04-16T05:50:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html",
-      "serial": 230,
-      "searchText": "andrej-karpathy-skills Andrej Karpathy 氏の知見をベースに、Claude Code 等のAIエージェントのコーディング精度を劇的に向上させるカスタム CLAUDE.md。 forrestchang/andrej-karpathy-skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) andrej-karpathy-skills ← 記事一覧へ戻る GitHub Watcher andrej-karpathy-skills Andrej Karpathy 氏の知見を凝縮。Claude Code の「推測」や「過剰なコード」を防ぎ、一流エンジニアの挙動を再現する CLAUDE.md 指針。 記事作成日 2026-04-16 種別 Pickup 対象 repo forrestchang/andrej-karpathy-skills Star数 50,000 これは何か AI 研究・開発の第一人者である Andrej Karpathy 氏が指摘した、「LLM がコーディング中に陥りがちな落とし穴」を回避するための具体的な行動指針をまとめたリポジトリです。Claude Code をはじめとする AI エージェントの挙動を、よりシンプルで、確実で、余計なことをしない「熟練エンジニア」へと近づけるための高品質な CLAUDE.md テンプレートを提供しています。 なぜこれが必要か（LLM の弱点） Karpathy 氏は、現在の LLM コーディングには以下の 3 つの大きな問題があるとしています。 勝手な推測： 本来質問すべき不明点に対し、勝手に憶測で進めてしまう。 複雑化（Bloat）： 100 行で済むものを 1000 行の過剰な抽象化で構築してしまう。 無駄な変更： 関係ないコメントを消したり、壊れていない隣接コードを「修正」してしまう。 解決のための 4 つの原則 このリポジトリでは、これらの弱点を克服するために以下の 4 つのルールを CLAUDE.md に含めることを推奨しています。 1. 実装前にまず思考せよ (Think Before Coding) 勝手に推測せず、曖昧な点はまず質問することを優先します。複数の解釈がある場合は独断せず、ユーザーに選択肢を提示させます。 2. シンプルさを最優先に (Simplicity First) 「将来のため」といった憶測での機能追加や、不必要な抽象化を禁じます。目的を達成する最小限のコードにこだわります。 3. 「外科手術」のようなピンポイント変更 (Surgical Changes) 修正が必要な箇所だけを触り、関係ないリファクタリングやフォーマット変更を行わないよう徹底します。差分（Diff）を極限までクリーンに保ちます。 4. ゴール駆動の実行 (Goal-Driven Execution) 「とりあえず修正して」を、「テストを成功させる」などの検証可能なゴールに変換させます。特に多段階のタスクでは、実行ごとに検証を挟むループを回します。 推奨：CLAUDE.md 日本語記述例 自身のプロジェクトに導入する際、以下の内容を CLAUDE.md に追記（または上書き）することで、AI のコーディング精度が大幅に向上します。 ## 行動指針 (Karpathy-style) AI特有のコーディングミスを減らすため、以下の原則を厳守してください。 ### 1. 実装前の思考と確認 - 勝手な推測をせず、不明点があれば実装前に必ず質問すること。 - 複数の解釈ができる場合は、独断で選ばず選択肢を提示すること。 - よりシンプルな設計が可能なら、それを提案すること。 ### 2. シンプルさの追求 - 要求されていない機能や「将来のための拡張性」を追加しない。 - 1回しか使わないコードを抽象化（共通化）しない。 - 200行のコードが50行で書けるなら、迷わず書き直すこと。 ### 3. 外科手術的な変更 - 依頼された修正に関係のない箇所（隣接コード、コメント、フォーマット）を触らない。 - 元からあるデッドコードを見つけた場合は、削除せず報告のみ行う。 - 既存のコードスタイルに100%合わせること。 ### 4. ゴールの定義と検証 - タスクを「検証可能なゴール」に変換してから着手すること。 - (例: 「バグ修正」→「失敗するテストを書き、それをパスさせる」) - 複雑なタスクでは [手順] → [検証] の形式で計画を立て、ループを回すこと。 まとめ forrestchang/andrej-karpathy-skills は、AI との共同開発において「AI をどう制御するか」というベストプラクティスが詰まった非常に価値のあるリソースです。これを導入することで、無駄なリテイクやバグの混入を劇的に減らすことができるでしょう。 参照リンク forrestchang/andrej-karpathy-skills"
     },
     {
       "slug": "2026-04-16-lordog-dive-into-llms",
@@ -1471,21 +1456,6 @@
       "articleUrl": "./articles/github/reports/2026-04-09-update-report.html",
       "serial": 11,
       "searchText": "2026-04-09 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ GitHub Trendingから本日の全順位を抽出し、karpathy-skills、RedditVideoMakerBot、superpowers、newton、ai-hedge-fundの5件を新規に記事化。 2026-04-09 アップデートレポート GitHubトレンド一覧に戻る Update Report 2026-04-09 アップデートレポート GitHub #011 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 本日の調査ランキング（全11件） forrestchang / andrej-karpathy-skills (Rank: 1) - ✨ 新規追加 TheCraigHewitt / seomachine (Rank: 2) - 作成済み google-ai-edge / gallery (Rank: 3) - 作成済み NVIDIA / personaplex (Rank: 4) - 作成済み google-ai-edge / LiteRT-LM (Rank: 5) - 作成済み elebumm / RedditVideoMakerBot (Rank: 6) - ✨ 新規追加 obra / superpowers (Rank: 7) - ✨ 新規追加 newton-physics / newton (Rank: 8) - ✨ 新規追加 abhigyanpatwari / GitNexus (Rank: 9) - 作成済み virattt / ai-hedge-fund (Rank: 10) - ✨ 新規追加 goharbor / harbor (Rank: 11) - 次回以降の候補 今後の展望 本日は、AIエージェントの能力を標準化するフレームワークや、著名なエンジニアの哲学を反映させる試み、そして金融や物理シミュレーションといった高度な応用例が目立ちました。AIが「ただの便利なツール」から「専門的な知識と哲学を備えたパートナー」へと進化を遂げる過渡期にあることを強く感じさせるラインナップです。"
-    },
-    {
-      "slug": "2026-04-09-forrestchang-andrej-karpathy-skills",
-      "category": "github-trending",
-      "originType": "trending",
-      "title": "Karpathy-Inspired Skills",
-      "dek": "AI に「一流エンジニアの思考」を。アンジェイ・カルパシーの哲学を実装した AI エージェント用設定集。",
-      "summary": "AI エージェントに、アンジェイ・カルパシー氏のコーディング哲学（シンプルさ、依存の最小化等）を組み込む設定・プロンプト集。一流のエンジニアのような思考プロセスでの開発を支援します。",
-      "repoName": "forrestchang/andrej-karpathy-skills",
-      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
-      "publishedAt": "2026-04-09",
-      "createdAt": "2026-04-09T10:40:00+09:00",
-      "articleUrl": "./articles/github/daily/2026-04-09-forrestchang-andrej-karpathy-skills.html",
-      "serial": 163,
-      "searchText": "Karpathy-Inspired Skills AI に「一流エンジニアの思考」を。アンジェイ・カルパシーの哲学を実装した AI エージェント用設定集。 AI エージェントに、アンジェイ・カルパシー氏のコーディング哲学（シンプルさ、依存の最小化等）を組み込む設定・プロンプト集。一流のエンジニアのような思考プロセスでの開発を支援します。 forrestchang/andrej-karpathy-skills AIコーディング (ワークフロー・プロンプト・開発補助ツール) Karpathy-Inspired Skills ← 記事一覧へ戻る GitHub Watcher Karpathy-Inspired Skills AI に「一流エンジニアの思考」を。アンジェイ・カルパシーの哲学を実装した AI エージェント用設定集。 分析日 2026-04-09 Trending 順位 1位 対象 repo forrestchang/andrej-karpathy-skills Star数 38,415 プロジェクトの概要 「Karpathy-Inspired Skills」は、著名な AI 研究者であり教育者でもあるアンジェイ・カルパシー（Andrej Karpathy）氏のコーディング哲学や問題解決のアプローチを、AI エージェント（特に Claude Code）の基本動作として定義・組み込むためのスキルセットおよびプロンプト集です。 AI に単にコードを書かせるのではなく、「シンプルであること」「依存関係を最小限にすること」「本質を理解すること」といった達人の思考プロセスを再現させることを目的としています。 機能・できること Karpathy 流システムプロンプト : カルパシー氏の教えに基づいた、簡潔で読みやすく、かつ堅牢なコードを生成するための指示セット。 自律的リファクタリング : コードを「よりシンプルに、より分かりやすく」保つための専用コマンド群。 ミニマリストアプローチ : 不要なライブラリ導入を避け、標準機能のみで問題を解くことを優先する開発ワークフロー。 教育的フィードバック : AI がなぜその設計を選んだのか、カルパシー流の観点から解説を行う機能。 リポジトリの構成 Claude Code などのスキル形式（.md や .json）に合わせた定義ファイルが中心です。 skills/ : AI エージェントに追加される具体的なコマンドの定義。 prompts/ : カルパシー氏の発言やブログ記事を参考に構築された高度なシステム指示。 examples/ : このスキルを適用して作成された、シンプルで美しいサンプルコード集。 セットアップ・導入のイメージ Claude Code のプロジェクト用ドキュメント（CLAUDE.md など）に指示を統合して使用します。 リポジトリ内のプロンプト定義をコピー、あるいは skills ディレクトリをインポート。 自身のプロジェクトの CLAUDE.md に「Andrej Karpathy のエンジニアリング哲学に従う」というルールを追記。 AI エージェントと対話すると、冗長なボイラープレートを排除した、洗練されたコードが出力されるようになります。 ターゲット層 / 注目ポイント 質の高いコードを追求するプロフェッショナルなエンジニアや、AI を通じて一流のコーディングスタイルを学びたい初学者から絶大な支持を受けています。 「AI に何をやらせるか」ではなく「AI にどのような思考基準を持たせるか」というメタ的なアプローチが、現代の AI 開発において極めて重要であることを示しています。 制約・リスク 「シンプルさ」を優先するあまり、既存の複雑なエンタープライズ・フレームワークとの相性が悪い場合があります（ボイラープレートを削りすぎてしまう等）。 提供される「思考プロセス」はあくまで手法の一つであり、プロジェクトの要件に合わせて適宜調整が必要です。 まとめ 一世を風靡したカルパシー氏の「達人の知恵」を AI のアルゴリズムとして落とし込んだ意欲作です。 これを導入することで、あなたの AI エージェントは単なるツールを超え、最高峰のエンジニアリング・センスを備えた真のパートナーへと進化するでしょう。 ソースリンク forrestchang/andrej-karpathy-skills (GitHub)"
     },
     {
       "slug": "2026-04-09-elebumm-redditvideomakerbot",

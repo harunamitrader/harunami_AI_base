@@ -332,22 +332,6 @@
     },
     {
       "category": "github-trending",
-      "slug": "2026-04-16-forrestchang-andrej-karpathy-skills",
-      "title": "andrej-karpathy-skills",
-      "dek": "Andrej Karpathy 氏の知見をベースに、Claude Code 等のAIエージェントのコーディング精度を劇的に向上させるカスタム CLAUDE.md。",
-      "publishedAt": "2026-04-16",
-      "createdAt": "2026-04-16T05:50:00+09:00",
-      "repoName": "forrestchang/andrej-karpathy-skills",
-      "repoUrl": "https://github.com/forrestchang/andrej-karpathy-skills",
-      "starCount": 42183,
-      "articleUrl": "./articles/github/daily/2026-04-16-forrestchang-andrej-karpathy-skills.html",
-      "rank": 1,
-      "serial": 230,
-      "originType": "trending",
-      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
-    },
-    {
-      "category": "github-trending",
       "slug": "2026-04-16-lordog-dive-into-llms",
       "title": "dive-into-llms",
       "dek": "大規模言語モデル（LLM）の基礎から応用まで、中国語で学べる実践的なプログラミング・ハンズオンチュートリアル。",
@@ -2097,23 +2081,6 @@
       "createdAt": "2026-04-09T11:00:00+09:00",
       "articleUrl": "./articles/github/reports/2026-04-09-update-report.html",
       "serial": 11
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-04-09-forrestchang-andrej-karpathy-skills",
-      "title": "Karpathy-Inspired Skills",
-      "dek": "AI に「一流エンジニアの思考」を。アンジェイ・カルパシーの哲学を実装した AI エージェント用設定集。",
-      "summary": "AI エージェントに、アンジェイ・カルパシー氏のコーディング哲学（シンプルさ、依存の最小化等）を組み込む設定・プロンプト集。一流のエンジニアのような思考プロセスでの開発を支援します。",
-      "publishedAt": "2026-04-09",
-      "createdAt": "2026-04-09T10:40:00+09:00",
-      "repoName": "forrestchang/andrej-karpathy-skills",
-      "repoUrl": "https://github.com/forrestchang/andrej-karpathy-skills",
-      "starCount": 38415,
-      "articleUrl": "./articles/github/daily/2026-04-09-forrestchang-andrej-karpathy-skills.html",
-      "rank": 1,
-      "serial": 163,
-      "originType": "trending",
-      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
       "category": "github-trending",
