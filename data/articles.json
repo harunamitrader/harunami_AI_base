@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-makeplane-plane",
+      "title": "Plane",
+      "dek": "Jira や Linear に対する強力なオープンソースの回答。美しく、高速で、セルフホスト可能な次世代プロジェクト管理プラットフォーム。",
+      "summary": "Jira や Linear、Notion の代替を目指すオープンソースのプロジェクト管理基盤。課題管理、スプリント、ロードマップ、ドキュメント作成を統合し、5種類のビュー（ボード、ガント、リスト等）で可視化可能です。AI アシストも搭載し、セルフホストに対応。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T04:14:00+09:00",
+      "repoName": "makeplane/plane",
+      "repoUrl": "https://github.com/makeplane/plane",
+      "starCount": 30500,
+      "articleUrl": "./articles/github/daily/2026-04-18-makeplane-plane.html",
+      "serial": 256,
+      "originType": "pickup",
+      "genre": "生産性向上・AIエージェント"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-harunamitrader-codicodi",
       "title": "CoDiCoDi",
       "dek": "Codex CLI を「ローカル UI」と「Discord」で。ひとつの作業セッションをどこからでも共有・操作できる Windows 専用ブリッジツール。",

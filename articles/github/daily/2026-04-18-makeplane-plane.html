@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="makeplane/plane の概要と、Jira や Linear のオープンソース代替として注目されるプロジェクト管理プラットフォーム Plane についての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Plane</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Plane</h1>
+      <p class="article-dek">Jira や Linear に対する強力なオープンソースの回答。美しく、高速で、セルフホスト可能な次世代プロジェクト管理プラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/makeplane/plane" target="_blank" rel="noreferrer">
+              makeplane/plane
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>30,500</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Jira、Linear、Monday、ClickUp といった著名なプロジェクト管理ツールの代替を目指して開発されている、オープンソースのモダンなタスク・プロジェクト管理プラットフォームです。洗練されたユーザーインターフェースと高速な動作を特徴とし、課題（Issue）管理、サイクル（スプリント）管理、モジュール管理、そしてドキュメント作成を一つの場所に統合。クラウド版だけでなく商用利用可能なセルフホスト版を提供しており、データ主権を重視する企業や開発チームから絶大な支持（3万スター以上）を集めています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>柔軟なワークフロー管理：</strong> 課題を「サイクル（Cycle）」という単位で管理し、バーンダウンチャートなどで進捗を可視化。特定機能ごとに「モジュール（Module）」を定義してロードマップを構築できます。</li>
+          <li><strong>5つの強力なビュー：</strong> カンバンボード、詳細リスト、カレンダー、スプレッドシート形式、そしてプロジェクトの前後関係を把握できるガントチャートを、ワンクリックで切り替えて利用可能です。</li>
+          <li><strong>Plane Docs：</strong> Notion に匹敵するリッチテキストエディタを内蔵。ドキュメントを作成し、そこから直接「課題（Issue）」を切り出してプロジェクトに紐付けることができます。</li>
+          <li><strong>インフラの自由度：</strong> Docker などを活用してオンプレミスやプライベートクラウドに数分でデプロイ可能。GitHub、Slack、Figma、Sentry などとの強力なインテグレーションも備えています。</li>
+          <li><strong>Plane AI：</strong> AI がタスクの要約を作成したり、下書きを生成したり、適切なラベルを提案したりする機能が統合されており、管理業務の負担を軽減します。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、商用 SaaS である Linear に匹敵する「美しさと手触りの良さ」をオープンソースで実現している点です。Jira のように重厚で多機能でありながら、Linear のような軽快な UX を併せ持っており、開発者だけでなくデザイナーやマーケターなどの非エンジニア層にとっても直感的に扱える設計になっています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>Plane Cloud を利用するか、公式ガイド（Plane One）に従い Docker Compose を使って自前のサーバーにインストールします。</li>
+          <li>ワークスペース、プロジェクトを作成し、チームメンバーを招待します。</li>
+          <li>課題を登録し、カンバンやリストビューでステータス（Todo / In Progress / Done 等）を管理。</li>
+          <li>必要に応じて「サイクル」を設定し、期間を区切って集中して開発を進めます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>Jira の複雑さや、Linear のプロプライエタリ（非オープンソース）な点に不満を感じているチーム。</li>
+          <li>機密性の高いデータを扱うため、プロジェクト管理ツールを自社サーバーで運用（セルフホスト）したい企業。</li>
+          <li>ドキュメント管理とタスク管理をシームレスに行き来したいプロダクトマネージャーやエンジニア。</li>
+          <li>モダンな UI でモチベーションを高く保ちながらアジャイル開発を進めたいスタートアップ。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          現在非常に活発に開発が進んでいるため、大規模なアップデートによって設定方法などが変更される場合があります。また、セルフホストで高度なインテグレーション（GitHub 連携など）を行う場合は、Webhook や OAuth の設定などの知識が求められます。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>Plane</code> は、オープンソースのプロジェクト管理ツールが「無料だが使いにくい」という時代を終わらせる存在です。「機能、美しさ、自由」のすべてを妥協したくないチームにとって、現在のマーケットにおける最良の選択肢の一つと言えるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/makeplane/plane" target="_blank" rel="noreferrer">makeplane/plane</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
