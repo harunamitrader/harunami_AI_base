@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 19:57:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:01:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Pentest Copilot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-bugbasesecurity-pentest-copilot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-bugbasesecurity-pentest-copilot.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エシカルハッカーのための AI 助手。ブラウザ上で動作し、脆弱性診断のペイロード生成やコマンド提案をリアルタイムで行う支援ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Antigravity Awesome Skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-sickn33-antigravity-awesome-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[わずか6行のコードでAIエージェントに自律的な「長期記憶（グラフ構造）」を組み込めるオープンソースのナレッジエンジン。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[100-Days-Of-ML-Code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-avik-jain-100-days-of-ml-code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-avik-jain-100-days-of-ml-code.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[100日間で機械学習の基礎から深層学習までを「完走」する。全世界で 5 万人以上がスターを付けた伝説の学習ロードマップ。]]></description>
     </item>
   </channel>
 </rss>

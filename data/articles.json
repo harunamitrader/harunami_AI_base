@@ -19,6 +19,22 @@
     },
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-bugbasesecurity-pentest-copilot",
+      "title": "Pentest Copilot",
+      "dek": "エシカルハッカーのための AI 助手。ブラウザ上で動作し、脆弱性診断のペイロード生成やコマンド提案をリアルタイムで行う支援ツール。",
+      "summary": "AI を活用したブラウザベースのペネトレーションテスト（脆弱性診断）支援ツール。入力フォームに合わせた攻撃ペイロードの自動生成、診断コマンドの提案、検出された挙動の分析補助などを行い、セキュリティエンジニアのワークフローを劇的に効率化します。エシカルハッキングの精度向上を支援する「セキュリティ界の Copilot」です。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T05:00:00+09:00",
+      "repoName": "bugbasesecurity/pentest-copilot",
+      "repoUrl": "https://github.com/bugbasesecurity/pentest-copilot",
+      "starCount": 154,
+      "articleUrl": "./articles/github/daily/2026-04-18-bugbasesecurity-pentest-copilot.html",
+      "serial": 260,
+      "originType": "pickup",
+      "genre": "スクレイピング・情報収集・セキュリティ"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-sickn33-antigravity-awesome-skills",
       "title": "Antigravity Awesome Skills",
       "dek": "1,400種類以上の「知能」をエージェントに。Antigravity や Claude Code の能力を極限まで拡張する、インストール可能な巨大スキルライブラリ。",
