@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="harunamitrader/cli-prompt-cron の概要と、Claude Code や Gemini CLI などの AI プロンプトをスケジュール実行するデーターモン CLI Prompt Cron についての解説記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>CLI Prompt Cron</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">CLI Prompt Cron</h1>
+      <p class="article-dek">AI への定期命令を自動化。Claude Code や Gemini CLI をスケジュール実行し、ダッシュボードで監視する管理デーモン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">分析日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/harunamitrader/cli-prompt-cron" target="_blank" rel="noreferrer">
+              harunamitrader/cli-prompt-cron
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>0</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Claude Code、Gemini CLI、Codex といった「対話型 AI CLI」を、決まった時間に自動実行するためのスケジューラー兼モニタリングデーモンです。「毎日○時に最新ニュースを AI に要約させる」「毎週○曜日にコードベースの健康診査を行う」といった、定型的な AI 操作を自動化するために設計されています。Node.js で動作し、実行状況をブラウザから一目で確認できる専用ダッシュボードを備えています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>柔軟なスケジュール設定：</strong> 標準的な cron 形式を用いて、分単位での精緻な実行タイミングをジョブごとに設定できます。</li>
+          <li><strong>多彩な CLI への対応：</strong> 特定の AI ツールに依存せず、実行時に渡すコマンドライン引数を自由に設定可能。シェルスクリプト経由での複雑なパイプ処理も自動化できます。</li>
+          <li><strong>ウェブダッシュボード：</strong> 稼働中のジョブ一覧、次回の実行予定、過去の成功・失敗履歴を直感的な UI で管理・監視できます。</li>
+          <li><strong>詳細なログ管理：</strong> 各ジョブの標準出力（stdout）と標準エラー出力（stderr）をファイルに保存し、ウェブ画面から過去の実行時の「AI の回答」を遡って確認可能です。</li>
+          <li><strong>環境変数の制御：</strong> 作業ディレクトリや必要な環境変数を、個別のジョブ定義の中にカプセル化して管理できます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          AI エージェントが実用段階に入りつつある今、最大の課題は「毎回のプロンプト投入」を自動化することです。CLI Prompt Cron は、これまで「手動でコマンドを打つ」必要があった AI 連携を「バックグラウンドで勝手に動くプロセス」へと格上げしてくれます。特に、ブラウザベースの監視画面によって「今朝の自動リサーチは成功したか」をスマホや PC から即座に確認できる点は、運用の安心感を大きく高めています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリをクローンし、<code>npm install</code> でパッケージを導入します。</li>
+          <li><code>data/jobs/</code> ディレクトリに、JSON 形式でジョブ定義ファイルを作成します（cron 式、実行コマンド等を記述）。</li>
+          <li><code>npm start</code> でサーバーを起動します。</li>
+          <li>設定したポート（デフォルト 3000 番など）にブラウザでアクセスし、ダッシュボードを表示します。</li>
+          <li>時間になると自動で AI CLI が呼び出され、処理結果がログに蓄積されます。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li>GitHub のトレンド調査や株価分析など、AI を使った定型リサーチをルーチン化したい開発者。</li>
+          <li>CI/CD 以外のパイプラインで、AI による定期的なコードレビューやドキュメント自動生成を行いたいチーム。</li>
+          <li>複数の AI CLI ツールを使い分けており、その実行履歴を一箇所で集中的に管理したいユーザー。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          AI CLI ツールの多くはインタラクティブ（対話型）な動作を想定しているため、自動実行時には「対話の強制終了（--yes フラグなど）」の設定が必要です。また、API 料金が発生するツールをスケジュール実行する場合は、予期せぬ実行回数にならないよう cron 設定に注意を払う必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          <code>CLI Prompt Cron</code> は、AI の「能動的な活用」を支える重要なミドルウェアです。私たちが AI の前に座っていない時間にも、指定されたプロンプトが忠実に実行され、知見がログとして積み上がっていく。そんな「AI が自走する環境」を構築するための、シンプルながらも強力な基盤と言えるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/harunamitrader/cli-prompt-cron" target="_blank" rel="noreferrer">harunamitrader/cli-prompt-cron</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
