@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-18T03:14:42.774759+00:00",
-  "count": 286,
+  "generatedAt": "2026-04-18T03:38:23.454152+00:00",
+  "count": 287,
   "articles": [
+    {
+      "slug": "2026-04-18-mrdoob-three-js",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "three.js",
+      "dek": "JavaScript で 3D グラフィックスを扱うためのデファクトスタンダード。3D Tiles などの高度な地理空間データ対応も充実。",
+      "summary": "JavaScript で 3D グラフィックスを扱うための標準ライブラリ。WebGL を抽象化し、3D Tiles ローダーによる大規模地理空間データの可視化もサポートします。",
+      "repoName": "mrdoob/three.js",
+      "genre": "メディア作成・マルチモーダル・UI",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T12:38:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-18-mrdoob-three-js.html",
+      "serial": 270,
+      "searchText": "three.js JavaScript で 3D グラフィックスを扱うためのデファクトスタンダード。3D Tiles などの高度な地理空間データ対応も充実。 JavaScript で 3D グラフィックスを扱うための標準ライブラリ。WebGL を抽象化し、3D Tiles ローダーによる大規模地理空間データの可視化もサポートします。 mrdoob/three.js メディア作成・マルチモーダル・UI three.js ← 記事一覧へ戻る GitHub Watcher three.js JavaScript で 3D グラフィックスを扱うためのデファクトスタンダード。3D Tiles などの高度な地理空間データ対応も充実。 記事作成日 2026-04-18 種別 Pickup 対象 repo mrdoob/three.js Star数 112,000 これは何か three.js は、ブラウザ上で WebGL を利用した 2D/3D グラフィックスを簡単に作成・表示するためのオープンソース JavaScript ライブラリです。 低レイヤーの WebGL API を抽象化し、シーン、カメラ、ライト、マテリアル、メッシュといった直感的なオブジェクトを通じて 高度な 3D 表現を可能にします。長年にわたり Web 3D 制作のデファクトスタンダードとして君臨しており、 ゲーム、ブランドサイト、データの可視化、VR/AR 開発など幅広い分野で利用されています。 何ができるか シーン管理： オブジェクト、ライト、カメラを階層的に管理するシーングラフ。 ジオメトリとマテリアル： 標準的なプリミティブから複雑なシェーダー、物理ベースレンダリング（PBR）まで対応。 多彩なローダー： glTF、OBJ、FBX、そして 3D Tiles などの多様な 3D データ形式を読み込み可能。 アニメーション： キーフレームアニメーションやボーン、モーフィングなどの高度な制御。 VR/AR (WebXR)： デバイスを選ばない没入型エクスペリエンスの提供。 目立つポイント 今回特に注目すべきは、大規模な地理空間データを効率的に表示するための **3D Tiles ローダー (webgl_loader_3dtiles.html)** です。 3D Tiles は Cesium が提唱した OGC 標準で、広大な都市モデルや精密な点群データをタイリングして動的にロードする仕組みです。 three.js 拡張の `3D-Tiles-Renderer` などを活用することで、ブラウザのメモリを抑えつつ Google Maps のような巨大な 3D マップ体験を three.js の豊かな表現力の上で構築することが可能になっています。 セットアップや使い方の流れ もっとも簡単な方法は npm を通じた導入です。 npm install three でインストール後、 import * as THREE from 'three'; で利用を開始します。 最小限の構成は「Scene（シーン）」「Camera（カメラ）」「Renderer（レンダラー）」の3要素を初期化することです。 3D Tiles を扱う場合は、専用のローダークラスを追加し、タイルセットの JSON URL を指定してシーンへ追加する流れになります。 どんな人向けか Web フロントエンドエンジニア、データサイエンティスト、地理空間情報を扱うエンジニア、 およびインタラクティブな Web サイトを制作したいデザイナーに向いています。 注意点 WebGL を利用するため、クライアントの GPU 性能に依存します。 特に 3D Tiles のような大規模データを扱う際は、詳細度（LOD）の制御やメモリ管理を適切に行わないとブラウザがクラッシュする可能性があります。 また、リビジョンアップごとの破壊的変更が比較的発生しやすいため、ドキュメントの最新版を常に確認することを推奨します。 まとめ three.js は、単なる描画ライブラリを超え、Web 3D のプラットフォームへと進化し続けています。 3D Tiles などの業界標準への対応が進むことで、ビジネスや学術分野での「現実世界のデジタルツイン」を Web 上で実現するための最強のツールの一つとなっています。 参照リンク mrdoob/three.js webgl_loader_3dtiles.html (Example)"
+    },
     {
       "slug": null,
       "category": "github-update-report",

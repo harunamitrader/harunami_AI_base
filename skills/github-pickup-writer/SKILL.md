@@ -30,9 +30,17 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 
 ## Rules
 
-- Publish exactly one repository per run.
+- **記事の形式（GitHub Watcherスタイル）**:
+  - eyebrow: `GitHub Watcher`
+  - メタデータ: `<div class="article-meta-grid">` を使用し、以下の4項目をこの順序で表示します。
+    - **記事作成日**: `<!-- YYYY-MM-DD -->\n          <strong>YYYY-MM-DD</strong>` の形式（コメント行を必須含める）。
+    - **種別**: `Pickup` （太字）。
+    - **対象 repo**: リンク付きの `owner/repo`。
+    - **Star数**: カンマ区切りの数値。
+  - セクション構成（H2見出し）: `これは何か`、`何ができるか`、`目立つポイント`、`セットアップや使い方の流れ`、`どんな人向けか`、`注意点`、`まとめ`、`参照リンク`。これら以外の語彙（「概要」や「プロジェクトの構成」など）は使用禁止。
+  - 詳細は `references/article-outline.md` を参照してください。
 - Use only the repository slug as the article title, without the owner name.
-- Add a one-line plain-Japanese explainer immediately below the title.
+- Add a one-line plain-Japanese explainer immediately below the title using `<p class="article-dek">`.
 - Store the same one-line explainer in `data/articles.json`.
 - Use a concrete `meta description` that matches the article's actual dek or summary; avoid vague boilerplate such as "要点を整理した記事".
 - `data/articles.json` にエントリを追加する際、以下のメタデータを必ず推論・設定してください。
@@ -44,7 +52,6 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 - Add `serial` to the JSON entry and show the shared GitHub serial in the article page.
 - The shared GitHub serial is based only on `github-trending` and `github-pickup`; `github-update-report` uses a separate numbering line.
 - Use `publishedAt`, `createdAt`, `repoName`, `repoUrl`, `articleUrl`, and `starCount` on every new entry.
-- Add `Star数` to the article metadata grid alongside the existing date / type / target repo metadata.
 - Use the back link to `../../github-trend.html`, not `../../index.html`.
 - Include the target repository link in the article.
 - If the pickup came from a user-provided source URL, include that source URL in the article too.

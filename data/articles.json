@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "slug": "2026-04-18-mrdoob-three-js",
+      "title": "three.js",
+      "dek": "JavaScript で 3D グラフィックスを扱うためのデファクトスタンダード。3D Tiles などの高度な地理空間データ対応も充実。",
+      "summary": "JavaScript で 3D グラフィックスを扱うための標準ライブラリ。WebGL を抽象化し、3D Tiles ローダーによる大規模地理空間データの可視化もサポートします。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T12:38:00+09:00",
+      "repoName": "mrdoob/three.js",
+      "repoUrl": "https://github.com/mrdoob/three.js",
+      "starCount": 112000,
+      "articleUrl": "./articles/github/daily/2026-04-18-mrdoob-three-js.html",
+      "serial": 270,
+      "originType": "pickup",
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "publishedAt": "2026-04-18",
       "createdAt": "2026-04-18T12:00:00+09:00",
       "category": "github-update-report",

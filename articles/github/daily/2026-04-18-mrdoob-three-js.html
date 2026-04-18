@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="mrdoob/three.js を読み、WebGL を活用した 3D グラフィックス制作の標準ライブラリと、3D Tiles ローダーなどの最新機能について整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>three.js</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">three.js</h1>
+      <p class="article-dek">JavaScript で 3D グラフィックスを扱うためのデファクトスタンダード。3D Tiles などの高度な地理空間データ対応も充実。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-18 -->
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/mrdoob/three.js" target="_blank" rel="noreferrer">
+              mrdoob/three.js
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>112,000</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          three.js は、ブラウザ上で WebGL を利用した 2D/3D グラフィックスを簡単に作成・表示するためのオープンソース JavaScript ライブラリです。
+          低レイヤーの WebGL API を抽象化し、シーン、カメラ、ライト、マテリアル、メッシュといった直感的なオブジェクトを通じて
+          高度な 3D 表現を可能にします。長年にわたり Web 3D 制作のデファクトスタンダードとして君臨しており、
+          ゲーム、ブランドサイト、データの可視化、VR/AR 開発など幅広い分野で利用されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>シーン管理：</strong> オブジェクト、ライト、カメラを階層的に管理するシーングラフ。</li>
+          <li><strong>ジオメトリとマテリアル：</strong> 標準的なプリミティブから複雑なシェーダー、物理ベースレンダリング（PBR）まで対応。</li>
+          <li><strong>多彩なローダー：</strong> glTF、OBJ、FBX、そして 3D Tiles などの多様な 3D データ形式を読み込み可能。</li>
+          <li><strong>アニメーション：</strong> キーフレームアニメーションやボーン、モーフィングなどの高度な制御。</li>
+          <li><strong>VR/AR (WebXR)：</strong> デバイスを選ばない没入型エクスペリエンスの提供。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          今回特に注目すべきは、大規模な地理空間データを効率的に表示するための **3D Tiles ローダー (webgl_loader_3dtiles.html)** です。
+          3D Tiles は Cesium が提唱した OGC 標準で、広大な都市モデルや精密な点群データをタイリングして動的にロードする仕組みです。
+          three.js 拡張の `3D-Tiles-Renderer` などを活用することで、ブラウザのメモリを抑えつつ
+          Google Maps のような巨大な 3D マップ体験を three.js の豊かな表現力の上で構築することが可能になっています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          もっとも簡単な方法は npm を通じた導入です。
+          <code>npm install three</code> でインストール後、<code>import * as THREE from 'three';</code> で利用を開始します。
+          最小限の構成は「Scene（シーン）」「Camera（カメラ）」「Renderer（レンダラー）」の3要素を初期化することです。
+          3D Tiles を扱う場合は、専用のローダークラスを追加し、タイルセットの JSON URL を指定してシーンへ追加する流れになります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          Web フロントエンドエンジニア、データサイエンティスト、地理空間情報を扱うエンジニア、
+          およびインタラクティブな Web サイトを制作したいデザイナーに向いています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          WebGL を利用するため、クライアントの GPU 性能に依存します。
+          特に 3D Tiles のような大規模データを扱う際は、詳細度（LOD）の制御やメモリ管理を適切に行わないとブラウザがクラッシュする可能性があります。
+          また、リビジョンアップごとの破壊的変更が比較的発生しやすいため、ドキュメントの最新版を常に確認することを推奨します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          three.js は、単なる描画ライブラリを超え、Web 3D のプラットフォームへと進化し続けています。
+          3D Tiles などの業界標準への対応が進むことで、ビジネスや学術分野での「現実世界のデジタルツイン」を Web 上で実現するための最強のツールの一つとなっています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/mrdoob/three.js" target="_blank" rel="noreferrer">mrdoob/three.js</a>
+        </div>
+        <div class="source-item">
+          <a href="https://github.com/mrdoob/three.js/blob/master/examples/webgl_loader_3dtiles.html" target="_blank" rel="noreferrer">webgl_loader_3dtiles.html (Example)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
