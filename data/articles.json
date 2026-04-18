@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-lazarus-ai-clearwing",
+      "title": "Clearwing (Lazarus AI)",
+      "dek": "単なる指摘で終わらない。「疑い」から「パッチ検証」まで。LangGraph で構築された自律型脆弱性ハンターが、ソースコードとネットワークの安全を徹底追求する。",
+      "summary": "Eric Hartford 氏率いる Lazarus AI による、LangGraph ベースの自律型セキュリティエージェント。ソースコードの深層「ハンティング」とネットワークペネトレーションテストの二面性を持ち、脆弱性の発見から実証、そして修正パッチの検証までをエビデンスベースで完遂します。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T21:26:00+09:00",
+      "repoName": "Lazarus-AI/clearwing",
+      "repoUrl": "https://github.com/Lazarus-AI/clearwing",
+      "starCount": 578,
+      "articleUrl": "./articles/github/daily/2026-04-18-lazarus-ai-clearwing.html",
+      "serial": 276,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-steffen025-pai-opencode",
       "title": "PAI-OpenCode",
       "dek": "「モデルよりも足場（インフラ）が重要」。Daniel Miessler の個人用 AI 基盤である PAI 3.0 を OpenCode へ完全移植。52 のスキルと 16 のエージェントによる究極の AI コーディング。",

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lazarus-AI/clearwing を読み、LangGraph をベースにした自律型脆弱性スキャナーとソースコードハンターの機能、そして「実証（Evidence）」を重視する革新的な設計を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Clearwing (Lazarus AI)</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Clearwing (Lazarus AI)</h1>
+      <p class="article-dek">単なる指摘で終わらない。「疑い」から「パッチ検証」まで。LangGraph で構築された自律型脆弱性ハンターが、ソースコードとネットワークの安全を徹底追求する。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-18 -->
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Lazarus-AI/clearwing" target="_blank" rel="noreferrer">
+              Lazarus-AI/clearwing
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>578</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Clearwing は、Lazarus AI（著名な Eric Hartford 氏ら）によって開発された、自律型の脆弱性スキャナー兼ソースコードハンターです。
+          Anthropic が非公開で行っていた「Glasswing」の挑戦に触発され、LangGraph をベースに構築されました。
+          誰もがアクセス可能な LLM を使いながら、ネットワークペネトレーションテストと深層ソースコード解析の両方を自律的に実行することを目指しています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>ソースコード・ハンティング：</strong> 膨大なファイルをランク付けし、ハンターエージェントが脆弱性を探索。ASan/UBSan 等での「クラッシュの再現」を真実の根拠（Ground Truth）として使用します。</li>
+          <li><strong>ネットワーク・ペンテストエージェント：</strong> 63 のツールを装備し、Kali Linux のツールセットをサンドボックス内で実行。ライブターゲットのスキャンから脆弱性検知、エクスプロイト試行までを行います。</li>
+          <li><strong>検証済みパッチ生成：</strong> 見つけた脆弱性に対し、ルート原因の解明だけでなく、検証済みの修正パッチ生成まで試みます。</li>
+          <li><strong>段階的な証拠レベル：</strong> 報告書は「疑い（Suspicion）」から「エクスプロイト実証（Exploit Demonstrated）」、そして「パッチ検証済み（Patch Validated）」まで、厳密なエビデンスレベルでランク付けされます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、**「実証ベース（Logic & Evidence First）」** の設計です。
+          AI がありがちな脆弱性を指摘するだけでなく、実際にコードを走らせ、クラッシュを再現し、原因を説明するという「人間であれば数時間かかる作業」を自律的に高速実行します。
+          また、Eric Hartford 氏の関与により、特定の巨大プロバイダーに依存せず、OpenRouter や自前の Ollama 等でも動作可能なオープンな設計が貫かれています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Python 3.10+ 環境で <code>uv sync</code> を行い、<code>clearwing setup</code> ウィザードでプロバイダー（Anthropic や OpenAI 互換 API）を設定します。
+          準備ができれば <code>clearwing sourcehunt [REPO_URL]</code> でリポジトリの深層分析を開始、あるいは <code>clearwing interactive</code> でエージェントと直接対話しながらのペンテストも可能です。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          セキュリティエンジニア、レッドチーマー、そして「自社のコードの安全性を、静的解析ツール以上、人間以下のコストで徹底的にチェックしたい」開発者にとって、これ以上ない強力な武器となります。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          Clearwing は強力な「攻撃ツール」としての側面も持ちます。
+          必ず自分が所有する、あるいは明示的な許可を得たターゲットに対してのみ使用してください。
+          また、高度な分析には相応の LLM トークンコスト（予算設定機能あり）と実行時間がかかります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Clearwing は、AI が単なる「コードの書き手」から「コードの守り手（および厳格な監査官）」へと進化したことを象徴するプロダクトです。
+          実証に裏打ちされたその報告能力は、従来のセキュリティツールの限界を大きく超え、AI エージェントの実用性を新たなフェーズへと押し上げています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Lazarus-AI/clearwing" target="_blank" rel="noreferrer">Lazarus-AI/clearwing</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
