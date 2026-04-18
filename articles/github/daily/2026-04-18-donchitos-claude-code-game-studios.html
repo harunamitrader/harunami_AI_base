@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Donchitos/Claude-Code-Game-Studios を読み、Claude Code を49体のAIエージェントが連携するゲーム開発スタジオに変えるスキルシステムの仕組みと特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude-Code-Game-Studios</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Claude-Code-Game-Studios</h1>
+      <p class="article-dek">49体のAIエージェントと72のワークフロースキルで、Claude Code をまるごとゲーム開発スタジオに変える極限のスキルシステム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noreferrer">
+              Donchitos/Claude-Code-Game-Studios
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>11,690</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Claude-Code-Game-Studios は、Claude Code の単一セッションを 49 体の専門 AI エージェントが連携する
+          「バーチャルゲーム開発スタジオ」に変換するスキルセットです。
+          実際のスタジオ組織階層（ゲームディレクター、キャラクターデザイナー、サウンドエンジニア等）を
+          AI エージェントの役割分担として再現し、72 のワークフロースキルと 12 のフック、11 のルールを通じて
+          高度に協調した自動開発体制を実現します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>スタジオ組織のエミュレーション：</strong> 49体のAIエージェントがゲームデザイン・開発・QAを役割分担。</li>
+          <li><strong>72種のワークフロースキル：</strong> 企画書作成からコーディング、アセット管理まで体系的にカバー。</li>
+          <li><strong>12のフックによる自動連携：</strong> タスクの受け渡しや進捗確認をフックで自動化。</li>
+          <li><strong>11のルールによる品質管理：</strong> エージェント間の作業基準とレビュー手順を統一。</li>
+          <li><strong>Claude Code ネイティブ：</strong> 追加インストール不要で Claude Code にそのまま組み込んで使用。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          <code>.claude/agents/</code> 配下に 49 体分のエージェント定義、<code>.claude/skills/</code> に 72 のスキル定義、
+          <code>.claude/hooks/</code> に 12 のフック、<code>.claude/rules/</code> に 11 のチーム運用ルールが整理されています。
+          MIT ライセンスで公開されており、独自スタジオ向けにエージェントやスキルを追加・変更可能です。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          リポジトリをゲームプロジェクトのルートにクローンし、Claude Code を起動するだけです。
+          すると Claude Code が <code>.claude/</code> 配下を認識し、49体のエージェント体制が自動的に有効になります。
+          その後は「新しいゲームプロジェクトを始めてください」とプロンプトを送るだけで、
+          ゲームディレクタエージェントが各担当へタスクを割り振り自律的に開発が進みます。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          インディーゲーム開発者、ゲーム制作に興味を持つエンジニア、
+          および Claude Code の限界を極限まで押し広げたい開発者に最適です。
+          注目すべきは単なる「ゲーム開発ツール」に留まらず、
+          「大規模な専門 AI エージェントの役割分担設計」のリファレンス実装としても参考になる点です。
+          11,690 Stars という急成長がコミュニティの高い関心を示しています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          49体のエージェントが協調動作するため、大量のトークン消費が予想されます。
+          長時間作業ではコストが急増する可能性があるため、使用前に API の利用上限を設定してください。
+          また、複雑なゲームロジックの実装では依然として人間のレビューが不可欠です。
+          AI が生成したゲームロジックを無検証でプロダクションへ適用することは避けてください。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Claude-Code-Game-Studios は、AI エージェント活用の一つの到達点を示す実験的かつ実用的な試みです。
+          ゲーム開発に限らず「複数の専門 AI エージェントをどう組織するか」というアーキテクチャの参考事例として、
+          幅広いエンジニアに学びのある OSS です。コミュニティの急速な支持がその可能性を裏付けています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noreferrer">Donchitos/Claude-Code-Game-Studios — GitHub</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

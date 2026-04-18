@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="lukilabs/craft-agents-oss を読み、Claude エージェント SDK・Pi SDK をベースにしたノーコード AI エージェント環境「Craft Agents」の仕組みと特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>craft-agents-oss</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">craft-agents-oss</h1>
+      <p class="article-dek">Claude エージェント SDK を核に、直感的なマルチタスクと美しい UI でエージェントとの協働を再定義するAI ネイティブな開発環境。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #8</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/lukilabs/craft-agents-oss" target="_blank" rel="noreferrer">
+              lukilabs/craft-agents-oss
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,261</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Craft Agents は、craft.do 社が自社の AI エージェント業務効率化のために開発したツールをオープンソース化したものです。
+          Claude Agent SDK と Pi SDK を組み合わせ、CLI 操作を不要とする「ドキュメント中心（vs コード中心）」のワークフローで
+          AI エージェントとの協働を実現します。マルチタスクの分担、外部 API への接続、
+          セッション共有などをプロンプトのみで制御できる Agent Native な設計が特徴です。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>マルチタスク並列処理：</strong> 複数のエージェントタスクを直感的に分割・管理できる UI。</li>
+          <li><strong>API・サービス接続：</strong> 煩雑さなく外部 API やサービスへ即座に接続可能。</li>
+          <li><strong>セッション共有：</strong> チーム内でエージェントの作業状況を共有できる協働機能。</li>
+          <li><strong>高いカスタマイズ性：</strong> コードエディタ不要で、Craft Agents 自体を Craft Agents で改造可能。</li>
+          <li><strong>Apache 2.0 ライセンス：</strong> 商用利用を含む自由なカスタマイズが可能。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          Claude Agent SDK をコアに採用し、Pi SDK を補完的に活用した構成です。
+          ドキュメントベースのワークフロー管理層、API コネクター、セッション管理、
+          およびビジュアル UI コンポーネントで構成されています。
+          開発チーム自身が Craft Agents のみを用いてプロダクトを作り続けているという実績が、
+          実用性の高さを示しています。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          動作確認には GitHub 上の紹介動画（YouTube リンク）が最も分かりやすいとされています。
+          基本的には Claude API キーを設定後、GUI ベースでタスクとエージェントを定義する形式です。
+          コード記述を最小限に抑えながら、AI エージェントを使ったアプリケーション開発を始められます。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          非エンジニアでも AI エージェントを活用したい方、CLI 操作が苦手なビジネスユーザー、
+          および Anthropic の Claude をフル活用したいチームに向いています。
+          Claude Code や Cursor との違いは「コード編集ではなくドキュメントとタスク管理が主軸」という点で、
+          AI との「開発」ではなく「協業」に重点を置いた設計です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          OSS 公開直後のプロジェクトのため、ドキュメントや API の安定性が今後変化する可能性があります。
+          また、Claude エージェント SDK への依存度が高いため、Anthropic の API 変更がそのまま影響します。
+          本番業務への適用は様子を見ながら段階的に進めることを推奨します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Craft Agents は、AI エージェントとの協働を「コードを書く作業」から「思考と指示を与える作業」へと昇華させるツールです。
+          Claude Code のような CLI に慣れていないチームに対して、エージェント活用の入り口を大幅に下げる可能性を持っています。
+          Apache 2.0 ライセンスのため、自社製品への組み込みを検討しやすい点も魅力です。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/lukilabs/craft-agents-oss" target="_blank" rel="noreferrer">lukilabs/craft-agents-oss — GitHub</a>
+        </div>
+        <div class="source-item">
+          <a href="https://www.youtube.com/watch?v=xQouiAIilvU" target="_blank" rel="noreferrer">デモ動画 — YouTube</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 20:29:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 10:08:12 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-claude-agents]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-vijaythecoder-awesome-claude-agents.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-vijaythecoder-awesome-claude-agents.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Code を超強化する、自律型の「AI開発チーム」エージェント集]]></description>
+    </item>
     <item>
       <title><![CDATA[Production SaaS Starter]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-moasq-production-saas-starter.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[3.3K行の「種」から自らのスキルツリーを成長させ、トークン消費を1/6に抑えつつOSを完全支配する自己進化エージェント。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[open-agents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-vercel-labs-open-agents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-17-vercel-labs-open-agents.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Vercel社が提供する、クラウド環境でスケーラブルなAIエージェントを構築するためのオープンソーステンプレート。]]></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="BasedHardware/omi を読み、画面と会話をリアルタイムでキャプチャし、すべてを記憶して指示を出す第二の脳オープンソースAIの仕組みと特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>omi</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">omi</h1>
+      <p class="article-dek">画面と会話をリアルタイムでキャプチャし、要約・アクションアイテム生成・長期記憶付きAIチャットを提供する「第二の脳」。デスクトップ・スマホ・ウェアラブルで全て完結。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #4</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/BasedHardware/omi" target="_blank" rel="noreferrer">
+              BasedHardware/omi
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>9,735</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          omi は、ユーザーの画面・音声会話・デバイスアクティビティをリアルタイムで記録・分析し、
+          すべての情報を長期的に記憶する「第二の脳」として機能するオープンソース AI システムです。
+          会議の文字起こし、要約、アクションアイテムの自動生成、
+          過去の記憶を踏まえた AI チャットをデスクトップ・スマートフォン・ウェアラブルデバイスまたがって一元提供します。
+          30 万人以上のプロフェッショナルが利用している実績があります。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>リアルタイムキャプチャ：</strong> 画面表示と音声会話をバックグラウンドで継続的に記録・分析。</li>
+          <li><strong>自動要約・アクションアイテム：</strong> 会議や対話から重要点とタスクを自動的に抽出。</li>
+          <li><strong>長期記憶付き AI チャット：</strong> 過去に見た・聞いたすべての情報を踏まえた質問応答が可能。</li>
+          <li><strong>マルチデバイス対応：</strong> デスクトップ、iOS/Android アプリ、ウェアラブルにまたがって同期。</li>
+          <li><strong>完全オープンソース：</strong> フルスタックのコードが公開されており自己ホストも可能。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          バックエンド（Python ベースの音声・画面処理パイプライン）、モバイルアプリ（Flutter）、
+          デスクトップ統合モジュール、および LLM 連携レイヤーから構成されています。
+          ウェアラブル向けカスタムハードウェア（Omi デバイス）も同チームが開発しており、
+          OS レベルの権限なしでウェアラブルから周囲の会話を常時ピックアップできます。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Docker を利用した自己ホスト版か、クラウド版のいずれかを選択します。
+          スマートフォンアプリからアカウント設定後、マイク・画面録画の権限を許可するだけで即座に動作開始。
+          AI チャット画面から「先週の会議で決まった仕様は？」のような自然な質問が可能になります。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          議事録作成に追われるビジネスパーソン、アイデアや決定事項の追跡が難しいリモートワーカー、
+          および AI 活用を日常に組み込みたい知識労働者全般に向いています。
+          「AI に見せて・聞かせて・覚えさせる」というパラダイムはこれまでのテキスト入力中心のアシスタントと根本的に異なり、
+          ユーザーの手を介さない自動的な情報蓄積がその核心です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          常時録音・画面キャプチャを行う性質上、プライバシーリスクへの理解が不可欠です。
+          特に第三者との会話を録音する場合は、各国の法律や職場規則に従った運用が求められます。
+          クラウド版利用時は録音データの保管場所と保持期間を必ず確認してください。
+          自己ホスト版はこれらを自分でコントロールできる分、セットアップのハードルが高めです。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          omi は「記憶の外部化」という古典的な概念を現代の AI で具現化した意欲的なプロジェクトです。
+          30 万人のユーザー基盤とオープンソースの組み合わせにより、単なるコンセプトではなく
+          実運用レベルのプロダクトとして評価が定着しています。
+          プライバシー設計を十分に検討したうえで試す価値のあるツールです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/BasedHardware/omi" target="_blank" rel="noreferrer">BasedHardware/omi — GitHub</a>
+        </div>
+        <div class="source-item">
+          <a href="https://omi.me" target="_blank" rel="noreferrer">omi.me — 公式サイト</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

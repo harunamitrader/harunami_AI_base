@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tracer-Cloud/opensre を読み、AI SRE エージェントをゼロから構築できるオープンソースフレームワークの仕組みと特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>opensre</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">opensre</h1>
+      <p class="article-dek">60以上のツールと連携し、自分のインフラ上でインシデントを自律調査・対応するAI SREエージェントをゼロから構築できるオープンソースフレームワーク。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #9</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noreferrer">
+              Tracer-Cloud/opensre
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,359</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          OpenSRE は、AI エージェントによるサイト信頼性エンジニアリング（SRE）を実現するためのオープンソースフレームワークです。
+          Prometheus、Grafana、PagerDuty、Kubernetes など 60 以上の既存ツールと連携し、インシデント発生時のアラート受信から原因調査、対応手順の提案までを AI エージェントが自律的に担います。
+          自社インフラ上で稼働するため、クラウドベンダーへの依存なしにカスタマイズされた AI SRE 環境を構築できます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>60+ツール連携：</strong> Prometheus、Grafana、PagerDuty、K8s 等の既存監視スタックをそのまま活用。</li>
+          <li><strong>自律インシデント調査：</strong> アラートを受信するとエージェントが自動でログ解析・メトリクス調査を開始。</li>
+          <li><strong>カスタムワークフロー定義：</strong> Runbook や手順をコードとして定義し、エージェントに学習させられる。</li>
+          <li><strong>訓練・評価環境：</strong> AI SRE エージェントを改善するためのシミュレーション環境を内蔵。</li>
+          <li><strong>自前インフラで動作：</strong> クラウドへのデータ送信なしに、オンプレミスやプライベートクラウドで完結。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          主要コンポーネントはエージェントコア、ツールコネクター群（各 SaaS/OSS 向けアダプター）、ワークフロー定義ファイル、
+          およびシミュレーション環境から構成されています。Python ベースで実装されており、既存の LangChain や各種 LLM API との統合が想定されています。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          リポジトリをクローン後、環境変数に LLM API キーと監視ツールの認証情報を設定します。
+          コネクターを有効化した後、ワークフロー YAML でエージェントの応答手順を定義すれば、
+          Prometheus アラートを受け取った時点からエージェントが自律動作を開始します。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          SRE・インフラエンジニア、DevOps チーム、および 24 時間監視体制の構築コスト削減を目指す組織に特に有用です。
+          既存の監視ツールを置き換えるのではなく「その上に AI 層を追加する」アプローチが現実的で、導入ハードルが低い点が評価されています。
+          急増するオンコール疲弊（Pager Fatigue）への回答として GitHub コミュニティの注目を集めています。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          プロジェクトは活発に開発中のため API の安定性は保証されていません。
+          AI による自律的なインシデント対応はリスクを伴うため、まず読み取り専用モードで試験運用し、
+          段階的に対応権限を拡張するアプローチを推奨します。
+          本番環境への適用前には接続する外部ツールの認証・権限設計を慎重に行ってください。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          OpenSRE は、AI による SRE 自動化を「自前のインフラ上で」実現するためのオープンな基盤です。
+          オンコール負荷の軽減や夜間インシデント対応の自動化を検討しているチームにとって、
+          検証を始める価値のあるプロジェクトです。エコシステムの成熟と共に実用性がさらに高まるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noreferrer">Tracer-Cloud/opensre — GitHub</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

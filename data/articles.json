@@ -7,6 +7,20 @@
   },
   "articles": [
     {
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18",
+      "category": "github-pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "originType": "pickup",
+      "serial": 263,
+      "title": "awesome-claude-agents",
+      "dek": "Claude Code を超強化する、自律型の「AI開発チーム」エージェント集",
+      "articleUrl": "articles/github/daily/2026-04-18-vijaythecoder-awesome-claude-agents.html",
+      "repoName": "vijaythecoder/awesome-claude-agents",
+      "repoUrl": "https://github.com/vijaythecoder/awesome-claude-agents",
+      "starCount": 4168
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-04-17-gemini-cli-v0-38-2-patch",
       "title": "Gemini CLI v0.38.2: stable パッチを再発行",

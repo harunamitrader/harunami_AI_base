@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="EvoMap/evolver を読み、GEP（ゲノム進化プロトコル）によりAIエージェントが独自スキルを自動生成・進化させる自己進化エンジンの仕組みと特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>evolver</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">evolver</h1>
+      <p class="article-dek">ゲノム進化プロトコル（GEP）でAIエージェント自身がスキルを自動生成・改良し続ける、自己進化型エージェントエンジン。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending #1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/EvoMap/evolver" target="_blank" rel="noreferrer">
+              EvoMap/evolver
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>4,083</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          Evolver は、「Genome Evolution Protocol（GEP）」という独自のプロトコルを用いて、
+          AI エージェントが実行経験から独自スキル（遺伝子）を生成し、
+          継続的に自己改良を行う自己進化型エージェントエンジンです。
+          生物の遺伝的進化に着想を得た設計により、事前に定義されたツールに縛られることなく
+          タスクに最適化したスキルセットをエージェント自身が構築します。
+          Node.js 18 以上を要件とし、MIT ライセンスで提供されています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>スキルの自動生成（GEP）：</strong> エージェントがタスク遂行中に新しいスキル（関数）を自律的に作成・蓄積。</li>
+          <li><strong>遺伝的最適化：</strong> 生物の進化メカニズムを模倣し、優れたスキルを選択・組み合わせて改良。</li>
+          <li><strong>タスク横断の知識蓄積：</strong> 一度習得したスキルを以降のタスクで再利用・拡張可能。</li>
+          <li><strong>高いトークン効率：</strong> 固定プロンプトではなく蓄積済みスキルを活用することでコストを削減。</li>
+          <li><strong>多言語ドキュメント：</strong> 英語・中国語の両対応で国際的なコミュニティとの連携を想定。</li>
+        </ul>
+
+        <h2>リポジトリの構成</h2>
+        <p>
+          Node.js 製のコアエンジンを中心に、GEP モジュール（スキル生成・淘汰アルゴリズム）、
+          スキルリポジトリ（蓄積された遺伝子プール）、LLM インターフェース層から構成されます。
+          evomap.ai の Wiki にアーキテクチャの詳細が記載されており、
+          中国語ドキュメントも完備しているため、国際展開を見据えた設計がうかがえます。
+        </p>
+
+        <h2>セットアップ・導入のイメージ</h2>
+        <p>
+          Node.js 18 以上の環境に <code>npm install</code> 後、LLM の API キー（OpenAI 等）を環境変数へ設定します。
+          初回タスクの実行後、エージェントが新しいスキルを自動生成しスキルリポジトリへ保存します。
+          同種のタスクを繰り返すことで、エージェントの応答速度と精度が向上していく様子を確認できます。
+        </p>
+
+        <h2>ターゲット層 / 注目ポイント</h2>
+        <p>
+          AI エージェント研究者、複雑な自律エージェントシステムの構築に取り組むエンジニア、
+          および「ツールセットを人間が定義する」アプローチに限界を感じている開発者に適しています。
+          Trending 1 位という事実は、「AI が AI 自身を改善する」というコンセプトへのコミュニティの高い関心を示しています。
+          GenericAgent や Voyager といった先行研究と同じ自己成長型エージェントの潮流に位置する注目作です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          自己生成スキルの品質保証は依然として難しく、不適切なスキルが生成されるリスクがあります。
+          本番用途への導入前には十分なサンドボックス環境でのテストが必要です。
+          また、スキルリポジトリが肥大化すると検索・選択コストが増加するため、
+          スキルの品質フィルタリング戦略も合わせて検討することを推奨します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          Evolver は、AI エージェントに「経験から学んで自分自身を改造する」能力を与えるという
+          野心的なビジョンを持つプロジェクトです。GEP という独自プロトコルによる遺伝的最適化は
+          既存の RAG や Few-shot とは異なるアプローチであり、
+          自律エージェント設計の新たな地平を切り開く可能性を秘めています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/EvoMap/evolver" target="_blank" rel="noreferrer">EvoMap/evolver — GitHub</a>
+        </div>
+        <div class="source-item">
+          <a href="https://evomap.ai/wiki" target="_blank" rel="noreferrer">evomap.ai — 公式 Wiki</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
