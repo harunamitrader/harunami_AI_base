@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OthmanAdi/planning-with-files を読み、Claude Code や Cursor 等で Manus スタイルの永続的プランニングを実現するスキルシステムの仕組みと特徴を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>planning-with-files</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">planning-with-files</h1>
+      <p class="article-dek">Manus スタイルの「ファイルベースの思考」を Claude Code や Cursor に。20億ドルで買収された AI エージェントのワークフローを再現する拡張スキル。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-18 -->
+          <strong>2026-04-18</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/OthmanAdi/planning-with-files" target="_blank" rel="noreferrer">
+              OthmanAdi/planning-with-files
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>18,900</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          planning-with-files は、Claude Code や Cursor などの AI コーディング環境において、
+          外部の Markdown ファイルを作業メモリ（Working Memory）として活用する高度なエージェントスキルです。
+          Meta に20億ドルで買収された AI スタートアップ「Manus」が採用していたワークフローを参考に設計されており、
+          長期的なタスクにおける「記憶の揮発」や「目的の喪失（Goal Drift）」を防ぐことを目的としています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>3-File パターン：</strong> 「タスクプラン」「調査結果」「進捗ログ」の3つのファイルで思考を構造化。</li>
+          <li><strong>コンテキスト自動復旧：</strong> <code>/clear</code> コマンド実行後も、ファイルからセッション情報を自動で再読み込み。</li>
+          <li><strong>自律的な進捗更新：</strong> ツール実行前後でプランの確認・更新をエージェントに自動的に促すライフサイクル管理。</li>
+          <li><strong>マルチエージェント対応：</strong> Claude Code, Cursor, Codex, Gemini CLI 等 40 種類以上の環境をサポート。</li>
+          <li><strong>他言語対応：</strong> 日本語を含む多言語のプランニングテンプレートを内蔵。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、AI エージェントの「短期記憶（コンテキスト）」の限界を、
+          「ファイルベースの長期記憶」で補完するというコンセプトの明快さです。
+          公開からわずか24時間で爆発的な支持を集め、現在 18.9k Stars を獲得しています。
+          単なるプロンプト集ではなく、`npx skills add` で簡単に導入できる **Agent Skills** 規格に準拠した
+          「インストール可能な能力」として提供されている点が非常に実用的です。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          ターミナルで <code>npx skills add OthmanAdi/planning-with-files</code> を実行するだけで導入が完了します。
+          Claude Code の場合は <code>/plan</code> コマンドが有効になり、
+          「/plan プロジェクトを開始してください」と指示するだけで、
+          必要な Markdown ファイルが自動生成され、AI との構造化された協働が始まります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          Claude Code や Cursor を日常的に使い倒しているエンジニア、
+          大規模なプロジェクトの自動化に AI を活用したい開発者、
+          および AI エージェントの精度と自律性を向上させる「プロンプトエンジニアリングの先」の技術に興味がある方に最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          プロジェクト内にプランニング用の Markdown ファイルが生成されるため、
+          無視したい場合は `.gitignore` 等の設定が必要です。
+          また、エージェントが自律的にファイルを更新し続けるため、
+          トークン消費量が通常より増加する傾向にあります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          planning-with-files は、AI エージェントを「ただのチャット相手」から「自律的にタスクを管理する相棒」に進化させるための決定版とも言えるスキルです。
+          Manus の成功を支えたワークフローを手元の環境で再現できるこのツールは、
+          AI コーディングの生産性を一段上のレベルへ引き上げてくれるでしょう。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/OthmanAdi/planning-with-files" target="_blank" rel="noreferrer">OthmanAdi/planning-with-files</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

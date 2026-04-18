@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-18-othmanadi-planning-with-files",
+      "title": "planning-with-files",
+      "dek": "Manus スタイルの「ファイルベースの思考」を Claude Code や Cursor に。20億ドルで買収された AI エージェントのワークフローを再現する拡張スキル。",
+      "summary": "Claude Code や Cursor 等で Manus スタイルの永続的プランニングを実現するスキルシステム。Markdown を作業メモリとして活用し、長期タスクの目的喪失や記憶の揮発を防ぎます。",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T14:00:00+09:00",
+      "repoName": "OthmanAdi/planning-with-files",
+      "repoUrl": "https://github.com/OthmanAdi/planning-with-files",
+      "starCount": 18900,
+      "articleUrl": "./articles/github/daily/2026-04-18-othmanadi-planning-with-files.html",
+      "serial": 271,
+      "originType": "pickup",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-18-mrdoob-three-js",
       "title": "three.js",
       "dek": "JavaScript で 3D グラフィックスを扱うためのデファクトスタンダード。3D Tiles などの高度な地理空間データ対応も充実。",

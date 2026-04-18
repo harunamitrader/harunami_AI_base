@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-18T03:39:19.948498+00:00",
-  "count": 287,
+  "generatedAt": "2026-04-18T05:00:09.640874+00:00",
+  "count": 288,
   "articles": [
+    {
+      "slug": "2026-04-18-othmanadi-planning-with-files",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "planning-with-files",
+      "dek": "Manus スタイルの「ファイルベースの思考」を Claude Code や Cursor に。20億ドルで買収された AI エージェントのワークフローを再現する拡張スキル。",
+      "summary": "Claude Code や Cursor 等で Manus スタイルの永続的プランニングを実現するスキルシステム。Markdown を作業メモリとして活用し、長期タスクの目的喪失や記憶の揮発を防ぎます。",
+      "repoName": "OthmanAdi/planning-with-files",
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)",
+      "publishedAt": "2026-04-18",
+      "createdAt": "2026-04-18T14:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-18-othmanadi-planning-with-files.html",
+      "serial": 271,
+      "searchText": "planning-with-files Manus スタイルの「ファイルベースの思考」を Claude Code や Cursor に。20億ドルで買収された AI エージェントのワークフローを再現する拡張スキル。 Claude Code や Cursor 等で Manus スタイルの永続的プランニングを実現するスキルシステム。Markdown を作業メモリとして活用し、長期タスクの目的喪失や記憶の揮発を防ぎます。 OthmanAdi/planning-with-files AIコーディング (ワークフロー・プロンプト・開発補助ツール) planning-with-files ← 記事一覧へ戻る GitHub Watcher planning-with-files Manus スタイルの「ファイルベースの思考」を Claude Code や Cursor に。20億ドルで買収された AI エージェントのワークフローを再現する拡張スキル。 記事作成日 2026-04-18 種別 Pickup 対象 repo OthmanAdi/planning-with-files Star数 18,900 これは何か planning-with-files は、Claude Code や Cursor などの AI コーディング環境において、 外部の Markdown ファイルを作業メモリ（Working Memory）として活用する高度なエージェントスキルです。 Meta に20億ドルで買収された AI スタートアップ「Manus」が採用していたワークフローを参考に設計されており、 長期的なタスクにおける「記憶の揮発」や「目的の喪失（Goal Drift）」を防ぐことを目的としています。 何ができるか 3-File パターン： 「タスクプラン」「調査結果」「進捗ログ」の3つのファイルで思考を構造化。 コンテキスト自動復旧： /clear コマンド実行後も、ファイルからセッション情報を自動で再読み込み。 自律的な進捗更新： ツール実行前後でプランの確認・更新をエージェントに自動的に促すライフサイクル管理。 マルチエージェント対応： Claude Code, Cursor, Codex, Gemini CLI 等 40 種類以上の環境をサポート。 他言語対応： 日本語を含む多言語のプランニングテンプレートを内蔵。 目立つポイント 最大の特徴は、AI エージェントの「短期記憶（コンテキスト）」の限界を、 「ファイルベースの長期記憶」で補完するというコンセプトの明快さです。 公開からわずか24時間で爆発的な支持を集め、現在 18.9k Stars を獲得しています。 単なるプロンプト集ではなく、`npx skills add` で簡単に導入できる **Agent Skills** 規格に準拠した 「インストール可能な能力」として提供されている点が非常に実用的です。 セットアップや使い方の流れ ターミナルで npx skills add OthmanAdi/planning-with-files を実行するだけで導入が完了します。 Claude Code の場合は /plan コマンドが有効になり、 「/plan プロジェクトを開始してください」と指示するだけで、 必要な Markdown ファイルが自動生成され、AI との構造化された協働が始まります。 どんな人向けか Claude Code や Cursor を日常的に使い倒しているエンジニア、 大規模なプロジェクトの自動化に AI を活用したい開発者、 および AI エージェントの精度と自律性を向上させる「プロンプトエンジニアリングの先」の技術に興味がある方に最適です。 注意点 プロジェクト内にプランニング用の Markdown ファイルが生成されるため、 無視したい場合は `.gitignore` 等の設定が必要です。 また、エージェントが自律的にファイルを更新し続けるため、 トークン消費量が通常より増加する傾向にあります。 まとめ planning-with-files は、AI エージェントを「ただのチャット相手」から「自律的にタスクを管理する相棒」に進化させるための決定版とも言えるスキルです。 Manus の成功を支えたワークフローを手元の環境で再現できるこのツールは、 AI コーディングの生産性を一段上のレベルへ引き上げてくれるでしょう。 参照リンク OthmanAdi/planning-with-files"
+    },
     {
       "slug": "2026-04-18-mrdoob-three-js",
       "category": "github-pickup",
