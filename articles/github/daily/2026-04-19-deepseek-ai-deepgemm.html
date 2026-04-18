@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeepGEMM - harunami AI base</title>
+    <link rel="stylesheet" href="../../../index.css" />
+  </head>
+  <body>
+    <div class="article-container">
+      <header class="article-header">
+        <p class="eyebrow">GitHub Watcher</p>
+        <h1 class="article-title">DeepGEMM</h1>
+        <p class="article-dek">DeepSeek が公開した、FP8 精度に特化した高効率な行列演算（GEMM）カーネル。きめ細やかなスケーリングにより精度と速度を両立。</p>
+        <div class="article-meta-grid">
+          <!-- 2026-04-19 -->
+          <strong>2026-04-19</strong>
+          <strong>Rank5</strong>
+          <a href="https://github.com/deepseek-ai/DeepGEMM">deepseek-ai / DeepGEMM</a>
+          <strong>6,499 Stars</strong>
+        </div>
+      </header>
+
+      <main class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          DeepGEMM は、AI モデル開発で世界的な注目を集める DeepSeek チームが公開した、NVIDIA GPU (Hopper アーキテクチャ以降) 向けの行列演算ライブラリです。特に近年主流になりつつある FP8 (8ビット浮動小数点) 演算において、性能を極限まで引き出すためのカスタムカーネルを提供しています。
+        </p>
+
+        <h2>何ができるか</h2>
+        <p>
+          LLM の推論や学習を大幅に高速化できます。従来の FP8 演算では量子化による精度低下が課題でしたが、DeepGEMM は「Fine-grained scaling（きめ細やかなスケーリング）」を実装することで、計算速度を維持したまま精度劣化を最小限に抑えます。CUDA プログラミングを駆使し、ハードウェアの性能限界に近いスループットを実現するためのパーツ群です。
+        </p>
+
+        <h2>目立つポイント</h2>
+        <p>
+          「実戦からのフィードバック」が最大の特徴です。DeepSeek-V3 などの巨大なモデルを自社で運用・学習させる中で磨き上げられたコードであり、他社の汎用ライブラリと比較しても、実効速度やメモリ効率において極めて高いパフォーマンスを発揮するように最適化されています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          CUDA 環境が必要です。リポジトリをクローンし、CMake を用いてビルドして利用します。PyTorch などから呼び出すためのインターフェースも想定されており、低レイヤーの演算基盤として既存の開発パイプラインに組み込むことができます。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          LLM の学習・推論インフラを構築しているシステムエンジニア、独自の深層学習フレームワークを開発しているリサーチエンジニア、また GPU の計算リソースを 1% でも無駄にしたくない最適化マニアに最適です。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          NVIDIA の H100 などの最新世代 GPU に特化した設計であり、古いハードウェアではそのポテンシャルを十分に発揮できない可能性があります。非常に高度な技術が含まれているため、利用には行列演算や量子化に関する深い知識が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          DeepGEMM は、DeepSeek の強さの源泉がアルゴリズムだけでなく、低レイヤーの徹底した最適化にあることを証明するライブラリです。オープンソースとして公開されたことで、今後の AI インフラ全体の FP8 移行が加速することが期待されます。
+        </p>
+
+        <h2>参照リンク</h2>
+        <ul class="article-links">
+          <li><a href="https://github.com/deepseek-ai/DeepGEMM">GitHub リポジトリ</a></li>
+        </ul>
+      </main>
+
+      <footer class="article-footer">
+        <a href="../../../index.html" class="back-link">ホームへ戻る</a>
+      </header>
+    </div>
+  </body>
+</html>
