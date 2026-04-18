@@ -1,27 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DeepGEMM - harunami AI base</title>
-    <link rel="stylesheet" href="../../../index.css" />
+    <meta
+      name="description"
+      content="deepseek-ai/DeepGEMM を読み、DeepSeek が公開した FP8 特化カーネルの要点を整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>DeepGEMM</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
   </head>
   <body>
-    <div class="article-container">
-      <header class="article-header">
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
         <p class="eyebrow">GitHub Watcher</p>
-        <h1 class="article-title">DeepGEMM</h1>
-        <p class="article-dek">DeepSeek が公開した、FP8 精度に特化した高効率な行列演算（GEMM）カーネル。きめ細やかなスケーリングにより精度と速度を両立。</p>
-        <div class="article-meta-grid">
-          <!-- 2026-04-19 -->
-          <strong>2026-04-19</strong>
-          <strong>Rank5</strong>
-          <a href="https://github.com/deepseek-ai/DeepGEMM">deepseek-ai / DeepGEMM</a>
-          <strong>6,499 Stars</strong>
-        </div>
-      </header>
+      </div>
 
-      <main class="article-body">
+      <h1 class="article-title">DeepGEMM</h1>
+      <p class="article-dek">DeepSeek が公開した、FP8 精度に特化した高効率な行列演算（GEMM）カーネル。きめ細やかなスケーリングにより精度と速度を両立。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <strong>2026-04-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/deepseek-ai/DeepGEMM" target="_blank" rel="noreferrer">
+              deepseek-ai/DeepGEMM
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,499</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
         <h2>これは何か</h2>
         <p>
           DeepGEMM は、AI モデル開発で世界的な注目を集める DeepSeek チームが公開した、NVIDIA GPU (Hopper アーキテクチャ以降) 向けの行列演算ライブラリです。特に近年主流になりつつある FP8 (8ビット浮動小数点) 演算において、性能を極限まで引き出すためのカスタムカーネルを提供しています。
@@ -58,14 +88,10 @@
         </p>
 
         <h2>参照リンク</h2>
-        <ul class="article-links">
-          <li><a href="https://github.com/deepseek-ai/DeepGEMM">GitHub リポジトリ</a></li>
-        </ul>
-      </main>
-
-      <footer class="article-footer">
-        <a href="../../../index.html" class="back-link">ホームへ戻る</a>
-      </header>
-    </div>
+        <div class="source-item">
+          <a href="https://github.com/deepseek-ai/DeepGEMM" target="_blank" rel="noreferrer">deepseek-ai/DeepGEMM</a>
+        </div>
+      </div>
+    </article>
   </body>
 </html>
