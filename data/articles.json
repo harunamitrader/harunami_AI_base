@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-19-coding-kitties-investing-algorithm-framework",
+      "title": "Investing Algorithm Framework",
+      "dek": "「バックテストの先」まで見据えた開発を。戦略の構築、多角的な比較レポート、そして本番デプロイまでを完遂する、クオンツのための Python フレームワーク。",
+      "summary": "開発、バックテスト、そして本番デプロイまでを統合した Python トレードフレームワーク。30種以上の指標算出に加え、複数戦略を横断して比較・ランク付けできるセルフホスト型 HTML レポート機能が特徴。AWS Lambda や Azure Functions へのクラウドデプロイも標準サポートしています。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T15:40:00+09:00",
+      "repoName": "coding-kitties/investing-algorithm-framework",
+      "repoUrl": "https://github.com/coding-kitties/investing-algorithm-framework",
+      "starCount": 733,
+      "articleUrl": "./articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html",
+      "serial": 285,
+      "originType": "pickup",
+      "genre": "トレード (自動取引・分析ツール)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-19-builderz-labs-mission-control",
       "title": "Mission Control (builderz-labs)",
       "dek": "AI エージェントの「艦隊」を指揮せよ。タスク、コスト、セキュリティ。自律型エージェントの運用を一つのダッシュボードで統制する、セルフホスト型「管制塔」。",

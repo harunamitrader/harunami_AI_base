@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-19T03:41:11.470065+00:00",
-  "count": 301,
+  "generatedAt": "2026-04-19T06:44:12.318254+00:00",
+  "count": 302,
   "articles": [
+    {
+      "slug": "2026-04-19-coding-kitties-investing-algorithm-framework",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Investing Algorithm Framework",
+      "dek": "「バックテストの先」まで見据えた開発を。戦略の構築、多角的な比較レポート、そして本番デプロイまでを完遂する、クオンツのための Python フレームワーク。",
+      "summary": "開発、バックテスト、そして本番デプロイまでを統合した Python トレードフレームワーク。30種以上の指標算出に加え、複数戦略を横断して比較・ランク付けできるセルフホスト型 HTML レポート機能が特徴。AWS Lambda や Azure Functions へのクラウドデプロイも標準サポートしています。",
+      "repoName": "coding-kitties/investing-algorithm-framework",
+      "genre": "トレード (自動取引・分析ツール)",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T15:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html",
+      "serial": 285,
+      "searchText": "Investing Algorithm Framework 「バックテストの先」まで見据えた開発を。戦略の構築、多角的な比較レポート、そして本番デプロイまでを完遂する、クオンツのための Python フレームワーク。 開発、バックテスト、そして本番デプロイまでを統合した Python トレードフレームワーク。30種以上の指標算出に加え、複数戦略を横断して比較・ランク付けできるセルフホスト型 HTML レポート機能が特徴。AWS Lambda や Azure Functions へのクラウドデプロイも標準サポートしています。 coding-kitties/investing-algorithm-framework トレード (自動取引・分析ツール) Investing Algorithm Framework ← 記事一覧へ戻る GitHub Watcher Investing Algorithm Framework 「バックテストの先」まで見据えた開発を。戦略の構築、多角的な比較レポート、そして本番デプロイまでを完遂する、クオンツのための Python フレームワーク。 記事作成日 2026-04-19 種別 Pickup 対象 repo coding-kitties/investing-algorithm-framework Star数 733 これは何か Investing Algorithm Framework は、自動取引アルゴリズム（トレードボット）の設計、バックテスト、およびデプロイを強力に支援する Python オープンソースフレームワークです。 単なるバックテストツールにとどまらず、開発した複数の戦略を同一条件で比較し、最適なものを本番環境へと送り出すまでの「フルライフサイクル」をカバーしています。 何ができるか 戦略の定義： TradingStrategy クラスを継承し、データソース、シグナル生成、リスク管理ルール（ストップロス、スケーリング等）を簡潔に記述。 高度なバックテスト： 30 種類以上のメトリクス（Sharpe, Sortino, Max Drawdown 等）を算出。複数期間にまたがる堅牢性テストもサポート。 インタラクティブ・レポート： バックテスト結果を単一の HTML ファイルとして出力。ブラウザ上で戦略間のランキングやチャートを視覚的に比較。 多様なデプロイ先： ローカル実行に加え、AWS Lambda や Azure Functions などのクラウド環境への最適化されたデプロイが可能。 目立つポイント このフレームワークの白眉は、**「Jupyter Notebook を必要としない、強力な統合レポート機能」** です。 「バックテスト後に数値を眺めて終わり」ではなく、自動生成される HTML ダッシュボードを通じて、 複数のパラメータセットや戦略を横並びでフィルタリング・ランク付けし、真に「勝てる」可能性が高い戦略を見極めることができます。 また、リスク管理（ポジションサイジング、トレイリングストップ等）がフレームワーク標準で組み込まれているため、ロジックの本質に集中できる点も魅力です。 セットアップや使い方の流れ pip install investing-algorithm-framework で導入し、CLI から init コマンドを叩くことでプロジェクト構造を自動生成できます。 コード上でシグナル生成ロジックを実装し、バックテストを実行。生成された HTML レポートをブラウザで開き、結果に納得がいけば、そのままクラウド環境へと公開するフローが確立されています。 どんな人向けか 独自の投資アルゴリズムを開発したいクオンツ・エンジニア、または既存のバックテストツールでは「分析の深さ」や「運用のしやすさ」に物足りなさを感じている個人トレーダーに最適です。 まとめ Investing Algorithm Framework は、ボット開発の「散らばったパーツ」を一つにまとめ上げる、洗練されたプラットフォームです。 AI や機械学習を用いた高度な戦略を、実運用可能な「製品」へと昇華させるための最短経路を提供してくれます。 参照リンク coding-kitties/investing-algorithm-framework (GitHub)"
+    },
     {
       "slug": "2026-04-19-builderz-labs-mission-control",
       "category": "github-pickup",

@@ -8,6 +8,14 @@
     <lastBuildDate>Sun, 19 Apr 2026 03:43:31 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title><![CDATA[Investing Algorithm Framework]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-coding-kitties-investing-algorithm-framework.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「バックテストの先」まで見据えた開発を。戦略の構築、多角的な比較レポート、そして本番デプロイまでを完遂する、クオンツのための Python フレームワーク。]]></description>
+    </item>
+    <item>
       <title><![CDATA[Mission Control (builderz-labs)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-builderz-labs-mission-control.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-builderz-labs-mission-control.html</guid>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[49のAIエージェントと72のスキルで、Claude Codeをゲームスタジオに。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[omi]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-basedhardware-omi.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-basedhardware-omi.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[画面共有と音声から自律的にアクションを提案。ウェアラブル・モバイル対応のマルチモーダルAI。]]></description>
     </item>
   </channel>
 </rss>
