@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-20-titanwings-colleague-skill",
+      "title": "colleague-skill",
+      "dek": "実在の人物やキャラクターをAIスキルとして「蒸留」。チャットログやメールから思考と言動を再現するデジタル生命体構築フレームワーク",
+      "summary": "人格や思考プロセスを「AIスキル」として抽出・再現するためのフレームワーク。チャットログやメールなどのデータから対象の思考の枠組みを学習し、Claude Code などのエージェント環境で対話可能なスキルとして蒸留します。",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T04:56:00+09:00",
+      "repoName": "titanwings/colleague-skill",
+      "repoUrl": "https://github.com/titanwings/colleague-skill",
+      "starCount": 15200,
+      "articleUrl": "./articles/github/daily/2026-04-20-titanwings-colleague-skill.html",
+      "serial": 292,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-19-robusta-dev-krr",
       "title": "krr",
       "dek": "Kubernetesのリソース割り当てをPrometheusの利用データから最適化。コスト削減とパフォーマンス向上を実現するCLIツール",
