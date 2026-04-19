@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-19-pingdotgg-t3code",
+      "title": "T3 Code",
+      "dek": "ターミナルからWeb GUIへ。Claude Code や Codex をブラウザで快適に操作し、自律エージェントの挙動を視覚化するオープンソース・インターフェース。",
+      "summary": "Claude Code や Codex CLI のためのミニマルな Web GUI。npx t3 で即座に起動でき、CLI ベースの強力なコーディングエージェントに直感的な操作感と視覚的な進捗管理を提供します。Windows, macOS, Linux 用のデスクトップ版も用意されています。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T21:45:00+09:00",
+      "repoName": "pingdotgg/t3code",
+      "repoUrl": "https://github.com/pingdotgg/t3code",
+      "starCount": 9700,
+      "articleUrl": "./articles/github/daily/2026-04-19-pingdotgg-t3code.html",
+      "serial": 288,
+      "originType": "pickup",
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-19-hkuds-nanobot",
       "title": "nanobot",
       "dek": "「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。",

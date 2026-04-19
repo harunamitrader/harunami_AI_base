@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-19T12:34:51.684454+00:00",
-  "count": 304,
+  "generatedAt": "2026-04-19T12:36:21.823787+00:00",
+  "count": 305,
   "articles": [
+    {
+      "slug": "2026-04-19-pingdotgg-t3code",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "T3 Code",
+      "dek": "ターミナルからWeb GUIへ。Claude Code や Codex をブラウザで快適に操作し、自律エージェントの挙動を視覚化するオープンソース・インターフェース。",
+      "summary": "Claude Code や Codex CLI のためのミニマルな Web GUI。npx t3 で即座に起動でき、CLI ベースの強力なコーディングエージェントに直感的な操作感と視覚的な進捗管理を提供します。Windows, macOS, Linux 用のデスクトップ版も用意されています。",
+      "repoName": "pingdotgg/t3code",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T21:45:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-19-pingdotgg-t3code.html",
+      "serial": 288,
+      "searchText": "T3 Code ターミナルからWeb GUIへ。Claude Code や Codex をブラウザで快適に操作し、自律エージェントの挙動を視覚化するオープンソース・インターフェース。 Claude Code や Codex CLI のためのミニマルな Web GUI。npx t3 で即座に起動でき、CLI ベースの強力なコーディングエージェントに直感的な操作感と視覚的な進捗管理を提供します。Windows, macOS, Linux 用のデスクトップ版も用意されています。 pingdotgg/t3code AIコーディング (CLI本体・拡張機能) T3 Code ← 記事一覧へ戻る GitHub Watcher T3 Code ターミナルからWeb GUIへ。Claude Code や Codex をブラウザで快適に操作し、自律エージェントの挙動を視覚化するオープンソース・インターフェース。 記事作成日 2026-04-19 種別 Pickup 対象 repo pingdotgg/t3code Star数 9,700 これは何か T3 Code は、Claude Code や Codex といった CLI ベースの potente な AI コーディングエージェントを、ブラウザで快適に扱うためのミニマルな Web GUI です。 ターミナルのテキストベースのやり取りを視覚的なインターフェースへと拡張し、エージェントの思考や作業状況を一目で把握できるようにします。 何ができるか マルチプロバイダー対応： 現在、Anthropic の Claude Code および OpenAI の Codex CLI をサポート。設定済みの CLI をそのまま UI から操作可能です。 npx で即起動： インストール不要で npx t3 を実行するだけで、ローカル環境の Web UI を立ち上げられます。 マルチプラットフォーム： Web 版に加え、Windows, macOS, Linux 向けのデスクトップアプリも提供されています。 作業の可視化： エージェントが提案するコード変更やタスクの進捗状況を、ブラウザの広い画面を活用して整理して表示します。 目立つポイント 最大の特徴は、**「既存の強力な CLI ツールの利便性を損なわず、UX（ユーザー体験）を劇的に近代化する点」** です。 AI エージェントが「今何をしているか」を把握することは、時に CLI では煩雑になりますが、T3 Code はそれを Web UI で構造化することで、開発者の認知的負荷を大幅に軽減しています。 設定も非常にシンプルで、普段使っている CLI ツールの「顔」として即座に導入できるのが魅力です。 セットアップや使い方の流れ 手元で Claude Code （ claude auth login 済み）または Codex CLI（ codex login 済み）が動作する状態であれば、 ターミナルで npx t3 と打ち込むだけで開始できます。自動的にブラウザで専用 UI が開き、対象のプロジェクトディレクトリを選択して、すぐにエージェントへの指示を開始できます。 どんな人向けか 強力な AI エージェントは使いたいが、長時間のターミナル操作に疲れを感じている人や、エージェントの挙動をもっと直感的に観察・管理したい開発者に最適です。 また、CLI ツールに詳しくないチームメンバーにエージェントの機能を活用してもらう際のインターフェースとしても機能します。 注意点 このプロジェクトは非常に初期段階（Early Stage）にあり、予期せぬバグが含まれる可能性があります。 また、あくまで既存の CLI ツールの「インターフェース」であるため、ベースとなる Claude Code や Codex CLI のインストールと認証が事前に行われている必要があります。 まとめ T3 Code は、AI エージェントとの対話をよりリッチで、人間にとって理解しやすいものへと変えてくれます。 CLI の俊敏性と Web UI の表現力を兼ね備えることで、AI との協調開発をより親しみやすく、効率的なものへと進化させてくれるツールです。 参照リンク pingdotgg/t3code (GitHub) t3.codes (Official Website)"
+    },
     {
       "slug": "2026-04-19-hkuds-nanobot",
       "category": "github-pickup",
