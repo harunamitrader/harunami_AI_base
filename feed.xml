@@ -5,8 +5,48 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Apr 2026 20:52:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 06:40:00 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-20 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-20-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-20-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[FinceptTerminal]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-fincept-corporation-finceptterminal.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-fincept-corporation-finceptterminal.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[投資家のための「情報の管制塔」。機関投資家レベルのマーケット分析、リサーチ、経済データを統合した、対話型で高度な金融端末アプリ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[arc-kit]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-tractorjuice-arc-kit.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-tractorjuice-arc-kit.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[エンタープライズ・アーキテクチャの羅針盤。ITガバナンス、ベンダー調達、そして技術スタックの最適化を支援する専門ツールキット。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[paperless-ngx]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-paperless-ngx-paperless-ngx.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-paperless-ngx-paperless-ngx.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[紙の山をスマートな資産へ。スキャン・自動分類・OCRを備え、あらゆる書類を検索可能にする究極の自炊ドキュメント管理システム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[RuView]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-ruvnet-ruview.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-ruvnet-ruview.html</guid>
+      <category>github-trending</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[WiFi信号を「目」に変え、カメラなしで人影やバイタルを計測。物理空間をデジタル化する次世代のWiFiセンシング基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[opennews-mcp]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-6551team-opennews-mcp.html</link>

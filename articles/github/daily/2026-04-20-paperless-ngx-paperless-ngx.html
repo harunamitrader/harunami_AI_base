@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="paperless-ngx/paperless-ngx を読み、紙文書のデジタル管理を劇的に効率化する OSS ドキュメント管理システムの特徴を整理した記事。AI によるタグ付けと OCR の実力について解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>paperless-ngx</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">paperless-ngx</h1>
+      <p class="article-dek">紙の山をスマートな資産へ。スキャン・自動分類・OCRを備え、あらゆる書類を検索可能にする究極の自炊ドキュメント管理システム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-20 -->
+          <strong>2026-04-20</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank6</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/paperless-ngx/paperless-ngx" target="_blank" rel="noreferrer">
+              paperless-ngx/paperless-ngx
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>38,803</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          paperless-ngx は、スキャンした紙の書類や PDF、画像をデジタル化し、検索・整理可能な形でアーカイブするためのコミュニティ主導型ドキュメント管理システム (DMS) です。
+          「スキャンしただけで満足してしまう」という課題を、強力な OCR（光学文字認識）と AI による自動分類で解決し、個人の生活や企業の文書管理をペーパーレス化へと導きます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>高度な OCR 処理：</strong> Tesseract を使用して PDF や画像からテキストを抽出し、すべてのドキュメントを全文検索可能にします。</li>
+          <li><strong>AI による自動タグ付け：</strong> 過去のパターンを機械学習し、アップロードされた書類に送信者、タグ、カテゴリーを自動で割り当てます。</li>
+          <li><strong>複数ソースからの取り込み：</strong> 特定のディレクトリの監視、メール受信、モバイルアプリ経由など、多彩なインポート経路。</li>
+          <li><strong>Web インターフェース：</strong> 美しくレスポンシブな UI で、ブラウザから簡単に書類を管理・プレビューできます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大のポイントは、**「実用性の極めて高い自働化とオープンソースならではのプライバシー」**です。
+          商用サービスに引けを取らない UI/UX を備えながら、すべてのデータを自分のサーバー（Raspberry Pi 等）に置くことが可能。AI による分類機能は精度が高く、使えば使うほど「手作業でフォルダ分けする」という苦行から解放されます。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          Docker Compose を使用したインストールが推奨されています。セットアップ完了後、特定のフォルダ（consume フォルダ）に書類を放り込むか、専用のメールアドレスに送信するだけで処理が開始されます。
+          OCR が終了すると、全文検索および AI によるおすすめタグが適用され、管理画面からワンクリックで目的の書類を見つけ出せるようになります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          大量のレシート、公共料金の領収書、契約書、子供のプリント、学術論文などを「とりあえずスキャンしたけれど、二度と見つけられない」状態にあるすべての人におすすめです。
+          また、企業レベルのドキュメント管理を低コストかつセキュアに構築したい中小規模の組織にとっても強力な選択肢となります。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          大量のドキュメント（数万枚規模）を OCR 処理する場合、CPU やメモリのリソースを相応に消費します。また、日本語の OCR 精度を上げるためには、適切な言語データのインストールと設定が必要です。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          paperless-ngx は、単なる「置き場」としてのフォルダを、インテリジェントな「知識ベース」へと変貌させる装置です。
+          近年注目される RAG（検索拡張生成）などの AI 技術とも相性が良く、蓄積した個人的・組織的な文書資産を最大限に活用するための第一歩として最適なツールです。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/paperless-ngx/paperless-ngx" target="_blank" rel="noreferrer">paperless-ngx/paperless-ngx (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://docs.paperless-ngx.com/" target="_blank" rel="noreferrer">Documentation (Official)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
