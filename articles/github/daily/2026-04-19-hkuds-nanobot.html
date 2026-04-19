@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HKUDS/nanobot を読み、OpenClaw の精神を継承した超軽量なパーソナル AI エージェントの特徴を整理した記事。マルチチャット連携、MCP 対応、シンプルなコア構造が魅力。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>nanobot</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">nanobot</h1>
+      <p class="article-dek">「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-19 -->
+          <strong>2026-04-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noreferrer">
+              HKUDS/nanobot
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>40,100</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          nanobot は、OpenClaw や Claude Code、Codex の精神を受け継いだ、オープンソースの超軽量 AI エージェントです。
+          コアとなるエージェントループを極限までシンプルに保ちながら、多様なチャットツールとの連携、メモリ機能、MCP（Model Context Protocol）のサポートを備えています。
+          「エージェントは重厚長大である必要はない」という思想のもと、個人の日常に溶け込む AI の足場を提供します。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>多様なチャット連携：</strong> Telegram, Discord, WeChat, Feishu, Slack, WhatsApp, Matrix, DingTalk, Email, QQ など、主要なメッセージングプラットフォームを通じてエージェントと対話できます。</li>
+          <li><strong>タスク実行：</strong> 24時間リアルタイムの市場分析、フルスタックエンジニアリング、日常のルーチン管理、パーソナルナレッジアシスタントとして機能します。</li>
+          <li><strong>拡張性：</strong> MCP サーバー、ウェブ検索、Python SDK、OpenAI 互換 API などを通じて、独自のツールや自動化フローを統合可能です。</li>
+          <li><strong>簡単導入：</strong> <code>nanobot onboard</code> コマンドによる対話形式のセットアップで、プロバイダー設定から利用開始までをスムーズに行えます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          このプロジェクトの白眉は、**「極限まで無駄を削ぎ落としたアーキテクチャ」** です。
+          メッセージ入力から LLM による判断、ツールの呼び出し、そしてメモリやスキルのコンテキストインジェクションに至るまで、エージェントの基本動作が非常にシンプルなループで構成されています。
+          これにより、コードの可読性が高く、研究者がアルゴリズムを試したり、開発者が独自の「スキル」をプラグインしたりすることが容易になっています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          <code>uv tool install nanobot-ai</code> または <code>pip install nanobot-ai</code> でインストールし、<code>nanobot onboard</code> を実行します。
+          生成された <code>~/.nanobot/config.json</code> に API キーとモデル（Claude, GPT, Gemini 等）を設定すれば、準備完了です。
+          <code>nanobot agent</code> で起動し、各チャットアプリのトークンを連携すれば、普段使いのツールからエージェントを呼び出せるようになります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          自分専用の「24時間自走する」AI エージェントを低コストで運用したい個人ユーザーや、エージェントの内部構造を深く理解し、自分好みにカスタマイズしていきたい開発者に最適です。
+          特に、既存のチャットアプリを業務や日常のハブとして活用している人にとって、強力な相棒となります。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          非常に軽量である一方で、複雑な多段階推論や高度な自己改善機能などは、現時点ではスキルの拡張やプロンプトの調整に依存する部分があります。
+          また、Docker やサーバーレス環境での運用には、それぞれのインフラに応じた適切なデプロイ設定をユーザー自身で行う必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          nanobot は、AI エージェントを「特別なツール」ではなく「日常の機能」へと変えるための、洗練されたプラットフォームです。
+          最小限のオーバーヘッドで最大の便益を引き出す設計思想は、AI との共生を考える上で一つの理想的な形を示しています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noreferrer">HKUDS/nanobot (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://nanobot.wiki" target="_blank" rel="noreferrer">nanobot.wiki (Official Docs)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

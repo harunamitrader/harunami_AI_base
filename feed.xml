@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Apr 2026 07:04:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 21:34:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[nanobot]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-hkuds-nanobot.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-hkuds-nanobot.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。]]></description>
+    </item>
     <item>
       <title><![CDATA[ClawLess (open-gitagent)]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-open-gitagent-clawless.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[60以上のツールと連携。自動インシデント対応を実現するAI SREエージェント構築フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[craft-agents-oss]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-lukilabs-craft-agents-oss.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-lukilabs-craft-agents-oss.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ClaudeエージェントSDK。柔軟なマルチタスクとUI操作でエージェントとの協調定義を可能にするネイティブ環境。]]></description>
     </item>
   </channel>
 </rss>

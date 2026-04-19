@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-19-hkuds-nanobot",
+      "title": "nanobot",
+      "dek": "「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。",
+      "summary": "OpenClaw や Claude Code の精神を受け継ぐ、極めて軽量かつ拡張性の高い AI エージェント。Telegram や Discord、WeChat 等の多様なチャット連携、MCP（Model Context Protocol）によるツール拡張、研究に耐えうるほどシンプルなコアアーキテクチャが特徴です。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T21:40:00+09:00",
+      "repoName": "HKUDS/nanobot",
+      "repoUrl": "https://github.com/HKUDS/nanobot",
+      "starCount": 40100,
+      "articleUrl": "./articles/github/daily/2026-04-19-hkuds-nanobot.html",
+      "serial": 287,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-19-open-gitagent-clawless",
       "title": "ClawLess (open-gitagent)",
       "dek": "ブラウザが、AI エージェントの「安全なゆりかご」になる。WebContainer 技術でサーバーレスかつ高セキュアにエージェントを実行する次世代ランタイム。",

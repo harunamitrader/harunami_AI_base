@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-19T07:02:09.433321+00:00",
-  "count": 303,
+  "generatedAt": "2026-04-19T12:34:51.684454+00:00",
+  "count": 304,
   "articles": [
+    {
+      "slug": "2026-04-19-hkuds-nanobot",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "nanobot",
+      "dek": "「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。",
+      "summary": "OpenClaw や Claude Code の精神を受け継ぐ、極めて軽量かつ拡張性の高い AI エージェント。Telegram や Discord、WeChat 等の多様なチャット連携、MCP（Model Context Protocol）によるツール拡張、研究に耐えうるほどシンプルなコアアーキテクチャが特徴です。",
+      "repoName": "HKUDS/nanobot",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T21:40:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-19-hkuds-nanobot.html",
+      "serial": 287,
+      "searchText": "nanobot 「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。 OpenClaw や Claude Code の精神を受け継ぐ、極めて軽量かつ拡張性の高い AI エージェント。Telegram や Discord、WeChat 等の多様なチャット連携、MCP（Model Context Protocol）によるツール拡張、研究に耐えうるほどシンプルなコアアーキテクチャが特徴です。 HKUDS/nanobot AIエージェント (自律基盤・特化アプリ) nanobot ← 記事一覧へ戻る GitHub Watcher nanobot 「身軽さ」が、AIを日常にする。OpenClaw の精神を継承した、マルチチャット・MCP対応の超軽量パーソナルAIエージェント。 記事作成日 2026-04-19 種別 Pickup 対象 repo HKUDS/nanobot Star数 40,100 これは何か nanobot は、OpenClaw や Claude Code、Codex の精神を受け継いだ、オープンソースの超軽量 AI エージェントです。 コアとなるエージェントループを極限までシンプルに保ちながら、多様なチャットツールとの連携、メモリ機能、MCP（Model Context Protocol）のサポートを備えています。 「エージェントは重厚長大である必要はない」という思想のもと、個人の日常に溶け込む AI の足場を提供します。 何ができるか 多様なチャット連携： Telegram, Discord, WeChat, Feishu, Slack, WhatsApp, Matrix, DingTalk, Email, QQ など、主要なメッセージングプラットフォームを通じてエージェントと対話できます。 タスク実行： 24時間リアルタイムの市場分析、フルスタックエンジニアリング、日常のルーチン管理、パーソナルナレッジアシスタントとして機能します。 拡張性： MCP サーバー、ウェブ検索、Python SDK、OpenAI 互換 API などを通じて、独自のツールや自動化フローを統合可能です。 簡単導入： nanobot onboard コマンドによる対話形式のセットアップで、プロバイダー設定から利用開始までをスムーズに行えます。 目立つポイント このプロジェクトの白眉は、**「極限まで無駄を削ぎ落としたアーキテクチャ」** です。 メッセージ入力から LLM による判断、ツールの呼び出し、そしてメモリやスキルのコンテキストインジェクションに至るまで、エージェントの基本動作が非常にシンプルなループで構成されています。 これにより、コードの可読性が高く、研究者がアルゴリズムを試したり、開発者が独自の「スキル」をプラグインしたりすることが容易になっています。 セットアップや使い方の流れ uv tool install nanobot-ai または pip install nanobot-ai でインストールし、 nanobot onboard を実行します。 生成された ~/.nanobot/config.json に API キーとモデル（Claude, GPT, Gemini 等）を設定すれば、準備完了です。 nanobot agent で起動し、各チャットアプリのトークンを連携すれば、普段使いのツールからエージェントを呼び出せるようになります。 どんな人向けか 自分専用の「24時間自走する」AI エージェントを低コストで運用したい個人ユーザーや、エージェントの内部構造を深く理解し、自分好みにカスタマイズしていきたい開発者に最適です。 特に、既存のチャットアプリを業務や日常のハブとして活用している人にとって、強力な相棒となります。 注意点 非常に軽量である一方で、複雑な多段階推論や高度な自己改善機能などは、現時点ではスキルの拡張やプロンプトの調整に依存する部分があります。 また、Docker やサーバーレス環境での運用には、それぞれのインフラに応じた適切なデプロイ設定をユーザー自身で行う必要があります。 まとめ nanobot は、AI エージェントを「特別なツール」ではなく「日常の機能」へと変えるための、洗練されたプラットフォームです。 最小限のオーバーヘッドで最大の便益を引き出す設計思想は、AI との共生を考える上で一つの理想的な形を示しています。 参照リンク HKUDS/nanobot (GitHub) nanobot.wiki (Official Docs)"
+    },
     {
       "slug": "2026-04-19-open-gitagent-clawless",
       "category": "github-pickup",
