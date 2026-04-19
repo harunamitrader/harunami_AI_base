@@ -18,6 +18,16 @@
     },
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-18-github-copilot-cli-smarter-sessions-attachments",
+      "title": "GitHub Copilot CLI: スマートセッションとドキュメント添付に対応",
+      "dek": "ターミナルネイティブなエージェントが進化. 自動モデル選択と参考ファイルの直接添付が可能に。",
+      "summary": "GitHub Copilot CLI において、タスクの継続性を高めるスマートセッション機能や、最適なモデルを自動選択する auto オプション、さらにはドキュメントの直接添付が可能になる大幅なアップデートが実施されました。",
+      "publishedAt": "2026-04-18",
+      "toolName": "GitHub Copilot",
+      "articleUrl": "./articles/tools/2026-04-18-github-copilot-cli-smarter-sessions-attachments.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-17-notebooklm-gemini-free-sync",
       "title": "NotebookLM: Gemini 統合機能が無料ユーザー向けにロールアウト",
       "dek": "Gemini App 上で直接ノートブックの管理や参照が可能に。リサーチと対話がシームレスに融合。",
