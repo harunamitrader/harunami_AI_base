@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Apr 2026 12:43:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 22:00:18 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[stagewise]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-stagewise-io-stagewise.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-stagewise-io-stagewise.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ブラウザそのものが「コーディングエージェント」に。Web開発者のために構築された、デバッグ・編集・デプロイをシームレスにつなぐ次世代ブラウザ。]]></description>
+    </item>
     <item>
       <title><![CDATA[LingBot-Map]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-robbyant-lingbot-map.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Manus スタイルの「ファイルベースの思考」を Claude Code や Cursor に。20億ドルで買収された AI エージェントのワークフローを再現する拡張スキル。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[three.js]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-mrdoob-three-js.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-18-mrdoob-three-js.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[JavaScript で 3D グラフィックスを扱うためのデファクトスタンダード。3D Tiles などの高度な地理空間データ対応も充実。]]></description>
     </item>
   </channel>
 </rss>

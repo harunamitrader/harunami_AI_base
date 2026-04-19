@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="stagewise-io/stagewise を読み、AI コーディングエージェントを内蔵した開発者向けブラウザの特徴を整理した記事。デバッグ、編集、IDE 連携機能の魅力を紹介。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>stagewise</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">stagewise</h1>
+      <p class="article-dek">ブラウザそのものが「コーディングエージェント」に。Web開発者のために構築された、デバッグ・編集・デプロイをシームレスにつなぐ次世代ブラウザ。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-19 -->
+          <strong>2026-04-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/stagewise-io/stagewise" target="_blank" rel="noreferrer">
+              stagewise-io/stagewise
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,600</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          stagewise は、Web 開発者のためにゼロから構築された、AI コーディングエージェント内蔵の次世代ブラウザです。
+          既存のブラウザで開発・検証し、エディタで修正するという「往復作業」を解消し、ブラウザそのものがコードを理解・編集・テストする、エンジニアにとっての司令塔となります。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>コンソール・デバッガへの完全アクセス：</strong> 内蔵エージェントがタブのコンソール出力や実行状態を直接読み取り、バグの原因特定や解決策の提案をリアルタイムに行います。</li>
+          <li><strong>ライブ編集・プレビュー：</strong> 表示されているウェブサイトのコンポーネントやスタイルをその場で解析。一時的なテスト変更から、接続したコードベースへの永続的な反映まで一気通貫で行えます。</li>
+          <li><strong>インテリジェント・リバースエンジニアリング：</strong> 既存のサイトからコンポーネント構造、スタイル、カラーパレットなどを瞬時に抽出し、自身の開発に即座に活用可能です。</li>
+          <li><strong>IDE との深い統合：</strong> VS Code 拡張機能を通じて、ブラウザ上での変更をお気に入りのエディタへ即座に同期できます。</li>
+          <li><strong>BYOK (Bring Your Own Key) サポート：</strong> Anthropic, OpenAI など主要な AI プロバイダーを自身の API キーで利用できます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、**「ブラウザが開発プロセスにおける『受動的な表示機』から『能動的な開発パートナー』へと進化した点」** です。
+          開発者がデバッグ中にコンソールを見て悩み、コードを書き直すという一連の思考フローを、AI がブラウザ内部のコンテキストを共有した状態で支援。
+          これにより、ブラウザとエディタの往復による文脈の切り替え（コンテキストスイッチ）を極限まで減らし、開発の密度を飛躍的に高めています。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>
+          <a href="https://stagewise.io" target="_blank" rel="noreferrer">stagewise.io</a> からアプリをダウンロードしてインストールし、API キーを登録します。
+          調査したいサイトや開発中の URL を開き、サイドバーの AI エージェントに「このバグを直して」「このデザインを抽出して」と指示を出すだけです。
+          プロジェクトフォルダを接続すれば、修正をそのまま自身のコードベースに書き込むことも可能になります。
+        </p>
+
+        <h2>どんな人向けか</h2>
+        <p>
+          フロントエンド開発のイテレーションを爆速化したいエンジニアや、既存の Web サイトのデザインシステムを効率的に分析・模倣したいデザイナー兼エンジニアに最適です。
+          Cursor 等の AI エディタを使いこなしている方にとって、さらに「実行環境側」からの強力な支援を得られるこの環境は、代替不可能な道具になるでしょう。
+        </p>
+
+        <h2>注意点</h2>
+        <p>
+          オープンソース（AGPLv3）で提供されていますが、コードベースへの自動変更などは強力であるため、重要なプロジェクトへの適用時には人間によるレビューを併用することが推奨されます。
+          また、BYOK 形式のため、利用するモデルや頻度に応じたトークンコストをユーザー自身で管理する必要があります。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          stagewise は、Web 開発の「現場」であるブラウザのあり方を根本から再定義しようとしています。
+          AI が DOM や実行コンテキストを真に理解し、ブラウザ内部から開発を加速させるこの体験は、これからの Web 開発における新たなスタンダードを示唆しています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/stagewise-io/stagewise" target="_blank" rel="noreferrer">stagewise-io/stagewise (GitHub)</a>
+        </div>
+        <div class="source-item">
+          <a href="https://stagewise.io" target="_blank" rel="noreferrer">stagewise.io (Official Website)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

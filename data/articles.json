@@ -8,6 +8,22 @@
   "articles": [
     {
       "category": "github-pickup",
+      "slug": "2026-04-19-stagewise-io-stagewise",
+      "title": "stagewise",
+      "dek": "ブラウザそのものが「コーディングエージェント」に。Web開発者のために構築された、デバッグ・編集・デプロイをシームレスにつなぐ次世代ブラウザ。",
+      "summary": "開発者のための機能を凝縮した、AI エージェント内蔵ブラウザ。コンソールやデバッガへの直接アクセス、サイトの解析・リバースエンジニアリング、IDE 連携、ツールとしてのブラウザ拡張を超えた「開発パートナー」としてのブラウザ体験を提供します。",
+      "publishedAt": "2026-04-19",
+      "createdAt": "2026-04-19T22:05:00+09:00",
+      "repoName": "stagewise-io/stagewise",
+      "repoUrl": "https://github.com/stagewise-io/stagewise",
+      "starCount": 6600,
+      "articleUrl": "./articles/github/daily/2026-04-19-stagewise-io-stagewise.html",
+      "serial": 290,
+      "originType": "pickup",
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
       "slug": "2026-04-19-robbyant-lingbot-map",
       "title": "LingBot-Map",
       "dek": "動画やストリーミングデータから「瞬時に」3D空間を構築。世界最高峰の再構成精度とリアルタイム性を両立した、次世代の3D空間基盤モデル。",
