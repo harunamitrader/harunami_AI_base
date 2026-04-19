@@ -7,6 +7,26 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-19-openclaw-v2026-4-19-beta-1-subagent-spawning-cdp",
+      "title": "OpenClaw v2026.4.19-beta.1: サブエージェントの連鎖安定化と診断ツールの実装",
+      "dek": "エージェント間の協調動作（スキルスパawning）のバグ修正に加え、Browser/CDP 接続の健全性を確認する診断機能を追加。",
+      "summary": "マルチエージェント連携時のサブエージェント生成の不具合修正や、Browser/CDP 接続状態の自己診断機能、Telegram 連携の安定化など、基盤機能の信頼性を高めるアップデートです。",
+      "publishedAt": "2026-04-19",
+      "toolName": "OpenClaw",
+      "articleUrl": "./articles/tools/2026-04-19-openclaw-v2026-4-19-beta-1-subagent-spawning-cdp.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-17-notebooklm-gemini-free-sync",
+      "title": "NotebookLM: Gemini 統合機能が無料ユーザー向けにロールアウト",
+      "dek": "Gemini App 上で直接ノートブックの管理や参照が可能に。リサーチと対話がシームレスに融合。",
+      "summary": "Google は NotebookLM と Gemini アプリの双方向同期機能をウェブ版の無料ユーザー向けに一般公開しました。Gemini インターフェースを通じて直接ソースを参照・管理できるようになり、探求とリサーチがより緊密に連携します。",
+      "publishedAt": "2026-04-17",
+      "toolName": "NotebookLM",
+      "articleUrl": "./articles/tools/2026-04-17-notebooklm-gemini-free-sync.html"
+    },
+    {
       "category": "github-pickup",
       "slug": "2026-04-20-6551team-opennews-mcp",
       "title": "opennews-mcp",

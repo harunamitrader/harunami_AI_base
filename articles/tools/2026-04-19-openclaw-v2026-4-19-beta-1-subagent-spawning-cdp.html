@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenClaw v2026.4.19-beta.1 の更新内容を日本語で整理した記事。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.4.19-beta.1 Update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.4.19-beta.1: サブエージェントの連鎖安定化と診断ツールの実装</h1>
+      <p class="article-dek">エージェント間の協調動作（スキルスパawning）のバグ修正に加え、Browser/CDP 接続の健全性を確認する診断機能を追加。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-19</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2026.4.19-beta.1</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>ローカルファーストの AI エージェント基盤 OpenClaw の新バージョンがリリースされました。主な変更点は以下の通りです：</p>
+        <ul>
+          <li><strong>サブエージェント生成の修正:</strong> 異なるエージェント間でサブエージェント（スキル）を生成・継続する際の状態管理の問題を解決。</li>
+          <li><strong>Browser/CDP 診断ツールの導入:</strong> ブラウザ自動操作に必要な CDP 接続が正しく確立されているかをワンクリックで検証できる診断機能を追加。</li>
+          <li><strong>Telegram 連携の改善:</strong> 特定の条件下で Telegram のコールバックが重複して処理される不具合を修正。</li>
+          <li><strong>Codex コンテキスト使用量の通知:</strong> OpenAI Codex プロバイダー使用時に、現在のプロンプトで使用されているトークン比率の報告精度を向上。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>「エージェントが別のエージェントを呼ぶ」といった複雑な自動化（マルチエージェント・オーケストレーション）の安定性が向上しました。また、ブラウザ操作のセットアップで躓きやすい「ブラウザが見つからない」「接続できない」といったトラブルの切り分けが診断機能によって容易になります。</p>
+
+        <h2>まとめ</h2>
+        <p>今回のアップデートは、ユーザー体験の基盤となる接続安定性と、複数エージェントによる高度な連携機能の両面に焦点を当てています。徐々に複雑化するエージェント・ワークフローの信頼性を高める重要な一歩となります。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">GitHub Releases (Official)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
