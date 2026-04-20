@@ -7,6 +7,15 @@
   },
   "articles": [
     {
+      "id": "2026-04-20-github-copilot-plan-restructuring",
+      "category": "ai-tool-log",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "title": "GitHub Copilot: 個人向けプランの提供制限とモデル構成の刷新",
+      "publishedAt": "2026-04-21",
+      "articleUrl": "./articles/tools/2026-04-20-github-copilot-plan-restructuring.html",
+      "summary": "GitHubがCopilot Individualプランの大幅刷新を発表。新規申込停止や特定モデルの制限、データ学習ポリシーの変更が行われました。"
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-20-trimstray-the-book-of-secret-knowledge",

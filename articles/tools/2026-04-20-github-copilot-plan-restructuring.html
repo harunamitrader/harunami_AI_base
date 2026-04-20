@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub Copilot が2026年4月20日に発表した、プラン提供制限、モデル構成の変更、およびデータ学習ポリシーの更新に関する解説。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>GitHub Copilot: 個人向けプランの提供制限とモデル構成の刷新</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Service Update</p>
+      </div>
+
+      <h1 class="article-title">GitHub Copilot: 個人向けプランの提供制限とモデル構成の刷新</h1>
+      <p class="article-dek">サービスの持続可能性と品質維持を理由に、Proプランの新規受付停止やモデル利用制限を含む大幅な見直しが発表されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">発表日</span>
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象プラン</span>
+          <strong>Individual (Pro / Pro+ / Student)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>GitHub Copilot</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <p>2026年4月20日、GitHub は Copilot の個人向けプランに関して、過去最大級の運用変更を発表しました。これには新規申込の停止や、利用可能なAIモデルの整理が含まれており、既存ユーザーおよび検討中のユーザーにとって重要な転換点となります。</p>
+
+        <h2>1. 新規申込の停止 (Pro / Pro+ / Student)</h2>
+        <p>GitHub は既存ユーザーへの提供品質を維持することを理由に、<b>Individual Pro、Pro+、および Student プランの新規申込を一時的に停止</b>しました。なお、無料版である「Copilot Free」の新規登録は引き続き受け付けています。</p>
+
+        <h2>2. モデル利用制限の強化</h2>
+        <p>モデル選択の柔軟性が売りの一つだった Copilot ですが、プランごとの提供モデルが再編されました：</p>
+        <ul>
+          <li><strong>Proプラン:</strong> 特に使用頻度とコストが高かった <b>Claude 3 Opus (および Opus 4.x 系統) の提供が終了</b>しました。</li>
+          <li><strong>Pro+プラン:</strong> 最新の Opus 4.7 は引き続き利用可能ですが、旧世代（Opus 4.5 / 4.6）は削除され、最新版への集約が進みます。</li>
+          <li><strong>Studentプラン:</strong> 手動でのモデル選択（Opus や Sonnet 等への切り替え）機能が削除されました（「auto mode」内での内部的な利用に限定）。</li>
+        </ul>
+
+        <h2>3. データ学習ポリシーの変更 (4月24日適用)</h2>
+        <p>2026年4月24日より、Copilot Free、Pro、Pro+ ユーザーの入力データ、コードスニペット、コンテキストが、<b>デフォルトでAIモデルの学習に使用される</b>設定に変更されます。プライバシーを重視するユーザーは、設定画面から明示的にオプトアウト（拒否設定）を行う必要があります。</p>
+
+        <h2>4. CLI のアップデート (v1.0.33-0)</h2>
+        <p>サービス側の制限が強まる一方で、ツールとしての利便性は強化されています。最新の CLI バージョンでは：</p>
+        <ul>
+          <li><strong>Auto Model Selection:</strong> タスクに応じて最適なモデルを賢く選択。</li>
+          <li><strong>ドキュメント意識の強化:</strong> ターミナル上の操作ログやコンテキストをより深く理解するように改善。</li>
+        </ul>
+
+        <h2>ユーザーの対応策</h2>
+        <p>今回の変更に不満がある Pro / Pro+ サブスクライバー向けに、GitHub は 2026年4月20日から5月20日の期間内にサポートへ連絡することで、4月分の返金を含む解約リクエストを受け付ける特別対応を行っています。</p>
+
+        <h2>まとめ</h2>
+        <p>計算リソースの急速な需要増加に伴い、GitHub は「無制限に近い提供」から「持続可能な管理された提供」へと舵を切りました。今後、コード学習への同意が「デフォルト」となる点は、企業ユースや機密性の高い開発を行うフリーランスにとって特に注視すべき点です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.blog/2026-04-20-balancing-demand-and-quality-copilot-updates/" target="_blank" rel="noreferrer">GitHub Blog (Official Announcement)</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

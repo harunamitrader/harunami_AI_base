@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Apr 2026 20:24:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 05:32:39 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[GitHub Copilot: 個人向けプランの提供制限とモデル構成の刷新]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-github-copilot-plan-restructuring.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-github-copilot-plan-restructuring.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GitHubがCopilot Individualプランの大幅刷新を発表。新規申込停止や特定モデルの制限、データ学習ポリシーの変更が行われました。]]></description>
+    </item>
     <item>
       <title><![CDATA[the-book-of-secret-knowledge]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-trimstray-the-book-of-secret-knowledge.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「バックテストの先」まで見据えた開発を。戦略の構築、多角的な比較レポート、そして本番デプロイまでを完遂する、クオンツのための Python フレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Mission Control (builderz-labs)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-builderz-labs-mission-control.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-builderz-labs-mission-control.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI エージェントの「艦隊」を指揮せよ。タスク、コスト、セキュリティ。自律型エージェントの運用を一つのダッシュボードで統制する、セルフホスト型「管制塔」。]]></description>
     </item>
   </channel>
 </rss>
