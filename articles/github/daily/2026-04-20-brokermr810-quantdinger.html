@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="brokermr810/QuantDinger: AIを活用したクオンツ研究・バックテスト・実取引を統合した、セルフホスト可能なオープンソース・トレードプラットフォーム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>QuantDinger</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">QuantDinger</h1>
+      <p class="article-dek">AIを活用したクオンツ研究・バックテスト・実取引を統合した、セルフホスト可能なオープンソース・トレードプラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-20 -->
+          <strong>2026-04-20</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/brokermr810/QuantDinger" target="_blank" rel="noreferrer">
+              brokermr810/QuantDinger
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,215</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>
+          QuantDingerは、AIによる市場リサーチから、Pythonを用いた戦略開発、バックテスト、そして実取引の執行までを一つのスタックで提供する、セルフホスト型のクオンツ・トレード・プラットフォームです。自身のインフラ（Docker）上で動作させることを前提として設計されており、取引データやAPIキー、独自の戦略コードを個人の管理下に置きつつ、最新のAI技術をトレードプロセスに統合することができます。
+        </p>
+
+        <h2>何ができるか</h2>
+        <ul>
+          <li><strong>AI市場分析:</strong> 複数のLLM（OpenAI, Gemini, DeepSeek等）を切り替えて、市場データやニュースに基づいた高度な分析・判断支援を受けられます。</li>
+          <li><strong>Python戦略開発:</strong> Pythonで標準的なインジケーターや複雑なロジックを直接記述できます。自然言語からコードを生成するAIアシストも内蔵されています。</li>
+          <li><strong>バックテストと可視化:</strong> 過去データを用いた手法の検証、資産曲線の確認、AIによるテスト結果へのフィードバックが可能です。</li>
+          <li><strong>マルチアセット実取引:</strong> 仮想通貨（主要取引所）、米国株（IBKR経由）、FX（MT5経由）の執行に対応したコネクタを備えています。</li>
+          <li><strong>運用管理:</strong> Webベースのダッシュボード、マルチユーザー管理、Telegram/Discord等への通知、USDT決済による課金・メンバーシップ管理機能まで含まれます。</li>
+        </ul>
+
+        <h2>目立つポイント</h2>
+        <p>
+          最大の特徴は、単なる「AIチャット付きトレードアプリ」ではなく、<strong>「クオンツ運用のためのOS」</strong>を目指している点です。多くのOSSトレードツールが欠いている「ユーザー管理」「課金基盤」「通知システム」を標準で備えており、個人利用から小規模チームでの商業展開までを視野に入れたフルスタックな構成になっています。また、セルフホスト型であるため、秘匿性の高い独自のアルゴリズムを外部サービスに預けることなく、かつモダンなUI/UXで運用できる点は強力なメリットです。
+        </p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <ol>
+          <li>リポジトリを <code>git clone</code> し、ディレクトリに移動します。</li>
+          <li><code>backend_api_python/env.example</code> をコピーして <code>.env</code> を作成し、必要なAPIキーを設定します。</li>
+          <li>用意されているスクリプト <code>./scripts/generate-secret-key.sh</code> を実行して秘密鍵を生成します。</li>
+          <li><code>docker-compose up -d --build</code> でシステムを起動します。</li>
+          <li>ブラウザで <code>http://localhost:8888</code> にアクセスし、デフォルト設定でログインします。</li>
+          <li>AIによる市場リサーチから手法を検討し、Pythonで実装・バックテストを行い、準備が整えば実取引の設定を行います。</li>
+        </ol>
+
+        <h2>どんな人向けか</h2>
+        <ul>
+          <li><strong>プライバシー重視の投資家:</strong> 自身の手法やAPIキーの安全性を確保したい個人。</li>
+          <li><strong>クオンツ開発者:</strong> Pythonの柔軟性とAIのスピードを組み合わせて、効率的にアルゴリズムを開発・検証したいエンジニア。</li>
+          <li><strong>小規模トレードチーム:</strong> 共通のインフラで分析・実行環境を構築し、役割に応じたユーザー管理を行いたい組織。</li>
+          <li><strong>商用プラットフォーム構築者:</strong> 課金やユーザー管理の仕組みが整ったトレード基盤をベースに、独自のサービスを展開したい運営者。</li>
+        </ul>
+
+        <h2>注意点</h2>
+        <p>
+          本システムはセルフホスト（自己運用）が前提であるため、サーバーの維持管理やセキュリティ設定はユーザー自身が行う必要があります。また、実取引（Live Trading）を行う場合は、APIキーの権限設定を適切に行い、十分なバックテストと低資金でのテスト運用を経てから本番稼働させることを強く推奨します。
+        </p>
+
+        <h2>まとめ</h2>
+        <p>
+          QuantDingerは、リサーチから執行、さらにはプラットフォームとしての運用機能までを統合した、極めて包括的なオープンソース・プロジェクトです。AIとPythonという現在のテクノロジーの核を、個人の管理するインフラ上で有機的に結びつけることで、従来のプラットフォームでは得られなかった「自由度」と「高度な分析能力」を両立させています。
+        </p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/brokermr810/QuantDinger" target="_blank" rel="noreferrer">brokermr810/QuantDinger</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

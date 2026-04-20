@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Apr 2026 06:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 10:45:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[QuantDinger]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-brokermr810-quantdinger.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-brokermr810-quantdinger.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIを活用したクオンツ研究・バックテスト・実取引を統合した、セルフホスト可能なオープンソース・トレードプラットフォーム。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-20 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-20-update-report.html</link>
@@ -158,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Mozilla Thunderbird チームが贈る「自分が主役」の AI クライアント。プライバシーを最優先し、あらゆるモデルを自由自在に操るための新基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[openai-agents-python]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-openai-openai-agents-python.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-openai-openai-agents-python.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenAI 公式の「マルチエージェント」開発フレームワーク。軽量かつ強力な構造で、エージェント間の連携と自律実行をサポート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepGEMM]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-deepseek-ai-deepgemm.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-deepseek-ai-deepgemm.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[DeepSeek が公開した、FP8 精度に特化した高効率な行列演算（GEMM）カーネル。きめ細やかなスケーリングにより精度と速度を両立。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[claude-desktop-debian]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-aaddrick-claude-desktop-debian.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-aaddrick-claude-desktop-debian.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Linux (Debian/Ubuntu/Mint) で公式 Claude Desktop アプリを動作させるためのインストーラー。Computer Use や MCP を Linux 環境でも制限なく使いたい人へ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[rustdesk]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-rustdesk-rustdesk.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-rustdesk-rustdesk.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自己ホスト可能なオープンソースのリモートデスクトップ。TeamViewer や AnyDesk に代わるセキュアな選択肢。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[empirical-prompt-tuning (by mizchi)]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-mizchi-empirical-prompt-tuning.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-mizchi-empirical-prompt-tuning.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[プロンプトの品質は書いた本人には分からない。AI が AI の指示を「白紙」で評価し、メトリクスに基づいて徹底的に磨き上げる、Claude Code 時代の経験的最適化手法。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot CLI: スマートセッションとドキュメント添付に対応]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-18-github-copilot-cli-smarter-sessions-attachments.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-18-github-copilot-cli-smarter-sessions-attachments.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ターミナルネイティブなエージェントが進化. 自動モデル選択と参考ファイルの直接添付が可能に。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-20-brokermr810-quantdinger",
+      "title": "QuantDinger",
+      "dek": "AIを活用したクオンツ研究・バックテスト・実取引を統合した、セルフホスト可能なオープンソース・トレードプラットフォーム。",
+      "summary": "AIによる市場分析、Pythonによる手法開発、主要取引所への注文執行まで、全てのワークフローを自身のインフラ上で完結できるAIトレード基盤。",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T10:45:00+09:00",
+      "repoName": "brokermr810/QuantDinger",
+      "repoUrl": "https://github.com/brokermr810/QuantDinger",
+      "starCount": 1215,
+      "articleUrl": "./articles/github/daily/2026-04-20-brokermr810-quantdinger.html",
+      "serial": 299,
+      "genre": "金融・トレード分析"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-20-update-report",
       "title": "2026-04-20 アップデートレポート",
