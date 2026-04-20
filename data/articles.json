@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-20-milisp-codexia",
+      "title": "Codexia",
+      "dek": "Codex CLI と Claude Code を統合管理し、タスクスケジューラーやリモート操作を可能にするエージェント・ワークステーション。",
+      "summary": "CLIベースの強力なAIエージェントをGUIで操作・自動化できるデスクトップアプリ。タスク予約やGit連携、MCP対応など、開発者の作業効率を最大化する機能を網羅。",
+      "publishedAt": "2026-04-20",
+      "createdAt": "2026-04-20T12:30:00+09:00",
+      "repoName": "milisp/codexia",
+      "repoUrl": "https://github.com/milisp/codexia",
+      "starCount": 597,
+      "articleUrl": "./articles/github/daily/2026-04-20-milisp-codexia.html",
+      "serial": 300,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-20-brokermr810-quantdinger",
       "title": "QuantDinger",
       "dek": "AIを活用したクオンツ研究・バックテスト・実取引を統合した、セルフホスト可能なオープンソース・トレードプラットフォーム。",

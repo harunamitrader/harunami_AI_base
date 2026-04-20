@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Apr 2026 10:45:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 12:26:01 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Codexia]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-milisp-codexia.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-milisp-codexia.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Codex CLI と Claude Code を統合管理し、タスクスケジューラーやリモート操作を可能にするエージェント・ワークステーション。]]></description>
+    </item>
     <item>
       <title><![CDATA[QuantDinger]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-brokermr810-quantdinger.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[thunderbolt]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-thunderbird-thunderbolt.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-thunderbird-thunderbolt.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Mozilla Thunderbird チームが贈る「自分が主役」の AI クライアント。プライバシーを最優先し、あらゆるモデルを自由自在に操るための新基盤。]]></description>
     </item>
   </channel>
 </rss>
