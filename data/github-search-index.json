@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-20T21:05:36.569038+00:00",
-  "count": 322,
+  "generatedAt": "2026-04-21T01:12:48.924645+00:00",
+  "count": 323,
   "articles": [
+    {
+      "slug": "2026-04-21-grafana-grafana",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "grafana",
+      "dek": "データ可視化とオブザーバビリティの黄金律。あらゆるデータソースを美しく、インテリジェントなダッシュボードへ集約。",
+      "summary": "あらゆるデータソースを美しいダッシュボードで可視化できるオープンソースの標準プラットフォーム。メトリクス、ログ、トレースを統合し、システムのオブザーバビリティを劇的に向上させます。",
+      "repoName": "grafana/grafana",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T10:13:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-21-grafana-grafana.html",
+      "serial": 306,
+      "searchText": "grafana データ可視化とオブザーバビリティの黄金律。あらゆるデータソースを美しく、インテリジェントなダッシュボードへ集約。 あらゆるデータソースを美しいダッシュボードで可視化できるオープンソースの標準プラットフォーム。メトリクス、ログ、トレースを統合し、システムのオブザーバビリティを劇的に向上させます。 grafana/grafana AI基盤・データ基盤・業務アプリ grafana ← 記事一覧へ戻る GitHub Watcher grafana データ可視化とオブザーバビリティの黄金律。あらゆるデータソースを美しく、インテリジェントなダッシュボードへ集約。 記事作成日 2026-04-21 種別 Pickup 対象 repo grafana/grafana Star数 73,300 これは何か Grafana は、オープンソースのマルチプラットフォーム分析・対話型可視化 Web アプリケーションです。Prometheus、Graphite、InfluxDB、MySQL、PostgreSQL、Elasticsearch など、多種多様なデータソースに接続し、美しく、カスタマイズ可能なダッシュボードを通じてシステムやアプリケーションの状態をリアルタイムで把握できるようにします。現代のインフラ監視（オブザーバビリティ）におけるデファクトスタンダードの一つです。 何ができるか 単なるグラフ描画ツールを超え、メトリクス、ログ、トレースの「3つの柱」を統合的に扱えます。動的なダッシュボードによる状況の可視化はもちろん、しきい値に基づいた柔軟なアラート通知、異常検知、複数チームでの共有、そして「Explore モード」によるアドホックなデータ探索が可能です。また、プラグインシステムが非常に強力で、クラウドサービスからオンプレミスまであらゆる環境を統合できます。 目立つポイント 最大の魅力は、その「柔軟性」と「視覚的な美しさ」の両立にあります。データのクエリ言語に精通していなくても、GUI ベースの「Query Builder」を使って簡単に可視化を作成できる一方、各データソース固有の高度なクエリもそのまま記述できます。また、ダークモードが美しく、複雑な情報を一目で把握できるレイアウト設計がエンジニアから高く評価されています。 セットアップや使い方の流れ Docker を使用するのが最も簡単です。 docker run -d -p 3000:3000 grafana/grafana を実行し、ブラウザで localhost:3000 にアクセス（デフォルト初期 ID/Pass は admin/admin）することで即座に開始できます。その後「Data Sources」から任意の DB を接続し、「New Dashboard」からパネルを追加してクエリを設定するだけで、独自の監視環境が整います。 どんな人向けか システムの安定稼働を責務とする SRE や DevOps エンジニア、データ分析結果をチームで共有したいデータサイエンティスト、あるいは自宅サーバーや IoT デバイスのメトリクスをカッコよく表示したいガジェット好きのユーザーにも最適です。組織の規模を問わず、データに基づいた意思決定を加速させたいすべての人に向けられたツールです。 注意点 多機能ゆえに、データの保管そのものは行わず、外部のデータベース（Prometheus 等）に依存する設計であることを理解しておく必要があります。また、大量のパネルを配置したり、重いクエリを頻繁に実行したりすると、ブラウザ側やデータソース側に負荷がかかるため、クエリの最適化や「録画ルール」の活用が重要になります。 まとめ Grafana は、データを単なる数字から「インサイト」へと変えるための強力な翼です。オブザーバビリティの重要性が高まる現代のソフトウェア開発において、情報を一元化し、誰もが理解できる形で提示するこのツールの価値は計り知れません。まずは Docker で立ち上げ、手元のデータを魔法のように可視化してみることから始めてみてください。 参照リンク grafana/grafana"
+    },
     {
       "slug": "2026-04-21-update-report",
       "category": "github-update-report",
@@ -15,7 +30,7 @@
       "createdAt": "2026-04-21T05:40:00+09:00",
       "articleUrl": "./articles/github/reports/2026-04-21-update-report.html",
       "serial": 23,
-      "searchText": "2026-04-21 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ GitHub Trending のトップ10を調査。worldmonitor, pi-hole の計2件を新規に記事化しました。他のランクイン済みリポジトリについては、既存の記事へのリンクを更新しています。 2026-04-21 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-04-21 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-04-21 調査件数 全 10 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-04-21）の GitHub Trending にランクインしていた全 10 リポジトリの調査結果です。 Fincept-Corporation/FinceptTerminal ✅ 記事作成済み ruvnet/RuView ✅ 記事作成済み thunderbird/thunderbolt ✅ 記事作成済み paperless-ngx/paperless-ngx ✅ 記事作成済み tractorjuice/arc-kit ✅ 記事作成済み koala73/worldmonitor ✨ 新規追加 openai/openai-agents-python ✅ 記事作成済み deepseek-ai/DeepGEMM ✅ 記事作成済み pi-hole/pi-hole ✨ 新規追加 XTLS/Xray-core 未作成 今後の展望 本日は既存リポジトリの継続ランクインが目立ちましたが、新たに OpenAI 純正のエージェントフレームワークや DeepSeek の高速 GEMM ライブラリといった、AI 基盤技術に直結する重要プロジェクトをカバーしました。特にエージェント連携の標準化が進む中、公式ライブラリの動向は今後も注視が必要です。"
+      "searchText": "2026-04-21 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ GitHub Trending のトップ10を調査。worldmonitor, pi-hole の計2件を新規に記事化しました。他のランクイン済みリポジトリについては、既存の記事へのリンクを更新しています。 2026-04-21 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-04-21 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-04-21 調査件数 全 10 件 新規作成 2 件 本日の調査ランキング（全件） 本日（2026-04-21）の GitHub Trending にランクインしていた全 10 リポジトリの調査結果です。 Fincept-Corporation/FinceptTerminal ✅ 記事作成済み ruvnet/RuView ✅ 記事作成済み thunderbird/thunderbolt ✅ 記事作成済み paperless-ngx/paperless-ngx ✅ 記事作成済み tractorjuice/arc-kit ✅ 記事作成済み koala73/worldmonitor ✨ 新規追加 openai/openai-agents-python ✅ 記事作成済み deepseek-ai/DeepGEMM ✅ 記事作成済み pi-hole/pi-hole ✨ 新規追加 XTLS/Xray-core 未作成 今後の展望 本日は OpenAI 純正のエージェントフレームワークや DeepSeek の高速 GEMM ライブラリといった、先日記事化したばかりの重要プロジェクトが継続して上位にランクインしており、注目度の高さが伺えます。一方で、pi-hole のような定番インフラや worldmonitor のような地政学リスク可視化ツールなど、実用的かつ独自性の強いプロジェクトも新たにカバーしました。エージェント連携の標準化が進む中、公式ライブラリの動向は今後も注視が必要です。"
     },
     {
       "slug": "2026-04-21-koala73-worldmonitor",

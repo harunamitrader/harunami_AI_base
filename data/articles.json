@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-21-grafana-grafana",
+      "title": "grafana",
+      "dek": "データ可視化とオブザーバビリティの黄金律。あらゆるデータソースを美しく、インテリジェントなダッシュボードへ集約。",
+      "summary": "あらゆるデータソースを美しいダッシュボードで可視化できるオープンソースの標準プラットフォーム。メトリクス、ログ、トレースを統合し、システムのオブザーバビリティを劇的に向上させます。",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T10:13:00+09:00",
+      "repoName": "grafana/grafana",
+      "repoUrl": "https://github.com/grafana/grafana",
+      "starCount": 73300,
+      "articleUrl": "./articles/github/daily/2026-04-21-grafana-grafana.html",
+      "serial": 306,
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-21-update-report",
       "title": "2026-04-21 アップデートレポート",

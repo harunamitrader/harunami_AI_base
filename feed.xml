@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Apr 2026 21:07:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 10:12:48 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[grafana]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-grafana-grafana.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-grafana-grafana.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[データ可視化とオブザーバビリティの黄金律。あらゆるデータソースを美しく、インテリジェントなダッシュボードへ集約。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-21 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-21-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Kubernetesのリソース割り当てをPrometheusの利用データから最適化。コスト削減とパフォーマンス向上を実現するCLIツール]]></description>
-    </item>
-    <item>
-      <title><![CDATA[stagewise]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-stagewise-io-stagewise.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-19-stagewise-io-stagewise.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ブラウザそのものが「コーディングエージェント」に。Web開発者のために構築された、デバッグ・編集・デプロイをシームレスにつなぐ次世代ブラウザ。]]></description>
     </item>
   </channel>
 </rss>
