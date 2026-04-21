@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 21:56:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 07:02:43 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[claude-context]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-zilliztech-claude-context.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-zilliztech-claude-context.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude に「忘れられない記憶」を。過去の会話やプロジェクトの知識を瞬時に呼び出し、対話をパーソナライズする。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ai-agents-for-beginners]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-microsoft-ai-agents-for-beginners.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-microsoft-ai-agents-for-beginners.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Microsoft が贈る、次世代の「AI エージェント開発者」への最短ルート。12 のレッスンで基礎から実践までを完全網羅。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[YTLite]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-dayanch96-ytlite.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-dayanch96-ytlite.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[iOS の YouTube 体験を「ライト」に、かつ「多機能」に。広告排除から動画保存、UI の徹底改造までを一台で完結。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[RAG-Anything]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-hkuds-rag-anything.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-hkuds-rag-anything.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PDF もスライドも、画像も。あらゆる非構造化データを「知識」に変え、プライベート環境で自由に問答する。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[TrendRadar]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-sansan0-trendradar.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-sansan0-trendradar.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[マルチプラットフォームの「熱狂」を AI が捕捉。ノイズを削ぎ落とし、重要なトレンドだけを Telegram や RSS で受け取る。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[2026-04-22 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-22-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-22-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT: GPT-5.4 と ImageGen 2.0 が統合された大型リリース]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-chatgpt-gpt-5-4-imagegen-2-0.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[ネットワーク全体の広告を DNS レベルで遮断。プライバシー保護と通信高速化を一台のサーバーで実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Perplexity "Personal Computer" for Mac: ローカル連携を強化したデスクトップの進化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-perplexity-personal-computer-for-mac.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-perplexity-personal-computer-for-mac.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Perplexity が Mac 向けに「Personal Computer」機能を発表。ローカルファイルの編集やブラウジング、音声操作が統合された新体験を提供します。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Google Gemini: macOS 用ネイティブアプリがついに登場]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-gemini-for-mac-launch.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-gemini-for-mac-launch.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Google が macOS 向けの Gemini ネイティブアプリをリリース。ショートカット起動やシステム統合により、ブラウザ不要の AI 体験が可能になりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: 個人向けプランの提供制限とモデル構成の刷新]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-github-copilot-plan-restructuring.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-github-copilot-plan-restructuring.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GitHubがCopilot Individualプランの大幅刷新を発表。新規申込停止や特定モデルの制限、データ学習ポリシーの変更が行われました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.20: セットアップウィザードと GPT-5 オーバーレイの実装]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-openclaw-v2026-4-20-setup-wizard.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-openclaw-v2026-4-20-setup-wizard.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[初心者向けの導入フローを刷新。さらに最新モデルの性能を引き出す「GPT-5 互換オーバーレイ」が追加されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[the-book-of-secret-knowledge]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-trimstray-the-book-of-secret-knowledge.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-trimstray-the-book-of-secret-knowledge.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Linux, Security, DevOps, Hacking などの膨大な知識を凝縮した究極의 チートシート集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Codexia]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-milisp-codexia.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-milisp-codexia.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Codex CLI と Claude Code を統合管理し、タスクスケジューラーやリモート操作を可能にするエージェント・ワークステーション。]]></description>
     </item>
   </channel>
 </rss>

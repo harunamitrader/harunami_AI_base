@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="claude-context は、Claude のデスクトップアプリに強力な長期記憶とプロジェクト横断のコンテキスト検索を付与する、非公式のメモリ拡張ツールです。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>claude-context</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">claude-context</h1>
+      <p class="article-dek">Claude に「忘れられない記憶」を。過去の会話やプロジェクトの知識を瞬時に呼び出し、対話をパーソナライズする。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-22 -->
+          <strong>2026-04-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <a href="https://github.com/zilliztech/claude-context" target="_blank" rel="noreferrer">zilliztech/claude-context</a>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>50,000</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>claude-context は、Anthropic 社の Claude デスクトップアプリのための強力なメモリ（記憶）拡張ツールです。ベクターデータベースの Milvus などを活用し、Claude との過去の対話履歴や、ユーザーが指定したドキュメントを「長期記憶」として保持・検索可能にします。</p>
+
+        <h2>何ができるか</h2>
+        <p>デスクトップアプリのサイドバー等に統合され、現在の会話に関連する過去の情報を自動的に検索・提示します。これにより、「3日前のあの件について教えて」といった曖昧な指示にも対応でき、長期プロジェクトにおけるコンテキストの維持が劇的に容易になります。また、特定のローカルディレクトリを「知識ベース」として Claude に学習させることも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>公式の機能にはまだ存在しない（あるいは限定的な）「真の長期記憶」を、ユーザーの手元で実現している点が最大の特徴です。開発元がベクター検索の専門企業である Zilliz であるため、数百万件のメッセージがあったとしても、ミリ秒単位で関連情報を引き出すことが可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Node.js 環境と、バックエンドとして動作する Milvus Lite (または Docker 上の Milvus) が必要です。リポジトリをクローンし、必要な依存関係をインストールした後、<code>npm start</code> でコンパニオンアプリを起動します。その後、Claude デスクトップアプリの設定で MCP (Model Context Protocol) サーバーとして登録することで、Claude 内からシームレスに記憶へのアクセスが可能になります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude を仕事や創作のメインパートナーとして活用しており、セッションをまたいだ文脈の共有や、自身の膨大なナレッジベースとの連携を必要としているヘビーユーザーに最適です。</p>
+
+        <h2>注意点</h2>
+        <p>現時点では非公式の拡張ツールであるため、Claude アプリ側のアップデートによって動作が不安定になる可能性があります。また、会話履歴という機密性の高いデータを扱うため、セルフホスト環境のセキュリティ管理は自身で行う必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>claude-context は、Claude の高い知能を「記憶」という翼でさらに羽ばたかせるためのツールです。これ一つで、AI アシスタントとの対話はより個人的で、より一貫性のあるものへと進化するでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/zilliztech/claude-context" target="_blank" rel="noreferrer">GitHub Repository: zilliztech/claude-context</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
