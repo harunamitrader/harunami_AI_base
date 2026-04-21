@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-21-phuryn-pm-skills",
+      "title": "pm-skills",
+      "dek": "PMの「思考プロセス」をAIエージェントに実装。100以上の専門スキルで、戦略策定からPRD作成までを自動化する。",
+      "summary": "プロダクトマネジャーの業務を AI エージェントに実行させるためのスキルマーケットプレイス。戦略、実行、データ分析など 8 分類 100 以上の構造化されたスキルを提供し、PM 業務の質と速度を劇的に向上させます。",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T10:17:00+09:00",
+      "repoName": "phuryn/pm-skills",
+      "repoUrl": "https://github.com/phuryn/pm-skills",
+      "starCount": 10300,
+      "articleUrl": "./articles/github/daily/2026-04-21-phuryn-pm-skills.html",
+      "serial": 308,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-21-browser-use-browser-harness",
       "title": "browser-harness",
       "dek": "「自らツールを拡張する」次世代エージェント基盤。LLM がブラウザを自由自在に操り、自律的に機能を自己修復する。",

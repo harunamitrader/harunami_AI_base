@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 01:18:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 10:17:51 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[pm-skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-phuryn-pm-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-phuryn-pm-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[PMの「思考プロセス」をAIエージェントに実装。100以上の専門スキルで、戦略策定からPRD作成までを自動化する。]]></description>
+    </item>
     <item>
       <title><![CDATA[browser-harness]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-browser-use-browser-harness.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[実在の人物やキャラクターをAIスキルとして「蒸留」。チャットログやメールから思考と言動を再現するデジタル生命体構築フレームワーク]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.19-beta.1: サブエージェントの連鎖安定化と診断ツールの実装]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-19-openclaw-v2026-4-19-beta-1-subagent-spawning-cdp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-19-openclaw-v2026-4-19-beta-1-subagent-spawning-cdp.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エージェント間の協調動作（スキルスパawning）のバグ修正に加え、Browser/CDP 接続の健全性を確認する診断機能を追加。]]></description>
     </item>
   </channel>
 </rss>
