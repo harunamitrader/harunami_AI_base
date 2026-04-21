@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-21-claude-code-v2-1-116-faster-resume-mcp",
+      "genre": "AIコーディング (CLI本体・拡張機能)",
+      "title": "Claude Code v2.1.116: /resume の劇的な高速化と MCP 起動最適化",
+      "dek": "大規模セッションの復帰が最大67%高速化。MCPサーバーの起動負荷も軽減されました。",
+      "summary": "ヘビーユーザー向けのパフォーマンス改善アップデート。40MB超の大規模セッション復帰が67%高速化されたほか、MCPサーバーの遅延読み込みによる起動時間の短縮、ターミナル内でのスクロール描画の滑らかさ向上が行われました。",
+      "publishedAt": "2026-04-21",
+      "toolName": "Claude Code",
+      "articleUrl": "./articles/tools/2026-04-21-claude-code-v2-1-116-faster-resume-mcp.html"
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-21-anuraghazra-github-readme-stats",

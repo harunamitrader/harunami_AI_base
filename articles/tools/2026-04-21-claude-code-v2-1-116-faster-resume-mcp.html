@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Code v2.1.116 の更新内容。大規模セッションのレジューム高速化と MCP 起動の最適化を日本語で整理。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Code v2.1.116 update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Claude Code v2.1.116: `/resume` の劇的な高速化と MCP 起動最適化</h1>
+      <p class="article-dek">大規模セッションの復帰が最大67%高速化。MCPサーバーの起動負荷も軽減されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v2.1.116</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Claude Code</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のアップデート v2.1.116 では、特にヘビーユーザー向けのパフォーマンス改善が中心となっています。</p>
+        <ul>
+            <li><strong>`/resume` の高速化:</strong> 40MBを超えるような大規模なログを持つセッションにおいて、コンテキストの復元プロセスが最大67%高速化されました。</li>
+            <li><strong>MCP 起動の効率化:</strong> 複数の stdio サーバーを使用している環境において、起動時のオーバーヘッドを削減。テンプレートリストの取得などをメンション時まで遅延させることで、初期起動がよりスムーズになりました。</li>
+            <li><strong>ターミナルスクロールの改善:</strong> VS Code、Cursor、Windsurf 内蔵のターミナルで実行する際のスクロール描画が、より滑らかに調整されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>複雑なプロジェクトで長時間の作業を行い、過去のコンテキストを頻繁に呼び出す開発者にとって、`/resume` の待ち時間短縮は大きな利便性向上となります。また、多数の MCP サーバー（MCP Servers）を常時稼働させている場合も、シェル起動時のもたつきが解消されます。</p>
+
+        <h2>まとめ</h2>
+        <p>v2.1.113 でのネイティブバイナリ化に続き、今回の v2.1.116 でも「体感速度」に直結する重要な最適化が行われました。特に大規模なコーディングタスクを AI と協力して進める際のボトルネックが、着実に排除されています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://docs.anthropic.com/en/release-notes/claude-code" target="_blank" rel="noreferrer">Claude Code Release Notes</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

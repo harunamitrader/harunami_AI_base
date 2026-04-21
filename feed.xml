@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 10:39:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 05:35:40 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Code v2.1.116: /resume の劇的な高速化と MCP 起動最適化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-claude-code-v2-1-116-faster-resume-mcp.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-claude-code-v2-1-116-faster-resume-mcp.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[大規模セッションの復帰が最大67%高速化。MCPサーバーの起動負荷も軽減されました。]]></description>
+    </item>
     <item>
       <title><![CDATA[github-readme-stats]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-anuraghazra-github-readme-stats.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[投資家のための「情報の管制塔」。機関投資家レベルのマーケット分析、リサーチ、経済データを統合した、対話型で高度な金融端末アプリ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[arc-kit]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-tractorjuice-arc-kit.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-tractorjuice-arc-kit.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[エンタープライズ・アーキテクチャの羅針盤。ITガバナンス、ベンダー調達、そして技術スタックの最適化を支援する専門ツールキット。]]></description>
     </item>
   </channel>
 </rss>
