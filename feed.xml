@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 22:51:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 08:51:36 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[TradeMaster]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-trademaster-ntu-trademaster.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-trademaster-ntu-trademaster.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[強化学習（RL）を用いた量化トレードの統合プラットフォーム。データ収集からシミュレーション、13種以上のアルゴリズム実装までを網羅。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenMythos]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-kyegomez-openmythos.html</link>
@@ -158,14 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[worldmonitor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-koala73-worldmonitor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-koala73-worldmonitor.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[世界中のニュースと地政学的リスクをリアルタイムで可視化。AI が世界の状況を監視し続けるインテリジェンス・ボード。]]></description>
     </item>
   </channel>
 </rss>

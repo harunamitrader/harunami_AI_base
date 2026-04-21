@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-22-trademaster-ntu-trademaster",
+      "title": "TradeMaster",
+      "dek": "強化学習（RL）を用いた量化トレードの統合プラットフォーム。データ収集からシミュレーション、13種以上のアルゴリズム実装までを網羅。",
+      "summary": "南洋理工大学（NTU）が開発した、強化学習を核とした量化トレード（クオンツ）のための包括的なオープンソースプラットフォーム。金融データの収集・前処理から、13種類以上のRLアルゴリズム実行、体系的な評価指標によるバックテストまでを一気通貫でサポートします。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T08:52:00+09:00",
+      "repoName": "TradeMaster-NTU/TradeMaster",
+      "repoUrl": "https://github.com/TradeMaster-NTU/TradeMaster",
+      "starCount": 2600,
+      "articleUrl": "./articles/github/daily/2026-04-22-trademaster-ntu-trademaster.html",
+      "serial": 320,
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-22-kyegomez-openmythos",
       "title": "OpenMythos",
       "dek": "Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。",
