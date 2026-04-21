@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-21-browser-use-browser-harness",
+      "title": "browser-harness",
+      "dek": "「自らツールを拡張する」次世代エージェント基盤。LLM がブラウザを自由自在に操り、自律的に機能を自己修復する。",
+      "summary": "エージェントがブラウザタスク実行中に自らのソースコードを書き換え、機能を拡張できる「自己修復（Self-healing）」機能を備えた次世代の接続基盤。Browser Use チームによる最新プロジェクトです。",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T10:15:00+09:00",
+      "repoName": "browser-use/browser-harness",
+      "repoUrl": "https://github.com/browser-use/browser-harness",
+      "starCount": 3600,
+      "articleUrl": "./articles/github/daily/2026-04-21-browser-use-browser-harness.html",
+      "serial": 307,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-21-grafana-grafana",
       "title": "grafana",
       "dek": "データ可視化とオブザーバビリティの黄金律。あらゆるデータソースを美しく、インテリジェントなダッシュボードへ集約。",

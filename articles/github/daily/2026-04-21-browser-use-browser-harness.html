@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="browser-use/browser-harness を使い、LLM エージェントに自己修復機能と高度なブラウザ操作能力を付与。Browser Use チームによる最新の接続基盤。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>browser-harness</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">browser-harness</h1>
+      <p class="article-dek">「自らツールを拡張する」次世代エージェント基盤。LLM がブラウザを自由自在に操り、自律的に機能を自己修復する。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/browser-use/browser-harness" target="_blank" rel="noreferrer">
+              browser-use/browser-harness
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>3,600</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>browser-harness は、LLM エージェントがブラウザと対話するための、極めて軽量かつ野心的な接続プラットフォームです。人気プロジェクト「browser-use」のチームによって開発されており、エージェントが Web ページを操作するだけでなく、必要に応じて自分自身の「ヘルパー関数」を書き換えて機能を拡張する「自己修復（Self-healing）」機能を核としています。</p>
+
+        <h2>何ができるか</h2>
+        <p>Chrome DevTools Protocol (CDP) に直接接続することで、エージェントはブラウザのあらゆる機能を制限なく制御できます。単なるスクレイピングや自動化を超え、エージェント自身がタスク実行中に「特定の操作を簡単に行うためのツールがない」と判断した場合、ソースコード（helpers.py 等）を自律的に編集し、新しい能力を手に入れることができます。これにより、プログラマーが事前に定義した枠組みを超えたタスク遂行が可能になります。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、その「薄さ」と「進化の自由度」にあります。複雑な抽象化層を排除し、LLM がブラウザの状態（DOM、アクセシビリティツリー等）と直接向き合えるように設計されています。また、Browser Use Cloud との連携により、ローカル環境を汚さずにリモートブラウザを即座に立ち上げ、並列実行できる利便性も備えています。エージェントが「道具を使って作業する」のではなく、「作業しながら道具を作る」というパラダイムシフトを体現しています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python 環境（3.11以降推奨）で <code>pip install browser-harness</code> を実行することで利用可能です。ブラウザが必要な場合は <code>playwright install chromium</code> でインストールし、最小限のスクリプトでエージェントをブラウザに接続できます。Browser Use Cloud を利用する場合は、API キーを設定するだけで、設定済みのブラウザデーモンをリモートから操作できるようになります。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code や Codex などの自律型コーディンエージェントを活用している開発者、また独自のブラウザ操作エージェントを構築したいリサーチエンジニアに最適です。固定のルールエンジンの限界に突き当たっている方や、エージェントに究極の自律性を持たせたいと考えている方にとって、これ以上ない強力な足場となるでしょう。</p>
+
+        <h2>注意点</h2>
+        <p>エージェントが自身のソースコードを書き換えるという特性上、予期しない動作やバグの混入に対する保護措置が重要になります。実行環境は必ず隔離（サンドボックス化）し、エージェントの行動を監視・制限するポリシー（Policy）を適切に定義することが推奨されます。また、現時点では進化のスピードが非常に早いため、頻繁なアップデートが予想されます。</p>
+
+        <h2>まとめ</h2>
+        <p>browser-harness は、AI エージェントが「不完全な環境」に適応し、自律的に成長するための画期的なアプローチを提供します。Web オブザーバビリティと自己進化を組み合わせたこの基盤は、エージェントが単なる「実行者」から「創造者」へと進化する第一歩となるかもしれません。ブラウザという広大な海を航海するエージェントたちのために、新しい羅針盤が登場しました。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/browser-use/browser-harness" target="_blank" rel="noreferrer">browser-use/browser-harness</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
