@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-21-fshiori-magi",
+      "title": "magi",
+      "dek": "3つの異なる視点を持つLLMが議論を戦わせ、最高品質の意思決定を下す「MAGIシステム」実装基盤。",
+      "summary": "新世紀エヴァンゲリオンのスーパーコンピュータに着想を得た意思決定エンジン。科学者・母・女の3つの人格（ペルソナ）を模したLLM同士が議論・批判・修正を繰り返す「構造化された不一致」により、単一のモデルを超える高度な推論とハルシネーションの抑制を実現します。",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T17:53:00+09:00",
+      "repoName": "fshiori/magi",
+      "repoUrl": "https://github.com/fshiori/magi",
+      "starCount": 104,
+      "articleUrl": "./articles/github/daily/2026-04-21-fshiori-magi.html",
+      "serial": 312,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-21-kaimingwan-oh-my-kiro",
       "title": "oh-my-kiro",
       "dek": "AIエージェントに「規律」を。oh-my-zsh のようにフックとメモリを活用し、自律エージェントを決定論的に制御するフレームワーク。",

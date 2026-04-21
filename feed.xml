@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 03:04:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 17:54:02 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[magi]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-fshiori-magi.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-fshiori-magi.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[3つの異なる視点を持つLLMが議論を戦わせ、最高品質の意思決定を下す「MAGIシステム」実装基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[oh-my-kiro]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-kaimingwan-oh-my-kiro.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[紙の山をスマートな資産へ。スキャン・自動分類・OCRを備え、あらゆる書類を検索可能にする究極の自炊ドキュメント管理システム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[RuView]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-ruvnet-ruview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-ruvnet-ruview.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[WiFi信号を「目」に変え、カメラなしで人影やバイタルを計測。物理空間をデジタル化する次世代のWiFiセンシング基盤。]]></description>
     </item>
   </channel>
 </rss>

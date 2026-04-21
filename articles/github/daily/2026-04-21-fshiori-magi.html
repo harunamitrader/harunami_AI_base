@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="3つの異なる視点を持つLLMが議論を戦わせ、最高品質の意思決定を下す「MAGIシステム」実装基盤。エヴァンゲリオンに着想を得た構造化された不一致エンジン。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>magi</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">magi</h1>
+      <p class="article-dek">3つの異なる視点を持つLLMが議論を戦わせ、最高品質の意思決定を下す「MAGIシステム」実装基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-21 -->
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/fshiori/magi" target="_blank" rel="noreferrer">
+              fshiori/magi
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>104</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>新世紀エヴァンゲリオンに登場するスーパーコンピュータ「MAGI」のコンセプトをLLMで再現した意思決定エンジンです。単一の高度なモデルに頼るのではなく、異なる役割（ペルソナ）を与えられた3つのLLMが、同じ問いに対して議論・投票・相互批判を行うことで、より信頼性の高い「集団的知性」を導き出します。</p>
+
+        <h2>何ができるか</h2>
+        <p>「科学者（メルキオール）」「母（バルタザール）」「女（カスパー）」といった独立した視点から回答を生成し、それらを戦わせることで単一モデルでは気づけない論理の穴やハルシネーションを補完します。高度な議論を必要とする戦略策定、コードレビュー、複雑なリサーチなどに最適化された複数の動作モード（投票、批判、適応型など）を備えています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最も注目すべき点は、格安な小規模モデルを組み合わせることで、Claude Sonnet クラスの最高峰モデルに匹敵する精度（MMLUベンチマークで実証済み）を叩き出せるコストパフォーマンスの高さです。また、NERVの指令室を模したリアルタイムGUIダッシュボードも搭載されており、AIエージェント同士の「思考の競合」を視覚的に楽しむこともできます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境で <code>pip install magi-system</code> を実行して導入します。OpenRouterなどのAPIキーを設定後、CLIから <code>magi ask "問い"</code> を実行するだけで、3つのモデルによる評議が始まります。<code>magi presets</code> で用途に応じたペルソナセットを指定したり、<code>magi dashboard</code> でWeb UIを起動してデバッグや分析を行うことが可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIの回答の正確性を極限まで高めたい開発者やリサーチャー、またはエージェント同士による多角的な議論プロセスをワークフローに組み込みたい技術者向けです。特に、高価な最新モデルを使い続けるコストを抑えつつ、複数の安価なモデルで同等以上の成果を得たいプロジェクトに効果的です。</p>
+
+        <h2>注意点</h2>
+        <p>3つのモデルを同時に動かすため、APIトークンの消費量は単一モデル実行時の約3倍以上になります。また、議論（批判・修正）のラウンド数を増やすほど精度は向上しますが、最終的な結論が出るまでの待機時間は長くなる傾向があります。</p>
+
+        <h2>まとめ</h2>
+        <p>magiは、単なる「多数決」ではなく「構造化された不一致」を管理するユニークなエージェント基盤です。AIの自律的な議論を通じて知を磨き上げるアプローチは、今後の複雑なタスク自動化において有力な選択肢となるでしょう。何より、あのMAGIを自身のPCで稼働させる体験は、技術的にも感覚的にも刺激的です。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/fshiori/magi" target="_blank" rel="noreferrer">https://github.com/fshiori/magi</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #312</p>
+      </div>
+    </article>
+  </body>
+</html>
