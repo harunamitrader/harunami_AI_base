@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Apr 2026 07:06:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 07:49:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenMythos]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-kyegomez-openmythos.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-kyegomez-openmythos.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。]]></description>
+    </item>
     <item>
       <title><![CDATA[claude-context]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-zilliztech-claude-context.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[世界中のニュースと地政学的リスクをリアルタイムで可視化。AI が世界の状況を監視し続けるインテリジェンス・ボード。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[pi-hole]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-pi-hole-pi-hole.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-pi-hole-pi-hole.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ネットワーク全体の広告を DNS レベルで遮断。プライバシー保護と通信高速化を一台のサーバーで実現。]]></description>
     </item>
   </channel>
 </rss>

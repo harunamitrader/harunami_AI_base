@@ -41,13 +41,9 @@ description: GitHub Trendingから日次の日本語分析記事を公開し、C
 - 1回の実行で作成する新規記事は最大5つまでです。
 - 記事のメタデータとファイル名には現在の日付を使用します。
 - **記事の形式（GitHub Watcherスタイル）**:
-  - eyebrow: `GitHub Watcher`
-  - メタデータ: `<div class="article-meta-grid">` を使用し、以下の4項目をこの順序で表示します。
-    - **記事作成日**: `<!-- YYYY-MM-DD -->\n          <strong>YYYY-MM-DD</strong>` の形式（コメント行を必須含める）。
-    - **種別**: `Rank1`, `Rank4` のように、`Rank + 順位番号` の形式で太字にします。
-    - **対象 repo**: リンク付きの `owner/repo`。
-    - **Star数**: カンマ区切りの数値。
-  - セクション構成（H2見出し）: `これは何か`、`何ができるか`、`目立つポイント`、`セットアップや使い方の流れ`、`どんな人向けか`、`注意点`、`まとめ`、`参照リンク`。これら以外の語彙（「概要」や「プロジェクトの構成」など）は使用禁止です。
+  - `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\templates\github-daily.template.html` のテンプレートを必ず使用してください。
+  - テンプレート内の `{{変数名}}` を適切な値に置換して使用します。
+  - 記事の各セクション（これは何か、等）以外の構成は変更しないでください。
 - 記事のタイトルには、オーナー名を含まないリポジトリ名（slug）のみを使用します。
 - タイトルの直下に、1行の簡潔な日本語説明を `<p class="article-dek">` で追加します。
 - `data/articles.json` にも同じ1行説明を保存します。また、以下の新しいメタデータ項目を必ず推論・設定してください。
@@ -65,16 +61,9 @@ description: GitHub Trendingから日次の日本語分析記事を公開し、C
 - 新規記事が追加された場合、必ず同日の `github-update-report` を作成・更新します。
 - GitHub 記事の追加・更新後は、`data/github-search-index.json` も必ず再生成します。
 - **アップデートレポートの形式**:
-  - title: `YYYY-MM-DD アップデートレポート`
-  - dek: `本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ`
-  - 参照テンプレート: `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\articles\github\reports\2026-04-05-update-report.html`
-  - body sections:
-    - `<h2>本日の調査ランキング（全件）</h2>`: https://github.com/trending のページに表示されている**全順位**とリポジトリを順番どおりにリストアップします。状態を以下の3つに分け、**記事があるもの（既存・新規）については、必ず記事へのリンクを付与してください**。
-      - `✅ 記事作成済み`: (リンク付きで掲載)
-      - `✨ 新規追加`: (リンク付きで掲載)
-      - `未作成`: (リンクなし、今回スキップしたもの)
-    - `<h2>今後の展望</h2>`: 短いまとめ。
-  - ※「新規追加されたリポジトリ」の独立した欄は不要です。
+  - `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\templates\github-report.template.html` のテンプレートを必ず使用してください。
+  - ランキングの出力はテンプレート内の例に従い、`<ol>` リスト内に作成します。
+  - 記事があるもの（既存・新規）については、必ず記事へのリンクを付与してください。
 - 新規記事が追加されなかった場合は、レポートの作成は行いません。
 - カテゴリ、メタデータの形状、バックリンクの挙動については `AGENTS.md` のルールに従います。
 - 記事リストの管理は `data/articles.json` のみで行います。

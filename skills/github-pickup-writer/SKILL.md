@@ -14,7 +14,7 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 ## Workflow
 
 1. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\AGENTS.md`.
-2. Read `references/article-outline.md`.
+2. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\templates\github-daily.template.html`.
 3. Confirm the target repository or repository URL from the user request.
 4. Resolve the target repository to the canonical GitHub URL after redirects, and normalize `repoName` to canonical `owner/repo` casing before writing anything.
 5. Read `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\data\articles.json` and check whether the same canonical `repoName` / `repoUrl` is already published.
@@ -31,14 +31,10 @@ Keep the site structure stable. Do not redesign layout or rename categories unle
 ## Rules
 
 - **記事の形式（GitHub Watcherスタイル）**:
-  - eyebrow: `GitHub Watcher`
-  - メタデータ: `<div class="article-meta-grid">` を使用し、以下の4項目をこの順序で表示します。
-    - **記事作成日**: `<!-- YYYY-MM-DD -->\n          <strong>YYYY-MM-DD</strong>` の形式（コメント行を必須含める）。
-    - **種別**: `Pickup` （太字）。
-    - **対象 repo**: リンク付きの `owner/repo`。
-    - **Star数**: カンマ区切りの数値。
-  - セクション構成（H2見出し）: `これは何か`、`何ができるか`、`目立つポイント`、`セットアップや使い方の流れ`、`どんな人向けか`、`注意点`、`まとめ`、`参照リンク`。これら以外の語彙（「概要」や「プロジェクトの構成」など）は使用禁止。
-  - 詳細は `references/article-outline.md` を参照してください。
+  - `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\templates\github-daily.template.html` のテンプレートを必ず使用してください。
+  - テンプレート内の `{{変数名}}` を適切な値に置換して使用します。
+  - `{{RANK_OR_PICKUP}}` には `Pickup` （太字）を設定します。
+  - 記事の各セクション（これは何か、等）以外の構成は変更しないでください。
 - Use only the repository slug as the article title, without the owner name.
 - Add a one-line plain-Japanese explainer immediately below the title using `<p class="article-dek">`.
 - Store the same one-line explainer in `data/articles.json`.
@@ -79,4 +75,4 @@ Do **not** rename or remove these tabs without a user instruction.
 
 ## References
 
-- Article outline: `references/article-outline.md`
+- Article template: `C:\Users\sgmxk\Desktop\AI\repos\github\harunamitrader\harunami_AI_base\templates\github-daily.template.html`

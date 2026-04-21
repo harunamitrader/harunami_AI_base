@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-21T22:05:54.594726+00:00",
-  "count": 336,
+  "generatedAt": "2026-04-21T22:49:17.300128+00:00",
+  "count": 337,
   "articles": [
+    {
+      "slug": "2026-04-22-kyegomez-openmythos",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "OpenMythos",
+      "dek": "Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。",
+      "summary": "Anthropic の Claude Mythos モデルで使用されていると推測されるアーキテクチャを、公開リサーチに基づいて理論的に再構成したオープンソース実装。特定の層をループ実行する Recurrent-Depth Transformer (RDT) を採用し、パラメータ効率と推論能力の両立を目指しています。",
+      "repoName": "kyegomez/OpenMythos",
+      "genre": "AI基盤・データ基盤・業務アプリ",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T07:50:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-22-kyegomez-openmythos.html",
+      "serial": 319,
+      "searchText": "OpenMythos Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。 Anthropic の Claude Mythos モデルで使用されていると推測されるアーキテクチャを、公開リサーチに基づいて理論的に再構成したオープンソース実装。特定の層をループ実行する Recurrent-Depth Transformer (RDT) を採用し、パラメータ効率と推論能力の両立を目指しています。 kyegomez/OpenMythos AI基盤・データ基盤・業務アプリ OpenMythos ← 記事一覧へ戻る GitHub Watcher OpenMythos Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。 記事作成日 2026-04-22 種別 Pickup 対象 repo kyegomez/OpenMythos Star数 6,700 これは何か Anthropic の Claude Mythos モデルで使用されていると推測されるアーキテクチャを、公開されているリサーチ文献や議論に基づいて理論的に再構成したオープンソース実装です。特定の層を「リサイクル」して何度も通すことで、固定されたパラメータ数以上の「思考の深さ」を実現することを目指しています。 何ができるか Recurrent-Depth Transformer (RDT) または Looped Transformer と呼ばれる構造を体験・実験できます。入力（Prelude）、ループ実行される再帰ブロック（Recurrent Block）、そして出力（Coda）の3ステージで構成されており、推論時にループ回数を増やすことで、より複雑な推論問題に対応できる設計になっています。 目立つポイント パラメータの爆発を抑えつつ、Latent Space（潜在空間）での「暗黙的な Chain-of-Thought」を実現している点です。また、再帰構造のトレーニングで課題となる不安定さを、動的システム理論に基づいたスペクトル半径の制御（Parcae アーキテクチャ）によって解決を試みている点も非常に技術的な見どころです。 セットアップや使い方の流れ pip install open-mythos で導入可能です。設定ファイル（MythosConfig）でループ回数やレイヤー構成を定義し、通常の Transformer と同様の感覚でモデルを初期化できます。MLA (Multi-head Latent Attention) や Sparse MoE などの最新トレンドも組み込まれており、小規模な 1B から 1T パラメータ級の巨大スケールまで柔軟な構成が用意されています。 どんな人向けか LLM の次世代アーキテクチャ、特に「パラメータ効率」と「推論時の計算量スケーリング」のトレードオフに関心がある研究者やエンジニアに最適です。Claude の魔法の裏側にあるかもしれない理論的背景をコードで確認したい人にも向いています。 注意点 本プロジェクトは Anthropic 公式のものではなく、コミュニティによる理論的な「推論」に基づいた再構成であることに注意してください。実際の Claude Mythos と細部が異なる可能性がありますが、現代の AI リサーチにおける一つの有力な仮説を具現化したものとして価値があります。 まとめ 単に層を重ねるのではなく「ループ」によって知能を深めるという、効率的かつ強力なアプローチを提示しています。パラメータ数に依存しない知能向上の可能性を示す、非常に野心的で技術密度の高いリポジトリです。 参照リンク https://github.com/kyegomez/OpenMythos Shared GitHub Serial: #319"
+    },
     {
       "slug": "2026-04-22-zilliztech-claude-context",
       "category": "github-trending",

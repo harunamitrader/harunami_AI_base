@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenMythos</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenMythos</h1>
+      <p class="article-dek">Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-22 -->
+          <strong>2026-04-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/kyegomez/OpenMythos" target="_blank" rel="noreferrer">
+              kyegomez/OpenMythos
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>6,700</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Anthropic の Claude Mythos モデルで使用されていると推測されるアーキテクチャを、公開されているリサーチ文献や議論に基づいて理論的に再構成したオープンソース実装です。特定の層を「リサイクル」して何度も通すことで、固定されたパラメータ数以上の「思考の深さ」を実現することを目指しています。</p>
+
+        <h2>何ができるか</h2>
+        <p>Recurrent-Depth Transformer (RDT) または Looped Transformer と呼ばれる構造を体験・実験できます。入力（Prelude）、ループ実行される再帰ブロック（Recurrent Block）、そして出力（Coda）の3ステージで構成されており、推論時にループ回数を増やすことで、より複雑な推論問題に対応できる設計になっています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>パラメータの爆発を抑えつつ、Latent Space（潜在空間）での「暗黙的な Chain-of-Thought」を実現している点です。また、再帰構造のトレーニングで課題となる不安定さを、動的システム理論に基づいたスペクトル半径の制御（Parcae アーキテクチャ）によって解決を試みている点も非常に技術的な見どころです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p><code>pip install open-mythos</code> で導入可能です。設定ファイル（MythosConfig）でループ回数やレイヤー構成を定義し、通常の Transformer と同様の感覚でモデルを初期化できます。MLA (Multi-head Latent Attention) や Sparse MoE などの最新トレンドも組み込まれており、小規模な 1B から 1T パラメータ級の巨大スケールまで柔軟な構成が用意されています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>LLM の次世代アーキテクチャ、特に「パラメータ効率」と「推論時の計算量スケーリング」のトレードオフに関心がある研究者やエンジニアに最適です。Claude の魔法の裏側にあるかもしれない理論的背景をコードで確認したい人にも向いています。</p>
+
+        <h2>注意点</h2>
+        <p>本プロジェクトは Anthropic 公式のものではなく、コミュニティによる理論的な「推論」に基づいた再構成であることに注意してください。実際の Claude Mythos と細部が異なる可能性がありますが、現代の AI リサーチにおける一つの有力な仮説を具現化したものとして価値があります。</p>
+
+        <h2>まとめ</h2>
+        <p>単に層を重ねるのではなく「ループ」によって知能を深めるという、効率的かつ強力なアプローチを提示しています。パラメータ数に依存しない知能向上の可能性を示す、非常に野心的で技術密度の高いリポジトリです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/kyegomez/OpenMythos" target="_blank" rel="noreferrer">https://github.com/kyegomez/OpenMythos</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #319</p>
+      </div>
+    </article>
+  </body>
+</html>

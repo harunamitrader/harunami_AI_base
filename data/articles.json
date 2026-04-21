@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-22-kyegomez-openmythos",
+      "title": "OpenMythos",
+      "dek": "Claude Mythos のアーキテクチャを理論的に再現。共有重みをループ実行する「Looped Transformer」で効率的な推論を実現。",
+      "summary": "Anthropic の Claude Mythos モデルで使用されていると推測されるアーキテクチャを、公開リサーチに基づいて理論的に再構成したオープンソース実装。特定の層をループ実行する Recurrent-Depth Transformer (RDT) を採用し、パラメータ効率と推論能力の両立を目指しています。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T07:50:00+09:00",
+      "repoName": "kyegomez/OpenMythos",
+      "repoUrl": "https://github.com/kyegomez/OpenMythos",
+      "starCount": 6700,
+      "articleUrl": "./articles/github/daily/2026-04-22-kyegomez-openmythos.html",
+      "serial": 319,
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-22-zilliztech-claude-context",
