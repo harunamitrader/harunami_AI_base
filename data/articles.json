@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-21-akdeb-elatoai",
+      "title": "ElatoAI",
+      "dek": "「会話するおもちゃ」を自作する。ESP32-S3 で低遅延なボイス AI デバイスを構築するためのオープンソース基盤。",
+      "summary": "低遅延な音声対話 AI 玩具やガジェットを自作するための総合プラットフォーム。ESP32-S3 ファームウェア、回路図、バックエンドサーバーを網羅し、メイカーがキャラクター性のある AI デバイスを即座に構築できるよう設計されています。",
+      "publishedAt": "2026-04-21",
+      "createdAt": "2026-04-21T11:47:00+09:00",
+      "repoName": "akdeb/ElatoAI",
+      "repoUrl": "https://github.com/akdeb/ElatoAI",
+      "starCount": 1500,
+      "articleUrl": "./articles/github/daily/2026-04-21-akdeb-elatoai.html",
+      "serial": 309,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-21-phuryn-pm-skills",
       "title": "pm-skills",
       "dek": "PMの「思考プロセス」をAIエージェントに実装。100以上の専門スキルで、戦略策定からPRD作成までを自動化する。",

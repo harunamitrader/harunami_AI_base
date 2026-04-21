@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 01:20:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 11:47:30 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ElatoAI]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-akdeb-elatoai.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-akdeb-elatoai.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[「会話するおもちゃ」を自作する。ESP32-S3 で低遅延なボイス AI デバイスを構築するためのオープンソース基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[pm-skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-phuryn-pm-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[18名の偉大な知性（AI）があなたの難問を審議。多様なLLMプロバイダーを横断し、徹底的な「反論」と「多角視点」で意思決定を支援]]></description>
-    </item>
-    <item>
-      <title><![CDATA[colleague-skill]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-titanwings-colleague-skill.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-titanwings-colleague-skill.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[実在の人物やキャラクターをAIスキルとして「蒸留」。チャットログやメールから思考と言動を再現するデジタル生命体構築フレームワーク]]></description>
     </item>
   </channel>
 </rss>
