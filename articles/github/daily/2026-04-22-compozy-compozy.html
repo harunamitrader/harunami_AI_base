@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="40種以上のAIエージェントをオーケストレーション。アイデアからPRD作成、タスク分割、コード実装、レビューまでを統合管理。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Compozy</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Compozy</h1>
+      <p class="article-dek">40種以上のAIエージェントをオーケストレーション。アイデアからPRD作成、タスク分割、コード実装、レビューまでを統合管理。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-22 -->
+          <strong>2026-04-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/compozy/compozy" target="_blank" rel="noreferrer">
+              compozy/compozy
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>527</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>AI支援開発の全ライフサイクルを一つのパイプラインで駆動するためのオーケストレーションツールです。Claude Code、Cursor、Gemini といった40種類以上のAIエージェントやIDEを統合し、「アイデアの具体化」から「実装」、「自動レビュー」までを一気通貫で管理します。</p>
+
+        <h2>何ができるか</h2>
+        <p>「アイデア → PRD → 技術仕様書 → タスク分解 → 並列実装 → PRレビュー」という一連のフローを自動化できます。各ステップで生成されるドキュメントはすべて Markdown 形式で、バージョン管理しやすく、人間が介在して修正を加えることも容易です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単一のエージェントに頼るのではなく、複数のエージェントを並列に走らせてタスクを消化する「マルチエージェント実行」や、既存のコードベースを解析して各タスクに最適なコンテキストを付与する「コードベース理解（Enrichment）」機能が非常に強力です。また、エージェントの設定を <code>.compozy/agents/</code> 配下にパッケージ化して再利用できる柔軟性も備えています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Go製のシングルバイナリとして提供されており、Homebrew や NPM を通じて導入可能です。導入後は <code>compozy setup</code> を実行することで、お使いの AI エージェント（Claude Code 等）に Compozy 共通のスキル（プロンプトセット）をインストールして使い始めることができます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Cursor や Claude Code などの AI ツールを頻繁に利用しているが、それらをバラバラに使うのではなく、一つのプロジェクトとして体系的に管理したいエンジニアに最適です。特に大規模な機能追加や、要件定義からしっかりと固めて進めたいプロジェクトの「司令塔」として機能します。</p>
+
+        <h2>注意点</h2>
+        <p>ワークフローの各段階で生成される Markdown ファイルは、次のフェーズの「設計図」となります。そのため、最初の「アイデア」や「PRD」の段階で方向性がズレると、その後の実装も引きずられてしまうため、フェーズごとの人間によるレビュー（チェック）が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>「プロンプトを投げて終わり」ではなく、開発プロセスそのものを AI と共に構築・洗練していくためのプラットフォームです。AI 時代のソフトウェア開発における「新しい標準ワークフロー」を先取りできる、野心的なプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/compozy/compozy" target="_blank" rel="noreferrer">https://github.com/compozy/compozy</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #321</p>
+      </div>
+    </article>
+  </body>
+</html>

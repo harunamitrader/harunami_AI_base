@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-22-compozy-compozy",
+      "title": "Compozy",
+      "dek": "40種以上のAIエージェントをオーケストレーション。アイデアからPRD作成、タスク分割、コード実装、レビューまでを統合管理。",
+      "summary": "AI支援開発の全ライフサイクルを一気通貫で駆動するオーケストレーションツール。Claude Code、Cursor、Geminiといった40種類以上のAIエージェントを統合し、要件定義から実装、PRレビューまでのプロセスをMarkdownベースのパイプラインとして管理します。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T08:53:00+09:00",
+      "repoName": "compozy/compozy",
+      "repoUrl": "https://github.com/compozy/compozy",
+      "starCount": 527,
+      "articleUrl": "./articles/github/daily/2026-04-22-compozy-compozy.html",
+      "serial": 321,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-22-trademaster-ntu-trademaster",
       "title": "TradeMaster",
       "dek": "強化学習（RL）を用いた量化トレードの統合プラットフォーム。データ収集からシミュレーション、13種以上のアルゴリズム実装までを網羅。",
