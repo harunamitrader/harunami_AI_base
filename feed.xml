@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2026 20:38:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 06:54:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ChatGPT: GPT-5.4 と ImageGen 2.0 が統合された大型リリース]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-chatgpt-gpt-5-4-imagegen-2-0.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-chatgpt-gpt-5-4-imagegen-2-0.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[推論の正確性を極めた新基盤と、対話ベースで自在に加工できる画像生成エンジンが登場。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Obsidian: CLI バイナリ刷新による高速化と安定性の向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-obsidian-cli-binary-refresh.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-obsidian-cli-binary-refresh.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[3月に導入された CLI 基盤がアップデート。大規模な保管庫でのインデックス処理や起動時間が大幅に改善されました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code v2.1.116: /resume の劇的な高速化と MCP 起動最適化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-claude-code-v2-1-116-faster-resume-mcp.html</link>
@@ -128,6 +144,14 @@
       <description><![CDATA[GitHubがCopilot Individualプランの大幅刷新を発表。新規申込停止や特定モデルの制限、データ学習ポリシーの変更が行われました。]]></description>
     </item>
     <item>
+      <title><![CDATA[OpenClaw v2026.4.20: セットアップウィザードと GPT-5 オーバーレイの実装]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-openclaw-v2026-4-20-setup-wizard.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-20-openclaw-v2026-4-20-setup-wizard.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[初心者向けの導入フローを刷新。さらに最新モデルの性能を引き出す「GPT-5 互換オーバーレイ」が追加されました。]]></description>
+    </item>
+    <item>
       <title><![CDATA[the-book-of-secret-knowledge]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-trimstray-the-book-of-secret-knowledge.html</link>
       <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-trimstray-the-book-of-secret-knowledge.html</guid>
@@ -142,30 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Codex CLI と Claude Code を統合管理し、タスクスケジューラーやリモート操作を可能にするエージェント・ワークステーション。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[QuantDinger]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-brokermr810-quantdinger.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-brokermr810-quantdinger.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIを活用したクオンツ研究・バックテスト・実取引を統合した、セルフホスト可能なオープンソース・トレードプラットフォーム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-20 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-20-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-20-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[FinceptTerminal]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-fincept-corporation-finceptterminal.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-20-fincept-corporation-finceptterminal.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[投資家のための「情報の管制塔」。機関投資家レベルのマーケット分析、リサーチ、経済データを統合した、対話型で高度な金融端末アプリ。]]></description>
     </item>
   </channel>
 </rss>

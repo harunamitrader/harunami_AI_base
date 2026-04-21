@@ -8,6 +8,39 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-21-chatgpt-gpt-5-4-imagegen-2-0",
+      "genre": "汎用AI (チャット・検索・ディープリサーチ)",
+      "title": "ChatGPT: GPT-5.4 と ImageGen 2.0 が統合された大型リリース",
+      "dek": "推論の正確性を極めた新基盤と、対話ベースで自在に加工できる画像生成エンジンが登場。",
+      "summary": "OpenAI が GPT-5.4 と ImageGen 2.0 を同時リリース。ハルシネーションの削減と、対話型画像編集機能のウェブ・モバイル統合が行われました。",
+      "publishedAt": "2026-04-21",
+      "toolName": "ChatGPT",
+      "articleUrl": "./articles/tools/2026-04-21-chatgpt-gpt-5-4-imagegen-2-0.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-21-obsidian-cli-binary-refresh",
+      "genre": "汎用AI (チャット・検索・ディープリサーチ)",
+      "title": "Obsidian: CLI バイナリ刷新による高速化と安定性の向上",
+      "dek": "3月に導入された CLI 基盤がアップデート。大規模な保管庫でのインデックス処理や起動時間が大幅に改善されました。",
+      "summary": "Rust ベースのコアバイナリが最適化され、Windows 環境でのオーバーヘッド削減や大規模保管庫での検索・起動速度が向上しました。",
+      "publishedAt": "2026-04-21",
+      "toolName": "Obsidian",
+      "articleUrl": "./articles/tools/2026-04-21-obsidian-cli-binary-refresh.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-20-openclaw-v2026-4-20-setup-wizard",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "title": "OpenClaw v2026.4.20: セットアップウィザードと GPT-5 オーバーレイの実装",
+      "dek": "初心者向けの導入フローを刷新。さらに最新モデルの性能を引き出す「GPT-5 互換オーバーレイ」が追加されました。",
+      "summary": "初回起動時のセットアップウィザード実装、GPT-5 特化の UI オーバーレイ追加、Browser モードの DOM 解析精度向上などが行われました。",
+      "publishedAt": "2026-04-20",
+      "toolName": "OpenClaw",
+      "articleUrl": "./articles/tools/2026-04-20-openclaw-v2026-4-20-setup-wizard.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-21-claude-code-v2-1-116-faster-resume-mcp",
       "genre": "AIコーディング (CLI本体・拡張機能)",
       "title": "Claude Code v2.1.116: /resume の劇的な高速化と MCP 起動最適化",

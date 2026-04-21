@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Obsidian CLI バイナリが刷新され、起動速度の向上と安定性が強化されました。大規模な保管庫での操作がよりスムーズに。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Obsidian CLI binary refresh update</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">Release Notes</p>
+      </div>
+
+      <h1 class="article-title">Obsidian: CLI バイナリ刷新による高速化と安定性の向上</h1>
+      <p class="article-dek">3月に導入された CLI 基盤がアップデート。大規模な保管庫でのインデックス処理や起動時間が大幅に改善されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-21</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>CLI Refresh (v1.12.x+)</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Obsidian</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>Obsidian 開発チームは、デスクトップアプリと連携して動作する CLI（コマンドラインインターフェース）用バイナリの最新アップデートを公開しました。今回の更新は、3月末にリリースされた CLI 統合機能のメンテナンスと最適化を主目的としています。</p>
+        <ul>
+            <li><strong>バイナリの刷新:</strong> Rust ベースのコアバイナリが最適化され、特に Windows 環境におけるコマンド実行のオーバーヘッドが削減されました。</li>
+            <li><strong>大規模保管庫への対応:</strong> 数千のノートを持つ大規模な保管庫（Vault）において、<code>obsidian search</code> や <code>obsidian open</code> コマンドの応答速度が最大 40% 高速化。</li>
+            <li><strong>エラーハンドリングの強化:</strong> パスに特殊文字が含まれる場合の処理や、バックグラウンドでの同期プロセスとの競合が解消され、自動化スクリプトでの利用がより安全になりました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Raycast や Alfred、あるいはターミナルから直接 Obsidian を操作しているユーザーにとって、この「キビキビ感」の向上は日常のワークフローに直結します。特に、AI エージェントから Obsidian のメモを参照・作成させるような高度な自動化を行っている場合、タイムアウトの減少と安定性の向上が大きなメリットとなります。</p>
+
+        <h2>まとめ</h2>
+        <p>目立った新機能こそありませんが、CLI 基盤の着実な深化は、Obsidian が「単なるノートアプリ」を超え、開発者やパワーユーザーにとっての「パーソナルナレッジ OS」としての地位を固めていることを示しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://obsidian.md/changelog" target="_blank" rel="noreferrer">Obsidian Changelog</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
