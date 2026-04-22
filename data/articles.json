@@ -17,6 +17,21 @@
       "serial": 25
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-23-vercel-labs-skills",
+      "title": "skills",
+      "dek": "AIエージェントの能力をパッケージ管理。npx skillsでClaude CodeやCursorに新しい「スキル」を即座に追加できる次世代のエコシステム。",
+      "summary": "AIコーディングエージェントのための共通パッケージマネージャー。標準化されたSKILL.md形式により、多様なAIツールに対して一貫した機能拡張と知識の付与を可能にします。",
+      "publishedAt": "2026-04-23",
+      "repoName": "vercel-labs/skills",
+      "repoUrl": "https://github.com/vercel-labs/skills",
+      "starCount": 15387,
+      "articleUrl": "./articles/github/daily/2026-04-23-vercel-labs-skills.html",
+      "serial": 335,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-23-langfuse-langfuse",
