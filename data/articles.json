@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-22-joinclass-ai-ceo-framework",
+      "title": "AI-CEO Framework",
+      "dek": "Claude Codeで「1人企業」を完全自動化。15体のAIエージェントと承認パイプラインを備えた、実戦投入済みの経営フレームワーク。",
+      "summary": "Claude Codeを活用して組織運営を自動化する統合フレームワーク。CTOやCMOなど15種類のエージェントと承認システムを組み合わせ、安全かつ効率的に「AI企業」を運営できます。1年以上の実戦投入を経て磨かれた、ビジネス志向の自律エージェント群です。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T19:10:00+09:00",
+      "repoName": "JOINCLASS/ai-ceo-framework",
+      "repoUrl": "https://github.com/JOINCLASS/ai-ceo-framework",
+      "starCount": 17,
+      "articleUrl": "./articles/github/daily/2026-04-22-joinclass-ai-ceo-framework.html",
+      "serial": 326,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-22-lfnovo-open-notebook",
       "title": "Open Notebook",
       "dek": "Google NotebookLMの強力なオープンソース代替。100%ローカル実行・マルチモデル対応で、プライバシーを守りつつ知識を構造化。",

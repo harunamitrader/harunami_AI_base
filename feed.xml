@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Apr 2026 09:37:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 19:11:29 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI-CEO Framework]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-joinclass-ai-ceo-framework.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-joinclass-ai-ceo-framework.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Codeで「1人企業」を完全自動化。15体のAIエージェントと承認パイプラインを備えた、実戦投入済みの経営フレームワーク。]]></description>
+    </item>
     <item>
       <title><![CDATA[Open Notebook]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-lfnovo-open-notebook.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントに「規律」を。oh-my-zsh のようにフックとメモリを活用し、自律エージェントを決定論的に制御するフレームワーク。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[m5-paper-buddy]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-op7418-m5-paper-buddy.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-op7418-m5-paper-buddy.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Code に「実体」を。M5Paper を専用ダッシュボードに変え、物理ボタンで AI のアクションを承認・制御する。]]></description>
     </item>
   </channel>
 </rss>
