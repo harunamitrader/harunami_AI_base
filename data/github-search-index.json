@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-22T02:32:40.110848+00:00",
-  "count": 341,
+  "generatedAt": "2026-04-22T05:18:04.770392+00:00",
+  "count": 342,
   "articles": [
+    {
+      "slug": "2026-04-22-bayramannakov-claude-reflect",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Claude Reflect",
+      "dek": "Claude Codeを自分専用に「育てる」自己学習システム。ユーザーの指摘や好みを自動で学習し、永続化。",
+      "summary": "Claude Codeとの対話から修正指示やフィードバックを自動でキャプチャし、学習内容をCLAUDE.mdやAGENTS.mdに同期する自己学習システム。過去のセッション履歴をAI分析し、繰り返されるワークフローを独自のスキル（カスタムコマンド）として定義する機能も備えています。",
+      "repoName": "BayramAnnakov/claude-reflect",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T14:17:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-22-bayramannakov-claude-reflect.html",
+      "serial": 324,
+      "searchText": "Claude Reflect Claude Codeを自分専用に「育てる」自己学習システム。ユーザーの指摘や好みを自動で学習し、永続化。 Claude Codeとの対話から修正指示やフィードバックを自動でキャプチャし、学習内容をCLAUDE.mdやAGENTS.mdに同期する自己学習システム。過去のセッション履歴をAI分析し、繰り返されるワークフローを独自のスキル（カスタムコマンド）として定義する機能も備えています。 BayramAnnakov/claude-reflect AIエージェント (自律基盤・特化アプリ) Claude Reflect ← 記事一覧へ戻る GitHub Watcher Claude Reflect Claude Codeを自分専用に「育てる」自己学習システム。ユーザーの指摘や好みを自動で学習し、永続化。 記事作成日 2026-04-22 種別 Pickup 対象 repo BayramAnnakov/claude-reflect Star数 936 これは何か Claude Code との対話を通じて、AIが犯した間違いへの指摘や、あなたの個人的な好みを「記憶」させるための自己学習（Self-learning）プラグインです。一度伝えた修正を CLAUDE.md や AGENTS.md に自動的に永続化し、次回以降のセッションで同じ間違いを繰り返さないようにします。 何ができるか 「そのライブラリではなく、こっちを使って」「関数名はこの命名規則にして」といった口頭での修正指示をリアルタイムでキャプチャします。セッション終了時や任意のタイミングで /reflect コマンドを実行することで、それらの指摘を正式なプロジェクトルールとしてドキュメント化し、AIに「永続記憶」として叩き込むことができます。 目立つポイント 単なるメモ機能に留まらず、AIが過去のセッション履歴をセマンティックに分析し、あなたが繰り返し行っている一連の作業を「新しいスキル（カスタムコマンド）」として定義する提案をしてくれる機能（ /reflect-skills ）が非常に強力です。これにより、開発フローそのものを自分専用に最適化していくことが可能です。 セットアップや使い方の流れ Claude Code 内で marketplace add bayramannakov/claude-reflect を実行してプラグインを追加し、インストール後に Claude Code を再起動するだけで準備完了です。あとは普通に対話し、修正点があれば伝えるだけです。裏側で Python スクリプトがフックとして動作し、学習内容をキューに溜めてくれます。 どんな人向けか Claude Code をメインの開発環境として利用しており、プロジェクト特有のルールや自分好みの書き方をAIに何度も教え直すことにストレスを感じているエンジニアに最適です。AIを単なるツールではなく、自身の分身や優秀なパートナーとして「育成」したいユーザーに強くおすすめします。 注意点 学習内容は Markdown ファイルとしてリポジトリ内やグローバル設定に書き込まれます。機密情報や、他のリポジトリに適用すべきでない特殊すぎるルールをグローバル（ ~/.claude/CLAUDE.md ）に学習させないよう、反映時のレビューで適用範囲を適切に判断する必要があります。 まとめ 「AIに一度言ったことは二度と言わせない」を実現する、Claude Code ユーザー待望の拡張機能です。指摘がそのままプロジェクトの資産（ドキュメント）として蓄積され、使えば使うほどAIが賢く、自分好みに進化していく体験は、次世代の開発スタイルを象徴しています。 参照リンク https://github.com/BayramAnnakov/claude-reflect Shared GitHub Serial: #324"
+    },
     {
       "slug": "2026-04-22-gitleaks-gitleaks",
       "category": "github-pickup",

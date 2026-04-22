@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Apr 2026 02:35:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 14:18:04 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Claude Reflect]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-bayramannakov-claude-reflect.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-bayramannakov-claude-reflect.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Codeを自分専用に「育てる」自己学習システム。ユーザーの指摘や好みを自動で学習し、永続化。]]></description>
+    </item>
     <item>
       <title><![CDATA[Gitleaks]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-gitleaks-gitleaks.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「会話するおもちゃ」を自作する。ESP32-S3 で低遅延なボイス AI デバイスを構築するためのオープンソース基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[pm-skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-phuryn-pm-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-21-phuryn-pm-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[PMの「思考プロセス」をAIエージェントに実装。100以上の専門スキルで、戦略策定からPRD作成までを自動化する。]]></description>
     </item>
   </channel>
 </rss>

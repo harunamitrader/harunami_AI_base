@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Claude Codeを自分専用に「育てる」自己学習システム。ユーザーの指摘や好みを自動で学習し、永続化。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Claude Reflect</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Claude Reflect</h1>
+      <p class="article-dek">Claude Codeを自分専用に「育てる」自己学習システム。ユーザーの指摘や好みを自動で学習し、永続化。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-22 -->
+          <strong>2026-04-22</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/BayramAnnakov/claude-reflect" target="_blank" rel="noreferrer">
+              BayramAnnakov/claude-reflect
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>936</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Claude Code との対話を通じて、AIが犯した間違いへの指摘や、あなたの個人的な好みを「記憶」させるための自己学習（Self-learning）プラグインです。一度伝えた修正を <code>CLAUDE.md</code> や <code>AGENTS.md</code> に自動的に永続化し、次回以降のセッションで同じ間違いを繰り返さないようにします。</p>
+
+        <h2>何ができるか</h2>
+        <p>「そのライブラリではなく、こっちを使って」「関数名はこの命名規則にして」といった口頭での修正指示をリアルタイムでキャプチャします。セッション終了時や任意のタイミングで <code>/reflect</code> コマンドを実行することで、それらの指摘を正式なプロジェクトルールとしてドキュメント化し、AIに「永続記憶」として叩き込むことができます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>単なるメモ機能に留まらず、AIが過去のセッション履歴をセマンティックに分析し、あなたが繰り返し行っている一連の作業を「新しいスキル（カスタムコマンド）」として定義する提案をしてくれる機能（<code>/reflect-skills</code>）が非常に強力です。これにより、開発フローそのものを自分専用に最適化していくことが可能です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Claude Code 内で <code>marketplace add bayramannakov/claude-reflect</code> を実行してプラグインを追加し、インストール後に Claude Code を再起動するだけで準備完了です。あとは普通に対話し、修正点があれば伝えるだけです。裏側で Python スクリプトがフックとして動作し、学習内容をキューに溜めてくれます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>Claude Code をメインの開発環境として利用しており、プロジェクト特有のルールや自分好みの書き方をAIに何度も教え直すことにストレスを感じているエンジニアに最適です。AIを単なるツールではなく、自身の分身や優秀なパートナーとして「育成」したいユーザーに強くおすすめします。</p>
+
+        <h2>注意点</h2>
+        <p>学習内容は Markdown ファイルとしてリポジトリ内やグローバル設定に書き込まれます。機密情報や、他のリポジトリに適用すべきでない特殊すぎるルールをグローバル（<code>~/.claude/CLAUDE.md</code>）に学習させないよう、反映時のレビューで適用範囲を適切に判断する必要があります。</p>
+
+        <h2>まとめ</h2>
+        <p>「AIに一度言ったことは二度と言わせない」を実現する、Claude Code ユーザー待望の拡張機能です。指摘がそのままプロジェクトの資産（ドキュメント）として蓄積され、使えば使うほどAIが賢く、自分好みに進化していく体験は、次世代の開発スタイルを象徴しています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/BayramAnnakov/claude-reflect" target="_blank" rel="noreferrer">https://github.com/BayramAnnakov/claude-reflect</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #324</p>
+      </div>
+    </article>
+  </body>
+</html>
