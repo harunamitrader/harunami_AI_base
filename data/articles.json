@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-22-lfnovo-open-notebook",
+      "title": "Open Notebook",
+      "dek": "Google NotebookLMの強力なオープンソース代替。100%ローカル実行・マルチモデル対応で、プライバシーを守りつつ知識を構造化。",
+      "summary": "GoogleのNotebookLMに代わる、プライバシー重視のオープンソース・知識管理ツール。18種類以上のAIプロバイダーに対応し、完全ローカル実行も可能です。PDFや動画など多様な資料からAIチャットやポッドキャストを生成し、研究や学習を効率化します。",
+      "publishedAt": "2026-04-22",
+      "createdAt": "2026-04-22T18:32:00+09:00",
+      "repoName": "lfnovo/open-notebook",
+      "repoUrl": "https://github.com/lfnovo/open-notebook",
+      "starCount": 22500,
+      "articleUrl": "./articles/github/daily/2026-04-22-lfnovo-open-notebook.html",
+      "serial": 325,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-22-bayramannakov-claude-reflect",
       "title": "Claude Reflect",
       "dek": "Claude Codeを自分専用に「育てる」自己学習システム。ユーザーの指摘や好みを自動で学習し、永続化。",
