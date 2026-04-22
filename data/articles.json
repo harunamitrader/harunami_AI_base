@@ -7,6 +7,66 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-23-cline-v3-80-0-enterprise-skills",
+      "title": "Cline v3.80.0: エンタープライズ向けリモートスキルと動的モデル推奨機能",
+      "dek": "組織内で共有可能なカスタムスキルセットを導入。タスクに応じた最適な AI モデルを Cline が提案。",
+      "summary": "Cline v3.80.0 のリリース情報を読み、エンタープライズ・リモートスキルによるチーム共有機能と、タスクの複雑度に応じた動的モデル推奨 (Smart Route) の詳細を整理する。",
+      "publishedAt": "2026-04-23",
+      "repoName": "cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "articleUrl": "./articles/tools/2026-04-23-cline-v3-80-0-enterprise-skills.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-22-claude-code-v2-1-117-plugin-dep-speedup",
+      "title": "Claude Code v2.1.117: プラグイン依存関係の解決とネイティブビルドの高速化",
+      "dek": "複雑なプロジェクトでの依存関係ループを自動解消。ネイティブバイナリの起動速度もさらに向上。",
+      "summary": "Claude Code v2.1.117 のリリース情報を読み、プラグイン依存関係のトポロジカルソートによる自動解決と、V8 スナップショット最適化による起動高速化の詳細を整理する。",
+      "publishedAt": "2026-04-22",
+      "repoName": "anthropics/claude-code",
+      "repoUrl": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "articleUrl": "./articles/tools/2026-04-22-claude-code-v2-1-117-plugin-dep-speedup.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-22-gemini-cli-v0-39-0-preview-2",
+      "title": "Gemini CLI v0.39.0-preview.2: 安定性の向上とパッチメンテナンス",
+      "dek": "次期メジャーバージョンに向けた安定化アップデート。",
+      "summary": "Gemini CLI v0.39.0-preview.2 のリリース情報を読み、ストリーミング出力の安定化や認証トークン処理の改善など、preview 版におけるメンテナンス内容を整理する。",
+      "publishedAt": "2026-04-22",
+      "repoName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli",
+      "articleUrl": "./articles/tools/2026-04-22-gemini-cli-v0-39-0-preview-2.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-22-github-copilot-byok-vscode",
+      "title": "GitHub Copilot: VS Code 内での BYOK (Bring Your Own Key) 対応",
+      "dek": "独自の API キーを使用して Copilot を動作させることが可能に。より柔軟なモデル選択を実現。",
+      "summary": "GitHub Copilot の 2026-04-22 アップデート内容を読み、VS Code 拡張機能における BYOK 機能の正式実装とモデルスイッチャーの改善詳細を整理する。",
+      "publishedAt": "2026-04-22",
+      "repoName": "github/copilot",
+      "repoUrl": "https://github.blog/changelog/label/copilot/",
+      "articleUrl": "./articles/tools/2026-04-22-github-copilot-byok-vscode.html",
+      "rank": 999
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-21-windsurf-v2-0-67-cascade-arm64",
+      "title": "Windsurf v2.0.67: Cascade の自律性向上と Linux ARM64 サポート",
+      "dek": "Cascade エージェントがより複雑なプランニングに対応。Linux ARM64 環境での動作も正式サポート。",
+      "summary": "Windsurf v2.0.67 のリリース情報を読み、Cascade のプランニング・プロセス詳細化と Linux ARM64 (Raspberry Pi/Graviton) 正式サポートの内容を整理する。",
+      "publishedAt": "2026-04-21",
+      "repoName": "codeium/windsurf",
+      "repoUrl": "https://windsurf.com/changelog",
+      "articleUrl": "./articles/tools/2026-04-21-windsurf-v2-0-67-cascade-arm64.html",
+      "rank": 999
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-22-youmind-openlab-awesome-gpt-image-2",

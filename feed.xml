@@ -5,8 +5,40 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Apr 2026 22:30:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 04:06:30 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Cline v3.80.0: エンタープライズ向けリモートスキルと動的モデル推奨機能]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-23-cline-v3-80-0-enterprise-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-23-cline-v3-80-0-enterprise-skills.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[組織内で共有可能なカスタムスキルセットを導入。タスクに応じた最適な AI モデルを Cline が提案。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code v2.1.117: プラグイン依存関係の解決とネイティブビルドの高速化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-claude-code-v2-1-117-plugin-dep-speedup.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-claude-code-v2-1-117-plugin-dep-speedup.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複雑なプロジェクトでの依存関係ループを自動解消。ネイティブバイナリの起動速度もさらに向上。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.39.0-preview.2: 安定性の向上とパッチメンテナンス]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-gemini-cli-v0-39-0-preview-2.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-gemini-cli-v0-39-0-preview-2.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[次期メジャーバージョンに向けた安定化アップデート。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Copilot: VS Code 内での BYOK (Bring Your Own Key) 対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-github-copilot-byok-vscode.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-22-github-copilot-byok-vscode.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[独自の API キーを使用して Copilot を動作させることが可能に。より柔軟なモデル選択を実現。]]></description>
+    </item>
     <item>
       <title><![CDATA[awesome-gpt-image-2]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-youmind-openlab-awesome-gpt-image-2.html</link>
@@ -134,38 +166,6 @@
       <category>github-trending</category>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[マルチプラットフォームの「熱狂」を AI が捕捉。ノイズを削ぎ落とし、重要なトレンドだけを Telegram や RSS で受け取る。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-22 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-22-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-22-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: GPT-5.4 と ImageGen 2.0 が統合された大型リリース]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-chatgpt-gpt-5-4-imagegen-2-0.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-chatgpt-gpt-5-4-imagegen-2-0.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[推論の正確性を極めた新基盤と、対話ベースで自在に加工できる画像生成エンジンが登場。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Obsidian: CLI バイナリ刷新による高速化と安定性の向上]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-obsidian-cli-binary-refresh.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-obsidian-cli-binary-refresh.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[3月に導入された CLI 基盤がアップデート。大規模な保管庫でのインデックス処理や起動時間が大幅に改善されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.116: /resume の劇的な高速化と MCP 起動最適化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-claude-code-v2-1-116-faster-resume-mcp.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-21-claude-code-v2-1-116-faster-resume-mcp.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[大規模セッションの復帰が最大67%高速化。MCPサーバーの起動負荷も軽減されました。]]></description>
     </item>
   </channel>
 </rss>
