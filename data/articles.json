@@ -19,6 +19,21 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-23-google-labs-code-design-md",
+      "title": "design.md",
+      "dek": "AIコーディングエージェントにデザインシステムを正確に伝えるための専用フォーマット仕様。",
+      "summary": "AIコーディングエージェントに対して、プロジェクトの視覚的なアイデンティティを永続的かつ構造的に伝えるためのファイルフォーマット仕様。YAMLによる厳密な値定義とMarkdownによる文脈の解説を統合し、AI実装時のデザインの一貫性を保証します。",
+      "publishedAt": "2026-04-23",
+      "repoName": "google-labs-code/design.md",
+      "repoUrl": "https://github.com/google-labs-code/design.md",
+      "starCount": 4200,
+      "articleUrl": "./articles/github/daily/2026-04-23-google-labs-code-design-md.html",
+      "serial": 337,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-23-thinkinaixyz-deepchat",
       "title": "deepchat",
       "dek": "複数のLLM、MCPツール呼び出し、そしてACPエージェント統合を一つのアプリで実現する、高機能なオープンソースAIエージェントプラットフォーム。",
