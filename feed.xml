@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Apr 2026 07:28:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 07:41:56 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[agentic-flow]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-ruvnet-agentic-flow.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-ruvnet-agentic-flow.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[66体の学習型エージェントと213のMCPツールを備え、自律的なマルチエージェント・スウォーム（群れ）を構築・運用できる本番環境向けオーケストレーション基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[clawdcursor]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-amrdab-clawdcursor.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIエージェントの能力をパッケージ管理。npx skillsでClaude CodeやCursorに新しい「スキル」を即座に追加できる次世代のエコシステム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[langfuse]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-langfuse-langfuse.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-langfuse-langfuse.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLMアプリケーションの監視、評価、デバッグを統合管理。開発ライフサイクル全体を支えるオープンソースのLLMエンジニアリング基盤。]]></description>
     </item>
   </channel>
 </rss>

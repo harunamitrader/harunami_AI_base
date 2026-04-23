@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-ruvnet-agentic-flow",
+      "title": "agentic-flow",
+      "dek": "66体の学習型エージェントと213のMCPツールを備え、自律的なマルチエージェント・スウォーム（群れ）を構築・運用できる本番環境向けオーケストレーション基盤。",
+      "summary": "自己学習能力を持つエージェント群を構築し、ビジネスプロセスを自律的に実行するための強力なフレームワーク。ミリ秒単位の適応学習と高度な最適化技術により、AIエージェントを実用的なチームへと進化させます。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T07:41:00+09:00",
+      "repoName": "ruvnet/agentic-flow",
+      "repoUrl": "https://github.com/ruvnet/agentic-flow",
+      "starCount": 633,
+      "articleUrl": "./articles/github/daily/2026-04-24-ruvnet-agentic-flow.html",
+      "serial": 347,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-amrdab-clawdcursor",
       "title": "clawdcursor",
       "dek": "あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。",
