@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-23T12:33:33.985907+00:00",
-  "count": 358,
+  "generatedAt": "2026-04-23T17:59:10.805767+00:00",
+  "count": 359,
   "articles": [
+    {
+      "slug": "2026-04-24-deepentropy-tvscreener",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "tvscreener",
+      "dek": "TradingViewの強力なスクリーナーをPythonから自在に操作。13,000以上のフィールドとMCP対応で、AIエージェントによる市場分析も加速。",
+      "summary": "TradingViewのスクリーナーAPIをPythonから利用できる非公式ライブラリ。株式・暗号資産・FXなど13,000以上の項目をフィルタリング可能で、Pandas統合やMCPサーバー対応も備えた強力な市場分析ツールです。",
+      "repoName": "deepentropy/tvscreener",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T03:00:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-24-deepentropy-tvscreener.html",
+      "serial": 340,
+      "searchText": "tvscreener TradingViewの強力なスクリーナーをPythonから自在に操作。13,000以上のフィールドとMCP対応で、AIエージェントによる市場分析も加速。 TradingViewのスクリーナーAPIをPythonから利用できる非公式ライブラリ。株式・暗号資産・FXなど13,000以上の項目をフィルタリング可能で、Pandas統合やMCPサーバー対応も備えた強力な市場分析ツールです。 deepentropy/tvscreener 金融・トレード分析 tvscreener ← 記事一覧へ戻る GitHub Watcher tvscreener TradingViewの強力なスクリーナーをPythonから自在に操作。13,000以上のフィールドとMCP対応で、AIエージェントによる市場分析も加速。 記事作成日 2026-04-24 種別 Pickup 対象 repo deepentropy/tvscreener Star数 864 これは何か TradingViewが提供している強力なスクリーナー機能を、PythonからAPI経由で利用するための非公式ライブラリです。株式、暗号資産、FX、債券、先物など、多岐にわたる市場データをプログラムから直接検索・フィルタリングし、PandasのDataFrame形式で取得できます。 何ができるか 13,000以上のフィールド（テクニカル指標、財務データ、推奨など）を駆使した高度なクエリが可能です。「時価総額10億ドル以上かつRSIが30以下の米国株」といった条件をPythonicな構文で記述し、リアルタイムに近い市場データを一括取得できます。また、ストリーミング機能により定期的な自動更新もサポートしています。 目立つポイント 特筆すべきは、最新のModel Context Protocol (MCP) への対応です。これにより、Claude CodeなどのAIエージェントが、このライブラリを介して直接市場データを調査できるようになります。また、GUIでのクエリ構築を助けるCode Generatorも用意されており、複雑なフィルター設定を直感的に行えます。 セットアップや使い方の流れ pip install tvscreener でインストール可能です。MCP機能を利用する場合は pip install tvscreener[mcp] を使用します。認証なし（非ログイン状態）でも動作し、日足だけでなく分単位（5分、1時間など）のテクニカル指標にもアクセスできる点が非常に強力です。 どんな人向けか Pythonを用いたシステムトレードや定量的分析（クオンツ）を行っている開発者、およびAIエージェントに市場調査を行わせたいリサーチエンジニア。 注意点 本ライブラリはTradingView公式のものではないため、利用規約の遵守には注意が必要です。また、データの正確性や取得制限（レートリミット）については、商用やクリティカルな用途での使用前に十分な検証が推奨されます。 まとめ tvscreenerは、TradingViewの膨大な市場データを「Pythonのコード」と「AIの文脈」の双方にシームレスに接続する強力なブリッジです。投資リサーチの自動化や、AIエージェントによる高度な市場分析を実現するための基盤として、非常に高いポテンシャルを持っています。 参照リンク https://github.com/deepentropy/tvscreener Shared GitHub Serial: #340"
+    },
     {
       "slug": "2026-04-23-harunamitrader-ai-plantgraphy",
       "category": "github-pickup",

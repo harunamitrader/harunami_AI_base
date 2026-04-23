@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 23 Apr 2026 21:33:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 02:59:10 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[tvscreener]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-deepentropy-tvscreener.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-deepentropy-tvscreener.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[TradingViewの強力なスクリーナーをPythonから自在に操作。13,000以上のフィールドとMCP対応で、AIエージェントによる市場分析も加速。]]></description>
+    </item>
     <item>
       <title><![CDATA[AI-Plantgraphy]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-harunamitrader-ai-plantgraphy.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[OpenAIの次世代画像生成モデル「GPT Image 2」の真価を引き出す、厳選プロンプト集。正確な文字描画や一貫性を実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ERNIE-Image]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-baidu-ernie-image.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-22-baidu-ernie-image.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[百度（Baidu）が贈る、8Bパラメータの軽量かつ強力な画像生成モデル。優れたテキスト描画と指示忠実性で、ポスター制作もAIにお任せ。]]></description>
     </item>
   </channel>
 </rss>

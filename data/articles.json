@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-deepentropy-tvscreener",
+      "title": "tvscreener",
+      "dek": "TradingViewの強力なスクリーナーをPythonから自在に操作。13,000以上のフィールドとMCP対応で、AIエージェントによる市場分析も加速。",
+      "summary": "TradingViewのスクリーナーAPIをPythonから利用できる非公式ライブラリ。株式・暗号資産・FXなど13,000以上の項目をフィルタリング可能で、Pandas統合やMCPサーバー対応も備えた強力な市場分析ツールです。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T03:00:00+09:00",
+      "repoName": "deepentropy/tvscreener",
+      "repoUrl": "https://github.com/deepentropy/tvscreener",
+      "starCount": 864,
+      "articleUrl": "./articles/github/daily/2026-04-24-deepentropy-tvscreener.html",
+      "serial": 340,
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-23-harunamitrader-ai-plantgraphy",
       "title": "AI-Plantgraphy",
       "dek": "スマホで撮った植物写真をAIで解析し、自分だけの図鑑を作成。自宅PCとTailscaleを活用したプライベートな植物観察基盤。",
