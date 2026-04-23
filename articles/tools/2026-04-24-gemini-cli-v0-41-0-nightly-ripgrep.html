@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="外部依存の削減とバグ修正により、オフライン環境でのセットアップと自律実行の安定性が向上。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Gemini CLI v0.41.0-nightly: ripgrepの同梱とYOLOモードの修正</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../ai-tools-monitor.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">AI Tool Log</p>
+      </div>
+
+      <h1 class="article-title">Gemini CLI v0.41.0-nightly: ripgrepの同梱とYOLOモードの修正</h1>
+      <p class="article-dek">外部依存の削減とバグ修正により、オフライン環境でのセットアップと自律実行の安定性が向上。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <!-- 2026-04-24 -->
+          <strong>2026-04-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">バージョン</span>
+          <strong>v0.41.0-nightly.20260423</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>Gemini CLI</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>今回のナイトリービルドでは、環境構築の容易化とクリティカルなバグ修正が行われました。</p>
+        <ul>
+            <li><strong>ripgrep バイナリの同梱:</strong> 検索ツール <code>rg</code> がバイナリとして同梱され、外部インストールなしで高速なファイル検索が利用可能になりました。</li>
+            <li><strong>YOLOモードのダウングレード修正:</strong> 特定条件下で <code>--yolo</code> 設定が無効化されるバグが修正され、自律実行の継続性が保証されました。</li>
+            <li><strong>パフォーマンス・テストの拡充:</strong> 大規模なコンテキスト（会話履歴）におけるレスポンス速度の検証基盤が強化されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>新規セットアップ時の手間が軽減されるとともに、自律実行（YOLOモード）を多用するユーザーにとって、意図しない実行停止を防ぐ重要なアップデートです。</p>
+
+        <h2>まとめ</h2>
+        <p>Gemini CLIは着実に「自律型ツール」としての完成度を高めています。外部依存の削減は、CI/CD環境やセキュアな開発環境での導入をより容易にします。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google-gemini/gemini-cli/releases" target="_blank" rel="noreferrer">Gemini CLI GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

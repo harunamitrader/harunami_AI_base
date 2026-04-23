@@ -7,6 +7,61 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-24-claude-code-v2-1-118-vim-visual-usage",
+      "title": "Claude Code v2.1.118: Vimビジュアルモードの実装と /usage への統合",
+      "dek": "Vimビジュアルモードの追加やコマンド統合により、ターミナルでの操作性と統計管理が向上。",
+      "summary": "Vim操作の強化と、統計・コスト表示コマンドの整理が行われたアップデート。ターミナル完結型IDEとしての利便性がさらに向上しています。",
+      "publishedAt": "2026-04-24",
+      "toolName": "Claude Code",
+      "version": "v2.1.118",
+      "articleUrl": "./articles/tools/2026-04-24-claude-code-v2-1-118-vim-visual-usage.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-24-gemini-cli-v0-41-0-nightly-ripgrep",
+      "title": "Gemini CLI v0.41.0-nightly: ripgrepの同梱とYOLOモードの修正",
+      "dek": "外部依存の削減とバグ修正により、オフライン環境でのセットアップと自律実行の安定性が向上。",
+      "summary": "rgバイナリの同梱による高速検索のデフォルト化と、自律実行モードの不具合修正が行われたナイトリー版リリース。",
+      "publishedAt": "2026-04-24",
+      "toolName": "Gemini CLI",
+      "version": "v0.41.0-nightly.20260423",
+      "articleUrl": "./articles/tools/2026-04-24-gemini-cli-v0-41-0-nightly-ripgrep.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-24-grok-cli-v1-2-0-grok-2-tui",
+      "title": "Grok CLI v1.2.0: Grok-2 対応と TUI 刷新",
+      "dek": "最新モデル Grok-2 への完全対応と、より直感的になった TUI により開発体験が劇的に進化。",
+      "summary": "xAIの最新モデルGrok-2への対応と、マルチウィンドウ対応などのTUI大幅刷新を含むメジャーマイナーアップデート。",
+      "publishedAt": "2026-04-24",
+      "toolName": "Grok CLI",
+      "version": "v1.2.0",
+      "articleUrl": "./articles/tools/2026-04-24-grok-cli-v1-2-0-grok-2-tui.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-24-github-copilot-extensions-ga-metrics-api",
+      "title": "GitHub Copilot: Extensions の一般提供(GA)とメトリクスAPIの拡充",
+      "dek": "外部ツールと連携する Copilot Extensions が正式リリース。管理向けの利用統計 API も強化。",
+      "summary": "Copilot ExtensionsのGA到達と、組織管理者向けの利用分析APIの強化。エコシステムとしてのプラットフォーム化が加速しています。",
+      "publishedAt": "2026-04-24",
+      "toolName": "GitHub Copilot",
+      "version": "2026-04-23 Update",
+      "articleUrl": "./articles/tools/2026-04-24-github-copilot-extensions-ga-metrics-api.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-24-openai-codex-gpt-5-5-preview-cli-v0-124",
+      "title": "OpenAI Codex: GPT-5.5 モデルのプレビュー対応と CLI v0.124.0",
+      "dek": "次世代モデル GPT-5.5 への前方互換性と、CLI の大幅な機能追加により、開発自動化がさらに加速。",
+      "summary": "次世代モデルプレビューと、プロジェクト構造を深く理解するCLI新機能「Smart Context」の導入を含むアップデート。",
+      "publishedAt": "2026-04-24",
+      "toolName": "Codex",
+      "version": "2026-04-23 Update",
+      "articleUrl": "./articles/tools/2026-04-24-openai-codex-gpt-5-5-preview-cli-v0-124.html"
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-24-deepentropy-tvscreener",
