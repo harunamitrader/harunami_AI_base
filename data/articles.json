@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-mksglu-context-mode",
+      "title": "context-mode",
+      "dek": "AIコーディングエージェントのコンテキスト窓を最大98%削減し、セッションの継続性と推論効率を劇的に向上させる最適化MCPサーバー。",
+      "summary": "ツールの出力をサンドボックス化し、セッション履歴をSQLiteでインデックス化することで、AIエージェントのコンテキスト消費を劇的に抑える最適化ツール。大規模開発におけるエージェントの推論精度を飛躍的に高めます。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T07:44:00+09:00",
+      "repoName": "mksglu/context-mode",
+      "repoUrl": "https://github.com/mksglu/context-mode",
+      "starCount": 9400,
+      "articleUrl": "./articles/github/daily/2026-04-24-mksglu-context-mode.html",
+      "serial": 348,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-ruvnet-agentic-flow",
       "title": "agentic-flow",
       "dek": "66体の学習型エージェントと213のMCPツールを備え、自律的なマルチエージェント・スウォーム（群れ）を構築・運用できる本番環境向けオーケストレーション基盤。",
