@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-23-harunamitrader-ai-plantgraphy",
+      "title": "AI-Plantgraphy",
+      "dek": "スマホで撮った植物写真をAIで解析し、自分だけの図鑑を作成。自宅PCとTailscaleを活用したプライベートな植物観察基盤。",
+      "summary": "スマートフォンで撮影した植物をGemini AIで解析し、特徴や手入れ方法を自動生成して図鑑化できるWebアプリ。自宅PCをサーバーとし、Tailscaleで外出先から安全にアクセスできるプライバシー重視の設計です。",
+      "publishedAt": "2026-04-23",
+      "createdAt": "2026-04-23T21:35:00+09:00",
+      "repoName": "harunamitrader/AI-Plantgraphy",
+      "repoUrl": "https://github.com/harunamitrader/AI-Plantgraphy",
+      "starCount": 0,
+      "articleUrl": "./articles/github/daily/2026-04-23-harunamitrader-ai-plantgraphy.html",
+      "serial": 339,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-23-traderalice-auto-quant",
       "title": "Auto-Quant",
       "dek": "Karpathyのautoresearchパターンをクオンツトレードに応用。LLMエージェントが自律的にバックテストと戦略改善を繰り返す研究ループ。",

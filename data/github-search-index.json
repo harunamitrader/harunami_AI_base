@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-23T12:30:46.509067+00:00",
-  "count": 357,
+  "generatedAt": "2026-04-23T12:33:33.985907+00:00",
+  "count": 358,
   "articles": [
+    {
+      "slug": "2026-04-23-harunamitrader-ai-plantgraphy",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "AI-Plantgraphy",
+      "dek": "スマホで撮った植物写真をAIで解析し、自分だけの図鑑を作成。自宅PCとTailscaleを活用したプライベートな植物観察基盤。",
+      "summary": "スマートフォンで撮影した植物をGemini AIで解析し、特徴や手入れ方法を自動生成して図鑑化できるWebアプリ。自宅PCをサーバーとし、Tailscaleで外出先から安全にアクセスできるプライバシー重視の設計です。",
+      "repoName": "harunamitrader/AI-Plantgraphy",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-23",
+      "createdAt": "2026-04-23T21:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-23-harunamitrader-ai-plantgraphy.html",
+      "serial": 339,
+      "searchText": "AI-Plantgraphy スマホで撮った植物写真をAIで解析し、自分だけの図鑑を作成。自宅PCとTailscaleを活用したプライベートな植物観察基盤。 スマートフォンで撮影した植物をGemini AIで解析し、特徴や手入れ方法を自動生成して図鑑化できるWebアプリ。自宅PCをサーバーとし、Tailscaleで外出先から安全にアクセスできるプライバシー重視の設計です。 harunamitrader/AI-Plantgraphy AIエージェント (自律基盤・特化アプリ) AI-Plantgraphy ← 記事一覧へ戻る GitHub Watcher AI-Plantgraphy スマホで撮った植物写真をAIで解析し、自分だけの図鑑を作成。自宅PCとTailscaleを活用したプライベートな植物観察基盤。 記事作成日 2026-04-23 種別 Pickup 対象 repo harunamitrader/AI-Plantgraphy Star数 0 これは何か スマートフォンで撮影した植物の写真をAI（Gemini）で解析し、自分専用の植物図鑑を構築できるWebアプリケーションです。自宅PCをサーバーとして活用し、Tailscaleを経由することで、外出先からでも安全に植物の同定と記録を行うことができます。 何ができるか 植物の写真を1〜3枚送信すると、AIが植物名を推定し、その特徴や手入れのヒントを自動生成します。解析結果はSQLiteデータベースに保存され、同じ種類の植物をまとめて図鑑化したり、時系列で観察記録（成長の様子など）を残したりすることが可能です。 目立つポイント データを外部のクラウドサービスに預けすぎず、自宅PC内のローカルストレージで完結させるプライバシー重視の設計が最大の特徴です。また、Tailscale Serveを活用したHTTPS化により、スマートフォンのブラウザから高度なカメラ機能（連続撮影など）を安全に利用できる工夫が施されています。 セットアップや使い方の流れ Windows 11 PCにおいて、付属のPowerShellスクリプトを実行することで環境構築が完了します。Gemini CLIを解析エンジンとして使用するため、APIキーの設定と環境変数 PLANT_DEX_GEMINI_ENABLED=true の有効化が必要です。外出先からの利用にはTailscaleのセットアップを推奨しています。 どんな人向けか 庭やベランダ、あるいは公園で見つけた植物を写真付きで丁寧に整理したい植物愛好家。また、AIを活用した個人用ナレッジ管理（PKM）の具体例や、自宅サーバーとモバイル端末のセキュアな連携を試したいエンジニアの方にも適しています。 注意点 AIによる植物判定は常に正確とは限りません。特に毒性のある植物の識別や、食用・薬用としての判断など、身体の安全に関わる用途ではAIの結果を過信せず、必ず専門の図鑑や専門家の情報と照らし合わせてください。 まとめ AI-Plantgraphyは、AIの利便性と自宅サーバーの安心感を両立させた個人向けの観察プラットフォームです。日常の風景で見つけた植物を「知る」体験を、自分だけのデジタル図鑑として蓄積し、育んでいく楽しみを提供します。 参照リンク https://github.com/harunamitrader/AI-Plantgraphy Shared GitHub Serial: #339"
+    },
     {
       "slug": "2026-04-23-traderalice-auto-quant",
       "category": "github-pickup",

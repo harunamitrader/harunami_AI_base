@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="スマホで撮った植物写真をAIで解析し、自分だけの図鑑を作成。自宅PCとTailscaleを活用したプライベートな植物観察基盤。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI-Plantgraphy</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">AI-Plantgraphy</h1>
+      <p class="article-dek">スマホで撮った植物写真をAIで解析し、自分だけの図鑑を作成。自宅PCとTailscaleを活用したプライベートな植物観察基盤。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-23 -->
+          <strong>2026-04-23</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/harunamitrader/AI-Plantgraphy" target="_blank" rel="noreferrer">
+              harunamitrader/AI-Plantgraphy
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>0</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>スマートフォンで撮影した植物の写真をAI（Gemini）で解析し、自分専用の植物図鑑を構築できるWebアプリケーションです。自宅PCをサーバーとして活用し、Tailscaleを経由することで、外出先からでも安全に植物の同定と記録を行うことができます。</p>
+
+        <h2>何ができるか</h2>
+        <p>植物の写真を1〜3枚送信すると、AIが植物名を推定し、その特徴や手入れのヒントを自動生成します。解析結果はSQLiteデータベースに保存され、同じ種類の植物をまとめて図鑑化したり、時系列で観察記録（成長の様子など）を残したりすることが可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>データを外部のクラウドサービスに預けすぎず、自宅PC内のローカルストレージで完結させるプライバシー重視の設計が最大の特徴です。また、Tailscale Serveを活用したHTTPS化により、スマートフォンのブラウザから高度なカメラ機能（連続撮影など）を安全に利用できる工夫が施されています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Windows 11 PCにおいて、付属のPowerShellスクリプトを実行することで環境構築が完了します。Gemini CLIを解析エンジンとして使用するため、APIキーの設定と環境変数 <code>PLANT_DEX_GEMINI_ENABLED=true</code> の有効化が必要です。外出先からの利用にはTailscaleのセットアップを推奨しています。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>庭やベランダ、あるいは公園で見つけた植物を写真付きで丁寧に整理したい植物愛好家。また、AIを活用した個人用ナレッジ管理（PKM）の具体例や、自宅サーバーとモバイル端末のセキュアな連携を試したいエンジニアの方にも適しています。</p>
+
+        <h2>注意点</h2>
+        <p>AIによる植物判定は常に正確とは限りません。特に毒性のある植物の識別や、食用・薬用としての判断など、身体の安全に関わる用途ではAIの結果を過信せず、必ず専門の図鑑や専門家の情報と照らし合わせてください。</p>
+
+        <h2>まとめ</h2>
+        <p>AI-Plantgraphyは、AIの利便性と自宅サーバーの安心感を両立させた個人向けの観察プラットフォームです。日常の風景で見つけた植物を「知る」体験を、自分だけのデジタル図鑑として蓄積し、育んでいく楽しみを提供します。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/harunamitrader/AI-Plantgraphy" target="_blank" rel="noreferrer">https://github.com/harunamitrader/AI-Plantgraphy</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #339</p>
+      </div>
+    </article>
+  </body>
+</html>
