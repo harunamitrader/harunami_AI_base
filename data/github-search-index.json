@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-23T20:09:47.167241+00:00",
-  "count": 365,
+  "generatedAt": "2026-04-23T22:27:45.317741+00:00",
+  "count": 366,
   "articles": [
+    {
+      "slug": "2026-04-24-amrdab-clawdcursor",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "clawdcursor",
+      "dek": "あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。",
+      "summary": "AIが「画面を見る」「マウスを動かす」という人間と同じインターフェースでPCを扱えるようにする強力な自動化サーバー。最新のV2アーキテクチャと検証機能により、AIエージェントの実用性を一段引き上げます。",
+      "repoName": "AmrDab/clawdcursor",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T07:27:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-24-amrdab-clawdcursor.html",
+      "serial": 346,
+      "searchText": "clawdcursor あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。 AIが「画面を見る」「マウスを動かす」という人間と同じインターフェースでPCを扱えるようにする強力な自動化サーバー。最新のV2アーキテクチャと検証機能により、AIエージェントの実用性を一段引き上げます。 AmrDab/clawdcursor AIエージェント (自律基盤・特化アプリ) clawdcursor ← 記事一覧へ戻る GitHub Watcher clawdcursor あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。 記事作成日 2026-04-24 種別 Pickup 対象 repo AmrDab/clawdcursor Star数 196 これは何か clawdcursorは、AIエージェントがコンピュータを直接操作できるようにするためのOSレベルのデスクトップ自動化サーバーです。モデルやOSに依存せず、Claude、GPT、Gemini、LlamaなどのAIが「目（画面確認）」と「手（マウス・キーボード操作）」を持てるように設計されています。 何ができるか 42種類のツールを提供し、マウスのクリックやドラッグ、キーボード入力、画面のスクリーンショット撮影、アクティブウィンドウの取得、さらにはCDP（Chrome DevTools Protocol）を介したブラウザの直接操作まで可能です。REST API経由や、Claude Code、CursorなどのMCP（Model Context Protocol）サーバーとしても機能します。 目立つポイント 最新のV2アーキテクチャでは「Vision-first」を掲げ、スクリーンショットベースの直感的なエージェントループを実現しています。また、AIの「完了報告」が正しいかを検証する「Ground-truth Verifier」を搭載しており、ピクセル差分やOCRの変化、ウィンドウ状態などの独立した信号で成功を確認する徹底した信頼性重視の設計が特徴です。 セットアップや使い方の流れ WindowsならPowerShell、macOS/Linuxならcurlコマンド一行でインストール可能です。実行時は「clawdcursor start」で自律エージェントとして起動するほか、「serve」でツール専用サーバーとして、あるいは「mcp」として既存のAIエディタに統合して利用できます。環境変数にAPIキーを設定しておけば、主要なプロバイダーを自動検知します。 どんな人向けか AIエージェントによるデスクトップ作業の自動化を構築したい開発者や、Claude CodeやCursorなどのツールで「実際の画面を見て操作してほしい」と考えているユーザーに最適です。特定のサービスに依存しない汎用的な自動化基盤を求める層に向いています。 注意点 デスクトップを直接操作するため、予期せぬ動作を避けるための注意が必要です。開発側でも危険なキーコンボのブロックやローカルホスト限定のバインド、初回実行時の同意確認などの安全策を講じていますが、自律実行時は常に監視できる環境での使用が推奨されます。 まとめ clawdcursorは、AIが「画面を見る」「マウスを動かす」という人間と同じインターフェースでPCを扱えるようにする、強力かつ汎用的なブリッジです。最新のV2アーキテクチャと検証機能により、AIエージェントの実用性を一段引き上げる、極めてモダンな自動化プラットフォームと言えます。 参照リンク https://github.com/AmrDab/clawdcursor Shared GitHub Serial: #346"
+    },
     {
       "slug": "2026-04-24-deepentropy-tvscreener",
       "category": "github-pickup",

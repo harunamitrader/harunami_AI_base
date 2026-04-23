@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-24-amrdab-clawdcursor",
+      "title": "clawdcursor",
+      "dek": "あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。",
+      "summary": "AIが「画面を見る」「マウスを動かす」という人間と同じインターフェースでPCを扱えるようにする強力な自動化サーバー。最新のV2アーキテクチャと検証機能により、AIエージェントの実用性を一段引き上げます。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T07:27:00+09:00",
+      "repoName": "AmrDab/clawdcursor",
+      "repoUrl": "https://github.com/AmrDab/clawdcursor",
+      "starCount": 196,
+      "articleUrl": "./articles/github/daily/2026-04-24-amrdab-clawdcursor.html",
+      "serial": 346,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-24-update-report",
       "title": "2026-04-24 アップデートレポート",

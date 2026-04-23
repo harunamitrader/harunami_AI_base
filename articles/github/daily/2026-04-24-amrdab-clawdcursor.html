@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>clawdcursor</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">clawdcursor</h1>
+      <p class="article-dek">あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-24 -->
+          <strong>2026-04-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/AmrDab/clawdcursor" target="_blank" rel="noreferrer">
+              AmrDab/clawdcursor
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>196</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>clawdcursorは、AIエージェントがコンピュータを直接操作できるようにするためのOSレベルのデスクトップ自動化サーバーです。モデルやOSに依存せず、Claude、GPT、Gemini、LlamaなどのAIが「目（画面確認）」と「手（マウス・キーボード操作）」を持てるように設計されています。</p>
+
+        <h2>何ができるか</h2>
+        <p>42種類のツールを提供し、マウスのクリックやドラッグ、キーボード入力、画面のスクリーンショット撮影、アクティブウィンドウの取得、さらにはCDP（Chrome DevTools Protocol）を介したブラウザの直接操作まで可能です。REST API経由や、Claude Code、CursorなどのMCP（Model Context Protocol）サーバーとしても機能します。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最新のV2アーキテクチャでは「Vision-first」を掲げ、スクリーンショットベースの直感的なエージェントループを実現しています。また、AIの「完了報告」が正しいかを検証する「Ground-truth Verifier」を搭載しており、ピクセル差分やOCRの変化、ウィンドウ状態などの独立した信号で成功を確認する徹底した信頼性重視の設計が特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>WindowsならPowerShell、macOS/Linuxならcurlコマンド一行でインストール可能です。実行時は「clawdcursor start」で自律エージェントとして起動するほか、「serve」でツール専用サーバーとして、あるいは「mcp」として既存のAIエディタに統合して利用できます。環境変数にAPIキーを設定しておけば、主要なプロバイダーを自動検知します。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>AIエージェントによるデスクトップ作業の自動化を構築したい開発者や、Claude CodeやCursorなどのツールで「実際の画面を見て操作してほしい」と考えているユーザーに最適です。特定のサービスに依存しない汎用的な自動化基盤を求める層に向いています。</p>
+
+        <h2>注意点</h2>
+        <p>デスクトップを直接操作するため、予期せぬ動作を避けるための注意が必要です。開発側でも危険なキーコンボのブロックやローカルホスト限定のバインド、初回実行時の同意確認などの安全策を講じていますが、自律実行時は常に監視できる環境での使用が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>clawdcursorは、AIが「画面を見る」「マウスを動かす」という人間と同じインターフェースでPCを扱えるようにする、強力かつ汎用的なブリッジです。最新のV2アーキテクチャと検証機能により、AIエージェントの実用性を一段引き上げる、極めてモダンな自動化プラットフォームと言えます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/AmrDab/clawdcursor" target="_blank" rel="noreferrer">https://github.com/AmrDab/clawdcursor</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #346</p>
+      </div>
+    </article>
+  </body>
+</html>

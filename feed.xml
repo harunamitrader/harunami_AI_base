@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Apr 2026 05:10:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 07:27:45 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[clawdcursor]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-amrdab-clawdcursor.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-amrdab-clawdcursor.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-24 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-24-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[LLMアプリケーションの監視、評価、デバッグを統合管理。開発ライフサイクル全体を支えるオープンソースのLLMエンジニアリング基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[shannon]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-keygraphhq-shannon.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-23-keygraphhq-shannon.html</guid>
-      <category>github-trending</category>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律型AIペンテスターがWebアプリの脆弱性を実証。ソースコード解析と動的攻撃を組み合わせ、論理的なセキュリティホールを特定する。]]></description>
     </item>
   </channel>
 </rss>
