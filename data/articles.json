@@ -17,6 +17,21 @@
       "serial": 27
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-25-minara-ai-skills",
+      "title": "Minara Skills",
+      "dek": "AIエージェントを「個人のAI CFO」へ。仮想通貨、米国株、商品、為替の分析と取引機能をAIに付与する、強力なスキルセット。",
+      "summary": "Claude Code や OpenClaw などのエージェントに高度な金融・トレード機能を統合。資産分析からオンチェーン取引までを自然言語で可能にする、次世代の AI CFO 構築基盤です。",
+      "publishedAt": "2026-04-25",
+      "repoName": "Minara-AI/skills",
+      "repoUrl": "https://github.com/Minara-AI/skills",
+      "starCount": 179,
+      "articleUrl": "./articles/github/daily/2026-04-25-minara-ai-skills.html",
+      "serial": 361,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-25-google-osv-scanner",
