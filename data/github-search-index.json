@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-24T09:30:54.507490+00:00",
-  "count": 372,
+  "generatedAt": "2026-04-24T10:13:57.222805+00:00",
+  "count": 373,
   "articles": [
+    {
+      "slug": "2026-04-24-feremabraz-bloomberg-terminal",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Bloomberg Terminal Clone",
+      "dek": "Next.js 15とAIを活用し、リアルタイムの市場データ可視化を実現したBloomberg Terminal風の金融情報ダッシュボード。",
+      "summary": "Next.js 15とReact 19を駆使してBloomberg端末を再現。リアルタイムな市場データのシミュレーションやAIによるニュース分析機能を備えた、金融×AIのモダンな開発例です。",
+      "repoName": "feremabraz/bloomberg-terminal",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T19:13:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-24-feremabraz-bloomberg-terminal.html",
+      "serial": 353,
+      "searchText": "Bloomberg Terminal Clone Next.js 15とAIを活用し、リアルタイムの市場データ可視化を実現したBloomberg Terminal風の金融情報ダッシュボード。 Next.js 15とReact 19を駆使してBloomberg端末を再現。リアルタイムな市場データのシミュレーションやAIによるニュース分析機能を備えた、金融×AIのモダンな開発例です。 feremabraz/bloomberg-terminal 金融・トレード分析 Bloomberg Terminal Clone ← 記事一覧へ戻る GitHub Watcher Bloomberg Terminal Clone Next.js 15とAIを活用し、リアルタイムの市場データ可視化を実現したBloomberg Terminal風の金融情報ダッシュボード。 記事作成日 2026-04-24 種別 Pickup 対象 repo feremabraz/bloomberg-terminal Star数 1,200 これは何か 金融業界のデファクトスタンダードである「Bloomberg Terminal」のインターフェースを、最新のWeb技術（Next.js 15, React 19）で再現したオープンソースプロジェクトです。単なるデザインの模倣にとどまらず、AIによる市場分析機能やリアルタイムのデータ更新を統合した、本格的な金融情報ダッシュボードとなっています。 何ができるか 株式のリアルタイム価格（シミュレーション含む）、マーケットニュース、マーケットムーバー、ボラティリティ分析など、複数の視点から市場を監視できます。また、OpenAI APIと連携したAI機能により、金融データの要約やインサイトの抽出が可能です。キーボードショートカットやウォッチリスト管理など、プロ向け端末としての操作性も追求されています。 目立つポイント Next.js 15のApp Routerを活用したSPA構成で、状態管理にはJotai、サーバー状態管理にはReact Queryを採用し、高速でスムーズなユーザー体験を実現しています。データ取得にはAlphaVantage APIを使用し、API制限を回避するためにRedisキャッシュとローカルシミュレーションを組み合わせた賢い設計が特徴です。 セットアップや使い方の流れ Upstash Redis、AlphaVantage、OpenAIのAPIキーを用意し、.env.localに設定することでローカルで動作させることができます。pnpmを使用したビルドに対応しており、Vercelなどのプラットフォームへ簡単にデプロイ可能です。 どんな人向けか 金融データの可視化に関心のあるフロントエンドエンジニア、自分専用のプロフェッショナルな取引環境を構築したい個人トレーダー、あるいは最新のNext.js/Reactでの複雑なダッシュボード構築手法を学びたい開発者に最適です。 注意点 本プロジェクトは教育・実験目的で作成されており、表示されるデータは実際の市場の動きをシミュレートしたものが含まれます。商用利用や、本システムのデータのみに基づいた投資判断には十分な注意が必要です。また、AlphaVantage等の外部APIの無料枠には制限があるため、適切な設定が求められます。 まとめ bloomberg-terminalは、Web技術の進化により「かつては専用ハードウェアが必要だった体験」をブラウザ上でいかに高度に再現できるかを示しています。金融×AI×モダンWebという、エンジニアの好奇心を刺激する要素が凝縮された非常に完成度の高いプロジェクトです。 参照リンク https://github.com/feremabraz/bloomberg-terminal Shared GitHub Serial: #353"
+    },
     {
       "slug": "2026-04-24-tashfeenahmed-freellmapi",
       "category": "github-pickup",

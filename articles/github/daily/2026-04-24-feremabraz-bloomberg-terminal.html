@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Next.js 15とAIを活用し、リアルタイムの市場データ可視化を実現したBloomberg Terminal風の金融情報ダッシュボード。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>Bloomberg Terminal Clone</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">Bloomberg Terminal Clone</h1>
+      <p class="article-dek">Next.js 15とAIを活用し、リアルタイムの市場データ可視化を実現したBloomberg Terminal風の金融情報ダッシュボード。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-24 -->
+          <strong>2026-04-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/feremabraz/bloomberg-terminal" target="_blank" rel="noreferrer">
+              feremabraz/bloomberg-terminal
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,200</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>金融業界のデファクトスタンダードである「Bloomberg Terminal」のインターフェースを、最新のWeb技術（Next.js 15, React 19）で再現したオープンソースプロジェクトです。単なるデザインの模倣にとどまらず、AIによる市場分析機能やリアルタイムのデータ更新を統合した、本格的な金融情報ダッシュボードとなっています。</p>
+
+        <h2>何ができるか</h2>
+        <p>株式のリアルタイム価格（シミュレーション含む）、マーケットニュース、マーケットムーバー、ボラティリティ分析など、複数の視点から市場を監視できます。また、OpenAI APIと連携したAI機能により、金融データの要約やインサイトの抽出が可能です。キーボードショートカットやウォッチリスト管理など、プロ向け端末としての操作性も追求されています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>Next.js 15のApp Routerを活用したSPA構成で、状態管理にはJotai、サーバー状態管理にはReact Queryを採用し、高速でスムーズなユーザー体験を実現しています。データ取得にはAlphaVantage APIを使用し、API制限を回避するためにRedisキャッシュとローカルシミュレーションを組み合わせた賢い設計が特徴です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Upstash Redis、AlphaVantage、OpenAIのAPIキーを用意し、.env.localに設定することでローカルで動作させることができます。pnpmを使用したビルドに対応しており、Vercelなどのプラットフォームへ簡単にデプロイ可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>金融データの可視化に関心のあるフロントエンドエンジニア、自分専用のプロフェッショナルな取引環境を構築したい個人トレーダー、あるいは最新のNext.js/Reactでの複雑なダッシュボード構築手法を学びたい開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>本プロジェクトは教育・実験目的で作成されており、表示されるデータは実際の市場の動きをシミュレートしたものが含まれます。商用利用や、本システムのデータのみに基づいた投資判断には十分な注意が必要です。また、AlphaVantage等の外部APIの無料枠には制限があるため、適切な設定が求められます。</p>
+
+        <h2>まとめ</h2>
+        <p>bloomberg-terminalは、Web技術の進化により「かつては専用ハードウェアが必要だった体験」をブラウザ上でいかに高度に再現できるかを示しています。金融×AI×モダンWebという、エンジニアの好奇心を刺激する要素が凝縮された非常に完成度の高いプロジェクトです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/feremabraz/bloomberg-terminal" target="_blank" rel="noreferrer">https://github.com/feremabraz/bloomberg-terminal</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #353</p>
+      </div>
+    </article>
+  </body>
+</html>

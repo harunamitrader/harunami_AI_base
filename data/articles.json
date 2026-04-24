@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-feremabraz-bloomberg-terminal",
+      "title": "Bloomberg Terminal Clone",
+      "dek": "Next.js 15とAIを活用し、リアルタイムの市場データ可視化を実現したBloomberg Terminal風の金融情報ダッシュボード。",
+      "summary": "Next.js 15とReact 19を駆使してBloomberg端末を再現。リアルタイムな市場データのシミュレーションやAIによるニュース分析機能を備えた、金融×AIのモダンな開発例です。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T19:13:00+09:00",
+      "repoName": "feremabraz/bloomberg-terminal",
+      "repoUrl": "https://github.com/feremabraz/bloomberg-terminal",
+      "starCount": 1200,
+      "articleUrl": "./articles/github/daily/2026-04-24-feremabraz-bloomberg-terminal.html",
+      "serial": 353,
+      "genre": "金融・トレード分析"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-tashfeenahmed-freellmapi",
       "title": "FreeLLMAPI",
       "dek": "14種類のAIプロバイダーの無料枠キーを統合し、自動フェイルオーバー機能を備えたOpenAI互換のプロキシサーバー。",
