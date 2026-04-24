@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-echohive42-ai-reads-books-page-by-page",
+      "title": "AI reads books: Page-by-Page",
+      "dek": "AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。",
+      "summary": "PDFを1ページずつ詳細に解析し、情報の欠落を防ぎながらナレッジを抽出。構造化データとしての保存や、一定間隔ごとの段階的要約生成により、長大な書籍のデジタル資産化を支援します。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T19:16:00+09:00",
+      "repoName": "echohive42/AI-reads-books-page-by-page",
+      "repoUrl": "https://github.com/echohive42/AI-reads-books-page-by-page",
+      "starCount": 1800,
+      "articleUrl": "./articles/github/daily/2026-04-24-echohive42-ai-reads-books-page-by-page.html",
+      "serial": 354,
+      "genre": "ナレッジ管理・RAG解析"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-feremabraz-bloomberg-terminal",
       "title": "Bloomberg Terminal Clone",
       "dek": "Next.js 15とAIを活用し、リアルタイムの市場データ可視化を実現したBloomberg Terminal風の金融情報ダッシュボード。",

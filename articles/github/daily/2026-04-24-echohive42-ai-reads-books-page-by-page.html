@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>AI reads books: Page-by-Page</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">AI reads books: Page-by-Page</h1>
+      <p class="article-dek">AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-24 -->
+          <strong>2026-04-24</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/echohive42/AI-reads-books-page-by-page" target="_blank" rel="noreferrer">
+              echohive42/AI-reads-books-page-by-page
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,800</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>長いPDF書籍をAI（OpenAI等）に丸投げするのではなく、1ページずつ丁寧に読み込ませることで、情報の欠落（ハルシネーションや省略）を防ぎながら正確なナレッジを抽出するためのPythonスクリプトです。各ページから抽出された要点はJSON形式で蓄積され、後から検索や詳細な要約に利用できます。</p>
+
+        <h2>何ができるか</h2>
+        <p>PDFを読み込み、指定したページ間隔（例：10ページごと）でそこまでの内容をまとめた「段階的要約」を生成します。目次や索引などの不要なページをスキップするインテリジェントなフィルタリング機能を備え、途中で停止しても既存のナレッジベースから再開できるレジューム機能も搭載しています。</p>
+
+        <h2>目立つポイント</h2>
+        <p>抽出されたデータは構造化されたJSON形式で保存されるため、そのままRAG（検索拡張生成）のデータソースとして活用可能です。また、最終的なアウトマートは読みやすいMarkdown形式で出力され、重要な知識ポイントが整理された状態で手に入ります。ターミナル上での色分け表示により、処理状況も一目で把握できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Python環境で必要なライブラリをインストールし、OpenAIのAPIキーを設定するだけで使用可能です。スクリプト内の<code>PDF_NAME</code>を対象のファイル名に書き換え、実行すれば解析が始まります。解析間隔や使用するAIモデルも簡単にカスタマイズできます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>大量の専門書や技術ドキュメントから正確に情報を抽出したい研究者やエンジニア、書籍の内容を構造化して自分専用のナレッジベースを構築したい学習者、あるいは精度重視のRAGシステムを作りたい開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>1ページずつAPIを叩くため、書籍のページ数に比例してAPIコストが発生します。大規模な解析を行う前には、<code>TEST_PAGES</code>設定で数ページのみテスト実行することをお勧めします。また、画像ベースのPDFを解析するにはOCR処理の追加検討が必要になる場合があります。</p>
+
+        <h2>まとめ</h2>
+        <p>AI-reads-books-page-by-pageは、AIに「速読」ではなく「精読」をさせるための実用的なアプローチです。コンテキストウィンドウの制限を気にすることなく、数百ページの書籍であってもその文脈を維持したまま、高精度なデジタル資産へと変換してくれます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/echohive42/AI-reads-books-page-by-page" target="_blank" rel="noreferrer">https://github.com/echohive42/AI-reads-books-page-by-page</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #354</p>
+      </div>
+    </article>
+  </body>
+</html>

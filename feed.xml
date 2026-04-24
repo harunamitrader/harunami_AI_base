@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Apr 2026 19:14:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 19:17:27 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[AI reads books: Page-by-Page]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-echohive42-ai-reads-books-page-by-page.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-echohive42-ai-reads-books-page-by-page.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。]]></description>
+    </item>
     <item>
       <title><![CDATA[Bloomberg Terminal Clone]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-feremabraz-bloomberg-terminal.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[次世代モデル GPT-5.5 への前方互換性と、CLI の大幅な機能追加により、開発自動化がさらに加速。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[tvscreener]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-deepentropy-tvscreener.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-deepentropy-tvscreener.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[TradingViewの強力なスクリーナーをPythonから自在に操作。13,000以上のフィールドとMCP対応で、AIエージェントによる市場分析も加速。]]></description>
     </item>
   </channel>
 </rss>

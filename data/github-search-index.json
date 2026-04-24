@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-24T10:14:10.413921+00:00",
-  "count": 373,
+  "generatedAt": "2026-04-24T10:17:26.991732+00:00",
+  "count": 374,
   "articles": [
+    {
+      "slug": "2026-04-24-echohive42-ai-reads-books-page-by-page",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "AI reads books: Page-by-Page",
+      "dek": "AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。",
+      "summary": "PDFを1ページずつ詳細に解析し、情報の欠落を防ぎながらナレッジを抽出。構造化データとしての保存や、一定間隔ごとの段階的要約生成により、長大な書籍のデジタル資産化を支援します。",
+      "repoName": "echohive42/AI-reads-books-page-by-page",
+      "genre": "ナレッジ管理・RAG解析",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T19:16:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-24-echohive42-ai-reads-books-page-by-page.html",
+      "serial": 354,
+      "searchText": "AI reads books: Page-by-Page AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。 PDFを1ページずつ詳細に解析し、情報の欠落を防ぎながらナレッジを抽出。構造化データとしての保存や、一定間隔ごとの段階的要約生成により、長大な書籍のデジタル資産化を支援します。 echohive42/AI-reads-books-page-by-page ナレッジ管理・RAG解析 AI reads books: Page-by-Page ← 記事一覧へ戻る GitHub Watcher AI reads books: Page-by-Page AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。 記事作成日 2026-04-24 種別 Pickup 対象 repo echohive42/AI-reads-books-page-by-page Star数 1,800 これは何か 長いPDF書籍をAI（OpenAI等）に丸投げするのではなく、1ページずつ丁寧に読み込ませることで、情報の欠落（ハルシネーションや省略）を防ぎながら正確なナレッジを抽出するためのPythonスクリプトです。各ページから抽出された要点はJSON形式で蓄積され、後から検索や詳細な要約に利用できます。 何ができるか PDFを読み込み、指定したページ間隔（例：10ページごと）でそこまでの内容をまとめた「段階的要約」を生成します。目次や索引などの不要なページをスキップするインテリジェントなフィルタリング機能を備え、途中で停止しても既存のナレッジベースから再開できるレジューム機能も搭載しています。 目立つポイント 抽出されたデータは構造化されたJSON形式で保存されるため、そのままRAG（検索拡張生成）のデータソースとして活用可能です。また、最終的なアウトマートは読みやすいMarkdown形式で出力され、重要な知識ポイントが整理された状態で手に入ります。ターミナル上での色分け表示により、処理状況も一目で把握できます。 セットアップや使い方の流れ Python環境で必要なライブラリをインストールし、OpenAIのAPIキーを設定するだけで使用可能です。スクリプト内の PDF_NAME を対象のファイル名に書き換え、実行すれば解析が始まります。解析間隔や使用するAIモデルも簡単にカスタマイズできます。 どんな人向けか 大量の専門書や技術ドキュメントから正確に情報を抽出したい研究者やエンジニア、書籍の内容を構造化して自分専用のナレッジベースを構築したい学習者、あるいは精度重視のRAGシステムを作りたい開発者に最適です。 注意点 1ページずつAPIを叩くため、書籍のページ数に比例してAPIコストが発生します。大規模な解析を行う前には、 TEST_PAGES 設定で数ページのみテスト実行することをお勧めします。また、画像ベースのPDFを解析するにはOCR処理の追加検討が必要になる場合があります。 まとめ AI-reads-books-page-by-pageは、AIに「速読」ではなく「精読」をさせるための実用的なアプローチです。コンテキストウィンドウの制限を気にすることなく、数百ページの書籍であってもその文脈を維持したまま、高精度なデジタル資産へと変換してくれます。 参照リンク https://github.com/echohive42/AI-reads-books-page-by-page Shared GitHub Serial: #354"
+    },
     {
       "slug": "2026-04-24-feremabraz-bloomberg-terminal",
       "category": "github-pickup",
