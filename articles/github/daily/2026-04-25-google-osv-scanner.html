@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Googleが開発したオープンソース脆弱性スキャナー。OSV.devデータベースと連携し、コンテナやプロジェクトの依存関係に潜むリスクを自動検知・修正提案。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>osv-scanner</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">osv-scanner</h1>
+      <p class="article-dek">Googleが開発したオープンソース脆弱性スキャナー。OSV.devデータベースと連携し、コンテナやプロジェクトの依存関係に潜むリスクを自動検知・修正提案。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-25 -->
+          <strong>2026-04-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Rank 3</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/google/osv-scanner" target="_blank" rel="noreferrer">
+              google/osv-scanner
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>15,200</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>Google が提供する、オープンソースソフトウェア（OSS）の脆弱性をスキャンするためのコマンドラインツールです。分散した膨大な脆弱性情報を一元管理するデータベース「OSV.dev」を活用し、プロジェクトで利用しているライブラリやコンテナイメージ内に存在する既知の脆弱性を瞬時に特定します。</p>
+
+        <h2>何ができるか</h2>
+        <p>11 以上の主要な言語エコシステムと 19 以上のロックファイル形式をサポートしています。プロジェクトのソースコードや Docker イメージをスキャンし、どのパッケージのどのバージョンに問題があるかを表示するだけでなく、脆弱性を解消するために必要な「最小限のアップグレード」を具体的に提案してくれます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>最大の特徴は、コンテナの「レイヤー」を意識したスキャン能力です。Docker イメージのどのレイヤーで脆弱なパッケージが導入されたかを特定できるため、修正作業が非常にスムーズになります。また、OSV.dev というオープンな標準フォーマットに基づいているため、情報の正確性と網羅性が高く、CI/CD パイプラインへの組み込みも容易です。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>Go 言語のバイナリとして配布されており、数秒でインストール可能です。プロジェクトのルートディレクトリで <code>osv-scanner -r .</code> を実行するだけで、再帰的なスキャンが始まります。GitHub Actions との連携も公式にサポートされており、プルリクエストごとに自動で脆弱性チェックを走らせることができます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>ソフトウェアサプライチェーンの安全性を確保したい開発者や、デプロイ前のコンテナイメージを厳密にチェックしたいセキュリティエンジニアに向いています。</p>
+
+        <h2>注意点</h2>
+        <p>本ツールは「既知の脆弱性（CVE等）」を検出するものであり、未発見のゼロデイ脆弱性やコード内の論理的なバグを自動で見つけるものではありません。また、スキャン結果の中には、特定の環境下では影響がない「偽陽性」が含まれる可能性もあるため、結果の精査は必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>OSS への依存が不可欠な現代の開発において、OSV-Scanner は信頼できる「盾」となります。Google の堅牢なセキュリティ基盤を自分のプロジェクトに手軽に導入できる、極めて実用性の高いツールです。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/google/osv-scanner" target="_blank" rel="noreferrer">https://github.com/google/osv-scanner</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #360</p>
+      </div>
+    </article>
+  </body>
+</html>

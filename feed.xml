@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Apr 2026 04:21:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 05:03:49 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-25 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-25-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-25-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[osv-scanner]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-google-osv-scanner.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-google-osv-scanner.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Googleが開発したオープンソース脆弱性スキャナー。OSV.devデータベースと連携し、コンテナやプロジェクトの依存関係に潜むリスクを自動検知・修正提案。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[posthog]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-posthog-posthog.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-posthog-posthog.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[プロダクト分析、セッションリプレイ、ABテスト、機能フラグ。開発者のための機能を凝縮した、オープンソースのオールインワン・プロダクトOS。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[vaultwarden]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-dani-garcia-vaultwarden.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-dani-garcia-vaultwarden.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Rustで記述されたBitwardenサーバーの軽量な代替。Raspberry Piなどの省リソース環境でも動作し、公式クライアントと完全互換。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Open-Generative-AI]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-anil-matcha-open-generative-ai.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-anil-matcha-open-generative-ai.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[検閲なし・制限なし。画像、動画、映画、リップシンクの4つのスタジオを備え、200以上の最新生成モデルを統合した究極のクリエイティブAI基盤。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[build-your-own-x]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-codecrafters-io-build-your-own-x.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-codecrafters-io-build-your-own-x.html</guid>
+      <category>github-trending</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Redis、Git、Docker、SQLiteなど、複雑なソフトウェアを一から自作するための膨大な学習リソース・ガイド集。]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT: 次世代モデル GPT-5.5 リリース、エージェント能力と推論効率が劇的進化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-chatgpt-gpt-5-5-release-agentic-coding.html</link>
@@ -118,54 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIコーディングエージェントのコンテキスト窓を最大98%削減し、セッションの継続性と推論効率を劇的に向上させる最適化MCPサーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[agentic-flow]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-ruvnet-agentic-flow.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-ruvnet-agentic-flow.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[66体の学習型エージェントと213のMCPツールを備え、自律的なマルチエージェント・スウォーム（群れ）を構築・運用できる本番環境向けオーケストレーション基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[clawdcursor]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-amrdab-clawdcursor.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-amrdab-clawdcursor.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[あらゆるAIエージェントにPC操作の「目」と「手」を。OSやモデルを問わず、デスクトップ上の視覚情報と操作を統合する自動化サーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-24 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-24-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-24-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ml-intern]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-huggingface-ml-intern.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-huggingface-ml-intern.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Hugging Faceが放つ、機械学習エンジニアのための最強インターンシップ・ガイド。業界トップクラスの知見が詰まったリサーチ・ワークフローと学習リソースの宝庫。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[RuView]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-ruvnet-ruview.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-ruvnet-ruview.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[カメラ不要。WiFi信号の反射だけで人間の姿勢を3D推定する驚異の技術。プライバシーを守りながら、壁越しでも人の動きをリアルタイムに視覚化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[free-claude-code]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-alishahryar1-free-claude-code.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-alishahryar1-free-claude-code.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Anthropic の Claude Code を無料で。独自のリバースプロキシと認証バイパスにより、ターミナル完結型 AI 開発環境を誰でも手軽に構築できる実験的プロジェクト。]]></description>
     </item>
   </channel>
 </rss>
