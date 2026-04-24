@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-24T04:14:32.500541+00:00",
-  "count": 370,
+  "generatedAt": "2026-04-24T06:11:12.141544+00:00",
+  "count": 371,
   "articles": [
+    {
+      "slug": "2026-04-24-browserwing-browserwing",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "BrowserWing",
+      "dek": "ブラウザ操作をAIエージェント向けのMCPコマンドやClaude Skillへ変換し、自律的なブラウザ自動化を実現するプラットフォーム。",
+      "summary": "ブラウザ操作をAIが扱えるMCPコマンドへ変換。78種類の内蔵スクリプトやビジュアルレコーダーを備え、AIエージェントによる効率的で信頼性の高いブラウザ自動化を可能にします。",
+      "repoName": "browserwing/browserwing",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T15:10:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-24-browserwing-browserwing.html",
+      "serial": 351,
+      "searchText": "BrowserWing ブラウザ操作をAIエージェント向けのMCPコマンドやClaude Skillへ変換し、自律的なブラウザ自動化を実現するプラットフォーム。 ブラウザ操作をAIが扱えるMCPコマンドへ変換。78種類の内蔵スクリプトやビジュアルレコーダーを備え、AIエージェントによる効率的で信頼性の高いブラウザ自動化を可能にします。 browserwing/browserwing AIエージェント (自律基盤・特化アプリ) BrowserWing ← 記事一覧へ戻る GitHub Watcher BrowserWing ブラウザ操作をAIエージェント向けのMCPコマンドやClaude Skillへ変換し、自律的なブラウザ自動化を実現するプラットフォーム。 記事作成日 2026-04-24 種別 Pickup 対象 repo browserwing/browserwing Star数 1,200 これは何か AIエージェントがブラウザを効率的かつ確実に制御できるように設計された、ブラウザ自動化プラットフォームです。手動で行ったブラウザ操作をMCP（Model Context Protocol）コマンドやClaude Skill（SKILL.md）に変換し、AIが直接ブラウザを「手」として使えるようにします。 何ができるか 78種類のプリセットスクリプト（GitHubトレンド、SNS、ニュース抽出等）を即座に実行できるほか、独自の操作をビジュアルレコーダーで記録し、AI用のスキルとして書き出すことが可能です。CLIモード、MCPサーバー、HTTP APIなど、多様なインターフェースでエージェントと統合できます。 目立つポイント LLMのトークン消費を抑える設計が特徴で、AIに生のHTMLを読ませるのではなく、構造化されたデータや特定のコマンド実行を委ねることで、高速かつ安価な自動化を実現します。セッション管理（Cookie/認証維持）も強力で、ログインが必要なサイトの操作も安定して行えます。 セットアップや使い方の流れ npm install -g browserwing で簡単にインストール可能です。起動後はローカルでMCPサーバーとして動作し、CursorやClaude CodeなどのAIツールに設定を貼り付けるだけで、チャット越しにブラウザ操作を指示できるようになります。 どんな人向けか AIエージェントにWeb情報の収集やフォーム入力などの実務を任せたい開発者、トークンコストを抑えつつブラウザ自動化を実現したいエンジニア、あるいは独自のブラウザ操作スキルをAIに教え込みたいユーザーに最適です。 注意点 自動化の際は対象サイトの利用規約を遵守する必要があります。また、インストール時にChrome/Chromiumが必要となります。macOSユーザーは初回の実行許可設定（xattr）が必要な場合があるため、公式ドキュメントの指示に従ってください。 まとめ BrowserWingは、AIエージェントにとっての「ブラウザ操作の標準インターフェース」を目指す野心的なプロジェクトです。MCPやSkillsプロトコルへのネイティブ対応により、AIがWebという巨大なリソースをより自由かつ確実に扱える未来を提示しています。 参照リンク https://github.com/browserwing/browserwing Shared GitHub Serial: #351"
+    },
     {
       "slug": "2026-04-24-chiphuyen-aie-book",
       "category": "github-pickup",

@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-browserwing-browserwing",
+      "title": "BrowserWing",
+      "dek": "ブラウザ操作をAIエージェント向けのMCPコマンドやClaude Skillへ変換し、自律的なブラウザ自動化を実現するプラットフォーム。",
+      "summary": "ブラウザ操作をAIが扱えるMCPコマンドへ変換。78種類の内蔵スクリプトやビジュアルレコーダーを備え、AIエージェントによる効率的で信頼性の高いブラウザ自動化を可能にします。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T15:10:00+09:00",
+      "repoName": "browserwing/browserwing",
+      "repoUrl": "https://github.com/browserwing/browserwing",
+      "starCount": 1200,
+      "articleUrl": "./articles/github/daily/2026-04-24-browserwing-browserwing.html",
+      "serial": 351,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-chiphuyen-aie-book",
       "title": "AI Engineering (Resources)",
       "dek": "Chip Huyen氏の著書『AI Engineering』(2025年)の公式リソース集およびAIエンジニア向け学習ガイド。",
