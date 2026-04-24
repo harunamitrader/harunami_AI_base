@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-24-chiphuyen-aie-book",
+      "title": "AI Engineering (Resources)",
+      "dek": "Chip Huyen氏の著書『AI Engineering』(2025年)の公式リソース集およびAIエンジニア向け学習ガイド。",
+      "summary": "基盤モデルを実務に活用するためのエンドツーエンドの指針をまとめた最新リソース。プロンプトエンジニアリングから評価、RAG、ファインチューニングまで、AIエンジニアリングの本質を体系的に学ぶことができます。",
+      "publishedAt": "2026-04-24",
+      "createdAt": "2026-04-24T13:10:00+09:00",
+      "repoName": "chiphuyen/aie-book",
+      "repoUrl": "https://github.com/chiphuyen/aie-book",
+      "starCount": 15200,
+      "articleUrl": "./articles/github/daily/2026-04-24-chiphuyen-aie-book.html",
+      "serial": 350,
+      "genre": "AI学習リポジトリ (教育・ロードマップ・論文集)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-24-anomalyco-openauth",
       "title": "OpenAuth",
       "dek": "あらゆるインフラでセルフホスト可能な、OAuth 2.0準拠のユニバーサルな認証プロバイダー。",
