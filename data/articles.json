@@ -8,6 +8,39 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-25-chatgpt-gpt-5-5-release-agentic-coding",
+      "title": "ChatGPT: 次世代モデル GPT-5.5 リリース、エージェント能力と推論効率が劇的進化",
+      "dek": "自律的なマルチステップ実行能力を備えた次世代モデル GPT-5.5 が登場。100万トークンのコンテキスト窓と、PC操作のネイティブサポートを実現。",
+      "summary": "エージェント能力を強化した GPT-5.5 のリリースと、推論効率の向上、コンテキスト窓の拡大を含む大型アップデート。",
+      "publishedAt": "2026-04-25",
+      "toolName": "ChatGPT",
+      "version": "GPT-5.5 Release",
+      "articleUrl": "./articles/tools/2026-04-25-chatgpt-gpt-5-5-release-agentic-coding.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-25-gemini-3-1-pro-flash-business-rollout",
+      "title": "Gemini 3.1 Pro & Flash: モデルの刷新とビジネス向け機能のグローバル展開",
+      "dek": "複雑な推論とエージェントワークフローに特化した Gemini 3.1 Pro が一般公開。高速な Flash モデルもマルチモーダル性能が強化。",
+      "summary": "Gemini 3.1 シリーズのグローバル展開、マルチモーダル性能の強化、および NotebookLM との連携機能を導入。",
+      "publishedAt": "2026-04-25",
+      "toolName": "Gemini",
+      "version": "v3.1 Pro / Flash",
+      "articleUrl": "./articles/tools/2026-04-25-gemini-3-1-pro-flash-business-rollout.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-25-notebooklm-studio-panel-redesign-infographics",
+      "title": "NotebookLM: スタジオパネルの刷新とインフォグラフィック生成機能の拡充",
+      "dek": "ワークスペースが「Sources / Chat / Studio」の3カラム構成に刷新。10種類のインフォグラフィック生成や PowerPoint 書き出しにも対応。",
+      "summary": "3カラム構成のインターフェース刷新と、スタジオパネルによるアウトプット生成機能の大幅強化。",
+      "publishedAt": "2026-04-25",
+      "toolName": "NotebookLM",
+      "version": "Studio Redesign",
+      "articleUrl": "./articles/tools/2026-04-25-notebooklm-studio-panel-redesign-infographics.html"
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-25-cline-v3-81-0-background-execution-oom-logging",
       "title": "Cline v3.81.0: コマンド実行の完全バックグラウンド化とメモリ診断の強化",
       "dek": "全てのタスク実行をバックグラウンド化し、VS Code 統合ターミナルの制約を解消。OOM デバッグ向けのメモリログ機能も追加。",

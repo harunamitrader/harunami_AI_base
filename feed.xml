@@ -5,8 +5,32 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Apr 2026 04:06:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 04:21:20 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[ChatGPT: 次世代モデル GPT-5.5 リリース、エージェント能力と推論効率が劇的進化]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-chatgpt-gpt-5-5-release-agentic-coding.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-chatgpt-gpt-5-5-release-agentic-coding.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自律的なマルチステップ実行能力を備えた次世代モデル GPT-5.5 が登場。100万トークンのコンテキスト窓と、PC操作のネイティブサポートを実現。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini 3.1 Pro & Flash: モデルの刷新とビジネス向け機能のグローバル展開]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-gemini-3-1-pro-flash-business-rollout.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-gemini-3-1-pro-flash-business-rollout.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[複雑な推論とエージェントワークフローに特化した Gemini 3.1 Pro が一般公開。高速な Flash モデルもマルチモーダル性能が強化。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[NotebookLM: スタジオパネルの刷新とインフォグラフィック生成機能の拡充]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-notebooklm-studio-panel-redesign-infographics.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-notebooklm-studio-panel-redesign-infographics.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[ワークスペースが「Sources / Chat / Studio」の3カラム構成に刷新。10種類のインフォグラフィック生成や PowerPoint 書き出しにも対応。]]></description>
+    </item>
     <item>
       <title><![CDATA[Cline v3.81.0: コマンド実行の完全バックグラウンド化とメモリ診断の強化]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cline-v3-81-0-background-execution-oom-logging.html</link>
@@ -142,30 +166,6 @@
       <category>github-trending</category>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Anthropic の Claude Code を無料で。独自のリバースプロキシと認証バイパスにより、ターミナル完結型 AI 開発環境を誰でも手軽に構築できる実験的プロジェクト。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[PowerShell]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-powershell-powershell.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-powershell-powershell.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windows, Linux, macOSに対応した次世代クロスプラットフォーム・シェル。オブジェクトベースের強力なパイプラインが、AIエージェントによる自動化操作の「手」として再注目。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[onnxruntime]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-microsoft-onnxruntime.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-microsoft-onnxruntime.html</guid>
-      <category>github-trending</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[機械学習モデルの推論とトレーニングを、あらゆるハードウェアで高速化。AIエージェント向けの知識付与も進む、クロスプラットフォームな高性能アクセラレータ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.118: Vimビジュアルモードの実装と /usage への統合]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-claude-code-v2-1-118-vim-visual-usage.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-24-claude-code-v2-1-118-vim-visual-usage.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Vimビジュアルモードの追加やコマンド統合により、ターミナルでの操作性と統計管理が向上。]]></description>
     </item>
   </channel>
 </rss>
