@@ -47,6 +47,21 @@
       "genre": "金融・トレード分析"
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-25-heygen-com-hyperframes",
+      "title": "Hyperframes",
+      "dek": "HTMLをそのままビデオに。AIエージェントによる動画生成・編集を前提に設計された、オープンソースの次世代動画レンダリングフレームワーク。",
+      "summary": "HeyGen 公開のビデオ制作基盤。HTML/CSS でコンポジションを記述し、AI エージェントが自在に動画を author できる環境を提供。Apache 2.0 ライセンスの商用フリーな動画生成を実現します。",
+      "publishedAt": "2026-04-25",
+      "repoName": "heygen-com/hyperframes",
+      "repoUrl": "https://github.com/heygen-com/hyperframes",
+      "starCount": 10400,
+      "articleUrl": "./articles/github/daily/2026-04-25-heygen-com-hyperframes.html",
+      "serial": 363,
+      "genre": "メディア作成・マルチモーダル・UI"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-25-google-osv-scanner",
