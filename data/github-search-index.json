@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-25T10:55:20.868681+00:00",
-  "count": 388,
+  "generatedAt": "2026-04-25T11:59:23.781131+00:00",
+  "count": 389,
   "articles": [
     {
       "slug": "2026-04-25-update-report",
@@ -16,6 +16,21 @@
       "articleUrl": "./articles/github/reports/2026-04-25-update-report.html",
       "serial": 27,
       "searchText": "2026-04-25 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ GitHub Trending のトップ12を調査。osv-scanner, posthog, vaultwarden, Open-Generative-AI, build-your-own-x の計5件を新規に記事化しました。 2026-04-25 アップデートレポート | GitHub Watcher ← GitHub 一覧へ戻る Update Report 2026-04-25 アップデートレポート 本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ 記事作成日 2026-04-25 調査件数 全 12 件 新規作成 5 件 本日の調査ランキング（全件） 本日（2026-04-25）の GitHub Trending にランクインしていた全 12 リポジトリの調査結果です。 Alishahryar1/free-claude-code ✅ 記事作成済み huggingface/ml-intern ✅ 記事作成済み google/osv-scanner ✨ 新規追加 Z4nzu/hackingtool ✅ 記事作成済み zilliztech/claude-context ✅ 記事作成済み open-metadata/OpenMetadata ✅ 記事作成済み PostHog/posthog ✨ 新規追加 dani-garcia/vaultwarden ✨ 新規追加 Anil-matcha/Open-Generative-AI ✨ 新規追加 codecrafters-io/build-your-own-x ✨ 新規追加 deepseek-ai/DeepEP 未作成 microsoft/typescript-go 未作成 今後の展望 本日は、Google の脆弱性スキャナー「osv-scanner」や、プロダクト分析のデファクトとなりつつある「PostHog」、そして超軽量なパスワード管理基盤「Vaultwarden」など、実用性の極めて高いインフラ系ツールが目立ちました。また、23万スターを誇る「build-your-own-x」の再浮上は、AI 時代において基礎的なエンジニアリング力を自作を通じて磨き直そうとするコミュニティの熱意を反映しています。今後も、AI による自動化と、その基盤を支えるセキュリティ・学習リソースの両面からトレンドを追いかけていきます。"
+    },
+    {
+      "slug": "2026-04-25-quantconnect-lean",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "QuantConnect LEAN",
+      "dek": "世界最大級のオープンソース・アルゴリズム取引エンジン。PythonとC#に対応し、バックテストから実運用までをシームレスにつなぐプロフェッショナル仕様のプラットフォーム。",
+      "summary": "機関投資家レベルのクオンツ戦略を構築。株式、FX、仮想通貨など多種多様な資産に対応し、検証コードをそのまま実運用に転用できる堅牢なイベント駆動型エンジンを提供します。",
+      "repoName": "QuantConnect/Lean",
+      "genre": "金融・トレード分析",
+      "publishedAt": "2026-04-25",
+      "createdAt": "",
+      "articleUrl": "./articles/github/daily/2026-04-25-quantconnect-lean.html",
+      "serial": 368,
+      "searchText": "QuantConnect LEAN 世界最大級のオープンソース・アルゴリズム取引エンジン。PythonとC#に対応し、バックテストから実運用までをシームレスにつなぐプロフェッショナル仕様のプラットフォーム。 機関投資家レベルのクオンツ戦略を構築。株式、FX、仮想通貨など多種多様な資産に対応し、検証コードをそのまま実運用に転用できる堅牢なイベント駆動型エンジンを提供します。 QuantConnect/Lean 金融・トレード分析 QuantConnect LEAN ← 記事一覧へ戻る GitHub Watcher QuantConnect LEAN 世界最大級のオープンソース・アルゴリズム取引エンジン。PythonとC#に対応し、バックテストから実運用までをシームレスにつなぐプロフェッショナル仕様のプラットフォーム。 記事作成日 2026-04-25 種別 Pickup 対象 repo QuantConnect/Lean Star数 18,600 これは何か QuantConnect が提供する、完全オープンソースのアルゴリズム取引（クオンツ）エンジンです。機関投資家レベルの機能を持ち、株式、FX、仮想通貨、オプション、先物といった多種多様な資産クラスの取引戦略を、Python または C# で記述・検証・実行できます。1.8万以上の Star を集める、この分野でのデファクトスタンダードの一つです。 何ができるか 最大の強みは「バックテスト（過去データでの検証）」と「ライブ取引（実運用）」が全く同じコードベースで実行できる点です。これにより、シミュレーションでは動いたのに本番でバグが出るというリスクを最小化できます。また、Lean CLI を使ってローカル環境（Docker）で開発し、そのまま QuantConnect のクラウドプラットフォームや自前のサーバーへデプロイすることも可能です。 目立つポイント 「エンジニアリングとしての美しさとクオンツの厳密さ」の両立です。ルックアヘッド・バイアス（未来予知）や生存バイアスを排除するための厳格なモデリング、企業の分割・併合や配当を考慮した正確なデータ処理、そして高度にプラグイン可能なアーキテクチャを備えています。多くの証券会社（IBKR, OANDA, Binance 等）と標準で統合されており、データ連携もスムーズです。 セットアップや使い方の流れ 最も推奨される方法は pip install lean で Lean CLI をインストールすることです。その後 lean project-create でスターターコードを生成し、 lean backtest でローカルでの検証を開始できます。Jupyter Lab との統合も強力で、 lean research コマンドにより対話的な分析環境を即座に立ち上げられます。 どんな人向けか 単なる「自動売買ボット」のレベルを超え、本格的なクオンツ・トレーディングを志す開発者に最適です。複雑なオプション戦略の検証、HFT（高頻度取引）的なアプローチ、あるいは膨大な代替データ（Alternative Data）を組み合わせた独自のアルゴリズム構築を目指すプロフェッショナルや研究者にとって、これ以上に信頼できる基盤は他にありません。 注意点 プロフェッショナル仕様ゆえに、学習曲線はやや急です。イベント駆動型エンジンの仕組みや、C# 寄りのアーキテクチャ（Pythonでも内部は.NETで動いています）を理解する必要があります。また、高度なバックテストには高品質な過去データが必要となりますが、これには独自での調達か QuantConnect のサービス利用が推奨されます。 まとめ LEAN は、個人のトレーダーにウォール街レベルの「武器」を提供するプロジェクトです。透明性の高いオープンソースでありながら、長年の運用実績に裏打ちされた堅牢さを併せ持っています。AI を活用した予測モデルを実際のマーケットで戦わせるための、究極の実行エンジンと言えるでしょう。 参照リンク https://github.com/QuantConnect/Lean Shared GitHub Serial: #368"
     },
     {
       "slug": "2026-04-25-posthog-posthog",

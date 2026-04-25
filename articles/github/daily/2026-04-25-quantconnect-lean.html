@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="世界最大級のオープンソース・アルゴリズム取引エンジン。PythonとC#に対応し、バックテストから実運用までをシームレスにつなぐプロフェッショナル仕様のプラットフォーム。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>QuantConnect LEAN</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">QuantConnect LEAN</h1>
+      <p class="article-dek">世界最大級のオープンソース・アルゴリズム取引エンジン。PythonとC#に対応し、バックテストから実運用までをシームレスにつなぐプロフェッショナル仕様のプラットフォーム。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-25 -->
+          <strong>2026-04-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/QuantConnect/Lean" target="_blank" rel="noreferrer">
+              QuantConnect/Lean
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>18,600</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>QuantConnect が提供する、完全オープンソースのアルゴリズム取引（クオンツ）エンジンです。機関投資家レベルの機能を持ち、株式、FX、仮想通貨、オプション、先物といった多種多様な資産クラスの取引戦略を、Python または C# で記述・検証・実行できます。1.8万以上の Star を集める、この分野でのデファクトスタンダードの一つです。</p>
+
+        <h2>何ができるか</h2>
+        <p>最大の強みは「バックテスト（過去データでの検証）」と「ライブ取引（実運用）」が全く同じコードベースで実行できる点です。これにより、シミュレーションでは動いたのに本番でバグが出るというリスクを最小化できます。また、Lean CLI を使ってローカル環境（Docker）で開発し、そのまま QuantConnect のクラウドプラットフォームや自前のサーバーへデプロイすることも可能です。</p>
+
+        <h2>目立つポイント</h2>
+        <p>「エンジニアリングとしての美しさとクオンツの厳密さ」の両立です。ルックアヘッド・バイアス（未来予知）や生存バイアスを排除するための厳格なモデリング、企業の分割・併合や配当を考慮した正確なデータ処理、そして高度にプラグイン可能なアーキテクチャを備えています。多くの証券会社（IBKR, OANDA, Binance 等）と標準で統合されており、データ連携もスムーズです。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>最も推奨される方法は <code>pip install lean</code> で Lean CLI をインストールすることです。その後 <code>lean project-create</code> でスターターコードを生成し、<code>lean backtest</code> でローカルでの検証を開始できます。Jupyter Lab との統合も強力で、<code>lean research</code> コマンドにより対話的な分析環境を即座に立ち上げられます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>単なる「自動売買ボット」のレベルを超え、本格的なクオンツ・トレーディングを志す開発者に最適です。複雑なオプション戦略の検証、HFT（高頻度取引）的なアプローチ、あるいは膨大な代替データ（Alternative Data）を組み合わせた独自のアルゴリズム構築を目指すプロフェッショナルや研究者にとって、これ以上に信頼できる基盤は他にありません。</p>
+
+        <h2>注意点</h2>
+        <p>プロフェッショナル仕様ゆえに、学習曲線はやや急です。イベント駆動型エンジンの仕組みや、C# 寄りのアーキテクチャ（Pythonでも内部は.NETで動いています）を理解する必要があります。また、高度なバックテストには高品質な過去データが必要となりますが、これには独自での調達か QuantConnect のサービス利用が推奨されます。</p>
+
+        <h2>まとめ</h2>
+        <p>LEAN は、個人のトレーダーにウォール街レベルの「武器」を提供するプロジェクトです。透明性の高いオープンソースでありながら、長年の運用実績に裏打ちされた堅牢さを併せ持っています。AI を活用した予測モデルを実際のマーケットで戦わせるための、究極の実行エンジンと言えるでしょう。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/QuantConnect/Lean" target="_blank" rel="noreferrer">https://github.com/QuantConnect/Lean</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #368</p>
+      </div>
+    </article>
+  </body>
+</html>

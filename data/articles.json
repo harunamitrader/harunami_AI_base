@@ -122,6 +122,21 @@
       "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-25-quantconnect-lean",
+      "title": "QuantConnect LEAN",
+      "dek": "世界最大級のオープンソース・アルゴリズム取引エンジン。PythonとC#に対応し、バックテストから実運用までをシームレスにつなぐプロフェッショナル仕様のプラットフォーム。",
+      "summary": "機関投資家レベルのクオンツ戦略を構築。株式、FX、仮想通貨など多種多様な資産に対応し、検証コードをそのまま実運用に転用できる堅牢なイベント駆動型エンジンを提供します。",
+      "publishedAt": "2026-04-25",
+      "repoName": "QuantConnect/Lean",
+      "repoUrl": "https://github.com/QuantConnect/Lean",
+      "starCount": 18600,
+      "articleUrl": "./articles/github/daily/2026-04-25-quantconnect-lean.html",
+      "serial": 368,
+      "genre": "金融・トレード分析"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-25-google-osv-scanner",
