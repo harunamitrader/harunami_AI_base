@@ -77,6 +77,21 @@
       "genre": "AIエージェント (自律基盤・特化アプリ)"
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-25-lum1104-understand-anything",
+      "title": "Understand Anything",
+      "dek": "巨大なコードベースを「読まずに見る」。マルチエージェント分析でプロジェクトをインタラクティブな知識グラフに変換し、直感的な理解を支援する開発者向けツール。",
+      "summary": "複雑なコードやドキュメント群を AI で解析し、探索可能な知識グラフを構築。Claude Code, Cursor, Copilot 等とシームレスに連携し、人間と AI エージェントの双方にプロジェクトの「地図」を提供します。",
+      "publishedAt": "2026-04-25",
+      "repoName": "Lum1104/Understand-Anything",
+      "repoUrl": "https://github.com/Lum1104/Understand-Anything",
+      "starCount": 8800,
+      "articleUrl": "./articles/github/daily/2026-04-25-lum1104-understand-anything.html",
+      "serial": 365,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-25-google-osv-scanner",
