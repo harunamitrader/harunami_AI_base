@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepEP - DeepSeek-V3/R1を支える超高速MoE通信ライブラリ | harunami AI base</title>
+    <meta name="description" content="DeepSeekが公開した、Mixture-of-Experts（MoE）とエキスパート並列処理に特化したGPU通信ライブラリ「DeepEP」を解説。低遅延・高スループットなオール・ツー・オール通信を実現。">
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <article class="article-content">
+        <header class="article-header">
+            <span class="serial-number">#373</span>
+            <time datetime="2026-04-26">2026-04-26</time>
+            <h1>DeepEP</h1>
+            <p class="dek">DeepSeek-V3/R1の心臓部。MoEとエキスパート並列に特化した、世界最高峰のGPU通信ライブラリ。</p>
+        </header>
+
+        <section class="repo-meta">
+            <div class="meta-item">
+                <span class="label">リポジトリ:</span>
+                <a href="https://github.com/deepseek-ai/DeepEP" target="_blank">deepseek-ai/DeepEP</a>
+            </div>
+            <div class="meta-item">
+                <span class="label">スター数:</span>
+                <span class="value">2,800</span>
+            </div>
+            <div class="meta-item">
+                <span class="label">ジャンル:</span>
+                <span class="value">LLM・機械学習リサーチ</span>
+            </div>
+        </section>
+
+        <section class="content">
+            <h2>プロジェクト概要</h2>
+            <p>
+                「DeepEP」は、DeepSeek が開発・公開した、Mixture-of-Experts（MoE）モデルおよびエキスパート並列処理（EP）に特化した高性能通信ライブラリです。大規模な MoE モデルの「Dispatch（配送）」と「Combine（結合）」という最もボトルネックになりやすい通信ステップを最適化します。
+            </p>
+            <p>
+                DeepSeek-V3 および R1 の学習と推論を支えるコア技術の一つであり、高スループットな学習フェーズと、極めて低遅延が要求される推論（デコーディング）フェーズの両方に最適化された GPU カーネルを提供します。
+            </p>
+
+            <h2>主な特徴</h2>
+            <ul>
+                <li><strong>高スループットな All-to-All カーネル:</strong> NVLink および RDMA 経由での大量データ転送を最適化。DeepSeek-V3 の学習セッティングにおいて、理論限界に近い帯域利用率を達成しています。</li>
+                <li><strong>低遅延デコーディング・カーネル:</strong> 推論時のトークン生成速度を最大化するため、純粋な RDMA による通信を駆使し、レイテンシを極限まで低減。</li>
+                <li><strong>FP8 演算のネイティブサポート:</strong> 最新の Hopper 世代 GPU (H100/H800) の性能を引き出す FP8 Dispatch をサポート。</li>
+                <li><strong>通信・演算のオーバーラップ:</strong> SM（Streaming Multiprocessor）リソースを占有しない、フックベースの新しい通信・演算オーバーラップ手法を導入。</li>
+                <li><strong>広範なハードウェア対応:</strong> NVIDIA Hopper (SM90) および Ampere (SM80) アーキテクチャに加え、コミュニティの貢献により AMD GPU (ROCm) もサポート。</li>
+            </ul>
+
+            <h2>なぜトレンドに？</h2>
+            <p>
+                DeepSeek-V3/R1 の論文で示された圧倒的なコストパフォーマンスの裏側には、このような高度にチューニングされた通信インフラが存在します。このコードが公開されたことで、他社の LLM 開発チームや研究者が DeepSeek 級の効率的な学習・推論環境を構築することが可能になりました。
+            </p>
+            <p>
+                「DeepSeek がどうやってあれほどの性能を実現したのか」という技術的好奇心と、それを自らのインフラに取り込みたいという実利的な目的が合致し、AI エンジニアの間で熱烈な注目を浴びています。
+            </p>
+        </section>
+
+        <footer class="article-footer">
+            <a href="../../../index.html">← インデックスへ戻る</a>
+        </footer>
+    </article>
+</body>
+</html>

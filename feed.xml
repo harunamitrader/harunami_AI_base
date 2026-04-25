@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Apr 2026 19:31:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 04:56:06 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-26 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-26-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-26-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Agent Skills]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-mattpocock-skills.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-mattpocock-skills.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントを「自律的な同僚」へ。PRD作成、TDD、リファクタリングを代行する、強力なスキル・コレクション。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Claude Code Templates]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-davila7-claude-code-templates.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-davila7-claude-code-templates.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Claude Codeを自分仕様の最強AIツールへ。100以上の専門家エージェント、コマンド、MCP連携を統合管理するエコシステム。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[DeepEP]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-deepseek-ai-deepep.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-deepseek-ai-deepep.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DeepSeek-V3/R1を支える超高速MoE通信ライブラリ。MoEとエキスパート並列に特化した、世界最高峰のGPUカーネル集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Roo-Code]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-roocodeinc-roo-code.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-roocodeinc-roo-code.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Clineから進化したVS Code用自律型AIコーディングエージェント。マルチモード対応とMCP連携により、実装からデバッグまでを完遂。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ds2api]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-cjackhwang-ds2api.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-cjackhwang-ds2api.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DeepSeek WebをOpenAI互換APIへ変換。多アカウント回転とPoW計算を備えた、Go製の高性能プロキシ・ミドルウェア。]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenClaw v2026.4.24: Google Meet 連携と DeepSeek V4 対応]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-26-openclaw-v2026-4-24-google-meet-deepseek-v4.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[検閲なし・制限なし。画像、動画、映画、リップシンクの4つのスタジオを備え、200以上の最新生成モデルを統合した究極のクリエイティブAI基盤。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[build-your-own-x]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-codecrafters-io-build-your-own-x.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-codecrafters-io-build-your-own-x.html</guid>
-      <category>github-trending</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Redis、Git、Docker、SQLiteなど、複雑なソフトウェアを一から自作するための膨大な学習リソース・ガイド集。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: 次世代モデル GPT-5.5 リリース、エージェント能力と推論効率が劇的進化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-chatgpt-gpt-5-5-release-agentic-coding.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-chatgpt-gpt-5-5-release-agentic-coding.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[自律的なマルチステップ実行能力を備えた次世代モデル GPT-5.5 が登場。100万トークンのコンテキスト窓と、PC操作のネイティブサポートを実現。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini 3.1 Pro & Flash: モデルの刷新とビジネス向け機能のグローバル展開]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-gemini-3-1-pro-flash-business-rollout.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-gemini-3-1-pro-flash-business-rollout.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[複雑な推論とエージェントワークフローに特化した Gemini 3.1 Pro が一般公開。高速な Flash モデルもマルチモーダル性能が強化。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NotebookLM: スタジオパネルの刷新とインフォグラフィック生成機能の拡充]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-notebooklm-studio-panel-redesign-infographics.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-notebooklm-studio-panel-redesign-infographics.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ワークスペースが「Sources / Chat / Studio」の3カラム構成に刷新。10種類のインフォグラフィック生成や PowerPoint 書き出しにも対応。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cline v3.81.0: コマンド実行の完全バックグラウンド化とメモリ診断の強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cline-v3-81-0-background-execution-oom-logging.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cline-v3-81-0-background-execution-oom-logging.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[全てのタスク実行をバックグラウンド化し、VS Code 統合ターミナルの制約を解消。OOM デバッグ向けのメモリログ機能も追加。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor 3.2: Agents Window の並列実行(/multitask)とワークツリー対応]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cursor-v3-2-multitask-worktrees-multi-root.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-cursor-v3-2-multitask-worktrees-multi-root.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agents Window での並列リクエスト（/multitask）や、独立した作業空間を構築するワークツリー、マルチルートワークスペースに対応。]]></description>
     </item>
   </channel>
 </rss>

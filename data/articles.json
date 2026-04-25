@@ -7,6 +7,96 @@
   },
   "articles": [
     {
+      "category": "github-update-report",
+      "slug": "2026-04-26-update-report",
+      "title": "2026-04-26 アップデートレポート",
+      "dek": "本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ",
+      "summary": "GitHub Trending のトップ12を調査。mattpocock/skills, davila7/claude-code-templates, DeepEP, Roo-Code, ds2api の計5件を新規に記事化しました。",
+      "publishedAt": "2026-04-26",
+      "articleUrl": "./articles/github/reports/2026-04-26-update-report.html",
+      "serial": 28
+    },
+    {
+      "category": "github-pickup",
+      "originType": "trending",
+      "slug": "2026-04-26-mattpocock-skills",
+      "title": "Agent Skills",
+      "dek": "AIエージェントを「自律的な同僚」へ。PRD作成、TDD、リファクタリングを代行する、強力なスキル・コレクション。",
+      "summary": "AI エージェントに高度な専門タスクを実行させるためのスキル集。PRD生成からテスト駆動開発、Obsidian管理まで、Matt Pocock氏による検証済みのワークフローを提供します。",
+      "publishedAt": "2026-04-26",
+      "repoName": "mattpocock/skills",
+      "repoUrl": "https://github.com/mattpocock/skills",
+      "starCount": 2100,
+      "articleUrl": "./articles/github/daily/2026-04-26-mattpocock-skills.html",
+      "serial": 375,
+      "rank": 2,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "trending",
+      "slug": "2026-04-26-davila7-claude-code-templates",
+      "title": "Claude Code Templates",
+      "dek": "Claude Codeを自分仕様の最強AIツールへ。100以上の専門家エージェント、コマンド、MCP連携を統合管理するエコシステム。",
+      "summary": "Claude Code 用のテンプレート集。専門エージェント、スラッシュコマンド、MCP 設定などをパッケージ化し、npx コマンド一つで即座に最強の開発環境を構築できます。",
+      "publishedAt": "2026-04-26",
+      "repoName": "davila7/claude-code-templates",
+      "repoUrl": "https://github.com/davila7/claude-code-templates",
+      "starCount": 1200,
+      "articleUrl": "./articles/github/daily/2026-04-26-davila7-claude-code-templates.html",
+      "serial": 374,
+      "rank": 5,
+      "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "trending",
+      "slug": "2026-04-26-deepseek-ai-deepep",
+      "title": "DeepEP",
+      "dek": "DeepSeek-V3/R1を支える超高速MoE通信ライブラリ。MoEとエキスパート並列に特化した、世界最高峰のGPUカーネル集。",
+      "summary": "DeepSeek 公開の高性能通信ライブラリ。MoE モデルのボトルネックとなる Dispatch/Combine ステップを最適化し、低遅延・高スループットな学習と推論を実現します。",
+      "publishedAt": "2026-04-26",
+      "repoName": "deepseek-ai/DeepEP",
+      "repoUrl": "https://github.com/deepseek-ai/DeepEP",
+      "starCount": 2800,
+      "articleUrl": "./articles/github/daily/2026-04-26-deepseek-ai-deepep.html",
+      "serial": 373,
+      "rank": 6,
+      "genre": "LLM・機械学習リサーチ"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "trending",
+      "slug": "2026-04-26-roocodeinc-roo-code",
+      "title": "Roo-Code",
+      "dek": "Clineから進化したVS Code用自律型AIコーディングエージェント。マルチモード対応とMCP連携により、実装からデバッグまでを完遂。",
+      "summary": "自律型エージェント「Cline」のコミュニティ後継プロジェクト。ファイル操作、ターミナル実行、MCP 連携を駆使し、AI が開発チームのように自律してタスクを処理します。",
+      "publishedAt": "2026-04-26",
+      "repoName": "RooCodeInc/Roo-Code",
+      "repoUrl": "https://github.com/RooCodeInc/Roo-Code",
+      "starCount": 23500,
+      "articleUrl": "./articles/github/daily/2026-04-26-roocodeinc-roo-code.html",
+      "serial": 372,
+      "rank": 8,
+      "genre": "AIコーディング (CLI本体・拡張機能)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "trending",
+      "slug": "2026-04-26-cjackhwang-ds2api",
+      "title": "ds2api",
+      "dek": "DeepSeek WebをOpenAI互換APIへ変換。多アカウント回転とPoW計算を備えた、Go製の高性能プロキシ・ミドルウェア。",
+      "summary": "DeepSeek の Web プロトコルを OpenAI/Claude/Gemini API に変換する軽量プロキシ。複数アカウントの統合利用や PoW 処理をサポートし、既存ツールからの利用を容易にします。",
+      "publishedAt": "2026-04-26",
+      "repoName": "CJackHwang/ds2api",
+      "repoUrl": "https://github.com/CJackHwang/ds2api",
+      "starCount": 1400,
+      "articleUrl": "./articles/github/daily/2026-04-26-cjackhwang-ds2api.html",
+      "serial": 371,
+      "rank": 11,
+      "genre": "AI基盤・データ基盤・業務アプリ"
+    },
+    {
       "category": "ai-tool-log",
       "slug": "2026-04-26-openclaw-v2026-4-24-google-meet-deepseek-v4",
       "title": "OpenClaw v2026.4.24: Google Meet 連携と DeepSeek V4 対応",
@@ -15,7 +105,8 @@
       "publishedAt": "2026-04-26",
       "toolName": "OpenClaw",
       "version": "v2026.4.24",
-      "articleUrl": "./articles/tools/2026-04-26-openclaw-v2026-4-24-google-meet-deepseek-v4.html"
+      "articleUrl": "./articles/tools/2026-04-26-openclaw-v2026-4-24-google-meet-deepseek-v4.html",
+      "serial": 369
     },
     {
       "category": "github-update-report",
@@ -585,7 +676,8 @@
       "publishedAt": "2026-04-23",
       "toolName": "Grok",
       "version": "v1.0 (Realtime API)",
-      "articleUrl": "./articles/tools/2026-04-23-grok-voice-think-fast-1-0.html"
+      "articleUrl": "./articles/tools/2026-04-23-grok-voice-think-fast-1-0.html",
+      "serial": 370
     },
     {
       "category": "ai-tool-log",
