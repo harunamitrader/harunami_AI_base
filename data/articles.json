@@ -107,6 +107,21 @@
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
     },
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-25-openrouterteam-create-agent-tui",
+      "title": "OpenRouter Agent TUI (create-agent-tui)",
+      "dek": "AIエージェントのための「create-react-app」。OpenRouterが提供する、カスタマイズ可能なターミナルUI（TUI）付きエージェント・プロジェクトを瞬時に生成するツール。",
+      "summary": "AI エージェント用の TUI アプリを TypeScript で即座に生成。豊富な表示スタイルやローディングアニメーションを備え、独自のツールを組み込んだ見栄えの良いエージェント・インターフェースを数分で構築できます。",
+      "publishedAt": "2026-04-25",
+      "repoName": "OpenRouterTeam/skills",
+      "repoUrl": "https://github.com/OpenRouterTeam/skills/tree/main/skills/create-agent-tui",
+      "starCount": 50,
+      "articleUrl": "./articles/github/daily/2026-04-25-openrouterteam-create-agent-tui.html",
+      "serial": 367,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-trending",
       "originType": "trending",
       "slug": "2026-04-25-google-osv-scanner",

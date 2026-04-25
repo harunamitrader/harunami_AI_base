@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AIエージェントのための「create-react-app」。OpenRouterが提供する、カスタマイズ可能なターミナルUI（TUI）付きエージェント・プロジェクトを瞬時に生成するツール。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenRouter Agent TUI (create-agent-tui)</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
+
+      <h1 class="article-title">OpenRouter Agent TUI (create-agent-tui)</h1>
+      <p class="article-dek">AIエージェントのための「create-react-app」。OpenRouterが提供する、カスタマイズ可能なターミナルUI（TUI）付きエージェント・プロジェクトを瞬時に生成するツール。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-25 -->
+          <strong>2026-04-25</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Pickup</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/OpenRouterTeam/skills" target="_blank" rel="noreferrer">
+              OpenRouterTeam/skills
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>50</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>OpenRouter チームが公開した、AI エージェント開発のためのスキャフォールディング（足場作り）ツールです。React 開発における <code>create-react-app</code> のように、数コマンドで「独自の TUI（ターミナル UI）」を備えたエージェント・プロジェクトの雛形を生成します。Claude Code や Cursor といった既存のエージェントに「新しいエージェントを作らせる」ためのスキルとしても機能します。</p>
+
+        <h2>何ができるか</h2>
+        <p>このツールを使用すると、TypeScript ベースの完全なエージェント・プロジェクトが作成されます。生成されるプロジェクトには、ストリーミング回答、セッション保存、トークン計算、そして高度にカスタマイズ可能なターミナル表示ロジックが最初から組み込まれています。開発者は、エージェントに持たせたい独自のツール（API連携やデータベース操作など）を実装することだけに集中できます。</p>
+
+        <h2>目立つポイント</h2>
+        <p>UI の「表現力」へのこだわりが最大の特徴です。ツール呼び出しの表示スタイルを「Emoji（絵文字のみ）」「Grouped（ツリー形式）」「Minimal（一行）」から選択できたり、ターミナルの背景色に合わせた半透明の入力ボックス、グラデーションのローディングアニメーション、さらにはプロジェクト名に合わせた ASCII アートのロゴ表示など、エンジニアの所有欲を満たすリッチな TUI を簡単に構築できます。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>OpenRouter のスキルプラグインを導入済みの Claude Code 等で <code>/understand-build-tui</code>（または相当するコマンド）を実行するか、CLI から <code>npx skills add OpenRouterTeam/skills</code> を通じて利用可能です。対話形式で必要な機能（ファイル操作、シェル実行、Web検索など）を選択するだけで、依存関係が整った実行可能なプロジェクトディレクトリが生成されます。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>汎用の AI エージェントではなく、特定のタスクやドメイン（自社システムやプライベートなAPI）に特化した「自分たちのエージェント」を構築したい開発者に最適です。また、製品のデモ用に見栄えの良いターミナル UI を素早く作りたい場合や、エージェントのループ構造（ツール実行やコスト制限のロジック）を深く学びたい学習者にも向いています。</p>
+
+        <h2>注意点</h2>
+        <p>生成されたプロジェクトは OpenRouter の <code>@openrouter/agent</code> ライブラリをベースにしており、モデルの呼び出しには OpenRouter の API キーが必要です。また、現在は TypeScript 環境が前提となっており、Node.js v18 以上が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>エージェント開発において、UI や周辺のインフラ部分（設定、セッション、ツール呼び出しの可視化）は毎回似たような実装になりがちです。<code>create-agent-tui</code> はその「車輪の再発明」を終わらせ、誰もが「マエストロ（指揮者）」として、美しく機能的なエージェント・インターフェースを即座に手に入れることを可能にします。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/OpenRouterTeam/skills/tree/main/skills/create-agent-tui" target="_blank" rel="noreferrer">https://github.com/OpenRouterTeam/skills/tree/main/skills/create-agent-tui</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #367</p>
+      </div>
+    </article>
+  </body>
+</html>

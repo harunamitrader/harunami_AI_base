@@ -5,7 +5,7 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Apr 2026 19:15:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 19:55:21 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title><![CDATA[2026-04-25 アップデートレポート]]></title>
@@ -62,6 +62,14 @@
       <category>github-pickup</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[複数のAIコーディングエージェントを、個別のgit worktreeで同時並列実行。コンフリクトを恐れず、5つの機能を5体で同時に実装する次世代のワークフロー・アプリ。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OpenRouter Agent TUI (create-agent-tui)]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-openrouterteam-create-agent-tui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-25-openrouterteam-create-agent-tui.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントのための「create-react-app」。OpenRouterが提供する、カスタマイズ可能なターミナルUI（TUI）付きエージェント・プロジェクトを瞬時に生成するツール。]]></description>
     </item>
     <item>
       <title><![CDATA[osv-scanner]]></title>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Desktopからオープンソースの3D CAD「FreeCAD」を直接操作し、3Dモデルの作成・編集・視覚化を可能にする MCPサーバー。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI reads books: Page-by-Page]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-echohive42-ai-reads-books-page-by-page.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-24-echohive42-ai-reads-books-page-by-page.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIがPDF書籍を1ページずつ精読し、要点を抽出・蓄積しながら段階的な要約を自動生成するナレッジ抽出ツール。]]></description>
     </item>
   </channel>
 </rss>
