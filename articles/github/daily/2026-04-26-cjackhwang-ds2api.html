@@ -1,66 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ds2api - DeepSeek WebをOpenAI互換APIへ変換する軽量プロキシ | harunami AI base</title>
-    <meta name="description" content="DeepSeekのWeb版プロトコルをOpenAI/Claude/Gemini互換のAPIに変換するGo製ミドルウェア「ds2api」を解説。多アカウント回転やPoW計算に対応。">
-    <link rel="stylesheet" href="../../../style.css">
-</head>
-<body>
-    <article class="article-content">
-        <header class="article-header">
-            <span class="serial-number">#371</span>
-            <time datetime="2026-04-26">2026-04-26</time>
-            <h1>ds2api</h1>
-            <p class="dek">DeepSeek WebをOpenAI互換APIへ。多アカウント回転とPoW計算を備えた、Go製の高性能プロキシ・ミドルウェア。</p>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DeepSeek WebをOpenAI互換APIへ。多アカウント回転とPoW計算を備えた、Go製の高性能プロキシ・ミドルウェア。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>ds2api</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../../github-trend.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">GitHub Watcher</p>
+      </div>
 
-        <section class="repo-meta">
-            <div class="meta-item">
-                <span class="label">リポジトリ:</span>
-                <a href="https://github.com/CJackHwang/ds2api" target="_blank">CJackHwang/ds2api</a>
-            </div>
-            <div class="meta-item">
-                <span class="label">スター数:</span>
-                <span class="value">1,400</span>
-            </div>
-            <div class="meta-item">
-                <span class="label">ジャンル:</span>
-                <span class="value">AI基盤・データ基盤・業務アプリ</span>
-            </div>
-        </section>
+      <h1 class="article-title">ds2api</h1>
+      <p class="article-dek">DeepSeek WebをOpenAI互換APIへ。多アカウント回転とPoW計算を備えた、Go製の高性能プロキシ・ミドルウェア。</p>
 
-        <section class="content">
-            <h2>プロジェクト概要</h2>
-            <p>
-                「ds2api」は、DeepSeekのWeb版（チャットインターフェース）で使用されているプロトコルを、OpenAI、Claude、およびGeminiと互換性のあるAPI形式に変換するための軽量なミドルウェアです。Go言語でフル実装されており、Pythonなどの実行環境を必要とせず、バイナリ一つで高速に動作します。
-            </p>
-            <p>
-                DeepSeekの公式APIは安価ですが、Web版で提供されている高度な機能や、複数の無料アカウントを統合して利用したいユーザーにとって、このプロキシは非常に有用なブリッジとなります。
-            </p>
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">記事作成日</span>
+          <!-- 2026-04-26 -->
+          <strong>2026-04-26</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">種別</span>
+          <strong>Trending</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">対象 repo</span>
+          <strong>
+            <a href="https://github.com/CJackHwang/ds2api" target="_blank" rel="noreferrer">
+              CJackHwang/ds2api
+            </a>
+          </strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">Star数</span>
+          <strong>1,400</strong>
+        </div>
+      </div>
 
-            <h2>主な特徴</h2>
-            <ul>
-                <li><strong>多プロトコル互換:</strong> OpenAI (v1/chat/completions)、Claude (anthropic/v1/messages)、Gemini (v1beta/models) の各形式に対応。</li>
-                <li><strong>アカウント・プール管理:</strong> 複数のDeepSeekアカウントを登録し、自動でローテーション（輪番）利用が可能。待機キュー機能も備えています。</li>
-                <li><strong>PoW（Proof of Work）対応:</strong> DeepSeek Web版が必要とするPoW計算をGo側でミリ秒単位で処理し、シームレスな通信を実現。</li>
-                <li><strong>WebUI 管理画面:</strong> Reactベースの管理インターフェースが統合されており、ブラウザから簡単に設定やログの確認が可能。</li>
-                <li><strong>柔軟なデプロイ:</strong> ローカルバイナリ、Docker、Vercel Serverlessなど、多様な環境での動作をサポート。</li>
-            </ul>
+      <div class="article-body">
+        <h2>これは何か</h2>
+        <p>DeepSeekのWeb版（チャットインターフェース）で使用されているプロトコルを、OpenAI、Claude、およびGeminiと互換性のあるAPI形式に変換するための軽量なミドルウェアです。Go言語でフル実装されており、Pythonなどの実行環境を必要とせず、バイナリ一つで高速に動作します。</p>
 
-            <h2>なぜトレンドに？</h2>
-            <p>
-                DeepSeek-V3やR1の爆発的な普及に伴い、DeepSeekのモデルを既存のAIツール（Cline, Cursor, OpenRouter互換アプリなど）から手軽に、かつ効率的に利用したいという需要が急増しています。
-            </p>
-            <p>
-                特に、公式APIの混雑時や、複数のアカウントを束ねてスロットル制限を回避したい開発者、あるいは個人サーバーで安価にLLM環境を構築したい層から強い支持を集め、短期間で1,400スターを獲得する勢いを見せています。
-            </p>
-        </section>
+        <h2>何ができるか</h2>
+        <p>DeepSeekの公式APIは安価ですが、Web版で提供されている高度な機能や、複数の無料アカウントを統合して利用したいユーザーにとって、このプロキシは非常に有用なブリッジとなります。</p>
 
-        <footer class="article-footer">
-            <a href="../../../index.html">← インデックスへ戻る</a>
-        </footer>
+        <h2>目立つポイント</h2>
+        <p>多プロトコル互換、アカウント・プール管理、PoW（Proof of Work）対応、WebUI 管理画面、柔軟なデプロイなどの機能を備えています。</p>
+
+        <h2>セットアップや使い方の流れ</h2>
+        <p>ローカルバイナリ、Docker、Vercel Serverlessなど、多様な環境での動作をサポートしています。バイナリを起動し、WebUIからアカウント情報を設定するだけで利用可能です。</p>
+
+        <h2>どんな人向けか</h2>
+        <p>DeepSeekのモデルを既存のAIツール（Cline, Cursor等）から手軽に、かつ効率的に利用したい開発者に最適です。</p>
+
+        <h2>注意点</h2>
+        <p>Web版プロトコルをエミュレートして利用するため、DeepSeekの利用規約やサービス側の変更に注意が必要です。</p>
+
+        <h2>まとめ</h2>
+        <p>安価で高性能なDeepSeekを既存のOpenAI互換エコシステムに統合するための強力な選択肢であり、Goによる実装がその信頼性を高めています。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/CJackHwang/ds2api" target="_blank" rel="noreferrer">https://github.com/CJackHwang/ds2api</a>
+        </div>
+      </div>
+      <div class="article-footer">
+        <p class="article-serial">Shared GitHub Serial: #371</p>
+      </div>
     </article>
-</body>
+  </body>
 </html>
