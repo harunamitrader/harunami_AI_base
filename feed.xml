@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Apr 2026 04:04:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 04:29:23 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenClaw v2026.4.24: Google Meet 連携と DeepSeek V4 対応]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-26-openclaw-v2026-4-24-google-meet-deepseek-v4.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-26-openclaw-v2026-4-24-google-meet-deepseek-v4.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Google Meet バンドルプラグイン、DeepSeek V4 サポート、リアルタイム音声ループ機能など、マルチモーダル連携が大幅に強化されました。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-25 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-25-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>ai-tool-log</category>
       <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Agents Window での並列リクエスト（/multitask）や、独立した作業空間を構築するワークツリー、マルチルートワークスペースに対応。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code v2.1.119: 設定の永続化と WSL 連携の強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-claude-code-v2-1-119-settings-persistence-wsl.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-25-claude-code-v2-1-119-settings-persistence-wsl.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[設定の永続化、WSL での Windows 設定継承、自動アップデートの完全無効化など、実用的な改善を含むパッチアップデート。]]></description>
     </item>
   </channel>
 </rss>

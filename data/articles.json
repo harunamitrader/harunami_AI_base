@@ -7,6 +7,17 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-26-openclaw-v2026-4-24-google-meet-deepseek-v4",
+      "title": "OpenClaw v2026.4.24: Google Meet 連携と DeepSeek V4 対応",
+      "dek": "Google Meet バンドルプラグイン、DeepSeek V4 サポート、リアルタイム音声ループ機能など、マルチモーダル連携が大幅に強化されました。",
+      "summary": "Google Meet会議への自動参加プラグインや、コスト効率に優れたDeepSeek V4へのネイティブ対応、そして自然な会話を実現するVoice Loopエンジンを搭載したメジャーアップデート。",
+      "publishedAt": "2026-04-26",
+      "toolName": "OpenClaw",
+      "version": "v2026.4.24",
+      "articleUrl": "./articles/tools/2026-04-26-openclaw-v2026-4-24-google-meet-deepseek-v4.html"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-25-update-report",
       "title": "2026-04-25 アップデートレポート",
@@ -564,6 +575,17 @@
       "toolName": "Claude Code",
       "version": "v2.1.118",
       "articleUrl": "./articles/tools/2026-04-24-claude-code-v2-1-118-vim-visual-usage.html"
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-23-grok-voice-think-fast-1-0",
+      "title": "Grok Voice Think Fast 1.0: エンタープライズ音声エージェントの次世代基準",
+      "dek": "xAI が発表したエンタープライズ向け音声モデル。リアルタイム推論と高精度なデータ抽出により、複雑な業務フローを自然言語で完結。",
+      "summary": "レイテンシのない思考プロセス（Background Reasoning）と、25カ国語以上に対応した高精度なデータ抽出機能を備えた、ビジネス特化型音声モデルの旗艦版。",
+      "publishedAt": "2026-04-23",
+      "toolName": "Grok",
+      "version": "v1.0 (Realtime API)",
+      "articleUrl": "./articles/tools/2026-04-23-grok-voice-think-fast-1-0.html"
     },
     {
       "category": "ai-tool-log",
