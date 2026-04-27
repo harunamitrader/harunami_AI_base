@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpenClaw の最新ベータ版において、超高速推論の Cerebras プロバイダーが追加され、設定変更を確認しやすい JSON5 差分表示パネルが導入されました。"
+    />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>OpenClaw v2026.4.26-beta.1: Cerebras プロバイダーの追加と JSON5 差分表示の実装</title>
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <article class="article-shell">
+      <div class="article-topline">
+        <a class="article-back" href="../../index.html">← 記事一覧へ戻る</a>
+        <p class="eyebrow">TOOL UPDATE</p>
+      </div>
+
+      <h1 class="article-title">OpenClaw v2026.4.26-beta.1: Cerebras プロバイダーの追加と JSON5 差分表示の実装</h1>
+      <p class="article-dek">OpenClaw の最新ベータ版において、超高速推論の Cerebras プロバイダーが追加され、設定変更を確認しやすい JSON5 差分表示パネルが導入されました。</p>
+
+      <div class="article-meta-grid">
+        <div class="article-meta-item">
+          <span class="meta-label">リリース日</span>
+          <strong>2026-04-28</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">カテゴリ</span>
+          <strong>AI Others</strong>
+        </div>
+        <div class="article-meta-item">
+          <span class="meta-label">ツール</span>
+          <strong>OpenClaw</strong>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>主な変更点</h2>
+        <p>オープンソースのマルチモデル・エージェント・プラットフォーム「OpenClaw」の最新ベータ版がリリースされました。</p>
+        <ul>
+            <li><strong>Cerebras プロバイダーの統合:</strong> ウェハー規模のエンジンによる超高速推論を可能にする Cerebras がバンドルプラグインとして追加されました。</li>
+            <li><strong>JSON5 差分表示パネル:</strong> 設定 UI において、変更前後の設定を JSON5 形式で比較表示するパネルが実装され、保存前の確認が容易になりました。</li>
+            <li><strong>非対称埋め込みのサポート:</strong> OpenAI 互換エンドポイントにおいて、入力タイプ（Query/Document）を指定した埋め込み生成が可能になりました。</li>
+            <li><strong>プラグイン起動の高速化:</strong> モデル ID の正規化ロジックの改善により、多数のプラグインを読み込む際のオーバーヘッドが軽減されました。</li>
+        </ul>
+
+        <h2>影響や使いどころ</h2>
+        <p>Cerebras のサポートにより、レイテンシが極めて重要なリアルタイム対話や、大量のコンテキスト処理がより実用的になります。また、設定の差分表示は、複雑なエージェント設定を調整する開発者にとってミスを防ぐ重要な機能となります。</p>
+
+        <h2>まとめ</h2>
+        <p>OpenClaw は連日のように更新が行われており、最新のハードウェア・バックエンドへの適応と、開発者フレンドリーな UI の改善が同時に進んでいます。</p>
+
+        <h2>参照リンク</h2>
+        <div class="source-item">
+          <a href="https://github.com/openclaw/openclaw/releases" target="_blank" rel="noreferrer">OpenClaw GitHub Releases</a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

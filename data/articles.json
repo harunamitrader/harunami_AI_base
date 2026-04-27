@@ -8,6 +8,42 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-28-openclaw-v2026-4-26-beta-1-cerebras-json5-diff",
+      "title": "OpenClaw v2026.4.26-beta.1: Cerebras プロバイダーの追加と JSON5 差分表示の実装",
+      "dek": "OpenClaw の最新ベータ版において、超高速推論の Cerebras プロバイダーが追加され、設定変更を確認しやすい JSON5 差分表示パネルが導入されました。",
+      "summary": "Cerebras プロバイダーの統合、JSON5 形式の差分表示パネル、非対称埋め込みのサポート、およびプラグイン起動の高速化が行われました。",
+      "publishedAt": "2026-04-28",
+      "toolName": "OpenClaw",
+      "version": "v2026.4.26-beta.1",
+      "articleUrl": "./articles/tools/2026-04-28-openclaw-v2026-4-26-beta-1-cerebras-json5-diff.html",
+      "serial": 397
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-27-chatgpt-symphony-oss-spec",
+      "title": "ChatGPT: オープンソースのエージェント仕様「Symphony」を発表",
+      "dek": "OpenAI がマルチエージェントのオーケストレーションを定義するオープンソース仕様「Symphony」を発表。エージェント間の協調とタスク分散の標準化を目指します。",
+      "summary": "マルチエージェント連携の標準プロトコル「Symphony」の公開、オープンソース化、およびオーケストレーション定義の標準化が行われました。",
+      "publishedAt": "2026-04-27",
+      "toolName": "ChatGPT / Symphony",
+      "version": "Symphony Specification",
+      "articleUrl": "./articles/tools/2026-04-27-chatgpt-symphony-oss-spec.html",
+      "serial": 396
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-25-gemini-notebooklm-integration-lyria-3-pro",
+      "title": "Gemini / NotebookLM: Notebooks 機能の統合と Lyria 3 Pro による音楽生成の開放",
+      "dek": "Google の「April's Gemini Drop」により、NotebookLM の主要機能が Gemini アプリへ統合され、高品質な音楽生成モデル Lyria 3 Pro が無料開放されました。",
+      "summary": "Gemini アプリへの Notebooks 機能統合、Lyria 3 Pro 音楽生成の全ユーザー開放、macOS 版ネイティブアプリのリリースが含まれます。",
+      "publishedAt": "2026-04-25",
+      "toolName": "Gemini / NotebookLM",
+      "version": "April Gemini Drop",
+      "articleUrl": "./articles/tools/2026-04-25-gemini-notebooklm-integration-lyria-3-pro.html",
+      "serial": 395
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-27-github-copilot-model-selector-update",
       "title": "GitHub Copilot: モデルセレクターの整理と GPT-5.3-Codex の段階的廃止",
       "dek": "GitHub Copilot のモデル選択肢が整理され、旧世代の GPT-5.3-Codex モデルの提供が段階的に終了します。",

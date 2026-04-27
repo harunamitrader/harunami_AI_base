@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Apr 2026 04:12:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 04:37:05 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[OpenClaw v2026.4.26-beta.1: Cerebras プロバイダーの追加と JSON5 差分表示の実装]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-openclaw-v2026-4-26-beta-1-cerebras-json5-diff.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-openclaw-v2026-4-26-beta-1-cerebras-json5-diff.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenClaw の最新ベータ版において、超高速推論の Cerebras プロバイダーが追加され、設定変更を確認しやすい JSON5 差分表示パネルが導入されました。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT: オープンソースのエージェント仕様「Symphony」を発表]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-symphony-oss-spec.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-symphony-oss-spec.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenAI がマルチエージェントのオーケストレーションを定義するオープンソース仕様「Symphony」を発表。エージェント間の協調とタスク分散の標準化を目指します。]]></description>
+    </item>
     <item>
       <title><![CDATA[GitHub Copilot: モデルセレクターの整理と GPT-5.3-Codex の段階的廃止]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-model-selector-update.html</link>
@@ -150,22 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[「仕様書」を自律実装の契約に変える。Claude CodeやCursorを長時間駆動の自律エージェントへ進化させるSDDハーネス。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SkillPort]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-gotalab-skillport.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-gotalab-skillport.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「専門スキル」を自在に装着。CLIとMCPで管理・配信を統合するAgent Skillsのためのスキル・ハブ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026-04-26 アップデートレポート]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-26-update-report.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-26-update-report.html</guid>
-      <category>github-update-report</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
     </item>
   </channel>
 </rss>
