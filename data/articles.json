@@ -9,6 +9,22 @@
     {
       "category": "github-pickup",
       "originType": "pickup",
+      "slug": "2026-04-27-open-llm-vtuber-open-llm-vtuber",
+      "title": "Open-LLM-VTuber",
+      "dek": "Live2Dアバターと音声でリアルタイムに対話。マルチプラットフォーム対応で、ローカルLLMを活用した「自分専用のAIコンパニオン」を構築できるオープンソース基盤。",
+      "summary": "LLM、音声認識、音声合成、そしてLive2Dを統合したAI VTuber構築基盤。ハンズフリー対話や音声割り込み、視覚認識をサポートし、Windows/macOS/Linuxでローカル完結のオフライン動作が可能です。",
+      "publishedAt": "2026-04-27",
+      "createdAt": "2026-04-27T21:35:00+09:00",
+      "repoName": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "repoUrl": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "starCount": 7100,
+      "articleUrl": "./articles/github/daily/2026-04-27-open-llm-vtuber-open-llm-vtuber.html",
+      "serial": 391,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
+      "category": "github-pickup",
+      "originType": "pickup",
       "slug": "2026-04-27-tradermonty-claude-trading-skills",
       "title": "claude-trading-skills",
       "dek": "Claude Codeを「最強のトレーディング・エージェント」へ。マーケット分析、テクニカルチャート解析、ポートフォリオ管理を統合する金融特化スキルセット。",

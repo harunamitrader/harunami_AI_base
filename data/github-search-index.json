@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-04-27T06:27:53.496469+00:00",
-  "count": 406,
+  "generatedAt": "2026-04-27T12:36:21.291952+00:00",
+  "count": 407,
   "articles": [
+    {
+      "slug": "2026-04-27-open-llm-vtuber-open-llm-vtuber",
+      "category": "github-pickup",
+      "originType": "pickup",
+      "title": "Open-LLM-VTuber",
+      "dek": "Live2Dアバターと音声でリアルタイムに対話。マルチプラットフォーム対応で、ローカルLLMを活用した「自分専用のAIコンパニオン」を構築できるオープンソース基盤。",
+      "summary": "LLM、音声認識、音声合成、そしてLive2Dを統合したAI VTuber構築基盤。ハンズフリー対話や音声割り込み、視覚認識をサポートし、Windows/macOS/Linuxでローカル完結のオフライン動作が可能です。",
+      "repoName": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "genre": "AIエージェント (自律基盤・特化アプリ)",
+      "publishedAt": "2026-04-27",
+      "createdAt": "2026-04-27T21:35:00+09:00",
+      "articleUrl": "./articles/github/daily/2026-04-27-open-llm-vtuber-open-llm-vtuber.html",
+      "serial": 391,
+      "searchText": "Open-LLM-VTuber Live2Dアバターと音声でリアルタイムに対話。マルチプラットフォーム対応で、ローカルLLMを活用した「自分専用のAIコンパニオン」を構築できるオープンソース基盤。 LLM、音声認識、音声合成、そしてLive2Dを統合したAI VTuber構築基盤。ハンズフリー対話や音声割り込み、視覚認識をサポートし、Windows/macOS/Linuxでローカル完結のオフライン動作が可能です。 Open-LLM-VTuber/Open-LLM-VTuber AIエージェント (自律基盤・特化アプリ) Open-LLM-VTuber ← 記事一覧へ戻る GitHub Watcher Open-LLM-VTuber Live2Dアバターと音声でリアルタイムに対話。マルチプラットフォーム対応で、ローカルLLMを活用した「自分専用のAIコンパニオン」を構築できるオープンソース基盤。 記事作成日 2026-04-27 種別 **Pickup** 対象 repo Open-LLM-VTuber/Open-LLM-VTuber Star数 7,100 これは何か 音声でリアルタイムに対話できるオープンソースのAI VTuber基盤です。LLM（大規模言語モデル）、ASR（自動音声認識）、TTS（テキスト読み上げ）をシームレスに統合し、Live2Dアバターを介した人間味のあるインターフェースを提供します。 何ができるか ハンズフリーでの音声会話はもちろん、AIが話している最中にユーザーが話し始めても検知して中断する「音声割り込み」に対応しています。また、カメラや画面キャプチャを通じた視覚認識、デスクトップ上に背景透過で配置できるペットモードなど、多彩な対話スタイルを実現します。 目立つポイント 徹底したローカル実行へのこだわりが特徴で、Ollama等のローカルLLMと組み合わせることで完全オフラインでの動作が可能です。また、Windows、macOS（Apple Silicon含む）、Linuxのマルチプラットフォームをサポートしており、幅広いハードウェア環境で利用できます。 セットアップや使い方の流れ Python環境（uvを推奨）を構築し、リポジトリをクローンしてインストールします。 conf.yaml で使用するLLMやTTSエンジン（OpenAI, Gemini, Claude, Edge TTS等）を設定し、サーバーを起動するだけで、Webブラウザや専用のデスクトップクライアントから対話を開始できます。 どんな人向けか 自分専用のAIパートナーやVTuberキャラクターを構築したい開発者、AIとの音声対話の遅延を最小限に抑えたいユーザー、またはプライバシーのためにローカル環境でAIコンパニオンを運用したい人に最適です。 注意点 外部デバイス（スマホ等）からアクセスする場合はHTTPS設定が必要です。また、リアルタイムな音声処理とLive2D描画を同時に行うため、モデルの構成によっては一定以上のGPUスペックが要求されます。 まとめ Open-LLM-VTuberは、技術的な複雑さをモジュール化して隠蔽しつつ、高度なカスタマイズ性を維持した強力なAIコンパニオン基盤です。キャラクターの性格や声を自由に入れ替えられるため、次世代のパーソナルAI体験を構築するための出発点として非常に優れたプロジェクトです。 参照リンク https://github.com/Open-LLM-VTuber/Open-LLM-VTuber Shared GitHub Serial: #391"
+    },
     {
       "slug": "2026-04-27-tradermonty-claude-trading-skills",
       "category": "github-pickup",

@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Apr 2026 15:27:53 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 21:36:17 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Open-LLM-VTuber]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-open-llm-vtuber-open-llm-vtuber.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-open-llm-vtuber-open-llm-vtuber.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Live2Dアバターと音声でリアルタイムに対話。マルチプラットフォーム対応で、ローカルLLMを活用した「自分専用のAIコンパニオン」を構築できるオープンソース基盤。]]></description>
+    </item>
     <item>
       <title><![CDATA[claude-trading-skills]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-tradermonty-claude-trading-skills.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Claude Codeを自分仕様の最強AIツールへ。100以上の専門家エージェント、コマンド、MCP連携を統合管理するエコシステム。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepEP]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-deepseek-ai-deepep.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-deepseek-ai-deepep.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[DeepSeek-V3/R1を支える超高速MoE通信ライブラリ。MoEとエキスパート並列に特化した、世界最高峰のGPUカーネル集。]]></description>
     </item>
   </channel>
 </rss>
