@@ -5,8 +5,24 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Apr 2026 21:37:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 04:11:47 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[GitHub Copilot: モデルセレクターの整理と GPT-5.3-Codex の段階的廃止]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-model-selector-update.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-model-selector-update.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[GitHub Copilot のモデル選択肢が整理され、旧世代の GPT-5.3-Codex モデルの提供が段階的に終了します。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Gemini CLI v0.41.0-nightly.20260427: Nightly 更新と安定性の向上]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-gemini-cli-v0-41-0-nightly-20260427.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-gemini-cli-v0-41-0-nightly-20260427.html</guid>
+      <category>ai-tool-log</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Gemini CLI の最新 Nightly ビルドにおいて、セッションの安定性と ContextManager の処理効率が改善されました。]]></description>
+    </item>
     <item>
       <title><![CDATA[Open-LLM-VTuber]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-open-llm-vtuber-open-llm-vtuber.html</link>
@@ -150,22 +166,6 @@
       <category>github-update-report</category>
       <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Agent Skills]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-mattpocock-skills.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-mattpocock-skills.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントを「自律的な同僚」へ。PRD作成、TDD、リファクタリングを代行する、強力なスキル・コレクション。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code Templates]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-davila7-claude-code-templates.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-davila7-claude-code-templates.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Claude Codeを自分仕様の最強AIツールへ。100以上の専門家エージェント、コマンド、MCP連携を統合管理するエコシステム。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,42 @@
   },
   "articles": [
     {
+      "category": "ai-tool-log",
+      "slug": "2026-04-27-github-copilot-model-selector-update",
+      "title": "GitHub Copilot: モデルセレクターの整理と GPT-5.3-Codex の段階的廃止",
+      "dek": "GitHub Copilot のモデル選択肢が整理され、旧世代の GPT-5.3-Codex モデルの提供が段階的に終了します。",
+      "summary": "旧世代のコーディング特化モデル GPT-5.3-Codex の廃止と、モデルセレクターの簡素化、および最新モデルへの移行促進が行われました。",
+      "publishedAt": "2026-04-27",
+      "toolName": "GitHub Copilot",
+      "version": "Update 2026-04-27",
+      "articleUrl": "./articles/tools/2026-04-27-github-copilot-model-selector-update.html",
+      "serial": 394
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-27-gemini-cli-v0-41-0-nightly-20260427",
+      "title": "Gemini CLI v0.41.0-nightly.20260427: Nightly 更新と安定性の向上",
+      "dek": "Gemini CLI の最新 Nightly ビルドにおいて、セッションの安定性と ContextManager の処理効率が改善されました。",
+      "summary": "最新の Nightly ビルド配信。ContextManager の最適化によるメモリ抑制と /resume の高速化、および YOLO モードの安定性向上が含まれます。",
+      "publishedAt": "2026-04-27",
+      "toolName": "Gemini CLI",
+      "version": "v0.41.0-nightly.20260427",
+      "articleUrl": "./articles/tools/2026-04-27-gemini-cli-v0-41-0-nightly-20260427.html",
+      "serial": 393
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-24-windsurf-gpt-5-5-support",
+      "title": "Windsurf: OpenAI の最新モデル「GPT-5.5」にネイティブ対応",
+      "dek": "OpenAI の最新フラッグシップモデル「GPT-5.5」が Windsurf のエージェント Cascade で利用可能になりました。",
+      "summary": "エージェント Cascade における GPT-5.5 のサポート、Adaptive Model Router の最適化、および詳細なコスト表示機能を追加。",
+      "publishedAt": "2026-04-24",
+      "toolName": "Windsurf",
+      "version": "GPT-5.5 Support",
+      "articleUrl": "./articles/tools/2026-04-24-windsurf-gpt-5-5-support.html",
+      "serial": 392
+    },
+    {
       "category": "github-pickup",
       "originType": "pickup",
       "slug": "2026-04-27-open-llm-vtuber-open-llm-vtuber",
