@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Apr 2026 05:18:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 08:13:44 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[Memary]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-kingjulio8238-memary.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-kingjulio8238-memary.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[自律型AIエージェントに「人間の記憶」を与えるオープンソースのメモリレイヤー。ナレッジグラフを活用し、過去の対話やユーザーの知識レベルを追跡・管理する。]]></description>
+    </item>
     <item>
       <title><![CDATA[heretic]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-p-e-w-heretic.html</link>
@@ -158,14 +166,6 @@
       <category>github-trending</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[AIが「目」と「手」を持ってPCを操作する。デスクトップ全体を制御するComputer-Use Agent（CUA）のための、安全な実行・開発インフラ。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Beads]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-gastownhall-beads.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-gastownhall-beads.html</guid>
-      <category>github-trending</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AIエージェントに「構造化された記憶」を。Gitバックエンドのタスク管理により、長期タスクの完遂を支援するメモリ・アップグレード・ツール。]]></description>
     </item>
   </channel>
 </rss>
