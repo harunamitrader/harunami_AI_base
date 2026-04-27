@@ -5,8 +5,16 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Apr 2026 20:59:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 10:46:34 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[awesome-agent-orchestrators]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-andyrewlee-awesome-agent-orchestrators.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-27-andyrewlee-awesome-agent-orchestrators.html</guid>
+      <category>github-pickup</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AIエージェントの「オーケストレーション」に特化。複数の自律エージェントを連携・管理・並列実行するための最新ツールを網羅した、開発者必見のキュレーションリスト。]]></description>
+    </item>
     <item>
       <title><![CDATA[2026-04-27 アップデートレポート]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-27-update-report.html</link>
@@ -158,14 +166,6 @@
       <category>github-pickup</category>
       <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Clineから進化したVS Code用自律型AIコーディングエージェント。マルチモード対応とMCP連携により、実装からデバッグまでを完遂。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ds2api]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-cjackhwang-ds2api.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-26-cjackhwang-ds2api.html</guid>
-      <category>github-pickup</category>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[DeepSeek WebをOpenAI互換APIへ変換。多アカウント回転とPoW計算を備えた、Go製の高性能プロキシ・ミドルウェア。]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,22 @@
   },
   "articles": [
     {
+      "category": "github-pickup",
+      "originType": "pickup",
+      "slug": "2026-04-27-andyrewlee-awesome-agent-orchestrators",
+      "title": "awesome-agent-orchestrators",
+      "dek": "AIエージェントの「オーケストレーション」に特化。複数の自律エージェントを連携・管理・並列実行するための最新ツールを網羅した、開発者必見のキュレーションリスト。",
+      "summary": "複数のAIエージェントを並列実行・連携させるためのツールやフレームワークを集めたAwesomeリスト。エージェント間通信、共有ワークスペース、自律ループ管理など、次世代のエージェント運用に不可欠なプロジェクトを4つのカテゴリで網羅しています。",
+      "publishedAt": "2026-04-27",
+      "createdAt": "2026-04-27T10:46:00+09:00",
+      "repoName": "andyrewlee/awesome-agent-orchestrators",
+      "repoUrl": "https://github.com/andyrewlee/awesome-agent-orchestrators",
+      "starCount": 361,
+      "articleUrl": "./articles/github/daily/2026-04-27-andyrewlee-awesome-agent-orchestrators.html",
+      "serial": 389,
+      "genre": "AIエージェント (自律基盤・特化アプリ)"
+    },
+    {
       "category": "github-update-report",
       "slug": "2026-04-27-update-report",
       "title": "2026-04-27 アップデートレポート",
