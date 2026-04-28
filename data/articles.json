@@ -1261,22 +1261,6 @@
     {
       "category": "github-trending",
       "originType": "trending",
-      "slug": "2026-04-24-alishahryar1-free-claude-code",
-      "title": "free-claude-code",
-      "dek": "Anthropic の Claude Code を無料で。独自のリバースプロキシと認証バイパスにより、ターミナル完結型 AI 開発環境を誰でも手軽に構築できる実験的プロジェクト。",
-      "summary": "話題のターミナルAIツール「Claude Code」を無料で試用するための実験的フォーク。独自の認証処理とリバースプロキシを介し、APIコストを抑えて最新のエージェント体験を提供することを目指しています。",
-      "publishedAt": "2026-04-24",
-      "repoName": "Alishahryar1/free-claude-code",
-      "repoUrl": "https://github.com/Alishahryar1/free-claude-code",
-      "starCount": 127,
-      "articleUrl": "./articles/github/daily/2026-04-24-alishahryar1-free-claude-code.html",
-      "serial": 343,
-      "rank": 6,
-      "genre": "AIコーディング (CLI本体・拡張機能)"
-    },
-    {
-      "category": "github-trending",
-      "originType": "trending",
       "slug": "2026-04-24-powershell-powershell",
       "title": "PowerShell",
       "dek": "Windows, Linux, macOSに対応した次世代クロスプラットフォーム・シェル。オブジェクトベースের強力なパイプラインが、AIエージェントによる自動化操作の「手」として再注目。",
@@ -1561,22 +1545,6 @@
       "serial": 333,
       "rank": 10,
       "genre": "メディア作成・マルチモーダル・UI"
-    },
-    {
-      "category": "github-trending",
-      "originType": "trending",
-      "slug": "2026-04-23-z4nzu-hackingtool",
-      "title": "hackingtool",
-      "dek": "ハッカーのための「オールインワン」ツールセット。偵察からWeb攻撃、ワイヤレス攻撃まで、数百種類のセキュリティツールを一つのコンソールから操る。",
-      "summary": "セキュリティリサーチに必要なツールを数百種類集約した統合フレームワーク。メニュー形式の直感的なインターフェースで、偵察から侵入テストまでを一元管理できます。",
-      "publishedAt": "2026-04-23",
-      "repoName": "Z4nzu/hackingtool",
-      "repoUrl": "https://github.com/Z4nzu/hackingtool",
-      "starCount": 59492,
-      "articleUrl": "./articles/github/daily/2026-04-23-z4nzu-hackingtool.html",
-      "serial": 334,
-      "rank": 11,
-      "genre": "スクレイピング・情報収集・セキュリティ"
     },
     {
       "category": "ai-tool-log",
@@ -2314,23 +2282,6 @@
       "originType": "trending",
       "rank": 6,
       "genre": "ナレッジ管理・RAG解析"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-04-20-ruvnet-ruview",
-      "title": "RuView",
-      "dek": "WiFi信号を「目」に変え、カメラなしで人影やバイタルを計測。物理空間をデジタル化する次世代のWiFiセンシング基盤。",
-      "summary": "市販の WiFi 信号を利用して人体姿勢やバイタルを推定するフレームワーク。カメラを使わずにプライバシーを保護しながら、暗闇や壁越しの動きさえも可視化し、見守りやセキュリティに革新をもたらします。",
-      "publishedAt": "2026-04-20",
-      "createdAt": "2026-04-20T06:12:00+09:00",
-      "repoName": "ruvnet/RuView",
-      "repoUrl": "https://github.com/ruvnet/RuView",
-      "starCount": 47425,
-      "articleUrl": "./articles/github/daily/2026-04-20-ruvnet-ruview.html",
-      "serial": 295,
-      "originType": "trending",
-      "rank": 7,
-      "genre": "メディア作成・マルチモーダル・UI"
     },
     {
       "category": "ai-tool-log",
@@ -3393,22 +3344,6 @@
     },
     {
       "category": "github-pickup",
-      "slug": "2026-04-17-mvanhorn-last30days-skill",
-      "title": "last30days-skill",
-      "dek": "Reddit、X、YouTube 等を横断し、直近 30 日間の「人の熱狂」を根拠付きで要約する AI エージェント用スキル。",
-      "summary": "mvanhorn/last30days-skill は、主要なSNSやプラットフォームから直近30日間の議論や engagement データを抽出し、AIエージェントによる深いリサーチを自動化するスキルです。従来の検索よりも『情報の鮮度』と『世間の反応』に特化した強力なインテリジェンスを提供します。",
-      "publishedAt": "2026-04-17",
-      "createdAt": "2026-04-17T05:20:00+09:00",
-      "repoName": "mvanhorn/last30days-skill",
-      "repoUrl": "https://github.com/mvanhorn/last30days-skill",
-      "starCount": 22300,
-      "articleUrl": "./articles/github/daily/2026-04-17-mvanhorn-last30days-skill.html",
-      "serial": 237,
-      "originType": "pickup",
-      "genre": "AI基盤・データ基盤・業務アプリ"
-    },
-    {
-      "category": "github-pickup",
       "slug": "2026-04-17-open-dev-society-openstock",
       "title": "OpenStock",
       "dek": "高価な市場プラットフォームに代わる、Next.js 15 製のオープンソース株式情報ダッシュボード。",
@@ -3552,22 +3487,6 @@
       "serial": 227,
       "originType": "trending",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-04-16-public-apis-public-apis",
-      "title": "public-apis",
-      "dek": "開発者が無料で利用できる各種APIをまとめた、オープンソースコミュニティによる巨大なキュレーションリスト。",
-      "publishedAt": "2026-04-16",
-      "createdAt": "2026-04-16T05:30:00+09:00",
-      "repoName": "public-apis/public-apis",
-      "repoUrl": "https://github.com/public-apis/public-apis",
-      "starCount": 423132,
-      "articleUrl": "./articles/github/daily/2026-04-16-public-apis-public-apis.html",
-      "rank": 9,
-      "serial": 226,
-      "originType": "trending",
-      "genre": "学習ガイド・開発アセット"
     },
     {
       "category": "ai-tool-log",
@@ -4205,22 +4124,6 @@
       "serial": 204,
       "originType": "pickup",
       "genre": "AIコーディング (CLI本体・拡張機能)"
-    },
-    {
-      "category": "github-pickup",
-      "slug": "2026-04-13-nashsu-llm_wiki",
-      "title": "LLM Wiki",
-      "dek": "Karpathy 氏の設計思想を具現化。ドキュメントを自律的に整理・相互リンクし、永続的なナレッジベースへと昇華させる「自動構築 Wiki」。",
-      "summary": "nashsu/llm_wiki は、Andrej Karpathy 氏の LLM Wiki パターンを実装したデスクトップアプリ。ドキュメントを自動的に解析し、相互リンクされた Wiki を段階的に構築。ナレッジグラフや自律的な調査機能も備えます。",
-      "publishedAt": "2026-04-13",
-      "createdAt": "2026-04-13T15:35:00+09:00",
-      "repoName": "nashsu/llm_wiki",
-      "repoUrl": "https://github.com/nashsu/llm_wiki",
-      "starCount": 1354,
-      "articleUrl": "./articles/github/daily/2026-04-13-nashsu-llm_wiki.html",
-      "serial": 203,
-      "originType": "pickup",
-      "genre": "ナレッジ管理・RAG解析"
     },
     {
       "category": "github-pickup",
@@ -5291,23 +5194,6 @@
       "genre": "AIコーディング (CLI本体・拡張機能)"
     },
     {
-      "category": "github-trending",
-      "slug": "2026-04-09-obra-superpowers",
-      "title": "Superpowers",
-      "dek": "AIエージェントの能力を標準化。Claude CodeやCursorで共通利用可能な「特技」の詰め合わせ。",
-      "summary": "AIエージェントに共通のスキル（機能）を付与するための統合フレームワーク。Web操作やシステム制御など、プラットフォームを問わずエージェントを強化できるツール群を提供します。",
-      "publishedAt": "2026-04-09",
-      "createdAt": "2026-04-09T10:20:00+09:00",
-      "repoName": "obra/superpowers",
-      "repoUrl": "https://github.com/obra/superpowers",
-      "starCount": 153327,
-      "articleUrl": "./articles/github/daily/2026-04-09-obra-superpowers.html",
-      "rank": 7,
-      "serial": 160,
-      "originType": "trending",
-      "genre": "AIコーディング (CLI本体・拡張機能)"
-    },
-    {
       "category": "github-pickup",
       "slug": "2026-04-09-hkuds-vibe-trading",
       "title": "Vibe-Trading",
@@ -5339,23 +5225,6 @@
       "serial": 158,
       "originType": "trending",
       "genre": "AI基盤・データ基盤・業務アプリ"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-04-09-virattt-ai-hedge-fund",
-      "title": "ai-hedge-fund",
-      "dek": "著名投資家の思考をマルチエージェントで再現。議論と合意で市場に挑むAIヘッジファンド。",
-      "summary": "複数の独立したAIエージェントが、バフェットやバリーなどの著名投資家の思考プロセスをシミュレートして投資判断を行うシステム。エージェント間の合意形成を通じてポートフォリオを決定します。",
-      "publishedAt": "2026-04-09",
-      "createdAt": "2026-04-09T10:00:00+09:00",
-      "repoName": "virattt/ai-hedge-fund",
-      "repoUrl": "https://github.com/virattt/ai-hedge-fund",
-      "starCount": 54625,
-      "articleUrl": "./articles/github/daily/2026-04-09-virattt-ai-hedge-fund.html",
-      "rank": 10,
-      "serial": 157,
-      "originType": "trending",
-      "genre": "金融・トレード分析"
     },
     {
       "category": "ai-tool-log",
@@ -6201,23 +6070,6 @@
     },
     {
       "category": "github-trending",
-      "slug": "2026-04-07-keygraphhq-shannon",
-      "title": "shannon",
-      "dek": "AI が自律的に脆弱性を診断。Web アプリ向けペンテストツール。",
-      "summary": "Web アプリケーションや API を対象とした自律型 AI ペネトレーションテストツール。攻撃者の視点をシミュレートし、アタックサーフェスの特定から疑似攻撃、レポート作成までを自動化。",
-      "publishedAt": "2026-04-07",
-      "createdAt": "2026-04-07T05:08:00+09:00",
-      "repoName": "KeygraphHQ/shannon",
-      "repoUrl": "https://github.com/KeygraphHQ/shannon",
-      "starCount": 38290,
-      "articleUrl": "./articles/github/daily/2026-04-07-keygraphhq-shannon.html",
-      "rank": 6,
-      "serial": 120,
-      "originType": "trending",
-      "genre": "スクレイピング・情報収集・セキュリティ"
-    },
-    {
-      "category": "github-trending",
       "slug": "2026-04-07-immich-app-immich",
       "title": "immich",
       "dek": "自己ホストで所有権を取り戻す。 Google フォト代わりの写真管理システム。",
@@ -6249,23 +6101,6 @@
       "serial": 118,
       "originType": "trending",
       "genre": "AI基盤・データ基盤・業務アプリ"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-04-07-abhigyanpatwari-gitnexus",
-      "title": "GitNexus",
-      "dek": "サーバー不要でブラウザ完結。AI 内蔵のコード視覚化・探索エンジン。",
-      "summary": "ブラウザ上で動作する「ゼロ・サーバー」のコード・インテリジェンス・ツール. リポジトリの構造をグラフで視覚化し、Graph RAG内蔵の AI と対話しながらコードを探索可能。",
-      "publishedAt": "2026-04-07",
-      "createdAt": "2026-04-07T05:05:01+09:00",
-      "repoName": "abhigyanpatwari/GitNexus",
-      "repoUrl": "https://github.com/abhigyanpatwari/GitNexus",
-      "starCount": 27466,
-      "articleUrl": "./articles/github/daily/2026-04-07-abhigyanpatwari-gitnexus.html",
-      "rank": 1,
-      "serial": 117,
-      "originType": "trending",
-      "genre": "ナレッジ管理・RAG解析"
     },
     {
       "category": "github-pickup",
@@ -7125,22 +6960,6 @@
     },
     {
       "category": "github-pickup",
-      "slug": "2026-04-03-open-gitagent-clawless",
-      "title": "clawless",
-      "dek": "Claw 系 AI エージェントを、サーバーなしでブラウザ内だけで動かせる WebContainers ベースの実行基盤。",
-      "summary": "open-gitagent/clawless は、WebContainers 上で Claw 系エージェントを走らせ、コード実行、監査ログ、YAML ポリシー、GitHub 連携までをブラウザ内で完結させる serverless runtime です。",
-      "publishedAt": "2026-04-03",
-      "createdAt": "2026-04-03T03:26:15+09:00",
-      "repoName": "open-gitagent/clawless",
-      "repoUrl": "https://github.com/open-gitagent/clawless",
-      "starCount": 258,
-      "articleUrl": "./articles/github/daily/2026-04-03-open-gitagent-clawless.html",
-      "serial": 84,
-      "originType": "pickup",
-      "genre": "AIエージェント (自律基盤・特化アプリ)"
-    },
-    {
-      "category": "github-pickup",
       "slug": "2026-04-02-anand-swamy-stockbot",
       "title": "stockbot",
       "dek": "Yahoo Finance の株価データと Alpaca の紙上取引を使い、テクニカル分析で自動売買を試せるシンプルな stock bot。",
@@ -7575,23 +7394,6 @@
       "serial": 64,
       "originType": "pickup",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
-    },
-    {
-      "category": "github-pickup",
-      "slug": "2026-03-31-trading-agents",
-      "title": "TradingAgents",
-      "dek": "LangGraph 基盤の自律エージェント軍が市場を多角分析。センチメント解析から取引判断までを自動化。",
-      "summary": "LangGraph を活用したマルチエージェント分析システム TradingAgents の解析。SNS のセンチメントやマクロ経済を分析するエージェントたちの議論（Debate）を通じた意思決定プロセスを解説。",
-      "publishedAt": "2026-03-31",
-      "repoName": "TauricResearch/TradingAgents",
-      "repoUrl": "https://github.com/TauricResearch/TradingAgents",
-      "starCount": 50590,
-      "articleUrl": "./articles/github/daily/2026-03-31-trading-agents.html",
-      "rank": "ピックアップ",
-      "createdAt": "2026-03-31T19:25:30+09:00",
-      "serial": 63,
-      "originType": "pickup",
-      "genre": "金融・トレード分析"
     },
     {
       "category": "github-pickup",
@@ -8087,23 +7889,6 @@
     },
     {
       "category": "github-trending",
-      "slug": "2026-03-30-microsoft-vibevoice",
-      "title": "VibeVoice",
-      "dek": "ASR（文字起こし）と TTS（音声合成）を統合した、Microsoft 発の最先端オープンソース音声 AI。",
-      "summary": "Microsoft が公開した最先端のオープンソース音声 AI モデル。長尺の文字起こしや多言語対応をサポート。",
-      "publishedAt": "2026-03-30",
-      "repoName": "microsoft/VibeVoice",
-      "repoUrl": "https://github.com/microsoft/VibeVoice",
-      "starCount": 39627,
-      "articleUrl": "./articles/github/daily/2026-03-30-microsoft-vibevoice.html",
-      "rank": 3,
-      "createdAt": "2026-03-30T05:10:16+09:00",
-      "serial": 39,
-      "originType": "trending",
-      "genre": "メディア作成・マルチモーダル・UI"
-    },
-    {
-      "category": "github-trending",
       "slug": "2026-03-30-luongnv89-claude-howto",
       "title": "claude-howto",
       "dek": "Claude Code の機能をビジュアルで実例中心に網羅した、GitHub で爆発的人気の包括的ガイド。",
@@ -8380,23 +8165,6 @@
       "serial": 22,
       "originType": "pickup",
       "genre": "AIコーディング (CLI本体・拡張機能)"
-    },
-    {
-      "category": "github-pickup",
-      "slug": "2026-03-29-teng-lin-notebooklm-py",
-      "title": "notebooklm-py",
-      "dek": "Google NotebookLMの機能をプログラムから自由に操作するための非公式なPython APIとエージェントスキル。",
-      "summary": "",
-      "publishedAt": "2026-03-29",
-      "repoName": "teng-lin/notebooklm-py",
-      "repoUrl": "https://github.com/teng-lin/notebooklm-py",
-      "starCount": 10629,
-      "articleUrl": "./articles/github/daily/2026-03-29-teng-lin-notebooklm-py.html",
-      "rank": "ピックアップ",
-      "createdAt": "2026-03-29T16:55:44+09:00",
-      "serial": 25,
-      "originType": "pickup",
-      "genre": "ナレッジ管理・RAG解析"
     },
     {
       "category": "github-pickup",
@@ -8742,23 +8510,6 @@
       "serial": 9,
       "originType": "trending",
       "genre": "AIコーディング (ワークフロー・プロンプト・開発補助ツール)"
-    },
-    {
-      "category": "github-trending",
-      "slug": "2026-03-26-ruvnet-ruview",
-      "title": "RuView",
-      "dek": "WiFi 信号の乱れを解析し、カメラなしで壁越しに人間の姿勢推定やバイタル測定を行う Rust 製システム。",
-      "summary": "ruvnet/RuView を読み、WiFi 信号を用いてカメラなしで壁越しの人物検知やバイタル測定を行う革新的な Rust プロジェクトを解説。",
-      "publishedAt": "2026-03-26",
-      "repoName": "ruvnet/RuView",
-      "repoUrl": "https://github.com/ruvnet/RuView",
-      "starCount": 46719,
-      "articleUrl": "./articles/github/daily/2026-03-26-ruvnet-ruview.html",
-      "rank": 8,
-      "createdAt": "2026-03-26T10:07:57+09:00",
-      "serial": 8,
-      "originType": "trending",
-      "genre": "AI基盤・データ基盤・業務アプリ"
     },
     {
       "category": "github-trending",
