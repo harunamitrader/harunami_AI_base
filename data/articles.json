@@ -8,6 +8,78 @@
   "articles": [
     {
       "category": "ai-tool-log",
+      "slug": "2026-04-28-openclaw-v2026-4-26-voice-telemetry",
+      "title": "OpenClaw v2026.4.26: 音声合成の刷新とテレメトリ監視の導入",
+      "dek": "OpenClaw v2026.4.26 がリリース。ElevenLabs v3 への対応、アカウントごとの音声上書き設定、OpenTelemetry による高度な監視機能が追加されました。",
+      "summary": "ElevenLabs v3 サポート、エージェントごとの音声上書き、および OpenTelemetry による監視機能が導入されました。",
+      "publishedAt": "2026-04-28",
+      "toolName": "OpenClaw",
+      "version": "v2026.4.26",
+      "articleUrl": "./articles/tools/2026-04-28-openclaw-v2026-4-26-voice-telemetry.html",
+      "serial": 413
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-27-chatgpt-sharepoint-onedrive-connector",
+      "title": "ChatGPT: SharePoint & OneDrive 同期コネクタの導入",
+      "dek": "ChatGPT Business 向けに SharePoint / OneDrive 同期コネクタがリリース。社内の膨大なドキュメントを直接参照し、安全なナレッジ共有を実現します。",
+      "summary": "SharePoint および OneDrive との同期コネクタ追加。社内ドキュメントの自動インデックスと最新化が可能になりました。",
+      "publishedAt": "2026-04-27",
+      "toolName": "ChatGPT",
+      "version": "Enterprise Connectors",
+      "articleUrl": "./articles/tools/2026-04-27-chatgpt-sharepoint-onedrive-connector.html",
+      "serial": 412
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-27-perplexity-computer-unified-workspace",
+      "title": "Perplexity Computer: 19 モデルを統合する次世代 AI ワークスペースへの刷新",
+      "dek": "Perplexity がすべての機能を統合した「Perplexity Computer」へ刷新。19 種類以上のモデルを使い分け、リサーチからプロジェクト完遂までを一つのワークスペースで行えます。",
+      "summary": "Perplexity のブランド刷新と機能統合。19 モデルの切り替え、統一されたプロジェクトワークスペース、Mac 版の進化が含まれます。",
+      "publishedAt": "2026-04-27",
+      "toolName": "Perplexity",
+      "version": "Perplexity Computer",
+      "articleUrl": "./articles/tools/2026-04-27-perplexity-computer-unified-workspace.html",
+      "serial": 411
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-28-grok-voice-think-fast-1-0",
+      "title": "Grok: 超低遅延・高感情の音声基盤「Think Fast 1.0」をリリース",
+      "dek": "xAI が世界最速レベルの音声エージェント基盤「Grok Voice Think Fast 1.0」をリリース。100ms 以下の低遅延と、自然な感情表現を備えたリアルタイム対話を実現します。",
+      "summary": "100ms 以下の応答遅延と高度な感情表現エンジン、リアルタイム外部データ連携を備えた音声基盤の公開。",
+      "publishedAt": "2026-04-28",
+      "toolName": "Grok",
+      "version": "Think Fast 1.0",
+      "articleUrl": "./articles/tools/2026-04-28-grok-voice-think-fast-1-0.html",
+      "serial": 410
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-28-notebooklm-gemini-slides-integration",
+      "title": "NotebookLM: Gemini への完全統合と Google Slides 編集機能の強化",
+      "dek": "NotebookLM の機能が Google Gemini アプリと Slides に深く統合。資料の要約、構造化、そして Slides 内でのスライド自動構成が可能になりました。",
+      "summary": "Gemini アプリへの Notebook 機能統合、Google Slides での自動構成支援、マルチモーダルソース対応の強化が行われました。",
+      "publishedAt": "2026-04-28",
+      "toolName": "NotebookLM",
+      "version": "Gemini Integration",
+      "articleUrl": "./articles/tools/2026-04-28-notebooklm-gemini-slides-integration.html",
+      "serial": 409
+    },
+    {
+      "category": "ai-tool-log",
+      "slug": "2026-04-28-claude-creative-connectors",
+      "title": "Claude: 9 つのクリエイティブ・コネクタを公開、プロの制作環境と直接連携",
+      "dek": "Anthropic が 9 つのプロ向けクリエイティブ・コネクタをリリース。Claude が Photoshop、Blender、Ableton などのアプリを直接操作し、共同制作を支援します。",
+      "summary": "Photoshop, Blender, Unity 等を含む 9 つのクリエイティブツール向けコネクタのリリース。双方向のツール操作に対応しました。",
+      "publishedAt": "2026-04-28",
+      "toolName": "Claude",
+      "version": "Creative Connectors",
+      "articleUrl": "./articles/tools/2026-04-28-claude-creative-connectors.html",
+      "serial": 408
+    },
+    {
+      "category": "ai-tool-log",
       "slug": "2026-04-29-gemini-cli-v0-41-0-preview-0",
       "title": "Gemini CLI v0.41.0-preview.0: プレビュー版の刷新と安定性の向上",
       "dek": "Gemini CLI v0.41.0-preview.0 が公開。Nightly で検証された ContextManager の安定化機能が統合され、プレビュー版としての信頼性が向上しました。",
