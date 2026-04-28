@@ -5,8 +5,56 @@
     <link>https://harunamitrader.github.io/harunami_AI_base</link>
     <description>AI関連の情報を集約するポータルサイトの更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2026 05:26:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 05:41:25 GMT</lastBuildDate>
     <atom:link href="https://harunamitrader.github.io/harunami_AI_base/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[2026-04-29 アップデートレポート]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-29-update-report.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/reports/2026-04-29-update-report.html</guid>
+      <category>github-update-report</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[本日調査したGitHubトレンドの全順位と、新規作成された記事のまとめ]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GhostTrack]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-hunxbyts-ghosttrack.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-hunxbyts-ghosttrack.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[電話番号や位置情報を追跡・分析するためのOSINTツール。情報収集とセキュリティ調査を支援する。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[ace-step-ui]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-fspecii-ace-step-ui.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-fspecii-ace-step-ui.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI音楽生成「ACE-Step」のためのプロフェッショナルなUI。ローカル環境で無制限に高品質な音楽を生成可能。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[public-apis]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-public-apis-public-apis.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-public-apis-public-apis.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[開発者が自由に利用できる無料のAPIをカテゴリ別に集約した、世界で最も有名なAPIキュレーションリスト。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[system-design-primer]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-donnemartin-system-design-primer.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-donnemartin-system-design-primer.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[大規模システムの設計（システムデザイン）を基礎から学べる、エンジニア必携の学習ガイドと問題集。]]></description>
+    </item>
+    <item>
+      <title><![CDATA[free-programming-books]]></title>
+      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-ebookfoundation-free-programming-books.html</link>
+      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-29-ebookfoundation-free-programming-books.html</guid>
+      <category>github-trending</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[あらゆるプログラミング言語の無料学習リソースを網羅した、世界最大級のオープンソース・ライブラリ。]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini CLI v0.41.0-preview.0: プレビュー版の刷新と安定性の向上]]></title>
       <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-29-gemini-cli-v0-41-0-preview-0.html</link>
@@ -118,54 +166,6 @@
       <category>github-trending</category>
       <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[Figmaに代わる、デザイナーと開発者のためのオープンソース・デザインツール。SVGネイティブ、CSS親和性、セルフホスト対応が特徴。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[VibeVoice]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-microsoft-vibevoice.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-microsoft-vibevoice.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Microsoftが公開した低遅延・高品質なオープンソース音声AIモデル。リアルタイムなTTS/ASRに対応し、Apple Silicon (MPS) での高速推論をサポート。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[TradingAgents]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-tauricresearch-tradingagents.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/github/daily/2026-04-28-tauricresearch-tradingagents.html</guid>
-      <category>github-trending</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[LLMを活用したマルチエージェントによる金融取引フレームワーク。データ分析からポートフォリオ管理、取引実行までを自律的に行うエージェントを構築可能。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenClaw v2026.4.26-beta.1: Cerebras プロバイダーの追加と JSON5 差分表示の実装]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-openclaw-v2026-4-26-beta-1-cerebras-json5-diff.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-28-openclaw-v2026-4-26-beta-1-cerebras-json5-diff.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[OpenClaw の最新ベータ版において、超高速推論の Cerebras プロバイダーが追加され、設定変更を確認しやすい JSON5 差分表示パネルが導入されました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GitHub Copilot: 全プランの従量課金制移行と新規登録制限の発表]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-pricing-pay-as-you-go.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-github-copilot-pricing-pay-as-you-go.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[GitHub Copilot が 2026 年 6 月 1 日より全プランで従量課金制（pay-as-you-go）へ移行することを発表。これに伴い、新規のサブスクリプション登録が一時的に制限されています。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Windsurf Next v2.1: Devin for Terminal の統合とエージェント機能の強化]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-windsurf-next-v2-1-devin-terminal.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-windsurf-next-v2-1-devin-terminal.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Windsurf Next v2.1 がリリース。ターミナル上で動作する AI エージェント「Devin for Terminal」が直接統合され、エディタとターミナルの境界を超えた開発支援が可能になりました。]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT: SharePoint & OneDrive 同期コネクタの導入]]></title>
-      <link>https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-sharepoint-onedrive-connector.html</link>
-      <guid isPermaLink="true">https://harunamitrader.github.io/harunami_AI_base/articles/tools/2026-04-27-chatgpt-sharepoint-onedrive-connector.html</guid>
-      <category>ai-tool-log</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[ChatGPT Business 向けに SharePoint / OneDrive 同期コネクタがリリース。社内の膨大なドキュメントを直接参照し、安全なナレッジ共有を実現します。]]></description>
     </item>
   </channel>
 </rss>
